@@ -1,0 +1,242 @@
+{
+    "1": {
+        "id": 1,
+        "order": "1.00000000000000000000",
+        "URL": "https://ariadne.d4science.org/group/ariadneplus_lab/graphdb",
+        "ID": 1,
+        "Notes": "",
+        "Catalogue": [
+            {
+                "id": 2,
+                "value": "ARIADNE Portal",
+                "order": "0.50000000000000000000"
+            }
+        ],
+        "Protocol": {
+            "id": 14991,
+            "value": "SPARQL",
+            "color": "dark-gray"
+        },
+        "Status": {
+            "id": 15645,
+            "value": "Active",
+            "color": "light-green"
+        },
+        "Visibility": {
+            "id": 15649,
+            "value": "Public",
+            "color": "cyan"
+        },
+        "Description": "ARIADNE Portal SPARQL endpoint for querying the archaeological graph database"
+    },
+    "2": {
+        "id": 2,
+        "order": "2.00000000000000000000",
+        "URL": "https://vlo.clarin-dev.eu/api/",
+        "ID": 2,
+        "Notes": "Alpha version of API – under development and availability is not guaranteed",
+        "Catalogue": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Protocol": {
+            "id": 14992,
+            "value": "REST API",
+            "color": "darker-red"
+        },
+        "Status": {
+            "id": 15646,
+            "value": "Under Development",
+            "color": "yellow"
+        },
+        "Visibility": {
+            "id": 15650,
+            "value": "Restricted",
+            "color": "purple"
+        },
+        "Description": "API for the CLARIN VLO (Virtual Language Observatory)"
+    },
+    "3": {
+        "id": 3,
+        "order": "3.00000000000000000000",
+        "URL": "https://api.gotriple.eu/",
+        "ID": 3,
+        "Notes": "",
+        "Catalogue": [
+            {
+                "id": 4,
+                "value": "GoTriple",
+                "order": "0.75000000000000000000"
+            }
+        ],
+        "Protocol": {
+            "id": 14992,
+            "value": "REST API",
+            "color": "darker-red"
+        },
+        "Status": {
+            "id": 15645,
+            "value": "Active",
+            "color": "light-green"
+        },
+        "Visibility": {
+            "id": 15649,
+            "value": "Public",
+            "color": "cyan"
+        },
+        "Description": "Main REST API for accessing the GoTriple project’s data and services"
+    },
+    "4": {
+        "id": 4,
+        "order": "4.00000000000000000000",
+        "URL": "https://api.gotriple.eu/oai2",
+        "ID": 4,
+        "Notes": "",
+        "Catalogue": [
+            {
+                "id": 4,
+                "value": "GoTriple",
+                "order": "0.75000000000000000000"
+            }
+        ],
+        "Protocol": {
+            "id": 14990,
+            "value": "OAI-PMH",
+            "color": "darker-cyan"
+        },
+        "Status": {
+            "id": 15645,
+            "value": "Active",
+            "color": "light-green"
+        },
+        "Visibility": {
+            "id": 15649,
+            "value": "Public",
+            "color": "cyan"
+        },
+        "Description": "OAI-PMH endpoint for metadata harvesting in the GoTriple project"
+    },
+    "5": {
+        "id": 5,
+        "order": "5.00000000000000000000",
+        "URL": "https://marketplace-api.sshopencloud.eu/api/",
+        "ID": 5,
+        "Notes": "",
+        "Catalogue": [
+            {
+                "id": 1,
+                "value": "SSH Open Marketplace",
+                "order": "0.33333333333333331483"
+            }
+        ],
+        "Protocol": {
+            "id": 14992,
+            "value": "REST API",
+            "color": "darker-red"
+        },
+        "Status": {
+            "id": 15645,
+            "value": "Active",
+            "color": "light-green"
+        },
+        "Visibility": {
+            "id": 15649,
+            "value": "Public",
+            "color": "cyan"
+        },
+        "Description": "SSH Open Marketplace REST API providing access to services and tools in the SSH research community"
+    },
+    "6": {
+        "id": 6,
+        "order": "6.00000000000000000000",
+        "URL": "https://vlo.clarin.eu/solr/vlo-index/",
+        "ID": 6,
+        "Notes": "Not publicly accessible",
+        "Catalogue": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Protocol": {
+            "id": 15607,
+            "value": "SOLR",
+            "color": "light-orange"
+        },
+        "Status": {
+            "id": 15645,
+            "value": "Active",
+            "color": "light-green"
+        },
+        "Visibility": {
+            "id": 15651,
+            "value": "Private",
+            "color": "pink"
+        },
+        "Description": "SOLR index API for querying language resources in the CLARIN VLO"
+    },
+    "7": {
+        "id": 7,
+        "order": "7.00000000000000000000",
+        "URL": "https://services-ca.gotriple.eu/triple-api/v1/classify",
+        "ID": 7,
+        "Notes": "Could be opened and extended within the ATRIUM consortium.",
+        "Catalogue": [
+            {
+                "id": 4,
+                "value": "GoTriple",
+                "order": "0.75000000000000000000"
+            }
+        ],
+        "Protocol": {
+            "id": 14992,
+            "value": "REST API",
+            "color": "darker-red"
+        },
+        "Status": {
+            "id": 15645,
+            "value": "Active",
+            "color": "light-green"
+        },
+        "Visibility": {
+            "id": 15651,
+            "value": "Private",
+            "color": "pink"
+        },
+        "Description": "GoTriple Document Classify Service"
+    },
+    "8": {
+        "id": 8,
+        "order": "8.00000000000000000000",
+        "URL": "https://services-ca.gotriple.eu/triple-api/v1/annotate",
+        "ID": 8,
+        "Notes": "Could be opened and extended within the ATRIUM consortium.",
+        "Catalogue": [
+            {
+                "id": 4,
+                "value": "GoTriple",
+                "order": "0.75000000000000000000"
+            }
+        ],
+        "Protocol": {
+            "id": 14992,
+            "value": "REST API",
+            "color": "darker-red"
+        },
+        "Status": {
+            "id": 15645,
+            "value": "Active",
+            "color": "light-green"
+        },
+        "Visibility": {
+            "id": 15651,
+            "value": "Private",
+            "color": "pink"
+        },
+        "Description": "GoTriple Document Annotation Service"
+    }
+}

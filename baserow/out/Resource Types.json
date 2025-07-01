@@ -1,0 +1,992 @@
+{
+    "1": {
+        "id": 1,
+        "order": "1.00000000000000000000",
+        "Resource Type": [
+            {
+                "id": 15068,
+                "value": "Sites and monuments",
+                "color": "darker-blue"
+            }
+        ],
+        "ID": 1,
+        "Notes": "",
+        "Catalogues": [
+            {
+                "id": 2,
+                "value": "ARIADNE Portal",
+                "order": "0.50000000000000000000"
+            }
+        ],
+        "Count": "1512471",
+        "Date": "2024-05-20"
+    },
+    "2": {
+        "id": 2,
+        "order": "2.00000000000000000000",
+        "Resource Type": [
+            {
+                "id": 15069,
+                "value": "Artefacts",
+                "color": "dark-gray"
+            }
+        ],
+        "ID": 2,
+        "Notes": "",
+        "Catalogues": [
+            {
+                "id": 2,
+                "value": "ARIADNE Portal",
+                "order": "0.50000000000000000000"
+            }
+        ],
+        "Count": "888294",
+        "Date": "2024-05-20"
+    },
+    "3": {
+        "id": 3,
+        "order": "3.00000000000000000000",
+        "Resource Type": [
+            {
+                "id": 15070,
+                "value": "Coins",
+                "color": "darker-brown"
+            }
+        ],
+        "ID": 3,
+        "Notes": "",
+        "Catalogues": [
+            {
+                "id": 2,
+                "value": "ARIADNE Portal",
+                "order": "0.50000000000000000000"
+            }
+        ],
+        "Count": "474825",
+        "Date": "2024-05-20"
+    },
+    "4": {
+        "id": 4,
+        "order": "4.00000000000000000000",
+        "Resource Type": [
+            {
+                "id": 15071,
+                "value": "Fieldwork activities",
+                "color": "light-blue"
+            }
+        ],
+        "ID": 4,
+        "Notes": "",
+        "Catalogues": [
+            {
+                "id": 2,
+                "value": "ARIADNE Portal",
+                "order": "0.50000000000000000000"
+            }
+        ],
+        "Count": "421697",
+        "Date": "2024-05-20"
+    },
+    "5": {
+        "id": 5,
+        "order": "5.00000000000000000000",
+        "Resource Type": [
+            {
+                "id": 15072,
+                "value": "Fieldwork reports",
+                "color": "light-pink"
+            }
+        ],
+        "ID": 5,
+        "Notes": "",
+        "Catalogues": [
+            {
+                "id": 2,
+                "value": "ARIADNE Portal",
+                "order": "0.50000000000000000000"
+            }
+        ],
+        "Count": "309956",
+        "Date": "2024-05-20"
+    },
+    "6": {
+        "id": 6,
+        "order": "6.00000000000000000000",
+        "Resource Type": [
+            {
+                "id": 15073,
+                "value": "Fieldwork archives",
+                "color": "light-pink"
+            }
+        ],
+        "ID": 6,
+        "Notes": "",
+        "Catalogues": [
+            {
+                "id": 2,
+                "value": "ARIADNE Portal",
+                "order": "0.50000000000000000000"
+            }
+        ],
+        "Count": "117263",
+        "Date": "2024-05-20"
+    },
+    "7": {
+        "id": 7,
+        "order": "7.00000000000000000000",
+        "Resource Type": [
+            {
+                "id": 15074,
+                "value": "Maritime archaeology",
+                "color": "green"
+            }
+        ],
+        "ID": 7,
+        "Notes": "",
+        "Catalogues": [
+            {
+                "id": 2,
+                "value": "ARIADNE Portal",
+                "order": "0.50000000000000000000"
+            }
+        ],
+        "Count": "99396",
+        "Date": "2024-05-20"
+    },
+    "8": {
+        "id": 8,
+        "order": "8.00000000000000000000",
+        "Resource Type": [
+            {
+                "id": 15075,
+                "value": "Inscriptions",
+                "color": "darker-blue"
+            }
+        ],
+        "ID": 8,
+        "Notes": "",
+        "Catalogues": [
+            {
+                "id": 2,
+                "value": "ARIADNE Portal",
+                "order": "0.50000000000000000000"
+            }
+        ],
+        "Count": "83366",
+        "Date": "2024-05-20"
+    },
+    "9": {
+        "id": 9,
+        "order": "9.00000000000000000000",
+        "Resource Type": [
+            {
+                "id": 15076,
+                "value": "Rock art",
+                "color": "blue"
+            }
+        ],
+        "ID": 9,
+        "Notes": "",
+        "Catalogues": [
+            {
+                "id": 2,
+                "value": "ARIADNE Portal",
+                "order": "0.50000000000000000000"
+            }
+        ],
+        "Count": "26805",
+        "Date": "2024-05-20"
+    },
+    "10": {
+        "id": 10,
+        "order": "10.00000000000000000000",
+        "Resource Type": [
+            {
+                "id": 15077,
+                "value": "Dating",
+                "color": "darker-yellow"
+            }
+        ],
+        "ID": 10,
+        "Notes": "",
+        "Catalogues": [
+            {
+                "id": 2,
+                "value": "ARIADNE Portal",
+                "order": "0.50000000000000000000"
+            }
+        ],
+        "Count": "12833",
+        "Date": "2024-05-20"
+    },
+    "11": {
+        "id": 11,
+        "order": "11.00000000000000000000",
+        "Resource Type": [
+            {
+                "id": 15078,
+                "value": "Burials",
+                "color": "light-purple"
+            }
+        ],
+        "ID": 11,
+        "Notes": "",
+        "Catalogues": [
+            {
+                "id": 2,
+                "value": "ARIADNE Portal",
+                "order": "0.50000000000000000000"
+            }
+        ],
+        "Count": "11576",
+        "Date": "2024-05-20"
+    },
+    "12": {
+        "id": 12,
+        "order": "12.00000000000000000000",
+        "Resource Type": [
+            {
+                "id": 15079,
+                "value": "Scientific analyses",
+                "color": "light-pink"
+            }
+        ],
+        "ID": 12,
+        "Notes": "",
+        "Catalogues": [
+            {
+                "id": 2,
+                "value": "ARIADNE Portal",
+                "order": "0.50000000000000000000"
+            }
+        ],
+        "Count": "9032",
+        "Date": "2024-05-20"
+    },
+    "13": {
+        "id": 13,
+        "order": "13.00000000000000000000",
+        "Resource Type": [
+            {
+                "id": 15080,
+                "value": "Building survey",
+                "color": "brown"
+            }
+        ],
+        "ID": 13,
+        "Notes": "",
+        "Catalogues": [
+            {
+                "id": 2,
+                "value": "ARIADNE Portal",
+                "order": "0.50000000000000000000"
+            }
+        ],
+        "Count": "1546",
+        "Date": "2024-05-20"
+    },
+    "14": {
+        "id": 14,
+        "order": "14.00000000000000000000",
+        "Resource Type": [
+            {
+                "id": 15081,
+                "value": "E-publications",
+                "color": "brown"
+            }
+        ],
+        "ID": 14,
+        "Notes": "",
+        "Catalogues": [
+            {
+                "id": 2,
+                "value": "ARIADNE Portal",
+                "order": "0.50000000000000000000"
+            }
+        ],
+        "Count": "5",
+        "Date": "2024-05-20"
+    },
+    "15": {
+        "id": 15,
+        "order": "15.00000000000000000000",
+        "Resource Type": [
+            {
+                "id": 15082,
+                "value": "Text",
+                "color": "light-green"
+            }
+        ],
+        "ID": 15,
+        "Notes": "",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Count": "513614",
+        "Date": "2024-05-16"
+    },
+    "16": {
+        "id": 16,
+        "order": "16.00000000000000000000",
+        "Resource Type": [
+            {
+                "id": 15083,
+                "value": "Dataset",
+                "color": "dark-blue"
+            }
+        ],
+        "ID": 16,
+        "Notes": "",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Count": "106451",
+        "Date": "2024-05-16"
+    },
+    "17": {
+        "id": 17,
+        "order": "17.00000000000000000000",
+        "Resource Type": [
+            {
+                "id": 15084,
+                "value": "Corpus",
+                "color": "light-orange"
+            }
+        ],
+        "ID": 17,
+        "Notes": "",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Count": "5909",
+        "Date": "2024-05-16"
+    },
+    "18": {
+        "id": 18,
+        "order": "18.00000000000000000000",
+        "Resource Type": [
+            {
+                "id": 15085,
+                "value": "Software",
+                "color": "darker-orange"
+            }
+        ],
+        "ID": 18,
+        "Notes": "",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Count": "1702",
+        "Date": "2024-05-16"
+    },
+    "19": {
+        "id": 19,
+        "order": "19.00000000000000000000",
+        "Resource Type": [
+            {
+                "id": 15086,
+                "value": "Collection",
+                "color": "darker-red"
+            }
+        ],
+        "ID": 19,
+        "Notes": "",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Count": "579",
+        "Date": "2024-05-16"
+    },
+    "20": {
+        "id": 20,
+        "order": "20.00000000000000000000",
+        "Resource Type": [
+            {
+                "id": 15087,
+                "value": "Documents",
+                "color": "dark-cyan"
+            }
+        ],
+        "ID": 20,
+        "Notes": "",
+        "Catalogues": [
+            {
+                "id": 4,
+                "value": "GoTriple",
+                "order": "0.75000000000000000000"
+            }
+        ],
+        "Count": "17097500",
+        "Date": "2024-12-19"
+    },
+    "21": {
+        "id": 21,
+        "order": "21.00000000000000000000",
+        "Resource Type": [
+            {
+                "id": 15088,
+                "value": "Projects",
+                "color": "yellow"
+            }
+        ],
+        "ID": 21,
+        "Notes": "",
+        "Catalogues": [
+            {
+                "id": 4,
+                "value": "GoTriple",
+                "order": "0.75000000000000000000"
+            }
+        ],
+        "Count": "23173",
+        "Date": "2024-12-19"
+    },
+    "22": {
+        "id": 22,
+        "order": "22.00000000000000000000",
+        "Resource Type": [
+            {
+                "id": 15089,
+                "value": "Profiles",
+                "color": "purple"
+            }
+        ],
+        "ID": 22,
+        "Notes": "",
+        "Catalogues": [
+            {
+                "id": 4,
+                "value": "GoTriple",
+                "order": "0.75000000000000000000"
+            }
+        ],
+        "Count": "18508056",
+        "Date": "2024-05-16"
+    },
+    "23": {
+        "id": 23,
+        "order": "23.00000000000000000000",
+        "Resource Type": [
+            {
+                "id": 15090,
+                "value": "Tools and services",
+                "color": "light-purple"
+            }
+        ],
+        "ID": 23,
+        "Notes": "",
+        "Catalogues": [
+            {
+                "id": 1,
+                "value": "SSH Open Marketplace",
+                "order": "0.33333333333333331483"
+            }
+        ],
+        "Count": "2086",
+        "Date": "2024-05-07"
+    },
+    "24": {
+        "id": 24,
+        "order": "24.00000000000000000000",
+        "Resource Type": [
+            {
+                "id": 15091,
+                "value": "Training materials",
+                "color": "dark-yellow"
+            }
+        ],
+        "ID": 24,
+        "Notes": "",
+        "Catalogues": [
+            {
+                "id": 1,
+                "value": "SSH Open Marketplace",
+                "order": "0.33333333333333331483"
+            }
+        ],
+        "Count": "452",
+        "Date": "2024-05-07"
+    },
+    "25": {
+        "id": 25,
+        "order": "25.00000000000000000000",
+        "Resource Type": [
+            {
+                "id": 15092,
+                "value": "Publications",
+                "color": "light-yellow"
+            }
+        ],
+        "ID": 25,
+        "Notes": "",
+        "Catalogues": [
+            {
+                "id": 1,
+                "value": "SSH Open Marketplace",
+                "order": "0.33333333333333331483"
+            }
+        ],
+        "Count": "3010",
+        "Date": "2024-05-07"
+    },
+    "26": {
+        "id": 26,
+        "order": "26.00000000000000000000",
+        "Resource Type": [
+            {
+                "id": 15083,
+                "value": "Dataset",
+                "color": "dark-blue"
+            }
+        ],
+        "ID": 26,
+        "Notes": "",
+        "Catalogues": [
+            {
+                "id": 1,
+                "value": "SSH Open Marketplace",
+                "order": "0.33333333333333331483"
+            }
+        ],
+        "Count": "1720",
+        "Date": "2024-05-07"
+    },
+    "27": {
+        "id": 27,
+        "order": "27.00000000000000000000",
+        "Resource Type": [
+            {
+                "id": 15093,
+                "value": "Workflows",
+                "color": "dark-blue"
+            }
+        ],
+        "ID": 27,
+        "Notes": "",
+        "Catalogues": [
+            {
+                "id": 1,
+                "value": "SSH Open Marketplace",
+                "order": "0.33333333333333331483"
+            }
+        ],
+        "Count": "50",
+        "Date": "2024-05-07"
+    },
+    "28": {
+        "id": 28,
+        "order": "28.00000000000000000000",
+        "Resource Type": [
+            {
+                "id": 17832,
+                "value": "Article",
+                "color": "dark-purple"
+            }
+        ],
+        "ID": 28,
+        "Notes": "Additional COAR type with \nDocument type. See https://gotriple.eu/ontology/triple/document_types",
+        "Catalogues": [
+            {
+                "id": 4,
+                "value": "GoTriple",
+                "order": "0.75000000000000000000"
+            }
+        ],
+        "Count": "8064818",
+        "Date": "2024-12-19"
+    },
+    "29": {
+        "id": 29,
+        "order": "29.00000000000000000000",
+        "Resource Type": [
+            {
+                "id": 17833,
+                "value": "Bibliography",
+                "color": "deep-dark-orange"
+            }
+        ],
+        "ID": 29,
+        "Notes": "Additional COAR type with \nDocument type. See https://gotriple.eu/ontology/triple/document_types",
+        "Catalogues": [
+            {
+                "id": 4,
+                "value": "GoTriple",
+                "order": "0.75000000000000000000"
+            }
+        ],
+        "Count": "107",
+        "Date": "2024-12-19"
+    },
+    "30": {
+        "id": 30,
+        "order": "30.00000000000000000000",
+        "Resource Type": [
+            {
+                "id": 17834,
+                "value": "Blog post",
+                "color": "gray"
+            }
+        ],
+        "ID": 30,
+        "Notes": "Additional COAR type with \nDocument type. See https://gotriple.eu/ontology/triple/document_types",
+        "Catalogues": [
+            {
+                "id": 4,
+                "value": "GoTriple",
+                "order": "0.75000000000000000000"
+            }
+        ],
+        "Count": "0",
+        "Date": "2024-12-19"
+    },
+    "31": {
+        "id": 31,
+        "order": "31.00000000000000000000",
+        "Resource Type": [
+            {
+                "id": 17835,
+                "value": "Book",
+                "color": "red"
+            }
+        ],
+        "ID": 31,
+        "Notes": "Additional COAR type with \nDocument type. See https://gotriple.eu/ontology/triple/document_types",
+        "Catalogues": [
+            {
+                "id": 4,
+                "value": "GoTriple",
+                "order": "0.75000000000000000000"
+            }
+        ],
+        "Count": "642102",
+        "Date": "2024-12-19"
+    },
+    "32": {
+        "id": 32,
+        "order": "32.00000000000000000000",
+        "Resource Type": [
+            {
+                "id": 17836,
+                "value": "Conference",
+                "color": "light-orange"
+            }
+        ],
+        "ID": 32,
+        "Notes": "Additional COAR type with \nDocument type. See https://gotriple.eu/ontology/triple/document_types",
+        "Catalogues": [
+            {
+                "id": 4,
+                "value": "GoTriple",
+                "order": "0.75000000000000000000"
+            }
+        ],
+        "Count": "579099",
+        "Date": "2024-12-19"
+    },
+    "33": {
+        "id": 33,
+        "order": "33.00000000000000000000",
+        "Resource Type": [
+            {
+                "id": 15083,
+                "value": "Dataset",
+                "color": "dark-blue"
+            }
+        ],
+        "ID": 33,
+        "Notes": "Additional COAR type with \nDocument type. See https://gotriple.eu/ontology/triple/document_types",
+        "Catalogues": [
+            {
+                "id": 4,
+                "value": "GoTriple",
+                "order": "0.75000000000000000000"
+            }
+        ],
+        "Count": "250027",
+        "Date": "2024-12-19"
+    },
+    "34": {
+        "id": 34,
+        "order": "34.00000000000000000000",
+        "Resource Type": [
+            {
+                "id": 17837,
+                "value": "Image",
+                "color": "dark-blue"
+            }
+        ],
+        "ID": 34,
+        "Notes": "Additional COAR type with \nDocument type. See https://gotriple.eu/ontology/triple/document_types",
+        "Catalogues": [
+            {
+                "id": 4,
+                "value": "GoTriple",
+                "order": "0.75000000000000000000"
+            }
+        ],
+        "Count": "127752",
+        "Date": "2024-12-19"
+    },
+    "35": {
+        "id": 35,
+        "order": "35.00000000000000000000",
+        "Resource Type": [
+            {
+                "id": 17838,
+                "value": "Learning object",
+                "color": "dark-pink"
+            }
+        ],
+        "ID": 35,
+        "Notes": "Additional COAR type with \nDocument type. See https://gotriple.eu/ontology/triple/document_types",
+        "Catalogues": [
+            {
+                "id": 4,
+                "value": "GoTriple",
+                "order": "0.75000000000000000000"
+            }
+        ],
+        "Count": "0",
+        "Date": "2024-12-19"
+    },
+    "36": {
+        "id": 36,
+        "order": "36.00000000000000000000",
+        "Resource Type": [
+            {
+                "id": 17839,
+                "value": "Manuscript",
+                "color": "deep-dark-green"
+            }
+        ],
+        "ID": 36,
+        "Notes": "Additional COAR type with \nDocument type. See https://gotriple.eu/ontology/triple/document_types",
+        "Catalogues": [
+            {
+                "id": 4,
+                "value": "GoTriple",
+                "order": "0.75000000000000000000"
+            }
+        ],
+        "Count": "25671",
+        "Date": "2024-12-19"
+    },
+    "37": {
+        "id": 37,
+        "order": "37.00000000000000000000",
+        "Resource Type": [
+            {
+                "id": 15072,
+                "value": "Fieldwork reports",
+                "color": "light-pink"
+            }
+        ],
+        "ID": 37,
+        "Notes": "Additional COAR type with \nDocument type. See https://gotriple.eu/ontology/triple/document_types",
+        "Catalogues": [
+            {
+                "id": 4,
+                "value": "GoTriple",
+                "order": "0.75000000000000000000"
+            }
+        ],
+        "Count": "477352",
+        "Date": "2024-12-19"
+    },
+    "38": {
+        "id": 38,
+        "order": "38.00000000000000000000",
+        "Resource Type": [
+            {
+                "id": 17840,
+                "value": "Periodical",
+                "color": "light-red"
+            }
+        ],
+        "ID": 38,
+        "Notes": "Additional COAR type with \nDocument type. See https://gotriple.eu/ontology/triple/document_types",
+        "Catalogues": [
+            {
+                "id": 4,
+                "value": "GoTriple",
+                "order": "0.75000000000000000000"
+            }
+        ],
+        "Count": "15272",
+        "Date": "2024-12-19"
+    },
+    "39": {
+        "id": 39,
+        "order": "39.00000000000000000000",
+        "Resource Type": [
+            {
+                "id": 17841,
+                "value": "Preprint",
+                "color": "yellow"
+            }
+        ],
+        "ID": 39,
+        "Notes": "Additional COAR type with \nDocument type. See https://gotriple.eu/ontology/triple/document_types",
+        "Catalogues": [
+            {
+                "id": 4,
+                "value": "GoTriple",
+                "order": "0.75000000000000000000"
+            }
+        ],
+        "Count": "18419",
+        "Date": "2024-12-19"
+    },
+    "40": {
+        "id": 40,
+        "order": "40.00000000000000000000",
+        "Resource Type": [
+            {
+                "id": 17842,
+                "value": "Review",
+                "color": "dark-orange"
+            }
+        ],
+        "ID": 40,
+        "Notes": "Additional COAR type with \nDocument type. See https://gotriple.eu/ontology/triple/document_types",
+        "Catalogues": [
+            {
+                "id": 4,
+                "value": "GoTriple",
+                "order": "0.75000000000000000000"
+            }
+        ],
+        "Count": "236276",
+        "Date": "2024-12-19"
+    },
+    "41": {
+        "id": 41,
+        "order": "41.00000000000000000000",
+        "Resource Type": [
+            {
+                "id": 15085,
+                "value": "Software",
+                "color": "darker-orange"
+            }
+        ],
+        "ID": 41,
+        "Notes": "Additional COAR type with \nDocument type. See https://gotriple.eu/ontology/triple/document_types",
+        "Catalogues": [
+            {
+                "id": 4,
+                "value": "GoTriple",
+                "order": "0.75000000000000000000"
+            }
+        ],
+        "Count": "5073",
+        "Date": "2024-12-19"
+    },
+    "42": {
+        "id": 42,
+        "order": "42.00000000000000000000",
+        "Resource Type": [
+            {
+                "id": 15082,
+                "value": "Text",
+                "color": "light-green"
+            }
+        ],
+        "ID": 42,
+        "Notes": "Additional COAR type with \nDocument type. See https://gotriple.eu/ontology/triple/document_types",
+        "Catalogues": [
+            {
+                "id": 4,
+                "value": "GoTriple",
+                "order": "0.75000000000000000000"
+            }
+        ],
+        "Count": "3584747",
+        "Date": "2024-12-19"
+    },
+    "43": {
+        "id": 43,
+        "order": "43.00000000000000000000",
+        "Resource Type": [
+            {
+                "id": 17843,
+                "value": "Thesis",
+                "color": "darker-red"
+            }
+        ],
+        "ID": 43,
+        "Notes": "Additional COAR type with \nDocument type. See https://gotriple.eu/ontology/triple/document_types",
+        "Catalogues": [
+            {
+                "id": 4,
+                "value": "GoTriple",
+                "order": "0.75000000000000000000"
+            }
+        ],
+        "Count": "1816353",
+        "Date": "2024-12-19"
+    },
+    "44": {
+        "id": 44,
+        "order": "44.00000000000000000000",
+        "Resource Type": [
+            {
+                "id": 17844,
+                "value": "Map",
+                "color": "brown"
+            }
+        ],
+        "ID": 44,
+        "Notes": "Additional COAR type with \nDocument type. See https://gotriple.eu/ontology/triple/document_types",
+        "Catalogues": [
+            {
+                "id": 4,
+                "value": "GoTriple",
+                "order": "0.75000000000000000000"
+            }
+        ],
+        "Count": "14",
+        "Date": "2024-12-19"
+    },
+    "45": {
+        "id": 45,
+        "order": "45.00000000000000000000",
+        "Resource Type": [
+            {
+                "id": 17845,
+                "value": "Other",
+                "color": "light-gray"
+            }
+        ],
+        "ID": 45,
+        "Notes": "Additional COAR type with \nDocument type. See https://gotriple.eu/ontology/triple/document_types",
+        "Catalogues": [
+            {
+                "id": 4,
+                "value": "GoTriple",
+                "order": "0.75000000000000000000"
+            }
+        ],
+        "Count": "149015",
+        "Date": "2024-12-19"
+    }
+}

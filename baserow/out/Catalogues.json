@@ -1,0 +1,1157 @@
+{
+    "1": {
+        "id": 1,
+        "order": "0.33333333333333331483",
+        "Name": "SSH Open Marketplace",
+        "Notes": "",
+        "Audience": [
+            {
+                "id": 14987,
+                "value": "Data providers",
+                "color": "gray"
+            },
+            {
+                "id": 14986,
+                "value": "Data stewards",
+                "color": "cyan"
+            },
+            {
+                "id": 15037,
+                "value": "SSH scholars",
+                "color": "dark-green"
+            },
+            {
+                "id": 15038,
+                "value": "Research support staff",
+                "color": "pink"
+            }
+        ],
+        "Source": [
+            {
+                "id": 25,
+                "value": "DH Publications (dblp)",
+                "order": "25.00000000000000000000"
+            },
+            {
+                "id": 26,
+                "value": "CLARIN Resource Families",
+                "order": "26.00000000000000000000"
+            },
+            {
+                "id": 27,
+                "value": "TAPoR",
+                "order": "27.00000000000000000000"
+            },
+            {
+                "id": 28,
+                "value": "SSK Zotero Resources",
+                "order": "28.00000000000000000000"
+            },
+            {
+                "id": 29,
+                "value": "Humanities Data",
+                "order": "29.00000000000000000000"
+            },
+            {
+                "id": 30,
+                "value": "The Programming Historian",
+                "order": "30.00000000000000000000"
+            },
+            {
+                "id": 31,
+                "value": "DARIAH Campus",
+                "order": "31.00000000000000000000"
+            },
+            {
+                "id": 32,
+                "value": "CESSDA (trainings)",
+                "order": "32.00000000000000000000"
+            },
+            {
+                "id": 33,
+                "value": "Language Resource Switchboard",
+                "order": "33.00000000000000000000"
+            },
+            {
+                "id": 34,
+                "value": "Standardisation Survival Kit",
+                "order": "34.00000000000000000000"
+            },
+            {
+                "id": 35,
+                "value": "EOSC Catalogue",
+                "order": "35.00000000000000000000"
+            },
+            {
+                "id": 36,
+                "value": "SSHOC Service Catalogue",
+                "order": "36.00000000000000000000"
+            },
+            {
+                "id": 37,
+                "value": "DARIAH contribution tool",
+                "order": "37.00000000000000000000"
+            },
+            {
+                "id": 99,
+                "value": "Conversion Hub",
+                "order": "98.00000000000000000000"
+            }
+        ],
+        "Resource Types": [
+            {
+                "id": 23,
+                "value": "Tools and services",
+                "order": "23.00000000000000000000"
+            },
+            {
+                "id": 24,
+                "value": "Training materials",
+                "order": "24.00000000000000000000"
+            },
+            {
+                "id": 25,
+                "value": "Publications",
+                "order": "25.00000000000000000000"
+            },
+            {
+                "id": 26,
+                "value": "Dataset",
+                "order": "26.00000000000000000000"
+            },
+            {
+                "id": 27,
+                "value": "Workflows",
+                "order": "27.00000000000000000000"
+            }
+        ],
+        "Internal schema": [
+            {
+                "id": 110,
+                "value": "SSH Open Marketplace Data Model",
+                "order": "110.00000000000000000000"
+            }
+        ],
+        "Endpoints": [
+            {
+                "id": 5,
+                "value": "https://marketplace-api.sshopencloud.eu/api/",
+                "order": "5.00000000000000000000"
+            }
+        ],
+        "Provider": [
+            {
+                "id": 3,
+                "value": "DARIAH",
+                "order": "3.00000000000000000000"
+            }
+        ],
+        "Input": [],
+        "Output": [
+            {
+                "id": 110,
+                "value": "SSH Open Marketplace Data Model",
+                "order": "110.00000000000000000000"
+            }
+        ],
+        "Controlled vocabularies": [
+            {
+                "id": 38,
+                "value": "TaDiRAH",
+                "order": "38.00000000000000000000"
+            },
+            {
+                "id": 130,
+                "value": "EOSC Resource Geographical Availability",
+                "order": "126.00000000000000000000"
+            },
+            {
+                "id": 132,
+                "value": "EOSC Resource Life Cycle Status",
+                "order": "126.50000000000000000000"
+            },
+            {
+                "id": 131,
+                "value": "EOSC Resource Category, Subcategory (and Supercategory)",
+                "order": "127.00000000000000000000"
+            },
+            {
+                "id": 133,
+                "value": "Intended audience",
+                "order": "128.00000000000000000000"
+            },
+            {
+                "id": 135,
+                "value": "Invocation type",
+                "order": "128.50000000000000000000"
+            },
+            {
+                "id": 136,
+                "value": "ISO 639-3 Language Codes",
+                "order": "128.66666666666665719276"
+            },
+            {
+                "id": 137,
+                "value": "SSH Open Marketplace Keyword",
+                "order": "128.75000000000000000000"
+            },
+            {
+                "id": 138,
+                "value": "IANA Media Types",
+                "order": "128.80000000000001136868"
+            },
+            {
+                "id": 139,
+                "value": "ÖFOS 2012. Austrian Fields of Science and Technology Classification 2012",
+                "order": "130.00000000000000000000"
+            },
+            {
+                "id": 140,
+                "value": "SPDX Software License",
+                "order": "131.00000000000000000000"
+            },
+            {
+                "id": 142,
+                "value": "SSK Standard",
+                "order": "132.00000000000000000000"
+            },
+            {
+                "id": 148,
+                "value": "BIBO Publication Type",
+                "order": "134.00000000000000000000"
+            }
+        ]
+    },
+    "2": {
+        "id": 2,
+        "order": "0.50000000000000000000",
+        "Name": "ARIADNE Portal",
+        "Notes": "",
+        "Audience": [
+            {
+                "id": 15033,
+                "value": "Archaeologists",
+                "color": "light-cyan"
+            },
+            {
+                "id": 15034,
+                "value": "Heritage managers",
+                "color": "darker-brown"
+            },
+            {
+                "id": 15035,
+                "value": "Wider public",
+                "color": "blue"
+            },
+            {
+                "id": 15036,
+                "value": "Academics",
+                "color": "green"
+            }
+        ],
+        "Source": [
+            {
+                "id": 2,
+                "value": "ADS",
+                "order": "2.00000000000000000000"
+            },
+            {
+                "id": 3,
+                "value": "SND",
+                "order": "3.00000000000000000000"
+            },
+            {
+                "id": 4,
+                "value": "Nara Research Institute",
+                "order": "4.00000000000000000000"
+            },
+            {
+                "id": 5,
+                "value": "Digital Antiquity",
+                "order": "5.00000000000000000000"
+            },
+            {
+                "id": 6,
+                "value": "CONICET",
+                "order": "6.00000000000000000000"
+            },
+            {
+                "id": 7,
+                "value": "SEAD",
+                "order": "7.00000000000000000000"
+            },
+            {
+                "id": 8,
+                "value": "AIS-CR",
+                "order": "8.00000000000000000000"
+            },
+            {
+                "id": 9,
+                "value": "Inrap",
+                "order": "9.00000000000000000000"
+            }
+        ],
+        "Resource Types": [
+            {
+                "id": 1,
+                "value": "Sites and monuments",
+                "order": "1.00000000000000000000"
+            },
+            {
+                "id": 2,
+                "value": "Artefacts",
+                "order": "2.00000000000000000000"
+            },
+            {
+                "id": 3,
+                "value": "Coins",
+                "order": "3.00000000000000000000"
+            },
+            {
+                "id": 4,
+                "value": "Fieldwork activities",
+                "order": "4.00000000000000000000"
+            },
+            {
+                "id": 5,
+                "value": "Fieldwork reports",
+                "order": "5.00000000000000000000"
+            },
+            {
+                "id": 6,
+                "value": "Fieldwork archives",
+                "order": "6.00000000000000000000"
+            },
+            {
+                "id": 7,
+                "value": "Maritime archaeology",
+                "order": "7.00000000000000000000"
+            },
+            {
+                "id": 8,
+                "value": "Inscriptions",
+                "order": "8.00000000000000000000"
+            },
+            {
+                "id": 9,
+                "value": "Rock art",
+                "order": "9.00000000000000000000"
+            },
+            {
+                "id": 10,
+                "value": "Dating",
+                "order": "10.00000000000000000000"
+            },
+            {
+                "id": 11,
+                "value": "Burials",
+                "order": "11.00000000000000000000"
+            },
+            {
+                "id": 12,
+                "value": "Scientific analyses",
+                "order": "12.00000000000000000000"
+            },
+            {
+                "id": 13,
+                "value": "Building survey",
+                "order": "13.00000000000000000000"
+            },
+            {
+                "id": 14,
+                "value": "E-publications",
+                "order": "14.00000000000000000000"
+            }
+        ],
+        "Internal schema": [
+            {
+                "id": 1,
+                "value": "AO-Cat",
+                "order": "1.00000000000000000000"
+            },
+            {
+                "id": 3,
+                "value": "CIDOC CRM",
+                "order": "3.00000000000000000000"
+            },
+            {
+                "id": 4,
+                "value": "CRMarchaeo",
+                "order": "4.00000000000000000000"
+            },
+            {
+                "id": 6,
+                "value": "CRMtex",
+                "order": "6.00000000000000000000"
+            },
+            {
+                "id": 7,
+                "value": "CRMsci",
+                "order": "7.00000000000000000000"
+            }
+        ],
+        "Endpoints": [
+            {
+                "id": 1,
+                "value": "https://ariadne.d4science.org/group/ariadneplus_lab/graphdb",
+                "order": "1.00000000000000000000"
+            }
+        ],
+        "Provider": [
+            {
+                "id": 1,
+                "value": "ARIADNE RI",
+                "order": "1.00000000000000000000"
+            }
+        ],
+        "Input": [
+            {
+                "id": 1,
+                "value": "AO-Cat",
+                "order": "1.00000000000000000000"
+            }
+        ],
+        "Output": [
+            {
+                "id": 1,
+                "value": "AO-Cat",
+                "order": "1.00000000000000000000"
+            }
+        ],
+        "Controlled vocabularies": [
+            {
+                "id": 10,
+                "value": "Getty Art and Architecture Thesaurus (AAT)",
+                "order": "10.00000000000000000000"
+            },
+            {
+                "id": 35,
+                "value": "PeriodO",
+                "order": "35.00000000000000000000"
+            }
+        ]
+    },
+    "3": {
+        "id": 3,
+        "order": "0.66666666666666662966",
+        "Name": "CLARIN VLO",
+        "Notes": "",
+        "Audience": [
+            {
+                "id": 15036,
+                "value": "Academics",
+                "color": "green"
+            },
+            {
+                "id": 15035,
+                "value": "Wider public",
+                "color": "blue"
+            },
+            {
+                "id": 15037,
+                "value": "SSH scholars",
+                "color": "dark-green"
+            },
+            {
+                "id": 14987,
+                "value": "Data providers",
+                "color": "gray"
+            }
+        ],
+        "Source": [
+            {
+                "id": 38,
+                "value": "ARCHE",
+                "order": "38.00000000000000000000"
+            },
+            {
+                "id": 39,
+                "value": "BAS",
+                "order": "39.00000000000000000000"
+            },
+            {
+                "id": 40,
+                "value": "BBAW",
+                "order": "40.00000000000000000000"
+            },
+            {
+                "id": 41,
+                "value": "CKL2CORPORA",
+                "order": "41.00000000000000000000"
+            },
+            {
+                "id": 42,
+                "value": "CLARIN Latvia",
+                "order": "42.00000000000000000000"
+            },
+            {
+                "id": 43,
+                "value": "CLARIN Switzerland (LaRS)",
+                "order": "43.00000000000000000000"
+            },
+            {
+                "id": 44,
+                "value": "CLARIN-IS",
+                "order": "44.00000000000000000000"
+            },
+            {
+                "id": 45,
+                "value": "CLARIN-LT",
+                "order": "45.00000000000000000000"
+            },
+            {
+                "id": 46,
+                "value": "CLARIN-PL",
+                "order": "46.00000000000000000000"
+            },
+            {
+                "id": 47,
+                "value": "CLARIN.SI",
+                "order": "47.00000000000000000000"
+            },
+            {
+                "id": 48,
+                "value": "CLARIN:EL",
+                "order": "48.00000000000000000000"
+            },
+            {
+                "id": 49,
+                "value": "CLARINO Bergen Center",
+                "order": "49.00000000000000000000"
+            },
+            {
+                "id": 50,
+                "value": "CLARINO Text Laboratory Centre",
+                "order": "50.00000000000000000000"
+            },
+            {
+                "id": 51,
+                "value": "Center of Estonian Language Resources",
+                "order": "51.00000000000000000000"
+            },
+            {
+                "id": 52,
+                "value": "CLST",
+                "order": "52.00000000000000000000"
+            },
+            {
+                "id": 53,
+                "value": "CEDIFOR",
+                "order": "53.00000000000000000000"
+            },
+            {
+                "id": 54,
+                "value": "COCOON",
+                "order": "54.00000000000000000000"
+            },
+            {
+                "id": 55,
+                "value": "CNC",
+                "order": "55.00000000000000000000"
+            },
+            {
+                "id": 56,
+                "value": "DARIAH-DE Repository",
+                "order": "56.00000000000000000000"
+            },
+            {
+                "id": 57,
+                "value": "DANS",
+                "order": "57.00000000000000000000"
+            },
+            {
+                "id": 58,
+                "value": "Eberhard Karls Universität Tübingen",
+                "order": "58.00000000000000000000"
+            },
+            {
+                "id": 59,
+                "value": "Eurac Research CLARIN Centre",
+                "order": "59.00000000000000000000"
+            },
+            {
+                "id": 60,
+                "value": "HZSK",
+                "order": "60.00000000000000000000"
+            },
+            {
+                "id": 61,
+                "value": "IMS Stuttgart",
+                "order": "61.00000000000000000000"
+            },
+            {
+                "id": 62,
+                "value": "INT",
+                "order": "62.00000000000000000000"
+            },
+            {
+                "id": 63,
+                "value": "LINDAT/CLARIAH-CZ",
+                "order": "63.00000000000000000000"
+            },
+            {
+                "id": 64,
+                "value": "LAC",
+                "order": "64.00000000000000000000"
+            },
+            {
+                "id": 65,
+                "value": "GEI",
+                "order": "65.00000000000000000000"
+            },
+            {
+                "id": 66,
+                "value": "IDS Mannheim",
+                "order": "66.00000000000000000000"
+            },
+            {
+                "id": 67,
+                "value": "LU Humanities Lab",
+                "order": "67.00000000000000000000"
+            },
+            {
+                "id": 68,
+                "value": "MPI Psycholinguistics",
+                "order": "68.00000000000000000000"
+            },
+            {
+                "id": 69,
+                "value": "Phonothèque MMSH",
+                "order": "69.00000000000000000000"
+            },
+            {
+                "id": 70,
+                "value": "Meertens Instituut/HuC",
+                "order": "70.00000000000000000000"
+            },
+            {
+                "id": 71,
+                "value": "National Library of Norway",
+                "order": "71.00000000000000000000"
+            },
+            {
+                "id": 72,
+                "value": "ORTOLANG",
+                "order": "72.00000000000000000000"
+            },
+            {
+                "id": 73,
+                "value": "OTA",
+                "order": "73.00000000000000000000"
+            },
+            {
+                "id": 74,
+                "value": "PORTULAN CLARIN",
+                "order": "74.00000000000000000000"
+            },
+            {
+                "id": 75,
+                "value": "PolMine",
+                "order": "75.00000000000000000000"
+            },
+            {
+                "id": 76,
+                "value": "SAW Leipzig",
+                "order": "76.00000000000000000000"
+            },
+            {
+                "id": 77,
+                "value": "SADiLaR",
+                "order": "77.00000000000000000000"
+            },
+            {
+                "id": 78,
+                "value": "Språkbanken",
+                "order": "78.00000000000000000000"
+            },
+            {
+                "id": 79,
+                "value": "TextGrid",
+                "order": "79.00000000000000000000"
+            },
+            {
+                "id": 80,
+                "value": "CLARIN Copenhagen",
+                "order": "80.00000000000000000000"
+            },
+            {
+                "id": 81,
+                "value": "ILC4CLARIN",
+                "order": "81.00000000000000000000"
+            },
+            {
+                "id": 82,
+                "value": "TROLLing",
+                "order": "82.00000000000000000000"
+            },
+            {
+                "id": 83,
+                "value": "Universität des Saarlandes",
+                "order": "83.00000000000000000000"
+            },
+            {
+                "id": 84,
+                "value": "ZIM Centre for Information Modelling",
+                "order": "84.00000000000000000000"
+            },
+            {
+                "id": 85,
+                "value": "B2SHARE",
+                "order": "85.00000000000000000000"
+            },
+            {
+                "id": 86,
+                "value": "CLLE ERSS",
+                "order": "86.00000000000000000000"
+            },
+            {
+                "id": 87,
+                "value": "California Language Archive ",
+                "order": "87.00000000000000000000"
+            },
+            {
+                "id": 88,
+                "value": "ELRA",
+                "order": "88.00000000000000000000"
+            },
+            {
+                "id": 89,
+                "value": "Europeana",
+                "order": "89.00000000000000000000"
+            },
+            {
+                "id": 90,
+                "value": "e-codices",
+                "order": "90.00000000000000000000"
+            },
+            {
+                "id": 91,
+                "value": "PARADISEC",
+                "order": "91.00000000000000000000"
+            },
+            {
+                "id": 92,
+                "value": "LDC Corpus Catalog",
+                "order": "92.00000000000000000000"
+            },
+            {
+                "id": 93,
+                "value": "LINGUIST List",
+                "order": "93.00000000000000000000"
+            },
+            {
+                "id": 94,
+                "value": "The Rosetta Project",
+                "order": "94.00000000000000000000"
+            },
+            {
+                "id": 95,
+                "value": "University of the Basque Country",
+                "order": "95.00000000000000000000"
+            },
+            {
+                "id": 96,
+                "value": "WALS",
+                "order": "96.00000000000000000000"
+            }
+        ],
+        "Resource Types": [
+            {
+                "id": 15,
+                "value": "Text",
+                "order": "15.00000000000000000000"
+            },
+            {
+                "id": 16,
+                "value": "Dataset",
+                "order": "16.00000000000000000000"
+            },
+            {
+                "id": 17,
+                "value": "Corpus",
+                "order": "17.00000000000000000000"
+            },
+            {
+                "id": 18,
+                "value": "Software",
+                "order": "18.00000000000000000000"
+            },
+            {
+                "id": 19,
+                "value": "Collection",
+                "order": "19.00000000000000000000"
+            }
+        ],
+        "Internal schema": [
+            {
+                "id": 14,
+                "value": "Component Metadata Infrastructure (CMDI)",
+                "order": "14.00000000000000000000"
+            }
+        ],
+        "Endpoints": [
+            {
+                "id": 2,
+                "value": "https://vlo.clarin-dev.eu/api/",
+                "order": "2.00000000000000000000"
+            },
+            {
+                "id": 6,
+                "value": "https://vlo.clarin.eu/solr/vlo-index/",
+                "order": "6.00000000000000000000"
+            }
+        ],
+        "Provider": [
+            {
+                "id": 2,
+                "value": "CLARIN",
+                "order": "2.00000000000000000000"
+            }
+        ],
+        "Input": [
+            {
+                "id": 14,
+                "value": "Component Metadata Infrastructure (CMDI)",
+                "order": "14.00000000000000000000"
+            },
+            {
+                "id": 15,
+                "value": "Europeana Data Model (EDM)",
+                "order": "15.00000000000000000000"
+            },
+            {
+                "id": 17,
+                "value": "Data Documentation Initiative (DDI) Codebook",
+                "order": "17.00000000000000000000"
+            },
+            {
+                "id": 33,
+                "value": "DataCite schema",
+                "order": "33.00000000000000000000"
+            },
+            {
+                "id": 47,
+                "value": "Dublin Core Metadata Initiative (DCMI)",
+                "order": "47.00000000000000000000"
+            }
+        ],
+        "Output": [
+            {
+                "id": 14,
+                "value": "Component Metadata Infrastructure (CMDI)",
+                "order": "14.00000000000000000000"
+            }
+        ],
+        "Controlled vocabularies": [
+            {
+                "id": 113,
+                "value": "CLARIN Concept Registry",
+                "order": "112.00000000000000000000"
+            },
+            {
+                "id": 114,
+                "value": "CMDI: ISO 639-1 language codes",
+                "order": "113.00000000000000000000"
+            },
+            {
+                "id": 115,
+                "value": "CMDI: ISO 639-3 language codes",
+                "order": "114.00000000000000000000"
+            },
+            {
+                "id": 116,
+                "value": "CMDI: ISO 3166-1 alpha-2 country codes",
+                "order": "115.00000000000000000000"
+            },
+            {
+                "id": 117,
+                "value": "CLARIN/VLO Organisations vocabulary",
+                "order": "116.00000000000000000000"
+            }
+        ]
+    },
+    "4": {
+        "id": 4,
+        "order": "0.75000000000000000000",
+        "Name": "GoTriple",
+        "Notes": "",
+        "Audience": [
+            {
+                "id": 15037,
+                "value": "SSH scholars",
+                "color": "dark-green"
+            },
+            {
+                "id": 14987,
+                "value": "Data providers",
+                "color": "gray"
+            }
+        ],
+        "Source": [
+            {
+                "id": 10,
+                "value": "DOAJ",
+                "order": "10.00000000000000000000"
+            },
+            {
+                "id": 11,
+                "value": "BASE",
+                "order": "11.00000000000000000000"
+            },
+            {
+                "id": 12,
+                "value": "DNB",
+                "order": "12.00000000000000000000"
+            },
+            {
+                "id": 13,
+                "value": "RECYT",
+                "order": "13.00000000000000000000"
+            },
+            {
+                "id": 14,
+                "value": "Isidore",
+                "order": "14.00000000000000000000"
+            },
+            {
+                "id": 15,
+                "value": "EKT",
+                "order": "15.00000000000000000000"
+            },
+            {
+                "id": 16,
+                "value": "HRCAK",
+                "order": "16.00000000000000000000"
+            },
+            {
+                "id": 17,
+                "value": "OpenEdition",
+                "order": "17.00000000000000000000"
+            },
+            {
+                "id": 18,
+                "value": "COIMBRA/Pombolina",
+                "order": "18.00000000000000000000"
+            },
+            {
+                "id": 19,
+                "value": "CLARIN",
+                "order": "19.00000000000000000000"
+            },
+            {
+                "id": 20,
+                "value": "CESSDA",
+                "order": "20.00000000000000000000"
+            },
+            {
+                "id": 21,
+                "value": "ZRC SAZU",
+                "order": "21.00000000000000000000"
+            },
+            {
+                "id": 22,
+                "value": "Econstor",
+                "order": "22.00000000000000000000"
+            },
+            {
+                "id": 23,
+                "value": "OpenAIRE",
+                "order": "23.00000000000000000000"
+            },
+            {
+                "id": 24,
+                "value": "Biblioteka Nauki",
+                "order": "24.00000000000000000000"
+            }
+        ],
+        "Resource Types": [
+            {
+                "id": 20,
+                "value": "Documents",
+                "order": "20.00000000000000000000"
+            },
+            {
+                "id": 21,
+                "value": "Projects",
+                "order": "21.00000000000000000000"
+            },
+            {
+                "id": 22,
+                "value": "Profiles",
+                "order": "22.00000000000000000000"
+            },
+            {
+                "id": 28,
+                "value": "Article",
+                "order": "28.00000000000000000000"
+            },
+            {
+                "id": 29,
+                "value": "Bibliography",
+                "order": "29.00000000000000000000"
+            },
+            {
+                "id": 30,
+                "value": "Blog post",
+                "order": "30.00000000000000000000"
+            },
+            {
+                "id": 31,
+                "value": "Book",
+                "order": "31.00000000000000000000"
+            },
+            {
+                "id": 32,
+                "value": "Conference",
+                "order": "32.00000000000000000000"
+            },
+            {
+                "id": 33,
+                "value": "Dataset",
+                "order": "33.00000000000000000000"
+            },
+            {
+                "id": 34,
+                "value": "Image",
+                "order": "34.00000000000000000000"
+            },
+            {
+                "id": 35,
+                "value": "Learning object",
+                "order": "35.00000000000000000000"
+            },
+            {
+                "id": 36,
+                "value": "Manuscript",
+                "order": "36.00000000000000000000"
+            },
+            {
+                "id": 37,
+                "value": "Fieldwork reports",
+                "order": "37.00000000000000000000"
+            },
+            {
+                "id": 38,
+                "value": "Periodical",
+                "order": "38.00000000000000000000"
+            },
+            {
+                "id": 39,
+                "value": "Preprint",
+                "order": "39.00000000000000000000"
+            },
+            {
+                "id": 40,
+                "value": "Review",
+                "order": "40.00000000000000000000"
+            },
+            {
+                "id": 41,
+                "value": "Software",
+                "order": "41.00000000000000000000"
+            },
+            {
+                "id": 42,
+                "value": "Text",
+                "order": "42.00000000000000000000"
+            },
+            {
+                "id": 43,
+                "value": "Thesis",
+                "order": "43.00000000000000000000"
+            },
+            {
+                "id": 44,
+                "value": "Map",
+                "order": "44.00000000000000000000"
+            },
+            {
+                "id": 45,
+                "value": "Other",
+                "order": "45.00000000000000000000"
+            }
+        ],
+        "Internal schema": [
+            {
+                "id": 11,
+                "value": "TRIPLE Ontology",
+                "order": "11.00000000000000000000"
+            }
+        ],
+        "Endpoints": [
+            {
+                "id": 3,
+                "value": "https://api.gotriple.eu/",
+                "order": "3.00000000000000000000"
+            },
+            {
+                "id": 4,
+                "value": "https://api.gotriple.eu/oai2",
+                "order": "4.00000000000000000000"
+            },
+            {
+                "id": 7,
+                "value": "https://services-ca.gotriple.eu/triple-api/v1/classify",
+                "order": "7.00000000000000000000"
+            },
+            {
+                "id": 8,
+                "value": "https://services-ca.gotriple.eu/triple-api/v1/annotate",
+                "order": "8.00000000000000000000"
+            }
+        ],
+        "Provider": [
+            {
+                "id": 4,
+                "value": "OPERAS",
+                "order": "4.00000000000000000000"
+            }
+        ],
+        "Input": [
+            {
+                "id": 15,
+                "value": "Europeana Data Model (EDM)",
+                "order": "15.00000000000000000000"
+            },
+            {
+                "id": 39,
+                "value": "OpenAIRE guidelines",
+                "order": "39.00000000000000000000"
+            },
+            {
+                "id": 47,
+                "value": "Dublin Core Metadata Initiative (DCMI)",
+                "order": "47.00000000000000000000"
+            },
+            {
+                "id": 91,
+                "value": "MARC (Machine-Readable Cataloging)",
+                "order": "91.00000000000000000000"
+            }
+        ],
+        "Output": [
+            {
+                "id": 47,
+                "value": "Dublin Core Metadata Initiative (DCMI)",
+                "order": "47.00000000000000000000"
+            }
+        ],
+        "Controlled vocabularies": [
+            {
+                "id": 12,
+                "value": "TRIPLE Vocabulary",
+                "order": "12.00000000000000000000"
+            },
+            {
+                "id": 118,
+                "value": "COAR Vocabularies",
+                "order": "117.00000000000000000000"
+            },
+            {
+                "id": 129,
+                "value": "MORESS (Mapping of research in european social sciences and humanities)",
+                "order": "125.00000000000000000000"
+            }
+        ]
+    }
+}

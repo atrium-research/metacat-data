@@ -1,0 +1,58 @@
+{
+    "1": {
+        "id": 1,
+        "order": "1.00000000000000000000",
+        "Name": "ARIADNE RI",
+        "Notes": "",
+        "Catalogues": [
+            {
+                "id": 2,
+                "value": "ARIADNE Portal",
+                "order": "0.50000000000000000000"
+            }
+        ],
+        "Landing page URL": "https://www.ariadne-research-infrastructure.eu"
+    },
+    "2": {
+        "id": 2,
+        "order": "2.00000000000000000000",
+        "Name": "CLARIN",
+        "Notes": "",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Landing page URL": "https://www.clarin.eu"
+    },
+    "3": {
+        "id": 3,
+        "order": "3.00000000000000000000",
+        "Name": "DARIAH",
+        "Notes": "The SSH Open Marketplace is operated as a SSHOC Cluster service. ACDH-CH is hosting the service, on behalf of DARIAH. DARIAH, CLARIN and CESSDA are the funding partners of the service.",
+        "Catalogues": [
+            {
+                "id": 1,
+                "value": "SSH Open Marketplace",
+                "order": "0.33333333333333331483"
+            }
+        ],
+        "Landing page URL": "https://sshopencloud.eu/news/sshoc-ssh-open-cluster"
+    },
+    "4": {
+        "id": 4,
+        "order": "4.00000000000000000000",
+        "Name": "OPERAS",
+        "Notes": "",
+        "Catalogues": [
+            {
+                "id": 4,
+                "value": "GoTriple",
+                "order": "0.75000000000000000000"
+            }
+        ],
+        "Landing page URL": "https://operas-eu.org"
+    }
+}

@@ -1,0 +1,2725 @@
+{
+    "2": {
+        "id": 2,
+        "order": "2.00000000000000000000",
+        "Name": "ADS",
+        "Description": "UK-based service specializing in the preservation and dissemination of archaeological research data.",
+        "Landing page URL": "https://archaeologydataservice.ac.uk",
+        "Catalogues": [
+            {
+                "id": 2,
+                "value": "ARIADNE Portal",
+                "order": "0.50000000000000000000"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15039,
+                "value": "United Kingdom",
+                "color": "light-brown"
+            }
+        ],
+        "Full name": "Archaeology Data Service",
+        "Provider": "University of York",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "3": {
+        "id": 3,
+        "order": "3.00000000000000000000",
+        "Name": "SND",
+        "Description": "Sweden's national platform for managing and sharing research data across various disciplines.",
+        "Landing page URL": "https://snd.se",
+        "Catalogues": [
+            {
+                "id": 2,
+                "value": "ARIADNE Portal",
+                "order": "0.50000000000000000000"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15040,
+                "value": "Sweden",
+                "color": "orange"
+            }
+        ],
+        "Full name": "Swedish National Data Service",
+        "Provider": "University of Gothenburg",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "4": {
+        "id": 4,
+        "order": "4.00000000000000000000",
+        "Name": "Nara Research Institute",
+        "Description": "Japanese research center dedicated to the preservation and study of cultural heritage and archaeological discoveries.",
+        "Landing page URL": "https://www.nabunken.go.jp/english/",
+        "Catalogues": [
+            {
+                "id": 2,
+                "value": "ARIADNE Portal",
+                "order": "0.50000000000000000000"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15044,
+                "value": "Japan",
+                "color": "dark-brown"
+            }
+        ],
+        "Full name": "Nara National Research Institute for Cultural Properties",
+        "Provider": "Nara National Research Institute",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "5": {
+        "id": 5,
+        "order": "5.00000000000000000000",
+        "Name": "Digital Antiquity",
+        "Description": "US-based organization managing tDAR, a database focused on the digital preservation of archaeological archives and cultural resources.",
+        "Landing page URL": "https://www.tdar.org",
+        "Catalogues": [
+            {
+                "id": 2,
+                "value": "ARIADNE Portal",
+                "order": "0.50000000000000000000"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15045,
+                "value": "United States of America",
+                "color": "blue"
+            }
+        ],
+        "Full name": "Digital Antiquity (The Digital Archaeological Record - tDAR)",
+        "Provider": "Arizona State University",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "6": {
+        "id": 6,
+        "order": "6.00000000000000000000",
+        "Name": "CONICET",
+        "Description": "Argentina's leading research organization, supporting various scientific disciplines, including archaeology.",
+        "Landing page URL": "https://www.conicet.gov.ar",
+        "Catalogues": [
+            {
+                "id": 2,
+                "value": "ARIADNE Portal",
+                "order": "0.50000000000000000000"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15043,
+                "value": "Argentina",
+                "color": "light-red"
+            }
+        ],
+        "Full name": "National Scientific and Technical Research Council",
+        "Provider": "CONICET",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "7": {
+        "id": 7,
+        "order": "7.00000000000000000000",
+        "Name": "SEAD",
+        "Description": "A Swedish national resource for environmental archaeology data.",
+        "Landing page URL": "https://www.sead.se",
+        "Catalogues": [
+            {
+                "id": 2,
+                "value": "ARIADNE Portal",
+                "order": "0.50000000000000000000"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15040,
+                "value": "Sweden",
+                "color": "orange"
+            }
+        ],
+        "Full name": "The Strategic Environmental Archaeology Database",
+        "Provider": "Uppsala University",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "8": {
+        "id": 8,
+        "order": "8.00000000000000000000",
+        "Name": "AIS-CR",
+        "Description": "National archaeological database and information system of the Czech Republic.",
+        "Landing page URL": "https://www.aiscr.cz",
+        "Catalogues": [
+            {
+                "id": 2,
+                "value": "ARIADNE Portal",
+                "order": "0.50000000000000000000"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15042,
+                "value": "Czech Republic",
+                "color": "purple"
+            }
+        ],
+        "Full name": "Archaeological Information System of the Czech Republic",
+        "Provider": "Institute of Archaeology, Czech Academy of Sciences",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "9": {
+        "id": 9,
+        "order": "9.00000000000000000000",
+        "Name": "Inrap",
+        "Description": "France's leading institution for preventive archaeology, responsible for safeguarding the nation's archaeological heritage.",
+        "Landing page URL": "https://www.inrap.fr",
+        "Catalogues": [
+            {
+                "id": 2,
+                "value": "ARIADNE Portal",
+                "order": "0.50000000000000000000"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15041,
+                "value": "France",
+                "color": "dark-orange"
+            }
+        ],
+        "Full name": "Institut national de recherches archéologiques préventives",
+        "Provider": "Inrap",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "10": {
+        "id": 10,
+        "order": "10.00000000000000000000",
+        "Name": "DOAJ",
+        "Description": "An online directory that indexes and provides access to high-quality, open-access, peer-reviewed journals.",
+        "Landing page URL": "https://doaj.org",
+        "Catalogues": [
+            {
+                "id": 4,
+                "value": "GoTriple",
+                "order": "0.75000000000000000000"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15039,
+                "value": "United Kingdom",
+                "color": "light-brown"
+            },
+            {
+                "id": 15046,
+                "value": "Denmark",
+                "color": "light-blue"
+            }
+        ],
+        "Full name": "Directory of Open Access Journals",
+        "Provider": "DOAJ Team (International)",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "11": {
+        "id": 11,
+        "order": "11.00000000000000000000",
+        "Name": "BASE",
+        "Description": "One of the world's largest search engines for academic web resources, especially for open-access content.",
+        "Landing page URL": "https://www.base-search.net",
+        "Catalogues": [
+            {
+                "id": 4,
+                "value": "GoTriple",
+                "order": "0.75000000000000000000"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15047,
+                "value": "Germany",
+                "color": "pink"
+            }
+        ],
+        "Full name": "Bielefeld Academic Search Engine",
+        "Provider": "Bielefeld University Library",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "12": {
+        "id": 12,
+        "order": "12.00000000000000000000",
+        "Name": "DNB",
+        "Description": "The German National Library, responsible for collecting and preserving all German-language publications.",
+        "Landing page URL": "https://www.dnb.de",
+        "Catalogues": [
+            {
+                "id": 4,
+                "value": "GoTriple",
+                "order": "0.75000000000000000000"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15047,
+                "value": "Germany",
+                "color": "pink"
+            }
+        ],
+        "Full name": "Deutsche Nationalbibliothek",
+        "Provider": "Deutsche Nationalbibliothek",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "13": {
+        "id": 13,
+        "order": "13.00000000000000000000",
+        "Name": "RECYT",
+        "Description": "Spanish repository for science and technology, managed by FECYT, providing access to scientific data and publications.",
+        "Landing page URL": "https://recyt.fecyt.es",
+        "Catalogues": [
+            {
+                "id": 4,
+                "value": "GoTriple",
+                "order": "0.75000000000000000000"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15048,
+                "value": "Spain",
+                "color": "orange"
+            }
+        ],
+        "Full name": "Repositorio Español de Ciencia y Tecnología",
+        "Provider": "FECYT (Fundación Española para la Ciencia y la Tecnología)",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "14": {
+        "id": 14,
+        "order": "14.00000000000000000000",
+        "Name": "Isidore",
+        "Description": "A platform providing access to digital data in humanities and social sciences.",
+        "Landing page URL": "https://isidore.science",
+        "Catalogues": [
+            {
+                "id": 4,
+                "value": "GoTriple",
+                "order": "0.75000000000000000000"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15041,
+                "value": "France",
+                "color": "dark-orange"
+            }
+        ],
+        "Full name": "Integration Services, interconnection of Data of the Research and Education",
+        "Provider": "Huma-Num (CNRS)",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "15": {
+        "id": 15,
+        "order": "15.00000000000000000000",
+        "Name": "EKT",
+        "Description": "Greece's National Documentation Centre, responsible for archiving and providing access to a wide range of scientific and cultural resources.",
+        "Landing page URL": "https://www.ekt.gr",
+        "Catalogues": [
+            {
+                "id": 4,
+                "value": "GoTriple",
+                "order": "0.75000000000000000000"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15049,
+                "value": "Greece",
+                "color": "light-gray"
+            }
+        ],
+        "Full name": "Εθνικό Κέντρο Τεκμηρίωσης & Ηλεκτρονικού Περιεχομένου (National Documentation Centre of Greece)",
+        "Provider": "EKT",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "16": {
+        "id": 16,
+        "order": "16.00000000000000000000",
+        "Name": "HRCAK",
+        "Description": "The central Croatian portal for open-access scientific journals.",
+        "Landing page URL": "https://hrcak.srce.hr",
+        "Catalogues": [
+            {
+                "id": 4,
+                "value": "GoTriple",
+                "order": "0.75000000000000000000"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15050,
+                "value": "Croatia",
+                "color": "light-pink"
+            }
+        ],
+        "Full name": "HRCAK Portal of Scientific Journals of Croatia",
+        "Provider": "University of Zagreb, SRCE",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "17": {
+        "id": 17,
+        "order": "17.00000000000000000000",
+        "Name": "OpenEdition",
+        "Description": "A French open-access platform for journals, books, and research blogs in the humanities and social sciences.",
+        "Landing page URL": "https://www.openedition.org",
+        "Catalogues": [
+            {
+                "id": 4,
+                "value": "GoTriple",
+                "order": "0.75000000000000000000"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15041,
+                "value": "France",
+                "color": "dark-orange"
+            }
+        ],
+        "Full name": "OpenEdition",
+        "Provider": "OpenEdition (CLEO - Centre for Open Electronic Publishing)",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "18": {
+        "id": 18,
+        "order": "18.00000000000000000000",
+        "Name": "COIMBRA/Pombolina",
+        "Description": "Portugal's University of Coimbra's digital library providing access to academic and scientific documents.",
+        "Landing page URL": "https://digitalis.uc.pt/pombalina",
+        "Catalogues": [
+            {
+                "id": 4,
+                "value": "GoTriple",
+                "order": "0.75000000000000000000"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15051,
+                "value": "Portugal",
+                "color": "darker-blue"
+            }
+        ],
+        "Full name": "COIMBRA/Pombalina",
+        "Provider": "University of Coimbra",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "19": {
+        "id": 19,
+        "order": "19.00000000000000000000",
+        "Name": "CLARIN",
+        "Description": "European research infrastructure providing access to language resources and technology.",
+        "Landing page URL": "https://www.clarin.eu",
+        "Catalogues": [
+            {
+                "id": 4,
+                "value": "GoTriple",
+                "order": "0.75000000000000000000"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15052,
+                "value": "Europe",
+                "color": "red"
+            },
+            {
+                "id": 15064,
+                "value": "Netherlands",
+                "color": "deep-dark-green"
+            }
+        ],
+        "Full name": "Common Language Resources and Technology Infrastructure",
+        "Provider": "CLARIN ERIC",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "20": {
+        "id": 20,
+        "order": "20.00000000000000000000",
+        "Name": "CESSDA",
+        "Description": "European research infrastructure providing access to data in the social sciences.",
+        "Landing page URL": "https://www.cessda.eu",
+        "Catalogues": [
+            {
+                "id": 4,
+                "value": "GoTriple",
+                "order": "0.75000000000000000000"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15052,
+                "value": "Europe",
+                "color": "red"
+            },
+            {
+                "id": 15062,
+                "value": "Norway",
+                "color": "green"
+            }
+        ],
+        "Full name": "Consortium of European Social Science Data Archives",
+        "Provider": "CESSDA ERIC",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "21": {
+        "id": 21,
+        "order": "21.00000000000000000000",
+        "Name": "ZRC SAZU",
+        "Description": "Slovenia’s leading research institute in the humanities and social sciences.",
+        "Landing page URL": "https://www.zrc-sazu.si",
+        "Catalogues": [
+            {
+                "id": 4,
+                "value": "GoTriple",
+                "order": "0.75000000000000000000"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15053,
+                "value": "Slovenia",
+                "color": "dark-purple"
+            }
+        ],
+        "Full name": "Znanstvenoraziskovalni center Slovenske akademije znanosti in umetnosti (Research Centre of the Slovenian Academy of Sciences and Arts)",
+        "Provider": "ZRC SAZU",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "22": {
+        "id": 22,
+        "order": "22.00000000000000000000",
+        "Name": "Econstor",
+        "Description": "A platform providing open-access publications in economics.",
+        "Landing page URL": "https://www.econstor.eu",
+        "Catalogues": [
+            {
+                "id": 4,
+                "value": "GoTriple",
+                "order": "0.75000000000000000000"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15047,
+                "value": "Germany",
+                "color": "pink"
+            }
+        ],
+        "Full name": "Econstor",
+        "Provider": "ZBW – Leibniz Information Centre for Economics",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "23": {
+        "id": 23,
+        "order": "23.00000000000000000000",
+        "Name": "OpenAIRE",
+        "Description": "A European infrastructure supporting open access to research outputs and fostering open science.",
+        "Landing page URL": "https://www.openaire.eu",
+        "Catalogues": [
+            {
+                "id": 4,
+                "value": "GoTriple",
+                "order": "0.75000000000000000000"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15052,
+                "value": "Europe",
+                "color": "red"
+            },
+            {
+                "id": 15049,
+                "value": "Greece",
+                "color": "light-gray"
+            }
+        ],
+        "Full name": "Open Access Infrastructure for Research in Europe",
+        "Provider": "OpenAIRE Consortium",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "24": {
+        "id": 24,
+        "order": "24.00000000000000000000",
+        "Name": "Biblioteka Nauki",
+        "Description": "A Polish platform providing open access to scientific publications in various fields.",
+        "Landing page URL": "https://bibliotekanauki.pl",
+        "Catalogues": [
+            {
+                "id": 4,
+                "value": "GoTriple",
+                "order": "0.75000000000000000000"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15054,
+                "value": "Poland",
+                "color": "dark-pink"
+            }
+        ],
+        "Full name": "Biblioteka Nauki",
+        "Provider": "Interdisciplinary Centre for Mathematical and Computational Modelling (ICM), University of Warsaw",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "25": {
+        "id": 25,
+        "order": "25.00000000000000000000",
+        "Name": "DH Publications (dblp)",
+        "Description": "A bibliography for computer science publications, indexing research papers from various sources.",
+        "Landing page URL": "https://dblp.org",
+        "Catalogues": [
+            {
+                "id": 1,
+                "value": "SSH Open Marketplace",
+                "order": "0.33333333333333331483"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15047,
+                "value": "Germany",
+                "color": "pink"
+            }
+        ],
+        "Full name": "dblp computer science bibliography",
+        "Provider": "Schloss Dagstuhl – Leibniz Center for Informatics",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "26": {
+        "id": 26,
+        "order": "26.00000000000000000000",
+        "Name": "CLARIN Resource Families",
+        "Description": "Provides access to language resources, categorized into families for easier search and discovery.",
+        "Landing page URL": "https://www.clarin.eu/resource-families",
+        "Catalogues": [
+            {
+                "id": 1,
+                "value": "SSH Open Marketplace",
+                "order": "0.33333333333333331483"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15052,
+                "value": "Europe",
+                "color": "red"
+            },
+            {
+                "id": 15064,
+                "value": "Netherlands",
+                "color": "deep-dark-green"
+            }
+        ],
+        "Full name": "CLARIN Resource Families",
+        "Provider": "CLARIN ERIC",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "27": {
+        "id": 27,
+        "order": "27.00000000000000000000",
+        "Name": "TAPoR",
+        "Description": "A portal offering tools and resources for text analysis, designed for humanities scholars.",
+        "Landing page URL": "https://tapor.ca",
+        "Catalogues": [
+            {
+                "id": 1,
+                "value": "SSH Open Marketplace",
+                "order": "0.33333333333333331483"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15055,
+                "value": "Canada",
+                "color": "light-cyan"
+            }
+        ],
+        "Full name": "Text Analysis Portal for Research",
+        "Provider": "TAPoR Consortium",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "28": {
+        "id": 28,
+        "order": "28.00000000000000000000",
+        "Name": "SSK Zotero Resources",
+        "Description": "A collection of Zotero-based resources to assist with standardization in research.",
+        "Landing page URL": "https://www.zotero.org/groups/427927/ssk-parthenos/library",
+        "Catalogues": [
+            {
+                "id": 1,
+                "value": "SSH Open Marketplace",
+                "order": "0.33333333333333331483"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15052,
+                "value": "Europe",
+                "color": "red"
+            }
+        ],
+        "Full name": "Standardization Survival Kit Zotero Resources",
+        "Provider": "SSK Consortium",
+        "Status": {
+            "id": 15642,
+            "value": "Decommissioned",
+            "color": "gray"
+        }
+    },
+    "29": {
+        "id": 29,
+        "order": "29.00000000000000000000",
+        "Name": "Humanities Data",
+        "Description": "A platform for accessing various data sets in the humanities.",
+        "Landing page URL": "https://humanitiesdata.com/",
+        "Catalogues": [
+            {
+                "id": 1,
+                "value": "SSH Open Marketplace",
+                "order": "0.33333333333333331483"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15045,
+                "value": "United States of America",
+                "color": "blue"
+            }
+        ],
+        "Full name": "Humanities Data",
+        "Provider": "Humanities Data Consortium",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "30": {
+        "id": 30,
+        "order": "30.00000000000000000000",
+        "Name": "The Programming Historian",
+        "Description": "Offers tutorials and resources for digital tools and techniques in historical research.",
+        "Landing page URL": "https://programminghistorian.org",
+        "Catalogues": [
+            {
+                "id": 1,
+                "value": "SSH Open Marketplace",
+                "order": "0.33333333333333331483"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15640,
+                "value": "World",
+                "color": "light-cyan"
+            }
+        ],
+        "Full name": "The Programming Historian",
+        "Provider": "Programming Historian Editorial Board",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "31": {
+        "id": 31,
+        "order": "31.00000000000000000000",
+        "Name": "DARIAH Campus",
+        "Description": "A platform offering open educational resources for digital humanities research.",
+        "Landing page URL": "https://campus.dariah.eu",
+        "Catalogues": [
+            {
+                "id": 1,
+                "value": "SSH Open Marketplace",
+                "order": "0.33333333333333331483"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15052,
+                "value": "Europe",
+                "color": "red"
+            }
+        ],
+        "Full name": "DARIAH Campus",
+        "Provider": "DARIAH",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "32": {
+        "id": 32,
+        "order": "32.00000000000000000000",
+        "Name": "CESSDA (trainings)",
+        "Description": "Provides access to training resources for social science data archives.",
+        "Landing page URL": "https://www.cessda.eu/Training-Resources",
+        "Catalogues": [
+            {
+                "id": 1,
+                "value": "SSH Open Marketplace",
+                "order": "0.33333333333333331483"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15052,
+                "value": "Europe",
+                "color": "red"
+            },
+            {
+                "id": 15062,
+                "value": "Norway",
+                "color": "green"
+            }
+        ],
+        "Full name": "CESSDA Training Catalogue",
+        "Provider": "CESSDA ERIC",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "33": {
+        "id": 33,
+        "order": "33.00000000000000000000",
+        "Name": "Language Resource Switchboard",
+        "Description": "Tool for processing and analyzing language resources by linking them to relevant tools.",
+        "Landing page URL": "https://switchboard.clarin.eu",
+        "Catalogues": [
+            {
+                "id": 1,
+                "value": "SSH Open Marketplace",
+                "order": "0.33333333333333331483"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15052,
+                "value": "Europe",
+                "color": "red"
+            },
+            {
+                "id": 15064,
+                "value": "Netherlands",
+                "color": "deep-dark-green"
+            }
+        ],
+        "Full name": "CLARIN Language Resource Switchboard",
+        "Provider": "CLARIN ERIC",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "34": {
+        "id": 34,
+        "order": "34.00000000000000000000",
+        "Name": "Standardisation Survival Kit",
+        "Description": "Provides resources for understanding and implementing standards in social sciences and humanities research.",
+        "Landing page URL": "https://marketplace.sshopencloud.eu/search?order=score&categories=workflow&f.source=Standardization+Survival+Kit#/",
+        "Catalogues": [
+            {
+                "id": 1,
+                "value": "SSH Open Marketplace",
+                "order": "0.33333333333333331483"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15052,
+                "value": "Europe",
+                "color": "red"
+            }
+        ],
+        "Full name": "Standardisation Survival Kit",
+        "Provider": "SSHOC (Social Sciences & Humanities Open Cloud)",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "35": {
+        "id": 35,
+        "order": "35.00000000000000000000",
+        "Name": "EOSC Catalogue",
+        "Description": "Previously provided access to services and resources from the European Open Science Cloud.",
+        "Landing page URL": "https://marketplace.eosc-portal.eu/",
+        "Catalogues": [
+            {
+                "id": 1,
+                "value": "SSH Open Marketplace",
+                "order": "0.33333333333333331483"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15052,
+                "value": "Europe",
+                "color": "red"
+            }
+        ],
+        "Full name": "European Open Science Cloud Catalogue",
+        "Provider": "EOSC",
+        "Status": {
+            "id": 15642,
+            "value": "Decommissioned",
+            "color": "gray"
+        }
+    },
+    "36": {
+        "id": 36,
+        "order": "36.00000000000000000000",
+        "Name": "SSHOC Service Catalogue",
+        "Description": "Previously provided services for research in the social sciences and humanities.",
+        "Landing page URL": "https://sshopencloud.eu/service-catalogue",
+        "Catalogues": [
+            {
+                "id": 1,
+                "value": "SSH Open Marketplace",
+                "order": "0.33333333333333331483"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15052,
+                "value": "Europe",
+                "color": "red"
+            }
+        ],
+        "Full name": "SSH Open Cloud Project Service Catalogue",
+        "Provider": "SSHOC",
+        "Status": {
+            "id": 15642,
+            "value": "Decommissioned",
+            "color": "gray"
+        }
+    },
+    "37": {
+        "id": 37,
+        "order": "37.00000000000000000000",
+        "Name": "DARIAH contribution tool",
+        "Description": "Previously facilitated in-kind contributions to the DARIAH research infrastructure.",
+        "Landing page URL": "https://dans-labs.github.io/dariah-contrib/",
+        "Catalogues": [
+            {
+                "id": 1,
+                "value": "SSH Open Marketplace",
+                "order": "0.33333333333333331483"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15052,
+                "value": "Europe",
+                "color": "red"
+            }
+        ],
+        "Full name": "DARIAH in-kind contribution tool",
+        "Provider": "DARIAH",
+        "Status": {
+            "id": 15642,
+            "value": "Decommissioned",
+            "color": "gray"
+        }
+    },
+    "38": {
+        "id": 38,
+        "order": "38.00000000000000000000",
+        "Name": "ARCHE",
+        "Description": "Offers access to digital humanities resources, with a focus on Austrian cultural heritage.",
+        "Landing page URL": "https://arche.acdh.oeaw.ac.at",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15056,
+                "value": "Austria",
+                "color": "dark-red"
+            }
+        ],
+        "Full name": "A Resource Centre for the HumanitiEs",
+        "Provider": "Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "39": {
+        "id": 39,
+        "order": "39.00000000000000000000",
+        "Name": "BAS",
+        "Description": "Provides access to speech signal data from various research projects.",
+        "Landing page URL": "http://hdl.handle.net/11858/00-1779-0000-000C-DAAF-B",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15047,
+                "value": "Germany",
+                "color": "pink"
+            }
+        ],
+        "Full name": "Bayerisches Archiv für Sprachsignale",
+        "Provider": "Ludwig-Maximilians-Universität München",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "40": {
+        "id": 40,
+        "order": "40.00000000000000000000",
+        "Name": "BBAW",
+        "Description": "A research institute providing access to linguistic and historical resources.",
+        "Landing page URL": "http://www.bbaw.de",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15047,
+                "value": "Germany",
+                "color": "pink"
+            }
+        ],
+        "Full name": "Berlin-Brandenburg Academy of Sciences and Humanities",
+        "Provider": "BBAW",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "41": {
+        "id": 41,
+        "order": "41.00000000000000000000",
+        "Name": "CKL2CORPORA",
+        "Description": "Provides expertise and resources related to learner corpora for research purposes.",
+        "Landing page URL": "https://uclouvain.be/en/research-institutes/ilc/clarin-knowledge-centre-for-learner-corpora.html",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15057,
+                "value": "Belgium",
+                "color": "purple"
+            }
+        ],
+        "Full name": "CLARIN Knowledge Centre for Learner Corpora",
+        "Provider": "Université catholique de Louvain",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "42": {
+        "id": 42,
+        "order": "42.00000000000000000000",
+        "Name": "CLARIN Latvia",
+        "Description": "Provides access to language resources and tools related to the Latvian language.",
+        "Landing page URL": "https://www.clarin.lv",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15058,
+                "value": "Latvia",
+                "color": "light-red"
+            }
+        ],
+        "Full name": "CLARIN Centre of Latvian language resources and tools",
+        "Provider": "CLARIN Latvia",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "43": {
+        "id": 43,
+        "order": "43.00000000000000000000",
+        "Name": "CLARIN Switzerland (LaRS)",
+        "Description": "Provides access to language resources and tools in Switzerland.",
+        "Landing page URL": "https://clarin-ch.ch",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15059,
+                "value": "Switzerland",
+                "color": "dark-purple"
+            }
+        ],
+        "Full name": "CLARIN Switzerland (Language Resource Switchboard)",
+        "Provider": "CLARIN Switzerland",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "44": {
+        "id": 44,
+        "order": "44.00000000000000000000",
+        "Name": "CLARIN-IS",
+        "Description": "Provides access to Icelandic language resources.",
+        "Landing page URL": "http://clarin.is",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15060,
+                "value": "Iceland",
+                "color": "dark-gray"
+            }
+        ],
+        "Full name": "CLARIN Iceland",
+        "Provider": "CLARIN Iceland",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "45": {
+        "id": 45,
+        "order": "45.00000000000000000000",
+        "Name": "CLARIN-LT",
+        "Description": "Provides Lithuanian language resources and tools for research.",
+        "Landing page URL": "http://www.clarin-lt.lt",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15061,
+                "value": "Lithuania",
+                "color": "light-blue"
+            }
+        ],
+        "Full name": "CLARIN Lithuania",
+        "Provider": "CLARIN Lithuania",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "46": {
+        "id": 46,
+        "order": "46.00000000000000000000",
+        "Name": "CLARIN-PL",
+        "Description": "Offers tools and resources for Polish language research.",
+        "Landing page URL": "https://clarin-pl.eu",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15054,
+                "value": "Poland",
+                "color": "dark-pink"
+            }
+        ],
+        "Full name": "CLARIN-PL Language Technology Centre",
+        "Provider": "CLARIN Poland",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "47": {
+        "id": 47,
+        "order": "47.00000000000000000000",
+        "Name": "CLARIN.SI",
+        "Description": "Provides Slovenian language resources and tools.",
+        "Landing page URL": "http://www.clarin.si",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15053,
+                "value": "Slovenia",
+                "color": "dark-purple"
+            }
+        ],
+        "Full name": "CLARIN.SI Language Technology Centre",
+        "Provider": "CLARIN Slovenia",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "48": {
+        "id": 48,
+        "order": "48.00000000000000000000",
+        "Name": "CLARIN:EL",
+        "Description": "Offers Greek language resources and technologies for language processing and research.",
+        "Landing page URL": "https://www.clarin.gr",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15049,
+                "value": "Greece",
+                "color": "light-gray"
+            }
+        ],
+        "Full name": "CLARIN National Infrastructure for Language Resources & Technologies in Greece",
+        "Provider": "CLARIN Greece",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "49": {
+        "id": 49,
+        "order": "49.00000000000000000000",
+        "Name": "CLARINO Bergen Center",
+        "Description": "Provides Norwegian language resources and tools for research.",
+        "Landing page URL": "http://clarino.uib.no",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15062,
+                "value": "Norway",
+                "color": "green"
+            }
+        ],
+        "Full name": "CLARINO Bergen Center",
+        "Provider": "CLARIN Norway",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "50": {
+        "id": 50,
+        "order": "50.00000000000000000000",
+        "Name": "CLARINO Text Laboratory Centre",
+        "Description": "Provides access to tools for text analysis and natural language processing.",
+        "Landing page URL": "http://www.tekstlab.uio.no/clarino",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15062,
+                "value": "Norway",
+                "color": "green"
+            }
+        ],
+        "Full name": "CLARINO Text Laboratory Centre",
+        "Provider": "CLARIN Norway",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "51": {
+        "id": 51,
+        "order": "51.00000000000000000000",
+        "Name": "Center of Estonian Language Resources",
+        "Description": "Provides access to Estonian language resources and tools.",
+        "Landing page URL": "http://www.keeleressursid.ee",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15063,
+                "value": "Estonia",
+                "color": "light-red"
+            }
+        ],
+        "Full name": "Center of Estonian Language Resources",
+        "Provider": "CLARIN Estonia",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "52": {
+        "id": 52,
+        "order": "52.00000000000000000000",
+        "Name": "CLST",
+        "Description": "Offers speech and language resources, with a focus on speech technology.",
+        "Landing page URL": "http://www.ru.nl/clst",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15064,
+                "value": "Netherlands",
+                "color": "deep-dark-green"
+            }
+        ],
+        "Full name": "Centre for Language and Speech Technology",
+        "Provider": "Radboud University",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "53": {
+        "id": 53,
+        "order": "53.00000000000000000000",
+        "Name": "CEDIFOR",
+        "Description": "Provides digital resources and services for research in humanities and social sciences.",
+        "Landing page URL": "https://www.cedifor.de",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15047,
+                "value": "Germany",
+                "color": "pink"
+            }
+        ],
+        "Full name": "Centre for the Digital Foundation of Research in the Humanities, Social, and Educational Sciences",
+        "Provider": "CLARIN Germany",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "54": {
+        "id": 54,
+        "order": "54.00000000000000000000",
+        "Name": "COCOON",
+        "Description": "A French platform offering access to digital oral corpora.",
+        "Landing page URL": "http://cocoon.huma-num.fr",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15041,
+                "value": "France",
+                "color": "dark-orange"
+            }
+        ],
+        "Full name": "Collections de corpus oraux numériques",
+        "Provider": "Huma-Num (CNRS)",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "55": {
+        "id": 55,
+        "order": "55.00000000000000000000",
+        "Name": "CNC",
+        "Description": "Provides access to large-scale linguistic data for the Czech language.",
+        "Landing page URL": "http://www.korpus.cz/clarin",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15042,
+                "value": "Czech Republic",
+                "color": "purple"
+            }
+        ],
+        "Full name": "Czech National Corpus",
+        "Provider": "CLARIN Czech Republic",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "56": {
+        "id": 56,
+        "order": "56.00000000000000000000",
+        "Name": "DARIAH-DE Repository",
+        "Description": "A repository for digital humanities resources as part of the DARIAH-DE initiative.",
+        "Landing page URL": "https://repository.de.dariah.eu",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15047,
+                "value": "Germany",
+                "color": "pink"
+            }
+        ],
+        "Full name": "DARIAH-DE Repository",
+        "Provider": "CLARIN Germany",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "57": {
+        "id": 57,
+        "order": "57.00000000000000000000",
+        "Name": "DANS",
+        "Description": "Provides a repository for storing and sharing research data, with a focus on social sciences and humanities.",
+        "Landing page URL": "http://dans.knaw.nl",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15064,
+                "value": "Netherlands",
+                "color": "deep-dark-green"
+            }
+        ],
+        "Full name": "Data Archiving and Networked Services",
+        "Provider": "CLARIN Netherlands",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "58": {
+        "id": 58,
+        "order": "58.00000000000000000000",
+        "Name": "Eberhard Karls Universität Tübingen",
+        "Description": "Offers digital linguistic resources and services.",
+        "Landing page URL": "http://www.sfs.uni-tuebingen.de",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15047,
+                "value": "Germany",
+                "color": "pink"
+            }
+        ],
+        "Full name": "Eberhard Karls Universität Tübingen",
+        "Provider": "CLARIN Germany",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "59": {
+        "id": 59,
+        "order": "59.00000000000000000000",
+        "Name": "Eurac Research CLARIN Centre",
+        "Description": "Provides access to language resources and tools, with a focus on minority languages.",
+        "Landing page URL": "https://clarin.eurac.edu",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15066,
+                "value": "Italy",
+                "color": "darker-orange"
+            }
+        ],
+        "Full name": "Eurac Research CLARIN Centre",
+        "Provider": "CLARIN Italy",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "60": {
+        "id": 60,
+        "order": "60.00000000000000000000",
+        "Name": "HZSK",
+        "Description": "Offers access to language corpora and linguistic research data.",
+        "Landing page URL": "https://www.slm.uni-hamburg.de/hzsk.html",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15047,
+                "value": "Germany",
+                "color": "pink"
+            }
+        ],
+        "Full name": "Hamburger Zentrum für Sprachkorpora",
+        "Provider": "CLARIN Germany",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "61": {
+        "id": 61,
+        "order": "61.00000000000000000000",
+        "Name": "IMS Stuttgart",
+        "Description": "Focuses on research in computational linguistics and speech processing.",
+        "Landing page URL": "http://www.ims.uni-stuttgart.de",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15047,
+                "value": "Germany",
+                "color": "pink"
+            }
+        ],
+        "Full name": "Institut für Maschinelle Sprachverarbeitung",
+        "Provider": "University of Stuttgart",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "62": {
+        "id": 62,
+        "order": "62.00000000000000000000",
+        "Name": "INT",
+        "Description": "Offers Dutch language resources for research.",
+        "Landing page URL": "http://ivdnt.org",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15064,
+                "value": "Netherlands",
+                "color": "deep-dark-green"
+            }
+        ],
+        "Full name": "Instituut voor de Nederlandse Taal",
+        "Provider": "CLARIN Netherlands",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "63": {
+        "id": 63,
+        "order": "63.00000000000000000000",
+        "Name": "LINDAT/CLARIAH-CZ",
+        "Description": "Provides language technology and digital humanities tools.",
+        "Landing page URL": "https://lindat.cz",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15042,
+                "value": "Czech Republic",
+                "color": "purple"
+            }
+        ],
+        "Full name": "LINDAT/CLARIAH-CZ",
+        "Provider": "CLARIN Czech Republic",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "64": {
+        "id": 64,
+        "order": "64.00000000000000000000",
+        "Name": "LAC",
+        "Description": "Offers access to linguistic resources, particularly for endangered languages.",
+        "Landing page URL": "https://lac.uni-koeln.de",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15047,
+                "value": "Germany",
+                "color": "pink"
+            }
+        ],
+        "Full name": "Language Archive Cologne",
+        "Provider": "University of Cologne",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "65": {
+        "id": 65,
+        "order": "65.00000000000000000000",
+        "Name": "GEI",
+        "Description": "Specializes in digital education resources.",
+        "Landing page URL": "http://worldviews.gei.de",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15047,
+                "value": "Germany",
+                "color": "pink"
+            }
+        ],
+        "Full name": "Leibniz Institute for Educational Media | Georg Eckert Institute",
+        "Provider": "CLARIN Germany",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "66": {
+        "id": 66,
+        "order": "66.00000000000000000000",
+        "Name": "IDS Mannheim",
+        "Description": "Provides access to resources on the German language.",
+        "Landing page URL": "http://www.ids-mannheim.de",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15047,
+                "value": "Germany",
+                "color": "pink"
+            }
+        ],
+        "Full name": "Leibniz-Institut für Deutsche Sprache",
+        "Provider": "CLARIN Germany",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "67": {
+        "id": 67,
+        "order": "67.00000000000000000000",
+        "Name": "LU Humanities Lab",
+        "Description": "Offers tools and resources for research in the humanities, focusing on digital methods.",
+        "Landing page URL": "http://www.humlab.lu.se",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15040,
+                "value": "Sweden",
+                "color": "orange"
+            }
+        ],
+        "Full name": "Lund University Humanities Lab",
+        "Provider": "Lund University",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "68": {
+        "id": 68,
+        "order": "68.00000000000000000000",
+        "Name": "MPI Psycholinguistics",
+        "Description": "Specializes in language processing and cognitive research.",
+        "Landing page URL": "https://archive.mpi.nl",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15064,
+                "value": "Netherlands",
+                "color": "deep-dark-green"
+            }
+        ],
+        "Full name": "Max Planck Institute for Psycholinguistics",
+        "Provider": "CLARIN Netherlands",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "69": {
+        "id": 69,
+        "order": "69.00000000000000000000",
+        "Name": "Phonothèque MMSH",
+        "Description": "Provides access to audio archives of cultural and historical significance in the Mediterranean (http://phonotheque.mmsh.huma-num.fr is obsolet)",
+        "Landing page URL": "https://calames.abes.fr/pub/mmsh.aspx",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15041,
+                "value": "France",
+                "color": "dark-orange"
+            }
+        ],
+        "Full name": "Phonothèque Mediterranean Research Centre for the Humanities",
+        "Provider": "Huma-Num (CNRS)",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "70": {
+        "id": 70,
+        "order": "70.00000000000000000000",
+        "Name": "Meertens Instituut/HuC",
+        "Description": "Specializes in the study and documentation of Dutch language and culture.",
+        "Landing page URL": "http://www.meertens.knaw.nl",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15064,
+                "value": "Netherlands",
+                "color": "deep-dark-green"
+            }
+        ],
+        "Full name": "Meertens Instituut/Humanities Cluster",
+        "Provider": "CLARIN Netherlands",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "71": {
+        "id": 71,
+        "order": "71.00000000000000000000",
+        "Name": "National Library of Norway",
+        "Description": "Offers access to a wide range of linguistic resources, including historical texts.",
+        "Landing page URL": "https://www.nb.no/sprakbanken/en/sprakbanken/",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15062,
+                "value": "Norway",
+                "color": "green"
+            }
+        ],
+        "Full name": "National Library of Norway",
+        "Provider": "CLARIN Norway",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "72": {
+        "id": 72,
+        "order": "72.00000000000000000000",
+        "Name": "ORTOLANG",
+        "Description": "Provides access to linguistic resources and tools for the French language.",
+        "Landing page URL": "https://www.ortolang.fr",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15041,
+                "value": "France",
+                "color": "dark-orange"
+            }
+        ],
+        "Full name": "Open Resources and TOols for LANGuage",
+        "Provider": "CLARIN France",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "73": {
+        "id": 73,
+        "order": "73.00000000000000000000",
+        "Name": "OTA",
+        "Description": "Provides access to literary and linguistic resources for research purposes.",
+        "Landing page URL": "https://llds.ling-phil.ox.ac.uk",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15039,
+                "value": "United Kingdom",
+                "color": "light-brown"
+            }
+        ],
+        "Full name": "Oxford Text Archive",
+        "Provider": "CLARIN UK",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "74": {
+        "id": 74,
+        "order": "74.00000000000000000000",
+        "Name": "PORTULAN CLARIN",
+        "Description": "Provides language resources and tools for Portuguese language research.",
+        "Landing page URL": "https://portulanclarin.net",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15051,
+                "value": "Portugal",
+                "color": "darker-blue"
+            }
+        ],
+        "Full name": "PORTULAN CLARIN Research Infrastructure for the Science and Technology of Language",
+        "Provider": "CLARIN Portugal",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "75": {
+        "id": 75,
+        "order": "75.00000000000000000000",
+        "Name": "PolMine",
+        "Description": "Offers political discourse corpora and tools for analysis.",
+        "Landing page URL": "http://www.polmine.de",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15047,
+                "value": "Germany",
+                "color": "pink"
+            }
+        ],
+        "Full name": "PolMine Project",
+        "Provider": "CLARIN Germany",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "76": {
+        "id": 76,
+        "order": "76.00000000000000000000",
+        "Name": "SAW Leipzig",
+        "Description": "Provides access to linguistic resources and tools, with a focus on historical corpora.",
+        "Landing page URL": "https://repo.data.saw-leipzig.de",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15047,
+                "value": "Germany",
+                "color": "pink"
+            }
+        ],
+        "Full name": "SAW Leipzig",
+        "Provider": "CLARIN Germany",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "77": {
+        "id": 77,
+        "order": "77.00000000000000000000",
+        "Name": "SADiLaR",
+        "Description": "Provides access to linguistic resources and tools for African languages.",
+        "Landing page URL": "https://www.sadilar.org",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15065,
+                "value": "South Africa",
+                "color": "darker-yellow"
+            }
+        ],
+        "Full name": "South African Centre for Digital Language Resources",
+        "Provider": "CLARIN South Africa",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "78": {
+        "id": 78,
+        "order": "78.00000000000000000000",
+        "Name": "Språkbanken",
+        "Description": "Offers linguistic resources and tools for the Swedish language.",
+        "Landing page URL": "http://spraakbanken.gu.se",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15040,
+                "value": "Sweden",
+                "color": "orange"
+            }
+        ],
+        "Full name": "Språkbanken",
+        "Provider": "CLARIN Sweden",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "79": {
+        "id": 79,
+        "order": "79.00000000000000000000",
+        "Name": "TextGrid",
+        "Description": "Provides digital tools and repositories for humanities research.",
+        "Landing page URL": "https://textgridrep.org",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15047,
+                "value": "Germany",
+                "color": "pink"
+            }
+        ],
+        "Full name": "TextGrid Repository",
+        "Provider": "CLARIN Germany",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "80": {
+        "id": 80,
+        "order": "80.00000000000000000000",
+        "Name": "CLARIN Copenhagen",
+        "Description": "Provides linguistic resources and tools for research, focused on the Danish language, as well as other Scandinavian languages",
+        "Landing page URL": "http://clarin.dk",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15046,
+                "value": "Denmark",
+                "color": "light-blue"
+            }
+        ],
+        "Full name": "CLARIN Centre at the University of Copenhagen",
+        "Provider": "CLARIN Denmark",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "81": {
+        "id": 81,
+        "order": "81.00000000000000000000",
+        "Name": "ILC4CLARIN",
+        "Description": "Offers computational tools and linguistic resources.",
+        "Landing page URL": "https://ilc4clarin.ilc.cnr.it",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15066,
+                "value": "Italy",
+                "color": "darker-orange"
+            }
+        ],
+        "Full name": "ILC4CLARIN Centre at the Institute for Computational Linguistics",
+        "Provider": "CLARIN Italy",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "82": {
+        "id": 82,
+        "order": "82.00000000000000000000",
+        "Name": "TROLLing",
+        "Description": "Repository for linguistic research data, focusing on data sharing for the linguistics community.",
+        "Landing page URL": "https://trolling.uit.no",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15062,
+                "value": "Norway",
+                "color": "green"
+            }
+        ],
+        "Full name": "The Tromsø Repository of Language and Linguistics",
+        "Provider": "UiT Arctic University of Norway",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "83": {
+        "id": 83,
+        "order": "83.00000000000000000000",
+        "Name": "Universität des Saarlandes",
+        "Description": "Offers linguistic research data and tools through CLARIN-D.",
+        "Landing page URL": "http://fedora.clarin-d.uni-saarland.de/",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15047,
+                "value": "Germany",
+                "color": "pink"
+            }
+        ],
+        "Full name": "Universität des Saarlandes",
+        "Provider": "CLARIN Germany",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "84": {
+        "id": 84,
+        "order": "84.00000000000000000000",
+        "Name": "ZIM Centre for Information Modelling",
+        "Description": "Provides access to research data in digital humanities, focusing on information modelling and data curation at the University of Graz.",
+        "Landing page URL": "https://zim.uni-graz.at",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15056,
+                "value": "Austria",
+                "color": "dark-red"
+            }
+        ],
+        "Full name": "ZIM Centre for Information Modelling",
+        "Provider": "CLARIN Austria",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "85": {
+        "id": 85,
+        "order": "85.00000000000000000000",
+        "Name": "B2SHARE",
+        "Description": "A tool for storing and sharing research data across various disciplines.",
+        "Landing page URL": "https://b2share.eudat.eu",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15640,
+                "value": "World",
+                "color": "light-cyan"
+            }
+        ],
+        "Full name": "B2SHARE",
+        "Provider": "EUDAT Collaborative Data Infrastructure",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "86": {
+        "id": 86,
+        "order": "86.00000000000000000000",
+        "Name": "CLLE ERSS",
+        "Description": "A research center focusing on language, cognition, and computational linguistics.",
+        "Landing page URL": "http://redac.univ-tlse2.fr/index.html",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15041,
+                "value": "France",
+                "color": "dark-orange"
+            }
+        ],
+        "Full name": "CLLE ERSS Université de Toulouse Le Mirail",
+        "Provider": "CLARIN France",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "87": {
+        "id": 87,
+        "order": "87.00000000000000000000",
+        "Name": "California Language Archive ",
+        "Description": "A digital repository for linguistic field recordings and research materials.",
+        "Landing page URL": "http://cla.berkeley.edu",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15045,
+                "value": "United States of America",
+                "color": "blue"
+            }
+        ],
+        "Full name": "California Language Archive",
+        "Provider": "University of California, Berkeley",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "88": {
+        "id": 88,
+        "order": "88.00000000000000000000",
+        "Name": "ELRA",
+        "Description": "Provides access to a wide range of linguistic resources for research and development in language technologies.",
+        "Landing page URL": "http://www.elra.info",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15640,
+                "value": "World",
+                "color": "light-cyan"
+            }
+        ],
+        "Full name": "European Language Resources Association",
+        "Provider": "ELRA",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "89": {
+        "id": 89,
+        "order": "89.00000000000000000000",
+        "Name": "Europeana",
+        "Description": "A digital platform for cultural heritage, providing access to millions of books, artworks, and other artifacts from European libraries, museums, and archives.",
+        "Landing page URL": "https://www.europeana.eu",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15052,
+                "value": "Europe",
+                "color": "red"
+            }
+        ],
+        "Full name": "Europeana",
+        "Provider": "Europeana Foundation",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "90": {
+        "id": 90,
+        "order": "90.00000000000000000000",
+        "Name": "e-codices",
+        "Description": "Provides online access to medieval and early modern manuscripts from Swiss libraries and archives.",
+        "Landing page URL": "http://www.e-codices.unifr.ch",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15059,
+                "value": "Switzerland",
+                "color": "dark-purple"
+            }
+        ],
+        "Full name": "e-codices - Virtual Manuscript Library of Switzerland",
+        "Provider": "e-codices",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "91": {
+        "id": 91,
+        "order": "91.00000000000000000000",
+        "Name": "PARADISEC",
+        "Description": "Provides access to recordings, transcripts, and materials documenting endangered languages and cultures.",
+        "Landing page URL": "http://catalog.paradisec.org.au",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15067,
+                "value": "Australia",
+                "color": "light-pink"
+            }
+        ],
+        "Full name": "Pacific And Regional Archive for Digital Sources in Endangered Cultures",
+        "Provider": "PARADISEC",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "92": {
+        "id": 92,
+        "order": "92.00000000000000000000",
+        "Name": "LDC Corpus Catalog",
+        "Description": "Offers linguistic data resources for research in language technology, speech processing, and machine learning.",
+        "Landing page URL": "https://catalog.ldc.upenn.edu",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15045,
+                "value": "United States of America",
+                "color": "blue"
+            }
+        ],
+        "Full name": "Linguistic Data Consortium Corpus Catalog",
+        "Provider": "Linguistic Data Consortium (LDC)",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "93": {
+        "id": 93,
+        "order": "93.00000000000000000000",
+        "Name": "LINGUIST List",
+        "Description": "An international online resource for linguistic information, including datasets and tools for language research.",
+        "Landing page URL": "https://linguistlist.org/langres",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15045,
+                "value": "United States of America",
+                "color": "blue"
+            }
+        ],
+        "Full name": "LINGUIST List Language Resources",
+        "Provider": "LINGUIST List",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "94": {
+        "id": 94,
+        "order": "94.00000000000000000000",
+        "Name": "The Rosetta Project",
+        "Description": "Provides access to a long-term archive of human languages, especially focusing on endangered and lesser-known languages.",
+        "Landing page URL": "https://rosettaproject.org",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15045,
+                "value": "United States of America",
+                "color": "blue"
+            }
+        ],
+        "Full name": "The Rosetta Project - A Long Now Foundation",
+        "Provider": "The Long Now Foundation",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "95": {
+        "id": 95,
+        "order": "95.00000000000000000000",
+        "Name": "University of the Basque Country",
+        "Description": "Provides linguistic research materials, especially focusing on Basque and other regional languages.",
+        "Landing page URL": "https://aholab.ehu.eus/aholab",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15048,
+                "value": "Spain",
+                "color": "orange"
+            }
+        ],
+        "Full name": "University of the Basque Country",
+        "Provider": "University of the Basque Country",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "96": {
+        "id": 96,
+        "order": "96.00000000000000000000",
+        "Name": "WALS",
+        "Description": "A database that provides linguistic data on the structure and features of the world’s languages, along with references.",
+        "Landing page URL": "http://wals.info",
+        "Catalogues": [
+            {
+                "id": 3,
+                "value": "CLARIN VLO",
+                "order": "0.66666666666666662966"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15640,
+                "value": "World",
+                "color": "light-cyan"
+            }
+        ],
+        "Full name": "WALS Online & WALS RefDB",
+        "Provider": "Max Planck Institute for Evolutionary Anthropology",
+        "Status": {
+            "id": 15641,
+            "value": "Active",
+            "color": "light-green"
+        }
+    },
+    "99": {
+        "id": 99,
+        "order": "98.00000000000000000000",
+        "Name": "Conversion Hub",
+        "Description": "The SSH Conversion Hub provides an inventory of solutions for conversions between data and file formats.",
+        "Landing page URL": "https://conversion-hub.sshopencloud.eu/",
+        "Catalogues": [
+            {
+                "id": 1,
+                "value": "SSH Open Marketplace",
+                "order": "0.33333333333333331483"
+            }
+        ],
+        "Country": [
+            {
+                "id": 15052,
+                "value": "Europe",
+                "color": "red"
+            }
+        ],
+        "Full name": "SSHOC Conversion Hub",
+        "Provider": "ACDH-CH",
+        "Status": {
+            "id": 15642,
+            "value": "Decommissioned",
+            "color": "gray"
+        }
+    }
+}
