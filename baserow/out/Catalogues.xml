@@ -1,0 +1,1158 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Catalogues>
+    <Catalogue>
+        <id>1</id>
+        <order>0.33333333333333331483</order>
+        <Name>SSH Open Marketplace</Name>
+        <Notes />
+        <Audience>
+            <item>
+                <id>14987</id>
+                <value>Data providers</value>
+                <color>gray</color>
+            </item>
+            <item>
+                <id>14986</id>
+                <value>Data stewards</value>
+                <color>cyan</color>
+            </item>
+            <item>
+                <id>15037</id>
+                <value>SSH scholars</value>
+                <color>dark-green</color>
+            </item>
+            <item>
+                <id>15038</id>
+                <value>Research support staff</value>
+                <color>pink</color>
+            </item>
+        </Audience>
+        <Source>
+            <item>
+                <id>25</id>
+                <value>DH Publications (dblp)</value>
+                <order>25.00000000000000000000</order>
+            </item>
+            <item>
+                <id>26</id>
+                <value>CLARIN Resource Families</value>
+                <order>26.00000000000000000000</order>
+            </item>
+            <item>
+                <id>27</id>
+                <value>TAPoR</value>
+                <order>27.00000000000000000000</order>
+            </item>
+            <item>
+                <id>28</id>
+                <value>SSK Zotero Resources</value>
+                <order>28.00000000000000000000</order>
+            </item>
+            <item>
+                <id>29</id>
+                <value>Humanities Data</value>
+                <order>29.00000000000000000000</order>
+            </item>
+            <item>
+                <id>30</id>
+                <value>The Programming Historian</value>
+                <order>30.00000000000000000000</order>
+            </item>
+            <item>
+                <id>31</id>
+                <value>DARIAH Campus</value>
+                <order>31.00000000000000000000</order>
+            </item>
+            <item>
+                <id>32</id>
+                <value>CESSDA (trainings)</value>
+                <order>32.00000000000000000000</order>
+            </item>
+            <item>
+                <id>33</id>
+                <value>Language Resource Switchboard</value>
+                <order>33.00000000000000000000</order>
+            </item>
+            <item>
+                <id>34</id>
+                <value>Standardisation Survival Kit</value>
+                <order>34.00000000000000000000</order>
+            </item>
+            <item>
+                <id>35</id>
+                <value>EOSC Catalogue</value>
+                <order>35.00000000000000000000</order>
+            </item>
+            <item>
+                <id>36</id>
+                <value>SSHOC Service Catalogue</value>
+                <order>36.00000000000000000000</order>
+            </item>
+            <item>
+                <id>37</id>
+                <value>DARIAH contribution tool</value>
+                <order>37.00000000000000000000</order>
+            </item>
+            <item>
+                <id>99</id>
+                <value>Conversion Hub</value>
+                <order>98.00000000000000000000</order>
+            </item>
+        </Source>
+        <Resource_Types>
+            <item>
+                <id>23</id>
+                <value>Tools and services</value>
+                <order>23.00000000000000000000</order>
+            </item>
+            <item>
+                <id>24</id>
+                <value>Training materials</value>
+                <order>24.00000000000000000000</order>
+            </item>
+            <item>
+                <id>25</id>
+                <value>Publications</value>
+                <order>25.00000000000000000000</order>
+            </item>
+            <item>
+                <id>26</id>
+                <value>Dataset</value>
+                <order>26.00000000000000000000</order>
+            </item>
+            <item>
+                <id>27</id>
+                <value>Workflows</value>
+                <order>27.00000000000000000000</order>
+            </item>
+        </Resource_Types>
+        <Internal_schema>
+            <item>
+                <id>110</id>
+                <value>SSH Open Marketplace Data Model</value>
+                <order>110.00000000000000000000</order>
+            </item>
+        </Internal_schema>
+        <Endpoints>
+            <item>
+                <id>5</id>
+                <value>https://marketplace-api.sshopencloud.eu/api/</value>
+                <order>5.00000000000000000000</order>
+            </item>
+        </Endpoints>
+        <Provider>
+            <item>
+                <id>3</id>
+                <value>DARIAH</value>
+                <order>3.00000000000000000000</order>
+            </item>
+        </Provider>
+        <Input />
+        <Output>
+            <item>
+                <id>110</id>
+                <value>SSH Open Marketplace Data Model</value>
+                <order>110.00000000000000000000</order>
+            </item>
+        </Output>
+        <Controlled_vocabularies>
+            <item>
+                <id>38</id>
+                <value>TaDiRAH</value>
+                <order>38.00000000000000000000</order>
+            </item>
+            <item>
+                <id>130</id>
+                <value>EOSC Resource Geographical Availability</value>
+                <order>126.00000000000000000000</order>
+            </item>
+            <item>
+                <id>132</id>
+                <value>EOSC Resource Life Cycle Status</value>
+                <order>126.50000000000000000000</order>
+            </item>
+            <item>
+                <id>131</id>
+                <value>EOSC Resource Category, Subcategory (and Supercategory)</value>
+                <order>127.00000000000000000000</order>
+            </item>
+            <item>
+                <id>133</id>
+                <value>Intended audience</value>
+                <order>128.00000000000000000000</order>
+            </item>
+            <item>
+                <id>135</id>
+                <value>Invocation type</value>
+                <order>128.50000000000000000000</order>
+            </item>
+            <item>
+                <id>136</id>
+                <value>ISO 639-3 Language Codes</value>
+                <order>128.66666666666665719276</order>
+            </item>
+            <item>
+                <id>137</id>
+                <value>SSH Open Marketplace Keyword</value>
+                <order>128.75000000000000000000</order>
+            </item>
+            <item>
+                <id>138</id>
+                <value>IANA Media Types</value>
+                <order>128.80000000000001136868</order>
+            </item>
+            <item>
+                <id>139</id>
+                <value>ÖFOS 2012. Austrian Fields of Science and Technology Classification 2012</value>
+                <order>130.00000000000000000000</order>
+            </item>
+            <item>
+                <id>140</id>
+                <value>SPDX Software License</value>
+                <order>131.00000000000000000000</order>
+            </item>
+            <item>
+                <id>142</id>
+                <value>SSK Standard</value>
+                <order>132.00000000000000000000</order>
+            </item>
+            <item>
+                <id>148</id>
+                <value>BIBO Publication Type</value>
+                <order>134.00000000000000000000</order>
+            </item>
+        </Controlled_vocabularies>
+    </Catalogue>
+    <Catalogue>
+        <id>2</id>
+        <order>0.50000000000000000000</order>
+        <Name>ARIADNE Portal</Name>
+        <Notes />
+        <Audience>
+            <item>
+                <id>15033</id>
+                <value>Archaeologists</value>
+                <color>light-cyan</color>
+            </item>
+            <item>
+                <id>15034</id>
+                <value>Heritage managers</value>
+                <color>darker-brown</color>
+            </item>
+            <item>
+                <id>15035</id>
+                <value>Wider public</value>
+                <color>blue</color>
+            </item>
+            <item>
+                <id>15036</id>
+                <value>Academics</value>
+                <color>green</color>
+            </item>
+        </Audience>
+        <Source>
+            <item>
+                <id>2</id>
+                <value>ADS</value>
+                <order>2.00000000000000000000</order>
+            </item>
+            <item>
+                <id>3</id>
+                <value>SND</value>
+                <order>3.00000000000000000000</order>
+            </item>
+            <item>
+                <id>4</id>
+                <value>Nara Research Institute</value>
+                <order>4.00000000000000000000</order>
+            </item>
+            <item>
+                <id>5</id>
+                <value>Digital Antiquity</value>
+                <order>5.00000000000000000000</order>
+            </item>
+            <item>
+                <id>6</id>
+                <value>CONICET</value>
+                <order>6.00000000000000000000</order>
+            </item>
+            <item>
+                <id>7</id>
+                <value>SEAD</value>
+                <order>7.00000000000000000000</order>
+            </item>
+            <item>
+                <id>8</id>
+                <value>AIS-CR</value>
+                <order>8.00000000000000000000</order>
+            </item>
+            <item>
+                <id>9</id>
+                <value>Inrap</value>
+                <order>9.00000000000000000000</order>
+            </item>
+        </Source>
+        <Resource_Types>
+            <item>
+                <id>1</id>
+                <value>Sites and monuments</value>
+                <order>1.00000000000000000000</order>
+            </item>
+            <item>
+                <id>2</id>
+                <value>Artefacts</value>
+                <order>2.00000000000000000000</order>
+            </item>
+            <item>
+                <id>3</id>
+                <value>Coins</value>
+                <order>3.00000000000000000000</order>
+            </item>
+            <item>
+                <id>4</id>
+                <value>Fieldwork activities</value>
+                <order>4.00000000000000000000</order>
+            </item>
+            <item>
+                <id>5</id>
+                <value>Fieldwork reports</value>
+                <order>5.00000000000000000000</order>
+            </item>
+            <item>
+                <id>6</id>
+                <value>Fieldwork archives</value>
+                <order>6.00000000000000000000</order>
+            </item>
+            <item>
+                <id>7</id>
+                <value>Maritime archaeology</value>
+                <order>7.00000000000000000000</order>
+            </item>
+            <item>
+                <id>8</id>
+                <value>Inscriptions</value>
+                <order>8.00000000000000000000</order>
+            </item>
+            <item>
+                <id>9</id>
+                <value>Rock art</value>
+                <order>9.00000000000000000000</order>
+            </item>
+            <item>
+                <id>10</id>
+                <value>Dating</value>
+                <order>10.00000000000000000000</order>
+            </item>
+            <item>
+                <id>11</id>
+                <value>Burials</value>
+                <order>11.00000000000000000000</order>
+            </item>
+            <item>
+                <id>12</id>
+                <value>Scientific analyses</value>
+                <order>12.00000000000000000000</order>
+            </item>
+            <item>
+                <id>13</id>
+                <value>Building survey</value>
+                <order>13.00000000000000000000</order>
+            </item>
+            <item>
+                <id>14</id>
+                <value>E-publications</value>
+                <order>14.00000000000000000000</order>
+            </item>
+        </Resource_Types>
+        <Internal_schema>
+            <item>
+                <id>1</id>
+                <value>AO-Cat</value>
+                <order>1.00000000000000000000</order>
+            </item>
+            <item>
+                <id>3</id>
+                <value>CIDOC CRM</value>
+                <order>3.00000000000000000000</order>
+            </item>
+            <item>
+                <id>4</id>
+                <value>CRMarchaeo</value>
+                <order>4.00000000000000000000</order>
+            </item>
+            <item>
+                <id>6</id>
+                <value>CRMtex</value>
+                <order>6.00000000000000000000</order>
+            </item>
+            <item>
+                <id>7</id>
+                <value>CRMsci</value>
+                <order>7.00000000000000000000</order>
+            </item>
+        </Internal_schema>
+        <Endpoints>
+            <item>
+                <id>1</id>
+                <value>https://ariadne.d4science.org/group/ariadneplus_lab/graphdb</value>
+                <order>1.00000000000000000000</order>
+            </item>
+        </Endpoints>
+        <Provider>
+            <item>
+                <id>1</id>
+                <value>ARIADNE RI</value>
+                <order>1.00000000000000000000</order>
+            </item>
+        </Provider>
+        <Input>
+            <item>
+                <id>1</id>
+                <value>AO-Cat</value>
+                <order>1.00000000000000000000</order>
+            </item>
+        </Input>
+        <Output>
+            <item>
+                <id>1</id>
+                <value>AO-Cat</value>
+                <order>1.00000000000000000000</order>
+            </item>
+        </Output>
+        <Controlled_vocabularies>
+            <item>
+                <id>10</id>
+                <value>Getty Art and Architecture Thesaurus (AAT)</value>
+                <order>10.00000000000000000000</order>
+            </item>
+            <item>
+                <id>35</id>
+                <value>PeriodO</value>
+                <order>35.00000000000000000000</order>
+            </item>
+        </Controlled_vocabularies>
+    </Catalogue>
+    <Catalogue>
+        <id>3</id>
+        <order>0.66666666666666662966</order>
+        <Name>CLARIN VLO</Name>
+        <Notes />
+        <Audience>
+            <item>
+                <id>15036</id>
+                <value>Academics</value>
+                <color>green</color>
+            </item>
+            <item>
+                <id>15035</id>
+                <value>Wider public</value>
+                <color>blue</color>
+            </item>
+            <item>
+                <id>15037</id>
+                <value>SSH scholars</value>
+                <color>dark-green</color>
+            </item>
+            <item>
+                <id>14987</id>
+                <value>Data providers</value>
+                <color>gray</color>
+            </item>
+        </Audience>
+        <Source>
+            <item>
+                <id>38</id>
+                <value>ARCHE</value>
+                <order>38.00000000000000000000</order>
+            </item>
+            <item>
+                <id>39</id>
+                <value>BAS</value>
+                <order>39.00000000000000000000</order>
+            </item>
+            <item>
+                <id>40</id>
+                <value>BBAW</value>
+                <order>40.00000000000000000000</order>
+            </item>
+            <item>
+                <id>41</id>
+                <value>CKL2CORPORA</value>
+                <order>41.00000000000000000000</order>
+            </item>
+            <item>
+                <id>42</id>
+                <value>CLARIN Latvia</value>
+                <order>42.00000000000000000000</order>
+            </item>
+            <item>
+                <id>43</id>
+                <value>CLARIN Switzerland (LaRS)</value>
+                <order>43.00000000000000000000</order>
+            </item>
+            <item>
+                <id>44</id>
+                <value>CLARIN-IS</value>
+                <order>44.00000000000000000000</order>
+            </item>
+            <item>
+                <id>45</id>
+                <value>CLARIN-LT</value>
+                <order>45.00000000000000000000</order>
+            </item>
+            <item>
+                <id>46</id>
+                <value>CLARIN-PL</value>
+                <order>46.00000000000000000000</order>
+            </item>
+            <item>
+                <id>47</id>
+                <value>CLARIN.SI</value>
+                <order>47.00000000000000000000</order>
+            </item>
+            <item>
+                <id>48</id>
+                <value>CLARIN:EL</value>
+                <order>48.00000000000000000000</order>
+            </item>
+            <item>
+                <id>49</id>
+                <value>CLARINO Bergen Center</value>
+                <order>49.00000000000000000000</order>
+            </item>
+            <item>
+                <id>50</id>
+                <value>CLARINO Text Laboratory Centre</value>
+                <order>50.00000000000000000000</order>
+            </item>
+            <item>
+                <id>51</id>
+                <value>Center of Estonian Language Resources</value>
+                <order>51.00000000000000000000</order>
+            </item>
+            <item>
+                <id>52</id>
+                <value>CLST</value>
+                <order>52.00000000000000000000</order>
+            </item>
+            <item>
+                <id>53</id>
+                <value>CEDIFOR</value>
+                <order>53.00000000000000000000</order>
+            </item>
+            <item>
+                <id>54</id>
+                <value>COCOON</value>
+                <order>54.00000000000000000000</order>
+            </item>
+            <item>
+                <id>55</id>
+                <value>CNC</value>
+                <order>55.00000000000000000000</order>
+            </item>
+            <item>
+                <id>56</id>
+                <value>DARIAH-DE Repository</value>
+                <order>56.00000000000000000000</order>
+            </item>
+            <item>
+                <id>57</id>
+                <value>DANS</value>
+                <order>57.00000000000000000000</order>
+            </item>
+            <item>
+                <id>58</id>
+                <value>Eberhard Karls Universität Tübingen</value>
+                <order>58.00000000000000000000</order>
+            </item>
+            <item>
+                <id>59</id>
+                <value>Eurac Research CLARIN Centre</value>
+                <order>59.00000000000000000000</order>
+            </item>
+            <item>
+                <id>60</id>
+                <value>HZSK</value>
+                <order>60.00000000000000000000</order>
+            </item>
+            <item>
+                <id>61</id>
+                <value>IMS Stuttgart</value>
+                <order>61.00000000000000000000</order>
+            </item>
+            <item>
+                <id>62</id>
+                <value>INT</value>
+                <order>62.00000000000000000000</order>
+            </item>
+            <item>
+                <id>63</id>
+                <value>LINDAT/CLARIAH-CZ</value>
+                <order>63.00000000000000000000</order>
+            </item>
+            <item>
+                <id>64</id>
+                <value>LAC</value>
+                <order>64.00000000000000000000</order>
+            </item>
+            <item>
+                <id>65</id>
+                <value>GEI</value>
+                <order>65.00000000000000000000</order>
+            </item>
+            <item>
+                <id>66</id>
+                <value>IDS Mannheim</value>
+                <order>66.00000000000000000000</order>
+            </item>
+            <item>
+                <id>67</id>
+                <value>LU Humanities Lab</value>
+                <order>67.00000000000000000000</order>
+            </item>
+            <item>
+                <id>68</id>
+                <value>MPI Psycholinguistics</value>
+                <order>68.00000000000000000000</order>
+            </item>
+            <item>
+                <id>69</id>
+                <value>Phonothèque MMSH</value>
+                <order>69.00000000000000000000</order>
+            </item>
+            <item>
+                <id>70</id>
+                <value>Meertens Instituut/HuC</value>
+                <order>70.00000000000000000000</order>
+            </item>
+            <item>
+                <id>71</id>
+                <value>National Library of Norway</value>
+                <order>71.00000000000000000000</order>
+            </item>
+            <item>
+                <id>72</id>
+                <value>ORTOLANG</value>
+                <order>72.00000000000000000000</order>
+            </item>
+            <item>
+                <id>73</id>
+                <value>OTA</value>
+                <order>73.00000000000000000000</order>
+            </item>
+            <item>
+                <id>74</id>
+                <value>PORTULAN CLARIN</value>
+                <order>74.00000000000000000000</order>
+            </item>
+            <item>
+                <id>75</id>
+                <value>PolMine</value>
+                <order>75.00000000000000000000</order>
+            </item>
+            <item>
+                <id>76</id>
+                <value>SAW Leipzig</value>
+                <order>76.00000000000000000000</order>
+            </item>
+            <item>
+                <id>77</id>
+                <value>SADiLaR</value>
+                <order>77.00000000000000000000</order>
+            </item>
+            <item>
+                <id>78</id>
+                <value>Språkbanken</value>
+                <order>78.00000000000000000000</order>
+            </item>
+            <item>
+                <id>79</id>
+                <value>TextGrid</value>
+                <order>79.00000000000000000000</order>
+            </item>
+            <item>
+                <id>80</id>
+                <value>CLARIN Copenhagen</value>
+                <order>80.00000000000000000000</order>
+            </item>
+            <item>
+                <id>81</id>
+                <value>ILC4CLARIN</value>
+                <order>81.00000000000000000000</order>
+            </item>
+            <item>
+                <id>82</id>
+                <value>TROLLing</value>
+                <order>82.00000000000000000000</order>
+            </item>
+            <item>
+                <id>83</id>
+                <value>Universität des Saarlandes</value>
+                <order>83.00000000000000000000</order>
+            </item>
+            <item>
+                <id>84</id>
+                <value>ZIM Centre for Information Modelling</value>
+                <order>84.00000000000000000000</order>
+            </item>
+            <item>
+                <id>85</id>
+                <value>B2SHARE</value>
+                <order>85.00000000000000000000</order>
+            </item>
+            <item>
+                <id>86</id>
+                <value>CLLE ERSS</value>
+                <order>86.00000000000000000000</order>
+            </item>
+            <item>
+                <id>87</id>
+                <value>California Language Archive </value>
+                <order>87.00000000000000000000</order>
+            </item>
+            <item>
+                <id>88</id>
+                <value>ELRA</value>
+                <order>88.00000000000000000000</order>
+            </item>
+            <item>
+                <id>89</id>
+                <value>Europeana</value>
+                <order>89.00000000000000000000</order>
+            </item>
+            <item>
+                <id>90</id>
+                <value>e-codices</value>
+                <order>90.00000000000000000000</order>
+            </item>
+            <item>
+                <id>91</id>
+                <value>PARADISEC</value>
+                <order>91.00000000000000000000</order>
+            </item>
+            <item>
+                <id>92</id>
+                <value>LDC Corpus Catalog</value>
+                <order>92.00000000000000000000</order>
+            </item>
+            <item>
+                <id>93</id>
+                <value>LINGUIST List</value>
+                <order>93.00000000000000000000</order>
+            </item>
+            <item>
+                <id>94</id>
+                <value>The Rosetta Project</value>
+                <order>94.00000000000000000000</order>
+            </item>
+            <item>
+                <id>95</id>
+                <value>University of the Basque Country</value>
+                <order>95.00000000000000000000</order>
+            </item>
+            <item>
+                <id>96</id>
+                <value>WALS</value>
+                <order>96.00000000000000000000</order>
+            </item>
+        </Source>
+        <Resource_Types>
+            <item>
+                <id>15</id>
+                <value>Text</value>
+                <order>15.00000000000000000000</order>
+            </item>
+            <item>
+                <id>16</id>
+                <value>Dataset</value>
+                <order>16.00000000000000000000</order>
+            </item>
+            <item>
+                <id>17</id>
+                <value>Corpus</value>
+                <order>17.00000000000000000000</order>
+            </item>
+            <item>
+                <id>18</id>
+                <value>Software</value>
+                <order>18.00000000000000000000</order>
+            </item>
+            <item>
+                <id>19</id>
+                <value>Collection</value>
+                <order>19.00000000000000000000</order>
+            </item>
+        </Resource_Types>
+        <Internal_schema>
+            <item>
+                <id>14</id>
+                <value>Component Metadata Infrastructure (CMDI)</value>
+                <order>14.00000000000000000000</order>
+            </item>
+        </Internal_schema>
+        <Endpoints>
+            <item>
+                <id>2</id>
+                <value>https://vlo.clarin-dev.eu/api/</value>
+                <order>2.00000000000000000000</order>
+            </item>
+            <item>
+                <id>6</id>
+                <value>https://vlo.clarin.eu/solr/vlo-index/</value>
+                <order>6.00000000000000000000</order>
+            </item>
+        </Endpoints>
+        <Provider>
+            <item>
+                <id>2</id>
+                <value>CLARIN</value>
+                <order>2.00000000000000000000</order>
+            </item>
+        </Provider>
+        <Input>
+            <item>
+                <id>14</id>
+                <value>Component Metadata Infrastructure (CMDI)</value>
+                <order>14.00000000000000000000</order>
+            </item>
+            <item>
+                <id>15</id>
+                <value>Europeana Data Model (EDM)</value>
+                <order>15.00000000000000000000</order>
+            </item>
+            <item>
+                <id>17</id>
+                <value>Data Documentation Initiative (DDI) Codebook</value>
+                <order>17.00000000000000000000</order>
+            </item>
+            <item>
+                <id>33</id>
+                <value>DataCite schema</value>
+                <order>33.00000000000000000000</order>
+            </item>
+            <item>
+                <id>47</id>
+                <value>Dublin Core Metadata Initiative (DCMI)</value>
+                <order>47.00000000000000000000</order>
+            </item>
+        </Input>
+        <Output>
+            <item>
+                <id>14</id>
+                <value>Component Metadata Infrastructure (CMDI)</value>
+                <order>14.00000000000000000000</order>
+            </item>
+        </Output>
+        <Controlled_vocabularies>
+            <item>
+                <id>113</id>
+                <value>CLARIN Concept Registry</value>
+                <order>112.00000000000000000000</order>
+            </item>
+            <item>
+                <id>114</id>
+                <value>CMDI: ISO 639-1 language codes</value>
+                <order>113.00000000000000000000</order>
+            </item>
+            <item>
+                <id>115</id>
+                <value>CMDI: ISO 639-3 language codes</value>
+                <order>114.00000000000000000000</order>
+            </item>
+            <item>
+                <id>116</id>
+                <value>CMDI: ISO 3166-1 alpha-2 country codes</value>
+                <order>115.00000000000000000000</order>
+            </item>
+            <item>
+                <id>117</id>
+                <value>CLARIN/VLO Organisations vocabulary</value>
+                <order>116.00000000000000000000</order>
+            </item>
+        </Controlled_vocabularies>
+    </Catalogue>
+    <Catalogue>
+        <id>4</id>
+        <order>0.75000000000000000000</order>
+        <Name>GoTriple</Name>
+        <Notes />
+        <Audience>
+            <item>
+                <id>15037</id>
+                <value>SSH scholars</value>
+                <color>dark-green</color>
+            </item>
+            <item>
+                <id>14987</id>
+                <value>Data providers</value>
+                <color>gray</color>
+            </item>
+        </Audience>
+        <Source>
+            <item>
+                <id>10</id>
+                <value>DOAJ</value>
+                <order>10.00000000000000000000</order>
+            </item>
+            <item>
+                <id>11</id>
+                <value>BASE</value>
+                <order>11.00000000000000000000</order>
+            </item>
+            <item>
+                <id>12</id>
+                <value>DNB</value>
+                <order>12.00000000000000000000</order>
+            </item>
+            <item>
+                <id>13</id>
+                <value>RECYT</value>
+                <order>13.00000000000000000000</order>
+            </item>
+            <item>
+                <id>14</id>
+                <value>Isidore</value>
+                <order>14.00000000000000000000</order>
+            </item>
+            <item>
+                <id>15</id>
+                <value>EKT</value>
+                <order>15.00000000000000000000</order>
+            </item>
+            <item>
+                <id>16</id>
+                <value>HRCAK</value>
+                <order>16.00000000000000000000</order>
+            </item>
+            <item>
+                <id>17</id>
+                <value>OpenEdition</value>
+                <order>17.00000000000000000000</order>
+            </item>
+            <item>
+                <id>18</id>
+                <value>COIMBRA/Pombolina</value>
+                <order>18.00000000000000000000</order>
+            </item>
+            <item>
+                <id>19</id>
+                <value>CLARIN</value>
+                <order>19.00000000000000000000</order>
+            </item>
+            <item>
+                <id>20</id>
+                <value>CESSDA</value>
+                <order>20.00000000000000000000</order>
+            </item>
+            <item>
+                <id>21</id>
+                <value>ZRC SAZU</value>
+                <order>21.00000000000000000000</order>
+            </item>
+            <item>
+                <id>22</id>
+                <value>Econstor</value>
+                <order>22.00000000000000000000</order>
+            </item>
+            <item>
+                <id>23</id>
+                <value>OpenAIRE</value>
+                <order>23.00000000000000000000</order>
+            </item>
+            <item>
+                <id>24</id>
+                <value>Biblioteka Nauki</value>
+                <order>24.00000000000000000000</order>
+            </item>
+        </Source>
+        <Resource_Types>
+            <item>
+                <id>20</id>
+                <value>Documents</value>
+                <order>20.00000000000000000000</order>
+            </item>
+            <item>
+                <id>21</id>
+                <value>Projects</value>
+                <order>21.00000000000000000000</order>
+            </item>
+            <item>
+                <id>22</id>
+                <value>Profiles</value>
+                <order>22.00000000000000000000</order>
+            </item>
+            <item>
+                <id>28</id>
+                <value>Article</value>
+                <order>28.00000000000000000000</order>
+            </item>
+            <item>
+                <id>29</id>
+                <value>Bibliography</value>
+                <order>29.00000000000000000000</order>
+            </item>
+            <item>
+                <id>30</id>
+                <value>Blog post</value>
+                <order>30.00000000000000000000</order>
+            </item>
+            <item>
+                <id>31</id>
+                <value>Book</value>
+                <order>31.00000000000000000000</order>
+            </item>
+            <item>
+                <id>32</id>
+                <value>Conference</value>
+                <order>32.00000000000000000000</order>
+            </item>
+            <item>
+                <id>33</id>
+                <value>Dataset</value>
+                <order>33.00000000000000000000</order>
+            </item>
+            <item>
+                <id>34</id>
+                <value>Image</value>
+                <order>34.00000000000000000000</order>
+            </item>
+            <item>
+                <id>35</id>
+                <value>Learning object</value>
+                <order>35.00000000000000000000</order>
+            </item>
+            <item>
+                <id>36</id>
+                <value>Manuscript</value>
+                <order>36.00000000000000000000</order>
+            </item>
+            <item>
+                <id>37</id>
+                <value>Fieldwork reports</value>
+                <order>37.00000000000000000000</order>
+            </item>
+            <item>
+                <id>38</id>
+                <value>Periodical</value>
+                <order>38.00000000000000000000</order>
+            </item>
+            <item>
+                <id>39</id>
+                <value>Preprint</value>
+                <order>39.00000000000000000000</order>
+            </item>
+            <item>
+                <id>40</id>
+                <value>Review</value>
+                <order>40.00000000000000000000</order>
+            </item>
+            <item>
+                <id>41</id>
+                <value>Software</value>
+                <order>41.00000000000000000000</order>
+            </item>
+            <item>
+                <id>42</id>
+                <value>Text</value>
+                <order>42.00000000000000000000</order>
+            </item>
+            <item>
+                <id>43</id>
+                <value>Thesis</value>
+                <order>43.00000000000000000000</order>
+            </item>
+            <item>
+                <id>44</id>
+                <value>Map</value>
+                <order>44.00000000000000000000</order>
+            </item>
+            <item>
+                <id>45</id>
+                <value>Other</value>
+                <order>45.00000000000000000000</order>
+            </item>
+        </Resource_Types>
+        <Internal_schema>
+            <item>
+                <id>11</id>
+                <value>TRIPLE Ontology</value>
+                <order>11.00000000000000000000</order>
+            </item>
+        </Internal_schema>
+        <Endpoints>
+            <item>
+                <id>3</id>
+                <value>https://api.gotriple.eu/</value>
+                <order>3.00000000000000000000</order>
+            </item>
+            <item>
+                <id>4</id>
+                <value>https://api.gotriple.eu/oai2</value>
+                <order>4.00000000000000000000</order>
+            </item>
+            <item>
+                <id>7</id>
+                <value>https://services-ca.gotriple.eu/triple-api/v1/classify</value>
+                <order>7.00000000000000000000</order>
+            </item>
+            <item>
+                <id>8</id>
+                <value>https://services-ca.gotriple.eu/triple-api/v1/annotate</value>
+                <order>8.00000000000000000000</order>
+            </item>
+        </Endpoints>
+        <Provider>
+            <item>
+                <id>4</id>
+                <value>OPERAS</value>
+                <order>4.00000000000000000000</order>
+            </item>
+        </Provider>
+        <Input>
+            <item>
+                <id>15</id>
+                <value>Europeana Data Model (EDM)</value>
+                <order>15.00000000000000000000</order>
+            </item>
+            <item>
+                <id>39</id>
+                <value>OpenAIRE guidelines</value>
+                <order>39.00000000000000000000</order>
+            </item>
+            <item>
+                <id>47</id>
+                <value>Dublin Core Metadata Initiative (DCMI)</value>
+                <order>47.00000000000000000000</order>
+            </item>
+            <item>
+                <id>91</id>
+                <value>MARC (Machine-Readable Cataloging)</value>
+                <order>91.00000000000000000000</order>
+            </item>
+        </Input>
+        <Output>
+            <item>
+                <id>47</id>
+                <value>Dublin Core Metadata Initiative (DCMI)</value>
+                <order>47.00000000000000000000</order>
+            </item>
+        </Output>
+        <Controlled_vocabularies>
+            <item>
+                <id>12</id>
+                <value>TRIPLE Vocabulary</value>
+                <order>12.00000000000000000000</order>
+            </item>
+            <item>
+                <id>118</id>
+                <value>COAR Vocabularies</value>
+                <order>117.00000000000000000000</order>
+            </item>
+            <item>
+                <id>129</id>
+                <value>MORESS (Mapping of research in european social sciences and humanities)</value>
+                <order>125.00000000000000000000</order>
+            </item>
+        </Controlled_vocabularies>
+    </Catalogue>
+</Catalogues>

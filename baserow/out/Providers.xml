@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Providers>
+    <Provider>
+        <id>1</id>
+        <order>1.00000000000000000000</order>
+        <Name>ARIADNE RI</Name>
+        <Notes />
+        <Catalogues>
+            <item>
+                <id>2</id>
+                <value>ARIADNE Portal</value>
+                <order>0.50000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Landing_page_URL>https://www.ariadne-research-infrastructure.eu</Landing_page_URL>
+    </Provider>
+    <Provider>
+        <id>2</id>
+        <order>2.00000000000000000000</order>
+        <Name>CLARIN</Name>
+        <Notes />
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Landing_page_URL>https://www.clarin.eu</Landing_page_URL>
+    </Provider>
+    <Provider>
+        <id>3</id>
+        <order>3.00000000000000000000</order>
+        <Name>DARIAH</Name>
+        <Notes>The SSH Open Marketplace is operated as a SSHOC Cluster service. ACDH-CH is hosting the service, on behalf of DARIAH. DARIAH, CLARIN and CESSDA are the funding partners of the service.</Notes>
+        <Catalogues>
+            <item>
+                <id>1</id>
+                <value>SSH Open Marketplace</value>
+                <order>0.33333333333333331483</order>
+            </item>
+        </Catalogues>
+        <Landing_page_URL>https://sshopencloud.eu/news/sshoc-ssh-open-cluster</Landing_page_URL>
+    </Provider>
+    <Provider>
+        <id>4</id>
+        <order>4.00000000000000000000</order>
+        <Name>OPERAS</Name>
+        <Notes />
+        <Catalogues>
+            <item>
+                <id>4</id>
+                <value>GoTriple</value>
+                <order>0.75000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Landing_page_URL>https://operas-eu.org</Landing_page_URL>
+    </Provider>
+</Providers>

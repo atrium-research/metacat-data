@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Endpoints>
+    <Endpoint>
+        <id>1</id>
+        <order>1.00000000000000000000</order>
+        <URL>https://ariadne.d4science.org/group/ariadneplus_lab/graphdb</URL>
+        <ID>1</ID>
+        <Notes />
+        <Catalogue>
+            <item>
+                <id>2</id>
+                <value>ARIADNE Portal</value>
+                <order>0.50000000000000000000</order>
+            </item>
+        </Catalogue>
+        <Protocol>
+            <id>14991</id>
+            <value>SPARQL</value>
+            <color>dark-gray</color>
+        </Protocol>
+        <Status>
+            <id>15645</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+        <Visibility>
+            <id>15649</id>
+            <value>Public</value>
+            <color>cyan</color>
+        </Visibility>
+        <Description>ARIADNE Portal SPARQL endpoint for querying the archaeological graph database</Description>
+    </Endpoint>
+    <Endpoint>
+        <id>2</id>
+        <order>2.00000000000000000000</order>
+        <URL>https://vlo.clarin-dev.eu/api/</URL>
+        <ID>2</ID>
+        <Notes>Alpha version of API – under development and availability is not guaranteed</Notes>
+        <Catalogue>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogue>
+        <Protocol>
+            <id>14992</id>
+            <value>REST API</value>
+            <color>darker-red</color>
+        </Protocol>
+        <Status>
+            <id>15646</id>
+            <value>Under Development</value>
+            <color>yellow</color>
+        </Status>
+        <Visibility>
+            <id>15650</id>
+            <value>Restricted</value>
+            <color>purple</color>
+        </Visibility>
+        <Description>API for the CLARIN VLO (Virtual Language Observatory)</Description>
+    </Endpoint>
+    <Endpoint>
+        <id>3</id>
+        <order>3.00000000000000000000</order>
+        <URL>https://api.gotriple.eu/</URL>
+        <ID>3</ID>
+        <Notes />
+        <Catalogue>
+            <item>
+                <id>4</id>
+                <value>GoTriple</value>
+                <order>0.75000000000000000000</order>
+            </item>
+        </Catalogue>
+        <Protocol>
+            <id>14992</id>
+            <value>REST API</value>
+            <color>darker-red</color>
+        </Protocol>
+        <Status>
+            <id>15645</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+        <Visibility>
+            <id>15649</id>
+            <value>Public</value>
+            <color>cyan</color>
+        </Visibility>
+        <Description>Main REST API for accessing the GoTriple project’s data and services</Description>
+    </Endpoint>
+    <Endpoint>
+        <id>4</id>
+        <order>4.00000000000000000000</order>
+        <URL>https://api.gotriple.eu/oai2</URL>
+        <ID>4</ID>
+        <Notes />
+        <Catalogue>
+            <item>
+                <id>4</id>
+                <value>GoTriple</value>
+                <order>0.75000000000000000000</order>
+            </item>
+        </Catalogue>
+        <Protocol>
+            <id>14990</id>
+            <value>OAI-PMH</value>
+            <color>darker-cyan</color>
+        </Protocol>
+        <Status>
+            <id>15645</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+        <Visibility>
+            <id>15649</id>
+            <value>Public</value>
+            <color>cyan</color>
+        </Visibility>
+        <Description>OAI-PMH endpoint for metadata harvesting in the GoTriple project</Description>
+    </Endpoint>
+    <Endpoint>
+        <id>5</id>
+        <order>5.00000000000000000000</order>
+        <URL>https://marketplace-api.sshopencloud.eu/api/</URL>
+        <ID>5</ID>
+        <Notes />
+        <Catalogue>
+            <item>
+                <id>1</id>
+                <value>SSH Open Marketplace</value>
+                <order>0.33333333333333331483</order>
+            </item>
+        </Catalogue>
+        <Protocol>
+            <id>14992</id>
+            <value>REST API</value>
+            <color>darker-red</color>
+        </Protocol>
+        <Status>
+            <id>15645</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+        <Visibility>
+            <id>15649</id>
+            <value>Public</value>
+            <color>cyan</color>
+        </Visibility>
+        <Description>SSH Open Marketplace REST API providing access to services and tools in the SSH research community</Description>
+    </Endpoint>
+    <Endpoint>
+        <id>6</id>
+        <order>6.00000000000000000000</order>
+        <URL>https://vlo.clarin.eu/solr/vlo-index/</URL>
+        <ID>6</ID>
+        <Notes>Not publicly accessible</Notes>
+        <Catalogue>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogue>
+        <Protocol>
+            <id>15607</id>
+            <value>SOLR</value>
+            <color>light-orange</color>
+        </Protocol>
+        <Status>
+            <id>15645</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+        <Visibility>
+            <id>15651</id>
+            <value>Private</value>
+            <color>pink</color>
+        </Visibility>
+        <Description>SOLR index API for querying language resources in the CLARIN VLO</Description>
+    </Endpoint>
+    <Endpoint>
+        <id>7</id>
+        <order>7.00000000000000000000</order>
+        <URL>https://services-ca.gotriple.eu/triple-api/v1/classify</URL>
+        <ID>7</ID>
+        <Notes>Could be opened and extended within the ATRIUM consortium.</Notes>
+        <Catalogue>
+            <item>
+                <id>4</id>
+                <value>GoTriple</value>
+                <order>0.75000000000000000000</order>
+            </item>
+        </Catalogue>
+        <Protocol>
+            <id>14992</id>
+            <value>REST API</value>
+            <color>darker-red</color>
+        </Protocol>
+        <Status>
+            <id>15645</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+        <Visibility>
+            <id>15651</id>
+            <value>Private</value>
+            <color>pink</color>
+        </Visibility>
+        <Description>GoTriple Document Classify Service</Description>
+    </Endpoint>
+    <Endpoint>
+        <id>8</id>
+        <order>8.00000000000000000000</order>
+        <URL>https://services-ca.gotriple.eu/triple-api/v1/annotate</URL>
+        <ID>8</ID>
+        <Notes>Could be opened and extended within the ATRIUM consortium.</Notes>
+        <Catalogue>
+            <item>
+                <id>4</id>
+                <value>GoTriple</value>
+                <order>0.75000000000000000000</order>
+            </item>
+        </Catalogue>
+        <Protocol>
+            <id>14992</id>
+            <value>REST API</value>
+            <color>darker-red</color>
+        </Protocol>
+        <Status>
+            <id>15645</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+        <Visibility>
+            <id>15651</id>
+            <value>Private</value>
+            <color>pink</color>
+        </Visibility>
+        <Description>GoTriple Document Annotation Service</Description>
+    </Endpoint>
+</Endpoints>

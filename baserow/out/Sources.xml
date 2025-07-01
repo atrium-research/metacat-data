@@ -1,0 +1,2726 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Sources>
+    <Source>
+        <id>2</id>
+        <order>2.00000000000000000000</order>
+        <Name>ADS</Name>
+        <Description>UK-based service specializing in the preservation and dissemination of archaeological research data.</Description>
+        <Landing_page_URL>https://archaeologydataservice.ac.uk</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>2</id>
+                <value>ARIADNE Portal</value>
+                <order>0.50000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15039</id>
+                <value>United Kingdom</value>
+                <color>light-brown</color>
+            </item>
+        </Country>
+        <Full_name>Archaeology Data Service</Full_name>
+        <Provider>University of York</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>3</id>
+        <order>3.00000000000000000000</order>
+        <Name>SND</Name>
+        <Description>Sweden's national platform for managing and sharing research data across various disciplines.</Description>
+        <Landing_page_URL>https://snd.se</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>2</id>
+                <value>ARIADNE Portal</value>
+                <order>0.50000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15040</id>
+                <value>Sweden</value>
+                <color>orange</color>
+            </item>
+        </Country>
+        <Full_name>Swedish National Data Service</Full_name>
+        <Provider>University of Gothenburg</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>4</id>
+        <order>4.00000000000000000000</order>
+        <Name>Nara Research Institute</Name>
+        <Description>Japanese research center dedicated to the preservation and study of cultural heritage and archaeological discoveries.</Description>
+        <Landing_page_URL>https://www.nabunken.go.jp/english/</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>2</id>
+                <value>ARIADNE Portal</value>
+                <order>0.50000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15044</id>
+                <value>Japan</value>
+                <color>dark-brown</color>
+            </item>
+        </Country>
+        <Full_name>Nara National Research Institute for Cultural Properties</Full_name>
+        <Provider>Nara National Research Institute</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>5</id>
+        <order>5.00000000000000000000</order>
+        <Name>Digital Antiquity</Name>
+        <Description>US-based organization managing tDAR, a database focused on the digital preservation of archaeological archives and cultural resources.</Description>
+        <Landing_page_URL>https://www.tdar.org</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>2</id>
+                <value>ARIADNE Portal</value>
+                <order>0.50000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15045</id>
+                <value>United States of America</value>
+                <color>blue</color>
+            </item>
+        </Country>
+        <Full_name>Digital Antiquity (The Digital Archaeological Record - tDAR)</Full_name>
+        <Provider>Arizona State University</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>6</id>
+        <order>6.00000000000000000000</order>
+        <Name>CONICET</Name>
+        <Description>Argentina's leading research organization, supporting various scientific disciplines, including archaeology.</Description>
+        <Landing_page_URL>https://www.conicet.gov.ar</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>2</id>
+                <value>ARIADNE Portal</value>
+                <order>0.50000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15043</id>
+                <value>Argentina</value>
+                <color>light-red</color>
+            </item>
+        </Country>
+        <Full_name>National Scientific and Technical Research Council</Full_name>
+        <Provider>CONICET</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>7</id>
+        <order>7.00000000000000000000</order>
+        <Name>SEAD</Name>
+        <Description>A Swedish national resource for environmental archaeology data.</Description>
+        <Landing_page_URL>https://www.sead.se</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>2</id>
+                <value>ARIADNE Portal</value>
+                <order>0.50000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15040</id>
+                <value>Sweden</value>
+                <color>orange</color>
+            </item>
+        </Country>
+        <Full_name>The Strategic Environmental Archaeology Database</Full_name>
+        <Provider>Uppsala University</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>8</id>
+        <order>8.00000000000000000000</order>
+        <Name>AIS-CR</Name>
+        <Description>National archaeological database and information system of the Czech Republic.</Description>
+        <Landing_page_URL>https://www.aiscr.cz</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>2</id>
+                <value>ARIADNE Portal</value>
+                <order>0.50000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15042</id>
+                <value>Czech Republic</value>
+                <color>purple</color>
+            </item>
+        </Country>
+        <Full_name>Archaeological Information System of the Czech Republic</Full_name>
+        <Provider>Institute of Archaeology, Czech Academy of Sciences</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>9</id>
+        <order>9.00000000000000000000</order>
+        <Name>Inrap</Name>
+        <Description>France's leading institution for preventive archaeology, responsible for safeguarding the nation's archaeological heritage.</Description>
+        <Landing_page_URL>https://www.inrap.fr</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>2</id>
+                <value>ARIADNE Portal</value>
+                <order>0.50000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15041</id>
+                <value>France</value>
+                <color>dark-orange</color>
+            </item>
+        </Country>
+        <Full_name>Institut national de recherches archéologiques préventives</Full_name>
+        <Provider>Inrap</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>10</id>
+        <order>10.00000000000000000000</order>
+        <Name>DOAJ</Name>
+        <Description>An online directory that indexes and provides access to high-quality, open-access, peer-reviewed journals.</Description>
+        <Landing_page_URL>https://doaj.org</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>4</id>
+                <value>GoTriple</value>
+                <order>0.75000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15039</id>
+                <value>United Kingdom</value>
+                <color>light-brown</color>
+            </item>
+            <item>
+                <id>15046</id>
+                <value>Denmark</value>
+                <color>light-blue</color>
+            </item>
+        </Country>
+        <Full_name>Directory of Open Access Journals</Full_name>
+        <Provider>DOAJ Team (International)</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>11</id>
+        <order>11.00000000000000000000</order>
+        <Name>BASE</Name>
+        <Description>One of the world's largest search engines for academic web resources, especially for open-access content.</Description>
+        <Landing_page_URL>https://www.base-search.net</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>4</id>
+                <value>GoTriple</value>
+                <order>0.75000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15047</id>
+                <value>Germany</value>
+                <color>pink</color>
+            </item>
+        </Country>
+        <Full_name>Bielefeld Academic Search Engine</Full_name>
+        <Provider>Bielefeld University Library</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>12</id>
+        <order>12.00000000000000000000</order>
+        <Name>DNB</Name>
+        <Description>The German National Library, responsible for collecting and preserving all German-language publications.</Description>
+        <Landing_page_URL>https://www.dnb.de</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>4</id>
+                <value>GoTriple</value>
+                <order>0.75000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15047</id>
+                <value>Germany</value>
+                <color>pink</color>
+            </item>
+        </Country>
+        <Full_name>Deutsche Nationalbibliothek</Full_name>
+        <Provider>Deutsche Nationalbibliothek</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>13</id>
+        <order>13.00000000000000000000</order>
+        <Name>RECYT</Name>
+        <Description>Spanish repository for science and technology, managed by FECYT, providing access to scientific data and publications.</Description>
+        <Landing_page_URL>https://recyt.fecyt.es</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>4</id>
+                <value>GoTriple</value>
+                <order>0.75000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15048</id>
+                <value>Spain</value>
+                <color>orange</color>
+            </item>
+        </Country>
+        <Full_name>Repositorio Español de Ciencia y Tecnología</Full_name>
+        <Provider>FECYT (Fundación Española para la Ciencia y la Tecnología)</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>14</id>
+        <order>14.00000000000000000000</order>
+        <Name>Isidore</Name>
+        <Description>A platform providing access to digital data in humanities and social sciences.</Description>
+        <Landing_page_URL>https://isidore.science</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>4</id>
+                <value>GoTriple</value>
+                <order>0.75000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15041</id>
+                <value>France</value>
+                <color>dark-orange</color>
+            </item>
+        </Country>
+        <Full_name>Integration Services, interconnection of Data of the Research and Education</Full_name>
+        <Provider>Huma-Num (CNRS)</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>15</id>
+        <order>15.00000000000000000000</order>
+        <Name>EKT</Name>
+        <Description>Greece's National Documentation Centre, responsible for archiving and providing access to a wide range of scientific and cultural resources.</Description>
+        <Landing_page_URL>https://www.ekt.gr</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>4</id>
+                <value>GoTriple</value>
+                <order>0.75000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15049</id>
+                <value>Greece</value>
+                <color>light-gray</color>
+            </item>
+        </Country>
+        <Full_name>Εθνικό Κέντρο Τεκμηρίωσης &amp; Ηλεκτρονικού Περιεχομένου (National Documentation Centre of Greece)</Full_name>
+        <Provider>EKT</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>16</id>
+        <order>16.00000000000000000000</order>
+        <Name>HRCAK</Name>
+        <Description>The central Croatian portal for open-access scientific journals.</Description>
+        <Landing_page_URL>https://hrcak.srce.hr</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>4</id>
+                <value>GoTriple</value>
+                <order>0.75000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15050</id>
+                <value>Croatia</value>
+                <color>light-pink</color>
+            </item>
+        </Country>
+        <Full_name>HRCAK Portal of Scientific Journals of Croatia</Full_name>
+        <Provider>University of Zagreb, SRCE</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>17</id>
+        <order>17.00000000000000000000</order>
+        <Name>OpenEdition</Name>
+        <Description>A French open-access platform for journals, books, and research blogs in the humanities and social sciences.</Description>
+        <Landing_page_URL>https://www.openedition.org</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>4</id>
+                <value>GoTriple</value>
+                <order>0.75000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15041</id>
+                <value>France</value>
+                <color>dark-orange</color>
+            </item>
+        </Country>
+        <Full_name>OpenEdition</Full_name>
+        <Provider>OpenEdition (CLEO - Centre for Open Electronic Publishing)</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>18</id>
+        <order>18.00000000000000000000</order>
+        <Name>COIMBRA/Pombolina</Name>
+        <Description>Portugal's University of Coimbra's digital library providing access to academic and scientific documents.</Description>
+        <Landing_page_URL>https://digitalis.uc.pt/pombalina</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>4</id>
+                <value>GoTriple</value>
+                <order>0.75000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15051</id>
+                <value>Portugal</value>
+                <color>darker-blue</color>
+            </item>
+        </Country>
+        <Full_name>COIMBRA/Pombalina</Full_name>
+        <Provider>University of Coimbra</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>19</id>
+        <order>19.00000000000000000000</order>
+        <Name>CLARIN</Name>
+        <Description>European research infrastructure providing access to language resources and technology.</Description>
+        <Landing_page_URL>https://www.clarin.eu</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>4</id>
+                <value>GoTriple</value>
+                <order>0.75000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15052</id>
+                <value>Europe</value>
+                <color>red</color>
+            </item>
+            <item>
+                <id>15064</id>
+                <value>Netherlands</value>
+                <color>deep-dark-green</color>
+            </item>
+        </Country>
+        <Full_name>Common Language Resources and Technology Infrastructure</Full_name>
+        <Provider>CLARIN ERIC</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>20</id>
+        <order>20.00000000000000000000</order>
+        <Name>CESSDA</Name>
+        <Description>European research infrastructure providing access to data in the social sciences.</Description>
+        <Landing_page_URL>https://www.cessda.eu</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>4</id>
+                <value>GoTriple</value>
+                <order>0.75000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15052</id>
+                <value>Europe</value>
+                <color>red</color>
+            </item>
+            <item>
+                <id>15062</id>
+                <value>Norway</value>
+                <color>green</color>
+            </item>
+        </Country>
+        <Full_name>Consortium of European Social Science Data Archives</Full_name>
+        <Provider>CESSDA ERIC</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>21</id>
+        <order>21.00000000000000000000</order>
+        <Name>ZRC SAZU</Name>
+        <Description>Slovenia’s leading research institute in the humanities and social sciences.</Description>
+        <Landing_page_URL>https://www.zrc-sazu.si</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>4</id>
+                <value>GoTriple</value>
+                <order>0.75000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15053</id>
+                <value>Slovenia</value>
+                <color>dark-purple</color>
+            </item>
+        </Country>
+        <Full_name>Znanstvenoraziskovalni center Slovenske akademije znanosti in umetnosti (Research Centre of the Slovenian Academy of Sciences and Arts)</Full_name>
+        <Provider>ZRC SAZU</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>22</id>
+        <order>22.00000000000000000000</order>
+        <Name>Econstor</Name>
+        <Description>A platform providing open-access publications in economics.</Description>
+        <Landing_page_URL>https://www.econstor.eu</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>4</id>
+                <value>GoTriple</value>
+                <order>0.75000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15047</id>
+                <value>Germany</value>
+                <color>pink</color>
+            </item>
+        </Country>
+        <Full_name>Econstor</Full_name>
+        <Provider>ZBW – Leibniz Information Centre for Economics</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>23</id>
+        <order>23.00000000000000000000</order>
+        <Name>OpenAIRE</Name>
+        <Description>A European infrastructure supporting open access to research outputs and fostering open science.</Description>
+        <Landing_page_URL>https://www.openaire.eu</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>4</id>
+                <value>GoTriple</value>
+                <order>0.75000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15052</id>
+                <value>Europe</value>
+                <color>red</color>
+            </item>
+            <item>
+                <id>15049</id>
+                <value>Greece</value>
+                <color>light-gray</color>
+            </item>
+        </Country>
+        <Full_name>Open Access Infrastructure for Research in Europe</Full_name>
+        <Provider>OpenAIRE Consortium</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>24</id>
+        <order>24.00000000000000000000</order>
+        <Name>Biblioteka Nauki</Name>
+        <Description>A Polish platform providing open access to scientific publications in various fields.</Description>
+        <Landing_page_URL>https://bibliotekanauki.pl</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>4</id>
+                <value>GoTriple</value>
+                <order>0.75000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15054</id>
+                <value>Poland</value>
+                <color>dark-pink</color>
+            </item>
+        </Country>
+        <Full_name>Biblioteka Nauki</Full_name>
+        <Provider>Interdisciplinary Centre for Mathematical and Computational Modelling (ICM), University of Warsaw</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>25</id>
+        <order>25.00000000000000000000</order>
+        <Name>DH Publications (dblp)</Name>
+        <Description>A bibliography for computer science publications, indexing research papers from various sources.</Description>
+        <Landing_page_URL>https://dblp.org</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>1</id>
+                <value>SSH Open Marketplace</value>
+                <order>0.33333333333333331483</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15047</id>
+                <value>Germany</value>
+                <color>pink</color>
+            </item>
+        </Country>
+        <Full_name>dblp computer science bibliography</Full_name>
+        <Provider>Schloss Dagstuhl – Leibniz Center for Informatics</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>26</id>
+        <order>26.00000000000000000000</order>
+        <Name>CLARIN Resource Families</Name>
+        <Description>Provides access to language resources, categorized into families for easier search and discovery.</Description>
+        <Landing_page_URL>https://www.clarin.eu/resource-families</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>1</id>
+                <value>SSH Open Marketplace</value>
+                <order>0.33333333333333331483</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15052</id>
+                <value>Europe</value>
+                <color>red</color>
+            </item>
+            <item>
+                <id>15064</id>
+                <value>Netherlands</value>
+                <color>deep-dark-green</color>
+            </item>
+        </Country>
+        <Full_name>CLARIN Resource Families</Full_name>
+        <Provider>CLARIN ERIC</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>27</id>
+        <order>27.00000000000000000000</order>
+        <Name>TAPoR</Name>
+        <Description>A portal offering tools and resources for text analysis, designed for humanities scholars.</Description>
+        <Landing_page_URL>https://tapor.ca</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>1</id>
+                <value>SSH Open Marketplace</value>
+                <order>0.33333333333333331483</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15055</id>
+                <value>Canada</value>
+                <color>light-cyan</color>
+            </item>
+        </Country>
+        <Full_name>Text Analysis Portal for Research</Full_name>
+        <Provider>TAPoR Consortium</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>28</id>
+        <order>28.00000000000000000000</order>
+        <Name>SSK Zotero Resources</Name>
+        <Description>A collection of Zotero-based resources to assist with standardization in research.</Description>
+        <Landing_page_URL>https://www.zotero.org/groups/427927/ssk-parthenos/library</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>1</id>
+                <value>SSH Open Marketplace</value>
+                <order>0.33333333333333331483</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15052</id>
+                <value>Europe</value>
+                <color>red</color>
+            </item>
+        </Country>
+        <Full_name>Standardization Survival Kit Zotero Resources</Full_name>
+        <Provider>SSK Consortium</Provider>
+        <Status>
+            <id>15642</id>
+            <value>Decommissioned</value>
+            <color>gray</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>29</id>
+        <order>29.00000000000000000000</order>
+        <Name>Humanities Data</Name>
+        <Description>A platform for accessing various data sets in the humanities.</Description>
+        <Landing_page_URL>https://humanitiesdata.com/</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>1</id>
+                <value>SSH Open Marketplace</value>
+                <order>0.33333333333333331483</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15045</id>
+                <value>United States of America</value>
+                <color>blue</color>
+            </item>
+        </Country>
+        <Full_name>Humanities Data</Full_name>
+        <Provider>Humanities Data Consortium</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>30</id>
+        <order>30.00000000000000000000</order>
+        <Name>The Programming Historian</Name>
+        <Description>Offers tutorials and resources for digital tools and techniques in historical research.</Description>
+        <Landing_page_URL>https://programminghistorian.org</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>1</id>
+                <value>SSH Open Marketplace</value>
+                <order>0.33333333333333331483</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15640</id>
+                <value>World</value>
+                <color>light-cyan</color>
+            </item>
+        </Country>
+        <Full_name>The Programming Historian</Full_name>
+        <Provider>Programming Historian Editorial Board</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>31</id>
+        <order>31.00000000000000000000</order>
+        <Name>DARIAH Campus</Name>
+        <Description>A platform offering open educational resources for digital humanities research.</Description>
+        <Landing_page_URL>https://campus.dariah.eu</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>1</id>
+                <value>SSH Open Marketplace</value>
+                <order>0.33333333333333331483</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15052</id>
+                <value>Europe</value>
+                <color>red</color>
+            </item>
+        </Country>
+        <Full_name>DARIAH Campus</Full_name>
+        <Provider>DARIAH</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>32</id>
+        <order>32.00000000000000000000</order>
+        <Name>CESSDA (trainings)</Name>
+        <Description>Provides access to training resources for social science data archives.</Description>
+        <Landing_page_URL>https://www.cessda.eu/Training-Resources</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>1</id>
+                <value>SSH Open Marketplace</value>
+                <order>0.33333333333333331483</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15052</id>
+                <value>Europe</value>
+                <color>red</color>
+            </item>
+            <item>
+                <id>15062</id>
+                <value>Norway</value>
+                <color>green</color>
+            </item>
+        </Country>
+        <Full_name>CESSDA Training Catalogue</Full_name>
+        <Provider>CESSDA ERIC</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>33</id>
+        <order>33.00000000000000000000</order>
+        <Name>Language Resource Switchboard</Name>
+        <Description>Tool for processing and analyzing language resources by linking them to relevant tools.</Description>
+        <Landing_page_URL>https://switchboard.clarin.eu</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>1</id>
+                <value>SSH Open Marketplace</value>
+                <order>0.33333333333333331483</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15052</id>
+                <value>Europe</value>
+                <color>red</color>
+            </item>
+            <item>
+                <id>15064</id>
+                <value>Netherlands</value>
+                <color>deep-dark-green</color>
+            </item>
+        </Country>
+        <Full_name>CLARIN Language Resource Switchboard</Full_name>
+        <Provider>CLARIN ERIC</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>34</id>
+        <order>34.00000000000000000000</order>
+        <Name>Standardisation Survival Kit</Name>
+        <Description>Provides resources for understanding and implementing standards in social sciences and humanities research.</Description>
+        <Landing_page_URL>https://marketplace.sshopencloud.eu/search?order=score&amp;categories=workflow&amp;f.source=Standardization+Survival+Kit#/</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>1</id>
+                <value>SSH Open Marketplace</value>
+                <order>0.33333333333333331483</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15052</id>
+                <value>Europe</value>
+                <color>red</color>
+            </item>
+        </Country>
+        <Full_name>Standardisation Survival Kit</Full_name>
+        <Provider>SSHOC (Social Sciences &amp; Humanities Open Cloud)</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>35</id>
+        <order>35.00000000000000000000</order>
+        <Name>EOSC Catalogue</Name>
+        <Description>Previously provided access to services and resources from the European Open Science Cloud.</Description>
+        <Landing_page_URL>https://marketplace.eosc-portal.eu/</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>1</id>
+                <value>SSH Open Marketplace</value>
+                <order>0.33333333333333331483</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15052</id>
+                <value>Europe</value>
+                <color>red</color>
+            </item>
+        </Country>
+        <Full_name>European Open Science Cloud Catalogue</Full_name>
+        <Provider>EOSC</Provider>
+        <Status>
+            <id>15642</id>
+            <value>Decommissioned</value>
+            <color>gray</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>36</id>
+        <order>36.00000000000000000000</order>
+        <Name>SSHOC Service Catalogue</Name>
+        <Description>Previously provided services for research in the social sciences and humanities.</Description>
+        <Landing_page_URL>https://sshopencloud.eu/service-catalogue</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>1</id>
+                <value>SSH Open Marketplace</value>
+                <order>0.33333333333333331483</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15052</id>
+                <value>Europe</value>
+                <color>red</color>
+            </item>
+        </Country>
+        <Full_name>SSH Open Cloud Project Service Catalogue</Full_name>
+        <Provider>SSHOC</Provider>
+        <Status>
+            <id>15642</id>
+            <value>Decommissioned</value>
+            <color>gray</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>37</id>
+        <order>37.00000000000000000000</order>
+        <Name>DARIAH contribution tool</Name>
+        <Description>Previously facilitated in-kind contributions to the DARIAH research infrastructure.</Description>
+        <Landing_page_URL>https://dans-labs.github.io/dariah-contrib/</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>1</id>
+                <value>SSH Open Marketplace</value>
+                <order>0.33333333333333331483</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15052</id>
+                <value>Europe</value>
+                <color>red</color>
+            </item>
+        </Country>
+        <Full_name>DARIAH in-kind contribution tool</Full_name>
+        <Provider>DARIAH</Provider>
+        <Status>
+            <id>15642</id>
+            <value>Decommissioned</value>
+            <color>gray</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>38</id>
+        <order>38.00000000000000000000</order>
+        <Name>ARCHE</Name>
+        <Description>Offers access to digital humanities resources, with a focus on Austrian cultural heritage.</Description>
+        <Landing_page_URL>https://arche.acdh.oeaw.ac.at</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15056</id>
+                <value>Austria</value>
+                <color>dark-red</color>
+            </item>
+        </Country>
+        <Full_name>A Resource Centre for the HumanitiEs</Full_name>
+        <Provider>Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>39</id>
+        <order>39.00000000000000000000</order>
+        <Name>BAS</Name>
+        <Description>Provides access to speech signal data from various research projects.</Description>
+        <Landing_page_URL>http://hdl.handle.net/11858/00-1779-0000-000C-DAAF-B</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15047</id>
+                <value>Germany</value>
+                <color>pink</color>
+            </item>
+        </Country>
+        <Full_name>Bayerisches Archiv für Sprachsignale</Full_name>
+        <Provider>Ludwig-Maximilians-Universität München</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>40</id>
+        <order>40.00000000000000000000</order>
+        <Name>BBAW</Name>
+        <Description>A research institute providing access to linguistic and historical resources.</Description>
+        <Landing_page_URL>http://www.bbaw.de</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15047</id>
+                <value>Germany</value>
+                <color>pink</color>
+            </item>
+        </Country>
+        <Full_name>Berlin-Brandenburg Academy of Sciences and Humanities</Full_name>
+        <Provider>BBAW</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>41</id>
+        <order>41.00000000000000000000</order>
+        <Name>CKL2CORPORA</Name>
+        <Description>Provides expertise and resources related to learner corpora for research purposes.</Description>
+        <Landing_page_URL>https://uclouvain.be/en/research-institutes/ilc/clarin-knowledge-centre-for-learner-corpora.html</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15057</id>
+                <value>Belgium</value>
+                <color>purple</color>
+            </item>
+        </Country>
+        <Full_name>CLARIN Knowledge Centre for Learner Corpora</Full_name>
+        <Provider>Université catholique de Louvain</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>42</id>
+        <order>42.00000000000000000000</order>
+        <Name>CLARIN Latvia</Name>
+        <Description>Provides access to language resources and tools related to the Latvian language.</Description>
+        <Landing_page_URL>https://www.clarin.lv</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15058</id>
+                <value>Latvia</value>
+                <color>light-red</color>
+            </item>
+        </Country>
+        <Full_name>CLARIN Centre of Latvian language resources and tools</Full_name>
+        <Provider>CLARIN Latvia</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>43</id>
+        <order>43.00000000000000000000</order>
+        <Name>CLARIN Switzerland (LaRS)</Name>
+        <Description>Provides access to language resources and tools in Switzerland.</Description>
+        <Landing_page_URL>https://clarin-ch.ch</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15059</id>
+                <value>Switzerland</value>
+                <color>dark-purple</color>
+            </item>
+        </Country>
+        <Full_name>CLARIN Switzerland (Language Resource Switchboard)</Full_name>
+        <Provider>CLARIN Switzerland</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>44</id>
+        <order>44.00000000000000000000</order>
+        <Name>CLARIN-IS</Name>
+        <Description>Provides access to Icelandic language resources.</Description>
+        <Landing_page_URL>http://clarin.is</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15060</id>
+                <value>Iceland</value>
+                <color>dark-gray</color>
+            </item>
+        </Country>
+        <Full_name>CLARIN Iceland</Full_name>
+        <Provider>CLARIN Iceland</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>45</id>
+        <order>45.00000000000000000000</order>
+        <Name>CLARIN-LT</Name>
+        <Description>Provides Lithuanian language resources and tools for research.</Description>
+        <Landing_page_URL>http://www.clarin-lt.lt</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15061</id>
+                <value>Lithuania</value>
+                <color>light-blue</color>
+            </item>
+        </Country>
+        <Full_name>CLARIN Lithuania</Full_name>
+        <Provider>CLARIN Lithuania</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>46</id>
+        <order>46.00000000000000000000</order>
+        <Name>CLARIN-PL</Name>
+        <Description>Offers tools and resources for Polish language research.</Description>
+        <Landing_page_URL>https://clarin-pl.eu</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15054</id>
+                <value>Poland</value>
+                <color>dark-pink</color>
+            </item>
+        </Country>
+        <Full_name>CLARIN-PL Language Technology Centre</Full_name>
+        <Provider>CLARIN Poland</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>47</id>
+        <order>47.00000000000000000000</order>
+        <Name>CLARIN.SI</Name>
+        <Description>Provides Slovenian language resources and tools.</Description>
+        <Landing_page_URL>http://www.clarin.si</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15053</id>
+                <value>Slovenia</value>
+                <color>dark-purple</color>
+            </item>
+        </Country>
+        <Full_name>CLARIN.SI Language Technology Centre</Full_name>
+        <Provider>CLARIN Slovenia</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>48</id>
+        <order>48.00000000000000000000</order>
+        <Name>CLARIN:EL</Name>
+        <Description>Offers Greek language resources and technologies for language processing and research.</Description>
+        <Landing_page_URL>https://www.clarin.gr</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15049</id>
+                <value>Greece</value>
+                <color>light-gray</color>
+            </item>
+        </Country>
+        <Full_name>CLARIN National Infrastructure for Language Resources &amp; Technologies in Greece</Full_name>
+        <Provider>CLARIN Greece</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>49</id>
+        <order>49.00000000000000000000</order>
+        <Name>CLARINO Bergen Center</Name>
+        <Description>Provides Norwegian language resources and tools for research.</Description>
+        <Landing_page_URL>http://clarino.uib.no</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15062</id>
+                <value>Norway</value>
+                <color>green</color>
+            </item>
+        </Country>
+        <Full_name>CLARINO Bergen Center</Full_name>
+        <Provider>CLARIN Norway</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>50</id>
+        <order>50.00000000000000000000</order>
+        <Name>CLARINO Text Laboratory Centre</Name>
+        <Description>Provides access to tools for text analysis and natural language processing.</Description>
+        <Landing_page_URL>http://www.tekstlab.uio.no/clarino</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15062</id>
+                <value>Norway</value>
+                <color>green</color>
+            </item>
+        </Country>
+        <Full_name>CLARINO Text Laboratory Centre</Full_name>
+        <Provider>CLARIN Norway</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>51</id>
+        <order>51.00000000000000000000</order>
+        <Name>Center of Estonian Language Resources</Name>
+        <Description>Provides access to Estonian language resources and tools.</Description>
+        <Landing_page_URL>http://www.keeleressursid.ee</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15063</id>
+                <value>Estonia</value>
+                <color>light-red</color>
+            </item>
+        </Country>
+        <Full_name>Center of Estonian Language Resources</Full_name>
+        <Provider>CLARIN Estonia</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>52</id>
+        <order>52.00000000000000000000</order>
+        <Name>CLST</Name>
+        <Description>Offers speech and language resources, with a focus on speech technology.</Description>
+        <Landing_page_URL>http://www.ru.nl/clst</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15064</id>
+                <value>Netherlands</value>
+                <color>deep-dark-green</color>
+            </item>
+        </Country>
+        <Full_name>Centre for Language and Speech Technology</Full_name>
+        <Provider>Radboud University</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>53</id>
+        <order>53.00000000000000000000</order>
+        <Name>CEDIFOR</Name>
+        <Description>Provides digital resources and services for research in humanities and social sciences.</Description>
+        <Landing_page_URL>https://www.cedifor.de</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15047</id>
+                <value>Germany</value>
+                <color>pink</color>
+            </item>
+        </Country>
+        <Full_name>Centre for the Digital Foundation of Research in the Humanities, Social, and Educational Sciences</Full_name>
+        <Provider>CLARIN Germany</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>54</id>
+        <order>54.00000000000000000000</order>
+        <Name>COCOON</Name>
+        <Description>A French platform offering access to digital oral corpora.</Description>
+        <Landing_page_URL>http://cocoon.huma-num.fr</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15041</id>
+                <value>France</value>
+                <color>dark-orange</color>
+            </item>
+        </Country>
+        <Full_name>Collections de corpus oraux numériques</Full_name>
+        <Provider>Huma-Num (CNRS)</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>55</id>
+        <order>55.00000000000000000000</order>
+        <Name>CNC</Name>
+        <Description>Provides access to large-scale linguistic data for the Czech language.</Description>
+        <Landing_page_URL>http://www.korpus.cz/clarin</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15042</id>
+                <value>Czech Republic</value>
+                <color>purple</color>
+            </item>
+        </Country>
+        <Full_name>Czech National Corpus</Full_name>
+        <Provider>CLARIN Czech Republic</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>56</id>
+        <order>56.00000000000000000000</order>
+        <Name>DARIAH-DE Repository</Name>
+        <Description>A repository for digital humanities resources as part of the DARIAH-DE initiative.</Description>
+        <Landing_page_URL>https://repository.de.dariah.eu</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15047</id>
+                <value>Germany</value>
+                <color>pink</color>
+            </item>
+        </Country>
+        <Full_name>DARIAH-DE Repository</Full_name>
+        <Provider>CLARIN Germany</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>57</id>
+        <order>57.00000000000000000000</order>
+        <Name>DANS</Name>
+        <Description>Provides a repository for storing and sharing research data, with a focus on social sciences and humanities.</Description>
+        <Landing_page_URL>http://dans.knaw.nl</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15064</id>
+                <value>Netherlands</value>
+                <color>deep-dark-green</color>
+            </item>
+        </Country>
+        <Full_name>Data Archiving and Networked Services</Full_name>
+        <Provider>CLARIN Netherlands</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>58</id>
+        <order>58.00000000000000000000</order>
+        <Name>Eberhard Karls Universität Tübingen</Name>
+        <Description>Offers digital linguistic resources and services.</Description>
+        <Landing_page_URL>http://www.sfs.uni-tuebingen.de</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15047</id>
+                <value>Germany</value>
+                <color>pink</color>
+            </item>
+        </Country>
+        <Full_name>Eberhard Karls Universität Tübingen</Full_name>
+        <Provider>CLARIN Germany</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>59</id>
+        <order>59.00000000000000000000</order>
+        <Name>Eurac Research CLARIN Centre</Name>
+        <Description>Provides access to language resources and tools, with a focus on minority languages.</Description>
+        <Landing_page_URL>https://clarin.eurac.edu</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15066</id>
+                <value>Italy</value>
+                <color>darker-orange</color>
+            </item>
+        </Country>
+        <Full_name>Eurac Research CLARIN Centre</Full_name>
+        <Provider>CLARIN Italy</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>60</id>
+        <order>60.00000000000000000000</order>
+        <Name>HZSK</Name>
+        <Description>Offers access to language corpora and linguistic research data.</Description>
+        <Landing_page_URL>https://www.slm.uni-hamburg.de/hzsk.html</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15047</id>
+                <value>Germany</value>
+                <color>pink</color>
+            </item>
+        </Country>
+        <Full_name>Hamburger Zentrum für Sprachkorpora</Full_name>
+        <Provider>CLARIN Germany</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>61</id>
+        <order>61.00000000000000000000</order>
+        <Name>IMS Stuttgart</Name>
+        <Description>Focuses on research in computational linguistics and speech processing.</Description>
+        <Landing_page_URL>http://www.ims.uni-stuttgart.de</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15047</id>
+                <value>Germany</value>
+                <color>pink</color>
+            </item>
+        </Country>
+        <Full_name>Institut für Maschinelle Sprachverarbeitung</Full_name>
+        <Provider>University of Stuttgart</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>62</id>
+        <order>62.00000000000000000000</order>
+        <Name>INT</Name>
+        <Description>Offers Dutch language resources for research.</Description>
+        <Landing_page_URL>http://ivdnt.org</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15064</id>
+                <value>Netherlands</value>
+                <color>deep-dark-green</color>
+            </item>
+        </Country>
+        <Full_name>Instituut voor de Nederlandse Taal</Full_name>
+        <Provider>CLARIN Netherlands</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>63</id>
+        <order>63.00000000000000000000</order>
+        <Name>LINDAT/CLARIAH-CZ</Name>
+        <Description>Provides language technology and digital humanities tools.</Description>
+        <Landing_page_URL>https://lindat.cz</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15042</id>
+                <value>Czech Republic</value>
+                <color>purple</color>
+            </item>
+        </Country>
+        <Full_name>LINDAT/CLARIAH-CZ</Full_name>
+        <Provider>CLARIN Czech Republic</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>64</id>
+        <order>64.00000000000000000000</order>
+        <Name>LAC</Name>
+        <Description>Offers access to linguistic resources, particularly for endangered languages.</Description>
+        <Landing_page_URL>https://lac.uni-koeln.de</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15047</id>
+                <value>Germany</value>
+                <color>pink</color>
+            </item>
+        </Country>
+        <Full_name>Language Archive Cologne</Full_name>
+        <Provider>University of Cologne</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>65</id>
+        <order>65.00000000000000000000</order>
+        <Name>GEI</Name>
+        <Description>Specializes in digital education resources.</Description>
+        <Landing_page_URL>http://worldviews.gei.de</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15047</id>
+                <value>Germany</value>
+                <color>pink</color>
+            </item>
+        </Country>
+        <Full_name>Leibniz Institute for Educational Media | Georg Eckert Institute</Full_name>
+        <Provider>CLARIN Germany</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>66</id>
+        <order>66.00000000000000000000</order>
+        <Name>IDS Mannheim</Name>
+        <Description>Provides access to resources on the German language.</Description>
+        <Landing_page_URL>http://www.ids-mannheim.de</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15047</id>
+                <value>Germany</value>
+                <color>pink</color>
+            </item>
+        </Country>
+        <Full_name>Leibniz-Institut für Deutsche Sprache</Full_name>
+        <Provider>CLARIN Germany</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>67</id>
+        <order>67.00000000000000000000</order>
+        <Name>LU Humanities Lab</Name>
+        <Description>Offers tools and resources for research in the humanities, focusing on digital methods.</Description>
+        <Landing_page_URL>http://www.humlab.lu.se</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15040</id>
+                <value>Sweden</value>
+                <color>orange</color>
+            </item>
+        </Country>
+        <Full_name>Lund University Humanities Lab</Full_name>
+        <Provider>Lund University</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>68</id>
+        <order>68.00000000000000000000</order>
+        <Name>MPI Psycholinguistics</Name>
+        <Description>Specializes in language processing and cognitive research.</Description>
+        <Landing_page_URL>https://archive.mpi.nl</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15064</id>
+                <value>Netherlands</value>
+                <color>deep-dark-green</color>
+            </item>
+        </Country>
+        <Full_name>Max Planck Institute for Psycholinguistics</Full_name>
+        <Provider>CLARIN Netherlands</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>69</id>
+        <order>69.00000000000000000000</order>
+        <Name>Phonothèque MMSH</Name>
+        <Description>Provides access to audio archives of cultural and historical significance in the Mediterranean (http://phonotheque.mmsh.huma-num.fr is obsolet)</Description>
+        <Landing_page_URL>https://calames.abes.fr/pub/mmsh.aspx</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15041</id>
+                <value>France</value>
+                <color>dark-orange</color>
+            </item>
+        </Country>
+        <Full_name>Phonothèque Mediterranean Research Centre for the Humanities</Full_name>
+        <Provider>Huma-Num (CNRS)</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>70</id>
+        <order>70.00000000000000000000</order>
+        <Name>Meertens Instituut/HuC</Name>
+        <Description>Specializes in the study and documentation of Dutch language and culture.</Description>
+        <Landing_page_URL>http://www.meertens.knaw.nl</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15064</id>
+                <value>Netherlands</value>
+                <color>deep-dark-green</color>
+            </item>
+        </Country>
+        <Full_name>Meertens Instituut/Humanities Cluster</Full_name>
+        <Provider>CLARIN Netherlands</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>71</id>
+        <order>71.00000000000000000000</order>
+        <Name>National Library of Norway</Name>
+        <Description>Offers access to a wide range of linguistic resources, including historical texts.</Description>
+        <Landing_page_URL>https://www.nb.no/sprakbanken/en/sprakbanken/</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15062</id>
+                <value>Norway</value>
+                <color>green</color>
+            </item>
+        </Country>
+        <Full_name>National Library of Norway</Full_name>
+        <Provider>CLARIN Norway</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>72</id>
+        <order>72.00000000000000000000</order>
+        <Name>ORTOLANG</Name>
+        <Description>Provides access to linguistic resources and tools for the French language.</Description>
+        <Landing_page_URL>https://www.ortolang.fr</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15041</id>
+                <value>France</value>
+                <color>dark-orange</color>
+            </item>
+        </Country>
+        <Full_name>Open Resources and TOols for LANGuage</Full_name>
+        <Provider>CLARIN France</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>73</id>
+        <order>73.00000000000000000000</order>
+        <Name>OTA</Name>
+        <Description>Provides access to literary and linguistic resources for research purposes.</Description>
+        <Landing_page_URL>https://llds.ling-phil.ox.ac.uk</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15039</id>
+                <value>United Kingdom</value>
+                <color>light-brown</color>
+            </item>
+        </Country>
+        <Full_name>Oxford Text Archive</Full_name>
+        <Provider>CLARIN UK</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>74</id>
+        <order>74.00000000000000000000</order>
+        <Name>PORTULAN CLARIN</Name>
+        <Description>Provides language resources and tools for Portuguese language research.</Description>
+        <Landing_page_URL>https://portulanclarin.net</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15051</id>
+                <value>Portugal</value>
+                <color>darker-blue</color>
+            </item>
+        </Country>
+        <Full_name>PORTULAN CLARIN Research Infrastructure for the Science and Technology of Language</Full_name>
+        <Provider>CLARIN Portugal</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>75</id>
+        <order>75.00000000000000000000</order>
+        <Name>PolMine</Name>
+        <Description>Offers political discourse corpora and tools for analysis.</Description>
+        <Landing_page_URL>http://www.polmine.de</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15047</id>
+                <value>Germany</value>
+                <color>pink</color>
+            </item>
+        </Country>
+        <Full_name>PolMine Project</Full_name>
+        <Provider>CLARIN Germany</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>76</id>
+        <order>76.00000000000000000000</order>
+        <Name>SAW Leipzig</Name>
+        <Description>Provides access to linguistic resources and tools, with a focus on historical corpora.</Description>
+        <Landing_page_URL>https://repo.data.saw-leipzig.de</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15047</id>
+                <value>Germany</value>
+                <color>pink</color>
+            </item>
+        </Country>
+        <Full_name>SAW Leipzig</Full_name>
+        <Provider>CLARIN Germany</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>77</id>
+        <order>77.00000000000000000000</order>
+        <Name>SADiLaR</Name>
+        <Description>Provides access to linguistic resources and tools for African languages.</Description>
+        <Landing_page_URL>https://www.sadilar.org</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15065</id>
+                <value>South Africa</value>
+                <color>darker-yellow</color>
+            </item>
+        </Country>
+        <Full_name>South African Centre for Digital Language Resources</Full_name>
+        <Provider>CLARIN South Africa</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>78</id>
+        <order>78.00000000000000000000</order>
+        <Name>Språkbanken</Name>
+        <Description>Offers linguistic resources and tools for the Swedish language.</Description>
+        <Landing_page_URL>http://spraakbanken.gu.se</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15040</id>
+                <value>Sweden</value>
+                <color>orange</color>
+            </item>
+        </Country>
+        <Full_name>Språkbanken</Full_name>
+        <Provider>CLARIN Sweden</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>79</id>
+        <order>79.00000000000000000000</order>
+        <Name>TextGrid</Name>
+        <Description>Provides digital tools and repositories for humanities research.</Description>
+        <Landing_page_URL>https://textgridrep.org</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15047</id>
+                <value>Germany</value>
+                <color>pink</color>
+            </item>
+        </Country>
+        <Full_name>TextGrid Repository</Full_name>
+        <Provider>CLARIN Germany</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>80</id>
+        <order>80.00000000000000000000</order>
+        <Name>CLARIN Copenhagen</Name>
+        <Description>Provides linguistic resources and tools for research, focused on the Danish language, as well as other Scandinavian languages</Description>
+        <Landing_page_URL>http://clarin.dk</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15046</id>
+                <value>Denmark</value>
+                <color>light-blue</color>
+            </item>
+        </Country>
+        <Full_name>CLARIN Centre at the University of Copenhagen</Full_name>
+        <Provider>CLARIN Denmark</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>81</id>
+        <order>81.00000000000000000000</order>
+        <Name>ILC4CLARIN</Name>
+        <Description>Offers computational tools and linguistic resources.</Description>
+        <Landing_page_URL>https://ilc4clarin.ilc.cnr.it</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15066</id>
+                <value>Italy</value>
+                <color>darker-orange</color>
+            </item>
+        </Country>
+        <Full_name>ILC4CLARIN Centre at the Institute for Computational Linguistics</Full_name>
+        <Provider>CLARIN Italy</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>82</id>
+        <order>82.00000000000000000000</order>
+        <Name>TROLLing</Name>
+        <Description>Repository for linguistic research data, focusing on data sharing for the linguistics community.</Description>
+        <Landing_page_URL>https://trolling.uit.no</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15062</id>
+                <value>Norway</value>
+                <color>green</color>
+            </item>
+        </Country>
+        <Full_name>The Tromsø Repository of Language and Linguistics</Full_name>
+        <Provider>UiT Arctic University of Norway</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>83</id>
+        <order>83.00000000000000000000</order>
+        <Name>Universität des Saarlandes</Name>
+        <Description>Offers linguistic research data and tools through CLARIN-D.</Description>
+        <Landing_page_URL>http://fedora.clarin-d.uni-saarland.de/</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15047</id>
+                <value>Germany</value>
+                <color>pink</color>
+            </item>
+        </Country>
+        <Full_name>Universität des Saarlandes</Full_name>
+        <Provider>CLARIN Germany</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>84</id>
+        <order>84.00000000000000000000</order>
+        <Name>ZIM Centre for Information Modelling</Name>
+        <Description>Provides access to research data in digital humanities, focusing on information modelling and data curation at the University of Graz.</Description>
+        <Landing_page_URL>https://zim.uni-graz.at</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15056</id>
+                <value>Austria</value>
+                <color>dark-red</color>
+            </item>
+        </Country>
+        <Full_name>ZIM Centre for Information Modelling</Full_name>
+        <Provider>CLARIN Austria</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>85</id>
+        <order>85.00000000000000000000</order>
+        <Name>B2SHARE</Name>
+        <Description>A tool for storing and sharing research data across various disciplines.</Description>
+        <Landing_page_URL>https://b2share.eudat.eu</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15640</id>
+                <value>World</value>
+                <color>light-cyan</color>
+            </item>
+        </Country>
+        <Full_name>B2SHARE</Full_name>
+        <Provider>EUDAT Collaborative Data Infrastructure</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>86</id>
+        <order>86.00000000000000000000</order>
+        <Name>CLLE ERSS</Name>
+        <Description>A research center focusing on language, cognition, and computational linguistics.</Description>
+        <Landing_page_URL>http://redac.univ-tlse2.fr/index.html</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15041</id>
+                <value>France</value>
+                <color>dark-orange</color>
+            </item>
+        </Country>
+        <Full_name>CLLE ERSS Université de Toulouse Le Mirail</Full_name>
+        <Provider>CLARIN France</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>87</id>
+        <order>87.00000000000000000000</order>
+        <Name>California Language Archive </Name>
+        <Description>A digital repository for linguistic field recordings and research materials.</Description>
+        <Landing_page_URL>http://cla.berkeley.edu</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15045</id>
+                <value>United States of America</value>
+                <color>blue</color>
+            </item>
+        </Country>
+        <Full_name>California Language Archive</Full_name>
+        <Provider>University of California, Berkeley</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>88</id>
+        <order>88.00000000000000000000</order>
+        <Name>ELRA</Name>
+        <Description>Provides access to a wide range of linguistic resources for research and development in language technologies.</Description>
+        <Landing_page_URL>http://www.elra.info</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15640</id>
+                <value>World</value>
+                <color>light-cyan</color>
+            </item>
+        </Country>
+        <Full_name>European Language Resources Association</Full_name>
+        <Provider>ELRA</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>89</id>
+        <order>89.00000000000000000000</order>
+        <Name>Europeana</Name>
+        <Description>A digital platform for cultural heritage, providing access to millions of books, artworks, and other artifacts from European libraries, museums, and archives.</Description>
+        <Landing_page_URL>https://www.europeana.eu</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15052</id>
+                <value>Europe</value>
+                <color>red</color>
+            </item>
+        </Country>
+        <Full_name>Europeana</Full_name>
+        <Provider>Europeana Foundation</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>90</id>
+        <order>90.00000000000000000000</order>
+        <Name>e-codices</Name>
+        <Description>Provides online access to medieval and early modern manuscripts from Swiss libraries and archives.</Description>
+        <Landing_page_URL>http://www.e-codices.unifr.ch</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15059</id>
+                <value>Switzerland</value>
+                <color>dark-purple</color>
+            </item>
+        </Country>
+        <Full_name>e-codices - Virtual Manuscript Library of Switzerland</Full_name>
+        <Provider>e-codices</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>91</id>
+        <order>91.00000000000000000000</order>
+        <Name>PARADISEC</Name>
+        <Description>Provides access to recordings, transcripts, and materials documenting endangered languages and cultures.</Description>
+        <Landing_page_URL>http://catalog.paradisec.org.au</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15067</id>
+                <value>Australia</value>
+                <color>light-pink</color>
+            </item>
+        </Country>
+        <Full_name>Pacific And Regional Archive for Digital Sources in Endangered Cultures</Full_name>
+        <Provider>PARADISEC</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>92</id>
+        <order>92.00000000000000000000</order>
+        <Name>LDC Corpus Catalog</Name>
+        <Description>Offers linguistic data resources for research in language technology, speech processing, and machine learning.</Description>
+        <Landing_page_URL>https://catalog.ldc.upenn.edu</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15045</id>
+                <value>United States of America</value>
+                <color>blue</color>
+            </item>
+        </Country>
+        <Full_name>Linguistic Data Consortium Corpus Catalog</Full_name>
+        <Provider>Linguistic Data Consortium (LDC)</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>93</id>
+        <order>93.00000000000000000000</order>
+        <Name>LINGUIST List</Name>
+        <Description>An international online resource for linguistic information, including datasets and tools for language research.</Description>
+        <Landing_page_URL>https://linguistlist.org/langres</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15045</id>
+                <value>United States of America</value>
+                <color>blue</color>
+            </item>
+        </Country>
+        <Full_name>LINGUIST List Language Resources</Full_name>
+        <Provider>LINGUIST List</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>94</id>
+        <order>94.00000000000000000000</order>
+        <Name>The Rosetta Project</Name>
+        <Description>Provides access to a long-term archive of human languages, especially focusing on endangered and lesser-known languages.</Description>
+        <Landing_page_URL>https://rosettaproject.org</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15045</id>
+                <value>United States of America</value>
+                <color>blue</color>
+            </item>
+        </Country>
+        <Full_name>The Rosetta Project - A Long Now Foundation</Full_name>
+        <Provider>The Long Now Foundation</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>95</id>
+        <order>95.00000000000000000000</order>
+        <Name>University of the Basque Country</Name>
+        <Description>Provides linguistic research materials, especially focusing on Basque and other regional languages.</Description>
+        <Landing_page_URL>https://aholab.ehu.eus/aholab</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15048</id>
+                <value>Spain</value>
+                <color>orange</color>
+            </item>
+        </Country>
+        <Full_name>University of the Basque Country</Full_name>
+        <Provider>University of the Basque Country</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>96</id>
+        <order>96.00000000000000000000</order>
+        <Name>WALS</Name>
+        <Description>A database that provides linguistic data on the structure and features of the world’s languages, along with references.</Description>
+        <Landing_page_URL>http://wals.info</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15640</id>
+                <value>World</value>
+                <color>light-cyan</color>
+            </item>
+        </Country>
+        <Full_name>WALS Online &amp; WALS RefDB</Full_name>
+        <Provider>Max Planck Institute for Evolutionary Anthropology</Provider>
+        <Status>
+            <id>15641</id>
+            <value>Active</value>
+            <color>light-green</color>
+        </Status>
+    </Source>
+    <Source>
+        <id>99</id>
+        <order>98.00000000000000000000</order>
+        <Name>Conversion Hub</Name>
+        <Description>The SSH Conversion Hub provides an inventory of solutions for conversions between data and file formats.</Description>
+        <Landing_page_URL>https://conversion-hub.sshopencloud.eu/</Landing_page_URL>
+        <Catalogues>
+            <item>
+                <id>1</id>
+                <value>SSH Open Marketplace</value>
+                <order>0.33333333333333331483</order>
+            </item>
+        </Catalogues>
+        <Country>
+            <item>
+                <id>15052</id>
+                <value>Europe</value>
+                <color>red</color>
+            </item>
+        </Country>
+        <Full_name>SSHOC Conversion Hub</Full_name>
+        <Provider>ACDH-CH</Provider>
+        <Status>
+            <id>15642</id>
+            <value>Decommissioned</value>
+            <color>gray</color>
+        </Status>
+    </Source>
+</Sources>

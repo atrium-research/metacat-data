@@ -1,0 +1,1011 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Resource_Types>
+    <Resource_Type>
+        <id>1</id>
+        <order>1.00000000000000000000</order>
+        <Resource_Type>
+            <item>
+                <id>15068</id>
+                <value>Sites and monuments</value>
+                <color>darker-blue</color>
+            </item>
+        </Resource_Type>
+        <ID>1</ID>
+        <Notes />
+        <Catalogues>
+            <item>
+                <id>2</id>
+                <value>ARIADNE Portal</value>
+                <order>0.50000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Count>1512471</Count>
+        <Date>2024-05-20</Date>
+    </Resource_Type>
+    <Resource_Type>
+        <id>2</id>
+        <order>2.00000000000000000000</order>
+        <Resource_Type>
+            <item>
+                <id>15069</id>
+                <value>Artefacts</value>
+                <color>dark-gray</color>
+            </item>
+        </Resource_Type>
+        <ID>2</ID>
+        <Notes />
+        <Catalogues>
+            <item>
+                <id>2</id>
+                <value>ARIADNE Portal</value>
+                <order>0.50000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Count>888294</Count>
+        <Date>2024-05-20</Date>
+    </Resource_Type>
+    <Resource_Type>
+        <id>3</id>
+        <order>3.00000000000000000000</order>
+        <Resource_Type>
+            <item>
+                <id>15070</id>
+                <value>Coins</value>
+                <color>darker-brown</color>
+            </item>
+        </Resource_Type>
+        <ID>3</ID>
+        <Notes />
+        <Catalogues>
+            <item>
+                <id>2</id>
+                <value>ARIADNE Portal</value>
+                <order>0.50000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Count>474825</Count>
+        <Date>2024-05-20</Date>
+    </Resource_Type>
+    <Resource_Type>
+        <id>4</id>
+        <order>4.00000000000000000000</order>
+        <Resource_Type>
+            <item>
+                <id>15071</id>
+                <value>Fieldwork activities</value>
+                <color>light-blue</color>
+            </item>
+        </Resource_Type>
+        <ID>4</ID>
+        <Notes />
+        <Catalogues>
+            <item>
+                <id>2</id>
+                <value>ARIADNE Portal</value>
+                <order>0.50000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Count>421697</Count>
+        <Date>2024-05-20</Date>
+    </Resource_Type>
+    <Resource_Type>
+        <id>5</id>
+        <order>5.00000000000000000000</order>
+        <Resource_Type>
+            <item>
+                <id>15072</id>
+                <value>Fieldwork reports</value>
+                <color>light-pink</color>
+            </item>
+        </Resource_Type>
+        <ID>5</ID>
+        <Notes />
+        <Catalogues>
+            <item>
+                <id>2</id>
+                <value>ARIADNE Portal</value>
+                <order>0.50000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Count>309956</Count>
+        <Date>2024-05-20</Date>
+    </Resource_Type>
+    <Resource_Type>
+        <id>6</id>
+        <order>6.00000000000000000000</order>
+        <Resource_Type>
+            <item>
+                <id>15073</id>
+                <value>Fieldwork archives</value>
+                <color>light-pink</color>
+            </item>
+        </Resource_Type>
+        <ID>6</ID>
+        <Notes />
+        <Catalogues>
+            <item>
+                <id>2</id>
+                <value>ARIADNE Portal</value>
+                <order>0.50000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Count>117263</Count>
+        <Date>2024-05-20</Date>
+    </Resource_Type>
+    <Resource_Type>
+        <id>7</id>
+        <order>7.00000000000000000000</order>
+        <Resource_Type>
+            <item>
+                <id>15074</id>
+                <value>Maritime archaeology</value>
+                <color>green</color>
+            </item>
+        </Resource_Type>
+        <ID>7</ID>
+        <Notes />
+        <Catalogues>
+            <item>
+                <id>2</id>
+                <value>ARIADNE Portal</value>
+                <order>0.50000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Count>99396</Count>
+        <Date>2024-05-20</Date>
+    </Resource_Type>
+    <Resource_Type>
+        <id>8</id>
+        <order>8.00000000000000000000</order>
+        <Resource_Type>
+            <item>
+                <id>15075</id>
+                <value>Inscriptions</value>
+                <color>darker-blue</color>
+            </item>
+        </Resource_Type>
+        <ID>8</ID>
+        <Notes />
+        <Catalogues>
+            <item>
+                <id>2</id>
+                <value>ARIADNE Portal</value>
+                <order>0.50000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Count>83366</Count>
+        <Date>2024-05-20</Date>
+    </Resource_Type>
+    <Resource_Type>
+        <id>9</id>
+        <order>9.00000000000000000000</order>
+        <Resource_Type>
+            <item>
+                <id>15076</id>
+                <value>Rock art</value>
+                <color>blue</color>
+            </item>
+        </Resource_Type>
+        <ID>9</ID>
+        <Notes />
+        <Catalogues>
+            <item>
+                <id>2</id>
+                <value>ARIADNE Portal</value>
+                <order>0.50000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Count>26805</Count>
+        <Date>2024-05-20</Date>
+    </Resource_Type>
+    <Resource_Type>
+        <id>10</id>
+        <order>10.00000000000000000000</order>
+        <Resource_Type>
+            <item>
+                <id>15077</id>
+                <value>Dating</value>
+                <color>darker-yellow</color>
+            </item>
+        </Resource_Type>
+        <ID>10</ID>
+        <Notes />
+        <Catalogues>
+            <item>
+                <id>2</id>
+                <value>ARIADNE Portal</value>
+                <order>0.50000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Count>12833</Count>
+        <Date>2024-05-20</Date>
+    </Resource_Type>
+    <Resource_Type>
+        <id>11</id>
+        <order>11.00000000000000000000</order>
+        <Resource_Type>
+            <item>
+                <id>15078</id>
+                <value>Burials</value>
+                <color>light-purple</color>
+            </item>
+        </Resource_Type>
+        <ID>11</ID>
+        <Notes />
+        <Catalogues>
+            <item>
+                <id>2</id>
+                <value>ARIADNE Portal</value>
+                <order>0.50000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Count>11576</Count>
+        <Date>2024-05-20</Date>
+    </Resource_Type>
+    <Resource_Type>
+        <id>12</id>
+        <order>12.00000000000000000000</order>
+        <Resource_Type>
+            <item>
+                <id>15079</id>
+                <value>Scientific analyses</value>
+                <color>light-pink</color>
+            </item>
+        </Resource_Type>
+        <ID>12</ID>
+        <Notes />
+        <Catalogues>
+            <item>
+                <id>2</id>
+                <value>ARIADNE Portal</value>
+                <order>0.50000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Count>9032</Count>
+        <Date>2024-05-20</Date>
+    </Resource_Type>
+    <Resource_Type>
+        <id>13</id>
+        <order>13.00000000000000000000</order>
+        <Resource_Type>
+            <item>
+                <id>15080</id>
+                <value>Building survey</value>
+                <color>brown</color>
+            </item>
+        </Resource_Type>
+        <ID>13</ID>
+        <Notes />
+        <Catalogues>
+            <item>
+                <id>2</id>
+                <value>ARIADNE Portal</value>
+                <order>0.50000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Count>1546</Count>
+        <Date>2024-05-20</Date>
+    </Resource_Type>
+    <Resource_Type>
+        <id>14</id>
+        <order>14.00000000000000000000</order>
+        <Resource_Type>
+            <item>
+                <id>15081</id>
+                <value>E-publications</value>
+                <color>brown</color>
+            </item>
+        </Resource_Type>
+        <ID>14</ID>
+        <Notes />
+        <Catalogues>
+            <item>
+                <id>2</id>
+                <value>ARIADNE Portal</value>
+                <order>0.50000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Count>5</Count>
+        <Date>2024-05-20</Date>
+    </Resource_Type>
+    <Resource_Type>
+        <id>15</id>
+        <order>15.00000000000000000000</order>
+        <Resource_Type>
+            <item>
+                <id>15082</id>
+                <value>Text</value>
+                <color>light-green</color>
+            </item>
+        </Resource_Type>
+        <ID>15</ID>
+        <Notes />
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Count>513614</Count>
+        <Date>2024-05-16</Date>
+    </Resource_Type>
+    <Resource_Type>
+        <id>16</id>
+        <order>16.00000000000000000000</order>
+        <Resource_Type>
+            <item>
+                <id>15083</id>
+                <value>Dataset</value>
+                <color>dark-blue</color>
+            </item>
+        </Resource_Type>
+        <ID>16</ID>
+        <Notes />
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Count>106451</Count>
+        <Date>2024-05-16</Date>
+    </Resource_Type>
+    <Resource_Type>
+        <id>17</id>
+        <order>17.00000000000000000000</order>
+        <Resource_Type>
+            <item>
+                <id>15084</id>
+                <value>Corpus</value>
+                <color>light-orange</color>
+            </item>
+        </Resource_Type>
+        <ID>17</ID>
+        <Notes />
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Count>5909</Count>
+        <Date>2024-05-16</Date>
+    </Resource_Type>
+    <Resource_Type>
+        <id>18</id>
+        <order>18.00000000000000000000</order>
+        <Resource_Type>
+            <item>
+                <id>15085</id>
+                <value>Software</value>
+                <color>darker-orange</color>
+            </item>
+        </Resource_Type>
+        <ID>18</ID>
+        <Notes />
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Count>1702</Count>
+        <Date>2024-05-16</Date>
+    </Resource_Type>
+    <Resource_Type>
+        <id>19</id>
+        <order>19.00000000000000000000</order>
+        <Resource_Type>
+            <item>
+                <id>15086</id>
+                <value>Collection</value>
+                <color>darker-red</color>
+            </item>
+        </Resource_Type>
+        <ID>19</ID>
+        <Notes />
+        <Catalogues>
+            <item>
+                <id>3</id>
+                <value>CLARIN VLO</value>
+                <order>0.66666666666666662966</order>
+            </item>
+        </Catalogues>
+        <Count>579</Count>
+        <Date>2024-05-16</Date>
+    </Resource_Type>
+    <Resource_Type>
+        <id>20</id>
+        <order>20.00000000000000000000</order>
+        <Resource_Type>
+            <item>
+                <id>15087</id>
+                <value>Documents</value>
+                <color>dark-cyan</color>
+            </item>
+        </Resource_Type>
+        <ID>20</ID>
+        <Notes />
+        <Catalogues>
+            <item>
+                <id>4</id>
+                <value>GoTriple</value>
+                <order>0.75000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Count>17097500</Count>
+        <Date>2024-12-19</Date>
+    </Resource_Type>
+    <Resource_Type>
+        <id>21</id>
+        <order>21.00000000000000000000</order>
+        <Resource_Type>
+            <item>
+                <id>15088</id>
+                <value>Projects</value>
+                <color>yellow</color>
+            </item>
+        </Resource_Type>
+        <ID>21</ID>
+        <Notes />
+        <Catalogues>
+            <item>
+                <id>4</id>
+                <value>GoTriple</value>
+                <order>0.75000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Count>23173</Count>
+        <Date>2024-12-19</Date>
+    </Resource_Type>
+    <Resource_Type>
+        <id>22</id>
+        <order>22.00000000000000000000</order>
+        <Resource_Type>
+            <item>
+                <id>15089</id>
+                <value>Profiles</value>
+                <color>purple</color>
+            </item>
+        </Resource_Type>
+        <ID>22</ID>
+        <Notes />
+        <Catalogues>
+            <item>
+                <id>4</id>
+                <value>GoTriple</value>
+                <order>0.75000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Count>18508056</Count>
+        <Date>2024-05-16</Date>
+    </Resource_Type>
+    <Resource_Type>
+        <id>23</id>
+        <order>23.00000000000000000000</order>
+        <Resource_Type>
+            <item>
+                <id>15090</id>
+                <value>Tools and services</value>
+                <color>light-purple</color>
+            </item>
+        </Resource_Type>
+        <ID>23</ID>
+        <Notes />
+        <Catalogues>
+            <item>
+                <id>1</id>
+                <value>SSH Open Marketplace</value>
+                <order>0.33333333333333331483</order>
+            </item>
+        </Catalogues>
+        <Count>2086</Count>
+        <Date>2024-05-07</Date>
+    </Resource_Type>
+    <Resource_Type>
+        <id>24</id>
+        <order>24.00000000000000000000</order>
+        <Resource_Type>
+            <item>
+                <id>15091</id>
+                <value>Training materials</value>
+                <color>dark-yellow</color>
+            </item>
+        </Resource_Type>
+        <ID>24</ID>
+        <Notes />
+        <Catalogues>
+            <item>
+                <id>1</id>
+                <value>SSH Open Marketplace</value>
+                <order>0.33333333333333331483</order>
+            </item>
+        </Catalogues>
+        <Count>452</Count>
+        <Date>2024-05-07</Date>
+    </Resource_Type>
+    <Resource_Type>
+        <id>25</id>
+        <order>25.00000000000000000000</order>
+        <Resource_Type>
+            <item>
+                <id>15092</id>
+                <value>Publications</value>
+                <color>light-yellow</color>
+            </item>
+        </Resource_Type>
+        <ID>25</ID>
+        <Notes />
+        <Catalogues>
+            <item>
+                <id>1</id>
+                <value>SSH Open Marketplace</value>
+                <order>0.33333333333333331483</order>
+            </item>
+        </Catalogues>
+        <Count>3010</Count>
+        <Date>2024-05-07</Date>
+    </Resource_Type>
+    <Resource_Type>
+        <id>26</id>
+        <order>26.00000000000000000000</order>
+        <Resource_Type>
+            <item>
+                <id>15083</id>
+                <value>Dataset</value>
+                <color>dark-blue</color>
+            </item>
+        </Resource_Type>
+        <ID>26</ID>
+        <Notes />
+        <Catalogues>
+            <item>
+                <id>1</id>
+                <value>SSH Open Marketplace</value>
+                <order>0.33333333333333331483</order>
+            </item>
+        </Catalogues>
+        <Count>1720</Count>
+        <Date>2024-05-07</Date>
+    </Resource_Type>
+    <Resource_Type>
+        <id>27</id>
+        <order>27.00000000000000000000</order>
+        <Resource_Type>
+            <item>
+                <id>15093</id>
+                <value>Workflows</value>
+                <color>dark-blue</color>
+            </item>
+        </Resource_Type>
+        <ID>27</ID>
+        <Notes />
+        <Catalogues>
+            <item>
+                <id>1</id>
+                <value>SSH Open Marketplace</value>
+                <order>0.33333333333333331483</order>
+            </item>
+        </Catalogues>
+        <Count>50</Count>
+        <Date>2024-05-07</Date>
+    </Resource_Type>
+    <Resource_Type>
+        <id>28</id>
+        <order>28.00000000000000000000</order>
+        <Resource_Type>
+            <item>
+                <id>17832</id>
+                <value>Article</value>
+                <color>dark-purple</color>
+            </item>
+        </Resource_Type>
+        <ID>28</ID>
+        <Notes>Additional COAR type with 
+Document type. See https://gotriple.eu/ontology/triple/document_types</Notes>
+        <Catalogues>
+            <item>
+                <id>4</id>
+                <value>GoTriple</value>
+                <order>0.75000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Count>8064818</Count>
+        <Date>2024-12-19</Date>
+    </Resource_Type>
+    <Resource_Type>
+        <id>29</id>
+        <order>29.00000000000000000000</order>
+        <Resource_Type>
+            <item>
+                <id>17833</id>
+                <value>Bibliography</value>
+                <color>deep-dark-orange</color>
+            </item>
+        </Resource_Type>
+        <ID>29</ID>
+        <Notes>Additional COAR type with 
+Document type. See https://gotriple.eu/ontology/triple/document_types</Notes>
+        <Catalogues>
+            <item>
+                <id>4</id>
+                <value>GoTriple</value>
+                <order>0.75000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Count>107</Count>
+        <Date>2024-12-19</Date>
+    </Resource_Type>
+    <Resource_Type>
+        <id>30</id>
+        <order>30.00000000000000000000</order>
+        <Resource_Type>
+            <item>
+                <id>17834</id>
+                <value>Blog post</value>
+                <color>gray</color>
+            </item>
+        </Resource_Type>
+        <ID>30</ID>
+        <Notes>Additional COAR type with 
+Document type. See https://gotriple.eu/ontology/triple/document_types</Notes>
+        <Catalogues>
+            <item>
+                <id>4</id>
+                <value>GoTriple</value>
+                <order>0.75000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Count>0</Count>
+        <Date>2024-12-19</Date>
+    </Resource_Type>
+    <Resource_Type>
+        <id>31</id>
+        <order>31.00000000000000000000</order>
+        <Resource_Type>
+            <item>
+                <id>17835</id>
+                <value>Book</value>
+                <color>red</color>
+            </item>
+        </Resource_Type>
+        <ID>31</ID>
+        <Notes>Additional COAR type with 
+Document type. See https://gotriple.eu/ontology/triple/document_types</Notes>
+        <Catalogues>
+            <item>
+                <id>4</id>
+                <value>GoTriple</value>
+                <order>0.75000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Count>642102</Count>
+        <Date>2024-12-19</Date>
+    </Resource_Type>
+    <Resource_Type>
+        <id>32</id>
+        <order>32.00000000000000000000</order>
+        <Resource_Type>
+            <item>
+                <id>17836</id>
+                <value>Conference</value>
+                <color>light-orange</color>
+            </item>
+        </Resource_Type>
+        <ID>32</ID>
+        <Notes>Additional COAR type with 
+Document type. See https://gotriple.eu/ontology/triple/document_types</Notes>
+        <Catalogues>
+            <item>
+                <id>4</id>
+                <value>GoTriple</value>
+                <order>0.75000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Count>579099</Count>
+        <Date>2024-12-19</Date>
+    </Resource_Type>
+    <Resource_Type>
+        <id>33</id>
+        <order>33.00000000000000000000</order>
+        <Resource_Type>
+            <item>
+                <id>15083</id>
+                <value>Dataset</value>
+                <color>dark-blue</color>
+            </item>
+        </Resource_Type>
+        <ID>33</ID>
+        <Notes>Additional COAR type with 
+Document type. See https://gotriple.eu/ontology/triple/document_types</Notes>
+        <Catalogues>
+            <item>
+                <id>4</id>
+                <value>GoTriple</value>
+                <order>0.75000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Count>250027</Count>
+        <Date>2024-12-19</Date>
+    </Resource_Type>
+    <Resource_Type>
+        <id>34</id>
+        <order>34.00000000000000000000</order>
+        <Resource_Type>
+            <item>
+                <id>17837</id>
+                <value>Image</value>
+                <color>dark-blue</color>
+            </item>
+        </Resource_Type>
+        <ID>34</ID>
+        <Notes>Additional COAR type with 
+Document type. See https://gotriple.eu/ontology/triple/document_types</Notes>
+        <Catalogues>
+            <item>
+                <id>4</id>
+                <value>GoTriple</value>
+                <order>0.75000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Count>127752</Count>
+        <Date>2024-12-19</Date>
+    </Resource_Type>
+    <Resource_Type>
+        <id>35</id>
+        <order>35.00000000000000000000</order>
+        <Resource_Type>
+            <item>
+                <id>17838</id>
+                <value>Learning object</value>
+                <color>dark-pink</color>
+            </item>
+        </Resource_Type>
+        <ID>35</ID>
+        <Notes>Additional COAR type with 
+Document type. See https://gotriple.eu/ontology/triple/document_types</Notes>
+        <Catalogues>
+            <item>
+                <id>4</id>
+                <value>GoTriple</value>
+                <order>0.75000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Count>0</Count>
+        <Date>2024-12-19</Date>
+    </Resource_Type>
+    <Resource_Type>
+        <id>36</id>
+        <order>36.00000000000000000000</order>
+        <Resource_Type>
+            <item>
+                <id>17839</id>
+                <value>Manuscript</value>
+                <color>deep-dark-green</color>
+            </item>
+        </Resource_Type>
+        <ID>36</ID>
+        <Notes>Additional COAR type with 
+Document type. See https://gotriple.eu/ontology/triple/document_types</Notes>
+        <Catalogues>
+            <item>
+                <id>4</id>
+                <value>GoTriple</value>
+                <order>0.75000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Count>25671</Count>
+        <Date>2024-12-19</Date>
+    </Resource_Type>
+    <Resource_Type>
+        <id>37</id>
+        <order>37.00000000000000000000</order>
+        <Resource_Type>
+            <item>
+                <id>15072</id>
+                <value>Fieldwork reports</value>
+                <color>light-pink</color>
+            </item>
+        </Resource_Type>
+        <ID>37</ID>
+        <Notes>Additional COAR type with 
+Document type. See https://gotriple.eu/ontology/triple/document_types</Notes>
+        <Catalogues>
+            <item>
+                <id>4</id>
+                <value>GoTriple</value>
+                <order>0.75000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Count>477352</Count>
+        <Date>2024-12-19</Date>
+    </Resource_Type>
+    <Resource_Type>
+        <id>38</id>
+        <order>38.00000000000000000000</order>
+        <Resource_Type>
+            <item>
+                <id>17840</id>
+                <value>Periodical</value>
+                <color>light-red</color>
+            </item>
+        </Resource_Type>
+        <ID>38</ID>
+        <Notes>Additional COAR type with 
+Document type. See https://gotriple.eu/ontology/triple/document_types</Notes>
+        <Catalogues>
+            <item>
+                <id>4</id>
+                <value>GoTriple</value>
+                <order>0.75000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Count>15272</Count>
+        <Date>2024-12-19</Date>
+    </Resource_Type>
+    <Resource_Type>
+        <id>39</id>
+        <order>39.00000000000000000000</order>
+        <Resource_Type>
+            <item>
+                <id>17841</id>
+                <value>Preprint</value>
+                <color>yellow</color>
+            </item>
+        </Resource_Type>
+        <ID>39</ID>
+        <Notes>Additional COAR type with 
+Document type. See https://gotriple.eu/ontology/triple/document_types</Notes>
+        <Catalogues>
+            <item>
+                <id>4</id>
+                <value>GoTriple</value>
+                <order>0.75000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Count>18419</Count>
+        <Date>2024-12-19</Date>
+    </Resource_Type>
+    <Resource_Type>
+        <id>40</id>
+        <order>40.00000000000000000000</order>
+        <Resource_Type>
+            <item>
+                <id>17842</id>
+                <value>Review</value>
+                <color>dark-orange</color>
+            </item>
+        </Resource_Type>
+        <ID>40</ID>
+        <Notes>Additional COAR type with 
+Document type. See https://gotriple.eu/ontology/triple/document_types</Notes>
+        <Catalogues>
+            <item>
+                <id>4</id>
+                <value>GoTriple</value>
+                <order>0.75000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Count>236276</Count>
+        <Date>2024-12-19</Date>
+    </Resource_Type>
+    <Resource_Type>
+        <id>41</id>
+        <order>41.00000000000000000000</order>
+        <Resource_Type>
+            <item>
+                <id>15085</id>
+                <value>Software</value>
+                <color>darker-orange</color>
+            </item>
+        </Resource_Type>
+        <ID>41</ID>
+        <Notes>Additional COAR type with 
+Document type. See https://gotriple.eu/ontology/triple/document_types</Notes>
+        <Catalogues>
+            <item>
+                <id>4</id>
+                <value>GoTriple</value>
+                <order>0.75000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Count>5073</Count>
+        <Date>2024-12-19</Date>
+    </Resource_Type>
+    <Resource_Type>
+        <id>42</id>
+        <order>42.00000000000000000000</order>
+        <Resource_Type>
+            <item>
+                <id>15082</id>
+                <value>Text</value>
+                <color>light-green</color>
+            </item>
+        </Resource_Type>
+        <ID>42</ID>
+        <Notes>Additional COAR type with 
+Document type. See https://gotriple.eu/ontology/triple/document_types</Notes>
+        <Catalogues>
+            <item>
+                <id>4</id>
+                <value>GoTriple</value>
+                <order>0.75000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Count>3584747</Count>
+        <Date>2024-12-19</Date>
+    </Resource_Type>
+    <Resource_Type>
+        <id>43</id>
+        <order>43.00000000000000000000</order>
+        <Resource_Type>
+            <item>
+                <id>17843</id>
+                <value>Thesis</value>
+                <color>darker-red</color>
+            </item>
+        </Resource_Type>
+        <ID>43</ID>
+        <Notes>Additional COAR type with 
+Document type. See https://gotriple.eu/ontology/triple/document_types</Notes>
+        <Catalogues>
+            <item>
+                <id>4</id>
+                <value>GoTriple</value>
+                <order>0.75000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Count>1816353</Count>
+        <Date>2024-12-19</Date>
+    </Resource_Type>
+    <Resource_Type>
+        <id>44</id>
+        <order>44.00000000000000000000</order>
+        <Resource_Type>
+            <item>
+                <id>17844</id>
+                <value>Map</value>
+                <color>brown</color>
+            </item>
+        </Resource_Type>
+        <ID>44</ID>
+        <Notes>Additional COAR type with 
+Document type. See https://gotriple.eu/ontology/triple/document_types</Notes>
+        <Catalogues>
+            <item>
+                <id>4</id>
+                <value>GoTriple</value>
+                <order>0.75000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Count>14</Count>
+        <Date>2024-12-19</Date>
+    </Resource_Type>
+    <Resource_Type>
+        <id>45</id>
+        <order>45.00000000000000000000</order>
+        <Resource_Type>
+            <item>
+                <id>17845</id>
+                <value>Other</value>
+                <color>light-gray</color>
+            </item>
+        </Resource_Type>
+        <ID>45</ID>
+        <Notes>Additional COAR type with 
+Document type. See https://gotriple.eu/ontology/triple/document_types</Notes>
+        <Catalogues>
+            <item>
+                <id>4</id>
+                <value>GoTriple</value>
+                <order>0.75000000000000000000</order>
+            </item>
+        </Catalogues>
+        <Count>149015</Count>
+        <Date>2024-12-19</Date>
+    </Resource_Type>
+</Resource_Types>
