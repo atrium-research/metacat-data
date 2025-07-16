@@ -1,62 +1,63 @@
-<?xml version="1.0" encoding="UTF-8"?><CMD_ComponentSpec xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cue="http://www.clarin.eu/cmd/cues/1" xmlns:cue_old="http://www.clarin.eu/cmdi/cues/1" isProfile="true" xsi:noNamespaceSchemaLocation="https://infra.clarin.eu/CMDI/1.1/general-component-schema.xsd">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ComponentSpec isProfile="true" CMDVersion="1.2" CMDOriginalVersion="1.1" xsi:noNamespaceSchemaLocation="https://infra.clarin.eu/CMDI/1.x/xsd/cmd-component.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <Header>
         <ID>clarin.eu:cr1:p_1387365569663</ID>
         <Name>Communication_Recording</Name>
         <Description>Recording (audio or video). The component describes a recording of a communication with detailed information on access, recording format, and technical metadata.</Description>
-        
+        <Status>production</Status>
     </Header>
-    <CMD_Component name="Communication_Recording" ConceptLink="http://hdl.handle.net/11459/CCR_C-4566_817ec8b8-29d7-3d78-bc3f-2b764daaea72" CardinalityMin="1" CardinalityMax="1">
+    <Component name="Communication_Recording" ConceptLink="http://hdl.handle.net/11459/CCR_C-4566_817ec8b8-29d7-3d78-bc3f-2b764daaea72" CardinalityMin="1" CardinalityMax="1">
         <AttributeList>
-            <Attribute><Name>updated</Name><ConceptLink>http://hdl.handle.net/11459/CCR_C-2526_979ac535-eaa5-5e59-3cad-51c450234698</ConceptLink><Type>date</Type></Attribute>
+            <Attribute name="updated" ConceptLink="http://hdl.handle.net/11459/CCR_C-2526_979ac535-eaa5-5e59-3cad-51c450234698" ValueScheme="date"/>
         </AttributeList>
-        <CMD_Element name="Name" ConceptLink="http://hdl.handle.net/11459/CCR_C-2544_3626545e-a21d-058c-ebfd-241c0464e7e5" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1" Documentation="The name/label of the recording.">
-            
-        </CMD_Element>
-        <CMD_Element name="Type" ConceptLink="http://hdl.handle.net/11459/CCR_C-2570_6f596a6d-4d5c-f336-d971-e61a310e2c8c" CardinalityMin="1" CardinalityMax="1" Documentation="The existing recording type(s).">
-            
+        <Element name="Name" ConceptLink="http://hdl.handle.net/11459/CCR_C-2544_3626545e-a21d-058c-ebfd-241c0464e7e5" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+            <Documentation>The name/label of the recording.</Documentation>
+        </Element>
+        <Element name="Type" ConceptLink="http://hdl.handle.net/11459/CCR_C-2570_6f596a6d-4d5c-f336-d971-e61a310e2c8c" CardinalityMin="1" CardinalityMax="1">
+            <Documentation>The existing recording type(s).</Documentation>
             <ValueScheme>
-                
+                <Vocabulary>
                     <enumeration>
                         <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4531_2180970c-cda9-409b-14b0-ff0a768eb790" AppInfo="Video recording">video</item>
                         <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4532_afcac6b3-faaa-b9b4-7d2c-465bd3a58f8a" AppInfo="Audio recording">audio</item>
                         <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2591_f769d93b-c007-d2c9-aff2-99e9177e5764" AppInfo="Unknown recording type">unknown</item>
                         <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2591_f769d93b-c007-d2c9-aff2-99e9177e5764" AppInfo="Unspecified recording type">unspecified</item>
                     </enumeration>
-                
+                </Vocabulary>
             </ValueScheme>
-        </CMD_Element>
-        <CMD_Component name="TotalSize" ComponentId="clarin.eu:cr1:c_1271859438114" CardinalityMin="1" CardinalityMax="1">
-            <CMD_Element name="Number" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="decimal" CardinalityMin="1" CardinalityMax="1"/>
-            <CMD_Element name="SizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true"/>
-        </CMD_Component>
-        <CMD_Component name="SpeechTechnicalMetadata" ComponentId="clarin.eu:cr1:c_1271859438143" CardinalityMin="0" CardinalityMax="1">
-            <CMD_Element name="SamplingFrequency" ConceptLink="http://hdl.handle.net/11459/CCR_C-2577_73344cc2-f341-8842-bcf7-48e5267a3aca" ValueScheme="decimal" CardinalityMin="0" CardinalityMax="unbounded"/>
-            <CMD_Element name="NumberOfChannels" ConceptLink="http://hdl.handle.net/11459/CCR_C-2961_9c4165d7-a124-bd97-ba64-73763421aa9d" ValueScheme="decimal" CardinalityMin="0" CardinalityMax="unbounded"/>
-            <CMD_Element name="ByteOrder" ConceptLink="http://hdl.handle.net/11459/CCR_C-2686_8482ada6-574c-67e3-d65a-64a23b06b533" CardinalityMin="0" CardinalityMax="unbounded">
+        </Element>
+        <Component name="TotalSize" ComponentRef="clarin.eu:cr1:c_1271859438114" CardinalityMin="1" CardinalityMax="1">
+            <Element name="Number" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="decimal" CardinalityMin="1" CardinalityMax="1"/>
+            <Element name="SizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true"/>
+        </Component>
+        <Component name="SpeechTechnicalMetadata" ComponentRef="clarin.eu:cr1:c_1271859438143" CardinalityMin="0" CardinalityMax="1">
+            <Element name="SamplingFrequency" ConceptLink="http://hdl.handle.net/11459/CCR_C-2577_73344cc2-f341-8842-bcf7-48e5267a3aca" ValueScheme="decimal" CardinalityMin="0" CardinalityMax="unbounded"/>
+            <Element name="NumberOfChannels" ConceptLink="http://hdl.handle.net/11459/CCR_C-2961_9c4165d7-a124-bd97-ba64-73763421aa9d" ValueScheme="decimal" CardinalityMin="0" CardinalityMax="unbounded"/>
+            <Element name="ByteOrder" ConceptLink="http://hdl.handle.net/11459/CCR_C-2686_8482ada6-574c-67e3-d65a-64a23b06b533" CardinalityMin="0" CardinalityMax="unbounded">
                 <ValueScheme>
-                    
+                    <Vocabulary>
                         <enumeration>
                             <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2687_a2b83d99-1795-80ee-9968-cb34dbd0d959">big endian</item>
                             <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2688_592a09a1-3e6c-3880-c828-d218fee72af5">little endian</item>
                         </enumeration>
-                    
+                    </Vocabulary>
                 </ValueScheme>
-            </CMD_Element>
-            <CMD_Element name="Compression" ConceptLink="http://hdl.handle.net/11459/CCR_C-2685_65492121-3759-0fc2-694b-83eccbb9d26c" CardinalityMin="0" CardinalityMax="unbounded">
+            </Element>
+            <Element name="Compression" ConceptLink="http://hdl.handle.net/11459/CCR_C-2685_65492121-3759-0fc2-694b-83eccbb9d26c" CardinalityMin="0" CardinalityMax="unbounded">
                 <ValueScheme>
-                    
+                    <Vocabulary>
                         <enumeration>
                             <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2964_6226b156-c9cf-07db-f5e8-00accb1aafd9">none</item>
                             <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2962_545d0b08-7224-067c-488a-d58ca4b6e5ef">lossless</item>
                             <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2963_56ea0ae5-d807-6a0c-088d-ae596c28e30f">lossy</item>
                         </enumeration>
-                    
+                    </Vocabulary>
                 </ValueScheme>
-            </CMD_Element>
-            <CMD_Element name="BitResolution" ConceptLink="http://hdl.handle.net/11459/CCR_C-2684_ac8bdf07-61be-d478-53f7-8949139e11fc" ValueScheme="decimal" CardinalityMin="0" CardinalityMax="unbounded"/>
-            <CMD_Element name="SpeechCoding" ConceptLink="http://hdl.handle.net/11459/CCR_C-5514_145df064-6ac4-f0d3-7de8-1002dfb9b45e" CardinalityMin="0" CardinalityMax="unbounded">
+            </Element>
+            <Element name="BitResolution" ConceptLink="http://hdl.handle.net/11459/CCR_C-2684_ac8bdf07-61be-d478-53f7-8949139e11fc" ValueScheme="decimal" CardinalityMin="0" CardinalityMax="unbounded"/>
+            <Element name="SpeechCoding" ConceptLink="http://hdl.handle.net/11459/CCR_C-5514_145df064-6ac4-f0d3-7de8-1002dfb9b45e" CardinalityMin="0" CardinalityMax="unbounded">
                 <ValueScheme>
-                    
+                    <Vocabulary>
                         <enumeration>
                             <item ConceptLink="http://hdl.handle.net/11459/CCR_C-5511_72024d49-98cd-c8c8-4230-3e9a9be7a03e" AppInfo="">pcm</item>
                             <item ConceptLink="http://hdl.handle.net/11459/CCR_C-5509_49d08a21-ac57-b4a0-b951-9e973f2048ff" AppInfo="">alaw</item>
@@ -66,13 +67,13 @@
                             <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2599_93805699-d3a2-ae19-5399-d0bba0e8fc24" AppInfo="">other</item>
                             <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2591_f769d93b-c007-d2c9-aff2-99e9177e5764" AppInfo="">unknown</item>
                         </enumeration>
-                    
+                    </Vocabulary>
                 </ValueScheme>
-            </CMD_Element>
-            <CMD_Component name="MimeType" ComponentId="clarin.eu:cr1:c_1271859438106" CardinalityMin="0" CardinalityMax="unbounded">
-                <CMD_Element name="MimeType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" CardinalityMin="1" CardinalityMax="unbounded">
+            </Element>
+            <Component name="MimeType" ComponentRef="clarin.eu:cr1:c_1271859438106" CardinalityMin="0" CardinalityMax="unbounded">
+                <Element name="MimeType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" CardinalityMin="1" CardinalityMax="unbounded">
                     <ValueScheme>
-                        
+                        <Vocabulary>
                             <enumeration>
                                 <item>application/epub+zip</item>
                                 <item>application/json</item>
@@ -153,28 +154,28 @@
                                 <item>video/x-motion-jpeg</item>
                                 <item>video/x-ms-wmv</item>
                             </enumeration>
-                        
+                        </Vocabulary>
                     </ValueScheme>
-                </CMD_Element>
-            </CMD_Component>
-        </CMD_Component>
-        <CMD_Component name="video-technical-metadata" ComponentId="clarin.eu:cr1:c_1324638957741" CardinalityMin="0" CardinalityMax="1">
-            <CMD_Element name="FrameRate" ConceptLink="http://hdl.handle.net/11459/CCR_C-4597_a9d69eaf-5d6f-17a2-f107-9aaff21d137b" ValueScheme="decimal" CardinalityMin="0" CardinalityMax="1" DisplayPriority="1" Documentation="the number of frames per second (fps)">
-                
-            </CMD_Element>
-            <CMD_Element name="ImageResolution" ConceptLink="http://hdl.handle.net/11459/CCR_C-2575_3d7c3d42-f4d3-6071-61a1-45deeb960343" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="the number of pixels in x- and y-axis">
-                
-            </CMD_Element>
-            <CMD_Element name="ColorDepth" ConceptLink="http://hdl.handle.net/11459/CCR_C-4598_f4b6cd5a-89d1-a2b1-7119-1beb2fd83fba" ValueScheme="decimal" CardinalityMin="0" CardinalityMax="1" Documentation="the number of bits per pixel in a picture or video frame">
-                
-            </CMD_Element>
-            <CMD_Element name="VideoCodec" ConceptLink="http://hdl.handle.net/11459/CCR_C-4599_2eee055a-fe8b-953a-52a9-c0ad8dae82d2" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The name/standard ID of the used video codec">
-                
-            </CMD_Element>
-            <CMD_Component name="MimeType" ComponentId="clarin.eu:cr1:c_1271859438106" CardinalityMin="0" CardinalityMax="unbounded">
-                <CMD_Element name="MimeType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" CardinalityMin="1" CardinalityMax="unbounded">
+                </Element>
+            </Component>
+        </Component>
+        <Component name="video-technical-metadata" ComponentRef="clarin.eu:cr1:c_1324638957741" CardinalityMin="0" CardinalityMax="1">
+            <Element name="FrameRate" ConceptLink="http://hdl.handle.net/11459/CCR_C-4597_a9d69eaf-5d6f-17a2-f107-9aaff21d137b" ValueScheme="decimal" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                <Documentation>the number of frames per second (fps)</Documentation>
+            </Element>
+            <Element name="ImageResolution" ConceptLink="http://hdl.handle.net/11459/CCR_C-2575_3d7c3d42-f4d3-6071-61a1-45deeb960343" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                <Documentation>the number of pixels in x- and y-axis</Documentation>
+            </Element>
+            <Element name="ColorDepth" ConceptLink="http://hdl.handle.net/11459/CCR_C-4598_f4b6cd5a-89d1-a2b1-7119-1beb2fd83fba" ValueScheme="decimal" CardinalityMin="0" CardinalityMax="1">
+                <Documentation>the number of bits per pixel in a picture or video frame</Documentation>
+            </Element>
+            <Element name="VideoCodec" ConceptLink="http://hdl.handle.net/11459/CCR_C-4599_2eee055a-fe8b-953a-52a9-c0ad8dae82d2" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                <Documentation>The name/standard ID of the used video codec</Documentation>
+            </Element>
+            <Component name="MimeType" ComponentRef="clarin.eu:cr1:c_1271859438106" CardinalityMin="0" CardinalityMax="unbounded">
+                <Element name="MimeType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" CardinalityMin="1" CardinalityMax="unbounded">
                     <ValueScheme>
-                        
+                        <Vocabulary>
                             <enumeration>
                                 <item>application/epub+zip</item>
                                 <item>application/json</item>
@@ -255,10 +256,10 @@
                                 <item>video/x-motion-jpeg</item>
                                 <item>video/x-ms-wmv</item>
                             </enumeration>
-                        
+                        </Vocabulary>
                     </ValueScheme>
-                </CMD_Element>
-            </CMD_Component>
-        </CMD_Component>
-    </CMD_Component>
-</CMD_ComponentSpec>
+                </Element>
+            </Component>
+        </Component>
+    </Component>
+</ComponentSpec>

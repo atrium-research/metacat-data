@@ -1,60 +1,61 @@
-<?xml version="1.0" encoding="UTF-8"?><CMD_ComponentSpec xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cue="http://www.clarin.eu/cmd/cues/1" xmlns:cue_old="http://www.clarin.eu/cmdi/cues/1" isProfile="true" xsi:noNamespaceSchemaLocation="https://infra.clarin.eu/CMDI/1.1/general-component-schema.xsd">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ComponentSpec isProfile="true" CMDVersion="1.2" CMDOriginalVersion="1.1" xsi:noNamespaceSchemaLocation="https://infra.clarin.eu/CMDI/1.x/xsd/cmd-component.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <Header>
         <ID>clarin.eu:cr1:p_1369140737144</ID>
         <Name>CRMCollection</Name>
         <Description>Profiel voor CRM collectie metadata in iNPOLDER project</Description>
-        
+        <Status>development</Status>
     </Header>
-    <CMD_Component name="CRMCollection" CardinalityMin="1" CardinalityMax="1">
-        <CMD_Element name="Title" ConceptLink="http://hdl.handle.net/11459/CCR_C-2545_d873f2ab-2a2f-29d6-a9ab-260cde57f227" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
-        <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false"/>
-        <CMD_Component name="TechnicalMetadata" ComponentId="clarin.eu:cr1:c_1307535113337" CardinalityMin="0" CardinalityMax="unbounded">
-            <CMD_Element name="MimeType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
-            <CMD_Element name="Quality" ConceptLink="http://hdl.handle.net/11459/CCR_C-2574_85e2b550-e877-599a-fb82-76812896f9da" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
-            <CMD_Component name="Size" CardinalityMin="0" CardinalityMax="1">
-                <CMD_Component name="TotalSize" CardinalityMin="0" CardinalityMax="unbounded">
-                    <CMD_Element name="Number" ValueScheme="decimal" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1"/>
-                    <CMD_Element name="SizeUnit" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false"/>
-                </CMD_Component>
-                <CMD_Component name="Dimension" CardinalityMin="0" CardinalityMax="1">
-                    <CMD_Component name="Width" CardinalityMin="0" CardinalityMax="1">
-                        <CMD_Element name="Number" ValueScheme="decimal" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1"/>
-                        <CMD_Element name="SizeUnit" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
-                    </CMD_Component>
-                    <CMD_Component name="Height" CardinalityMin="0" CardinalityMax="1">
-                        <CMD_Element name="Number" ValueScheme="decimal" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1"/>
-                        <CMD_Element name="SizeUnit" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
-                    </CMD_Component>
-                </CMD_Component>
-            </CMD_Component>
-            <CMD_Component name="SpeechTechnicalMetadata" ComponentId="clarin.eu:cr1:c_1271859438143" CardinalityMin="0" CardinalityMax="1">
-                <CMD_Element name="SamplingFrequency" ConceptLink="http://hdl.handle.net/11459/CCR_C-2577_73344cc2-f341-8842-bcf7-48e5267a3aca" ValueScheme="decimal" CardinalityMin="0" CardinalityMax="unbounded"/>
-                <CMD_Element name="NumberOfChannels" ConceptLink="http://hdl.handle.net/11459/CCR_C-2961_9c4165d7-a124-bd97-ba64-73763421aa9d" ValueScheme="decimal" CardinalityMin="0" CardinalityMax="unbounded"/>
-                <CMD_Element name="ByteOrder" ConceptLink="http://hdl.handle.net/11459/CCR_C-2686_8482ada6-574c-67e3-d65a-64a23b06b533" CardinalityMin="0" CardinalityMax="unbounded">
+    <Component name="CRMCollection" CardinalityMin="1" CardinalityMax="1">
+        <Element name="Title" ConceptLink="http://hdl.handle.net/11459/CCR_C-2545_d873f2ab-2a2f-29d6-a9ab-260cde57f227" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+        <Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false"/>
+        <Component name="TechnicalMetadata" ComponentRef="clarin.eu:cr1:c_1307535113337" CardinalityMin="0" CardinalityMax="unbounded">
+            <Element name="MimeType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+            <Element name="Quality" ConceptLink="http://hdl.handle.net/11459/CCR_C-2574_85e2b550-e877-599a-fb82-76812896f9da" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+            <Component name="Size" CardinalityMin="0" CardinalityMax="1">
+                <Component name="TotalSize" CardinalityMin="0" CardinalityMax="unbounded">
+                    <Element name="Number" ValueScheme="decimal" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                    <Element name="SizeUnit" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false"/>
+                </Component>
+                <Component name="Dimension" CardinalityMin="0" CardinalityMax="1">
+                    <Component name="Width" CardinalityMin="0" CardinalityMax="1">
+                        <Element name="Number" ValueScheme="decimal" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                        <Element name="SizeUnit" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                    </Component>
+                    <Component name="Height" CardinalityMin="0" CardinalityMax="1">
+                        <Element name="Number" ValueScheme="decimal" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                        <Element name="SizeUnit" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                    </Component>
+                </Component>
+            </Component>
+            <Component name="SpeechTechnicalMetadata" ComponentRef="clarin.eu:cr1:c_1271859438143" CardinalityMin="0" CardinalityMax="1">
+                <Element name="SamplingFrequency" ConceptLink="http://hdl.handle.net/11459/CCR_C-2577_73344cc2-f341-8842-bcf7-48e5267a3aca" ValueScheme="decimal" CardinalityMin="0" CardinalityMax="unbounded"/>
+                <Element name="NumberOfChannels" ConceptLink="http://hdl.handle.net/11459/CCR_C-2961_9c4165d7-a124-bd97-ba64-73763421aa9d" ValueScheme="decimal" CardinalityMin="0" CardinalityMax="unbounded"/>
+                <Element name="ByteOrder" ConceptLink="http://hdl.handle.net/11459/CCR_C-2686_8482ada6-574c-67e3-d65a-64a23b06b533" CardinalityMin="0" CardinalityMax="unbounded">
                     <ValueScheme>
-                        
+                        <Vocabulary>
                             <enumeration>
                                 <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2687_a2b83d99-1795-80ee-9968-cb34dbd0d959">big endian</item>
                                 <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2688_592a09a1-3e6c-3880-c828-d218fee72af5">little endian</item>
                             </enumeration>
-                        
+                        </Vocabulary>
                     </ValueScheme>
-                </CMD_Element>
-                <CMD_Element name="Compression" ConceptLink="http://hdl.handle.net/11459/CCR_C-2685_65492121-3759-0fc2-694b-83eccbb9d26c" CardinalityMin="0" CardinalityMax="unbounded">
+                </Element>
+                <Element name="Compression" ConceptLink="http://hdl.handle.net/11459/CCR_C-2685_65492121-3759-0fc2-694b-83eccbb9d26c" CardinalityMin="0" CardinalityMax="unbounded">
                     <ValueScheme>
-                        
+                        <Vocabulary>
                             <enumeration>
                                 <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2964_6226b156-c9cf-07db-f5e8-00accb1aafd9">none</item>
                                 <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2962_545d0b08-7224-067c-488a-d58ca4b6e5ef">lossless</item>
                                 <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2963_56ea0ae5-d807-6a0c-088d-ae596c28e30f">lossy</item>
                             </enumeration>
-                        
+                        </Vocabulary>
                     </ValueScheme>
-                </CMD_Element>
-                <CMD_Element name="BitResolution" ConceptLink="http://hdl.handle.net/11459/CCR_C-2684_ac8bdf07-61be-d478-53f7-8949139e11fc" ValueScheme="decimal" CardinalityMin="0" CardinalityMax="unbounded"/>
-                <CMD_Element name="SpeechCoding" ConceptLink="http://hdl.handle.net/11459/CCR_C-5514_145df064-6ac4-f0d3-7de8-1002dfb9b45e" CardinalityMin="0" CardinalityMax="unbounded">
+                </Element>
+                <Element name="BitResolution" ConceptLink="http://hdl.handle.net/11459/CCR_C-2684_ac8bdf07-61be-d478-53f7-8949139e11fc" ValueScheme="decimal" CardinalityMin="0" CardinalityMax="unbounded"/>
+                <Element name="SpeechCoding" ConceptLink="http://hdl.handle.net/11459/CCR_C-5514_145df064-6ac4-f0d3-7de8-1002dfb9b45e" CardinalityMin="0" CardinalityMax="unbounded">
                     <ValueScheme>
-                        
+                        <Vocabulary>
                             <enumeration>
                                 <item ConceptLink="http://hdl.handle.net/11459/CCR_C-5511_72024d49-98cd-c8c8-4230-3e9a9be7a03e" AppInfo="">pcm</item>
                                 <item ConceptLink="http://hdl.handle.net/11459/CCR_C-5509_49d08a21-ac57-b4a0-b951-9e973f2048ff" AppInfo="">alaw</item>
@@ -64,13 +65,13 @@
                                 <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2599_93805699-d3a2-ae19-5399-d0bba0e8fc24" AppInfo="">other</item>
                                 <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2591_f769d93b-c007-d2c9-aff2-99e9177e5764" AppInfo="">unknown</item>
                             </enumeration>
-                        
+                        </Vocabulary>
                     </ValueScheme>
-                </CMD_Element>
-                <CMD_Component name="MimeType" ComponentId="clarin.eu:cr1:c_1271859438106" CardinalityMin="0" CardinalityMax="unbounded">
-                    <CMD_Element name="MimeType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" CardinalityMin="1" CardinalityMax="unbounded">
+                </Element>
+                <Component name="MimeType" ComponentRef="clarin.eu:cr1:c_1271859438106" CardinalityMin="0" CardinalityMax="unbounded">
+                    <Element name="MimeType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" CardinalityMin="1" CardinalityMax="unbounded">
                         <ValueScheme>
-                            
+                            <Vocabulary>
                                 <enumeration>
                                     <item>application/epub+zip</item>
                                     <item>application/json</item>
@@ -151,11 +152,11 @@
                                     <item>video/x-motion-jpeg</item>
                                     <item>video/x-ms-wmv</item>
                                 </enumeration>
-                            
+                            </Vocabulary>
                         </ValueScheme>
-                    </CMD_Element>
-                </CMD_Component>
-            </CMD_Component>
-        </CMD_Component>
-    </CMD_Component>
-</CMD_ComponentSpec>
+                    </Element>
+                </Component>
+            </Component>
+        </Component>
+    </Component>
+</ComponentSpec>

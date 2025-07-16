@@ -1,210 +1,211 @@
-<?xml version="1.0" encoding="UTF-8"?><CMD_ComponentSpec xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cue="http://www.clarin.eu/cmd/cues/1" xmlns:cue_old="http://www.clarin.eu/cmdi/cues/1" isProfile="true" xsi:noNamespaceSchemaLocation="https://infra.clarin.eu/CMDI/1.1/general-component-schema.xsd">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ComponentSpec isProfile="true" CMDVersion="1.2" CMDOriginalVersion="1.1" xsi:noNamespaceSchemaLocation="https://infra.clarin.eu/CMDI/1.x/xsd/cmd-component.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <Header>
         <ID>clarin.eu:cr1:p_1388512733002</ID>
         <Name>Communication_Transcript</Name>
         <Description>Transcript. The component describes a transcript of a communication with detailed information on access, transcription/annotation format(s), and technical metadata.</Description>
-        
+        <Status>production</Status>
     </Header>
-    <CMD_Component name="Communication_Transcript" ConceptLink="http://hdl.handle.net/11459/CCR_C-4009_a0bff262-8ee6-4ec8-4d74-657b10411a72" CardinalityMin="1" CardinalityMax="1">
+    <Component name="Communication_Transcript" ConceptLink="http://hdl.handle.net/11459/CCR_C-4009_a0bff262-8ee6-4ec8-4d74-657b10411a72" CardinalityMin="1" CardinalityMax="1">
         <AttributeList>
-            <Attribute><Name>updated</Name><ConceptLink>http://hdl.handle.net/11459/CCR_C-2526_979ac535-eaa5-5e59-3cad-51c450234698</ConceptLink><Type>date</Type></Attribute>
+            <Attribute name="updated" ConceptLink="http://hdl.handle.net/11459/CCR_C-2526_979ac535-eaa5-5e59-3cad-51c450234698" ValueScheme="date"/>
         </AttributeList>
-        <CMD_Element name="Name" ConceptLink="http://hdl.handle.net/11459/CCR_C-2544_3626545e-a21d-058c-ebfd-241c0464e7e5" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1" Documentation="The name/label of the transcript.">
-            
-        </CMD_Element>
-        <CMD_Component name="TechnicalMetadata" ConceptLink="http://hdl.handle.net/11459/CCR_C-4346_9e43848e-c48d-37b0-b7a4-3cf59061fa2a" CardinalityMin="1" CardinalityMax="1">
-            <CMD_Element name="Format" ConceptLink="http://hdl.handle.net/11459/CCR_C-2562_872eb94a-47fb-b551-2f64-13ded063259e" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1" Documentation="The format of the described transcipt, specified as mimetype.">
-                
-            </CMD_Element>
-            <CMD_Component name="AnnotationToolInfo" ComponentId="clarin.eu:cr1:c_1290431694534" CardinalityMin="1" CardinalityMax="1">
-                <CMD_Element name="AnnotationTool" ConceptLink="http://hdl.handle.net/11459/CCR_C-3785_8efaa065-756e-3a66-12de-75b72dec7e50" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" DisplayPriority="1"/>
-                <CMD_Element name="ToolType" ConceptLink="http://hdl.handle.net/11459/CCR_C-3810_7d3b783a-d2c6-51fc-01ab-6a8a658d94c8" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" DisplayPriority="1"/>
-                <CMD_Element name="Version" ConceptLink="http://hdl.handle.net/11459/CCR_C-2547_7883d382-b3ce-8ab4-7052-0138525a8ba1" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true"/>
-                <CMD_Element name="Url" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
-                <CMD_Component name="Descriptions" ComponentId="clarin.eu:cr1:c_1290431694486" CardinalityMin="0" CardinalityMax="1">
-                    <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1">
+        <Element name="Name" ConceptLink="http://hdl.handle.net/11459/CCR_C-2544_3626545e-a21d-058c-ebfd-241c0464e7e5" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+            <Documentation>The name/label of the transcript.</Documentation>
+        </Element>
+        <Component name="TechnicalMetadata" ConceptLink="http://hdl.handle.net/11459/CCR_C-4346_9e43848e-c48d-37b0-b7a4-3cf59061fa2a" CardinalityMin="1" CardinalityMax="1">
+            <Element name="Format" ConceptLink="http://hdl.handle.net/11459/CCR_C-2562_872eb94a-47fb-b551-2f64-13ded063259e" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                <Documentation>The format of the described transcipt, specified as mimetype.</Documentation>
+            </Element>
+            <Component name="AnnotationToolInfo" ComponentRef="clarin.eu:cr1:c_1290431694534" CardinalityMin="1" CardinalityMax="1">
+                <Element name="AnnotationTool" ConceptLink="http://hdl.handle.net/11459/CCR_C-3785_8efaa065-756e-3a66-12de-75b72dec7e50" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                <Element name="ToolType" ConceptLink="http://hdl.handle.net/11459/CCR_C-3810_7d3b783a-d2c6-51fc-01ab-6a8a658d94c8" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                <Element name="Version" ConceptLink="http://hdl.handle.net/11459/CCR_C-2547_7883d382-b3ce-8ab4-7052-0138525a8ba1" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true"/>
+                <Element name="Url" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                <Component name="Descriptions" ComponentRef="clarin.eu:cr1:c_1290431694486" CardinalityMin="0" CardinalityMax="1">
+                    <Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                         <AttributeList>
-                            <Attribute><Name>type</Name>
+                            <Attribute name="type">
                                 <ValueScheme>
-                                    
+                                    <Vocabulary>
                                         <enumeration>
                                             <item ConceptLink="" AppInfo="">short</item>
                                             <item ConceptLink="" AppInfo="">long</item>
                                         </enumeration>
-                                    
+                                    </Vocabulary>
                                 </ValueScheme>
                             </Attribute>
                         </AttributeList>
-                    </CMD_Element>
-                </CMD_Component>
-            </CMD_Component>
-        </CMD_Component>
-        <CMD_Component name="Analysis" CardinalityMin="1" CardinalityMax="1">
-            <CMD_Component name="Transcription" ComponentId="clarin.eu:cr1:c_1388512733003" CardinalityMin="1" CardinalityMax="1">
-                <CMD_Element name="Name" ConceptLink="http://hdl.handle.net/11459/CCR_C-2544_3626545e-a21d-058c-ebfd-241c0464e7e5" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1" Documentation="The name of the transcription.">
-                    
-                </CMD_Element>
-                <CMD_Element name="TranscriptionConvention" ConceptLink="http://hdl.handle.net/11459/CCR_C-4085_c4b5b45a-364e-1fc1-6321-5738ba4c2fa1" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" Documentation="The transcription convention used.">
-                    
-                </CMD_Element>
-                <CMD_Element name="AlignmentStatus" CardinalityMin="1" CardinalityMax="1" Documentation="Specifies if/how the transcript has been aligned with the audio.">
-                    
+                    </Element>
+                </Component>
+            </Component>
+        </Component>
+        <Component name="Analysis" CardinalityMin="1" CardinalityMax="1">
+            <Component name="Transcription" ComponentRef="clarin.eu:cr1:c_1388512733003" CardinalityMin="1" CardinalityMax="1">
+                <Element name="Name" ConceptLink="http://hdl.handle.net/11459/CCR_C-2544_3626545e-a21d-058c-ebfd-241c0464e7e5" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                    <Documentation>The name of the transcription.</Documentation>
+                </Element>
+                <Element name="TranscriptionConvention" ConceptLink="http://hdl.handle.net/11459/CCR_C-4085_c4b5b45a-364e-1fc1-6321-5738ba4c2fa1" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false">
+                    <Documentation>The transcription convention used.</Documentation>
+                </Element>
+                <Element name="AlignmentStatus" CardinalityMin="1" CardinalityMax="1">
+                    <Documentation>Specifies if/how the transcript has been aligned with the audio.</Documentation>
                     <ValueScheme>
-                        
+                        <Vocabulary>
                             <enumeration>
                                 <item ConceptLink="" AppInfo="">fully aligned</item>
                                 <item ConceptLink="" AppInfo="">partly aligned</item>
                                 <item ConceptLink="" AppInfo="">not aligned</item>
                             </enumeration>
-                        
+                        </Vocabulary>
                     </ValueScheme>
-                </CMD_Element>
-                <CMD_Element name="TranscriptionStatus" CardinalityMin="1" CardinalityMax="1" Documentation="Specifies how much of the recording has been transcribed.">
-                    
+                </Element>
+                <Element name="TranscriptionStatus" CardinalityMin="1" CardinalityMax="1">
+                    <Documentation>Specifies how much of the recording has been transcribed.</Documentation>
                     <ValueScheme>
-                        
+                        <Vocabulary>
                             <enumeration>
                                 <item ConceptLink="" AppInfo="">fully transcribed</item>
                                 <item ConceptLink="" AppInfo="">partly transcribed</item>
                                 <item ConceptLink="" AppInfo="">not transcribed</item>
                             </enumeration>
-                        
+                        </Vocabulary>
                     </ValueScheme>
-                </CMD_Element>
-                <CMD_Element name="Derivation" ConceptLink="http://hdl.handle.net/11459/CCR_C-2518_ea48054d-f23f-c493-bcc0-067561b87c67" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="Indication of the type of derivation.">
-                    
-                </CMD_Element>
-                <CMD_Element name="DerivationMode" ConceptLink="http://hdl.handle.net/11459/CCR_C-2516_cd9adb6a-3f15-12ba-e7c7-1317906cc09e" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="Indicates whether the derivation was created manually or automatically.">
-                    
-                </CMD_Element>
-                <CMD_Element name="Anonymized" ConceptLink="http://hdl.handle.net/11459/CCR_C-2548_659fd2af-ffa3-f1ee-059d-2c59533b8467" ValueScheme="boolean" CardinalityMin="1" CardinalityMax="1" Documentation="Indicates whether or not the name and full name of the person participating in the session, experiment or similar resource creation process are replaced by pseudo names to make him/her anonymous.">
-                    
-                </CMD_Element>
-                <CMD_Component name="TranscriberPerson" ConceptLink="http://hdl.handle.net/11459/CCR_C-6184_5f26086f-2fdc-2ecd-4ef5-4bdddcccbbcf" CardinalityMin="0" CardinalityMax="unbounded">
-                    <CMD_Component name="personInfo" ComponentId="clarin.eu:cr1:c_1349361150746" CardinalityMin="1" CardinalityMax="1">
-                        <CMD_Element name="surname" ConceptLink="http://hdl.handle.net/11459/CCR_C-5521_8f30e11f-1bff-420e-511b-2b5893bdc37c" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" DisplayPriority="1" Documentation="The surname (family name) of a person related to the resource">
-                            
-                        </CMD_Element>
-                        <CMD_Element name="givenName" ConceptLink="http://hdl.handle.net/11459/CCR_C-5520_d7d87a12-7b39-0364-795b-69347ede7de7" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" Documentation="The given name (first name) of a person related to the resource; initials can also be used">
-                            
-                        </CMD_Element>
-                        <CMD_Element name="sex" ConceptLink="http://hdl.handle.net/11459/CCR_C-2560_ebb466e1-2b6b-6701-4e64-94618b4b455b" CardinalityMin="0" CardinalityMax="1" Documentation="The sex of a person related to or participating in the resource">
-                            
+                </Element>
+                <Element name="Derivation" ConceptLink="http://hdl.handle.net/11459/CCR_C-2518_ea48054d-f23f-c493-bcc0-067561b87c67" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                    <Documentation>Indication of the type of derivation.</Documentation>
+                </Element>
+                <Element name="DerivationMode" ConceptLink="http://hdl.handle.net/11459/CCR_C-2516_cd9adb6a-3f15-12ba-e7c7-1317906cc09e" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                    <Documentation>Indicates whether the derivation was created manually or automatically.</Documentation>
+                </Element>
+                <Element name="Anonymized" ConceptLink="http://hdl.handle.net/11459/CCR_C-2548_659fd2af-ffa3-f1ee-059d-2c59533b8467" ValueScheme="boolean" CardinalityMin="1" CardinalityMax="1">
+                    <Documentation>Indicates whether or not the name and full name of the person participating in the session, experiment or similar resource creation process are replaced by pseudo names to make him/her anonymous.</Documentation>
+                </Element>
+                <Component name="TranscriberPerson" ConceptLink="http://hdl.handle.net/11459/CCR_C-6184_5f26086f-2fdc-2ecd-4ef5-4bdddcccbbcf" CardinalityMin="0" CardinalityMax="unbounded">
+                    <Component name="personInfo" ComponentRef="clarin.eu:cr1:c_1349361150746" CardinalityMin="1" CardinalityMax="1">
+                        <Element name="surname" ConceptLink="http://hdl.handle.net/11459/CCR_C-5521_8f30e11f-1bff-420e-511b-2b5893bdc37c" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Documentation>The surname (family name) of a person related to the resource</Documentation>
+                        </Element>
+                        <Element name="givenName" ConceptLink="http://hdl.handle.net/11459/CCR_C-5520_d7d87a12-7b39-0364-795b-69347ede7de7" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                            <Documentation>The given name (first name) of a person related to the resource; initials can also be used</Documentation>
+                        </Element>
+                        <Element name="sex" ConceptLink="http://hdl.handle.net/11459/CCR_C-2560_ebb466e1-2b6b-6701-4e64-94618b4b455b" CardinalityMin="0" CardinalityMax="1">
+                            <Documentation>The sex of a person related to or participating in the resource</Documentation>
                             <ValueScheme>
-                                
+                                <Vocabulary>
                                     <enumeration>
                                         <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2949_10ed5b3b-2e62-a962-dac3-300f3df5441a" AppInfo="">male</item>
                                         <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2950_38f5b23e-097e-2ceb-e5f7-b16756638b89" AppInfo="">female</item>
                                         <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2591_f769d93b-c007-d2c9-aff2-99e9177e5764" AppInfo="">unknown</item>
                                     </enumeration>
-                                
+                                </Vocabulary>
                             </ValueScheme>
-                        </CMD_Element>
-                        <CMD_Element name="position" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The position or the title of a person if affiliated to an organization">
-                            
-                        </CMD_Element>
-                        <CMD_Component name="communicationInfo" ComponentId="clarin.eu:cr1:c_1352813745460" CardinalityMin="1" CardinalityMax="1">
-                            <CMD_Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" CardinalityMin="1" CardinalityMax="unbounded" DisplayPriority="1" Documentation="The email address of a person or an organization">
-                                
+                        </Element>
+                        <Element name="position" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                            <Documentation>The position or the title of a person if affiliated to an organization</Documentation>
+                        </Element>
+                        <Component name="communicationInfo" ComponentRef="clarin.eu:cr1:c_1352813745460" CardinalityMin="1" CardinalityMax="1">
+                            <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" CardinalityMin="1" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Documentation>The email address of a person or an organization</Documentation>
                                 <ValueScheme>
                                     <pattern>[^@]+@[^\.]+\..+|</pattern>
                                 </ValueScheme>
-                            </CMD_Element>
-                            <CMD_Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" CardinalityMin="0" CardinalityMax="unbounded" Documentation="A URL used as homepage of an entity (e.g. of a person, organization, resource etc.) and/or where an entity (e.g. LR, document etc.) is located">
-                                
+                            </Element>
+                            <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" CardinalityMin="0" CardinalityMax="unbounded">
+                                <Documentation>A URL used as homepage of an entity (e.g. of a person, organization, resource etc.) and/or where an entity (e.g. LR, document etc.) is located</Documentation>
                                 <ValueScheme>
                                     <pattern>(http://|https://|ftp://|www.).*</pattern>
                                 </ValueScheme>
-                            </CMD_Element>
-                            <CMD_Element name="address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2505_b61e249b-ac68-b40a-0f21-03a4a26e16b4" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The street and the number of the postal address of a person or organization">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="zipCode" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The zip code of the postal address of a person or organization">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="city" ConceptLink="http://hdl.handle.net/11459/CCR_C-5580_03e458f2-f873-8645-76eb-40e001b6c1ac" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The name of the city, town or village as mentioned in the postal address of a person or organization">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="region" ConceptLink="http://hdl.handle.net/11459/CCR_C-3814_dce1ba90-46f9-3b4a-d1ce-b37173126473" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The name of the region, county or department as mentioned in the postal address of a person or organization">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="country" ConceptLink="http://hdl.handle.net/11459/CCR_C-3792_68c770a4-d58c-46dd-d429-5609ce5f81c3" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The name of the country mentioned in the postal address of a person or organization as defined in the list of values of ISO 3166">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="telephoneNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2461_76a92748-423e-46a0-cc7c-84a7d1c46794" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" Documentation="The telephone number of a person or an organization; recommended format: +_international code_city code_number">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="faxNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2455_56998f5b-47bc-3d58-3bf6-13d18d2b0045" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" Documentation="The fax number of a person or an organization; recommended format: +_international code_city code_number">
-                                
-                            </CMD_Element>
-                        </CMD_Component>
-                        <CMD_Component name="affiliation" ComponentId="clarin.eu:cr1:c_1352813745462" CardinalityMin="0" CardinalityMax="unbounded">
-                            <CMD_Element name="role" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1" Documentation="role of person or organization; to be used for the conversion to MetaShare">
-                                
+                            </Element>
+                            <Element name="address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2505_b61e249b-ac68-b40a-0f21-03a4a26e16b4" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                <Documentation>The street and the number of the postal address of a person or organization</Documentation>
+                            </Element>
+                            <Element name="zipCode" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                <Documentation>The zip code of the postal address of a person or organization</Documentation>
+                            </Element>
+                            <Element name="city" ConceptLink="http://hdl.handle.net/11459/CCR_C-5580_03e458f2-f873-8645-76eb-40e001b6c1ac" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                <Documentation>The name of the city, town or village as mentioned in the postal address of a person or organization</Documentation>
+                            </Element>
+                            <Element name="region" ConceptLink="http://hdl.handle.net/11459/CCR_C-3814_dce1ba90-46f9-3b4a-d1ce-b37173126473" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                <Documentation>The name of the region, county or department as mentioned in the postal address of a person or organization</Documentation>
+                            </Element>
+                            <Element name="country" ConceptLink="http://hdl.handle.net/11459/CCR_C-3792_68c770a4-d58c-46dd-d429-5609ce5f81c3" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                <Documentation>The name of the country mentioned in the postal address of a person or organization as defined in the list of values of ISO 3166</Documentation>
+                            </Element>
+                            <Element name="telephoneNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2461_76a92748-423e-46a0-cc7c-84a7d1c46794" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                                <Documentation>The telephone number of a person or an organization; recommended format: +_international code_city code_number</Documentation>
+                            </Element>
+                            <Element name="faxNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2455_56998f5b-47bc-3d58-3bf6-13d18d2b0045" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                                <Documentation>The fax number of a person or an organization; recommended format: +_international code_city code_number</Documentation>
+                            </Element>
+                        </Component>
+                        <Component name="affiliation" ComponentRef="clarin.eu:cr1:c_1352813745462" CardinalityMin="0" CardinalityMax="unbounded">
+                            <Element name="role" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Documentation>role of person or organization; to be used for the conversion to MetaShare</Documentation>
                                 <ValueScheme>
-                                    
+                                    <Vocabulary>
                                         <enumeration>
                                             <item ConceptLink="" AppInfo="">affiliation</item>
                                         </enumeration>
-                                    
+                                    </Vocabulary>
                                 </ValueScheme>
-                            </CMD_Element>
-                            <CMD_Component name="organizationInfo" ComponentId="clarin.eu:cr1:c_1352813745461" CardinalityMin="1" CardinalityMax="1">
-                                <CMD_Element name="organizationName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2459_fc4e74d6-84de-c8cd-1ae8-2c2be5ee90b1" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" DisplayPriority="1" Documentation="The full name of an organization">
-                                    
-                                </CMD_Element>
-                                <CMD_Element name="organizationShortName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" Documentation="The short name (abbreviation, acronym etc.) used for an organization">
-                                    
-                                </CMD_Element>
-                                <CMD_Element name="departmentName" ConceptLink="http://hdl.handle.net/11459/CCR_C-3812_ce466764-27ab-b97b-a0bb-d7ac23ad9e60" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" Documentation="The name of the department or unit (e.g. specific university faculty or department, department or unit of a research organization or private company etc.)">
-                                    
-                                </CMD_Element>
-                                <CMD_Component name="communicationInfo" ComponentId="clarin.eu:cr1:c_1352813745460" CardinalityMin="1" CardinalityMax="1">
-                                    <CMD_Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" CardinalityMin="1" CardinalityMax="unbounded" DisplayPriority="1" Documentation="The email address of a person or an organization">
-                                        
+                            </Element>
+                            <Component name="organizationInfo" ComponentRef="clarin.eu:cr1:c_1352813745461" CardinalityMin="1" CardinalityMax="1">
+                                <Element name="organizationName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2459_fc4e74d6-84de-c8cd-1ae8-2c2be5ee90b1" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                    <Documentation>The full name of an organization</Documentation>
+                                </Element>
+                                <Element name="organizationShortName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                    <Documentation>The short name (abbreviation, acronym etc.) used for an organization</Documentation>
+                                </Element>
+                                <Element name="departmentName" ConceptLink="http://hdl.handle.net/11459/CCR_C-3812_ce466764-27ab-b97b-a0bb-d7ac23ad9e60" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                    <Documentation>The name of the department or unit (e.g. specific university faculty or department, department or unit of a research organization or private company etc.)</Documentation>
+                                </Element>
+                                <Component name="communicationInfo" ComponentRef="clarin.eu:cr1:c_1352813745460" CardinalityMin="1" CardinalityMax="1">
+                                    <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" CardinalityMin="1" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                        <Documentation>The email address of a person or an organization</Documentation>
                                         <ValueScheme>
                                             <pattern>[^@]+@[^\.]+\..+|</pattern>
                                         </ValueScheme>
-                                    </CMD_Element>
-                                    <CMD_Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" CardinalityMin="0" CardinalityMax="unbounded" Documentation="A URL used as homepage of an entity (e.g. of a person, organization, resource etc.) and/or where an entity (e.g. LR, document etc.) is located">
-                                        
+                                    </Element>
+                                    <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <Documentation>A URL used as homepage of an entity (e.g. of a person, organization, resource etc.) and/or where an entity (e.g. LR, document etc.) is located</Documentation>
                                         <ValueScheme>
                                             <pattern>(http://|https://|ftp://|www.).*</pattern>
                                         </ValueScheme>
-                                    </CMD_Element>
-                                    <CMD_Element name="address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2505_b61e249b-ac68-b40a-0f21-03a4a26e16b4" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The street and the number of the postal address of a person or organization">
-                                        
-                                    </CMD_Element>
-                                    <CMD_Element name="zipCode" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The zip code of the postal address of a person or organization">
-                                        
-                                    </CMD_Element>
-                                    <CMD_Element name="city" ConceptLink="http://hdl.handle.net/11459/CCR_C-5580_03e458f2-f873-8645-76eb-40e001b6c1ac" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The name of the city, town or village as mentioned in the postal address of a person or organization">
-                                        
-                                    </CMD_Element>
-                                    <CMD_Element name="region" ConceptLink="http://hdl.handle.net/11459/CCR_C-3814_dce1ba90-46f9-3b4a-d1ce-b37173126473" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The name of the region, county or department as mentioned in the postal address of a person or organization">
-                                        
-                                    </CMD_Element>
-                                    <CMD_Element name="country" ConceptLink="http://hdl.handle.net/11459/CCR_C-3792_68c770a4-d58c-46dd-d429-5609ce5f81c3" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The name of the country mentioned in the postal address of a person or organization as defined in the list of values of ISO 3166">
-                                        
-                                    </CMD_Element>
-                                    <CMD_Element name="telephoneNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2461_76a92748-423e-46a0-cc7c-84a7d1c46794" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" Documentation="The telephone number of a person or an organization; recommended format: +_international code_city code_number">
-                                        
-                                    </CMD_Element>
-                                    <CMD_Element name="faxNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2455_56998f5b-47bc-3d58-3bf6-13d18d2b0045" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" Documentation="The fax number of a person or an organization; recommended format: +_international code_city code_number">
-                                        
-                                    </CMD_Element>
-                                </CMD_Component>
-                            </CMD_Component>
-                        </CMD_Component>
-                    </CMD_Component>
-                </CMD_Component>
-            </CMD_Component>
-            <CMD_Component name="Annotation" CardinalityMin="0" CardinalityMax="unbounded">
-                <CMD_Component name="annotationInfo" ComponentId="clarin.eu:cr1:c_1381926654461" CardinalityMin="1" CardinalityMax="1">
-                    <CMD_Element name="annotationType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2462_5b266792-7a54-9296-42e2-2318b9861fe1" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1" Documentation="Specifies the annotation level of the resource or the annotation type a tool/ service requires or produces as an output">
-                        
+                                    </Element>
+                                    <Element name="address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2505_b61e249b-ac68-b40a-0f21-03a4a26e16b4" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                        <Documentation>The street and the number of the postal address of a person or organization</Documentation>
+                                    </Element>
+                                    <Element name="zipCode" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                        <Documentation>The zip code of the postal address of a person or organization</Documentation>
+                                    </Element>
+                                    <Element name="city" ConceptLink="http://hdl.handle.net/11459/CCR_C-5580_03e458f2-f873-8645-76eb-40e001b6c1ac" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                        <Documentation>The name of the city, town or village as mentioned in the postal address of a person or organization</Documentation>
+                                    </Element>
+                                    <Element name="region" ConceptLink="http://hdl.handle.net/11459/CCR_C-3814_dce1ba90-46f9-3b4a-d1ce-b37173126473" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                        <Documentation>The name of the region, county or department as mentioned in the postal address of a person or organization</Documentation>
+                                    </Element>
+                                    <Element name="country" ConceptLink="http://hdl.handle.net/11459/CCR_C-3792_68c770a4-d58c-46dd-d429-5609ce5f81c3" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                        <Documentation>The name of the country mentioned in the postal address of a person or organization as defined in the list of values of ISO 3166</Documentation>
+                                    </Element>
+                                    <Element name="telephoneNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2461_76a92748-423e-46a0-cc7c-84a7d1c46794" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                                        <Documentation>The telephone number of a person or an organization; recommended format: +_international code_city code_number</Documentation>
+                                    </Element>
+                                    <Element name="faxNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2455_56998f5b-47bc-3d58-3bf6-13d18d2b0045" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                                        <Documentation>The fax number of a person or an organization; recommended format: +_international code_city code_number</Documentation>
+                                    </Element>
+                                </Component>
+                            </Component>
+                        </Component>
+                    </Component>
+                </Component>
+            </Component>
+            <Component name="Annotation" CardinalityMin="0" CardinalityMax="unbounded">
+                <Component name="annotationInfo" ComponentRef="clarin.eu:cr1:c_1381926654461" CardinalityMin="1" CardinalityMax="1">
+                    <Element name="annotationType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2462_5b266792-7a54-9296-42e2-2318b9861fe1" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                        <Documentation>Specifies the annotation level of the resource or the annotation type a tool/ service requires or produces as an output</Documentation>
                         <ValueScheme>
-                            
+                            <Vocabulary>
                                 <enumeration>
                                     <item ConceptLink="" AppInfo="">alignment</item>
                                     <item ConceptLink="" AppInfo="">discourseAnnotation</item>
@@ -259,13 +260,13 @@
                                     <item ConceptLink="" AppInfo="">syntacticAnnotation-constituencyTrees</item>
                                     <item ConceptLink="" AppInfo="">syntacticAnnotation-dependencyTrees</item>
                                 </enumeration>
-                            
+                            </Vocabulary>
                         </ValueScheme>
-                    </CMD_Element>
-                    <CMD_Element name="annotatedElements" CardinalityMin="0" CardinalityMax="unbounded" Documentation="Specifies the elements annotated at each annotation level">
-                        
+                    </Element>
+                    <Element name="annotatedElements" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Documentation>Specifies the elements annotated at each annotation level</Documentation>
                         <ValueScheme>
-                            
+                            <Vocabulary>
                                 <enumeration>
                                     <item ConceptLink="" AppInfo="">speakerNoise</item>
                                     <item ConceptLink="" AppInfo="">backgroundNoise</item>
@@ -274,16 +275,16 @@
                                     <item ConceptLink="" AppInfo="">discourseMarkers</item>
                                     <item ConceptLink="" AppInfo="">other</item>
                                 </enumeration>
-                            
+                            </Vocabulary>
                         </ValueScheme>
-                    </CMD_Element>
-                    <CMD_Element name="annotationStandoff" ConceptLink="http://hdl.handle.net/11459/CCR_C-2507_94b29b04-98e8-fca3-a0ef-3a44d795b0da" ValueScheme="boolean" CardinalityMin="0" CardinalityMax="1" Documentation="Indicates whether the annotation is created inline or in a stand-off fashion">
-                        
-                    </CMD_Element>
-                    <CMD_Element name="segmentationLevel" CardinalityMin="0" CardinalityMax="unbounded" Documentation="Specifies the segmentation unit in terms of which the resource has been segmented or the level of segmentation a tool/service requires/outputs">
-                        
+                    </Element>
+                    <Element name="annotationStandoff" ConceptLink="http://hdl.handle.net/11459/CCR_C-2507_94b29b04-98e8-fca3-a0ef-3a44d795b0da" ValueScheme="boolean" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>Indicates whether the annotation is created inline or in a stand-off fashion</Documentation>
+                    </Element>
+                    <Element name="segmentationLevel" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Documentation>Specifies the segmentation unit in terms of which the resource has been segmented or the level of segmentation a tool/service requires/outputs</Documentation>
                         <ValueScheme>
-                            
+                            <Vocabulary>
                                 <enumeration>
                                     <item ConceptLink="" AppInfo="">paragraph</item>
                                     <item ConceptLink="" AppInfo="">sentence</item>
@@ -304,25 +305,25 @@
                                     <item ConceptLink="" AppInfo="">other</item>
                                     <item ConceptLink="" AppInfo="">token</item>
                                 </enumeration>
-                            
+                            </Vocabulary>
                         </ValueScheme>
-                    </CMD_Element>
-                    <CMD_Element name="annotationFormat" ConceptLink="http://hdl.handle.net/11459/CCR_C-2562_872eb94a-47fb-b551-2f64-13ded063259e" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="Specifies the format that is used in the annotation process since often the mime type will not be sufficient for machine processing">
-                        
-                    </CMD_Element>
-                    <CMD_Element name="tagset" ConceptLink="http://hdl.handle.net/11459/CCR_C-2497_6e93b9ce-1be7-248f-ab63-ba0b9c63661f" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="A name or a URL intended as reference for the tagset used in the annotation of the resource or by the tool/service">
-                        
-                    </CMD_Element>
-                    <CMD_Element name="tagsetLanguageId" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The identifier of the tagset language; an autocompletion mechanism with values from the ISO 639 is provided in the editor, but the values can be subsequently edited for further specification (according to the IETF BCP47 guidelines)">
-                        
-                    </CMD_Element>
-                    <CMD_Element name="tagsetLanguageName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2498_da768853-93fd-7d47-5786-27e8cc659e93" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The name of the tagset language; an autocompletion mechanism with values from the ISO 639 is provided in the editor, but the values can be subsequently edited for further specification (according to the IETF BCP47 guidelines)">
-                        
-                    </CMD_Element>
-                    <CMD_Element name="conformanceToStandardsBestPractices" CardinalityMin="0" CardinalityMax="unbounded" Documentation="Specifies the standards or the best practices to which the tagset used for the annotation conforms">
-                        
+                    </Element>
+                    <Element name="annotationFormat" ConceptLink="http://hdl.handle.net/11459/CCR_C-2562_872eb94a-47fb-b551-2f64-13ded063259e" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                        <Documentation>Specifies the format that is used in the annotation process since often the mime type will not be sufficient for machine processing</Documentation>
+                    </Element>
+                    <Element name="tagset" ConceptLink="http://hdl.handle.net/11459/CCR_C-2497_6e93b9ce-1be7-248f-ab63-ba0b9c63661f" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                        <Documentation>A name or a URL intended as reference for the tagset used in the annotation of the resource or by the tool/service</Documentation>
+                    </Element>
+                    <Element name="tagsetLanguageId" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                        <Documentation>The identifier of the tagset language; an autocompletion mechanism with values from the ISO 639 is provided in the editor, but the values can be subsequently edited for further specification (according to the IETF BCP47 guidelines)</Documentation>
+                    </Element>
+                    <Element name="tagsetLanguageName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2498_da768853-93fd-7d47-5786-27e8cc659e93" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                        <Documentation>The name of the tagset language; an autocompletion mechanism with values from the ISO 639 is provided in the editor, but the values can be subsequently edited for further specification (according to the IETF BCP47 guidelines)</Documentation>
+                    </Element>
+                    <Element name="conformanceToStandardsBestPractices" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Documentation>Specifies the standards or the best practices to which the tagset used for the annotation conforms</Documentation>
                         <ValueScheme>
-                            
+                            <Vocabulary>
                                 <enumeration>
                                     <item ConceptLink="" AppInfo="">BLM</item>
                                     <item ConceptLink="" AppInfo="">CES</item>
@@ -370,71 +371,71 @@
                                     <item ConceptLink="" AppInfo="">WordNet</item>
                                     <item ConceptLink="" AppInfo="">other</item>
                                 </enumeration>
-                            
+                            </Vocabulary>
                         </ValueScheme>
-                    </CMD_Element>
-                    <CMD_Element name="theoreticModel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2501_10d05e0c-4d08-1614-3446-bead00733c27" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="Name of the theoretic model applied for the creation or enrichment of the resource, and/or reference (URL or bibliographic reference) to informative material about the theoretic model used">
-                        
-                    </CMD_Element>
-                    <CMD_Element name="annotationMode" ConceptLink="http://hdl.handle.net/11459/CCR_C-2506_48f68696-57f3-74da-38e8-aa0f8e6ecc2f" CardinalityMin="0" CardinalityMax="1" Documentation="Indicates whether the resource is annotated manually or by automatic processes">
-                        
+                    </Element>
+                    <Element name="theoreticModel" ConceptLink="http://hdl.handle.net/11459/CCR_C-2501_10d05e0c-4d08-1614-3446-bead00733c27" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                        <Documentation>Name of the theoretic model applied for the creation or enrichment of the resource, and/or reference (URL or bibliographic reference) to informative material about the theoretic model used</Documentation>
+                    </Element>
+                    <Element name="annotationMode" ConceptLink="http://hdl.handle.net/11459/CCR_C-2506_48f68696-57f3-74da-38e8-aa0f8e6ecc2f" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>Indicates whether the resource is annotated manually or by automatic processes</Documentation>
                         <ValueScheme>
-                            
+                            <Vocabulary>
                                 <enumeration>
                                     <item ConceptLink="" AppInfo="">automatic</item>
                                     <item ConceptLink="" AppInfo="">manual</item>
                                     <item ConceptLink="" AppInfo="">mixed</item>
                                     <item ConceptLink="" AppInfo="">interactive</item>
                                 </enumeration>
-                            
+                            </Vocabulary>
                         </ValueScheme>
-                    </CMD_Element>
-                    <CMD_Element name="annotationModeDetails" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="Provides further information on annotation process">
-                        
-                    </CMD_Element>
-                    <CMD_Element name="annotationStartDate" ConceptLink="http://hdl.handle.net/11459/CCR_C-2539_f831f74e-f8ca-4e29-bb02-eb6ca7ea3073" ValueScheme="date" CardinalityMin="0" CardinalityMax="1" Documentation="The date in which the annotation process has started">
-                        
-                    </CMD_Element>
-                    <CMD_Element name="annotationEndDate" ConceptLink="http://hdl.handle.net/11459/CCR_C-2509_3b86afe2-ebde-ba09-8a1c-fe6bdc46a739" ValueScheme="date" CardinalityMin="0" CardinalityMax="1" Documentation="The date in which the annotation process has ended">
-                        
-                    </CMD_Element>
-                    <CMD_Element name="interannotatorAgreement" ConceptLink="http://hdl.handle.net/11459/CCR_C-2525_1c68b872-922c-db94-3c6e-f5d61268f8b6" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="Provides information on the interannotator agreement and the methods/metrics applied">
-                        
-                    </CMD_Element>
-                    <CMD_Element name="intraannotatorAgreement" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="Provides information on the intra-annotator agreement and the methods/metrics applied">
-                        
-                    </CMD_Element>
-                    <CMD_Component name="annotationManualUnstructured" ComponentId="clarin.eu:cr1:c_1355150532325" CardinalityMin="0" CardinalityMax="unbounded">
-                        <CMD_Element name="role" CardinalityMin="1" CardinalityMax="1" Documentation="role of documents (e.g. annotation reports, validation manuals, general documentation of the resource etc.)">
-                            
+                    </Element>
+                    <Element name="annotationModeDetails" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                        <Documentation>Provides further information on annotation process</Documentation>
+                    </Element>
+                    <Element name="annotationStartDate" ConceptLink="http://hdl.handle.net/11459/CCR_C-2539_f831f74e-f8ca-4e29-bb02-eb6ca7ea3073" ValueScheme="date" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>The date in which the annotation process has started</Documentation>
+                    </Element>
+                    <Element name="annotationEndDate" ConceptLink="http://hdl.handle.net/11459/CCR_C-2509_3b86afe2-ebde-ba09-8a1c-fe6bdc46a739" ValueScheme="date" CardinalityMin="0" CardinalityMax="1">
+                        <Documentation>The date in which the annotation process has ended</Documentation>
+                    </Element>
+                    <Element name="interannotatorAgreement" ConceptLink="http://hdl.handle.net/11459/CCR_C-2525_1c68b872-922c-db94-3c6e-f5d61268f8b6" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                        <Documentation>Provides information on the interannotator agreement and the methods/metrics applied</Documentation>
+                    </Element>
+                    <Element name="intraannotatorAgreement" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                        <Documentation>Provides information on the intra-annotator agreement and the methods/metrics applied</Documentation>
+                    </Element>
+                    <Component name="annotationManualUnstructured" ComponentRef="clarin.eu:cr1:c_1355150532325" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Element name="role" CardinalityMin="1" CardinalityMax="1">
+                            <Documentation>role of documents (e.g. annotation reports, validation manuals, general documentation of the resource etc.)</Documentation>
                             <ValueScheme>
-                                
+                                <Vocabulary>
                                     <enumeration>
                                         <item ConceptLink="" AppInfo="">annotationManual</item>
                                     </enumeration>
-                                
+                                </Vocabulary>
                             </ValueScheme>
-                        </CMD_Element>
-                        <CMD_Element name="documentUnstructured" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1" Documentation="Used either as a free text description or as an unstructured (free form) presentation of a bibliographic record; alternative to the structured presentation of a document (cf. documentInfo)">
-                            
-                        </CMD_Element>
-                    </CMD_Component>
-                    <CMD_Component name="annotationManualStructured" ComponentId="clarin.eu:cr1:c_1361876010647" CardinalityMin="0" CardinalityMax="unbounded">
-                        <CMD_Element name="role" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1" Documentation="role of documents (e.g. annotation reports, validation manuals, general documentation of the resource etc.)">
-                            
+                        </Element>
+                        <Element name="documentUnstructured" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Documentation>Used either as a free text description or as an unstructured (free form) presentation of a bibliographic record; alternative to the structured presentation of a document (cf. documentInfo)</Documentation>
+                        </Element>
+                    </Component>
+                    <Component name="annotationManualStructured" ComponentRef="clarin.eu:cr1:c_1361876010647" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Element name="role" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Documentation>role of documents (e.g. annotation reports, validation manuals, general documentation of the resource etc.)</Documentation>
                             <ValueScheme>
-                                
+                                <Vocabulary>
                                     <enumeration>
                                         <item ConceptLink="" AppInfo="">annotationManual</item>
                                     </enumeration>
-                                
+                                </Vocabulary>
                             </ValueScheme>
-                        </CMD_Element>
-                        <CMD_Component name="documentInfo" ComponentId="clarin.eu:cr1:c_1353678848788" CardinalityMin="1" CardinalityMax="1">
-                            <CMD_Element name="documentType" ConceptLink="http://hdl.handle.net/11459/CCR_C-5434_9c284553-b24c-d3ea-f3e8-5bebf0ee5f44" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1" Documentation="Specifies the type of the document provided with or related to the resource">
-                                
+                        </Element>
+                        <Component name="documentInfo" ComponentRef="clarin.eu:cr1:c_1353678848788" CardinalityMin="1" CardinalityMax="1">
+                            <Element name="documentType" ConceptLink="http://hdl.handle.net/11459/CCR_C-5434_9c284553-b24c-d3ea-f3e8-5bebf0ee5f44" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Documentation>Specifies the type of the document provided with or related to the resource</Documentation>
                                 <ValueScheme>
-                                    
+                                    <Vocabulary>
                                         <enumeration>
                                             <item ConceptLink="" AppInfo="An article from a journal or magazine">article</item>
                                             <item ConceptLink="" AppInfo=" A book with an explicit publisher">book</item>
@@ -450,95 +451,95 @@
                                             <item ConceptLink="" AppInfo="A document having an author and title, but not formally published">unpublished</item>
                                             <item ConceptLink="" AppInfo="Use this type when nothing else fits">other</item>
                                         </enumeration>
-                                    
+                                    </Vocabulary>
                                 </ValueScheme>
-                            </CMD_Element>
-                            <CMD_Element name="title" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="true" Documentation="The title of the document; the element can be repeated for the different language versions using the &#34;lang&#34; attribute to specify the language.">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="author" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" Documentation="The name(s) of the author(s); for multiple authors, please use &#34;and&#34; in between.">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="editor" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" Documentation="The name(s) of the editor(s); in case of multiple editors, please use &#34;and&#34; in between">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="year" ValueScheme="gYear" CardinalityMin="0" CardinalityMax="1" Documentation="The year of publication or, for an unpublished work, the year it was written">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="publisher" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" Documentation="The name of the publisher/publishing house">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="bookTitle" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The title of a book, part of which is being cited">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="journal" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="A journal name; abbreviations could also be provided">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="volume" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="Specifies the volume of a journal or multivolume book">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="series" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The name of a series or set of books; when citing an entire book, the title field gives its title and an optional series field gives the name of a series or multi-volume set in which the book is published">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="pages" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="One or more page numbers or range of page numbers">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="edition" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The edition of a book">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="conference" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The name of the conference in which the document has been presented">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="doi" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="A digital object identifier assigned to the document">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" CardinalityMin="0" CardinalityMax="1" Documentation="A URL used as homepage of an entity (e.g. of a person, organization, resource etc.) and/or where an entity (e.g. LR, document etc.) is located">
-                                
+                            </Element>
+                            <Element name="title" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="true">
+                                <Documentation>The title of the document; the element can be repeated for the different language versions using the "lang" attribute to specify the language.</Documentation>
+                            </Element>
+                            <Element name="author" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                                <Documentation>The name(s) of the author(s); for multiple authors, please use "and" in between.</Documentation>
+                            </Element>
+                            <Element name="editor" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                                <Documentation>The name(s) of the editor(s); in case of multiple editors, please use "and" in between</Documentation>
+                            </Element>
+                            <Element name="year" ValueScheme="gYear" CardinalityMin="0" CardinalityMax="1">
+                                <Documentation>The year of publication or, for an unpublished work, the year it was written</Documentation>
+                            </Element>
+                            <Element name="publisher" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                                <Documentation>The name of the publisher/publishing house</Documentation>
+                            </Element>
+                            <Element name="bookTitle" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                <Documentation>The title of a book, part of which is being cited</Documentation>
+                            </Element>
+                            <Element name="journal" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                <Documentation>A journal name; abbreviations could also be provided</Documentation>
+                            </Element>
+                            <Element name="volume" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                <Documentation>Specifies the volume of a journal or multivolume book</Documentation>
+                            </Element>
+                            <Element name="series" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                <Documentation>The name of a series or set of books; when citing an entire book, the title field gives its title and an optional series field gives the name of a series or multi-volume set in which the book is published</Documentation>
+                            </Element>
+                            <Element name="pages" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                <Documentation>One or more page numbers or range of page numbers</Documentation>
+                            </Element>
+                            <Element name="edition" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                <Documentation>The edition of a book</Documentation>
+                            </Element>
+                            <Element name="conference" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                <Documentation>The name of the conference in which the document has been presented</Documentation>
+                            </Element>
+                            <Element name="doi" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                <Documentation>A digital object identifier assigned to the document</Documentation>
+                            </Element>
+                            <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" CardinalityMin="0" CardinalityMax="1">
+                                <Documentation>A URL used as homepage of an entity (e.g. of a person, organization, resource etc.) and/or where an entity (e.g. LR, document etc.) is located</Documentation>
                                 <ValueScheme>
                                     <pattern>(http://|https://|ftp://|www.).*</pattern>
                                 </ValueScheme>
-                            </CMD_Element>
-                            <CMD_Element name="ISSN" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The International Standard Serial Number used to identify a journal">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="ISBN" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The International Standard Book Number">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="keywords" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" Documentation="The keyword(s) for indexing and classification of the document">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="documentLanguageName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The name of the language the document is written in, as mentioned in IETF BCP47; an autocompletion mechanism with values from the ISO 639 is provided in the editor, but the values can be subsequently edited for further specification (according to the IETF BCP47 guidelines)">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="documentLanguageId" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The id of the language the document is written in; an autocompletion mechanism with values from the ISO 639 is provided in the editor, but the values can be subsequently edited for further specification (according to the IETF BCP47 guidelines)">
-                                
-                            </CMD_Element>
-                        </CMD_Component>
-                    </CMD_Component>
-                    <CMD_Component name="annotationTool" ComponentId="clarin.eu:cr1:c_1355150532326" CardinalityMin="0" CardinalityMax="unbounded">
-                        <CMD_Element name="targetResourceNameURI" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1" Documentation="The full name or url or identifier of a resource related to the one being described">
-                            
-                        </CMD_Element>
-                    </CMD_Component>
-                    <CMD_Component name="sizePerAnnotation" ComponentId="clarin.eu:cr1:c_1355150532327" CardinalityMin="0" CardinalityMax="1">
-                        <CMD_Element name="role" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1" Documentation="role of sizeInfo; to be used for the conversion to MetaShare">
-                            
+                            </Element>
+                            <Element name="ISSN" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                <Documentation>The International Standard Serial Number used to identify a journal</Documentation>
+                            </Element>
+                            <Element name="ISBN" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                <Documentation>The International Standard Book Number</Documentation>
+                            </Element>
+                            <Element name="keywords" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                                <Documentation>The keyword(s) for indexing and classification of the document</Documentation>
+                            </Element>
+                            <Element name="documentLanguageName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                <Documentation>The name of the language the document is written in, as mentioned in IETF BCP47; an autocompletion mechanism with values from the ISO 639 is provided in the editor, but the values can be subsequently edited for further specification (according to the IETF BCP47 guidelines)</Documentation>
+                            </Element>
+                            <Element name="documentLanguageId" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                <Documentation>The id of the language the document is written in; an autocompletion mechanism with values from the ISO 639 is provided in the editor, but the values can be subsequently edited for further specification (according to the IETF BCP47 guidelines)</Documentation>
+                            </Element>
+                        </Component>
+                    </Component>
+                    <Component name="annotationTool" ComponentRef="clarin.eu:cr1:c_1355150532326" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Element name="targetResourceNameURI" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Documentation>The full name or url or identifier of a resource related to the one being described</Documentation>
+                        </Element>
+                    </Component>
+                    <Component name="sizePerAnnotation" ComponentRef="clarin.eu:cr1:c_1355150532327" CardinalityMin="0" CardinalityMax="1">
+                        <Element name="role" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Documentation>role of sizeInfo; to be used for the conversion to MetaShare</Documentation>
                             <ValueScheme>
-                                
+                                <Vocabulary>
                                     <enumeration>
                                         <item ConceptLink="" AppInfo="">sizePerAnnotation</item>
                                     </enumeration>
-                                
+                                </Vocabulary>
                             </ValueScheme>
-                        </CMD_Element>
-                        <CMD_Component name="sizeInfo" ComponentId="clarin.eu:cr1:c_1353678848785" CardinalityMin="1" CardinalityMax="1">
-                            <CMD_Element name="size" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1" Documentation="Specifies the size of the resource with regard to the sizeUnit measurement in form of a number">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="sizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" CardinalityMin="1" CardinalityMax="1" Documentation="Specifies the unit that is used when providing information on the size of the resource or of resource parts">
-                                
+                        </Element>
+                        <Component name="sizeInfo" ComponentRef="clarin.eu:cr1:c_1353678848785" CardinalityMin="1" CardinalityMax="1">
+                            <Element name="size" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Documentation>Specifies the size of the resource with regard to the sizeUnit measurement in form of a number</Documentation>
+                            </Element>
+                            <Element name="sizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" CardinalityMin="1" CardinalityMax="1">
+                                <Documentation>Specifies the unit that is used when providing information on the size of the resource or of resource parts</Documentation>
                                 <ValueScheme>
-                                    
+                                    <Vocabulary>
                                         <enumeration>
                                             <item ConceptLink="" AppInfo="">articles</item>
                                             <item ConceptLink="" AppInfo="">bigrams</item>
@@ -590,199 +591,199 @@
                                             <item ConceptLink="" AppInfo="">4-grams</item>
                                             <item ConceptLink="" AppInfo="">5-grams</item>
                                         </enumeration>
-                                    
+                                    </Vocabulary>
                                 </ValueScheme>
-                            </CMD_Element>
-                        </CMD_Component>
-                    </CMD_Component>
-                    <CMD_Component name="annotatorPerson" ComponentId="clarin.eu:cr1:c_1355150532328" CardinalityMin="0" CardinalityMax="unbounded">
-                        <CMD_Element name="role" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1" Documentation="role of a person or organization; used for the conversion to META-SHARE">
-                            
+                            </Element>
+                        </Component>
+                    </Component>
+                    <Component name="annotatorPerson" ComponentRef="clarin.eu:cr1:c_1355150532328" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Element name="role" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Documentation>role of a person or organization; used for the conversion to META-SHARE</Documentation>
                             <ValueScheme>
-                                
+                                <Vocabulary>
                                     <enumeration>
                                         <item ConceptLink="" AppInfo="">annotator</item>
                                     </enumeration>
-                                
+                                </Vocabulary>
                             </ValueScheme>
-                        </CMD_Element>
-                        <CMD_Component name="personInfo" ComponentId="clarin.eu:cr1:c_1349361150746" CardinalityMin="1" CardinalityMax="1">
-                            <CMD_Element name="surname" ConceptLink="http://hdl.handle.net/11459/CCR_C-5521_8f30e11f-1bff-420e-511b-2b5893bdc37c" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" DisplayPriority="1" Documentation="The surname (family name) of a person related to the resource">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="givenName" ConceptLink="http://hdl.handle.net/11459/CCR_C-5520_d7d87a12-7b39-0364-795b-69347ede7de7" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" Documentation="The given name (first name) of a person related to the resource; initials can also be used">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="sex" ConceptLink="http://hdl.handle.net/11459/CCR_C-2560_ebb466e1-2b6b-6701-4e64-94618b4b455b" CardinalityMin="0" CardinalityMax="1" Documentation="The sex of a person related to or participating in the resource">
-                                
+                        </Element>
+                        <Component name="personInfo" ComponentRef="clarin.eu:cr1:c_1349361150746" CardinalityMin="1" CardinalityMax="1">
+                            <Element name="surname" ConceptLink="http://hdl.handle.net/11459/CCR_C-5521_8f30e11f-1bff-420e-511b-2b5893bdc37c" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Documentation>The surname (family name) of a person related to the resource</Documentation>
+                            </Element>
+                            <Element name="givenName" ConceptLink="http://hdl.handle.net/11459/CCR_C-5520_d7d87a12-7b39-0364-795b-69347ede7de7" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                <Documentation>The given name (first name) of a person related to the resource; initials can also be used</Documentation>
+                            </Element>
+                            <Element name="sex" ConceptLink="http://hdl.handle.net/11459/CCR_C-2560_ebb466e1-2b6b-6701-4e64-94618b4b455b" CardinalityMin="0" CardinalityMax="1">
+                                <Documentation>The sex of a person related to or participating in the resource</Documentation>
                                 <ValueScheme>
-                                    
+                                    <Vocabulary>
                                         <enumeration>
                                             <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2949_10ed5b3b-2e62-a962-dac3-300f3df5441a" AppInfo="">male</item>
                                             <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2950_38f5b23e-097e-2ceb-e5f7-b16756638b89" AppInfo="">female</item>
                                             <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2591_f769d93b-c007-d2c9-aff2-99e9177e5764" AppInfo="">unknown</item>
                                         </enumeration>
-                                    
+                                    </Vocabulary>
                                 </ValueScheme>
-                            </CMD_Element>
-                            <CMD_Element name="position" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The position or the title of a person if affiliated to an organization">
-                                
-                            </CMD_Element>
-                            <CMD_Component name="communicationInfo" ComponentId="clarin.eu:cr1:c_1352813745460" CardinalityMin="1" CardinalityMax="1">
-                                <CMD_Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" CardinalityMin="1" CardinalityMax="unbounded" DisplayPriority="1" Documentation="The email address of a person or an organization">
-                                    
+                            </Element>
+                            <Element name="position" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                <Documentation>The position or the title of a person if affiliated to an organization</Documentation>
+                            </Element>
+                            <Component name="communicationInfo" ComponentRef="clarin.eu:cr1:c_1352813745460" CardinalityMin="1" CardinalityMax="1">
+                                <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" CardinalityMin="1" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                    <Documentation>The email address of a person or an organization</Documentation>
                                     <ValueScheme>
                                         <pattern>[^@]+@[^\.]+\..+|</pattern>
                                     </ValueScheme>
-                                </CMD_Element>
-                                <CMD_Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" CardinalityMin="0" CardinalityMax="unbounded" Documentation="A URL used as homepage of an entity (e.g. of a person, organization, resource etc.) and/or where an entity (e.g. LR, document etc.) is located">
-                                    
+                                </Element>
+                                <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" CardinalityMin="0" CardinalityMax="unbounded">
+                                    <Documentation>A URL used as homepage of an entity (e.g. of a person, organization, resource etc.) and/or where an entity (e.g. LR, document etc.) is located</Documentation>
                                     <ValueScheme>
                                         <pattern>(http://|https://|ftp://|www.).*</pattern>
                                     </ValueScheme>
-                                </CMD_Element>
-                                <CMD_Element name="address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2505_b61e249b-ac68-b40a-0f21-03a4a26e16b4" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The street and the number of the postal address of a person or organization">
-                                    
-                                </CMD_Element>
-                                <CMD_Element name="zipCode" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The zip code of the postal address of a person or organization">
-                                    
-                                </CMD_Element>
-                                <CMD_Element name="city" ConceptLink="http://hdl.handle.net/11459/CCR_C-5580_03e458f2-f873-8645-76eb-40e001b6c1ac" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The name of the city, town or village as mentioned in the postal address of a person or organization">
-                                    
-                                </CMD_Element>
-                                <CMD_Element name="region" ConceptLink="http://hdl.handle.net/11459/CCR_C-3814_dce1ba90-46f9-3b4a-d1ce-b37173126473" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The name of the region, county or department as mentioned in the postal address of a person or organization">
-                                    
-                                </CMD_Element>
-                                <CMD_Element name="country" ConceptLink="http://hdl.handle.net/11459/CCR_C-3792_68c770a4-d58c-46dd-d429-5609ce5f81c3" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The name of the country mentioned in the postal address of a person or organization as defined in the list of values of ISO 3166">
-                                    
-                                </CMD_Element>
-                                <CMD_Element name="telephoneNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2461_76a92748-423e-46a0-cc7c-84a7d1c46794" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" Documentation="The telephone number of a person or an organization; recommended format: +_international code_city code_number">
-                                    
-                                </CMD_Element>
-                                <CMD_Element name="faxNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2455_56998f5b-47bc-3d58-3bf6-13d18d2b0045" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" Documentation="The fax number of a person or an organization; recommended format: +_international code_city code_number">
-                                    
-                                </CMD_Element>
-                            </CMD_Component>
-                            <CMD_Component name="affiliation" ComponentId="clarin.eu:cr1:c_1352813745462" CardinalityMin="0" CardinalityMax="unbounded">
-                                <CMD_Element name="role" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1" Documentation="role of person or organization; to be used for the conversion to MetaShare">
-                                    
+                                </Element>
+                                <Element name="address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2505_b61e249b-ac68-b40a-0f21-03a4a26e16b4" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                    <Documentation>The street and the number of the postal address of a person or organization</Documentation>
+                                </Element>
+                                <Element name="zipCode" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                    <Documentation>The zip code of the postal address of a person or organization</Documentation>
+                                </Element>
+                                <Element name="city" ConceptLink="http://hdl.handle.net/11459/CCR_C-5580_03e458f2-f873-8645-76eb-40e001b6c1ac" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                    <Documentation>The name of the city, town or village as mentioned in the postal address of a person or organization</Documentation>
+                                </Element>
+                                <Element name="region" ConceptLink="http://hdl.handle.net/11459/CCR_C-3814_dce1ba90-46f9-3b4a-d1ce-b37173126473" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                    <Documentation>The name of the region, county or department as mentioned in the postal address of a person or organization</Documentation>
+                                </Element>
+                                <Element name="country" ConceptLink="http://hdl.handle.net/11459/CCR_C-3792_68c770a4-d58c-46dd-d429-5609ce5f81c3" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                    <Documentation>The name of the country mentioned in the postal address of a person or organization as defined in the list of values of ISO 3166</Documentation>
+                                </Element>
+                                <Element name="telephoneNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2461_76a92748-423e-46a0-cc7c-84a7d1c46794" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                                    <Documentation>The telephone number of a person or an organization; recommended format: +_international code_city code_number</Documentation>
+                                </Element>
+                                <Element name="faxNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2455_56998f5b-47bc-3d58-3bf6-13d18d2b0045" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                                    <Documentation>The fax number of a person or an organization; recommended format: +_international code_city code_number</Documentation>
+                                </Element>
+                            </Component>
+                            <Component name="affiliation" ComponentRef="clarin.eu:cr1:c_1352813745462" CardinalityMin="0" CardinalityMax="unbounded">
+                                <Element name="role" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                    <Documentation>role of person or organization; to be used for the conversion to MetaShare</Documentation>
                                     <ValueScheme>
-                                        
+                                        <Vocabulary>
                                             <enumeration>
                                                 <item ConceptLink="" AppInfo="">affiliation</item>
                                             </enumeration>
-                                        
+                                        </Vocabulary>
                                     </ValueScheme>
-                                </CMD_Element>
-                                <CMD_Component name="organizationInfo" ComponentId="clarin.eu:cr1:c_1352813745461" CardinalityMin="1" CardinalityMax="1">
-                                    <CMD_Element name="organizationName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2459_fc4e74d6-84de-c8cd-1ae8-2c2be5ee90b1" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" DisplayPriority="1" Documentation="The full name of an organization">
-                                        
-                                    </CMD_Element>
-                                    <CMD_Element name="organizationShortName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" Documentation="The short name (abbreviation, acronym etc.) used for an organization">
-                                        
-                                    </CMD_Element>
-                                    <CMD_Element name="departmentName" ConceptLink="http://hdl.handle.net/11459/CCR_C-3812_ce466764-27ab-b97b-a0bb-d7ac23ad9e60" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" Documentation="The name of the department or unit (e.g. specific university faculty or department, department or unit of a research organization or private company etc.)">
-                                        
-                                    </CMD_Element>
-                                    <CMD_Component name="communicationInfo" ComponentId="clarin.eu:cr1:c_1352813745460" CardinalityMin="1" CardinalityMax="1">
-                                        <CMD_Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" CardinalityMin="1" CardinalityMax="unbounded" DisplayPriority="1" Documentation="The email address of a person or an organization">
-                                            
+                                </Element>
+                                <Component name="organizationInfo" ComponentRef="clarin.eu:cr1:c_1352813745461" CardinalityMin="1" CardinalityMax="1">
+                                    <Element name="organizationName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2459_fc4e74d6-84de-c8cd-1ae8-2c2be5ee90b1" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                        <Documentation>The full name of an organization</Documentation>
+                                    </Element>
+                                    <Element name="organizationShortName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                        <Documentation>The short name (abbreviation, acronym etc.) used for an organization</Documentation>
+                                    </Element>
+                                    <Element name="departmentName" ConceptLink="http://hdl.handle.net/11459/CCR_C-3812_ce466764-27ab-b97b-a0bb-d7ac23ad9e60" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                        <Documentation>The name of the department or unit (e.g. specific university faculty or department, department or unit of a research organization or private company etc.)</Documentation>
+                                    </Element>
+                                    <Component name="communicationInfo" ComponentRef="clarin.eu:cr1:c_1352813745460" CardinalityMin="1" CardinalityMax="1">
+                                        <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" CardinalityMin="1" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                            <Documentation>The email address of a person or an organization</Documentation>
                                             <ValueScheme>
                                                 <pattern>[^@]+@[^\.]+\..+|</pattern>
                                             </ValueScheme>
-                                        </CMD_Element>
-                                        <CMD_Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" CardinalityMin="0" CardinalityMax="unbounded" Documentation="A URL used as homepage of an entity (e.g. of a person, organization, resource etc.) and/or where an entity (e.g. LR, document etc.) is located">
-                                            
+                                        </Element>
+                                        <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" CardinalityMin="0" CardinalityMax="unbounded">
+                                            <Documentation>A URL used as homepage of an entity (e.g. of a person, organization, resource etc.) and/or where an entity (e.g. LR, document etc.) is located</Documentation>
                                             <ValueScheme>
                                                 <pattern>(http://|https://|ftp://|www.).*</pattern>
                                             </ValueScheme>
-                                        </CMD_Element>
-                                        <CMD_Element name="address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2505_b61e249b-ac68-b40a-0f21-03a4a26e16b4" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The street and the number of the postal address of a person or organization">
-                                            
-                                        </CMD_Element>
-                                        <CMD_Element name="zipCode" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The zip code of the postal address of a person or organization">
-                                            
-                                        </CMD_Element>
-                                        <CMD_Element name="city" ConceptLink="http://hdl.handle.net/11459/CCR_C-5580_03e458f2-f873-8645-76eb-40e001b6c1ac" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The name of the city, town or village as mentioned in the postal address of a person or organization">
-                                            
-                                        </CMD_Element>
-                                        <CMD_Element name="region" ConceptLink="http://hdl.handle.net/11459/CCR_C-3814_dce1ba90-46f9-3b4a-d1ce-b37173126473" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The name of the region, county or department as mentioned in the postal address of a person or organization">
-                                            
-                                        </CMD_Element>
-                                        <CMD_Element name="country" ConceptLink="http://hdl.handle.net/11459/CCR_C-3792_68c770a4-d58c-46dd-d429-5609ce5f81c3" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The name of the country mentioned in the postal address of a person or organization as defined in the list of values of ISO 3166">
-                                            
-                                        </CMD_Element>
-                                        <CMD_Element name="telephoneNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2461_76a92748-423e-46a0-cc7c-84a7d1c46794" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" Documentation="The telephone number of a person or an organization; recommended format: +_international code_city code_number">
-                                            
-                                        </CMD_Element>
-                                        <CMD_Element name="faxNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2455_56998f5b-47bc-3d58-3bf6-13d18d2b0045" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" Documentation="The fax number of a person or an organization; recommended format: +_international code_city code_number">
-                                            
-                                        </CMD_Element>
-                                    </CMD_Component>
-                                </CMD_Component>
-                            </CMD_Component>
-                        </CMD_Component>
-                    </CMD_Component>
-                    <CMD_Component name="annotatorOrganization" ComponentId="clarin.eu:cr1:c_1361876010639" CardinalityMin="0" CardinalityMax="unbounded">
-                        <CMD_Element name="role" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1" Documentation="role of a person or organization; used for the conversion to META-SHARE">
-                            
+                                        </Element>
+                                        <Element name="address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2505_b61e249b-ac68-b40a-0f21-03a4a26e16b4" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                            <Documentation>The street and the number of the postal address of a person or organization</Documentation>
+                                        </Element>
+                                        <Element name="zipCode" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                            <Documentation>The zip code of the postal address of a person or organization</Documentation>
+                                        </Element>
+                                        <Element name="city" ConceptLink="http://hdl.handle.net/11459/CCR_C-5580_03e458f2-f873-8645-76eb-40e001b6c1ac" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                            <Documentation>The name of the city, town or village as mentioned in the postal address of a person or organization</Documentation>
+                                        </Element>
+                                        <Element name="region" ConceptLink="http://hdl.handle.net/11459/CCR_C-3814_dce1ba90-46f9-3b4a-d1ce-b37173126473" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                            <Documentation>The name of the region, county or department as mentioned in the postal address of a person or organization</Documentation>
+                                        </Element>
+                                        <Element name="country" ConceptLink="http://hdl.handle.net/11459/CCR_C-3792_68c770a4-d58c-46dd-d429-5609ce5f81c3" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                            <Documentation>The name of the country mentioned in the postal address of a person or organization as defined in the list of values of ISO 3166</Documentation>
+                                        </Element>
+                                        <Element name="telephoneNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2461_76a92748-423e-46a0-cc7c-84a7d1c46794" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                                            <Documentation>The telephone number of a person or an organization; recommended format: +_international code_city code_number</Documentation>
+                                        </Element>
+                                        <Element name="faxNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2455_56998f5b-47bc-3d58-3bf6-13d18d2b0045" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                                            <Documentation>The fax number of a person or an organization; recommended format: +_international code_city code_number</Documentation>
+                                        </Element>
+                                    </Component>
+                                </Component>
+                            </Component>
+                        </Component>
+                    </Component>
+                    <Component name="annotatorOrganization" ComponentRef="clarin.eu:cr1:c_1361876010639" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Element name="role" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Documentation>role of a person or organization; used for the conversion to META-SHARE</Documentation>
                             <ValueScheme>
-                                
+                                <Vocabulary>
                                     <enumeration>
                                         <item ConceptLink="" AppInfo="">annotator</item>
                                     </enumeration>
-                                
+                                </Vocabulary>
                             </ValueScheme>
-                        </CMD_Element>
-                        <CMD_Component name="organizationInfo" ComponentId="clarin.eu:cr1:c_1352813745461" CardinalityMin="1" CardinalityMax="1">
-                            <CMD_Element name="organizationName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2459_fc4e74d6-84de-c8cd-1ae8-2c2be5ee90b1" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" DisplayPriority="1" Documentation="The full name of an organization">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="organizationShortName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" Documentation="The short name (abbreviation, acronym etc.) used for an organization">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="departmentName" ConceptLink="http://hdl.handle.net/11459/CCR_C-3812_ce466764-27ab-b97b-a0bb-d7ac23ad9e60" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" Documentation="The name of the department or unit (e.g. specific university faculty or department, department or unit of a research organization or private company etc.)">
-                                
-                            </CMD_Element>
-                            <CMD_Component name="communicationInfo" ComponentId="clarin.eu:cr1:c_1352813745460" CardinalityMin="1" CardinalityMax="1">
-                                <CMD_Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" CardinalityMin="1" CardinalityMax="unbounded" DisplayPriority="1" Documentation="The email address of a person or an organization">
-                                    
+                        </Element>
+                        <Component name="organizationInfo" ComponentRef="clarin.eu:cr1:c_1352813745461" CardinalityMin="1" CardinalityMax="1">
+                            <Element name="organizationName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2459_fc4e74d6-84de-c8cd-1ae8-2c2be5ee90b1" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Documentation>The full name of an organization</Documentation>
+                            </Element>
+                            <Element name="organizationShortName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                <Documentation>The short name (abbreviation, acronym etc.) used for an organization</Documentation>
+                            </Element>
+                            <Element name="departmentName" ConceptLink="http://hdl.handle.net/11459/CCR_C-3812_ce466764-27ab-b97b-a0bb-d7ac23ad9e60" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                <Documentation>The name of the department or unit (e.g. specific university faculty or department, department or unit of a research organization or private company etc.)</Documentation>
+                            </Element>
+                            <Component name="communicationInfo" ComponentRef="clarin.eu:cr1:c_1352813745460" CardinalityMin="1" CardinalityMax="1">
+                                <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" CardinalityMin="1" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                    <Documentation>The email address of a person or an organization</Documentation>
                                     <ValueScheme>
                                         <pattern>[^@]+@[^\.]+\..+|</pattern>
                                     </ValueScheme>
-                                </CMD_Element>
-                                <CMD_Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" CardinalityMin="0" CardinalityMax="unbounded" Documentation="A URL used as homepage of an entity (e.g. of a person, organization, resource etc.) and/or where an entity (e.g. LR, document etc.) is located">
-                                    
+                                </Element>
+                                <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" CardinalityMin="0" CardinalityMax="unbounded">
+                                    <Documentation>A URL used as homepage of an entity (e.g. of a person, organization, resource etc.) and/or where an entity (e.g. LR, document etc.) is located</Documentation>
                                     <ValueScheme>
                                         <pattern>(http://|https://|ftp://|www.).*</pattern>
                                     </ValueScheme>
-                                </CMD_Element>
-                                <CMD_Element name="address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2505_b61e249b-ac68-b40a-0f21-03a4a26e16b4" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The street and the number of the postal address of a person or organization">
-                                    
-                                </CMD_Element>
-                                <CMD_Element name="zipCode" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The zip code of the postal address of a person or organization">
-                                    
-                                </CMD_Element>
-                                <CMD_Element name="city" ConceptLink="http://hdl.handle.net/11459/CCR_C-5580_03e458f2-f873-8645-76eb-40e001b6c1ac" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The name of the city, town or village as mentioned in the postal address of a person or organization">
-                                    
-                                </CMD_Element>
-                                <CMD_Element name="region" ConceptLink="http://hdl.handle.net/11459/CCR_C-3814_dce1ba90-46f9-3b4a-d1ce-b37173126473" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The name of the region, county or department as mentioned in the postal address of a person or organization">
-                                    
-                                </CMD_Element>
-                                <CMD_Element name="country" ConceptLink="http://hdl.handle.net/11459/CCR_C-3792_68c770a4-d58c-46dd-d429-5609ce5f81c3" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The name of the country mentioned in the postal address of a person or organization as defined in the list of values of ISO 3166">
-                                    
-                                </CMD_Element>
-                                <CMD_Element name="telephoneNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2461_76a92748-423e-46a0-cc7c-84a7d1c46794" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" Documentation="The telephone number of a person or an organization; recommended format: +_international code_city code_number">
-                                    
-                                </CMD_Element>
-                                <CMD_Element name="faxNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2455_56998f5b-47bc-3d58-3bf6-13d18d2b0045" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" Documentation="The fax number of a person or an organization; recommended format: +_international code_city code_number">
-                                    
-                                </CMD_Element>
-                            </CMD_Component>
-                        </CMD_Component>
-                    </CMD_Component>
-                </CMD_Component>
-            </CMD_Component>
-        </CMD_Component>
-    </CMD_Component>
-</CMD_ComponentSpec>
+                                </Element>
+                                <Element name="address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2505_b61e249b-ac68-b40a-0f21-03a4a26e16b4" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                    <Documentation>The street and the number of the postal address of a person or organization</Documentation>
+                                </Element>
+                                <Element name="zipCode" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                    <Documentation>The zip code of the postal address of a person or organization</Documentation>
+                                </Element>
+                                <Element name="city" ConceptLink="http://hdl.handle.net/11459/CCR_C-5580_03e458f2-f873-8645-76eb-40e001b6c1ac" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                    <Documentation>The name of the city, town or village as mentioned in the postal address of a person or organization</Documentation>
+                                </Element>
+                                <Element name="region" ConceptLink="http://hdl.handle.net/11459/CCR_C-3814_dce1ba90-46f9-3b4a-d1ce-b37173126473" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                    <Documentation>The name of the region, county or department as mentioned in the postal address of a person or organization</Documentation>
+                                </Element>
+                                <Element name="country" ConceptLink="http://hdl.handle.net/11459/CCR_C-3792_68c770a4-d58c-46dd-d429-5609ce5f81c3" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                    <Documentation>The name of the country mentioned in the postal address of a person or organization as defined in the list of values of ISO 3166</Documentation>
+                                </Element>
+                                <Element name="telephoneNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2461_76a92748-423e-46a0-cc7c-84a7d1c46794" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                                    <Documentation>The telephone number of a person or an organization; recommended format: +_international code_city code_number</Documentation>
+                                </Element>
+                                <Element name="faxNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2455_56998f5b-47bc-3d58-3bf6-13d18d2b0045" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                                    <Documentation>The fax number of a person or an organization; recommended format: +_international code_city code_number</Documentation>
+                                </Element>
+                            </Component>
+                        </Component>
+                    </Component>
+                </Component>
+            </Component>
+        </Component>
+    </Component>
+</ComponentSpec>
