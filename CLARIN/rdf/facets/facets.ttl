@@ -1,51 +1,11 @@
 @prefix ccr: <http://hdl.handle.net/11459/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix facet: <https://vlo.clarin.eu/facets#> .
+@prefix facet: <https://vlo.clarin.eu/facets/> .
 @prefix isocat: <http://www.isocat.org/datcat/> .
 @prefix vlo: <https://vlo.clarin.eu/> .
 
-facet:_languageName a vlo:Facet .
-
-facet:_normalizedSelfLink a vlo:Facet .
-
-facet:_selfLink a vlo:Facet .
-
-facet:accessInfo a vlo:Facet ;
-    vlo:facetConceptLink ccr:CCR_C-2453_1f0c3ea5-7966-ae11-d3c6-448424d4e6e8,
-        ccr:CCR_C-3800_12a79edd-0ffe-8d82-9831-45d125c54aee,
-        ccr:CCR_C-6846_d6adb99c-15ac-fac7-7911-f64c48298ce3,
-        dcterms:accessRights,
-        dcterms:rights,
-        isocat:DC-2453,
-        isocat:DC-3800,
-        isocat:DC-6846 .
-
-facet:availability a vlo:Facet ;
-    vlo:facetConceptLink ccr:CCR_C-2453_1f0c3ea5-7966-ae11-d3c6-448424d4e6e8,
-        ccr:CCR_C-2457_45bbaa1a-7002-2ecd-ab9d-57a189f694a6,
-        ccr:CCR_C-3800_12a79edd-0ffe-8d82-9831-45d125c54aee,
-        ccr:CCR_C-5302_8dfad601-5387-7317-57d1-1f0e65b75af2,
-        ccr:CCR_C-5362_8cffd964-f57e-09ed-daed-eeabbf2d22c0,
-        ccr:CCR_C-5439_98bb103d-476a-7f62-54b4-bf9de24d2229,
-        ccr:CCR_C-6586_2c79d86a-5a75-0890-d407-7d9cb86b9beb,
-        ccr:CCR_C-6846_d6adb99c-15ac-fac7-7911-f64c48298ce3,
-        dcterms:license,
-        dcterms:rights,
-        isocat:DC-2453,
-        isocat:DC-2457,
-        isocat:DC-3800,
-        isocat:DC-5439,
-        isocat:DC-6586,
-        isocat:DC-6846 .
-
 facet:collection a vlo:Facet .
-
-facet:continent a vlo:Facet ;
-    vlo:facetConceptLink ccr:CCR_C-2531_e0427265-2fc4-d23e-0a7c-a21981ec3734,
-        ccr:CCR_C-3791_8f409aa8-2d57-5fc6-23f0-f490471807d8,
-        isocat:DC-2531,
-        isocat:DC-3791 .
 
 facet:country a vlo:Facet ;
     vlo:facetConceptLink ccr:CCR_C-2092_36cd7ca8-e412-9f29-7ea7-4a3ba4ba2c91,
@@ -54,29 +14,6 @@ facet:country a vlo:Facet ;
         isocat:DC-2092,
         isocat:DC-2532,
         isocat:DC-3792 .
-
-facet:creator a vlo:Facet ;
-    vlo:facetConceptLink ccr:CCR_C-2512_e8061b33-c5f3-7f6c-184d-a4311549ba92,
-        ccr:CCR_C-2957_877cc159-3d88-5fb7-b6ad-0b60d1546bb6,
-        ccr:CCR_C-4115_5da7f288-5384-5aaf-8d8e-fe4348165786,
-        ccr:CCR_C-5040_69dea974-61a9-00c1-cbf8-c714cdee6918,
-        ccr:CCR_C-5371_679ce449-31b9-cee5-6721-28e2365b3478,
-        ccr:CCR_C-6130_f11d590d-b9f3-6a81-9f17-22988671e59e,
-        dc:creator,
-        dcterms:creator,
-        isocat:DC-5040 .
-
-facet:description a vlo:Facet ;
-    vlo:facetConceptLink ccr:CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db,
-        ccr:CCR_C-6124_2e45fdf9-ced2-89c9-a09d-b4769e9fede6,
-        dc:description,
-        dcterms:description,
-        isocat:DC-2520,
-        isocat:DC-6124 .
-
-facet:distributionType a vlo:Facet ;
-    vlo:facetConceptLink ccr:CCR_C-5439_98bb103d-476a-7f62-54b4-bf9de24d2229,
-        isocat:DC-5439 .
 
 facet:format a vlo:Facet ;
     vlo:facetConceptLink ccr:CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df,
@@ -88,10 +25,6 @@ facet:genre a vlo:Facet ;
         ccr:CCR_C-3899_c6c608e7-cb2e-1832-09ff-aee36e1f2ed4,
         isocat:DC-2470,
         isocat:DC-3899 .
-
-facet:id a vlo:Facet ;
-    vlo:facetConceptLink ccr:CCR_C-2573_ae7c2548-8a86-ab6e-7099-e28b7697d1a2,
-        isocat:DC-2573 .
 
 facet:keywords a vlo:Facet ;
     vlo:facetConceptLink ccr:CCR_C-278_336dd81a-626b-713e-c74a-34fa2ca26a71,
@@ -112,53 +45,9 @@ facet:languageCode a vlo:Facet ;
         isocat:DC-5361,
         <http://www.loc.gov/standards/mods/userguide/language.html#languageterm> .
 
-facet:license a vlo:Facet ;
-    vlo:facetConceptLink ccr:CCR_C-2453_1f0c3ea5-7966-ae11-d3c6-448424d4e6e8,
-        ccr:CCR_C-2457_45bbaa1a-7002-2ecd-ab9d-57a189f694a6,
-        ccr:CCR_C-3800_12a79edd-0ffe-8d82-9831-45d125c54aee,
-        ccr:CCR_C-5362_8cffd964-f57e-09ed-daed-eeabbf2d22c0,
-        ccr:CCR_C-5439_98bb103d-476a-7f62-54b4-bf9de24d2229,
-        ccr:CCR_C-6586_2c79d86a-5a75-0890-d407-7d9cb86b9beb,
-        dcterms:license,
-        dcterms:rights,
-        isocat:DC-2453,
-        isocat:DC-2457,
-        isocat:DC-3800,
-        isocat:DC-5439,
-        isocat:DC-6586 .
-
-facet:licenseType a vlo:Facet ;
-    vlo:facetConceptLink ccr:CCR_C-5439_98bb103d-476a-7f62-54b4-bf9de24d2229 .
-
-facet:lifeCycleStatus a vlo:Facet ;
-    vlo:facetConceptLink ccr:CCR_C-3818_8c4aec73-1654-7565-9575-c4a17425ee29,
-        isocat:DC-3818 .
-
 facet:modality a vlo:Facet ;
     vlo:facetConceptLink ccr:CCR_C-2490_44bc38a3-1799-4149-c791-40ac0176f0ff,
         isocat:DC-2490 .
-
-facet:name a vlo:Facet ;
-    vlo:facetConceptLink ccr:CCR_C-2544_3626545e-a21d-058c-ebfd-241c0464e7e5,
-        ccr:CCR_C-2545_d873f2ab-2a2f-29d6-a9ab-260cde57f227,
-        ccr:CCR_C-4114_747bf046-1208-940d-36ba-297e4de49e0c,
-        ccr:CCR_C-4160_192be757-0d8f-f4fe-b10b-d3d50de92482,
-        ccr:CCR_C-5127_f2721b23-921c-46ba-8d4d-88b46aef6976,
-        ccr:CCR_C-5129_3243b897-d5b0-f5b0-a446-2e5de627b1e4,
-        ccr:CCR_C-5130_ea7bb8be-cb01-383d-fd94-0d72168411d2,
-        ccr:CCR_C-5428_65670fd6-3426-68ac-8f29-faef6ffd02ce,
-        ccr:CCR_C-6119_ea4226b5-8d55-e71e-730f-2a02e3adbeb4,
-        dc:title,
-        dcterms:title,
-        isocat:DC-2544,
-        isocat:DC-2545,
-        isocat:DC-4114,
-        isocat:DC-4160,
-        isocat:DC-5127,
-        isocat:DC-5428,
-        isocat:DC-6119,
-        <http://www.isocat.org/rest/dc/4160>,
-        <http://www.loc.gov/standards/mods/userguide/titleinfo.html#title> .
 
 facet:organisation a vlo:Facet ;
     vlo:facetConceptLink ccr:CCR_C-2459_fc4e74d6-84de-c8cd-1ae8-2c2be5ee90b1,
@@ -170,14 +59,6 @@ facet:organisation a vlo:Facet ;
         isocat:DC-6134,
         isocat:DC-6702 .
 
-facet:projectName a vlo:Facet ;
-    vlo:facetConceptLink ccr:CCR_C-2536_13fc5f10-c14a-1f64-a669-32736f6d3ef5,
-        ccr:CCR_C-2537_fa206273-223a-f4fa-dde3-ba59b965701f,
-        ccr:CCR_C-5414_55fd7a9e-edae-d8ad-a64f-c8e1058e7a6d,
-        isocat:DC-2536,
-        isocat:DC-2537,
-        isocat:DC-5414 .
-
 facet:resourceClass a vlo:Facet ;
     vlo:facetConceptLink ccr:CCR_C-3786_21c37142-994f-63a8-5a5b-a9fce07681a7,
         ccr:CCR_C-3806_e55e9ed6-b099-c21d-a634-3c7f4d22a215,
@@ -188,12 +69,6 @@ facet:resourceClass a vlo:Facet ;
         isocat:DC-3786,
         isocat:DC-3806,
         isocat:DC-5424 .
-
-facet:rightsHolder a vlo:Facet ;
-    vlo:facetConceptLink ccr:CCR_C-2956_519a4aab-2f76-0fd3-090e-f0d6b81a7dbb,
-        ccr:CCR_C-6709_cb3572ed-ffd3-04f1-c145-b9c1f26bfc82,
-        dcterms:rightsHolder,
-        isocat:DC-6709 .
 
 facet:subject a vlo:Facet ;
     vlo:facetConceptLink ccr:CCR_C-2503_72bd598f-4abf-e122-ed93-f2adf1ab8785,
@@ -210,27 +85,4 @@ facet:subject a vlo:Facet ;
         isocat:DC-6147,
         isocat:DC-6543,
         <http://www.loc.gov/standards/mods/userguide/subject.html#topic> .
-
-facet:temporalCoverage a vlo:Facet ;
-    vlo:facetConceptLink ccr:CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a,
-        ccr:CCR_C-2510_2402e609-046a-dfbf-c2d7-5a2f1ae6dc86,
-        ccr:CCR_C-3654_f1608e88-95e6-4233-5d21-5312e76de32d,
-        ccr:CCR_C-3655_bc4c2656-2946-0be9-49f0-021a811e531b,
-        ccr:CCR_C-3664_eb600f47-5123-efbe-251b-d952c65fc847,
-        ccr:CCR_C-4343_0d6e80e7-6f6c-5497-eac6-29b95a5fa9ec,
-        ccr:CCR_C-4373_855312db-e0d6-b319-b65e-24819101d83d,
-        ccr:CCR_C-4374_dcfb9f02-a210-2b80-a181-509d4315cadc,
-        ccr:CCR_C-5742_66aaccdd-f1d0-a6a6-a4fb-efa704e06d8b,
-        ccr:CCR_C-6849_03a7b38d-de17-accc-8795-8dbfbf301420,
-        dc:date,
-        dcterms:issued,
-        dcterms:temporal,
-        isocat:DC-2502,
-        isocat:DC-3654,
-        isocat:DC-3655,
-        isocat:DC-3664,
-        isocat:DC-4343,
-        isocat:DC-5742 .
-
-facet:text a vlo:Facet .
 
