@@ -1,19 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?><CMD_ComponentSpec xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cue="http://www.clarin.eu/cmd/cues/1" xmlns:cue_old="http://www.clarin.eu/cmdi/cues/1" isProfile="true" xsi:noNamespaceSchemaLocation="https://infra.clarin.eu/CMDI/1.1/general-component-schema.xsd">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ComponentSpec isProfile="true" CMDVersion="1.2" CMDOriginalVersion="1.2" xsi:noNamespaceSchemaLocation="https://infra.clarin.eu/CMDI/1.x/xsd/cmd-component.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <Header>
         <ID>clarin.eu:cr1:p_1475136016242</ID>
         <Name>MPI_Bundle</Name>
         <Description>General bundle profile for MPI data sets</Description>
-        
-        
+        <Status>production</Status>
+        <DerivedFrom>clarin.eu:cr1:p_1475136016239</DerivedFrom>
     </Header>
-    <CMD_Component name="MPI_Bundle" CardinalityMin="1" CardinalityMax="1">
-        <CMD_Element name="Title" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1" Documentation="Title of the bundle">
-            
-        </CMD_Element>
-        <CMD_Element name="DataType" CardinalityMin="1" CardinalityMax="unbounded" Documentation="Indicates the type of data that the bundle contains.">
-            
+    <Component name="MPI_Bundle" CardinalityMin="1" CardinalityMax="1">
+        <Element name="Title" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+            <Documentation>Title of the bundle</Documentation>
+        </Element>
+        <Element name="DataType" CardinalityMin="1" CardinalityMax="unbounded">
+            <Documentation>Indicates the type of data that the bundle contains.</Documentation>
             <ValueScheme>
-                
+                <Vocabulary>
                     <enumeration>
                         <item ConceptLink="" AppInfo="">Audio recordings</item>
                         <item ConceptLink="" AppInfo="">Behavioural data</item>
@@ -67,13 +68,13 @@
                         <item ConceptLink="" AppInfo="">Word list</item>
                         <item ConceptLink="" AppInfo="">Other</item>
                     </enumeration>
-                
+                </Vocabulary>
             </ValueScheme>
-        </CMD_Element>
-        <CMD_Element name="ResearchField" CardinalityMin="1" CardinalityMax="unbounded" Documentation="Research (sub)Field ">
-            
+        </Element>
+        <Element name="ResearchField" CardinalityMin="1" CardinalityMax="unbounded">
+            <Documentation>Research (sub)Field </Documentation>
             <ValueScheme>
-                
+                <Vocabulary>
                     <enumeration>
                         <item ConceptLink="" AppInfo="">Anthropological Linguistics</item>
                         <item ConceptLink="" AppInfo="">Anthropology</item>
@@ -97,27 +98,27 @@
                         <item ConceptLink="" AppInfo="">Sociolinguistics</item>
                         <item ConceptLink="" AppInfo="">Other</item>
                     </enumeration>
-                
+                </Vocabulary>
             </ValueScheme>
-        </CMD_Element>
-        <CMD_Element name="Date" CardinalityMin="1" CardinalityMax="1" Documentation="Date at which the bundle was created">
-            
+        </Element>
+        <Element name="Date" CardinalityMin="1" CardinalityMax="1">
+            <Documentation>Date at which the bundle was created</Documentation>
             <ValueScheme>
                 <pattern>[0-9]{4}(-(0[1-9]|1[012])(-([0-2][0-9]|3[01]))?)?(/[0-9]{4}(-(0[1-9]|1[012])(-([0-2][0-9]|3[01]))?)?)?|Unknown|Unspecified</pattern>
             </ValueScheme>
-        </CMD_Element>
-        <CMD_Component name="Description" ComponentId="clarin.eu:cr1:c_1271859438118" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" CardinalityMax="1">
-            <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true">
+        </Element>
+        <Component name="Description" ComponentRef="clarin.eu:cr1:c_1271859438118" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" CardinalityMax="1">
+            <Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true">
                 <AttributeList>
-                    <Attribute><Name>LanguageID</Name><Type>string</Type></Attribute>
+                    <Attribute name="LanguageID" ValueScheme="string"/>
                 </AttributeList>
-            </CMD_Element>
-        </CMD_Component>
-        <CMD_Component name="Contributor" ComponentId="clarin.eu:cr1:c_1475136016236" ConceptLink="http://purl.org/dc/elements/1.1/contributor" CardinalityMin="1" CardinalityMax="unbounded">
-            <CMD_Element name="Name" ConceptLink="http://hdl.handle.net/11459/CCR_C-5043_34618d60-4aab-81c5-47a8-a0cf77fd277e" ValueScheme="string" DisplayPriority="1"/>
-            <CMD_Element name="Role" ConceptLink="http://hdl.handle.net/11459/CCR_C-3807_1479532e-b741-f5d4-99f4-881c5908cfd9" CardinalityMin="1" CardinalityMax="unbounded">
+            </Element>
+        </Component>
+        <Component name="Contributor" ComponentRef="clarin.eu:cr1:c_1475136016236" ConceptLink="http://purl.org/dc/elements/1.1/contributor" CardinalityMin="1" CardinalityMax="unbounded">
+            <Element name="Name" ConceptLink="http://hdl.handle.net/11459/CCR_C-5043_34618d60-4aab-81c5-47a8-a0cf77fd277e" ValueScheme="string" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+            <Element name="Role" ConceptLink="http://hdl.handle.net/11459/CCR_C-3807_1479532e-b741-f5d4-99f4-881c5908cfd9" CardinalityMin="1" CardinalityMax="unbounded">
                 <ValueScheme>
-                    
+                    <Vocabulary>
                         <enumeration>
                             <item ConceptLink="" AppInfo="">annotator</item>
                             <item ConceptLink="" AppInfo="">author</item>
@@ -144,42 +145,42 @@
                             <item ConceptLink="" AppInfo="">transcriber</item>
                             <item ConceptLink="" AppInfo="">translator</item>
                         </enumeration>
-                    
+                    </Vocabulary>
                 </ValueScheme>
-            </CMD_Element>
-            <CMD_Element name="EmailAddress" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" CardinalityMin="0" CardinalityMax="1">
+            </Element>
+            <Element name="EmailAddress" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" CardinalityMin="0" CardinalityMax="1">
                 <ValueScheme>
                     <pattern>([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,63})</pattern>
                 </ValueScheme>
-            </CMD_Element>
-            <CMD_Element name="ORCID" CardinalityMin="0" CardinalityMax="1">
+            </Element>
+            <Element name="ORCID" CardinalityMin="0" CardinalityMax="1">
                 <ValueScheme>
                     <pattern>https?://orcid.org/(\d{4})-(\d{4})-(\d{4})-(\d{3}[0-9X])</pattern>
                 </ValueScheme>
-            </CMD_Element>
-        </CMD_Component>
-        <CMD_Component name="Institution" ComponentId="clarin.eu:cr1:c_1475136016206" CardinalityMin="1" CardinalityMax="unbounded">
-            <CMD_Element name="Department" ConceptLink="http://hdl.handle.net/11459/CCR_C-3812_ce466764-27ab-b97b-a0bb-d7ac23ad9e60" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
-            <CMD_Element name="Organisation" ConceptLink="http://hdl.handle.net/11459/CCR_C-2979_8030473e-bbcb-6b87-3fd2-90554429ec50" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1"/>
-            <CMD_Element name="Url" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
-        </CMD_Component>
-        <CMD_Component name="Project" ComponentId="clarin.eu:cr1:c_1583768728296" CardinalityMin="1" CardinalityMax="unbounded">
-            <CMD_Element name="ProjectName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2536_13fc5f10-c14a-1f64-a669-32736f6d3ef5" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1"/>
-            <CMD_Element name="ProjectDescription" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="1" CardinalityMax="1"/>
-            <CMD_Element name="ProjectID" ConceptLink="http://hdl.handle.net/11459/CCR_C-2535_a4f0e587-455a-ef40-c129-9f605e4c8fad" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
-            <CMD_Element name="Url" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1"/>
-            <CMD_Component name="Funder" ComponentId="clarin.eu:cr1:c_1442920133047" ConceptLink="http://hdl.handle.net/11459/CCR_C-2522_3bdc6af1-bf1b-3f5d-2938-62d99a1980ab" CardinalityMin="0" CardinalityMax="unbounded">
-                <CMD_Element name="fundingAgency" ConceptLink="http://hdl.handle.net/11459/CCR_C-5339_9632ff8d-1abc-bc9a-dd61-867598a01d8f" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
-                <CMD_Element name="fundingReferenceNumber" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false"/>
-                <CMD_Component name="AuthoritativeIDs" ComponentId="clarin.eu:cr1:c_1444726211568" CardinalityMin="0" CardinalityMax="1">
-                    <CMD_Component name="AuthoritativeID" CardinalityMin="1" CardinalityMax="unbounded">
-                        <CMD_Element name="id" ConceptLink="http://hdl.handle.net/11459/CCR_C-1845_97d455c9-2f4a-0f47-4d4a-ff60c2db2582" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1" Documentation="Please use resolvable URIs">
-                            
-                        </CMD_Element>
-                        <CMD_Element name="issuingAuthority" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1" Documentation="Short name of the issuing authority, see controlled vocabulary">
-                            
+            </Element>
+        </Component>
+        <Component name="Institution" ComponentRef="clarin.eu:cr1:c_1475136016206" CardinalityMin="1" CardinalityMax="unbounded">
+            <Element name="Department" ConceptLink="http://hdl.handle.net/11459/CCR_C-3812_ce466764-27ab-b97b-a0bb-d7ac23ad9e60" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
+            <Element name="Organisation" ConceptLink="http://hdl.handle.net/11459/CCR_C-2979_8030473e-bbcb-6b87-3fd2-90554429ec50" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+            <Element name="Url" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+        </Component>
+        <Component name="Project" ComponentRef="clarin.eu:cr1:c_1583768728296" CardinalityMin="1" CardinalityMax="unbounded">
+            <Element name="ProjectName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2536_13fc5f10-c14a-1f64-a669-32736f6d3ef5" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+            <Element name="ProjectDescription" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="1" CardinalityMax="1"/>
+            <Element name="ProjectID" ConceptLink="http://hdl.handle.net/11459/CCR_C-2535_a4f0e587-455a-ef40-c129-9f605e4c8fad" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+            <Element name="Url" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1"/>
+            <Component name="Funder" ComponentRef="clarin.eu:cr1:c_1442920133047" ConceptLink="http://hdl.handle.net/11459/CCR_C-2522_3bdc6af1-bf1b-3f5d-2938-62d99a1980ab" CardinalityMin="0" CardinalityMax="unbounded">
+                <Element name="fundingAgency" ConceptLink="http://hdl.handle.net/11459/CCR_C-5339_9632ff8d-1abc-bc9a-dd61-867598a01d8f" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                <Element name="fundingReferenceNumber" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false"/>
+                <Component name="AuthoritativeIDs" ComponentRef="clarin.eu:cr1:c_1444726211568" CardinalityMin="0" CardinalityMax="1">
+                    <Component name="AuthoritativeID" CardinalityMin="1" CardinalityMax="unbounded">
+                        <Element name="id" ConceptLink="http://hdl.handle.net/11459/CCR_C-1845_97d455c9-2f4a-0f47-4d4a-ff60c2db2582" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Documentation>Please use resolvable URIs</Documentation>
+                        </Element>
+                        <Element name="issuingAuthority" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Documentation>Short name of the issuing authority, see controlled vocabulary</Documentation>
                             <ValueScheme>
-                                
+                                <Vocabulary>
                                     <enumeration>
                                         <item ConceptLink="" AppInfo="">VIAF</item>
                                         <item ConceptLink="" AppInfo="">GND</item>
@@ -188,25 +189,25 @@
                                         <item ConceptLink="" AppInfo="">ISNI</item>
                                         <item ConceptLink="" AppInfo="">LC</item>
                                     </enumeration>
-                                
+                                </Vocabulary>
                             </ValueScheme>
-                        </CMD_Element>
-                    </CMD_Component>
-                </CMD_Component>
-            </CMD_Component>
-        </CMD_Component>
-        <CMD_Component name="Content_Language" ComponentId="clarin.eu:cr1:c_1475136016235" CardinalityMin="0" CardinalityMax="unbounded">
-            <CMD_Element name="Name" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
-            <CMD_Element name="Id" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17" CardinalityMin="1" CardinalityMax="1">
+                        </Element>
+                    </Component>
+                </Component>
+            </Component>
+        </Component>
+        <Component name="Content_Language" ComponentRef="clarin.eu:cr1:c_1475136016235" CardinalityMin="0" CardinalityMax="unbounded">
+            <Element name="Name" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+            <Element name="Id" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17" CardinalityMin="1" CardinalityMax="1">
                 <ValueScheme>
                     <pattern>ISO639-3:[a-z]{3}|Unknown|Unspecified</pattern>
                 </ValueScheme>
-            </CMD_Element>
-        </CMD_Component>
-        <CMD_Component name="Location" ComponentId="clarin.eu:cr1:c_1475136016234" CardinalityMin="0" CardinalityMax="unbounded">
-            <CMD_Element name="Continent" ConceptLink="http://hdl.handle.net/11459/CCR_C-2531_e0427265-2fc4-d23e-0a7c-a21981ec3734" CardinalityMin="1" CardinalityMax="1">
+            </Element>
+        </Component>
+        <Component name="Location" ComponentRef="clarin.eu:cr1:c_1475136016234" CardinalityMin="0" CardinalityMax="unbounded">
+            <Element name="Continent" ConceptLink="http://hdl.handle.net/11459/CCR_C-2531_e0427265-2fc4-d23e-0a7c-a21981ec3734" CardinalityMin="1" CardinalityMax="1">
                 <ValueScheme>
-                    
+                    <Vocabulary>
                         <enumeration>
                             <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2591_f769d93b-c007-d2c9-aff2-99e9177e5764" AppInfo="">Unknown</item>
                             <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2592_6bf81885-106a-fbf0-40e0-9f0233fbd88c" AppInfo="">Unspecified</item>
@@ -219,33 +220,33 @@
                             <item ConceptLink="" AppInfo="">Middle-America</item>
                             <item ConceptLink="" AppInfo="">South-America</item>
                         </enumeration>
-                    
+                    </Vocabulary>
                 </ValueScheme>
-            </CMD_Element>
-            <CMD_Element name="Country" ConceptLink="http://hdl.handle.net/11459/CCR_C-2532_d004b0a6-fd1d-3ca3-abf1-1e6aeb3e37b2" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
-            <CMD_Element name="PlaceName" ConceptLink="http://hdl.handle.net/11459/CCR_C-5580_03e458f2-f873-8645-76eb-40e001b6c1ac" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false"/>
-            <CMD_Component name="geoCoordinates" ComponentId="clarin.eu:cr1:c_1407745712017" CardinalityMin="0" CardinalityMax="unbounded">
-                <CMD_Element name="Latitude" ConceptLink="http://hdl.handle.net/11459/CCR_C-5582_0d7dc9e3-e288-56f8-2d9e-c91ae59f436f" ValueScheme="decimal" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1"/>
-                <CMD_Element name="Longitude" ConceptLink="http://hdl.handle.net/11459/CCR_C-5583_8be52a01-2494-9656-bfef-39e7f748d104" ValueScheme="decimal" CardinalityMin="1" CardinalityMax="1"/>
-                <CMD_Element name="Elevation" ConceptLink="http://hdl.handle.net/11459/CCR_C-6831_b35d8a30-b199-f4a5-b0ef-c3dfa2ba1d59" ValueScheme="decimal" CardinalityMin="0" CardinalityMax="1"/>
-            </CMD_Component>
-        </CMD_Component>
-        <CMD_Component name="Publication" ComponentId="clarin.eu:cr1:c_1475136016238" CardinalityMin="0" CardinalityMax="unbounded">
-            <CMD_Element name="Reference" ConceptLink="http://purl.org/dc/terms/title" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1"/>
-            <CMD_Element name="Url" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1"/>
-        </CMD_Component>
-        <CMD_Component name="License" ComponentId="clarin.eu:cr1:c_1475136016240" ConceptLink="http://hdl.handle.net/11459/CCR_C-2457_45bbaa1a-7002-2ecd-ab9d-57a189f694a6" CardinalityMin="0" CardinalityMax="1">
-            <CMD_Element name="License" ConceptLink="http://hdl.handle.net/11459/CCR_C-2457_45bbaa1a-7002-2ecd-ab9d-57a189f694a6" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1" Documentation="End user license agreement">
-                
-            </CMD_Element>
-            <CMD_Element name="LicenseURL" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1" Documentation="URL of the license agreement">
-                
-            </CMD_Element>
-        </CMD_Component>
-        <CMD_Component name="Resource" ComponentId="clarin.eu:cr1:c_1475136016243" CardinalityMin="1" CardinalityMax="unbounded">
-            <CMD_Element name="Size" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="decimal" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1" Documentation="Size of the resource in Bytes">
-                
-            </CMD_Element>
-        </CMD_Component>
-    </CMD_Component>
-</CMD_ComponentSpec>
+            </Element>
+            <Element name="Country" ConceptLink="http://hdl.handle.net/11459/CCR_C-2532_d004b0a6-fd1d-3ca3-abf1-1e6aeb3e37b2" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+            <Element name="PlaceName" ConceptLink="http://hdl.handle.net/11459/CCR_C-5580_03e458f2-f873-8645-76eb-40e001b6c1ac" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false"/>
+            <Component name="geoCoordinates" ComponentRef="clarin.eu:cr1:c_1407745712017" CardinalityMin="0" CardinalityMax="unbounded">
+                <Element name="Latitude" ConceptLink="http://hdl.handle.net/11459/CCR_C-5582_0d7dc9e3-e288-56f8-2d9e-c91ae59f436f" ValueScheme="decimal" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                <Element name="Longitude" ConceptLink="http://hdl.handle.net/11459/CCR_C-5583_8be52a01-2494-9656-bfef-39e7f748d104" ValueScheme="decimal" CardinalityMin="1" CardinalityMax="1"/>
+                <Element name="Elevation" ConceptLink="http://hdl.handle.net/11459/CCR_C-6831_b35d8a30-b199-f4a5-b0ef-c3dfa2ba1d59" ValueScheme="decimal" CardinalityMin="0" CardinalityMax="1"/>
+            </Component>
+        </Component>
+        <Component name="Publication" ComponentRef="clarin.eu:cr1:c_1475136016238" CardinalityMin="0" CardinalityMax="unbounded">
+            <Element name="Reference" ConceptLink="http://purl.org/dc/terms/title" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+            <Element name="Url" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1"/>
+        </Component>
+        <Component name="License" ComponentRef="clarin.eu:cr1:c_1475136016240" ConceptLink="http://hdl.handle.net/11459/CCR_C-2457_45bbaa1a-7002-2ecd-ab9d-57a189f694a6" CardinalityMin="0" CardinalityMax="1">
+            <Element name="License" ConceptLink="http://hdl.handle.net/11459/CCR_C-2457_45bbaa1a-7002-2ecd-ab9d-57a189f694a6" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                <Documentation>End user license agreement</Documentation>
+            </Element>
+            <Element name="LicenseURL" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1">
+                <Documentation>URL of the license agreement</Documentation>
+            </Element>
+        </Component>
+        <Component name="Resource" ComponentRef="clarin.eu:cr1:c_1475136016243" CardinalityMin="1" CardinalityMax="unbounded">
+            <Element name="Size" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="decimal" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                <Documentation>Size of the resource in Bytes</Documentation>
+            </Element>
+        </Component>
+    </Component>
+</ComponentSpec>

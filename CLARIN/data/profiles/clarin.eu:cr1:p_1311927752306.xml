@@ -1,85 +1,86 @@
-<?xml version="1.0" encoding="UTF-8"?><CMD_ComponentSpec xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cue="http://www.clarin.eu/cmd/cues/1" xmlns:cue_old="http://www.clarin.eu/cmdi/cues/1" isProfile="true" xsi:noNamespaceSchemaLocation="https://infra.clarin.eu/CMDI/1.1/general-component-schema.xsd">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ComponentSpec isProfile="true" CMDVersion="1.2" CMDOriginalVersion="1.1" xsi:noNamespaceSchemaLocation="https://infra.clarin.eu/CMDI/1.x/xsd/cmd-component.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <Header>
         <ID>clarin.eu:cr1:p_1311927752306</ID>
         <Name>ToolService</Name>
         <Description>Description of a tool and/or service(s)
 (adapted from the AnnotationTool profile)</Description>
-        
+        <Status>production</Status>
     </Header>
-    <CMD_Component name="ToolService" CardinalityMin="1" CardinalityMax="1">
-        <CMD_Element name="toolType" ConceptLink="http://hdl.handle.net/11459/CCR_C-3810_7d3b783a-d2c6-51fc-01ab-6a8a658d94c8" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1"/>
-        <CMD_Element name="applicationType" ConceptLink="http://hdl.handle.net/11459/CCR_C-3786_21c37142-994f-63a8-5a5b-a9fce07681a7" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="false"/>
-        <CMD_Element name="website" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
-        <CMD_Component name="GeneralInfo" ComponentId="clarin.eu:cr1:c_1271859438123" CardinalityMin="1" CardinalityMax="1">
-            <CMD_Element name="Name" ConceptLink="http://hdl.handle.net/11459/CCR_C-2544_3626545e-a21d-058c-ebfd-241c0464e7e5" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1"/>
-            <CMD_Element name="Title" ConceptLink="http://hdl.handle.net/11459/CCR_C-2545_d873f2ab-2a2f-29d6-a9ab-260cde57f227" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="2"/>
-            <CMD_Element name="ID" ConceptLink="http://hdl.handle.net/11459/CCR_C-2573_ae7c2548-8a86-ab6e-7099-e28b7697d1a2" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
-            <CMD_Element name="Version" ConceptLink="http://hdl.handle.net/11459/CCR_C-2547_7883d382-b3ce-8ab4-7052-0138525a8ba1" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
-            <CMD_Element name="Owner" ConceptLink="http://hdl.handle.net/11459/CCR_C-2956_519a4aab-2f76-0fd3-090e-f0d6b81a7dbb" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
-            <CMD_Element name="PublicationYear" ConceptLink="http://hdl.handle.net/11459/CCR_C-2538_8b697452-7ef3-9fce-ccf9-a7f344f11317" ValueScheme="gYear" CardinalityMin="0" CardinalityMax="1"/>
-            <CMD_Component name="TimeCoverage" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" CardinalityMin="0" CardinalityMax="1">
-                <CMD_Element name="Description" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
-                <CMD_Element name="minDate" ValueScheme="date" CardinalityMin="0" CardinalityMax="1"/>
-                <CMD_Element name="maxDate" ValueScheme="date" CardinalityMin="0" CardinalityMax="1"/>
-            </CMD_Component>
-            <CMD_Component name="Description" ComponentId="clarin.eu:cr1:c_1271859438118" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" CardinalityMin="0" CardinalityMax="1">
-                <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true">
+    <Component name="ToolService" CardinalityMin="1" CardinalityMax="1">
+        <Element name="toolType" ConceptLink="http://hdl.handle.net/11459/CCR_C-3810_7d3b783a-d2c6-51fc-01ab-6a8a658d94c8" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+        <Element name="applicationType" ConceptLink="http://hdl.handle.net/11459/CCR_C-3786_21c37142-994f-63a8-5a5b-a9fce07681a7" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="false"/>
+        <Element name="website" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+        <Component name="GeneralInfo" ComponentRef="clarin.eu:cr1:c_1271859438123" CardinalityMin="1" CardinalityMax="1">
+            <Element name="Name" ConceptLink="http://hdl.handle.net/11459/CCR_C-2544_3626545e-a21d-058c-ebfd-241c0464e7e5" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+            <Element name="Title" ConceptLink="http://hdl.handle.net/11459/CCR_C-2545_d873f2ab-2a2f-29d6-a9ab-260cde57f227" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+            <Element name="ID" ConceptLink="http://hdl.handle.net/11459/CCR_C-2573_ae7c2548-8a86-ab6e-7099-e28b7697d1a2" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
+            <Element name="Version" ConceptLink="http://hdl.handle.net/11459/CCR_C-2547_7883d382-b3ce-8ab4-7052-0138525a8ba1" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+            <Element name="Owner" ConceptLink="http://hdl.handle.net/11459/CCR_C-2956_519a4aab-2f76-0fd3-090e-f0d6b81a7dbb" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
+            <Element name="PublicationYear" ConceptLink="http://hdl.handle.net/11459/CCR_C-2538_8b697452-7ef3-9fce-ccf9-a7f344f11317" ValueScheme="gYear" CardinalityMin="0" CardinalityMax="1"/>
+            <Component name="TimeCoverage" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" CardinalityMin="0" CardinalityMax="1">
+                <Element name="Description" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                <Element name="minDate" ValueScheme="date" CardinalityMin="0" CardinalityMax="1"/>
+                <Element name="maxDate" ValueScheme="date" CardinalityMin="0" CardinalityMax="1"/>
+            </Component>
+            <Component name="Description" ComponentRef="clarin.eu:cr1:c_1271859438118" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" CardinalityMin="0" CardinalityMax="1">
+                <Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true">
                     <AttributeList>
-                        <Attribute><Name>LanguageID</Name><Type>string</Type></Attribute>
+                        <Attribute name="LanguageID" ValueScheme="string"/>
                     </AttributeList>
-                </CMD_Element>
-            </CMD_Component>
-        </CMD_Component>
-        <CMD_Component name="Creators" ComponentId="clarin.eu:cr1:c_1271859438134" CardinalityMin="1" CardinalityMax="1">
-            <CMD_Component name="Description" ComponentId="clarin.eu:cr1:c_1271859438118" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" CardinalityMin="0" CardinalityMax="1">
-                <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true">
+                </Element>
+            </Component>
+        </Component>
+        <Component name="Creators" ComponentRef="clarin.eu:cr1:c_1271859438134" CardinalityMin="1" CardinalityMax="1">
+            <Component name="Description" ComponentRef="clarin.eu:cr1:c_1271859438118" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" CardinalityMin="0" CardinalityMax="1">
+                <Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true">
                     <AttributeList>
-                        <Attribute><Name>LanguageID</Name><Type>string</Type></Attribute>
+                        <Attribute name="LanguageID" ValueScheme="string"/>
                     </AttributeList>
-                </CMD_Element>
-            </CMD_Component>
-            <CMD_Component name="Creator" ComponentId="clarin.eu:cr1:c_1271859438129" CardinalityMin="1" CardinalityMax="unbounded">
-                <CMD_Element name="Role" ConceptLink="http://hdl.handle.net/11459/CCR_C-2513_f207a635-2563-5ded-907b-9dd4be99007c" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
-                <CMD_Component name="Contact" ComponentId="clarin.eu:cr1:c_1271859438113" CardinalityMin="1" CardinalityMax="unbounded">
-                    <CMD_Element name="Person" ConceptLink="http://hdl.handle.net/11459/CCR_C-2978_0e9e4864-44c4-de22-66b1-9b38bca10836" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
-                    <CMD_Element name="Address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2505_b61e249b-ac68-b40a-0f21-03a4a26e16b4" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
-                    <CMD_Element name="Email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
-                    <CMD_Element name="Organisation" ConceptLink="http://hdl.handle.net/11459/CCR_C-2979_8030473e-bbcb-6b87-3fd2-90554429ec50" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
-                    <CMD_Element name="Telephone" ConceptLink="http://hdl.handle.net/11459/CCR_C-2461_76a92748-423e-46a0-cc7c-84a7d1c46794" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
-                    <CMD_Element name="Website" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
-                </CMD_Component>
-            </CMD_Component>
-        </CMD_Component>
-        <CMD_Component name="Project" ComponentId="clarin.eu:cr1:c_1271859438125" CardinalityMin="1" CardinalityMax="1">
-            <CMD_Element name="Name" ConceptLink="http://hdl.handle.net/11459/CCR_C-2536_13fc5f10-c14a-1f64-a669-32736f6d3ef5" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
-            <CMD_Element name="Title" ConceptLink="http://hdl.handle.net/11459/CCR_C-2537_fa206273-223a-f4fa-dde3-ba59b965701f" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
-            <CMD_Element name="ID" ConceptLink="http://hdl.handle.net/11459/CCR_C-2535_a4f0e587-455a-ef40-c129-9f605e4c8fad" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
-            <CMD_Element name="Funder" ConceptLink="http://hdl.handle.net/11459/CCR_C-2522_3bdc6af1-bf1b-3f5d-2938-62d99a1980ab" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
-            <CMD_Element name="Website" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
-            <CMD_Component name="Description" ComponentId="clarin.eu:cr1:c_1271859438118" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" CardinalityMin="0" CardinalityMax="1">
-                <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true">
+                </Element>
+            </Component>
+            <Component name="Creator" ComponentRef="clarin.eu:cr1:c_1271859438129" CardinalityMin="1" CardinalityMax="unbounded">
+                <Element name="Role" ConceptLink="http://hdl.handle.net/11459/CCR_C-2513_f207a635-2563-5ded-907b-9dd4be99007c" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
+                <Component name="Contact" ComponentRef="clarin.eu:cr1:c_1271859438113" CardinalityMin="1" CardinalityMax="unbounded">
+                    <Element name="Person" ConceptLink="http://hdl.handle.net/11459/CCR_C-2978_0e9e4864-44c4-de22-66b1-9b38bca10836" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
+                    <Element name="Address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2505_b61e249b-ac68-b40a-0f21-03a4a26e16b4" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
+                    <Element name="Email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
+                    <Element name="Organisation" ConceptLink="http://hdl.handle.net/11459/CCR_C-2979_8030473e-bbcb-6b87-3fd2-90554429ec50" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
+                    <Element name="Telephone" ConceptLink="http://hdl.handle.net/11459/CCR_C-2461_76a92748-423e-46a0-cc7c-84a7d1c46794" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
+                    <Element name="Website" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                </Component>
+            </Component>
+        </Component>
+        <Component name="Project" ComponentRef="clarin.eu:cr1:c_1271859438125" CardinalityMin="1" CardinalityMax="1">
+            <Element name="Name" ConceptLink="http://hdl.handle.net/11459/CCR_C-2536_13fc5f10-c14a-1f64-a669-32736f6d3ef5" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
+            <Element name="Title" ConceptLink="http://hdl.handle.net/11459/CCR_C-2537_fa206273-223a-f4fa-dde3-ba59b965701f" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
+            <Element name="ID" ConceptLink="http://hdl.handle.net/11459/CCR_C-2535_a4f0e587-455a-ef40-c129-9f605e4c8fad" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
+            <Element name="Funder" ConceptLink="http://hdl.handle.net/11459/CCR_C-2522_3bdc6af1-bf1b-3f5d-2938-62d99a1980ab" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
+            <Element name="Website" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+            <Component name="Description" ComponentRef="clarin.eu:cr1:c_1271859438118" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" CardinalityMin="0" CardinalityMax="1">
+                <Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true">
                     <AttributeList>
-                        <Attribute><Name>LanguageID</Name><Type>string</Type></Attribute>
+                        <Attribute name="LanguageID" ValueScheme="string"/>
                     </AttributeList>
-                </CMD_Element>
-            </CMD_Component>
-            <CMD_Component name="Contact" ComponentId="clarin.eu:cr1:c_1271859438113" CardinalityMin="0" CardinalityMax="unbounded">
-                <CMD_Element name="Person" ConceptLink="http://hdl.handle.net/11459/CCR_C-2978_0e9e4864-44c4-de22-66b1-9b38bca10836" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
-                <CMD_Element name="Address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2505_b61e249b-ac68-b40a-0f21-03a4a26e16b4" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
-                <CMD_Element name="Email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
-                <CMD_Element name="Organisation" ConceptLink="http://hdl.handle.net/11459/CCR_C-2979_8030473e-bbcb-6b87-3fd2-90554429ec50" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
-                <CMD_Element name="Telephone" ConceptLink="http://hdl.handle.net/11459/CCR_C-2461_76a92748-423e-46a0-cc7c-84a7d1c46794" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
-                <CMD_Element name="Website" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
-            </CMD_Component>
-            <CMD_Component name="Duration" ComponentId="clarin.eu:cr1:c_1271859438116" CardinalityMin="0" CardinalityMax="1">
-                <CMD_Element name="StartYear" ConceptLink="http://hdl.handle.net/11459/CCR_C-2539_f831f74e-f8ca-4e29-bb02-eb6ca7ea3073" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
-                <CMD_Element name="CompletionYear" ConceptLink="http://hdl.handle.net/11459/CCR_C-2509_3b86afe2-ebde-ba09-8a1c-fe6bdc46a739" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
-            </CMD_Component>
-        </CMD_Component>
-        <CMD_Component name="Country" ComponentId="clarin.eu:cr1:c_1271859438104" ConceptLink="http://hdl.handle.net/11459/CCR_C-2532_d004b0a6-fd1d-3ca3-abf1-1e6aeb3e37b2" CardinalityMin="1" CardinalityMax="1">
-            <CMD_Element name="Code" ConceptLink="http://hdl.handle.net/11459/CCR_C-2532_d004b0a6-fd1d-3ca3-abf1-1e6aeb3e37b2" CardinalityMin="1" CardinalityMax="unbounded" DisplayPriority="1">
+                </Element>
+            </Component>
+            <Component name="Contact" ComponentRef="clarin.eu:cr1:c_1271859438113" CardinalityMin="0" CardinalityMax="unbounded">
+                <Element name="Person" ConceptLink="http://hdl.handle.net/11459/CCR_C-2978_0e9e4864-44c4-de22-66b1-9b38bca10836" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
+                <Element name="Address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2505_b61e249b-ac68-b40a-0f21-03a4a26e16b4" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
+                <Element name="Email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
+                <Element name="Organisation" ConceptLink="http://hdl.handle.net/11459/CCR_C-2979_8030473e-bbcb-6b87-3fd2-90554429ec50" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
+                <Element name="Telephone" ConceptLink="http://hdl.handle.net/11459/CCR_C-2461_76a92748-423e-46a0-cc7c-84a7d1c46794" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
+                <Element name="Website" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+            </Component>
+            <Component name="Duration" ComponentRef="clarin.eu:cr1:c_1271859438116" CardinalityMin="0" CardinalityMax="1">
+                <Element name="StartYear" ConceptLink="http://hdl.handle.net/11459/CCR_C-2539_f831f74e-f8ca-4e29-bb02-eb6ca7ea3073" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                <Element name="CompletionYear" ConceptLink="http://hdl.handle.net/11459/CCR_C-2509_3b86afe2-ebde-ba09-8a1c-fe6bdc46a739" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+            </Component>
+        </Component>
+        <Component name="Country" ComponentRef="clarin.eu:cr1:c_1271859438104" ConceptLink="http://hdl.handle.net/11459/CCR_C-2532_d004b0a6-fd1d-3ca3-abf1-1e6aeb3e37b2" CardinalityMin="1" CardinalityMax="1">
+            <Element name="Code" ConceptLink="http://hdl.handle.net/11459/CCR_C-2532_d004b0a6-fd1d-3ca3-abf1-1e6aeb3e37b2" CardinalityMin="1" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                 <ValueScheme>
-                    
+                    <Vocabulary>
                         <enumeration>
                             <item AppInfo="Andorra (AD)">AD</item>
                             <item AppInfo="United Arab Emirates (AE)">AE</item>
@@ -328,26 +329,26 @@
                             <item AppInfo="Zambia (ZM)">ZM</item>
                             <item AppInfo="Zimbabwe (ZW)">ZW</item>
                         </enumeration>
-                    
+                    </Vocabulary>
                 </ValueScheme>
-            </CMD_Element>
-        </CMD_Component>
-        <CMD_Component name="Documentation" ComponentId="clarin.eu:cr1:c_1280305685290" CardinalityMin="0" CardinalityMax="unbounded">
-            <CMD_Element name="URL" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1"/>
-            <CMD_Component name="DocumentationLanguages" ComponentId="clarin.eu:cr1:c_1271859438130" CardinalityMin="1" CardinalityMax="1">
-                <CMD_Component name="Description" ComponentId="clarin.eu:cr1:c_1271859438118" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" CardinalityMin="0" CardinalityMax="1">
-                    <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true">
+            </Element>
+        </Component>
+        <Component name="Documentation" ComponentRef="clarin.eu:cr1:c_1280305685290" CardinalityMin="0" CardinalityMax="unbounded">
+            <Element name="URL" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+            <Component name="DocumentationLanguages" ComponentRef="clarin.eu:cr1:c_1271859438130" CardinalityMin="1" CardinalityMax="1">
+                <Component name="Description" ComponentRef="clarin.eu:cr1:c_1271859438118" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" CardinalityMin="0" CardinalityMax="1">
+                    <Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true">
                         <AttributeList>
-                            <Attribute><Name>LanguageID</Name><Type>string</Type></Attribute>
+                            <Attribute name="LanguageID" ValueScheme="string"/>
                         </AttributeList>
-                    </CMD_Element>
-                </CMD_Component>
-                <CMD_Component name="Language" ComponentId="clarin.eu:cr1:c_1271859438111" CardinalityMin="1" CardinalityMax="unbounded">
-                    <CMD_Element name="LanguageName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2484_669684e7-cb9e-ea96-59cb-a25fe89b9b9d" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true"/>
-                    <CMD_Component name="ISO639" ComponentId="clarin.eu:cr1:c_1271859438110" CardinalityMin="1" CardinalityMax="1">
-                        <CMD_Element name="iso-639-3-code" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1">
+                    </Element>
+                </Component>
+                <Component name="Language" ComponentRef="clarin.eu:cr1:c_1271859438111" CardinalityMin="1" CardinalityMax="unbounded">
+                    <Element name="LanguageName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2484_669684e7-cb9e-ea96-59cb-a25fe89b9b9d" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true"/>
+                    <Component name="ISO639" ComponentRef="clarin.eu:cr1:c_1271859438110" CardinalityMin="1" CardinalityMax="1">
+                        <Element name="iso-639-3-code" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                             <ValueScheme>
-                                
+                                <Vocabulary URI="http://hdl.handle.net/11459/CLAVAS_810f8d2a-6723-3ba6-2e57-41d6d3844816" ValueProperty="notation">
                                     <enumeration>
                                         <item ConceptLink="http://cdb.iso.org/lg/CDB-00132443-001" AppInfo="Ghotuo (aaa)">aaa</item>
                                         <item ConceptLink="http://cdb.iso.org/lg/CDB-00133770-001" AppInfo="Alumu-Tesu (aab)">aab</item>
@@ -8029,24 +8030,24 @@
                                         <item ConceptLink="http://cdb.iso.org/lg/CDB-00131000-001" AppInfo="Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki (zza)">zza</item>
                                         <item ConceptLink="http://cdb.iso.org/lg/CDB-00136140-001" AppInfo="Zuojiang Zhuang (zzj)">zzj</item>
                                     </enumeration>
-                                
+                                </Vocabulary>
                             </ValueScheme>
-                        </CMD_Element>
-                    </CMD_Component>
-                </CMD_Component>
-            </CMD_Component>
-        </CMD_Component>
-        <CMD_Component name="Tool" CardinalityMin="0" CardinalityMax="unbounded">
-            <CMD_Element name="Requirements" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
-            <CMD_Component name="toolInput" ComponentId="clarin.eu:cr1:c_1309417420819" CardinalityMin="0" CardinalityMax="1">
-                <CMD_Component name="data" ComponentId="clarin.eu:cr1:c_1309417420820" CardinalityMin="1" CardinalityMax="unbounded">
-                    <CMD_Element name="MimeType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
-                    <CMD_Element name="characterEncoding" ConceptLink="http://hdl.handle.net/11459/CCR_C-2564_880b1108-6b03-647f-eed9-cdfbd464c661" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false"/>
-                    <CMD_Element name="datatype" ConceptLink="http://hdl.handle.net/11459/CCR_C-1662_d42aab6d-c84e-3756-09dd-9bb48eae04ed" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false"/>
-                    <CMD_Component name="ISO639" ComponentId="clarin.eu:cr1:c_1271859438110" CardinalityMin="0" CardinalityMax="unbounded">
-                        <CMD_Element name="iso-639-3-code" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1">
+                        </Element>
+                    </Component>
+                </Component>
+            </Component>
+        </Component>
+        <Component name="Tool" CardinalityMin="0" CardinalityMax="unbounded">
+            <Element name="Requirements" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+            <Component name="toolInput" ComponentRef="clarin.eu:cr1:c_1309417420819" CardinalityMin="0" CardinalityMax="1">
+                <Component name="data" ComponentRef="clarin.eu:cr1:c_1309417420820" CardinalityMin="1" CardinalityMax="unbounded">
+                    <Element name="MimeType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                    <Element name="characterEncoding" ConceptLink="http://hdl.handle.net/11459/CCR_C-2564_880b1108-6b03-647f-eed9-cdfbd464c661" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false"/>
+                    <Element name="datatype" ConceptLink="http://hdl.handle.net/11459/CCR_C-1662_d42aab6d-c84e-3756-09dd-9bb48eae04ed" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false"/>
+                    <Component name="ISO639" ComponentRef="clarin.eu:cr1:c_1271859438110" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Element name="iso-639-3-code" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                             <ValueScheme>
-                                
+                                <Vocabulary URI="http://hdl.handle.net/11459/CLAVAS_810f8d2a-6723-3ba6-2e57-41d6d3844816" ValueProperty="notation">
                                     <enumeration>
                                         <item ConceptLink="http://cdb.iso.org/lg/CDB-00132443-001" AppInfo="Ghotuo (aaa)">aaa</item>
                                         <item ConceptLink="http://cdb.iso.org/lg/CDB-00133770-001" AppInfo="Alumu-Tesu (aab)">aab</item>
@@ -15728,28 +15729,28 @@
                                         <item ConceptLink="http://cdb.iso.org/lg/CDB-00131000-001" AppInfo="Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki (zza)">zza</item>
                                         <item ConceptLink="http://cdb.iso.org/lg/CDB-00136140-001" AppInfo="Zuojiang Zhuang (zzj)">zzj</item>
                                     </enumeration>
-                                
+                                </Vocabulary>
                             </ValueScheme>
-                        </CMD_Element>
-                    </CMD_Component>
-                    <CMD_Component name="table" ComponentId="clarin.eu:cr1:c_1290431694602" CardinalityMin="0" CardinalityMax="1">
-                        <CMD_Element name="rowHeaders" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
-                        <CMD_Element name="columnHeaders" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
-                        <CMD_Element name="delimiter" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1"/>
-                        <CMD_Element name="multipleCellContentDelimiter" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false"/>
-                        <CMD_Element name="missingValues" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false"/>
-                    </CMD_Component>
-                </CMD_Component>
-            </CMD_Component>
-            <CMD_Component name="toolOutput" ComponentId="clarin.eu:cr1:c_1309417420821" CardinalityMin="0" CardinalityMax="1">
-                <CMD_Component name="data" ComponentId="clarin.eu:cr1:c_1309417420820" CardinalityMin="1" CardinalityMax="unbounded">
-                    <CMD_Element name="MimeType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
-                    <CMD_Element name="characterEncoding" ConceptLink="http://hdl.handle.net/11459/CCR_C-2564_880b1108-6b03-647f-eed9-cdfbd464c661" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false"/>
-                    <CMD_Element name="datatype" ConceptLink="http://hdl.handle.net/11459/CCR_C-1662_d42aab6d-c84e-3756-09dd-9bb48eae04ed" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false"/>
-                    <CMD_Component name="ISO639" ComponentId="clarin.eu:cr1:c_1271859438110" CardinalityMin="0" CardinalityMax="unbounded">
-                        <CMD_Element name="iso-639-3-code" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1">
+                        </Element>
+                    </Component>
+                    <Component name="table" ComponentRef="clarin.eu:cr1:c_1290431694602" CardinalityMin="0" CardinalityMax="1">
+                        <Element name="rowHeaders" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+                        <Element name="columnHeaders" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+                        <Element name="delimiter" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                        <Element name="multipleCellContentDelimiter" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false"/>
+                        <Element name="missingValues" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false"/>
+                    </Component>
+                </Component>
+            </Component>
+            <Component name="toolOutput" ComponentRef="clarin.eu:cr1:c_1309417420821" CardinalityMin="0" CardinalityMax="1">
+                <Component name="data" ComponentRef="clarin.eu:cr1:c_1309417420820" CardinalityMin="1" CardinalityMax="unbounded">
+                    <Element name="MimeType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                    <Element name="characterEncoding" ConceptLink="http://hdl.handle.net/11459/CCR_C-2564_880b1108-6b03-647f-eed9-cdfbd464c661" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false"/>
+                    <Element name="datatype" ConceptLink="http://hdl.handle.net/11459/CCR_C-1662_d42aab6d-c84e-3756-09dd-9bb48eae04ed" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false"/>
+                    <Component name="ISO639" ComponentRef="clarin.eu:cr1:c_1271859438110" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Element name="iso-639-3-code" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                             <ValueScheme>
-                                
+                                <Vocabulary URI="http://hdl.handle.net/11459/CLAVAS_810f8d2a-6723-3ba6-2e57-41d6d3844816" ValueProperty="notation">
                                     <enumeration>
                                         <item ConceptLink="http://cdb.iso.org/lg/CDB-00132443-001" AppInfo="Ghotuo (aaa)">aaa</item>
                                         <item ConceptLink="http://cdb.iso.org/lg/CDB-00133770-001" AppInfo="Alumu-Tesu (aab)">aab</item>
@@ -23431,67 +23432,67 @@
                                         <item ConceptLink="http://cdb.iso.org/lg/CDB-00131000-001" AppInfo="Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki (zza)">zza</item>
                                         <item ConceptLink="http://cdb.iso.org/lg/CDB-00136140-001" AppInfo="Zuojiang Zhuang (zzj)">zzj</item>
                                     </enumeration>
-                                
+                                </Vocabulary>
                             </ValueScheme>
-                        </CMD_Element>
-                    </CMD_Component>
-                    <CMD_Component name="table" ComponentId="clarin.eu:cr1:c_1290431694602" CardinalityMin="0" CardinalityMax="1">
-                        <CMD_Element name="rowHeaders" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
-                        <CMD_Element name="columnHeaders" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
-                        <CMD_Element name="delimiter" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1"/>
-                        <CMD_Element name="multipleCellContentDelimiter" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false"/>
-                        <CMD_Element name="missingValues" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false"/>
-                    </CMD_Component>
-                </CMD_Component>
-            </CMD_Component>
-            <CMD_Component name="Implementation" ComponentId="clarin.eu:cr1:c_1297242111878" CardinalityMin="0" CardinalityMax="1">
-                <CMD_Element name="platforms" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false"/>
-                <CMD_Element name="approach" ConceptLink="http://hdl.handle.net/11459/CCR_C-3787_b717a52a-b66f-f4bc-d01c-05fc936c4471" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false"/>
-                <CMD_Element name="implementationLanguage" ConceptLink="http://hdl.handle.net/11459/CCR_C-3798_8f86c06f-cf57-ad03-3b16-a5c9f1f51a07" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1"/>
-                <CMD_Element name="openSource" ConceptLink="http://hdl.handle.net/11459/CCR_C-3803_bda53954-6b5c-9885-2b0f-a8327a249027" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false"/>
-                <CMD_Component name="systemrequirements" ComponentId="clarin.eu:cr1:c_1288172614062" CardinalityMin="1" CardinalityMax="1">
-                    <CMD_Element name="workingMemoryMin" ConceptLink="http://hdl.handle.net/11459/CCR_C-3811_72a5bb98-95e0-0383-c4fb-41283a703135" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false"/>
-                    <CMD_Element name="hardDiskMin" ConceptLink="http://hdl.handle.net/11459/CCR_C-3797_81133735-c8be-5e51-7908-8ab779eadf72" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false"/>
-                    <CMD_Element name="operatingSystem" ConceptLink="http://hdl.handle.net/11459/CCR_C-2572_0a6b62f1-52e0-f0a2-fd72-d75e6465a32c" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1"/>
-                </CMD_Component>
-            </CMD_Component>
-            <CMD_Component name="Access" ComponentId="clarin.eu:cr1:c_1311927752326" CardinalityMin="0" CardinalityMax="1">
-                <CMD_Element name="Availability" ConceptLink="http://hdl.handle.net/11459/CCR_C-2453_1f0c3ea5-7966-ae11-d3c6-448424d4e6e8" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false"/>
-                <CMD_Element name="DistributionMedium" ConceptLink="http://hdl.handle.net/11459/CCR_C-2967_c96c9be1-3655-28c8-2b1c-0c499309c87a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1"/>
-                <CMD_Element name="CatalogueLink" ConceptLink="http://hdl.handle.net/11459/CCR_C-2969_b04052d7-f726-ae8d-84f3-f9838e7bc296" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
-                <CMD_Element name="accessProtocol" ConceptLink="http://hdl.handle.net/11459/CCR_C-3784_55fa12c9-35ad-7b55-b7a5-f9926c801952" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false"/>
-                <CMD_Component name="Contact" ComponentId="clarin.eu:cr1:c_1271859438113" CardinalityMin="1" CardinalityMax="unbounded">
-                    <CMD_Element name="Person" ConceptLink="http://hdl.handle.net/11459/CCR_C-2978_0e9e4864-44c4-de22-66b1-9b38bca10836" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
-                    <CMD_Element name="Address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2505_b61e249b-ac68-b40a-0f21-03a4a26e16b4" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
-                    <CMD_Element name="Email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
-                    <CMD_Element name="Organisation" ConceptLink="http://hdl.handle.net/11459/CCR_C-2979_8030473e-bbcb-6b87-3fd2-90554429ec50" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
-                    <CMD_Element name="Telephone" ConceptLink="http://hdl.handle.net/11459/CCR_C-2461_76a92748-423e-46a0-cc7c-84a7d1c46794" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
-                    <CMD_Element name="Website" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
-                </CMD_Component>
-                <CMD_Component name="Price" ComponentId="clarin.eu:cr1:c_1271859438115" CardinalityMin="0" CardinalityMax="1">
-                    <CMD_Element name="Price" ConceptLink="http://hdl.handle.net/11459/CCR_C-2460_ac4dfb89-b5e1-d255-9327-58e771ee4065" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded"/>
-                </CMD_Component>
-                <CMD_Component name="DistributionType" ComponentId="clarin.eu:cr1:c_1290431694599" CardinalityMin="1" CardinalityMax="1">
-                    <CMD_Element name="distributionType" ConceptLink="http://hdl.handle.net/11459/CCR_C-3795_9ca13de7-965b-6a56-ebfb-9cfec61fac6e" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
-                    <CMD_Element name="restriction" ConceptLink="http://hdl.handle.net/11459/CCR_C-1956_f54c65bc-516f-8463-e6df-ae3a2582c21a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false"/>
-                </CMD_Component>
-            </CMD_Component>
-            <CMD_Component name="Documentation" ComponentId="clarin.eu:cr1:c_1280305685290" CardinalityMin="0" CardinalityMax="unbounded">
-                <CMD_Element name="URL" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1"/>
-                <CMD_Component name="DocumentationLanguages" ComponentId="clarin.eu:cr1:c_1271859438130" CardinalityMin="1" CardinalityMax="1">
-                    <CMD_Component name="Description" ComponentId="clarin.eu:cr1:c_1271859438118" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" CardinalityMin="0" CardinalityMax="1">
-                        <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true">
+                        </Element>
+                    </Component>
+                    <Component name="table" ComponentRef="clarin.eu:cr1:c_1290431694602" CardinalityMin="0" CardinalityMax="1">
+                        <Element name="rowHeaders" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+                        <Element name="columnHeaders" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+                        <Element name="delimiter" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                        <Element name="multipleCellContentDelimiter" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false"/>
+                        <Element name="missingValues" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false"/>
+                    </Component>
+                </Component>
+            </Component>
+            <Component name="Implementation" ComponentRef="clarin.eu:cr1:c_1297242111878" CardinalityMin="0" CardinalityMax="1">
+                <Element name="platforms" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false"/>
+                <Element name="approach" ConceptLink="http://hdl.handle.net/11459/CCR_C-3787_b717a52a-b66f-f4bc-d01c-05fc936c4471" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false"/>
+                <Element name="implementationLanguage" ConceptLink="http://hdl.handle.net/11459/CCR_C-3798_8f86c06f-cf57-ad03-3b16-a5c9f1f51a07" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                <Element name="openSource" ConceptLink="http://hdl.handle.net/11459/CCR_C-3803_bda53954-6b5c-9885-2b0f-a8327a249027" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false"/>
+                <Component name="systemrequirements" ComponentRef="clarin.eu:cr1:c_1288172614062" CardinalityMin="1" CardinalityMax="1">
+                    <Element name="workingMemoryMin" ConceptLink="http://hdl.handle.net/11459/CCR_C-3811_72a5bb98-95e0-0383-c4fb-41283a703135" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false"/>
+                    <Element name="hardDiskMin" ConceptLink="http://hdl.handle.net/11459/CCR_C-3797_81133735-c8be-5e51-7908-8ab779eadf72" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false"/>
+                    <Element name="operatingSystem" ConceptLink="http://hdl.handle.net/11459/CCR_C-2572_0a6b62f1-52e0-f0a2-fd72-d75e6465a32c" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                </Component>
+            </Component>
+            <Component name="Access" ComponentRef="clarin.eu:cr1:c_1311927752326" CardinalityMin="0" CardinalityMax="1">
+                <Element name="Availability" ConceptLink="http://hdl.handle.net/11459/CCR_C-2453_1f0c3ea5-7966-ae11-d3c6-448424d4e6e8" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false"/>
+                <Element name="DistributionMedium" ConceptLink="http://hdl.handle.net/11459/CCR_C-2967_c96c9be1-3655-28c8-2b1c-0c499309c87a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                <Element name="CatalogueLink" ConceptLink="http://hdl.handle.net/11459/CCR_C-2969_b04052d7-f726-ae8d-84f3-f9838e7bc296" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                <Element name="accessProtocol" ConceptLink="http://hdl.handle.net/11459/CCR_C-3784_55fa12c9-35ad-7b55-b7a5-f9926c801952" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false"/>
+                <Component name="Contact" ComponentRef="clarin.eu:cr1:c_1271859438113" CardinalityMin="1" CardinalityMax="unbounded">
+                    <Element name="Person" ConceptLink="http://hdl.handle.net/11459/CCR_C-2978_0e9e4864-44c4-de22-66b1-9b38bca10836" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
+                    <Element name="Address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2505_b61e249b-ac68-b40a-0f21-03a4a26e16b4" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
+                    <Element name="Email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
+                    <Element name="Organisation" ConceptLink="http://hdl.handle.net/11459/CCR_C-2979_8030473e-bbcb-6b87-3fd2-90554429ec50" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
+                    <Element name="Telephone" ConceptLink="http://hdl.handle.net/11459/CCR_C-2461_76a92748-423e-46a0-cc7c-84a7d1c46794" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
+                    <Element name="Website" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                </Component>
+                <Component name="Price" ComponentRef="clarin.eu:cr1:c_1271859438115" CardinalityMin="0" CardinalityMax="1">
+                    <Element name="Price" ConceptLink="http://hdl.handle.net/11459/CCR_C-2460_ac4dfb89-b5e1-d255-9327-58e771ee4065" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded"/>
+                </Component>
+                <Component name="DistributionType" ComponentRef="clarin.eu:cr1:c_1290431694599" CardinalityMin="1" CardinalityMax="1">
+                    <Element name="distributionType" ConceptLink="http://hdl.handle.net/11459/CCR_C-3795_9ca13de7-965b-6a56-ebfb-9cfec61fac6e" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                    <Element name="restriction" ConceptLink="http://hdl.handle.net/11459/CCR_C-1956_f54c65bc-516f-8463-e6df-ae3a2582c21a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false"/>
+                </Component>
+            </Component>
+            <Component name="Documentation" ComponentRef="clarin.eu:cr1:c_1280305685290" CardinalityMin="0" CardinalityMax="unbounded">
+                <Element name="URL" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                <Component name="DocumentationLanguages" ComponentRef="clarin.eu:cr1:c_1271859438130" CardinalityMin="1" CardinalityMax="1">
+                    <Component name="Description" ComponentRef="clarin.eu:cr1:c_1271859438118" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" CardinalityMin="0" CardinalityMax="1">
+                        <Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true">
                             <AttributeList>
-                                <Attribute><Name>LanguageID</Name><Type>string</Type></Attribute>
+                                <Attribute name="LanguageID" ValueScheme="string"/>
                             </AttributeList>
-                        </CMD_Element>
-                    </CMD_Component>
-                    <CMD_Component name="Language" ComponentId="clarin.eu:cr1:c_1271859438111" CardinalityMin="1" CardinalityMax="unbounded">
-                        <CMD_Element name="LanguageName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2484_669684e7-cb9e-ea96-59cb-a25fe89b9b9d" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true"/>
-                        <CMD_Component name="ISO639" ComponentId="clarin.eu:cr1:c_1271859438110" CardinalityMin="1" CardinalityMax="1">
-                            <CMD_Element name="iso-639-3-code" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1">
+                        </Element>
+                    </Component>
+                    <Component name="Language" ComponentRef="clarin.eu:cr1:c_1271859438111" CardinalityMin="1" CardinalityMax="unbounded">
+                        <Element name="LanguageName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2484_669684e7-cb9e-ea96-59cb-a25fe89b9b9d" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true"/>
+                        <Component name="ISO639" ComponentRef="clarin.eu:cr1:c_1271859438110" CardinalityMin="1" CardinalityMax="1">
+                            <Element name="iso-639-3-code" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <ValueScheme>
-                                    
+                                    <Vocabulary URI="http://hdl.handle.net/11459/CLAVAS_810f8d2a-6723-3ba6-2e57-41d6d3844816" ValueProperty="notation">
                                         <enumeration>
                                             <item ConceptLink="http://cdb.iso.org/lg/CDB-00132443-001" AppInfo="Ghotuo (aaa)">aaa</item>
                                             <item ConceptLink="http://cdb.iso.org/lg/CDB-00133770-001" AppInfo="Alumu-Tesu (aab)">aab</item>
@@ -31173,104 +31174,104 @@
                                             <item ConceptLink="http://cdb.iso.org/lg/CDB-00131000-001" AppInfo="Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki (zza)">zza</item>
                                             <item ConceptLink="http://cdb.iso.org/lg/CDB-00136140-001" AppInfo="Zuojiang Zhuang (zzj)">zzj</item>
                                         </enumeration>
-                                    
+                                    </Vocabulary>
                                 </ValueScheme>
-                            </CMD_Element>
-                        </CMD_Component>
-                    </CMD_Component>
-                </CMD_Component>
-            </CMD_Component>
-        </CMD_Component>
-        <CMD_Component name="Service" ComponentId="clarin.eu:cr1:c_1320657629631" ConceptLink="http://hdl.handle.net/11459/CCR_C-4159_ca0e6cba-cab5-b51a-f430-fdcb0756c9ac" CardinalityMin="0" CardinalityMax="unbounded">
+                            </Element>
+                        </Component>
+                    </Component>
+                </Component>
+            </Component>
+        </Component>
+        <Component name="Service" ComponentRef="clarin.eu:cr1:c_1320657629631" ConceptLink="http://hdl.handle.net/11459/CCR_C-4159_ca0e6cba-cab5-b51a-f430-fdcb0756c9ac" CardinalityMin="0" CardinalityMax="unbounded">
             <AttributeList>
-                <Attribute><Name>CoreVersion</Name><ConceptLink>http://hdl.handle.net/11459/CCR_C-2547_7883d382-b3ce-8ab4-7052-0138525a8ba1</ConceptLink>
+                <Attribute name="CoreVersion" ConceptLink="http://hdl.handle.net/11459/CCR_C-2547_7883d382-b3ce-8ab4-7052-0138525a8ba1">
                     <ValueScheme>
-                        
+                        <Vocabulary>
                             <enumeration>
                                 <item ConceptLink="" AppInfo="">1.0</item>
                             </enumeration>
-                        
+                        </Vocabulary>
                     </ValueScheme>
                 </Attribute>
             </AttributeList>
-            <CMD_Element name="Name" ConceptLink="http://hdl.handle.net/11459/CCR_C-4160_192be757-0d8f-f4fe-b10b-d3d50de92482" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1" Documentation="The name of the web service or set of web services.">
-                
-            </CMD_Element>
-            <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" Documentation="A description of the web service or set of web services.">
-                
-            </CMD_Element>
-            <CMD_Component name="ServiceDescriptionLocation" ConceptLink="http://hdl.handle.net/11459/CCR_C-4161_c007397e-d92b-05fa-d24c-482d5e110331" CardinalityMin="1" CardinalityMax="1"/>
-            <CMD_Component name="Operations" CardinalityMin="1" CardinalityMax="1">
-                <CMD_Component name="Operation" ComponentId="clarin.eu:cr1:c_1320657629630" ConceptLink="http://hdl.handle.net/11459/CCR_C-4175_9c723fad-1282-c4df-a012-dc78efa17d1d" CardinalityMin="1" CardinalityMax="unbounded">
-                    <CMD_Element name="Name" ConceptLink="http://hdl.handle.net/11459/CCR_C-4176_0454b9ca-973b-03f9-ce5b-999660b8b3b3" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1" Documentation="This Operation Name should be resolvable in the Service ServiceDescription, i.e., the WSDL or WADL document describing how to technically invoke the service.">
-                        
-                    </CMD_Element>
-                    <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" Documentation="The Operation Description should describe what this operation does to the input to produce the output.">
-                        
-                    </CMD_Element>
-                    <CMD_Component name="Input" ConceptLink="http://hdl.handle.net/11459/CCR_C-4177_569a0481-7b5d-2c45-a371-c577eee98c90" CardinalityMin="0" CardinalityMax="1">
-                        <CMD_Component name="ParameterGroup" ComponentId="clarin.eu:cr1:c_1320657629629" ConceptLink="http://hdl.handle.net/11459/CCR_C-4179_22f8d577-de4f-ed5e-f72f-bb3e4bf05aff" CardinalityMin="0" CardinalityMax="unbounded">
-                            <CMD_Element name="Name" ConceptLink="http://hdl.handle.net/11459/CCR_C-4180_e221ffaa-d39d-5b03-bbe0-32ca1b551e94" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1" Documentation="This ParameterGroup Name should in general be resolvable in the Service ServiceDescription, i.e., the WSDL or WADL document describing how to technically invoke the service.">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" Documentation="Describes the role of this ParameterGroup for this web service operation.">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="MIMEType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The MIME type of this ParameterGroup, which indicates that its one input resource containing several input Parameters.">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="DataType" ConceptLink="http://hdl.handle.net/11459/CCR_C-4181_4547ac14-c9b1-dec9-671f-3455722c3902" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The data type of this ParameterGroup.">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="DataCategory" ConceptLink="http://hdl.handle.net/11459/CCR_C-4182_714c00e6-dd76-16c0-9b19-13582f4c1a76" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1" Documentation="The PID refering to the (ISOcat) data category specifying this ParameterGroup.">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="SemanticType" ConceptLink="http://hdl.handle.net/11459/CCR_C-4183_2ab53f7f-5d15-a7d1-d134-c45091957b97" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="A type describing the semantics of this parameter in its context. For example, an input parameter might be an WS specific project name, given to a project created by an earlier WS call. In that case the name of the parameter might be 'project', its data type might be 'xsd:string', its data category /projectName/ and its semantic type 'myWSApp.project'.">
-                                
-                            </CMD_Element>
-                            <CMD_Component name="Parameters" CardinalityMin="1" CardinalityMax="1">
-                                <CMD_Component name="Parameter" ComponentId="clarin.eu:cr1:c_1320657629628" ConceptLink="http://hdl.handle.net/11459/CCR_C-4184_a4613662-092a-842f-a254-e60d6ce34437" CardinalityMin="1" CardinalityMax="unbounded">
-                                    <CMD_Element name="Name" ConceptLink="http://hdl.handle.net/11459/CCR_C-4180_e221ffaa-d39d-5b03-bbe0-32ca1b551e94" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1" Documentation="This Parameter Name, unless the Parameter is part of a ParameterGroup, should be resolvable in the Service ServiceDescription, , i.e., the WSDL or WADL document describing how to technically invoke the service.">
-                                        
-                                    </CMD_Element>
-                                    <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" Documentation="Describes the role of this Parameter for this web service operation.">
-                                        
-                                    </CMD_Element>
-                                    <CMD_Element name="MIMEType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The MIME type of this Parameter, which indicates that its an input resource on its own.">
-                                        
-                                    </CMD_Element>
-                                    <CMD_Element name="DataType" ConceptLink="http://hdl.handle.net/11459/CCR_C-4181_4547ac14-c9b1-dec9-671f-3455722c3902" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The data type of this Parameter. In general this should be an XSD data type, e.g., xsd:string or xsd:anyURI.">
-                                        
-                                    </CMD_Element>
-                                    <CMD_Element name="isConfigurationParameter" ConceptLink="http://hdl.handle.net/11459/CCR_C-4185_ba2406bd-3c76-99ab-7f1f-820fe6c8b84f" ValueScheme="boolean" CardinalityMin="0" CardinalityMax="1" Documentation="Set this flag to true if the parameter configures the operation of the web services, which is something else then the input the operation works upon. For example, the input of an operation can be a series of sensor values while a configuration parameter might be a treshhold or a weight used in the calculation done on this sensor values.">
-                                        
-                                    </CMD_Element>
-                                    <CMD_Element name="DataCategory" ConceptLink="http://hdl.handle.net/11459/CCR_C-4182_714c00e6-dd76-16c0-9b19-13582f4c1a76" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1" Documentation="The PID refering to the (ISOcat) data category specifying this Parameter.">
-                                        
-                                    </CMD_Element>
-                                    <CMD_Element name="SemanticType" ConceptLink="http://hdl.handle.net/11459/CCR_C-4183_2ab53f7f-5d15-a7d1-d134-c45091957b97" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="A type describing the semantics of this parameter in its context. For example, an input parameter might be an WS specific project name, given to a project created by an earlier WS call. In that case the name of the parameter might be 'project', its data type might be 'xsd:string', its data category /projectName/ and its semantic type 'myWSApp.project'.">
-                                        
-                                    </CMD_Element>
-                                    <CMD_Component name="Values" CardinalityMin="0" CardinalityMax="1">
-                                        <CMD_Component name="ParameterValue" ConceptLink="http://hdl.handle.net/11459/CCR_C-4186_d49ae139-84f8-e944-8e19-0cd444a6c309" CardinalityMin="1" CardinalityMax="unbounded">
-                                            <CMD_Element name="Value" ConceptLink="http://hdl.handle.net/11459/CCR_C-1978_088a96da-46c0-cfc9-eb0d-2a3bc20caa55" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1" Documentation="A possible literal value of a parameter.">
-                                                
-                                            </CMD_Element>
-                                            <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="A description of the meaning of a possible literal value of a parameter.">
-                                                
-                                            </CMD_Element>
-                                            <CMD_Element name="DataCategory" ConceptLink="http://hdl.handle.net/11459/CCR_C-4182_714c00e6-dd76-16c0-9b19-13582f4c1a76" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1" Documentation="The PID refering to the (ISOcat) data category specifying this Parameter Value.">
-                                                
-                                            </CMD_Element>
-                                        </CMD_Component>
-                                    </CMD_Component>
-                                    <CMD_Component name="TechnicalMetadata" ComponentId="clarin.eu:cr1:c_1311927752300" CardinalityMin="1" CardinalityMax="1">
-                                        <CMD_Element name="CharacterEncoding" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
-                                        <CMD_Element name="AnnotationStandoff" ValueScheme="boolean" CardinalityMin="0" CardinalityMax="1"/>
-                                        <CMD_Component name="ISO639" ComponentId="clarin.eu:cr1:c_1271859438110" CardinalityMin="0" CardinalityMax="1">
-                                            <CMD_Element name="iso-639-3-code" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1">
+            <Element name="Name" ConceptLink="http://hdl.handle.net/11459/CCR_C-4160_192be757-0d8f-f4fe-b10b-d3d50de92482" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                <Documentation>The name of the web service or set of web services.</Documentation>
+            </Element>
+            <Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                <Documentation>A description of the web service or set of web services.</Documentation>
+            </Element>
+            <Component name="ServiceDescriptionLocation" ConceptLink="http://hdl.handle.net/11459/CCR_C-4161_c007397e-d92b-05fa-d24c-482d5e110331" CardinalityMin="1" CardinalityMax="1"/>
+            <Component name="Operations" CardinalityMin="1" CardinalityMax="1">
+                <Component name="Operation" ComponentRef="clarin.eu:cr1:c_1320657629630" ConceptLink="http://hdl.handle.net/11459/CCR_C-4175_9c723fad-1282-c4df-a012-dc78efa17d1d" CardinalityMin="1" CardinalityMax="unbounded">
+                    <Element name="Name" ConceptLink="http://hdl.handle.net/11459/CCR_C-4176_0454b9ca-973b-03f9-ce5b-999660b8b3b3" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                        <Documentation>This Operation Name should be resolvable in the Service ServiceDescription, i.e., the WSDL or WADL document describing how to technically invoke the service.</Documentation>
+                    </Element>
+                    <Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                        <Documentation>The Operation Description should describe what this operation does to the input to produce the output.</Documentation>
+                    </Element>
+                    <Component name="Input" ConceptLink="http://hdl.handle.net/11459/CCR_C-4177_569a0481-7b5d-2c45-a371-c577eee98c90" CardinalityMin="0" CardinalityMax="1">
+                        <Component name="ParameterGroup" ComponentRef="clarin.eu:cr1:c_1320657629629" ConceptLink="http://hdl.handle.net/11459/CCR_C-4179_22f8d577-de4f-ed5e-f72f-bb3e4bf05aff" CardinalityMin="0" CardinalityMax="unbounded">
+                            <Element name="Name" ConceptLink="http://hdl.handle.net/11459/CCR_C-4180_e221ffaa-d39d-5b03-bbe0-32ca1b551e94" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Documentation>This ParameterGroup Name should in general be resolvable in the Service ServiceDescription, i.e., the WSDL or WADL document describing how to technically invoke the service.</Documentation>
+                            </Element>
+                            <Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                <Documentation>Describes the role of this ParameterGroup for this web service operation.</Documentation>
+                            </Element>
+                            <Element name="MIMEType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                <Documentation>The MIME type of this ParameterGroup, which indicates that its one input resource containing several input Parameters.</Documentation>
+                            </Element>
+                            <Element name="DataType" ConceptLink="http://hdl.handle.net/11459/CCR_C-4181_4547ac14-c9b1-dec9-671f-3455722c3902" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                <Documentation>The data type of this ParameterGroup.</Documentation>
+                            </Element>
+                            <Element name="DataCategory" ConceptLink="http://hdl.handle.net/11459/CCR_C-4182_714c00e6-dd76-16c0-9b19-13582f4c1a76" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1">
+                                <Documentation>The PID refering to the (ISOcat) data category specifying this ParameterGroup.</Documentation>
+                            </Element>
+                            <Element name="SemanticType" ConceptLink="http://hdl.handle.net/11459/CCR_C-4183_2ab53f7f-5d15-a7d1-d134-c45091957b97" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                <Documentation>A type describing the semantics of this parameter in its context. For example, an input parameter might be an WS specific project name, given to a project created by an earlier WS call. In that case the name of the parameter might be 'project', its data type might be 'xsd:string', its data category /projectName/ and its semantic type 'myWSApp.project'.</Documentation>
+                            </Element>
+                            <Component name="Parameters" CardinalityMin="1" CardinalityMax="1">
+                                <Component name="Parameter" ComponentRef="clarin.eu:cr1:c_1320657629628" ConceptLink="http://hdl.handle.net/11459/CCR_C-4184_a4613662-092a-842f-a254-e60d6ce34437" CardinalityMin="1" CardinalityMax="unbounded">
+                                    <Element name="Name" ConceptLink="http://hdl.handle.net/11459/CCR_C-4180_e221ffaa-d39d-5b03-bbe0-32ca1b551e94" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                        <Documentation>This Parameter Name, unless the Parameter is part of a ParameterGroup, should be resolvable in the Service ServiceDescription, , i.e., the WSDL or WADL document describing how to technically invoke the service.</Documentation>
+                                    </Element>
+                                    <Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                        <Documentation>Describes the role of this Parameter for this web service operation.</Documentation>
+                                    </Element>
+                                    <Element name="MIMEType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                        <Documentation>The MIME type of this Parameter, which indicates that its an input resource on its own.</Documentation>
+                                    </Element>
+                                    <Element name="DataType" ConceptLink="http://hdl.handle.net/11459/CCR_C-4181_4547ac14-c9b1-dec9-671f-3455722c3902" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                        <Documentation>The data type of this Parameter. In general this should be an XSD data type, e.g., xsd:string or xsd:anyURI.</Documentation>
+                                    </Element>
+                                    <Element name="isConfigurationParameter" ConceptLink="http://hdl.handle.net/11459/CCR_C-4185_ba2406bd-3c76-99ab-7f1f-820fe6c8b84f" ValueScheme="boolean" CardinalityMin="0" CardinalityMax="1">
+                                        <Documentation>Set this flag to true if the parameter configures the operation of the web services, which is something else then the input the operation works upon. For example, the input of an operation can be a series of sensor values while a configuration parameter might be a treshhold or a weight used in the calculation done on this sensor values.</Documentation>
+                                    </Element>
+                                    <Element name="DataCategory" ConceptLink="http://hdl.handle.net/11459/CCR_C-4182_714c00e6-dd76-16c0-9b19-13582f4c1a76" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1">
+                                        <Documentation>The PID refering to the (ISOcat) data category specifying this Parameter.</Documentation>
+                                    </Element>
+                                    <Element name="SemanticType" ConceptLink="http://hdl.handle.net/11459/CCR_C-4183_2ab53f7f-5d15-a7d1-d134-c45091957b97" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                        <Documentation>A type describing the semantics of this parameter in its context. For example, an input parameter might be an WS specific project name, given to a project created by an earlier WS call. In that case the name of the parameter might be 'project', its data type might be 'xsd:string', its data category /projectName/ and its semantic type 'myWSApp.project'.</Documentation>
+                                    </Element>
+                                    <Component name="Values" CardinalityMin="0" CardinalityMax="1">
+                                        <Component name="ParameterValue" ConceptLink="http://hdl.handle.net/11459/CCR_C-4186_d49ae139-84f8-e944-8e19-0cd444a6c309" CardinalityMin="1" CardinalityMax="unbounded">
+                                            <Element name="Value" ConceptLink="http://hdl.handle.net/11459/CCR_C-1978_088a96da-46c0-cfc9-eb0d-2a3bc20caa55" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                                <Documentation>A possible literal value of a parameter.</Documentation>
+                                            </Element>
+                                            <Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                                <Documentation>A description of the meaning of a possible literal value of a parameter.</Documentation>
+                                            </Element>
+                                            <Element name="DataCategory" ConceptLink="http://hdl.handle.net/11459/CCR_C-4182_714c00e6-dd76-16c0-9b19-13582f4c1a76" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1">
+                                                <Documentation>The PID refering to the (ISOcat) data category specifying this Parameter Value.</Documentation>
+                                            </Element>
+                                        </Component>
+                                    </Component>
+                                    <Component name="TechnicalMetadata" ComponentRef="clarin.eu:cr1:c_1311927752300" CardinalityMin="1" CardinalityMax="1">
+                                        <Element name="CharacterEncoding" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                        <Element name="AnnotationStandoff" ValueScheme="boolean" CardinalityMin="0" CardinalityMax="1"/>
+                                        <Component name="ISO639" ComponentRef="clarin.eu:cr1:c_1271859438110" CardinalityMin="0" CardinalityMax="1">
+                                            <Element name="iso-639-3-code" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                                 <ValueScheme>
-                                                    
+                                                    <Vocabulary URI="http://hdl.handle.net/11459/CLAVAS_810f8d2a-6723-3ba6-2e57-41d6d3844816" ValueProperty="notation">
                                                         <enumeration>
                                                             <item ConceptLink="http://cdb.iso.org/lg/CDB-00132443-001" AppInfo="Ghotuo (aaa)">aaa</item>
                                                             <item ConceptLink="http://cdb.iso.org/lg/CDB-00133770-001" AppInfo="Alumu-Tesu (aab)">aab</item>
@@ -38952,27 +38953,27 @@
                                                             <item ConceptLink="http://cdb.iso.org/lg/CDB-00131000-001" AppInfo="Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki (zza)">zza</item>
                                                             <item ConceptLink="http://cdb.iso.org/lg/CDB-00136140-001" AppInfo="Zuojiang Zhuang (zzj)">zzj</item>
                                                         </enumeration>
-                                                    
+                                                    </Vocabulary>
                                                 </ValueScheme>
-                                            </CMD_Element>
-                                        </CMD_Component>
-                                        <CMD_Component name="ContentEncoding" ComponentId="clarin.eu:cr1:c_1320657629671" CardinalityMin="0" CardinalityMax="1">
-                                            <CMD_Element name="URL" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1" DisplayPriority="1" Documentation="Location of a schema resource, e.g., an XML schema.">
-                                                
-                                            </CMD_Element>
-                                            <CMD_Element name="ResourceFormat" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="Name of the resource format, e.g., CLAM XML.">
-                                                
-                                            </CMD_Element>
-                                            <CMD_Element name="RelativeLocation" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="Location of a Parameter in a ParameterGroup, e.g., an XPath expression to get the parameter value in an XML file (the ParameterGroup).">
-                                                
-                                            </CMD_Element>
-                                            <CMD_Component name="annotationLevel" ComponentId="clarin.eu:cr1:c_1271859438167" CardinalityMin="0" CardinalityMax="unbounded">
-                                                <CMD_Element name="AnnotationLevelType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2462_5b266792-7a54-9296-42e2-2318b9861fe1" ValueScheme="string"/>
-                                                <CMD_Element name="TagSet" ConceptLink="http://hdl.handle.net/11459/CCR_C-2497_6e93b9ce-1be7-248f-ab63-ba0b9c63661f" ValueScheme="string"/>
-                                                <CMD_Component name="ISO639" ComponentId="clarin.eu:cr1:c_1271859438109">
-                                                    <CMD_Element name="iso-639-1-code" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1">
+                                            </Element>
+                                        </Component>
+                                        <Component name="ContentEncoding" ComponentRef="clarin.eu:cr1:c_1320657629671" CardinalityMin="0" CardinalityMax="1">
+                                            <Element name="URL" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                                <Documentation>Location of a schema resource, e.g., an XML schema.</Documentation>
+                                            </Element>
+                                            <Element name="ResourceFormat" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                                <Documentation>Name of the resource format, e.g., CLAM XML.</Documentation>
+                                            </Element>
+                                            <Element name="RelativeLocation" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                                <Documentation>Location of a Parameter in a ParameterGroup, e.g., an XPath expression to get the parameter value in an XML file (the ParameterGroup).</Documentation>
+                                            </Element>
+                                            <Component name="annotationLevel" ComponentRef="clarin.eu:cr1:c_1271859438167" CardinalityMin="0" CardinalityMax="unbounded">
+                                                <Element name="AnnotationLevelType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2462_5b266792-7a54-9296-42e2-2318b9861fe1" ValueScheme="string"/>
+                                                <Element name="TagSet" ConceptLink="http://hdl.handle.net/11459/CCR_C-2497_6e93b9ce-1be7-248f-ab63-ba0b9c63661f" ValueScheme="string"/>
+                                                <Component name="ISO639" ComponentRef="clarin.eu:cr1:c_1271859438109">
+                                                    <Element name="iso-639-1-code" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                                         <ValueScheme>
-                                                            
+                                                            <Vocabulary>
                                                                 <enumeration>
                                                                     <item ConceptLink="http://cdb.iso.org/lg/CDB-00130489-001" AppInfo="Afar (aa)">aa</item>
                                                                     <item ConceptLink="http://cdb.iso.org/lg/CDB-00130304-001" AppInfo="Abkhazian; Abkhaz (ab)">ab</item>
@@ -39164,22 +39165,22 @@
                                                                     <item ConceptLink="http://cdb.iso.org/lg/CDB-00130487-001" AppInfo="Chinese (zh)">zh</item>
                                                                     <item ConceptLink="http://cdb.iso.org/lg/CDB-00130488-001" AppInfo="Zulu (zu)">zu</item>
                                                                 </enumeration>
-                                                            
+                                                            </Vocabulary>
                                                         </ValueScheme>
-                                                    </CMD_Element>
-                                                </CMD_Component>
-                                            </CMD_Component>
-                                        </CMD_Component>
-                                    </CMD_Component>
-                                </CMD_Component>
-                            </CMD_Component>
-                            <CMD_Component name="TechnicalMetadata" ComponentId="clarin.eu:cr1:c_1311927752300" CardinalityMin="0" CardinalityMax="1">
-                                <CMD_Element name="CharacterEncoding" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
-                                <CMD_Element name="AnnotationStandoff" ValueScheme="boolean" CardinalityMin="0" CardinalityMax="1"/>
-                                <CMD_Component name="ISO639" ComponentId="clarin.eu:cr1:c_1271859438110" CardinalityMin="0" CardinalityMax="1">
-                                    <CMD_Element name="iso-639-3-code" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1">
+                                                    </Element>
+                                                </Component>
+                                            </Component>
+                                        </Component>
+                                    </Component>
+                                </Component>
+                            </Component>
+                            <Component name="TechnicalMetadata" ComponentRef="clarin.eu:cr1:c_1311927752300" CardinalityMin="0" CardinalityMax="1">
+                                <Element name="CharacterEncoding" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                <Element name="AnnotationStandoff" ValueScheme="boolean" CardinalityMin="0" CardinalityMax="1"/>
+                                <Component name="ISO639" ComponentRef="clarin.eu:cr1:c_1271859438110" CardinalityMin="0" CardinalityMax="1">
+                                    <Element name="iso-639-3-code" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                         <ValueScheme>
-                                            
+                                            <Vocabulary URI="http://hdl.handle.net/11459/CLAVAS_810f8d2a-6723-3ba6-2e57-41d6d3844816" ValueProperty="notation">
                                                 <enumeration>
                                                     <item ConceptLink="http://cdb.iso.org/lg/CDB-00132443-001" AppInfo="Ghotuo (aaa)">aaa</item>
                                                     <item ConceptLink="http://cdb.iso.org/lg/CDB-00133770-001" AppInfo="Alumu-Tesu (aab)">aab</item>
@@ -46861,27 +46862,27 @@
                                                     <item ConceptLink="http://cdb.iso.org/lg/CDB-00131000-001" AppInfo="Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki (zza)">zza</item>
                                                     <item ConceptLink="http://cdb.iso.org/lg/CDB-00136140-001" AppInfo="Zuojiang Zhuang (zzj)">zzj</item>
                                                 </enumeration>
-                                            
+                                            </Vocabulary>
                                         </ValueScheme>
-                                    </CMD_Element>
-                                </CMD_Component>
-                                <CMD_Component name="ContentEncoding" ComponentId="clarin.eu:cr1:c_1320657629671" CardinalityMin="0" CardinalityMax="1">
-                                    <CMD_Element name="URL" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1" DisplayPriority="1" Documentation="Location of a schema resource, e.g., an XML schema.">
-                                        
-                                    </CMD_Element>
-                                    <CMD_Element name="ResourceFormat" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="Name of the resource format, e.g., CLAM XML.">
-                                        
-                                    </CMD_Element>
-                                    <CMD_Element name="RelativeLocation" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="Location of a Parameter in a ParameterGroup, e.g., an XPath expression to get the parameter value in an XML file (the ParameterGroup).">
-                                        
-                                    </CMD_Element>
-                                    <CMD_Component name="annotationLevel" ComponentId="clarin.eu:cr1:c_1271859438167" CardinalityMin="0" CardinalityMax="unbounded">
-                                        <CMD_Element name="AnnotationLevelType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2462_5b266792-7a54-9296-42e2-2318b9861fe1" ValueScheme="string"/>
-                                        <CMD_Element name="TagSet" ConceptLink="http://hdl.handle.net/11459/CCR_C-2497_6e93b9ce-1be7-248f-ab63-ba0b9c63661f" ValueScheme="string"/>
-                                        <CMD_Component name="ISO639" ComponentId="clarin.eu:cr1:c_1271859438109">
-                                            <CMD_Element name="iso-639-1-code" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1">
+                                    </Element>
+                                </Component>
+                                <Component name="ContentEncoding" ComponentRef="clarin.eu:cr1:c_1320657629671" CardinalityMin="0" CardinalityMax="1">
+                                    <Element name="URL" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                        <Documentation>Location of a schema resource, e.g., an XML schema.</Documentation>
+                                    </Element>
+                                    <Element name="ResourceFormat" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                        <Documentation>Name of the resource format, e.g., CLAM XML.</Documentation>
+                                    </Element>
+                                    <Element name="RelativeLocation" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                        <Documentation>Location of a Parameter in a ParameterGroup, e.g., an XPath expression to get the parameter value in an XML file (the ParameterGroup).</Documentation>
+                                    </Element>
+                                    <Component name="annotationLevel" ComponentRef="clarin.eu:cr1:c_1271859438167" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <Element name="AnnotationLevelType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2462_5b266792-7a54-9296-42e2-2318b9861fe1" ValueScheme="string"/>
+                                        <Element name="TagSet" ConceptLink="http://hdl.handle.net/11459/CCR_C-2497_6e93b9ce-1be7-248f-ab63-ba0b9c63661f" ValueScheme="string"/>
+                                        <Component name="ISO639" ComponentRef="clarin.eu:cr1:c_1271859438109">
+                                            <Element name="iso-639-1-code" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                                 <ValueScheme>
-                                                    
+                                                    <Vocabulary>
                                                         <enumeration>
                                                             <item ConceptLink="http://cdb.iso.org/lg/CDB-00130489-001" AppInfo="Afar (aa)">aa</item>
                                                             <item ConceptLink="http://cdb.iso.org/lg/CDB-00130304-001" AppInfo="Abkhazian; Abkhaz (ab)">ab</item>
@@ -47073,56 +47074,56 @@
                                                             <item ConceptLink="http://cdb.iso.org/lg/CDB-00130487-001" AppInfo="Chinese (zh)">zh</item>
                                                             <item ConceptLink="http://cdb.iso.org/lg/CDB-00130488-001" AppInfo="Zulu (zu)">zu</item>
                                                         </enumeration>
-                                                    
+                                                    </Vocabulary>
                                                 </ValueScheme>
-                                            </CMD_Element>
-                                        </CMD_Component>
-                                    </CMD_Component>
-                                </CMD_Component>
-                            </CMD_Component>
-                        </CMD_Component>
-                        <CMD_Component name="Parameter" ComponentId="clarin.eu:cr1:c_1320657629628" ConceptLink="http://hdl.handle.net/11459/CCR_C-4184_a4613662-092a-842f-a254-e60d6ce34437" CardinalityMin="0" CardinalityMax="unbounded">
-                            <CMD_Element name="Name" ConceptLink="http://hdl.handle.net/11459/CCR_C-4180_e221ffaa-d39d-5b03-bbe0-32ca1b551e94" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1" Documentation="This Parameter Name, unless the Parameter is part of a ParameterGroup, should be resolvable in the Service ServiceDescription, , i.e., the WSDL or WADL document describing how to technically invoke the service.">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" Documentation="Describes the role of this Parameter for this web service operation.">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="MIMEType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The MIME type of this Parameter, which indicates that its an input resource on its own.">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="DataType" ConceptLink="http://hdl.handle.net/11459/CCR_C-4181_4547ac14-c9b1-dec9-671f-3455722c3902" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The data type of this Parameter. In general this should be an XSD data type, e.g., xsd:string or xsd:anyURI.">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="isConfigurationParameter" ConceptLink="http://hdl.handle.net/11459/CCR_C-4185_ba2406bd-3c76-99ab-7f1f-820fe6c8b84f" ValueScheme="boolean" CardinalityMin="0" CardinalityMax="1" Documentation="Set this flag to true if the parameter configures the operation of the web services, which is something else then the input the operation works upon. For example, the input of an operation can be a series of sensor values while a configuration parameter might be a treshhold or a weight used in the calculation done on this sensor values.">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="DataCategory" ConceptLink="http://hdl.handle.net/11459/CCR_C-4182_714c00e6-dd76-16c0-9b19-13582f4c1a76" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1" Documentation="The PID refering to the (ISOcat) data category specifying this Parameter.">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="SemanticType" ConceptLink="http://hdl.handle.net/11459/CCR_C-4183_2ab53f7f-5d15-a7d1-d134-c45091957b97" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="A type describing the semantics of this parameter in its context. For example, an input parameter might be an WS specific project name, given to a project created by an earlier WS call. In that case the name of the parameter might be 'project', its data type might be 'xsd:string', its data category /projectName/ and its semantic type 'myWSApp.project'.">
-                                
-                            </CMD_Element>
-                            <CMD_Component name="Values" CardinalityMin="0" CardinalityMax="1">
-                                <CMD_Component name="ParameterValue" ConceptLink="http://hdl.handle.net/11459/CCR_C-4186_d49ae139-84f8-e944-8e19-0cd444a6c309" CardinalityMin="1" CardinalityMax="unbounded">
-                                    <CMD_Element name="Value" ConceptLink="http://hdl.handle.net/11459/CCR_C-1978_088a96da-46c0-cfc9-eb0d-2a3bc20caa55" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1" Documentation="A possible literal value of a parameter.">
-                                        
-                                    </CMD_Element>
-                                    <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="A description of the meaning of a possible literal value of a parameter.">
-                                        
-                                    </CMD_Element>
-                                    <CMD_Element name="DataCategory" ConceptLink="http://hdl.handle.net/11459/CCR_C-4182_714c00e6-dd76-16c0-9b19-13582f4c1a76" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1" Documentation="The PID refering to the (ISOcat) data category specifying this Parameter Value.">
-                                        
-                                    </CMD_Element>
-                                </CMD_Component>
-                            </CMD_Component>
-                            <CMD_Component name="TechnicalMetadata" ComponentId="clarin.eu:cr1:c_1311927752300" CardinalityMin="1" CardinalityMax="1">
-                                <CMD_Element name="CharacterEncoding" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
-                                <CMD_Element name="AnnotationStandoff" ValueScheme="boolean" CardinalityMin="0" CardinalityMax="1"/>
-                                <CMD_Component name="ISO639" ComponentId="clarin.eu:cr1:c_1271859438110" CardinalityMin="0" CardinalityMax="1">
-                                    <CMD_Element name="iso-639-3-code" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1">
+                                            </Element>
+                                        </Component>
+                                    </Component>
+                                </Component>
+                            </Component>
+                        </Component>
+                        <Component name="Parameter" ComponentRef="clarin.eu:cr1:c_1320657629628" ConceptLink="http://hdl.handle.net/11459/CCR_C-4184_a4613662-092a-842f-a254-e60d6ce34437" CardinalityMin="0" CardinalityMax="unbounded">
+                            <Element name="Name" ConceptLink="http://hdl.handle.net/11459/CCR_C-4180_e221ffaa-d39d-5b03-bbe0-32ca1b551e94" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Documentation>This Parameter Name, unless the Parameter is part of a ParameterGroup, should be resolvable in the Service ServiceDescription, , i.e., the WSDL or WADL document describing how to technically invoke the service.</Documentation>
+                            </Element>
+                            <Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                <Documentation>Describes the role of this Parameter for this web service operation.</Documentation>
+                            </Element>
+                            <Element name="MIMEType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                <Documentation>The MIME type of this Parameter, which indicates that its an input resource on its own.</Documentation>
+                            </Element>
+                            <Element name="DataType" ConceptLink="http://hdl.handle.net/11459/CCR_C-4181_4547ac14-c9b1-dec9-671f-3455722c3902" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                <Documentation>The data type of this Parameter. In general this should be an XSD data type, e.g., xsd:string or xsd:anyURI.</Documentation>
+                            </Element>
+                            <Element name="isConfigurationParameter" ConceptLink="http://hdl.handle.net/11459/CCR_C-4185_ba2406bd-3c76-99ab-7f1f-820fe6c8b84f" ValueScheme="boolean" CardinalityMin="0" CardinalityMax="1">
+                                <Documentation>Set this flag to true if the parameter configures the operation of the web services, which is something else then the input the operation works upon. For example, the input of an operation can be a series of sensor values while a configuration parameter might be a treshhold or a weight used in the calculation done on this sensor values.</Documentation>
+                            </Element>
+                            <Element name="DataCategory" ConceptLink="http://hdl.handle.net/11459/CCR_C-4182_714c00e6-dd76-16c0-9b19-13582f4c1a76" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1">
+                                <Documentation>The PID refering to the (ISOcat) data category specifying this Parameter.</Documentation>
+                            </Element>
+                            <Element name="SemanticType" ConceptLink="http://hdl.handle.net/11459/CCR_C-4183_2ab53f7f-5d15-a7d1-d134-c45091957b97" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                <Documentation>A type describing the semantics of this parameter in its context. For example, an input parameter might be an WS specific project name, given to a project created by an earlier WS call. In that case the name of the parameter might be 'project', its data type might be 'xsd:string', its data category /projectName/ and its semantic type 'myWSApp.project'.</Documentation>
+                            </Element>
+                            <Component name="Values" CardinalityMin="0" CardinalityMax="1">
+                                <Component name="ParameterValue" ConceptLink="http://hdl.handle.net/11459/CCR_C-4186_d49ae139-84f8-e944-8e19-0cd444a6c309" CardinalityMin="1" CardinalityMax="unbounded">
+                                    <Element name="Value" ConceptLink="http://hdl.handle.net/11459/CCR_C-1978_088a96da-46c0-cfc9-eb0d-2a3bc20caa55" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                        <Documentation>A possible literal value of a parameter.</Documentation>
+                                    </Element>
+                                    <Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                        <Documentation>A description of the meaning of a possible literal value of a parameter.</Documentation>
+                                    </Element>
+                                    <Element name="DataCategory" ConceptLink="http://hdl.handle.net/11459/CCR_C-4182_714c00e6-dd76-16c0-9b19-13582f4c1a76" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1">
+                                        <Documentation>The PID refering to the (ISOcat) data category specifying this Parameter Value.</Documentation>
+                                    </Element>
+                                </Component>
+                            </Component>
+                            <Component name="TechnicalMetadata" ComponentRef="clarin.eu:cr1:c_1311927752300" CardinalityMin="1" CardinalityMax="1">
+                                <Element name="CharacterEncoding" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                <Element name="AnnotationStandoff" ValueScheme="boolean" CardinalityMin="0" CardinalityMax="1"/>
+                                <Component name="ISO639" ComponentRef="clarin.eu:cr1:c_1271859438110" CardinalityMin="0" CardinalityMax="1">
+                                    <Element name="iso-639-3-code" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                         <ValueScheme>
-                                            
+                                            <Vocabulary URI="http://hdl.handle.net/11459/CLAVAS_810f8d2a-6723-3ba6-2e57-41d6d3844816" ValueProperty="notation">
                                                 <enumeration>
                                                     <item ConceptLink="http://cdb.iso.org/lg/CDB-00132443-001" AppInfo="Ghotuo (aaa)">aaa</item>
                                                     <item ConceptLink="http://cdb.iso.org/lg/CDB-00133770-001" AppInfo="Alumu-Tesu (aab)">aab</item>
@@ -54804,27 +54805,27 @@
                                                     <item ConceptLink="http://cdb.iso.org/lg/CDB-00131000-001" AppInfo="Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki (zza)">zza</item>
                                                     <item ConceptLink="http://cdb.iso.org/lg/CDB-00136140-001" AppInfo="Zuojiang Zhuang (zzj)">zzj</item>
                                                 </enumeration>
-                                            
+                                            </Vocabulary>
                                         </ValueScheme>
-                                    </CMD_Element>
-                                </CMD_Component>
-                                <CMD_Component name="ContentEncoding" ComponentId="clarin.eu:cr1:c_1320657629671" CardinalityMin="0" CardinalityMax="1">
-                                    <CMD_Element name="URL" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1" DisplayPriority="1" Documentation="Location of a schema resource, e.g., an XML schema.">
-                                        
-                                    </CMD_Element>
-                                    <CMD_Element name="ResourceFormat" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="Name of the resource format, e.g., CLAM XML.">
-                                        
-                                    </CMD_Element>
-                                    <CMD_Element name="RelativeLocation" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="Location of a Parameter in a ParameterGroup, e.g., an XPath expression to get the parameter value in an XML file (the ParameterGroup).">
-                                        
-                                    </CMD_Element>
-                                    <CMD_Component name="annotationLevel" ComponentId="clarin.eu:cr1:c_1271859438167" CardinalityMin="0" CardinalityMax="unbounded">
-                                        <CMD_Element name="AnnotationLevelType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2462_5b266792-7a54-9296-42e2-2318b9861fe1" ValueScheme="string"/>
-                                        <CMD_Element name="TagSet" ConceptLink="http://hdl.handle.net/11459/CCR_C-2497_6e93b9ce-1be7-248f-ab63-ba0b9c63661f" ValueScheme="string"/>
-                                        <CMD_Component name="ISO639" ComponentId="clarin.eu:cr1:c_1271859438109">
-                                            <CMD_Element name="iso-639-1-code" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1">
+                                    </Element>
+                                </Component>
+                                <Component name="ContentEncoding" ComponentRef="clarin.eu:cr1:c_1320657629671" CardinalityMin="0" CardinalityMax="1">
+                                    <Element name="URL" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                        <Documentation>Location of a schema resource, e.g., an XML schema.</Documentation>
+                                    </Element>
+                                    <Element name="ResourceFormat" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                        <Documentation>Name of the resource format, e.g., CLAM XML.</Documentation>
+                                    </Element>
+                                    <Element name="RelativeLocation" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                        <Documentation>Location of a Parameter in a ParameterGroup, e.g., an XPath expression to get the parameter value in an XML file (the ParameterGroup).</Documentation>
+                                    </Element>
+                                    <Component name="annotationLevel" ComponentRef="clarin.eu:cr1:c_1271859438167" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <Element name="AnnotationLevelType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2462_5b266792-7a54-9296-42e2-2318b9861fe1" ValueScheme="string"/>
+                                        <Element name="TagSet" ConceptLink="http://hdl.handle.net/11459/CCR_C-2497_6e93b9ce-1be7-248f-ab63-ba0b9c63661f" ValueScheme="string"/>
+                                        <Component name="ISO639" ComponentRef="clarin.eu:cr1:c_1271859438109">
+                                            <Element name="iso-639-1-code" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                                 <ValueScheme>
-                                                    
+                                                    <Vocabulary>
                                                         <enumeration>
                                                             <item ConceptLink="http://cdb.iso.org/lg/CDB-00130489-001" AppInfo="Afar (aa)">aa</item>
                                                             <item ConceptLink="http://cdb.iso.org/lg/CDB-00130304-001" AppInfo="Abkhazian; Abkhaz (ab)">ab</item>
@@ -55016,78 +55017,78 @@
                                                             <item ConceptLink="http://cdb.iso.org/lg/CDB-00130487-001" AppInfo="Chinese (zh)">zh</item>
                                                             <item ConceptLink="http://cdb.iso.org/lg/CDB-00130488-001" AppInfo="Zulu (zu)">zu</item>
                                                         </enumeration>
-                                                    
+                                                    </Vocabulary>
                                                 </ValueScheme>
-                                            </CMD_Element>
-                                        </CMD_Component>
-                                    </CMD_Component>
-                                </CMD_Component>
-                            </CMD_Component>
-                        </CMD_Component>
-                    </CMD_Component>
-                    <CMD_Component name="Output" ConceptLink="http://hdl.handle.net/11459/CCR_C-4178_ab5aa4f6-5bab-4f30-d334-5af4344d0562" CardinalityMin="1" CardinalityMax="1">
-                        <CMD_Component name="ParameterGroup" ComponentId="clarin.eu:cr1:c_1320657629629" ConceptLink="http://hdl.handle.net/11459/CCR_C-4179_22f8d577-de4f-ed5e-f72f-bb3e4bf05aff" CardinalityMin="0" CardinalityMax="unbounded">
-                            <CMD_Element name="Name" ConceptLink="http://hdl.handle.net/11459/CCR_C-4180_e221ffaa-d39d-5b03-bbe0-32ca1b551e94" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1" Documentation="This ParameterGroup Name should in general be resolvable in the Service ServiceDescription, i.e., the WSDL or WADL document describing how to technically invoke the service.">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" Documentation="Describes the role of this ParameterGroup for this web service operation.">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="MIMEType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The MIME type of this ParameterGroup, which indicates that its one input resource containing several input Parameters.">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="DataType" ConceptLink="http://hdl.handle.net/11459/CCR_C-4181_4547ac14-c9b1-dec9-671f-3455722c3902" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The data type of this ParameterGroup.">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="DataCategory" ConceptLink="http://hdl.handle.net/11459/CCR_C-4182_714c00e6-dd76-16c0-9b19-13582f4c1a76" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1" Documentation="The PID refering to the (ISOcat) data category specifying this ParameterGroup.">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="SemanticType" ConceptLink="http://hdl.handle.net/11459/CCR_C-4183_2ab53f7f-5d15-a7d1-d134-c45091957b97" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="A type describing the semantics of this parameter in its context. For example, an input parameter might be an WS specific project name, given to a project created by an earlier WS call. In that case the name of the parameter might be 'project', its data type might be 'xsd:string', its data category /projectName/ and its semantic type 'myWSApp.project'.">
-                                
-                            </CMD_Element>
-                            <CMD_Component name="Parameters" CardinalityMin="1" CardinalityMax="1">
-                                <CMD_Component name="Parameter" ComponentId="clarin.eu:cr1:c_1320657629628" ConceptLink="http://hdl.handle.net/11459/CCR_C-4184_a4613662-092a-842f-a254-e60d6ce34437" CardinalityMin="1" CardinalityMax="unbounded">
-                                    <CMD_Element name="Name" ConceptLink="http://hdl.handle.net/11459/CCR_C-4180_e221ffaa-d39d-5b03-bbe0-32ca1b551e94" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1" Documentation="This Parameter Name, unless the Parameter is part of a ParameterGroup, should be resolvable in the Service ServiceDescription, , i.e., the WSDL or WADL document describing how to technically invoke the service.">
-                                        
-                                    </CMD_Element>
-                                    <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" Documentation="Describes the role of this Parameter for this web service operation.">
-                                        
-                                    </CMD_Element>
-                                    <CMD_Element name="MIMEType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The MIME type of this Parameter, which indicates that its an input resource on its own.">
-                                        
-                                    </CMD_Element>
-                                    <CMD_Element name="DataType" ConceptLink="http://hdl.handle.net/11459/CCR_C-4181_4547ac14-c9b1-dec9-671f-3455722c3902" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The data type of this Parameter. In general this should be an XSD data type, e.g., xsd:string or xsd:anyURI.">
-                                        
-                                    </CMD_Element>
-                                    <CMD_Element name="isConfigurationParameter" ConceptLink="http://hdl.handle.net/11459/CCR_C-4185_ba2406bd-3c76-99ab-7f1f-820fe6c8b84f" ValueScheme="boolean" CardinalityMin="0" CardinalityMax="1" Documentation="Set this flag to true if the parameter configures the operation of the web services, which is something else then the input the operation works upon. For example, the input of an operation can be a series of sensor values while a configuration parameter might be a treshhold or a weight used in the calculation done on this sensor values.">
-                                        
-                                    </CMD_Element>
-                                    <CMD_Element name="DataCategory" ConceptLink="http://hdl.handle.net/11459/CCR_C-4182_714c00e6-dd76-16c0-9b19-13582f4c1a76" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1" Documentation="The PID refering to the (ISOcat) data category specifying this Parameter.">
-                                        
-                                    </CMD_Element>
-                                    <CMD_Element name="SemanticType" ConceptLink="http://hdl.handle.net/11459/CCR_C-4183_2ab53f7f-5d15-a7d1-d134-c45091957b97" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="A type describing the semantics of this parameter in its context. For example, an input parameter might be an WS specific project name, given to a project created by an earlier WS call. In that case the name of the parameter might be 'project', its data type might be 'xsd:string', its data category /projectName/ and its semantic type 'myWSApp.project'.">
-                                        
-                                    </CMD_Element>
-                                    <CMD_Component name="Values" CardinalityMin="0" CardinalityMax="1">
-                                        <CMD_Component name="ParameterValue" ConceptLink="http://hdl.handle.net/11459/CCR_C-4186_d49ae139-84f8-e944-8e19-0cd444a6c309" CardinalityMin="1" CardinalityMax="unbounded">
-                                            <CMD_Element name="Value" ConceptLink="http://hdl.handle.net/11459/CCR_C-1978_088a96da-46c0-cfc9-eb0d-2a3bc20caa55" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1" Documentation="A possible literal value of a parameter.">
-                                                
-                                            </CMD_Element>
-                                            <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="A description of the meaning of a possible literal value of a parameter.">
-                                                
-                                            </CMD_Element>
-                                            <CMD_Element name="DataCategory" ConceptLink="http://hdl.handle.net/11459/CCR_C-4182_714c00e6-dd76-16c0-9b19-13582f4c1a76" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1" Documentation="The PID refering to the (ISOcat) data category specifying this Parameter Value.">
-                                                
-                                            </CMD_Element>
-                                        </CMD_Component>
-                                    </CMD_Component>
-                                    <CMD_Component name="TechnicalMetadata" ComponentId="clarin.eu:cr1:c_1311927752300" CardinalityMin="1" CardinalityMax="1">
-                                        <CMD_Element name="CharacterEncoding" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
-                                        <CMD_Element name="AnnotationStandoff" ValueScheme="boolean" CardinalityMin="0" CardinalityMax="1"/>
-                                        <CMD_Component name="ISO639" ComponentId="clarin.eu:cr1:c_1271859438110" CardinalityMin="0" CardinalityMax="1">
-                                            <CMD_Element name="iso-639-3-code" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1">
+                                            </Element>
+                                        </Component>
+                                    </Component>
+                                </Component>
+                            </Component>
+                        </Component>
+                    </Component>
+                    <Component name="Output" ConceptLink="http://hdl.handle.net/11459/CCR_C-4178_ab5aa4f6-5bab-4f30-d334-5af4344d0562" CardinalityMin="1" CardinalityMax="1">
+                        <Component name="ParameterGroup" ComponentRef="clarin.eu:cr1:c_1320657629629" ConceptLink="http://hdl.handle.net/11459/CCR_C-4179_22f8d577-de4f-ed5e-f72f-bb3e4bf05aff" CardinalityMin="0" CardinalityMax="unbounded">
+                            <Element name="Name" ConceptLink="http://hdl.handle.net/11459/CCR_C-4180_e221ffaa-d39d-5b03-bbe0-32ca1b551e94" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Documentation>This ParameterGroup Name should in general be resolvable in the Service ServiceDescription, i.e., the WSDL or WADL document describing how to technically invoke the service.</Documentation>
+                            </Element>
+                            <Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                <Documentation>Describes the role of this ParameterGroup for this web service operation.</Documentation>
+                            </Element>
+                            <Element name="MIMEType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                <Documentation>The MIME type of this ParameterGroup, which indicates that its one input resource containing several input Parameters.</Documentation>
+                            </Element>
+                            <Element name="DataType" ConceptLink="http://hdl.handle.net/11459/CCR_C-4181_4547ac14-c9b1-dec9-671f-3455722c3902" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                <Documentation>The data type of this ParameterGroup.</Documentation>
+                            </Element>
+                            <Element name="DataCategory" ConceptLink="http://hdl.handle.net/11459/CCR_C-4182_714c00e6-dd76-16c0-9b19-13582f4c1a76" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1">
+                                <Documentation>The PID refering to the (ISOcat) data category specifying this ParameterGroup.</Documentation>
+                            </Element>
+                            <Element name="SemanticType" ConceptLink="http://hdl.handle.net/11459/CCR_C-4183_2ab53f7f-5d15-a7d1-d134-c45091957b97" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                <Documentation>A type describing the semantics of this parameter in its context. For example, an input parameter might be an WS specific project name, given to a project created by an earlier WS call. In that case the name of the parameter might be 'project', its data type might be 'xsd:string', its data category /projectName/ and its semantic type 'myWSApp.project'.</Documentation>
+                            </Element>
+                            <Component name="Parameters" CardinalityMin="1" CardinalityMax="1">
+                                <Component name="Parameter" ComponentRef="clarin.eu:cr1:c_1320657629628" ConceptLink="http://hdl.handle.net/11459/CCR_C-4184_a4613662-092a-842f-a254-e60d6ce34437" CardinalityMin="1" CardinalityMax="unbounded">
+                                    <Element name="Name" ConceptLink="http://hdl.handle.net/11459/CCR_C-4180_e221ffaa-d39d-5b03-bbe0-32ca1b551e94" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                        <Documentation>This Parameter Name, unless the Parameter is part of a ParameterGroup, should be resolvable in the Service ServiceDescription, , i.e., the WSDL or WADL document describing how to technically invoke the service.</Documentation>
+                                    </Element>
+                                    <Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                        <Documentation>Describes the role of this Parameter for this web service operation.</Documentation>
+                                    </Element>
+                                    <Element name="MIMEType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                        <Documentation>The MIME type of this Parameter, which indicates that its an input resource on its own.</Documentation>
+                                    </Element>
+                                    <Element name="DataType" ConceptLink="http://hdl.handle.net/11459/CCR_C-4181_4547ac14-c9b1-dec9-671f-3455722c3902" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                        <Documentation>The data type of this Parameter. In general this should be an XSD data type, e.g., xsd:string or xsd:anyURI.</Documentation>
+                                    </Element>
+                                    <Element name="isConfigurationParameter" ConceptLink="http://hdl.handle.net/11459/CCR_C-4185_ba2406bd-3c76-99ab-7f1f-820fe6c8b84f" ValueScheme="boolean" CardinalityMin="0" CardinalityMax="1">
+                                        <Documentation>Set this flag to true if the parameter configures the operation of the web services, which is something else then the input the operation works upon. For example, the input of an operation can be a series of sensor values while a configuration parameter might be a treshhold or a weight used in the calculation done on this sensor values.</Documentation>
+                                    </Element>
+                                    <Element name="DataCategory" ConceptLink="http://hdl.handle.net/11459/CCR_C-4182_714c00e6-dd76-16c0-9b19-13582f4c1a76" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1">
+                                        <Documentation>The PID refering to the (ISOcat) data category specifying this Parameter.</Documentation>
+                                    </Element>
+                                    <Element name="SemanticType" ConceptLink="http://hdl.handle.net/11459/CCR_C-4183_2ab53f7f-5d15-a7d1-d134-c45091957b97" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                        <Documentation>A type describing the semantics of this parameter in its context. For example, an input parameter might be an WS specific project name, given to a project created by an earlier WS call. In that case the name of the parameter might be 'project', its data type might be 'xsd:string', its data category /projectName/ and its semantic type 'myWSApp.project'.</Documentation>
+                                    </Element>
+                                    <Component name="Values" CardinalityMin="0" CardinalityMax="1">
+                                        <Component name="ParameterValue" ConceptLink="http://hdl.handle.net/11459/CCR_C-4186_d49ae139-84f8-e944-8e19-0cd444a6c309" CardinalityMin="1" CardinalityMax="unbounded">
+                                            <Element name="Value" ConceptLink="http://hdl.handle.net/11459/CCR_C-1978_088a96da-46c0-cfc9-eb0d-2a3bc20caa55" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                                <Documentation>A possible literal value of a parameter.</Documentation>
+                                            </Element>
+                                            <Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                                <Documentation>A description of the meaning of a possible literal value of a parameter.</Documentation>
+                                            </Element>
+                                            <Element name="DataCategory" ConceptLink="http://hdl.handle.net/11459/CCR_C-4182_714c00e6-dd76-16c0-9b19-13582f4c1a76" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1">
+                                                <Documentation>The PID refering to the (ISOcat) data category specifying this Parameter Value.</Documentation>
+                                            </Element>
+                                        </Component>
+                                    </Component>
+                                    <Component name="TechnicalMetadata" ComponentRef="clarin.eu:cr1:c_1311927752300" CardinalityMin="1" CardinalityMax="1">
+                                        <Element name="CharacterEncoding" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                        <Element name="AnnotationStandoff" ValueScheme="boolean" CardinalityMin="0" CardinalityMax="1"/>
+                                        <Component name="ISO639" ComponentRef="clarin.eu:cr1:c_1271859438110" CardinalityMin="0" CardinalityMax="1">
+                                            <Element name="iso-639-3-code" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                                 <ValueScheme>
-                                                    
+                                                    <Vocabulary URI="http://hdl.handle.net/11459/CLAVAS_810f8d2a-6723-3ba6-2e57-41d6d3844816" ValueProperty="notation">
                                                         <enumeration>
                                                             <item ConceptLink="http://cdb.iso.org/lg/CDB-00132443-001" AppInfo="Ghotuo (aaa)">aaa</item>
                                                             <item ConceptLink="http://cdb.iso.org/lg/CDB-00133770-001" AppInfo="Alumu-Tesu (aab)">aab</item>
@@ -62769,27 +62770,27 @@
                                                             <item ConceptLink="http://cdb.iso.org/lg/CDB-00131000-001" AppInfo="Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki (zza)">zza</item>
                                                             <item ConceptLink="http://cdb.iso.org/lg/CDB-00136140-001" AppInfo="Zuojiang Zhuang (zzj)">zzj</item>
                                                         </enumeration>
-                                                    
+                                                    </Vocabulary>
                                                 </ValueScheme>
-                                            </CMD_Element>
-                                        </CMD_Component>
-                                        <CMD_Component name="ContentEncoding" ComponentId="clarin.eu:cr1:c_1320657629671" CardinalityMin="0" CardinalityMax="1">
-                                            <CMD_Element name="URL" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1" DisplayPriority="1" Documentation="Location of a schema resource, e.g., an XML schema.">
-                                                
-                                            </CMD_Element>
-                                            <CMD_Element name="ResourceFormat" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="Name of the resource format, e.g., CLAM XML.">
-                                                
-                                            </CMD_Element>
-                                            <CMD_Element name="RelativeLocation" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="Location of a Parameter in a ParameterGroup, e.g., an XPath expression to get the parameter value in an XML file (the ParameterGroup).">
-                                                
-                                            </CMD_Element>
-                                            <CMD_Component name="annotationLevel" ComponentId="clarin.eu:cr1:c_1271859438167" CardinalityMin="0" CardinalityMax="unbounded">
-                                                <CMD_Element name="AnnotationLevelType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2462_5b266792-7a54-9296-42e2-2318b9861fe1" ValueScheme="string"/>
-                                                <CMD_Element name="TagSet" ConceptLink="http://hdl.handle.net/11459/CCR_C-2497_6e93b9ce-1be7-248f-ab63-ba0b9c63661f" ValueScheme="string"/>
-                                                <CMD_Component name="ISO639" ComponentId="clarin.eu:cr1:c_1271859438109">
-                                                    <CMD_Element name="iso-639-1-code" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1">
+                                            </Element>
+                                        </Component>
+                                        <Component name="ContentEncoding" ComponentRef="clarin.eu:cr1:c_1320657629671" CardinalityMin="0" CardinalityMax="1">
+                                            <Element name="URL" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                                <Documentation>Location of a schema resource, e.g., an XML schema.</Documentation>
+                                            </Element>
+                                            <Element name="ResourceFormat" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                                <Documentation>Name of the resource format, e.g., CLAM XML.</Documentation>
+                                            </Element>
+                                            <Element name="RelativeLocation" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                                <Documentation>Location of a Parameter in a ParameterGroup, e.g., an XPath expression to get the parameter value in an XML file (the ParameterGroup).</Documentation>
+                                            </Element>
+                                            <Component name="annotationLevel" ComponentRef="clarin.eu:cr1:c_1271859438167" CardinalityMin="0" CardinalityMax="unbounded">
+                                                <Element name="AnnotationLevelType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2462_5b266792-7a54-9296-42e2-2318b9861fe1" ValueScheme="string"/>
+                                                <Element name="TagSet" ConceptLink="http://hdl.handle.net/11459/CCR_C-2497_6e93b9ce-1be7-248f-ab63-ba0b9c63661f" ValueScheme="string"/>
+                                                <Component name="ISO639" ComponentRef="clarin.eu:cr1:c_1271859438109">
+                                                    <Element name="iso-639-1-code" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                                         <ValueScheme>
-                                                            
+                                                            <Vocabulary>
                                                                 <enumeration>
                                                                     <item ConceptLink="http://cdb.iso.org/lg/CDB-00130489-001" AppInfo="Afar (aa)">aa</item>
                                                                     <item ConceptLink="http://cdb.iso.org/lg/CDB-00130304-001" AppInfo="Abkhazian; Abkhaz (ab)">ab</item>
@@ -62981,22 +62982,22 @@
                                                                     <item ConceptLink="http://cdb.iso.org/lg/CDB-00130487-001" AppInfo="Chinese (zh)">zh</item>
                                                                     <item ConceptLink="http://cdb.iso.org/lg/CDB-00130488-001" AppInfo="Zulu (zu)">zu</item>
                                                                 </enumeration>
-                                                            
+                                                            </Vocabulary>
                                                         </ValueScheme>
-                                                    </CMD_Element>
-                                                </CMD_Component>
-                                            </CMD_Component>
-                                        </CMD_Component>
-                                    </CMD_Component>
-                                </CMD_Component>
-                            </CMD_Component>
-                            <CMD_Component name="TechnicalMetadata" ComponentId="clarin.eu:cr1:c_1311927752300" CardinalityMin="0" CardinalityMax="1">
-                                <CMD_Element name="CharacterEncoding" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
-                                <CMD_Element name="AnnotationStandoff" ValueScheme="boolean" CardinalityMin="0" CardinalityMax="1"/>
-                                <CMD_Component name="ISO639" ComponentId="clarin.eu:cr1:c_1271859438110" CardinalityMin="0" CardinalityMax="1">
-                                    <CMD_Element name="iso-639-3-code" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1">
+                                                    </Element>
+                                                </Component>
+                                            </Component>
+                                        </Component>
+                                    </Component>
+                                </Component>
+                            </Component>
+                            <Component name="TechnicalMetadata" ComponentRef="clarin.eu:cr1:c_1311927752300" CardinalityMin="0" CardinalityMax="1">
+                                <Element name="CharacterEncoding" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                <Element name="AnnotationStandoff" ValueScheme="boolean" CardinalityMin="0" CardinalityMax="1"/>
+                                <Component name="ISO639" ComponentRef="clarin.eu:cr1:c_1271859438110" CardinalityMin="0" CardinalityMax="1">
+                                    <Element name="iso-639-3-code" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                         <ValueScheme>
-                                            
+                                            <Vocabulary URI="http://hdl.handle.net/11459/CLAVAS_810f8d2a-6723-3ba6-2e57-41d6d3844816" ValueProperty="notation">
                                                 <enumeration>
                                                     <item ConceptLink="http://cdb.iso.org/lg/CDB-00132443-001" AppInfo="Ghotuo (aaa)">aaa</item>
                                                     <item ConceptLink="http://cdb.iso.org/lg/CDB-00133770-001" AppInfo="Alumu-Tesu (aab)">aab</item>
@@ -70678,27 +70679,27 @@
                                                     <item ConceptLink="http://cdb.iso.org/lg/CDB-00131000-001" AppInfo="Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki (zza)">zza</item>
                                                     <item ConceptLink="http://cdb.iso.org/lg/CDB-00136140-001" AppInfo="Zuojiang Zhuang (zzj)">zzj</item>
                                                 </enumeration>
-                                            
+                                            </Vocabulary>
                                         </ValueScheme>
-                                    </CMD_Element>
-                                </CMD_Component>
-                                <CMD_Component name="ContentEncoding" ComponentId="clarin.eu:cr1:c_1320657629671" CardinalityMin="0" CardinalityMax="1">
-                                    <CMD_Element name="URL" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1" DisplayPriority="1" Documentation="Location of a schema resource, e.g., an XML schema.">
-                                        
-                                    </CMD_Element>
-                                    <CMD_Element name="ResourceFormat" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="Name of the resource format, e.g., CLAM XML.">
-                                        
-                                    </CMD_Element>
-                                    <CMD_Element name="RelativeLocation" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="Location of a Parameter in a ParameterGroup, e.g., an XPath expression to get the parameter value in an XML file (the ParameterGroup).">
-                                        
-                                    </CMD_Element>
-                                    <CMD_Component name="annotationLevel" ComponentId="clarin.eu:cr1:c_1271859438167" CardinalityMin="0" CardinalityMax="unbounded">
-                                        <CMD_Element name="AnnotationLevelType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2462_5b266792-7a54-9296-42e2-2318b9861fe1" ValueScheme="string"/>
-                                        <CMD_Element name="TagSet" ConceptLink="http://hdl.handle.net/11459/CCR_C-2497_6e93b9ce-1be7-248f-ab63-ba0b9c63661f" ValueScheme="string"/>
-                                        <CMD_Component name="ISO639" ComponentId="clarin.eu:cr1:c_1271859438109">
-                                            <CMD_Element name="iso-639-1-code" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1">
+                                    </Element>
+                                </Component>
+                                <Component name="ContentEncoding" ComponentRef="clarin.eu:cr1:c_1320657629671" CardinalityMin="0" CardinalityMax="1">
+                                    <Element name="URL" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                        <Documentation>Location of a schema resource, e.g., an XML schema.</Documentation>
+                                    </Element>
+                                    <Element name="ResourceFormat" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                        <Documentation>Name of the resource format, e.g., CLAM XML.</Documentation>
+                                    </Element>
+                                    <Element name="RelativeLocation" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                        <Documentation>Location of a Parameter in a ParameterGroup, e.g., an XPath expression to get the parameter value in an XML file (the ParameterGroup).</Documentation>
+                                    </Element>
+                                    <Component name="annotationLevel" ComponentRef="clarin.eu:cr1:c_1271859438167" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <Element name="AnnotationLevelType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2462_5b266792-7a54-9296-42e2-2318b9861fe1" ValueScheme="string"/>
+                                        <Element name="TagSet" ConceptLink="http://hdl.handle.net/11459/CCR_C-2497_6e93b9ce-1be7-248f-ab63-ba0b9c63661f" ValueScheme="string"/>
+                                        <Component name="ISO639" ComponentRef="clarin.eu:cr1:c_1271859438109">
+                                            <Element name="iso-639-1-code" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                                 <ValueScheme>
-                                                    
+                                                    <Vocabulary>
                                                         <enumeration>
                                                             <item ConceptLink="http://cdb.iso.org/lg/CDB-00130489-001" AppInfo="Afar (aa)">aa</item>
                                                             <item ConceptLink="http://cdb.iso.org/lg/CDB-00130304-001" AppInfo="Abkhazian; Abkhaz (ab)">ab</item>
@@ -70890,56 +70891,56 @@
                                                             <item ConceptLink="http://cdb.iso.org/lg/CDB-00130487-001" AppInfo="Chinese (zh)">zh</item>
                                                             <item ConceptLink="http://cdb.iso.org/lg/CDB-00130488-001" AppInfo="Zulu (zu)">zu</item>
                                                         </enumeration>
-                                                    
+                                                    </Vocabulary>
                                                 </ValueScheme>
-                                            </CMD_Element>
-                                        </CMD_Component>
-                                    </CMD_Component>
-                                </CMD_Component>
-                            </CMD_Component>
-                        </CMD_Component>
-                        <CMD_Component name="Parameter" ComponentId="clarin.eu:cr1:c_1320657629628" ConceptLink="http://hdl.handle.net/11459/CCR_C-4184_a4613662-092a-842f-a254-e60d6ce34437" CardinalityMin="0" CardinalityMax="unbounded">
-                            <CMD_Element name="Name" ConceptLink="http://hdl.handle.net/11459/CCR_C-4180_e221ffaa-d39d-5b03-bbe0-32ca1b551e94" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1" Documentation="This Parameter Name, unless the Parameter is part of a ParameterGroup, should be resolvable in the Service ServiceDescription, , i.e., the WSDL or WADL document describing how to technically invoke the service.">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" Documentation="Describes the role of this Parameter for this web service operation.">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="MIMEType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The MIME type of this Parameter, which indicates that its an input resource on its own.">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="DataType" ConceptLink="http://hdl.handle.net/11459/CCR_C-4181_4547ac14-c9b1-dec9-671f-3455722c3902" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="The data type of this Parameter. In general this should be an XSD data type, e.g., xsd:string or xsd:anyURI.">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="isConfigurationParameter" ConceptLink="http://hdl.handle.net/11459/CCR_C-4185_ba2406bd-3c76-99ab-7f1f-820fe6c8b84f" ValueScheme="boolean" CardinalityMin="0" CardinalityMax="1" Documentation="Set this flag to true if the parameter configures the operation of the web services, which is something else then the input the operation works upon. For example, the input of an operation can be a series of sensor values while a configuration parameter might be a treshhold or a weight used in the calculation done on this sensor values.">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="DataCategory" ConceptLink="http://hdl.handle.net/11459/CCR_C-4182_714c00e6-dd76-16c0-9b19-13582f4c1a76" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1" Documentation="The PID refering to the (ISOcat) data category specifying this Parameter.">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="SemanticType" ConceptLink="http://hdl.handle.net/11459/CCR_C-4183_2ab53f7f-5d15-a7d1-d134-c45091957b97" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="A type describing the semantics of this parameter in its context. For example, an input parameter might be an WS specific project name, given to a project created by an earlier WS call. In that case the name of the parameter might be 'project', its data type might be 'xsd:string', its data category /projectName/ and its semantic type 'myWSApp.project'.">
-                                
-                            </CMD_Element>
-                            <CMD_Component name="Values" CardinalityMin="0" CardinalityMax="1">
-                                <CMD_Component name="ParameterValue" ConceptLink="http://hdl.handle.net/11459/CCR_C-4186_d49ae139-84f8-e944-8e19-0cd444a6c309" CardinalityMin="1" CardinalityMax="unbounded">
-                                    <CMD_Element name="Value" ConceptLink="http://hdl.handle.net/11459/CCR_C-1978_088a96da-46c0-cfc9-eb0d-2a3bc20caa55" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1" Documentation="A possible literal value of a parameter.">
-                                        
-                                    </CMD_Element>
-                                    <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="A description of the meaning of a possible literal value of a parameter.">
-                                        
-                                    </CMD_Element>
-                                    <CMD_Element name="DataCategory" ConceptLink="http://hdl.handle.net/11459/CCR_C-4182_714c00e6-dd76-16c0-9b19-13582f4c1a76" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1" Documentation="The PID refering to the (ISOcat) data category specifying this Parameter Value.">
-                                        
-                                    </CMD_Element>
-                                </CMD_Component>
-                            </CMD_Component>
-                            <CMD_Component name="TechnicalMetadata" ComponentId="clarin.eu:cr1:c_1311927752300" CardinalityMin="1" CardinalityMax="1">
-                                <CMD_Element name="CharacterEncoding" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
-                                <CMD_Element name="AnnotationStandoff" ValueScheme="boolean" CardinalityMin="0" CardinalityMax="1"/>
-                                <CMD_Component name="ISO639" ComponentId="clarin.eu:cr1:c_1271859438110" CardinalityMin="0" CardinalityMax="1">
-                                    <CMD_Element name="iso-639-3-code" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1">
+                                            </Element>
+                                        </Component>
+                                    </Component>
+                                </Component>
+                            </Component>
+                        </Component>
+                        <Component name="Parameter" ComponentRef="clarin.eu:cr1:c_1320657629628" ConceptLink="http://hdl.handle.net/11459/CCR_C-4184_a4613662-092a-842f-a254-e60d6ce34437" CardinalityMin="0" CardinalityMax="unbounded">
+                            <Element name="Name" ConceptLink="http://hdl.handle.net/11459/CCR_C-4180_e221ffaa-d39d-5b03-bbe0-32ca1b551e94" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Documentation>This Parameter Name, unless the Parameter is part of a ParameterGroup, should be resolvable in the Service ServiceDescription, , i.e., the WSDL or WADL document describing how to technically invoke the service.</Documentation>
+                            </Element>
+                            <Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                <Documentation>Describes the role of this Parameter for this web service operation.</Documentation>
+                            </Element>
+                            <Element name="MIMEType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                <Documentation>The MIME type of this Parameter, which indicates that its an input resource on its own.</Documentation>
+                            </Element>
+                            <Element name="DataType" ConceptLink="http://hdl.handle.net/11459/CCR_C-4181_4547ac14-c9b1-dec9-671f-3455722c3902" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                <Documentation>The data type of this Parameter. In general this should be an XSD data type, e.g., xsd:string or xsd:anyURI.</Documentation>
+                            </Element>
+                            <Element name="isConfigurationParameter" ConceptLink="http://hdl.handle.net/11459/CCR_C-4185_ba2406bd-3c76-99ab-7f1f-820fe6c8b84f" ValueScheme="boolean" CardinalityMin="0" CardinalityMax="1">
+                                <Documentation>Set this flag to true if the parameter configures the operation of the web services, which is something else then the input the operation works upon. For example, the input of an operation can be a series of sensor values while a configuration parameter might be a treshhold or a weight used in the calculation done on this sensor values.</Documentation>
+                            </Element>
+                            <Element name="DataCategory" ConceptLink="http://hdl.handle.net/11459/CCR_C-4182_714c00e6-dd76-16c0-9b19-13582f4c1a76" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1">
+                                <Documentation>The PID refering to the (ISOcat) data category specifying this Parameter.</Documentation>
+                            </Element>
+                            <Element name="SemanticType" ConceptLink="http://hdl.handle.net/11459/CCR_C-4183_2ab53f7f-5d15-a7d1-d134-c45091957b97" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                <Documentation>A type describing the semantics of this parameter in its context. For example, an input parameter might be an WS specific project name, given to a project created by an earlier WS call. In that case the name of the parameter might be 'project', its data type might be 'xsd:string', its data category /projectName/ and its semantic type 'myWSApp.project'.</Documentation>
+                            </Element>
+                            <Component name="Values" CardinalityMin="0" CardinalityMax="1">
+                                <Component name="ParameterValue" ConceptLink="http://hdl.handle.net/11459/CCR_C-4186_d49ae139-84f8-e944-8e19-0cd444a6c309" CardinalityMin="1" CardinalityMax="unbounded">
+                                    <Element name="Value" ConceptLink="http://hdl.handle.net/11459/CCR_C-1978_088a96da-46c0-cfc9-eb0d-2a3bc20caa55" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                        <Documentation>A possible literal value of a parameter.</Documentation>
+                                    </Element>
+                                    <Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                        <Documentation>A description of the meaning of a possible literal value of a parameter.</Documentation>
+                                    </Element>
+                                    <Element name="DataCategory" ConceptLink="http://hdl.handle.net/11459/CCR_C-4182_714c00e6-dd76-16c0-9b19-13582f4c1a76" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1">
+                                        <Documentation>The PID refering to the (ISOcat) data category specifying this Parameter Value.</Documentation>
+                                    </Element>
+                                </Component>
+                            </Component>
+                            <Component name="TechnicalMetadata" ComponentRef="clarin.eu:cr1:c_1311927752300" CardinalityMin="1" CardinalityMax="1">
+                                <Element name="CharacterEncoding" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                <Element name="AnnotationStandoff" ValueScheme="boolean" CardinalityMin="0" CardinalityMax="1"/>
+                                <Component name="ISO639" ComponentRef="clarin.eu:cr1:c_1271859438110" CardinalityMin="0" CardinalityMax="1">
+                                    <Element name="iso-639-3-code" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                         <ValueScheme>
-                                            
+                                            <Vocabulary URI="http://hdl.handle.net/11459/CLAVAS_810f8d2a-6723-3ba6-2e57-41d6d3844816" ValueProperty="notation">
                                                 <enumeration>
                                                     <item ConceptLink="http://cdb.iso.org/lg/CDB-00132443-001" AppInfo="Ghotuo (aaa)">aaa</item>
                                                     <item ConceptLink="http://cdb.iso.org/lg/CDB-00133770-001" AppInfo="Alumu-Tesu (aab)">aab</item>
@@ -78621,27 +78622,27 @@
                                                     <item ConceptLink="http://cdb.iso.org/lg/CDB-00131000-001" AppInfo="Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki (zza)">zza</item>
                                                     <item ConceptLink="http://cdb.iso.org/lg/CDB-00136140-001" AppInfo="Zuojiang Zhuang (zzj)">zzj</item>
                                                 </enumeration>
-                                            
+                                            </Vocabulary>
                                         </ValueScheme>
-                                    </CMD_Element>
-                                </CMD_Component>
-                                <CMD_Component name="ContentEncoding" ComponentId="clarin.eu:cr1:c_1320657629671" CardinalityMin="0" CardinalityMax="1">
-                                    <CMD_Element name="URL" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1" DisplayPriority="1" Documentation="Location of a schema resource, e.g., an XML schema.">
-                                        
-                                    </CMD_Element>
-                                    <CMD_Element name="ResourceFormat" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="Name of the resource format, e.g., CLAM XML.">
-                                        
-                                    </CMD_Element>
-                                    <CMD_Element name="RelativeLocation" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" Documentation="Location of a Parameter in a ParameterGroup, e.g., an XPath expression to get the parameter value in an XML file (the ParameterGroup).">
-                                        
-                                    </CMD_Element>
-                                    <CMD_Component name="annotationLevel" ComponentId="clarin.eu:cr1:c_1271859438167" CardinalityMin="0" CardinalityMax="unbounded">
-                                        <CMD_Element name="AnnotationLevelType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2462_5b266792-7a54-9296-42e2-2318b9861fe1" ValueScheme="string"/>
-                                        <CMD_Element name="TagSet" ConceptLink="http://hdl.handle.net/11459/CCR_C-2497_6e93b9ce-1be7-248f-ab63-ba0b9c63661f" ValueScheme="string"/>
-                                        <CMD_Component name="ISO639" ComponentId="clarin.eu:cr1:c_1271859438109">
-                                            <CMD_Element name="iso-639-1-code" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1">
+                                    </Element>
+                                </Component>
+                                <Component name="ContentEncoding" ComponentRef="clarin.eu:cr1:c_1320657629671" CardinalityMin="0" CardinalityMax="1">
+                                    <Element name="URL" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                        <Documentation>Location of a schema resource, e.g., an XML schema.</Documentation>
+                                    </Element>
+                                    <Element name="ResourceFormat" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                        <Documentation>Name of the resource format, e.g., CLAM XML.</Documentation>
+                                    </Element>
+                                    <Element name="RelativeLocation" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                        <Documentation>Location of a Parameter in a ParameterGroup, e.g., an XPath expression to get the parameter value in an XML file (the ParameterGroup).</Documentation>
+                                    </Element>
+                                    <Component name="annotationLevel" ComponentRef="clarin.eu:cr1:c_1271859438167" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <Element name="AnnotationLevelType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2462_5b266792-7a54-9296-42e2-2318b9861fe1" ValueScheme="string"/>
+                                        <Element name="TagSet" ConceptLink="http://hdl.handle.net/11459/CCR_C-2497_6e93b9ce-1be7-248f-ab63-ba0b9c63661f" ValueScheme="string"/>
+                                        <Component name="ISO639" ComponentRef="clarin.eu:cr1:c_1271859438109">
+                                            <Element name="iso-639-1-code" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                                 <ValueScheme>
-                                                    
+                                                    <Vocabulary>
                                                         <enumeration>
                                                             <item ConceptLink="http://cdb.iso.org/lg/CDB-00130489-001" AppInfo="Afar (aa)">aa</item>
                                                             <item ConceptLink="http://cdb.iso.org/lg/CDB-00130304-001" AppInfo="Abkhazian; Abkhaz (ab)">ab</item>
@@ -78833,33 +78834,33 @@
                                                             <item ConceptLink="http://cdb.iso.org/lg/CDB-00130487-001" AppInfo="Chinese (zh)">zh</item>
                                                             <item ConceptLink="http://cdb.iso.org/lg/CDB-00130488-001" AppInfo="Zulu (zu)">zu</item>
                                                         </enumeration>
-                                                    
+                                                    </Vocabulary>
                                                 </ValueScheme>
-                                            </CMD_Element>
-                                        </CMD_Component>
-                                    </CMD_Component>
-                                </CMD_Component>
-                            </CMD_Component>
-                        </CMD_Component>
-                    </CMD_Component>
-                </CMD_Component>
-            </CMD_Component>
-            <CMD_Component name="Documentation" ComponentId="clarin.eu:cr1:c_1280305685290" CardinalityMin="0" CardinalityMax="1">
-                <CMD_Element name="URL" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1"/>
-                <CMD_Component name="DocumentationLanguages" ComponentId="clarin.eu:cr1:c_1271859438130" CardinalityMin="1" CardinalityMax="1">
-                    <CMD_Component name="Description" ComponentId="clarin.eu:cr1:c_1271859438118" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" CardinalityMin="0" CardinalityMax="1">
-                        <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true">
+                                            </Element>
+                                        </Component>
+                                    </Component>
+                                </Component>
+                            </Component>
+                        </Component>
+                    </Component>
+                </Component>
+            </Component>
+            <Component name="Documentation" ComponentRef="clarin.eu:cr1:c_1280305685290" CardinalityMin="0" CardinalityMax="1">
+                <Element name="URL" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                <Component name="DocumentationLanguages" ComponentRef="clarin.eu:cr1:c_1271859438130" CardinalityMin="1" CardinalityMax="1">
+                    <Component name="Description" ComponentRef="clarin.eu:cr1:c_1271859438118" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" CardinalityMin="0" CardinalityMax="1">
+                        <Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true">
                             <AttributeList>
-                                <Attribute><Name>LanguageID</Name><Type>string</Type></Attribute>
+                                <Attribute name="LanguageID" ValueScheme="string"/>
                             </AttributeList>
-                        </CMD_Element>
-                    </CMD_Component>
-                    <CMD_Component name="Language" ComponentId="clarin.eu:cr1:c_1271859438111" CardinalityMin="1" CardinalityMax="unbounded">
-                        <CMD_Element name="LanguageName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2484_669684e7-cb9e-ea96-59cb-a25fe89b9b9d" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true"/>
-                        <CMD_Component name="ISO639" ComponentId="clarin.eu:cr1:c_1271859438110" CardinalityMin="1" CardinalityMax="1">
-                            <CMD_Element name="iso-639-3-code" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1">
+                        </Element>
+                    </Component>
+                    <Component name="Language" ComponentRef="clarin.eu:cr1:c_1271859438111" CardinalityMin="1" CardinalityMax="unbounded">
+                        <Element name="LanguageName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2484_669684e7-cb9e-ea96-59cb-a25fe89b9b9d" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true"/>
+                        <Component name="ISO639" ComponentRef="clarin.eu:cr1:c_1271859438110" CardinalityMin="1" CardinalityMax="1">
+                            <Element name="iso-639-3-code" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <ValueScheme>
-                                    
+                                    <Vocabulary URI="http://hdl.handle.net/11459/CLAVAS_810f8d2a-6723-3ba6-2e57-41d6d3844816" ValueProperty="notation">
                                         <enumeration>
                                             <item ConceptLink="http://cdb.iso.org/lg/CDB-00132443-001" AppInfo="Ghotuo (aaa)">aaa</item>
                                             <item ConceptLink="http://cdb.iso.org/lg/CDB-00133770-001" AppInfo="Alumu-Tesu (aab)">aab</item>
@@ -86541,16 +86542,16 @@
                                             <item ConceptLink="http://cdb.iso.org/lg/CDB-00131000-001" AppInfo="Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki (zza)">zza</item>
                                             <item ConceptLink="http://cdb.iso.org/lg/CDB-00136140-001" AppInfo="Zuojiang Zhuang (zzj)">zzj</item>
                                         </enumeration>
-                                    
+                                    </Vocabulary>
                                 </ValueScheme>
-                            </CMD_Element>
-                        </CMD_Component>
-                    </CMD_Component>
-                </CMD_Component>
-            </CMD_Component>
-        </CMD_Component>
-        <CMD_Component name="tags" ComponentId="clarin.eu:cr1:c_1342181139653" CardinalityMin="0" CardinalityMax="1">
-            <CMD_Element name="tag" ConceptLink="http://hdl.handle.net/11459/CCR_C-5436_6ab57c2c-5f8d-3561-6db6-d75da23d2637" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="10"/>
-        </CMD_Component>
-    </CMD_Component>
-</CMD_ComponentSpec>
+                            </Element>
+                        </Component>
+                    </Component>
+                </Component>
+            </Component>
+        </Component>
+        <Component name="tags" ComponentRef="clarin.eu:cr1:c_1342181139653" CardinalityMin="0" CardinalityMax="1">
+            <Element name="tag" ConceptLink="http://hdl.handle.net/11459/CCR_C-5436_6ab57c2c-5f8d-3561-6db6-d75da23d2637" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="10" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+        </Component>
+    </Component>
+</ComponentSpec>

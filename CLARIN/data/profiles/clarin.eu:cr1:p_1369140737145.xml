@@ -1,42 +1,43 @@
-<?xml version="1.0" encoding="UTF-8"?><CMD_ComponentSpec xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cue="http://www.clarin.eu/cmd/cues/1" xmlns:cue_old="http://www.clarin.eu/cmdi/cues/1" isProfile="true" xsi:noNamespaceSchemaLocation="https://infra.clarin.eu/CMDI/1.1/general-component-schema.xsd">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ComponentSpec isProfile="true" CMDVersion="1.2" CMDOriginalVersion="1.1" xsi:noNamespaceSchemaLocation="https://infra.clarin.eu/CMDI/1.x/xsd/cmd-component.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <Header>
         <ID>clarin.eu:cr1:p_1369140737145</ID>
         <Name>IDSAGD_Speaker</Name>
         <Description>AGD Speaker</Description>
-        
+        <Status>production</Status>
     </Header>
-    <CMD_Component name="IDSAGD_Speaker" ConceptLink="http://hdl.handle.net/11459/CCR_C-4146_5ccc45c8-d729-c180-2bf1-fccc56dde24d" CardinalityMin="1" CardinalityMax="1">
+    <Component name="IDSAGD_Speaker" ConceptLink="http://hdl.handle.net/11459/CCR_C-4146_5ccc45c8-d729-c180-2bf1-fccc56dde24d" CardinalityMin="1" CardinalityMax="1">
         <AttributeList>
-            <Attribute><Name>updated</Name><ConceptLink>http://hdl.handle.net/11459/CCR_C-2526_979ac535-eaa5-5e59-3cad-51c450234698</ConceptLink><Type>date</Type></Attribute>
+            <Attribute name="updated" ConceptLink="http://hdl.handle.net/11459/CCR_C-2526_979ac535-eaa5-5e59-3cad-51c450234698" ValueScheme="date"/>
         </AttributeList>
-        <CMD_Element name="Label" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" DisplayPriority="1" Documentation="a pseudo name for the speaker">
-            
-        </CMD_Element>
-        <CMD_Component name="PersonalBackground" CardinalityMin="1" CardinalityMax="1">
-            <CMD_Element name="BirthDate" ConceptLink="http://hdl.handle.net/11459/CCR_C-2551_6a3c9287-a92d-89e5-e537-9d0ff14bbdc2" CardinalityMin="0" CardinalityMax="1" DisplayPriority="1" Documentation="the date the speaker was born, probably lacking the day or day and month fragments">
-                
+        <Element name="Label" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+            <Documentation>a pseudo name for the speaker</Documentation>
+        </Element>
+        <Component name="PersonalBackground" CardinalityMin="1" CardinalityMax="1">
+            <Element name="BirthDate" ConceptLink="http://hdl.handle.net/11459/CCR_C-2551_6a3c9287-a92d-89e5-e537-9d0ff14bbdc2" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                <Documentation>the date the speaker was born, probably lacking the day or day and month fragments</Documentation>
                 <AttributeList>
-                    <Attribute><Name>precision</Name>
+                    <Attribute name="precision">
                         <ValueScheme>
-                            
+                            <Vocabulary>
                                 <enumeration>
                                     <item ConceptLink="" AppInfo="date fragments smaller than years are not documented">years</item>
                                     <item ConceptLink="" AppInfo="date fragments smaller than months are not documented">months</item>
                                     <item ConceptLink="" AppInfo="date fragments smaller than days are not documented">days</item>
                                 </enumeration>
-                            
+                            </Vocabulary>
                         </ValueScheme>
                     </Attribute>
                 </AttributeList>
                 <ValueScheme>
                     <pattern>\d{4}(-\d{2}(-\d{2})?)?</pattern>
                 </ValueScheme>
-            </CMD_Element>
-            <CMD_Component name="BirthPlace" CardinalityMin="0" CardinalityMax="1">
-                <CMD_Component name="Location" ComponentId="clarin.eu:cr1:c_1345561703642" CardinalityMin="0" CardinalityMax="1">
-                    <CMD_Element name="Continent" ConceptLink="http://hdl.handle.net/11459/CCR_C-2531_e0427265-2fc4-d23e-0a7c-a21981ec3734" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1">
+            </Element>
+            <Component name="BirthPlace" CardinalityMin="0" CardinalityMax="1">
+                <Component name="Location" ComponentRef="clarin.eu:cr1:c_1345561703642" CardinalityMin="0" CardinalityMax="1">
+                    <Element name="Continent" ConceptLink="http://hdl.handle.net/11459/CCR_C-2531_e0427265-2fc4-d23e-0a7c-a21981ec3734" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                         <ValueScheme>
-                            
+                            <Vocabulary>
                                 <enumeration>
                                     <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2591_f769d93b-c007-d2c9-aff2-99e9177e5764" AppInfo="">Unknown</item>
                                     <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2592_6bf81885-106a-fbf0-40e0-9f0233fbd88c" AppInfo="">Unspecified</item>
@@ -49,29 +50,29 @@
                                     <item ConceptLink="" AppInfo="">Middle-America</item>
                                     <item ConceptLink="" AppInfo="">South-America</item>
                                 </enumeration>
-                            
+                            </Vocabulary>
                         </ValueScheme>
-                    </CMD_Element>
-                    <CMD_Element name="Country" ConceptLink="http://hdl.handle.net/11459/CCR_C-2532_d004b0a6-fd1d-3ca3-abf1-1e6aeb3e37b2" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
-                    <CMD_Element name="Region" ConceptLink="http://hdl.handle.net/11459/CCR_C-2533_fa6e1812-e29b-3cf6-e15a-50aa34b9be68" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1"/>
-                    <CMD_Element name="Address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2528_1eaf4da1-64cc-71fc-1622-bb5bfd6e52c9" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
-                </CMD_Component>
-                <CMD_Component name="GeoLocalization" ComponentId="clarin.eu:cr1:c_1361876010667" CardinalityMin="0" CardinalityMax="1">
-                    <CMD_Component name="Vertex" ConceptLink="http://hdl.handle.net/11459/CCR_C-2523_283c7b54-06ed-3d6c-4bb0-c8a79a8236fd" CardinalityMin="3" CardinalityMax="unbounded">
-                        <CMD_Element name="Latitude" ConceptLink="http://hdl.handle.net/11459/CCR_C-5582_0d7dc9e3-e288-56f8-2d9e-c91ae59f436f" ValueScheme="float" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1" Documentation="the latitude of the polygon's vertex">
-                            
-                        </CMD_Element>
-                        <CMD_Element name="Longitude" ConceptLink="http://hdl.handle.net/11459/CCR_C-5583_8be52a01-2494-9656-bfef-39e7f748d104" ValueScheme="float" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1" Documentation="the longitude of the polygon's vertex">
-                            
-                        </CMD_Element>
-                    </CMD_Component>
-                </CMD_Component>
-            </CMD_Component>
-            <CMD_Component name="Residence" CardinalityMin="0" CardinalityMax="unbounded">
-                <CMD_Component name="Location" ComponentId="clarin.eu:cr1:c_1345561703642" CardinalityMin="0" CardinalityMax="1">
-                    <CMD_Element name="Continent" ConceptLink="http://hdl.handle.net/11459/CCR_C-2531_e0427265-2fc4-d23e-0a7c-a21981ec3734" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1">
+                    </Element>
+                    <Element name="Country" ConceptLink="http://hdl.handle.net/11459/CCR_C-2532_d004b0a6-fd1d-3ca3-abf1-1e6aeb3e37b2" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                    <Element name="Region" ConceptLink="http://hdl.handle.net/11459/CCR_C-2533_fa6e1812-e29b-3cf6-e15a-50aa34b9be68" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                    <Element name="Address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2528_1eaf4da1-64cc-71fc-1622-bb5bfd6e52c9" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                </Component>
+                <Component name="GeoLocalization" ComponentRef="clarin.eu:cr1:c_1361876010667" CardinalityMin="0" CardinalityMax="1">
+                    <Component name="Vertex" ConceptLink="http://hdl.handle.net/11459/CCR_C-2523_283c7b54-06ed-3d6c-4bb0-c8a79a8236fd" CardinalityMin="3" CardinalityMax="unbounded">
+                        <Element name="Latitude" ConceptLink="http://hdl.handle.net/11459/CCR_C-5582_0d7dc9e3-e288-56f8-2d9e-c91ae59f436f" ValueScheme="float" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Documentation>the latitude of the polygon's vertex</Documentation>
+                        </Element>
+                        <Element name="Longitude" ConceptLink="http://hdl.handle.net/11459/CCR_C-5583_8be52a01-2494-9656-bfef-39e7f748d104" ValueScheme="float" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Documentation>the longitude of the polygon's vertex</Documentation>
+                        </Element>
+                    </Component>
+                </Component>
+            </Component>
+            <Component name="Residence" CardinalityMin="0" CardinalityMax="unbounded">
+                <Component name="Location" ComponentRef="clarin.eu:cr1:c_1345561703642" CardinalityMin="0" CardinalityMax="1">
+                    <Element name="Continent" ConceptLink="http://hdl.handle.net/11459/CCR_C-2531_e0427265-2fc4-d23e-0a7c-a21981ec3734" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                         <ValueScheme>
-                            
+                            <Vocabulary>
                                 <enumeration>
                                     <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2591_f769d93b-c007-d2c9-aff2-99e9177e5764" AppInfo="">Unknown</item>
                                     <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2592_6bf81885-106a-fbf0-40e0-9f0233fbd88c" AppInfo="">Unspecified</item>
@@ -84,35 +85,35 @@
                                     <item ConceptLink="" AppInfo="">Middle-America</item>
                                     <item ConceptLink="" AppInfo="">South-America</item>
                                 </enumeration>
-                            
+                            </Vocabulary>
                         </ValueScheme>
-                    </CMD_Element>
-                    <CMD_Element name="Country" ConceptLink="http://hdl.handle.net/11459/CCR_C-2532_d004b0a6-fd1d-3ca3-abf1-1e6aeb3e37b2" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
-                    <CMD_Element name="Region" ConceptLink="http://hdl.handle.net/11459/CCR_C-2533_fa6e1812-e29b-3cf6-e15a-50aa34b9be68" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1"/>
-                    <CMD_Element name="Address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2528_1eaf4da1-64cc-71fc-1622-bb5bfd6e52c9" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
-                </CMD_Component>
-                <CMD_Component name="GeoLocalization" ComponentId="clarin.eu:cr1:c_1361876010667" CardinalityMin="0" CardinalityMax="1">
-                    <CMD_Component name="Vertex" ConceptLink="http://hdl.handle.net/11459/CCR_C-2523_283c7b54-06ed-3d6c-4bb0-c8a79a8236fd" CardinalityMin="3" CardinalityMax="unbounded">
-                        <CMD_Element name="Latitude" ConceptLink="http://hdl.handle.net/11459/CCR_C-5582_0d7dc9e3-e288-56f8-2d9e-c91ae59f436f" ValueScheme="float" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1" Documentation="the latitude of the polygon's vertex">
-                            
-                        </CMD_Element>
-                        <CMD_Element name="Longitude" ConceptLink="http://hdl.handle.net/11459/CCR_C-5583_8be52a01-2494-9656-bfef-39e7f748d104" ValueScheme="float" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1" Documentation="the longitude of the polygon's vertex">
-                            
-                        </CMD_Element>
-                    </CMD_Component>
-                </CMD_Component>
-            </CMD_Component>
-        </CMD_Component>
-        <CMD_Component name="ProfessionalBackground" CardinalityMin="1" CardinalityMax="1">
-            <CMD_Component name="Education" ConceptLink="http://hdl.handle.net/11459/CCR_C-2554_9de315eb-5f32-fec4-c445-cda05f2bde00" CardinalityMin="0" CardinalityMax="1">
-                <CMD_Element name="Attainment" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1" Documentation="a level or degree of education the speaker has achieved or completed">
-                    
-                </CMD_Element>
-                <CMD_Component name="Place" CardinalityMin="0" CardinalityMax="unbounded">
-                    <CMD_Component name="Location" ComponentId="clarin.eu:cr1:c_1345561703642" CardinalityMin="0" CardinalityMax="1">
-                        <CMD_Element name="Continent" ConceptLink="http://hdl.handle.net/11459/CCR_C-2531_e0427265-2fc4-d23e-0a7c-a21981ec3734" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1">
+                    </Element>
+                    <Element name="Country" ConceptLink="http://hdl.handle.net/11459/CCR_C-2532_d004b0a6-fd1d-3ca3-abf1-1e6aeb3e37b2" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                    <Element name="Region" ConceptLink="http://hdl.handle.net/11459/CCR_C-2533_fa6e1812-e29b-3cf6-e15a-50aa34b9be68" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                    <Element name="Address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2528_1eaf4da1-64cc-71fc-1622-bb5bfd6e52c9" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                </Component>
+                <Component name="GeoLocalization" ComponentRef="clarin.eu:cr1:c_1361876010667" CardinalityMin="0" CardinalityMax="1">
+                    <Component name="Vertex" ConceptLink="http://hdl.handle.net/11459/CCR_C-2523_283c7b54-06ed-3d6c-4bb0-c8a79a8236fd" CardinalityMin="3" CardinalityMax="unbounded">
+                        <Element name="Latitude" ConceptLink="http://hdl.handle.net/11459/CCR_C-5582_0d7dc9e3-e288-56f8-2d9e-c91ae59f436f" ValueScheme="float" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Documentation>the latitude of the polygon's vertex</Documentation>
+                        </Element>
+                        <Element name="Longitude" ConceptLink="http://hdl.handle.net/11459/CCR_C-5583_8be52a01-2494-9656-bfef-39e7f748d104" ValueScheme="float" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Documentation>the longitude of the polygon's vertex</Documentation>
+                        </Element>
+                    </Component>
+                </Component>
+            </Component>
+        </Component>
+        <Component name="ProfessionalBackground" CardinalityMin="1" CardinalityMax="1">
+            <Component name="Education" ConceptLink="http://hdl.handle.net/11459/CCR_C-2554_9de315eb-5f32-fec4-c445-cda05f2bde00" CardinalityMin="0" CardinalityMax="1">
+                <Element name="Attainment" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                    <Documentation>a level or degree of education the speaker has achieved or completed</Documentation>
+                </Element>
+                <Component name="Place" CardinalityMin="0" CardinalityMax="unbounded">
+                    <Component name="Location" ComponentRef="clarin.eu:cr1:c_1345561703642" CardinalityMin="0" CardinalityMax="1">
+                        <Element name="Continent" ConceptLink="http://hdl.handle.net/11459/CCR_C-2531_e0427265-2fc4-d23e-0a7c-a21981ec3734" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                             <ValueScheme>
-                                
+                                <Vocabulary>
                                     <enumeration>
                                         <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2591_f769d93b-c007-d2c9-aff2-99e9177e5764" AppInfo="">Unknown</item>
                                         <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2592_6bf81885-106a-fbf0-40e0-9f0233fbd88c" AppInfo="">Unspecified</item>
@@ -125,34 +126,34 @@
                                         <item ConceptLink="" AppInfo="">Middle-America</item>
                                         <item ConceptLink="" AppInfo="">South-America</item>
                                     </enumeration>
-                                
+                                </Vocabulary>
                             </ValueScheme>
-                        </CMD_Element>
-                        <CMD_Element name="Country" ConceptLink="http://hdl.handle.net/11459/CCR_C-2532_d004b0a6-fd1d-3ca3-abf1-1e6aeb3e37b2" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
-                        <CMD_Element name="Region" ConceptLink="http://hdl.handle.net/11459/CCR_C-2533_fa6e1812-e29b-3cf6-e15a-50aa34b9be68" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1"/>
-                        <CMD_Element name="Address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2528_1eaf4da1-64cc-71fc-1622-bb5bfd6e52c9" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
-                    </CMD_Component>
-                    <CMD_Component name="GeoLocalization" ComponentId="clarin.eu:cr1:c_1361876010667" CardinalityMin="0" CardinalityMax="1">
-                        <CMD_Component name="Vertex" ConceptLink="http://hdl.handle.net/11459/CCR_C-2523_283c7b54-06ed-3d6c-4bb0-c8a79a8236fd" CardinalityMin="3" CardinalityMax="unbounded">
-                            <CMD_Element name="Latitude" ConceptLink="http://hdl.handle.net/11459/CCR_C-5582_0d7dc9e3-e288-56f8-2d9e-c91ae59f436f" ValueScheme="float" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1" Documentation="the latitude of the polygon's vertex">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="Longitude" ConceptLink="http://hdl.handle.net/11459/CCR_C-5583_8be52a01-2494-9656-bfef-39e7f748d104" ValueScheme="float" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1" Documentation="the longitude of the polygon's vertex">
-                                
-                            </CMD_Element>
-                        </CMD_Component>
-                    </CMD_Component>
-                </CMD_Component>
-            </CMD_Component>
-            <CMD_Component name="Employment" CardinalityMin="0" CardinalityMax="1">
-                <CMD_Element name="Occupation" ConceptLink="http://hdl.handle.net/11459/CCR_C-2558_319980ea-b064-d2b1-93ed-29056d553816" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1" Documentation="a profession the speaker is or was pursuing">
-                    
-                </CMD_Element>
-                <CMD_Component name="Place" CardinalityMin="0" CardinalityMax="unbounded">
-                    <CMD_Component name="Location" ComponentId="clarin.eu:cr1:c_1345561703642" CardinalityMin="0" CardinalityMax="1">
-                        <CMD_Element name="Continent" ConceptLink="http://hdl.handle.net/11459/CCR_C-2531_e0427265-2fc4-d23e-0a7c-a21981ec3734" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1">
+                        </Element>
+                        <Element name="Country" ConceptLink="http://hdl.handle.net/11459/CCR_C-2532_d004b0a6-fd1d-3ca3-abf1-1e6aeb3e37b2" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                        <Element name="Region" ConceptLink="http://hdl.handle.net/11459/CCR_C-2533_fa6e1812-e29b-3cf6-e15a-50aa34b9be68" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                        <Element name="Address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2528_1eaf4da1-64cc-71fc-1622-bb5bfd6e52c9" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                    </Component>
+                    <Component name="GeoLocalization" ComponentRef="clarin.eu:cr1:c_1361876010667" CardinalityMin="0" CardinalityMax="1">
+                        <Component name="Vertex" ConceptLink="http://hdl.handle.net/11459/CCR_C-2523_283c7b54-06ed-3d6c-4bb0-c8a79a8236fd" CardinalityMin="3" CardinalityMax="unbounded">
+                            <Element name="Latitude" ConceptLink="http://hdl.handle.net/11459/CCR_C-5582_0d7dc9e3-e288-56f8-2d9e-c91ae59f436f" ValueScheme="float" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Documentation>the latitude of the polygon's vertex</Documentation>
+                            </Element>
+                            <Element name="Longitude" ConceptLink="http://hdl.handle.net/11459/CCR_C-5583_8be52a01-2494-9656-bfef-39e7f748d104" ValueScheme="float" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Documentation>the longitude of the polygon's vertex</Documentation>
+                            </Element>
+                        </Component>
+                    </Component>
+                </Component>
+            </Component>
+            <Component name="Employment" CardinalityMin="0" CardinalityMax="1">
+                <Element name="Occupation" ConceptLink="http://hdl.handle.net/11459/CCR_C-2558_319980ea-b064-d2b1-93ed-29056d553816" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                    <Documentation>a profession the speaker is or was pursuing</Documentation>
+                </Element>
+                <Component name="Place" CardinalityMin="0" CardinalityMax="unbounded">
+                    <Component name="Location" ComponentRef="clarin.eu:cr1:c_1345561703642" CardinalityMin="0" CardinalityMax="1">
+                        <Element name="Continent" ConceptLink="http://hdl.handle.net/11459/CCR_C-2531_e0427265-2fc4-d23e-0a7c-a21981ec3734" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                             <ValueScheme>
-                                
+                                <Vocabulary>
                                     <enumeration>
                                         <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2591_f769d93b-c007-d2c9-aff2-99e9177e5764" AppInfo="">Unknown</item>
                                         <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2592_6bf81885-106a-fbf0-40e0-9f0233fbd88c" AppInfo="">Unspecified</item>
@@ -165,41 +166,41 @@
                                         <item ConceptLink="" AppInfo="">Middle-America</item>
                                         <item ConceptLink="" AppInfo="">South-America</item>
                                     </enumeration>
-                                
+                                </Vocabulary>
                             </ValueScheme>
-                        </CMD_Element>
-                        <CMD_Element name="Country" ConceptLink="http://hdl.handle.net/11459/CCR_C-2532_d004b0a6-fd1d-3ca3-abf1-1e6aeb3e37b2" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
-                        <CMD_Element name="Region" ConceptLink="http://hdl.handle.net/11459/CCR_C-2533_fa6e1812-e29b-3cf6-e15a-50aa34b9be68" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1"/>
-                        <CMD_Element name="Address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2528_1eaf4da1-64cc-71fc-1622-bb5bfd6e52c9" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
-                    </CMD_Component>
-                    <CMD_Component name="GeoLocalization" ComponentId="clarin.eu:cr1:c_1361876010667" CardinalityMin="0" CardinalityMax="1">
-                        <CMD_Component name="Vertex" ConceptLink="http://hdl.handle.net/11459/CCR_C-2523_283c7b54-06ed-3d6c-4bb0-c8a79a8236fd" CardinalityMin="3" CardinalityMax="unbounded">
-                            <CMD_Element name="Latitude" ConceptLink="http://hdl.handle.net/11459/CCR_C-5582_0d7dc9e3-e288-56f8-2d9e-c91ae59f436f" ValueScheme="float" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1" Documentation="the latitude of the polygon's vertex">
-                                
-                            </CMD_Element>
-                            <CMD_Element name="Longitude" ConceptLink="http://hdl.handle.net/11459/CCR_C-5583_8be52a01-2494-9656-bfef-39e7f748d104" ValueScheme="float" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1" Documentation="the longitude of the polygon's vertex">
-                                
-                            </CMD_Element>
-                        </CMD_Component>
-                    </CMD_Component>
-                </CMD_Component>
-            </CMD_Component>
-        </CMD_Component>
-        <CMD_Component name="LinguisticBackground" CardinalityMin="1" CardinalityMax="1">
-            <CMD_Component name="Competence" CardinalityMin="0" CardinalityMax="unbounded">
-                <CMD_Component name="Description" ComponentId="clarin.eu:cr1:c_1271859438118" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" CardinalityMin="0" CardinalityMax="1">
-                    <CMD_Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true">
+                        </Element>
+                        <Element name="Country" ConceptLink="http://hdl.handle.net/11459/CCR_C-2532_d004b0a6-fd1d-3ca3-abf1-1e6aeb3e37b2" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                        <Element name="Region" ConceptLink="http://hdl.handle.net/11459/CCR_C-2533_fa6e1812-e29b-3cf6-e15a-50aa34b9be68" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                        <Element name="Address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2528_1eaf4da1-64cc-71fc-1622-bb5bfd6e52c9" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                    </Component>
+                    <Component name="GeoLocalization" ComponentRef="clarin.eu:cr1:c_1361876010667" CardinalityMin="0" CardinalityMax="1">
+                        <Component name="Vertex" ConceptLink="http://hdl.handle.net/11459/CCR_C-2523_283c7b54-06ed-3d6c-4bb0-c8a79a8236fd" CardinalityMin="3" CardinalityMax="unbounded">
+                            <Element name="Latitude" ConceptLink="http://hdl.handle.net/11459/CCR_C-5582_0d7dc9e3-e288-56f8-2d9e-c91ae59f436f" ValueScheme="float" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Documentation>the latitude of the polygon's vertex</Documentation>
+                            </Element>
+                            <Element name="Longitude" ConceptLink="http://hdl.handle.net/11459/CCR_C-5583_8be52a01-2494-9656-bfef-39e7f748d104" ValueScheme="float" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Documentation>the longitude of the polygon's vertex</Documentation>
+                            </Element>
+                        </Component>
+                    </Component>
+                </Component>
+            </Component>
+        </Component>
+        <Component name="LinguisticBackground" CardinalityMin="1" CardinalityMax="1">
+            <Component name="Competence" CardinalityMin="0" CardinalityMax="unbounded">
+                <Component name="Description" ComponentRef="clarin.eu:cr1:c_1271859438118" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" CardinalityMin="0" CardinalityMax="1">
+                    <Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true">
                         <AttributeList>
-                            <Attribute><Name>LanguageID</Name><Type>string</Type></Attribute>
+                            <Attribute name="LanguageID" ValueScheme="string"/>
                         </AttributeList>
-                    </CMD_Element>
-                </CMD_Component>
-                <CMD_Component name="Language" ComponentId="clarin.eu:cr1:c_1271859438111" CardinalityMin="0" CardinalityMax="1">
-                    <CMD_Element name="LanguageName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2484_669684e7-cb9e-ea96-59cb-a25fe89b9b9d" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true"/>
-                    <CMD_Component name="ISO639" ComponentId="clarin.eu:cr1:c_1271859438110" CardinalityMin="1" CardinalityMax="1">
-                        <CMD_Element name="iso-639-3-code" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1">
+                    </Element>
+                </Component>
+                <Component name="Language" ComponentRef="clarin.eu:cr1:c_1271859438111" CardinalityMin="0" CardinalityMax="1">
+                    <Element name="LanguageName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2484_669684e7-cb9e-ea96-59cb-a25fe89b9b9d" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true"/>
+                    <Component name="ISO639" ComponentRef="clarin.eu:cr1:c_1271859438110" CardinalityMin="1" CardinalityMax="1">
+                        <Element name="iso-639-3-code" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                             <ValueScheme>
-                                
+                                <Vocabulary URI="http://hdl.handle.net/11459/CLAVAS_810f8d2a-6723-3ba6-2e57-41d6d3844816" ValueProperty="notation">
                                     <enumeration>
                                         <item ConceptLink="http://cdb.iso.org/lg/CDB-00132443-001" AppInfo="Ghotuo (aaa)">aaa</item>
                                         <item ConceptLink="http://cdb.iso.org/lg/CDB-00133770-001" AppInfo="Alumu-Tesu (aab)">aab</item>
@@ -7881,20 +7882,20 @@
                                         <item ConceptLink="http://cdb.iso.org/lg/CDB-00131000-001" AppInfo="Zaza; Dimili; Dimli; Kirdki; Kirmanjki; Zazaki (zza)">zza</item>
                                         <item ConceptLink="http://cdb.iso.org/lg/CDB-00136140-001" AppInfo="Zuojiang Zhuang (zzj)">zzj</item>
                                     </enumeration>
-                                
+                                </Vocabulary>
                             </ValueScheme>
-                        </CMD_Element>
-                    </CMD_Component>
-                </CMD_Component>
-                <CMD_Component name="LanguageVariety" CardinalityMin="0" CardinalityMax="unbounded">
-                    <CMD_Element name="LanguageVarietyName" ConceptLink="http://hdl.handle.net/11459/CCR_C-3886_ee0e9b7b-6586-f226-9694-aff53e0343bc" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" DisplayPriority="1" Documentation="the name of a language variety the speaker is able to speak">
-                        
-                    </CMD_Element>
-                    <CMD_Component name="LanguageVarietyPlace" CardinalityMin="0" CardinalityMax="unbounded">
-                        <CMD_Component name="Location" ComponentId="clarin.eu:cr1:c_1345561703642" CardinalityMin="0" CardinalityMax="1">
-                            <CMD_Element name="Continent" ConceptLink="http://hdl.handle.net/11459/CCR_C-2531_e0427265-2fc4-d23e-0a7c-a21981ec3734" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1">
+                        </Element>
+                    </Component>
+                </Component>
+                <Component name="LanguageVariety" CardinalityMin="0" CardinalityMax="unbounded">
+                    <Element name="LanguageVarietyName" ConceptLink="http://hdl.handle.net/11459/CCR_C-3886_ee0e9b7b-6586-f226-9694-aff53e0343bc" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                        <Documentation>the name of a language variety the speaker is able to speak</Documentation>
+                    </Element>
+                    <Component name="LanguageVarietyPlace" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Component name="Location" ComponentRef="clarin.eu:cr1:c_1345561703642" CardinalityMin="0" CardinalityMax="1">
+                            <Element name="Continent" ConceptLink="http://hdl.handle.net/11459/CCR_C-2531_e0427265-2fc4-d23e-0a7c-a21981ec3734" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <ValueScheme>
-                                    
+                                    <Vocabulary>
                                         <enumeration>
                                             <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2591_f769d93b-c007-d2c9-aff2-99e9177e5764" AppInfo="">Unknown</item>
                                             <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2592_6bf81885-106a-fbf0-40e0-9f0233fbd88c" AppInfo="">Unspecified</item>
@@ -7907,43 +7908,43 @@
                                             <item ConceptLink="" AppInfo="">Middle-America</item>
                                             <item ConceptLink="" AppInfo="">South-America</item>
                                         </enumeration>
-                                    
+                                    </Vocabulary>
                                 </ValueScheme>
-                            </CMD_Element>
-                            <CMD_Element name="Country" ConceptLink="http://hdl.handle.net/11459/CCR_C-2532_d004b0a6-fd1d-3ca3-abf1-1e6aeb3e37b2" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
-                            <CMD_Element name="Region" ConceptLink="http://hdl.handle.net/11459/CCR_C-2533_fa6e1812-e29b-3cf6-e15a-50aa34b9be68" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" DisplayPriority="1"/>
-                            <CMD_Element name="Address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2528_1eaf4da1-64cc-71fc-1622-bb5bfd6e52c9" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" DisplayPriority="1"/>
-                        </CMD_Component>
-                        <CMD_Component name="GeoLocalization" ComponentId="clarin.eu:cr1:c_1361876010667" CardinalityMin="0" CardinalityMax="1">
-                            <CMD_Component name="Vertex" ConceptLink="http://hdl.handle.net/11459/CCR_C-2523_283c7b54-06ed-3d6c-4bb0-c8a79a8236fd" CardinalityMin="3" CardinalityMax="unbounded">
-                                <CMD_Element name="Latitude" ConceptLink="http://hdl.handle.net/11459/CCR_C-5582_0d7dc9e3-e288-56f8-2d9e-c91ae59f436f" ValueScheme="float" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1" Documentation="the latitude of the polygon's vertex">
-                                    
-                                </CMD_Element>
-                                <CMD_Element name="Longitude" ConceptLink="http://hdl.handle.net/11459/CCR_C-5583_8be52a01-2494-9656-bfef-39e7f748d104" ValueScheme="float" CardinalityMin="1" CardinalityMax="1" DisplayPriority="1" Documentation="the longitude of the polygon's vertex">
-                                    
-                                </CMD_Element>
-                            </CMD_Component>
-                        </CMD_Component>
-                    </CMD_Component>
-                </CMD_Component>
-                <CMD_Component name="Proficiency" CardinalityMin="0" CardinalityMax="1">
-                    <CMD_Element name="Speaking" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" Documentation="the speaker's level of speaking proficiency">
-                        
-                    </CMD_Element>
-                    <CMD_Element name="Listening" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" Documentation="the speaker's level of listening proficiency">
-                        
-                    </CMD_Element>
-                    <CMD_Element name="Reading" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" Documentation="the speaker's level of reading proficiency">
-                        
-                    </CMD_Element>
-                    <CMD_Element name="Writing" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" Documentation="the speaker's level of writing proficiency">
-                        
-                    </CMD_Element>
-                    <CMD_Element name="Overall" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" DisplayPriority="1" Documentation="the speaker's overall proficiency level">
-                        
-                    </CMD_Element>
-                </CMD_Component>
-            </CMD_Component>
-        </CMD_Component>
-    </CMD_Component>
-</CMD_ComponentSpec>
+                            </Element>
+                            <Element name="Country" ConceptLink="http://hdl.handle.net/11459/CCR_C-2532_d004b0a6-fd1d-3ca3-abf1-1e6aeb3e37b2" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                            <Element name="Region" ConceptLink="http://hdl.handle.net/11459/CCR_C-2533_fa6e1812-e29b-3cf6-e15a-50aa34b9be68" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                            <Element name="Address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2528_1eaf4da1-64cc-71fc-1622-bb5bfd6e52c9" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                        </Component>
+                        <Component name="GeoLocalization" ComponentRef="clarin.eu:cr1:c_1361876010667" CardinalityMin="0" CardinalityMax="1">
+                            <Component name="Vertex" ConceptLink="http://hdl.handle.net/11459/CCR_C-2523_283c7b54-06ed-3d6c-4bb0-c8a79a8236fd" CardinalityMin="3" CardinalityMax="unbounded">
+                                <Element name="Latitude" ConceptLink="http://hdl.handle.net/11459/CCR_C-5582_0d7dc9e3-e288-56f8-2d9e-c91ae59f436f" ValueScheme="float" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                    <Documentation>the latitude of the polygon's vertex</Documentation>
+                                </Element>
+                                <Element name="Longitude" ConceptLink="http://hdl.handle.net/11459/CCR_C-5583_8be52a01-2494-9656-bfef-39e7f748d104" ValueScheme="float" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                    <Documentation>the longitude of the polygon's vertex</Documentation>
+                                </Element>
+                            </Component>
+                        </Component>
+                    </Component>
+                </Component>
+                <Component name="Proficiency" CardinalityMin="0" CardinalityMax="1">
+                    <Element name="Speaking" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                        <Documentation>the speaker's level of speaking proficiency</Documentation>
+                    </Element>
+                    <Element name="Listening" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                        <Documentation>the speaker's level of listening proficiency</Documentation>
+                    </Element>
+                    <Element name="Reading" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                        <Documentation>the speaker's level of reading proficiency</Documentation>
+                    </Element>
+                    <Element name="Writing" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                        <Documentation>the speaker's level of writing proficiency</Documentation>
+                    </Element>
+                    <Element name="Overall" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                        <Documentation>the speaker's overall proficiency level</Documentation>
+                    </Element>
+                </Component>
+            </Component>
+        </Component>
+    </Component>
+</ComponentSpec>
