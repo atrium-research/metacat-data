@@ -6,6 +6,9 @@ For a demonstration of step-by-step retrieval of the data, see the notebook
 The retrieved data (concept definitions, profiles specifications, VLO facet values, 
 concept - facet mapping definitions), can be found in the [data folder](./data).
 
+An RDF representation of the data is produced in the notebook [clarin_rdf.ipynb](./clarin_rdf.ipynb).
+The output in Turtle format can be found in the [RDF folder](./rdf).
+
 ## Context 
 
 ### Components
