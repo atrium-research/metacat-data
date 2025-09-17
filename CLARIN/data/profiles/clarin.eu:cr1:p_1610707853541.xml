@@ -8,9 +8,9 @@
     </Header>
     <Component name="DataCiteRecord" CardinalityMin="1" CardinalityMax="1">
         <Component name="IdentificationInfo" ComponentRef="clarin.eu:cr1:c_1595321762421" CardinalityMin="0" CardinalityMax="1">
-            <Element name="identifier" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+            <Element name="identifier" ConceptLink="http://hdl.handle.net/11459/CCR_C-3894_4d08cc31-25fe-af0c-add4-ca7bdc12f5f7" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                 <AttributeList>
-                    <Attribute name="type">
+                    <Attribute name="type" ConceptLink="http://hdl.handle.net/11459/CCR_C-5354_a4e41aa9-b8ba-59ea-a34e-6d7179e393be">
                         <ValueScheme>
                             <Vocabulary>
                                 <enumeration>
@@ -22,12 +22,12 @@
                     </Attribute>
                 </AttributeList>
             </Element>
-            <Element name="internalIdentifier" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+            <Element name="internalIdentifier" ConceptLink="http://hdl.handle.net/11459/CCR_C-3894_4d08cc31-25fe-af0c-add4-ca7bdc12f5f7" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
                 <AttributeList>
                     <Attribute name="type" ValueScheme="string"/>
                 </AttributeList>
             </Element>
-            <Element name="alternativeIdentifier" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+            <Element name="alternativeIdentifier" ConceptLink="http://hdl.handle.net/11459/CCR_C-3894_4d08cc31-25fe-af0c-add4-ca7bdc12f5f7" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
                 <AttributeList>
                     <Attribute name="type" ValueScheme="string"/>
                 </AttributeList>
@@ -444,9 +444,9 @@
                     <Documentation>A bibliographic reference for the resource</Documentation>
                 </Element>
                 <Component name="IdentificationInfo" ComponentRef="clarin.eu:cr1:c_1595321762421" CardinalityMin="0" CardinalityMax="1">
-                    <Element name="identifier" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                    <Element name="identifier" ConceptLink="http://hdl.handle.net/11459/CCR_C-3894_4d08cc31-25fe-af0c-add4-ca7bdc12f5f7" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                         <AttributeList>
-                            <Attribute name="type">
+                            <Attribute name="type" ConceptLink="http://hdl.handle.net/11459/CCR_C-5354_a4e41aa9-b8ba-59ea-a34e-6d7179e393be">
                                 <ValueScheme>
                                     <Vocabulary>
                                         <enumeration>
@@ -458,12 +458,12 @@
                             </Attribute>
                         </AttributeList>
                     </Element>
-                    <Element name="internalIdentifier" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                    <Element name="internalIdentifier" ConceptLink="http://hdl.handle.net/11459/CCR_C-3894_4d08cc31-25fe-af0c-add4-ca7bdc12f5f7" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
                         <AttributeList>
                             <Attribute name="type" ValueScheme="string"/>
                         </AttributeList>
                     </Element>
-                    <Element name="alternativeIdentifier" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                    <Element name="alternativeIdentifier" ConceptLink="http://hdl.handle.net/11459/CCR_C-3894_4d08cc31-25fe-af0c-add4-ca7bdc12f5f7" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
                         <AttributeList>
                             <Attribute name="type" ValueScheme="string"/>
                         </AttributeList>
@@ -1720,9 +1720,9 @@
         </Component>
         <Component name="MetadataInfo" ComponentRef="clarin.eu:cr1:c_1595321762458" CardinalityMin="0" CardinalityMax="1">
             <Component name="IdentificationInfo" ComponentRef="clarin.eu:cr1:c_1595321762421" CardinalityMin="0" CardinalityMax="1">
-                <Element name="identifier" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                <Element name="identifier" ConceptLink="http://hdl.handle.net/11459/CCR_C-3894_4d08cc31-25fe-af0c-add4-ca7bdc12f5f7" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                     <AttributeList>
-                        <Attribute name="type">
+                        <Attribute name="type" ConceptLink="http://hdl.handle.net/11459/CCR_C-5354_a4e41aa9-b8ba-59ea-a34e-6d7179e393be">
                             <ValueScheme>
                                 <Vocabulary>
                                     <enumeration>
@@ -1734,12 +1734,12 @@
                         </Attribute>
                     </AttributeList>
                 </Element>
-                <Element name="internalIdentifier" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                <Element name="internalIdentifier" ConceptLink="http://hdl.handle.net/11459/CCR_C-3894_4d08cc31-25fe-af0c-add4-ca7bdc12f5f7" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
                     <AttributeList>
                         <Attribute name="type" ValueScheme="string"/>
                     </AttributeList>
                 </Element>
-                <Element name="alternativeIdentifier" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                <Element name="alternativeIdentifier" ConceptLink="http://hdl.handle.net/11459/CCR_C-3894_4d08cc31-25fe-af0c-add4-ca7bdc12f5f7" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
                     <AttributeList>
                         <Attribute name="type" ValueScheme="string"/>
                     </AttributeList>
