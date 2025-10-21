@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<Catalogues>
+<root>
     <Catalogue>
         <id>1</id>
         <order>0.33333333333333331483</order>
@@ -1155,4 +1155,4 @@
             </item>
         </Controlled_vocabularies>
     </Catalogue>
-</Catalogues>
+</root>

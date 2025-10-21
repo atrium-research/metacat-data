@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<Resource_Types>
+<root>
     <Resource_Type>
         <id>1</id>
         <order>1.00000000000000000000</order>
@@ -1008,4 +1008,4 @@ Document type. See https://gotriple.eu/ontology/triple/document_types</Notes>
         <Count>149015</Count>
         <Date>2024-12-19</Date>
     </Resource_Type>
-</Resource_Types>
+</root>

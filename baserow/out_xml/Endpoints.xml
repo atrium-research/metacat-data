@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<Endpoints>
+<root>
     <Endpoint>
         <id>1</id>
         <order>1.00000000000000000000</order>
@@ -240,4 +240,4 @@
         </Visibility>
         <Description>GoTriple Document Annotation Service</Description>
     </Endpoint>
-</Endpoints>
+</root>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<Sources>
+<root>
     <Source>
         <id>2</id>
         <order>2.00000000000000000000</order>
@@ -2723,4 +2723,4 @@
             <color>gray</color>
         </Status>
     </Source>
-</Sources>
+</root>
