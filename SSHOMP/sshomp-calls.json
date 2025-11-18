@@ -4,7 +4,11 @@
     "facet": "resource-type",
     "url": [
       {
-        "workflows": "https://marketplace-api.sshopencloud.eu/api/workflows?approved=true"
+        "workflows": "https://marketplace-api.sshopencloud.eu/api/workflows?approved=true",
+        "tools-services": "https://marketplace-api.sshopencloud.eu/api/tools-services?approved=true",
+        "datasets": "https://marketplace-api.sshopencloud.eu/api/datasets?approved=true",
+        "training-materials": "https://marketplace-api.sshopencloud.eu/api/training-materials?approved=true",
+        "publications": "https://marketplace-api.sshopencloud.eu/api/publications?approved=true"
       }
     ]
   },
