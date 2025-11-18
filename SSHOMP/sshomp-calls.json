@@ -1,32 +1,36 @@
 [
-    {
-        "catalogue": "sshomp",
-        "facet": "resource-type",
-        "url": ""
-    },
-    {
-        "catalogue": "sshomp",
-        "facet": "format",
-        "url": ""
-    },
-    {
-        "catalogue": "sshomp",
-        "facet": "discipline",
-        "url": ""
-    },
-    {
-        "catalogue": "sshomp",
-        "facet": "source",
-        "url": ""
-    },
-    {
-        "catalogue": "sshomp",
-        "facet": "source-2",
-        "url": ""
-    },
-    {
-        "catalogue": "sshomp",
-        "facet": "subjects",
-        "url": ""
-    }
+  {
+    "catalogue": "sshomp",
+    "facet": "resource-type",
+    "url": [
+      {
+        "workflows": "https://marketplace-api.sshopencloud.eu/api/workflows?approved=true"
+      }
+    ]
+  },
+  {
+    "catalogue": "sshomp",
+    "facet": "format",
+    "url": ""
+  },
+  {
+    "catalogue": "sshomp",
+    "facet": "discipline",
+    "url": ""
+  },
+  {
+    "catalogue": "sshomp",
+    "facet": "source",
+    "url": ""
+  },
+  {
+    "catalogue": "sshomp",
+    "facet": "source-2",
+    "url": ""
+  },
+  {
+    "catalogue": "sshomp",
+    "facet": "subjects",
+    "url": ""
+  }
 ]
