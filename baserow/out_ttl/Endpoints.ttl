@@ -1,0 +1,110 @@
+@prefix aocat: <https://www.ariadne-infrastructure.eu/resource/ao/cat/1.1/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crmpe: <http://parthenos.d4science.org/CRMext/CRMpe/> .
+@prefix atrium: <http://atrium.eu/> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<https://vlo.clarin.eu/solr/vlo-index/>
+        a                         aocat:AO_Entity , crmpe:PE29_Access_Point ;
+        rdfs:label                "https://vlo.clarin.eu/solr/vlo-index/" ;
+        aocat:has_description     "SOLR index API for querying language resources in the CLARIN VLO"@en , "Not publicly accessible"@en ;
+        aocat:has_type            <http://atrium.eu/Concept/Status/15645> , <http://atrium.eu/Concept/Protocol/15607> ;
+        aocat:is_access_point_of  <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> .
+
+<http://atrium.eu/Concept/Status/15645>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Active"@en .
+
+<https://api.gotriple.eu/>
+        a                         aocat:AO_Entity , crmpe:PE29_Access_Point ;
+        rdfs:label                "https://api.gotriple.eu/" ;
+        aocat:has_description     "Main REST API for accessing the GoTriple project’s data and services"@en ;
+        aocat:has_type            <http://atrium.eu/Concept/Status/15645> , <http://atrium.eu/Concept/Protocol/14992> ;
+        aocat:is_access_point_of  <http://atrium.eu/Service/A87FF679-A2F3-371D-9181-A67B7542122C> .
+
+<https://vlo.clarin-dev.eu/api/>
+        a                         aocat:AO_Entity , crmpe:PE29_Access_Point ;
+        rdfs:label                "https://vlo.clarin-dev.eu/api/" ;
+        aocat:has_description     "API for the CLARIN VLO (Virtual Language Observatory)"@en , "Alpha version of API – under development and availability is not guaranteed"@en ;
+        aocat:has_type            <http://atrium.eu/Concept/Status/15646> , <http://atrium.eu/Concept/Protocol/14992> ;
+        aocat:is_access_point_of  <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> .
+
+<http://atrium.eu/Concept/Protocol/14992>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "REST API"@en ;
+        aocat:has_type  <http://atrium.eu/Concept/Protocol/Protocol> .
+
+<https://services-ca.gotriple.eu/triple-api/v1/classify>
+        a                         aocat:AO_Entity , crmpe:PE29_Access_Point ;
+        rdfs:label                "https://services-ca.gotriple.eu/triple-api/v1/classify" ;
+        aocat:has_description     "GoTriple Document Classify Service"@en , "Could be opened and extended within the ATRIUM consortium."@en ;
+        aocat:has_type            <http://atrium.eu/Concept/Status/15645> , <http://atrium.eu/Concept/Protocol/14992> ;
+        aocat:is_access_point_of  <http://atrium.eu/Service/A87FF679-A2F3-371D-9181-A67B7542122C> .
+
+<http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3>
+        a       aocat:AO_Service .
+
+<https://services-ca.gotriple.eu/triple-api/v1/annotate>
+        a                         aocat:AO_Entity , crmpe:PE29_Access_Point ;
+        rdfs:label                "https://services-ca.gotriple.eu/triple-api/v1/annotate" ;
+        aocat:has_description     "GoTriple Document Annotation Service"@en , "Could be opened and extended within the ATRIUM consortium."@en ;
+        aocat:has_type            <http://atrium.eu/Concept/Status/15645> , <http://atrium.eu/Concept/Protocol/14992> ;
+        aocat:is_access_point_of  <http://atrium.eu/Service/A87FF679-A2F3-371D-9181-A67B7542122C> .
+
+<http://atrium.eu/Concept/Protocol/14991>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "SPARQL"@en ;
+        aocat:has_type  <http://atrium.eu/Concept/Protocol/Protocol> .
+
+<http://atrium.eu/Concept/Protocol/15607>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "SOLR"@en ;
+        aocat:has_type  <http://atrium.eu/Concept/Protocol/Protocol> .
+
+<http://atrium.eu/Service/C81E728D-9D4C-3F63-AF06-7F89CC14862C>
+        a       aocat:AO_Service .
+
+<https://api.gotriple.eu/oai2>
+        a                         aocat:AO_Entity , crmpe:PE29_Access_Point ;
+        rdfs:label                "https://api.gotriple.eu/oai2" ;
+        aocat:has_description     "OAI-PMH endpoint for metadata harvesting in the GoTriple project"@en ;
+        aocat:has_type            <http://atrium.eu/Concept/Status/15645> , <http://atrium.eu/Concept/Protocol/14990> ;
+        aocat:is_access_point_of  <http://atrium.eu/Service/A87FF679-A2F3-371D-9181-A67B7542122C> .
+
+<http://atrium.eu/Concept/Protocol/14990>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "OAI-PMH"@en ;
+        aocat:has_type  <http://atrium.eu/Concept/Protocol/Protocol> .
+
+<http://atrium.eu/Service/A87FF679-A2F3-371D-9181-A67B7542122C>
+        a       aocat:AO_Service .
+
+<http://atrium.eu/Service/C4CA4238-A0B9-3382-8DCC-509A6F75849B>
+        a       aocat:AO_Service .
+
+<http://atrium.eu/Concept/Protocol/Protocol>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Protocol"@en .
+
+<https://marketplace-api.sshopencloud.eu/api/>
+        a                         aocat:AO_Entity , crmpe:PE29_Access_Point ;
+        rdfs:label                "https://marketplace-api.sshopencloud.eu/api/" ;
+        aocat:has_description     "SSH Open Marketplace REST API providing access to services and tools in the SSH research community"@en ;
+        aocat:has_type            <http://atrium.eu/Concept/Status/15645> , <http://atrium.eu/Concept/Protocol/14992> ;
+        aocat:is_access_point_of  <http://atrium.eu/Service/C4CA4238-A0B9-3382-8DCC-509A6F75849B> .
+
+<https://ariadne.d4science.org/group/ariadneplus_lab/graphdb>
+        a                         aocat:AO_Entity , crmpe:PE29_Access_Point ;
+        rdfs:label                "https://ariadne.d4science.org/group/ariadneplus_lab/graphdb" ;
+        aocat:has_description     "ARIADNE Portal SPARQL endpoint for querying the archaeological graph database"@en ;
+        aocat:has_type            <http://atrium.eu/Concept/Status/15645> , <http://atrium.eu/Concept/Protocol/14991> ;
+        aocat:is_access_point_of  <http://atrium.eu/Service/C81E728D-9D4C-3F63-AF06-7F89CC14862C> .
+
+<http://atrium.eu/Concept/Status/15646>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Under Development"@en .

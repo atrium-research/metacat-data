@@ -1,0 +1,1130 @@
+@prefix aocat: <https://www.ariadne-infrastructure.eu/resource/ao/cat/1.1/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crmpe: <http://parthenos.d4science.org/CRMext/CRMpe/> .
+@prefix atrium: <http://atrium.eu/> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://atrium.eu/Concept/ARIADNE%20Portal/15070>
+        a                      aocat:AO_Concept ;
+        crm:P43_has_dimension  <urn:uuid:b64d6952-f936-4a0f-8503-24daa8a1d6c3> ;
+        skos:prefLabel         "Coins"@en ;
+        aocat:is_type_of       <urn:uuid:61d11a6e-8d09-4012-b220-98083149af54> .
+
+<http://atrium.eu/Concept/GoTriple/17833>
+        a                      aocat:AO_Concept ;
+        crm:P43_has_dimension  <urn:uuid:dcd654ca-6f75-4618-9b9a-81a2a1bc010a> ;
+        skos:prefLabel         "Bibliography"@en ;
+        aocat:is_type_of       <urn:uuid:a548ea7e-d250-4728-a72c-22f6a05a20ed> .
+
+<urn:uuid:3ede115f-9059-4489-b97a-6aef6454b630>
+        a                               aocat:AO_Data_Resource ;
+        rdfs:label                      "Resource"@en ;
+        crmpe:PP4i_is_object_hosted_by  <http://atrium.eu/Service/C4CA4238-A0B9-3382-8DCC-509A6F75849B> .
+
+<http://atrium.eu/Concept/ARIADNE%20Portal/15078>
+        a                      aocat:AO_Concept ;
+        crm:P43_has_dimension  <urn:uuid:ed4fc1c2-b548-4275-8ca9-08892dbf79aa> ;
+        skos:prefLabel         "Burials"@en ;
+        aocat:is_type_of       <urn:uuid:bb440138-2b26-4284-82a6-c9968d8ee454> .
+
+<urn:uuid:95ec606a-fbc0-4bf5-b765-960a7e007314>
+        a                         aocat:AO_Dimension ;
+        rdfs:label                "Dimension"@en ;
+        crm:P2_has_type           <http://atrium.eu/Concept/MU/count> ;
+        crm:P40i_was_observed_in  <urn:uuid:8cc9b9c6-1fb8-4d0e-be61-23129dcc563e> ;
+        crm:P90_has_value         "888294" ;
+        crm:P91_has_unit          <http://atrium.eu/Concept/MU/NumberOfResources> .
+
+<http://atrium.eu/Concept/GoTriple/17841>
+        a                      aocat:AO_Concept ;
+        crm:P43_has_dimension  <urn:uuid:aa5d9946-f176-4446-ac74-488754979f4c> ;
+        skos:prefLabel         "Preprint"@en ;
+        aocat:is_type_of       <urn:uuid:0372adcb-0afa-49b0-a893-231030c398da> .
+
+<urn:uuid:ac5b22c8-d5a1-451f-8ab2-60bf1cdc1e9e>
+        a                     crm:E16_Measurement ;
+        rdfs:label            "Date"@en ;
+        crm:P4_has_time-span  <http://atrium.eu/Event/TimeSpan/2024-05-16> .
+
+<http://atrium.eu/Concept/CLARIN%20VLO/15086>
+        a                      aocat:AO_Concept ;
+        crm:P43_has_dimension  <urn:uuid:47ef7322-872b-40b9-9946-660c5982d059> ;
+        skos:prefLabel         "Collection"@en ;
+        aocat:is_type_of       <urn:uuid:1bb354e9-3f08-42a0-b313-1fcc66632454> .
+
+<urn:uuid:3bac8a77-a04a-4fdb-acf6-ca6538a61c19>
+        a                         aocat:AO_Dimension ;
+        rdfs:label                "Dimension"@en ;
+        crm:P2_has_type           <http://atrium.eu/Concept/MU/count> ;
+        crm:P40i_was_observed_in  <urn:uuid:944e9223-18ba-4eef-9b7a-5a6b6c1331ff> ;
+        crm:P90_has_value         "0" ;
+        crm:P91_has_unit          <http://atrium.eu/Concept/MU/NumberOfResources> .
+
+<urn:uuid:61d11a6e-8d09-4012-b220-98083149af54>
+        a                               aocat:AO_Data_Resource ;
+        rdfs:label                      "Resource"@en ;
+        crmpe:PP4i_is_object_hosted_by  <http://atrium.eu/Service/C81E728D-9D4C-3F63-AF06-7F89CC14862C> .
+
+<urn:uuid:0372adcb-0afa-49b0-a893-231030c398da>
+        a                               aocat:AO_Data_Resource ;
+        rdfs:label                      "Resource"@en ;
+        crmpe:PP4i_is_object_hosted_by  <http://atrium.eu/Service/A87FF679-A2F3-371D-9181-A67B7542122C> .
+
+<urn:uuid:fa75e788-2e6f-4b4c-9881-881f3ce858bd>
+        a                     crm:E16_Measurement ;
+        rdfs:label            "Date"@en ;
+        crm:P4_has_time-span  <http://atrium.eu/Event/TimeSpan/2024-05-20> .
+
+<urn:uuid:fbaa0900-fc66-4362-b0b4-75dcbbcdf9c8>
+        a                     crm:E16_Measurement ;
+        rdfs:label            "Date"@en ;
+        crm:P4_has_time-span  <http://atrium.eu/Event/TimeSpan/2024-05-20> .
+
+<http://atrium.eu/Concept/GoTriple/15087>
+        a                      aocat:AO_Concept ;
+        crm:P43_has_dimension  <urn:uuid:fd55a0c2-973a-4d1d-9ca9-ac121e465dae> ;
+        skos:prefLabel         "Documents"@en ;
+        aocat:is_type_of       <urn:uuid:bcd371eb-d881-429f-b2c1-0606643a06a7> .
+
+<http://atrium.eu/Concept/SSH%20Open%20Marketplace/15093>
+        a                      aocat:AO_Concept ;
+        crm:P43_has_dimension  <urn:uuid:a687a0d8-eb10-4e9d-a4f8-902be36a5ec8> ;
+        skos:prefLabel         "Workflows"@en ;
+        aocat:is_type_of       <urn:uuid:3ede115f-9059-4489-b97a-6aef6454b630> .
+
+<urn:uuid:06439311-014c-46a1-a00c-13ce8346b26a>
+        a                               aocat:AO_Data_Resource ;
+        rdfs:label                      "Resource"@en ;
+        crmpe:PP4i_is_object_hosted_by  <http://atrium.eu/Service/C4CA4238-A0B9-3382-8DCC-509A6F75849B> .
+
+<urn:uuid:5a7dbf66-d3ff-468c-9184-abe1575b6b3a>
+        a                         aocat:AO_Dimension ;
+        rdfs:label                "Dimension"@en ;
+        crm:P2_has_type           <http://atrium.eu/Concept/MU/count> ;
+        crm:P40i_was_observed_in  <urn:uuid:3a1a1d6e-e60d-4c43-bb84-2a63a0b0f867> ;
+        crm:P90_has_value         "1546" ;
+        crm:P91_has_unit          <http://atrium.eu/Concept/MU/NumberOfResources> .
+
+<urn:uuid:0150641c-6edd-4819-9440-a5a133eb4c43>
+        a                               aocat:AO_Data_Resource ;
+        rdfs:label                      "Resource"@en ;
+        crmpe:PP4i_is_object_hosted_by  <http://atrium.eu/Service/A87FF679-A2F3-371D-9181-A67B7542122C> .
+
+<urn:uuid:5d636fd5-f2ad-4205-ba85-c1db2407c5b9>
+        a                         aocat:AO_Dimension ;
+        rdfs:label                "Dimension"@en ;
+        crm:P2_has_type           <http://atrium.eu/Concept/MU/count> ;
+        crm:P40i_was_observed_in  <urn:uuid:3149461a-9e64-4b41-a1a1-a8001c631412> ;
+        crm:P90_has_value         "250027" ;
+        crm:P91_has_unit          <http://atrium.eu/Concept/MU/NumberOfResources> .
+
+<http://atrium.eu/Concept/ARIADNE%20Portal/15073>
+        a                      aocat:AO_Concept ;
+        crm:P43_has_dimension  <urn:uuid:cfa17b9f-4424-47a8-80a0-83b9b380c5b3> ;
+        skos:prefLabel         "Fieldwork archives"@en ;
+        aocat:is_type_of       <urn:uuid:28987dcf-28f5-4d8d-82c9-327e80437005> .
+
+<urn:uuid:6a234ad4-043c-47bf-8673-7fccde9c6423>
+        a                     crm:E16_Measurement ;
+        rdfs:label            "Date"@en ;
+        crm:P4_has_time-span  <http://atrium.eu/Event/TimeSpan/2024-12-19> .
+
+<urn:uuid:dcd654ca-6f75-4618-9b9a-81a2a1bc010a>
+        a                         aocat:AO_Dimension ;
+        rdfs:label                "Dimension"@en ;
+        crm:P2_has_type           <http://atrium.eu/Concept/MU/count> ;
+        crm:P40i_was_observed_in  <urn:uuid:f34f739f-ccb1-4c7a-9929-9e0dfb80fbd2> ;
+        crm:P90_has_value         "107" ;
+        crm:P91_has_unit          <http://atrium.eu/Concept/MU/NumberOfResources> .
+
+<urn:uuid:40900a7f-4c26-4c98-9f49-eedbd6f2bbf0>
+        a                     crm:E16_Measurement ;
+        rdfs:label            "Date"@en ;
+        crm:P4_has_time-span  <http://atrium.eu/Event/TimeSpan/2024-05-20> .
+
+<http://atrium.eu/Concept/GoTriple/17836>
+        a                      aocat:AO_Concept ;
+        crm:P43_has_dimension  <urn:uuid:170c42e5-1435-48e6-97c2-81a336451117> ;
+        skos:prefLabel         "Conference"@en ;
+        aocat:is_type_of       <urn:uuid:ae73b1c0-1b6b-4a80-a4f6-ae136614c99a> .
+
+<urn:uuid:563c20fa-6dcb-4465-b13b-3ec1d16409b5>
+        a                               aocat:AO_Data_Resource ;
+        rdfs:label                      "Resource"@en ;
+        crmpe:PP4i_is_object_hosted_by  <http://atrium.eu/Service/A87FF679-A2F3-371D-9181-A67B7542122C> .
+
+<urn:uuid:acfaaadd-ec56-415a-824c-597eb20288d7>
+        a                     crm:E16_Measurement ;
+        rdfs:label            "Date"@en ;
+        crm:P4_has_time-span  <http://atrium.eu/Event/TimeSpan/2024-12-19> .
+
+<http://atrium.eu/Concept/ARIADNE%20Portal/15081>
+        a                      aocat:AO_Concept ;
+        crm:P43_has_dimension  <urn:uuid:846e1053-c170-4a04-b8b5-343b2602f1e9> ;
+        skos:prefLabel         "E-publications"@en ;
+        aocat:is_type_of       <urn:uuid:d9794360-f4d3-42b0-a6bd-1650cb4ca14d> .
+
+<http://atrium.eu/Service/C81E728D-9D4C-3F63-AF06-7F89CC14862C>
+        a           aocat:AO_Service , crmpe:PE2_Hosting_Service ;
+        rdfs:label  "ARIADNE Portal"@en .
+
+<urn:uuid:9c43e51a-edc0-46e8-8d35-cff0b202f58f>
+        a                               aocat:AO_Data_Resource ;
+        rdfs:label                      "Resource"@en ;
+        crmpe:PP4i_is_object_hosted_by  <http://atrium.eu/Service/A87FF679-A2F3-371D-9181-A67B7542122C> .
+
+<urn:uuid:b00125ac-7a24-4b72-ab9d-9dc46f651146>
+        a                     crm:E16_Measurement ;
+        rdfs:label            "Date"@en ;
+        crm:P4_has_time-span  <http://atrium.eu/Event/TimeSpan/2024-05-20> .
+
+<http://atrium.eu/Concept/GoTriple/15082>
+        a                      aocat:AO_Concept ;
+        crm:P43_has_dimension  <urn:uuid:68cc1966-e4ae-4ef2-be15-1571a84bd777> ;
+        skos:prefLabel         "Text"@en ;
+        aocat:is_type_of       <urn:uuid:9c43e51a-edc0-46e8-8d35-cff0b202f58f> .
+
+<urn:uuid:dc7a6ecf-fc2d-445e-a85a-75e10147ed32>
+        a                               aocat:AO_Data_Resource ;
+        rdfs:label                      "Resource"@en ;
+        crmpe:PP4i_is_object_hosted_by  <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> .
+
+<urn:uuid:249a9cd5-e457-481f-81ca-c68d5ab9917a>
+        a                               aocat:AO_Data_Resource ;
+        rdfs:label                      "Resource"@en ;
+        crmpe:PP4i_is_object_hosted_by  <http://atrium.eu/Service/C81E728D-9D4C-3F63-AF06-7F89CC14862C> .
+
+<http://atrium.eu/Concept/GoTriple/17844>
+        a                      aocat:AO_Concept ;
+        crm:P43_has_dimension  <urn:uuid:0075a48b-e5bf-4be4-9176-cc235712ae3b> ;
+        skos:prefLabel         "Map"@en ;
+        aocat:is_type_of       <urn:uuid:67c5c390-0ea1-4099-95d9-fb856bbfa2c9> .
+
+<http://atrium.eu/Event/TimeSpan/2024-12-19>
+        a           crm:E52_Time-Span ;
+        rdfs:label  "2024-12-19"@en .
+
+<http://atrium.eu/Concept/MU/count>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "count"@en .
+
+<urn:uuid:d7ca99c6-6680-4211-92be-5fc563433063>
+        a                               aocat:AO_Data_Resource ;
+        rdfs:label                      "Resource"@en ;
+        crmpe:PP4i_is_object_hosted_by  <http://atrium.eu/Service/A87FF679-A2F3-371D-9181-A67B7542122C> .
+
+<urn:uuid:99e8bf05-7fdc-448e-8150-bc7cb038ad67>
+        a                               aocat:AO_Data_Resource ;
+        rdfs:label                      "Resource"@en ;
+        crmpe:PP4i_is_object_hosted_by  <http://atrium.eu/Service/A87FF679-A2F3-371D-9181-A67B7542122C> .
+
+<urn:uuid:50237b31-b640-4e25-b9a4-e28b2b4585e7>
+        a                         aocat:AO_Dimension ;
+        rdfs:label                "Dimension"@en ;
+        crm:P2_has_type           <http://atrium.eu/Concept/MU/count> ;
+        crm:P40i_was_observed_in  <urn:uuid:dfea602a-a232-4337-8339-a9be70c3a0d5> ;
+        crm:P90_has_value         "513614" ;
+        crm:P91_has_unit          <http://atrium.eu/Concept/MU/NumberOfResources> .
+
+<http://atrium.eu/Concept/ARIADNE%20Portal/15068>
+        a                      aocat:AO_Concept ;
+        crm:P43_has_dimension  <urn:uuid:e40c3f1a-e3ae-4e3b-9876-ad908b36baa2> ;
+        skos:prefLabel         "Sites and monuments"@en ;
+        aocat:is_type_of       <urn:uuid:5354e255-4f6e-4f50-be81-6715cebb382f> .
+
+<urn:uuid:8f6faa33-faa4-4627-9e23-2f388b3a3aec>
+        a                               aocat:AO_Data_Resource ;
+        rdfs:label                      "Resource"@en ;
+        crmpe:PP4i_is_object_hosted_by  <http://atrium.eu/Service/C81E728D-9D4C-3F63-AF06-7F89CC14862C> .
+
+<urn:uuid:d91b60ed-65d5-4a1a-89a0-0578fe12617b>
+        a                               aocat:AO_Data_Resource ;
+        rdfs:label                      "Resource"@en ;
+        crmpe:PP4i_is_object_hosted_by  <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> .
+
+<urn:uuid:5a6bdc23-bb84-474b-be95-1448ae6a6764>
+        a                               aocat:AO_Data_Resource ;
+        rdfs:label                      "Resource"@en ;
+        crmpe:PP4i_is_object_hosted_by  <http://atrium.eu/Service/C81E728D-9D4C-3F63-AF06-7F89CC14862C> .
+
+<urn:uuid:a7a72f3c-c54e-4a14-8efe-491b1bfd43eb>
+        a                     crm:E16_Measurement ;
+        rdfs:label            "Date"@en ;
+        crm:P4_has_time-span  <http://atrium.eu/Event/TimeSpan/2024-12-19> .
+
+<urn:uuid:d1c03dd4-f352-4fea-afaa-90adce2243a5>
+        a                     crm:E16_Measurement ;
+        rdfs:label            "Date"@en ;
+        crm:P4_has_time-span  <http://atrium.eu/Event/TimeSpan/2024-05-07> .
+
+<urn:uuid:ceffffe0-ad93-4562-801f-4557aadd4e48>
+        a                               aocat:AO_Data_Resource ;
+        rdfs:label                      "Resource"@en ;
+        crmpe:PP4i_is_object_hosted_by  <http://atrium.eu/Service/A87FF679-A2F3-371D-9181-A67B7542122C> .
+
+<urn:uuid:c9419221-58f9-451f-b210-1952ec90e9bf>
+        a                     crm:E16_Measurement ;
+        rdfs:label            "Date"@en ;
+        crm:P4_has_time-span  <http://atrium.eu/Event/TimeSpan/2024-12-19> .
+
+<urn:uuid:a119fb19-e6f4-4e7c-9234-557fb0662bca>
+        a                               aocat:AO_Data_Resource ;
+        rdfs:label                      "Resource"@en ;
+        crmpe:PP4i_is_object_hosted_by  <http://atrium.eu/Service/C4CA4238-A0B9-3382-8DCC-509A6F75849B> .
+
+<http://atrium.eu/Concept/ARIADNE%20Portal/15076>
+        a                      aocat:AO_Concept ;
+        crm:P43_has_dimension  <urn:uuid:0aaccd91-e30c-43d8-a17d-bd7f0a704aab> ;
+        skos:prefLabel         "Rock art"@en ;
+        aocat:is_type_of       <urn:uuid:99b475c7-5ed5-4fa2-941b-d2c968a07968> .
+
+<urn:uuid:67ff4187-abde-4f85-89da-937144018ec9>
+        a                     crm:E16_Measurement ;
+        rdfs:label            "Date"@en ;
+        crm:P4_has_time-span  <http://atrium.eu/Event/TimeSpan/2024-05-20> .
+
+<urn:uuid:f34f739f-ccb1-4c7a-9929-9e0dfb80fbd2>
+        a                     crm:E16_Measurement ;
+        rdfs:label            "Date"@en ;
+        crm:P4_has_time-span  <http://atrium.eu/Event/TimeSpan/2024-12-19> .
+
+<urn:uuid:3149461a-9e64-4b41-a1a1-a8001c631412>
+        a                     crm:E16_Measurement ;
+        rdfs:label            "Date"@en ;
+        crm:P4_has_time-span  <http://atrium.eu/Event/TimeSpan/2024-12-19> .
+
+<urn:uuid:b64d6952-f936-4a0f-8503-24daa8a1d6c3>
+        a                         aocat:AO_Dimension ;
+        rdfs:label                "Dimension"@en ;
+        crm:P2_has_type           <http://atrium.eu/Concept/MU/count> ;
+        crm:P40i_was_observed_in  <urn:uuid:d1d663db-2f32-4ec6-ab3c-d59288c005b0> ;
+        crm:P90_has_value         "474825" ;
+        crm:P91_has_unit          <http://atrium.eu/Concept/MU/NumberOfResources> .
+
+<urn:uuid:3bf9ec34-6b0f-4115-afc2-a3fb723484f9>
+        a                         aocat:AO_Dimension ;
+        rdfs:label                "Dimension"@en ;
+        crm:P2_has_type           <http://atrium.eu/Concept/MU/count> ;
+        crm:P40i_was_observed_in  <urn:uuid:236cd794-4e74-4942-ac19-0978f36a2fee> ;
+        crm:P90_has_value         "18508056" ;
+        crm:P91_has_unit          <http://atrium.eu/Concept/MU/NumberOfResources> .
+
+<urn:uuid:bcd371eb-d881-429f-b2c1-0606643a06a7>
+        a                               aocat:AO_Data_Resource ;
+        rdfs:label                      "Resource"@en ;
+        crmpe:PP4i_is_object_hosted_by  <http://atrium.eu/Service/A87FF679-A2F3-371D-9181-A67B7542122C> .
+
+<http://atrium.eu/Concept/SSH%20Open%20Marketplace/15083>
+        a                      aocat:AO_Concept ;
+        crm:P43_has_dimension  <urn:uuid:83616f8e-6a87-468a-9e8e-d58c2e9b311f> ;
+        skos:prefLabel         "Dataset"@en ;
+        aocat:is_type_of       <urn:uuid:06439311-014c-46a1-a00c-13ce8346b26a> .
+
+<urn:uuid:dda60515-2e0b-4e5d-bd1f-b1602bd3f3c9>
+        a                     crm:E16_Measurement ;
+        rdfs:label            "Date"@en ;
+        crm:P4_has_time-span  <http://atrium.eu/Event/TimeSpan/2024-05-07> .
+
+<urn:uuid:a912bacd-6ae1-4d1b-8b82-b2e54eb03508>
+        a                     crm:E16_Measurement ;
+        rdfs:label            "Date"@en ;
+        crm:P4_has_time-span  <http://atrium.eu/Event/TimeSpan/2024-12-19> .
+
+<http://atrium.eu/Concept/GoTriple/17839>
+        a                      aocat:AO_Concept ;
+        crm:P43_has_dimension  <urn:uuid:3bd61411-655e-4b8a-8aab-17eb659f9dbd> ;
+        skos:prefLabel         "Manuscript"@en ;
+        aocat:is_type_of       <urn:uuid:b9da24f1-200f-4b9e-8290-bbd7a1692d8e> .
+
+<urn:uuid:fd55a0c2-973a-4d1d-9ca9-ac121e465dae>
+        a                         aocat:AO_Dimension ;
+        rdfs:label                "Dimension"@en ;
+        crm:P2_has_type           <http://atrium.eu/Concept/MU/count> ;
+        crm:P40i_was_observed_in  <urn:uuid:a7a72f3c-c54e-4a14-8efe-491b1bfd43eb> ;
+        crm:P90_has_value         "17097500" ;
+        crm:P91_has_unit          <http://atrium.eu/Concept/MU/NumberOfResources> .
+
+<http://atrium.eu/Concept/CLARIN%20VLO/15084>
+        a                      aocat:AO_Concept ;
+        crm:P43_has_dimension  <urn:uuid:bac603ee-f564-45f3-90ee-95ecc748d75e> ;
+        skos:prefLabel         "Corpus"@en ;
+        aocat:is_type_of       <urn:uuid:d91b60ed-65d5-4a1a-89a0-0578fe12617b> .
+
+<urn:uuid:6ed4cc75-88ff-4896-8c01-076189718d7a>
+        a                               aocat:AO_Data_Resource ;
+        rdfs:label                      "Resource"@en ;
+        crmpe:PP4i_is_object_hosted_by  <http://atrium.eu/Service/C81E728D-9D4C-3F63-AF06-7F89CC14862C> .
+
+<http://atrium.eu/Event/TimeSpan/2024-05-16>
+        a           crm:E52_Time-Span ;
+        rdfs:label  "2024-05-16"@en .
+
+<urn:uuid:d9794360-f4d3-42b0-a6bd-1650cb4ca14d>
+        a                               aocat:AO_Data_Resource ;
+        rdfs:label                      "Resource"@en ;
+        crmpe:PP4i_is_object_hosted_by  <http://atrium.eu/Service/C81E728D-9D4C-3F63-AF06-7F89CC14862C> .
+
+<urn:uuid:67c5c390-0ea1-4099-95d9-fb856bbfa2c9>
+        a                               aocat:AO_Data_Resource ;
+        rdfs:label                      "Resource"@en ;
+        crmpe:PP4i_is_object_hosted_by  <http://atrium.eu/Service/A87FF679-A2F3-371D-9181-A67B7542122C> .
+
+<http://atrium.eu/Concept/GoTriple/15085>
+        a                      aocat:AO_Concept ;
+        crm:P43_has_dimension  <urn:uuid:79c6db4c-481e-4879-9024-5c94773ef085> ;
+        skos:prefLabel         "Software"@en ;
+        aocat:is_type_of       <urn:uuid:563c20fa-6dcb-4465-b13b-3ec1d16409b5> .
+
+<http://atrium.eu/Concept/SSH%20Open%20Marketplace/15091>
+        a                      aocat:AO_Concept ;
+        crm:P43_has_dimension  <urn:uuid:fb6f280a-6db8-45e7-a31f-af3765d0756f> ;
+        skos:prefLabel         "Training materials"@en ;
+        aocat:is_type_of       <urn:uuid:0a310514-77f3-45a7-9d4a-ec38ed1571bf> .
+
+<urn:uuid:be040bdd-45db-4743-a5ad-cd6d33792d52>
+        a                               aocat:AO_Data_Resource ;
+        rdfs:label                      "Resource"@en ;
+        crmpe:PP4i_is_object_hosted_by  <http://atrium.eu/Service/A87FF679-A2F3-371D-9181-A67B7542122C> .
+
+<http://atrium.eu/Service/C4CA4238-A0B9-3382-8DCC-509A6F75849B>
+        a           aocat:AO_Service , crmpe:PE2_Hosting_Service ;
+        rdfs:label  "SSH Open Marketplace"@en .
+
+<http://atrium.eu/Concept/ARIADNE%20Portal/15071>
+        a                      aocat:AO_Concept ;
+        crm:P43_has_dimension  <urn:uuid:0d5a0c49-3663-4ef7-b9f1-efa59a2f733e> ;
+        skos:prefLabel         "Fieldwork activities"@en ;
+        aocat:is_type_of       <urn:uuid:7a4191d6-be40-41f3-a042-edc1901001dc> .
+
+<urn:uuid:eedd4252-25f8-45f0-87cc-cd45bfc797f7>
+        a                               aocat:AO_Data_Resource ;
+        rdfs:label                      "Resource"@en ;
+        crmpe:PP4i_is_object_hosted_by  <http://atrium.eu/Service/A87FF679-A2F3-371D-9181-A67B7542122C> .
+
+<urn:uuid:08f779ae-1543-475e-8e7f-f6cbc605e148>
+        a                         aocat:AO_Dimension ;
+        rdfs:label                "Dimension"@en ;
+        crm:P2_has_type           <http://atrium.eu/Concept/MU/count> ;
+        crm:P40i_was_observed_in  <urn:uuid:d1c03dd4-f352-4fea-afaa-90adce2243a5> ;
+        crm:P90_has_value         "2086" ;
+        crm:P91_has_unit          <http://atrium.eu/Concept/MU/NumberOfResources> .
+
+<http://atrium.eu/Concept/GoTriple/15072>
+        a                      aocat:AO_Concept ;
+        crm:P43_has_dimension  <urn:uuid:35f38962-4cb7-4c00-9361-279df60ca1c7> ;
+        skos:prefLabel         "Fieldwork reports"@en ;
+        aocat:is_type_of       <urn:uuid:c9abd438-7b11-4db6-a1f3-b49f592be64e> .
+
+<urn:uuid:c01ec4e1-8add-4d67-b3f3-7da2ef100cab>
+        a                               aocat:AO_Data_Resource ;
+        rdfs:label                      "Resource"@en ;
+        crmpe:PP4i_is_object_hosted_by  <http://atrium.eu/Service/C81E728D-9D4C-3F63-AF06-7F89CC14862C> .
+
+<http://atrium.eu/Concept/GoTriple/17834>
+        a                      aocat:AO_Concept ;
+        crm:P43_has_dimension  <urn:uuid:b9823cc8-604a-40e0-a6da-e7bb8f1f6247> ;
+        skos:prefLabel         "Blog post"@en ;
+        aocat:is_type_of       <urn:uuid:0150641c-6edd-4819-9440-a5a133eb4c43> .
+
+<urn:uuid:7c92d87b-ed54-4a1a-aa71-cf007d22ac91>
+        a                         aocat:AO_Dimension ;
+        rdfs:label                "Dimension"@en ;
+        crm:P2_has_type           <http://atrium.eu/Concept/MU/count> ;
+        crm:P40i_was_observed_in  <urn:uuid:b2f81536-f1e1-4b59-809e-b698bf88a4da> ;
+        crm:P90_has_value         "149015" ;
+        crm:P91_has_unit          <http://atrium.eu/Concept/MU/NumberOfResources> .
+
+<urn:uuid:aa5ab005-25b3-4332-a09f-beec44c27553>
+        a                               aocat:AO_Data_Resource ;
+        rdfs:label                      "Resource"@en ;
+        crmpe:PP4i_is_object_hosted_by  <http://atrium.eu/Service/A87FF679-A2F3-371D-9181-A67B7542122C> .
+
+<urn:uuid:99b475c7-5ed5-4fa2-941b-d2c968a07968>
+        a                               aocat:AO_Data_Resource ;
+        rdfs:label                      "Resource"@en ;
+        crmpe:PP4i_is_object_hosted_by  <http://atrium.eu/Service/C81E728D-9D4C-3F63-AF06-7F89CC14862C> .
+
+<urn:uuid:28987dcf-28f5-4d8d-82c9-327e80437005>
+        a                               aocat:AO_Data_Resource ;
+        rdfs:label                      "Resource"@en ;
+        crmpe:PP4i_is_object_hosted_by  <http://atrium.eu/Service/C81E728D-9D4C-3F63-AF06-7F89CC14862C> .
+
+<urn:uuid:bac603ee-f564-45f3-90ee-95ecc748d75e>
+        a                         aocat:AO_Dimension ;
+        rdfs:label                "Dimension"@en ;
+        crm:P2_has_type           <http://atrium.eu/Concept/MU/count> ;
+        crm:P40i_was_observed_in  <urn:uuid:d91ced18-3a0d-4631-8a96-83469b88a949> ;
+        crm:P90_has_value         "5909" ;
+        crm:P91_has_unit          <http://atrium.eu/Concept/MU/NumberOfResources> .
+
+<http://atrium.eu/Concept/ARIADNE%20Portal/15079>
+        a                      aocat:AO_Concept ;
+        crm:P43_has_dimension  <urn:uuid:d687fb95-dfe2-4ef8-a863-c7e3b7108f45> ;
+        skos:prefLabel         "Scientific analyses"@en ;
+        aocat:is_type_of       <urn:uuid:9b556681-e236-41ad-892d-f7ef44d7c72c> .
+
+<urn:uuid:236cd794-4e74-4942-ac19-0978f36a2fee>
+        a                     crm:E16_Measurement ;
+        rdfs:label            "Date"@en ;
+        crm:P4_has_time-span  <http://atrium.eu/Event/TimeSpan/2024-05-16> .
+
+<http://atrium.eu/Concept/MU/NumberOfResources>
+        a               crm:E58_Measurement_Unit ;
+        skos:prefLabel  "number of resources"@en .
+
+<urn:uuid:846e1053-c170-4a04-b8b5-343b2602f1e9>
+        a                         aocat:AO_Dimension ;
+        rdfs:label                "Dimension"@en ;
+        crm:P2_has_type           <http://atrium.eu/Concept/MU/count> ;
+        crm:P40i_was_observed_in  <urn:uuid:40900a7f-4c26-4c98-9f49-eedbd6f2bbf0> ;
+        crm:P90_has_value         "5" ;
+        crm:P91_has_unit          <http://atrium.eu/Concept/MU/NumberOfResources> .
+
+<http://atrium.eu/Concept/GoTriple/17842>
+        a                      aocat:AO_Concept ;
+        crm:P43_has_dimension  <urn:uuid:1f7d389f-0bf5-433a-82ef-0bc4d0749f0b> ;
+        skos:prefLabel         "Review"@en ;
+        aocat:is_type_of       <urn:uuid:2545e8e5-de85-442c-9504-97b4de783c9b> .
+
+<urn:uuid:ae73b1c0-1b6b-4a80-a4f6-ae136614c99a>
+        a                               aocat:AO_Data_Resource ;
+        rdfs:label                      "Resource"@en ;
+        crmpe:PP4i_is_object_hosted_by  <http://atrium.eu/Service/A87FF679-A2F3-371D-9181-A67B7542122C> .
+
+<urn:uuid:6653f725-857c-4065-a317-01893dcd9794>
+        a                               aocat:AO_Data_Resource ;
+        rdfs:label                      "Resource"@en ;
+        crmpe:PP4i_is_object_hosted_by  <http://atrium.eu/Service/A87FF679-A2F3-371D-9181-A67B7542122C> .
+
+<urn:uuid:a548ea7e-d250-4728-a72c-22f6a05a20ed>
+        a                               aocat:AO_Data_Resource ;
+        rdfs:label                      "Resource"@en ;
+        crmpe:PP4i_is_object_hosted_by  <http://atrium.eu/Service/A87FF679-A2F3-371D-9181-A67B7542122C> .
+
+<urn:uuid:0d5a0c49-3663-4ef7-b9f1-efa59a2f733e>
+        a                         aocat:AO_Dimension ;
+        rdfs:label                "Dimension"@en ;
+        crm:P2_has_type           <http://atrium.eu/Concept/MU/count> ;
+        crm:P40i_was_observed_in  <urn:uuid:67ff4187-abde-4f85-89da-937144018ec9> ;
+        crm:P90_has_value         "421697" ;
+        crm:P91_has_unit          <http://atrium.eu/Concept/MU/NumberOfResources> .
+
+<urn:uuid:c0044f5d-e335-4af6-977d-89c1b29c2b11>
+        a                     crm:E16_Measurement ;
+        rdfs:label            "Date"@en ;
+        crm:P4_has_time-span  <http://atrium.eu/Event/TimeSpan/2024-12-19> .
+
+<urn:uuid:c3c9cb02-a011-469a-aafc-2bf9d5f6fa03>
+        a                     crm:E16_Measurement ;
+        rdfs:label            "Date"@en ;
+        crm:P4_has_time-span  <http://atrium.eu/Event/TimeSpan/2024-05-20> .
+
+<http://atrium.eu/Concept/GoTriple/15088>
+        a                      aocat:AO_Concept ;
+        crm:P43_has_dimension  <urn:uuid:ea09675b-aa69-4409-b19f-eaa0713ac171> ;
+        skos:prefLabel         "Projects"@en ;
+        aocat:is_type_of       <urn:uuid:99e8bf05-7fdc-448e-8150-bc7cb038ad67> .
+
+<http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3>
+        a           aocat:AO_Service , crmpe:PE2_Hosting_Service ;
+        rdfs:label  "CLARIN VLO"@en .
+
+<urn:uuid:5a95d7b9-bc8e-49da-b4e9-82f22edfeb5f>
+        a                     crm:E16_Measurement ;
+        rdfs:label            "Date"@en ;
+        crm:P4_has_time-span  <http://atrium.eu/Event/TimeSpan/2024-12-19> .
+
+<urn:uuid:6e8dd4fb-7f99-42f2-9ebf-0b5808c9a903>
+        a                         aocat:AO_Dimension ;
+        rdfs:label                "Dimension"@en ;
+        crm:P2_has_type           <http://atrium.eu/Concept/MU/count> ;
+        crm:P40i_was_observed_in  <urn:uuid:807ea2b9-5468-4767-a348-1712ce660c12> ;
+        crm:P90_has_value         "99396" ;
+        crm:P91_has_unit          <http://atrium.eu/Concept/MU/NumberOfResources> .
+
+<http://atrium.eu/Concept/ARIADNE%20Portal/15074>
+        a                      aocat:AO_Concept ;
+        crm:P43_has_dimension  <urn:uuid:6e8dd4fb-7f99-42f2-9ebf-0b5808c9a903> ;
+        skos:prefLabel         "Maritime archaeology"@en ;
+        aocat:is_type_of       <urn:uuid:fb4499b6-4d1a-4cd5-8482-173bd172afb1> .
+
+<urn:uuid:d2e0601c-5fcf-4f30-a041-eede9ec4c23c>
+        a                               aocat:AO_Data_Resource ;
+        rdfs:label                      "Resource"@en ;
+        crmpe:PP4i_is_object_hosted_by  <http://atrium.eu/Service/A87FF679-A2F3-371D-9181-A67B7542122C> .
+
+<urn:uuid:7ac71c86-b3de-4ca2-aa34-200597cb95ec>
+        a                         aocat:AO_Dimension ;
+        rdfs:label                "Dimension"@en ;
+        crm:P2_has_type           <http://atrium.eu/Concept/MU/count> ;
+        crm:P40i_was_observed_in  <urn:uuid:7a87ab40-7653-4245-ae76-4a7087bc5e05> ;
+        crm:P90_has_value         "3010" ;
+        crm:P91_has_unit          <http://atrium.eu/Concept/MU/NumberOfResources> .
+
+<http://atrium.eu/Concept/GoTriple/17837>
+        a                      aocat:AO_Concept ;
+        crm:P43_has_dimension  <urn:uuid:d3d91d6c-9d84-4e1d-9133-34cfee06c73b> ;
+        skos:prefLabel         "Image"@en ;
+        aocat:is_type_of       <urn:uuid:ee72908e-200f-439b-8dee-2c2163de9d2b> .
+
+<urn:uuid:fb6f280a-6db8-45e7-a31f-af3765d0756f>
+        a                         aocat:AO_Dimension ;
+        rdfs:label                "Dimension"@en ;
+        crm:P2_has_type           <http://atrium.eu/Concept/MU/count> ;
+        crm:P40i_was_observed_in  <urn:uuid:660df0f4-bcf4-493c-9561-8fdcd281881e> ;
+        crm:P90_has_value         "452" ;
+        crm:P91_has_unit          <http://atrium.eu/Concept/MU/NumberOfResources> .
+
+<http://atrium.eu/Concept/CLARIN%20VLO/15082>
+        a                      aocat:AO_Concept ;
+        crm:P43_has_dimension  <urn:uuid:50237b31-b640-4e25-b9a4-e28b2b4585e7> ;
+        skos:prefLabel         "Text"@en ;
+        aocat:is_type_of       <urn:uuid:50f8026e-0d0e-45b3-83a2-91273ecdaba1> .
+
+<urn:uuid:b9da24f1-200f-4b9e-8290-bbd7a1692d8e>
+        a                               aocat:AO_Data_Resource ;
+        rdfs:label                      "Resource"@en ;
+        crmpe:PP4i_is_object_hosted_by  <http://atrium.eu/Service/A87FF679-A2F3-371D-9181-A67B7542122C> .
+
+<urn:uuid:07bf9203-ee9f-46ab-82cc-48bd37753e09>
+        a                     crm:E16_Measurement ;
+        rdfs:label            "Date"@en ;
+        crm:P4_has_time-span  <http://atrium.eu/Event/TimeSpan/2024-12-19> .
+
+<urn:uuid:1bb354e9-3f08-42a0-b313-1fcc66632454>
+        a                               aocat:AO_Data_Resource ;
+        rdfs:label                      "Resource"@en ;
+        crmpe:PP4i_is_object_hosted_by  <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> .
+
+<urn:uuid:944e9223-18ba-4eef-9b7a-5a6b6c1331ff>
+        a                     crm:E16_Measurement ;
+        rdfs:label            "Date"@en ;
+        crm:P4_has_time-span  <http://atrium.eu/Event/TimeSpan/2024-12-19> .
+
+<urn:uuid:c9abd438-7b11-4db6-a1f3-b49f592be64e>
+        a                               aocat:AO_Data_Resource ;
+        rdfs:label                      "Resource"@en ;
+        crmpe:PP4i_is_object_hosted_by  <http://atrium.eu/Service/A87FF679-A2F3-371D-9181-A67B7542122C> .
+
+<urn:uuid:f61ae5c0-fc73-4928-8caf-84e3d1139ebf>
+        a                         aocat:AO_Dimension ;
+        rdfs:label                "Dimension"@en ;
+        crm:P2_has_type           <http://atrium.eu/Concept/MU/count> ;
+        crm:P40i_was_observed_in  <urn:uuid:62b688ba-e722-449a-91cb-7164c150367a> ;
+        crm:P90_has_value         "309956" ;
+        crm:P91_has_unit          <http://atrium.eu/Concept/MU/NumberOfResources> .
+
+<urn:uuid:ee72908e-200f-439b-8dee-2c2163de9d2b>
+        a                               aocat:AO_Data_Resource ;
+        rdfs:label                      "Resource"@en ;
+        crmpe:PP4i_is_object_hosted_by  <http://atrium.eu/Service/A87FF679-A2F3-371D-9181-A67B7542122C> .
+
+<urn:uuid:fb4499b6-4d1a-4cd5-8482-173bd172afb1>
+        a                               aocat:AO_Data_Resource ;
+        rdfs:label                      "Resource"@en ;
+        crmpe:PP4i_is_object_hosted_by  <http://atrium.eu/Service/C81E728D-9D4C-3F63-AF06-7F89CC14862C> .
+
+<http://atrium.eu/Concept/GoTriple/15083>
+        a                      aocat:AO_Concept ;
+        crm:P43_has_dimension  <urn:uuid:5d636fd5-f2ad-4205-ba85-c1db2407c5b9> ;
+        skos:prefLabel         "Dataset"@en ;
+        aocat:is_type_of       <urn:uuid:aa5ab005-25b3-4332-a09f-beec44c27553> .
+
+<urn:uuid:cfa17b9f-4424-47a8-80a0-83b9b380c5b3>
+        a                         aocat:AO_Dimension ;
+        rdfs:label                "Dimension"@en ;
+        crm:P2_has_type           <http://atrium.eu/Concept/MU/count> ;
+        crm:P40i_was_observed_in  <urn:uuid:41ab74b6-b4bd-4e6a-8eee-59acab6dc2dd> ;
+        crm:P90_has_value         "117263" ;
+        crm:P91_has_unit          <http://atrium.eu/Concept/MU/NumberOfResources> .
+
+<http://atrium.eu/Concept/GoTriple/17845>
+        a                      aocat:AO_Concept ;
+        crm:P43_has_dimension  <urn:uuid:7c92d87b-ed54-4a1a-aa71-cf007d22ac91> ;
+        skos:prefLabel         "Other"@en ;
+        aocat:is_type_of       <urn:uuid:ceffffe0-ad93-4562-801f-4557aadd4e48> .
+
+<urn:uuid:f46dad90-0a43-4368-92c1-3204d101d35c>
+        a                         aocat:AO_Dimension ;
+        rdfs:label                "Dimension"@en ;
+        crm:P2_has_type           <http://atrium.eu/Concept/MU/count> ;
+        crm:P40i_was_observed_in  <urn:uuid:fa75e788-2e6f-4b4c-9881-881f3ce858bd> ;
+        crm:P90_has_value         "83366" ;
+        crm:P91_has_unit          <http://atrium.eu/Concept/MU/NumberOfResources> .
+
+<urn:uuid:2545e8e5-de85-442c-9504-97b4de783c9b>
+        a                               aocat:AO_Data_Resource ;
+        rdfs:label                      "Resource"@en ;
+        crmpe:PP4i_is_object_hosted_by  <http://atrium.eu/Service/A87FF679-A2F3-371D-9181-A67B7542122C> .
+
+<http://atrium.eu/Concept/ARIADNE%20Portal/15069>
+        a                      aocat:AO_Concept ;
+        crm:P43_has_dimension  <urn:uuid:95ec606a-fbc0-4bf5-b765-960a7e007314> ;
+        skos:prefLabel         "Artefacts"@en ;
+        aocat:is_type_of       <urn:uuid:249a9cd5-e457-481f-81ca-c68d5ab9917a> .
+
+<urn:uuid:50f8026e-0d0e-45b3-83a2-91273ecdaba1>
+        a                               aocat:AO_Data_Resource ;
+        rdfs:label                      "Resource"@en ;
+        crmpe:PP4i_is_object_hosted_by  <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> .
+
+<urn:uuid:73e489d1-20d8-4454-ab7f-20123a4cc7ca>
+        a                     crm:E16_Measurement ;
+        rdfs:label            "Date"@en ;
+        crm:P4_has_time-span  <http://atrium.eu/Event/TimeSpan/2024-12-19> .
+
+<urn:uuid:e8e69119-3f43-4ba1-a98f-33bf474973e0>
+        a                               aocat:AO_Data_Resource ;
+        rdfs:label                      "Resource"@en ;
+        crmpe:PP4i_is_object_hosted_by  <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> .
+
+<http://atrium.eu/Concept/GoTriple/17832>
+        a                      aocat:AO_Concept ;
+        crm:P43_has_dimension  <urn:uuid:c83d30a4-acaa-4092-8144-6520ca44a5d0> ;
+        skos:prefLabel         "Article"@en ;
+        aocat:is_type_of       <urn:uuid:e63ba3b5-be61-49a0-9956-c8d57bd75ab1> .
+
+<urn:uuid:009ebb3b-e169-443f-a0ae-d56ad2f065f4>
+        a                     crm:E16_Measurement ;
+        rdfs:label            "Date"@en ;
+        crm:P4_has_time-span  <http://atrium.eu/Event/TimeSpan/2024-12-19> .
+
+<http://atrium.eu/Concept/ARIADNE%20Portal/15077>
+        a                      aocat:AO_Concept ;
+        crm:P43_has_dimension  <urn:uuid:4dc5d284-d2ed-4e0c-9b4a-98f63d122719> ;
+        skos:prefLabel         "Dating"@en ;
+        aocat:is_type_of       <urn:uuid:8f6faa33-faa4-4627-9e23-2f388b3a3aec> .
+
+<urn:uuid:47ef7322-872b-40b9-9946-660c5982d059>
+        a                         aocat:AO_Dimension ;
+        rdfs:label                "Dimension"@en ;
+        crm:P2_has_type           <http://atrium.eu/Concept/MU/count> ;
+        crm:P40i_was_observed_in  <urn:uuid:e42984cb-4646-4ecf-a1da-7bbb181a0b57> ;
+        crm:P90_has_value         "579" ;
+        crm:P91_has_unit          <http://atrium.eu/Concept/MU/NumberOfResources> .
+
+<urn:uuid:35f38962-4cb7-4c00-9361-279df60ca1c7>
+        a                         aocat:AO_Dimension ;
+        rdfs:label                "Dimension"@en ;
+        crm:P2_has_type           <http://atrium.eu/Concept/MU/count> ;
+        crm:P40i_was_observed_in  <urn:uuid:73e489d1-20d8-4454-ab7f-20123a4cc7ca> ;
+        crm:P90_has_value         "477352" ;
+        crm:P91_has_unit          <http://atrium.eu/Concept/MU/NumberOfResources> .
+
+<urn:uuid:9c0ab23a-7a1f-47dd-b4a6-733bc51406a1>
+        a                     crm:E16_Measurement ;
+        rdfs:label            "Date"@en ;
+        crm:P4_has_time-span  <http://atrium.eu/Event/TimeSpan/2024-12-19> .
+
+<urn:uuid:d687fb95-dfe2-4ef8-a863-c7e3b7108f45>
+        a                         aocat:AO_Dimension ;
+        rdfs:label                "Dimension"@en ;
+        crm:P2_has_type           <http://atrium.eu/Concept/MU/count> ;
+        crm:P40i_was_observed_in  <urn:uuid:c3c9cb02-a011-469a-aafc-2bf9d5f6fa03> ;
+        crm:P90_has_value         "9032" ;
+        crm:P91_has_unit          <http://atrium.eu/Concept/MU/NumberOfResources> .
+
+<urn:uuid:aa5d9946-f176-4446-ac74-488754979f4c>
+        a                         aocat:AO_Dimension ;
+        rdfs:label                "Dimension"@en ;
+        crm:P2_has_type           <http://atrium.eu/Concept/MU/count> ;
+        crm:P40i_was_observed_in  <urn:uuid:acfaaadd-ec56-415a-824c-597eb20288d7> ;
+        crm:P90_has_value         "18419" ;
+        crm:P91_has_unit          <http://atrium.eu/Concept/MU/NumberOfResources> .
+
+<http://atrium.eu/Concept/GoTriple/17840>
+        a                      aocat:AO_Concept ;
+        crm:P43_has_dimension  <urn:uuid:1d3fe8cd-d67f-4ec2-9e1d-03ea20300fbd> ;
+        skos:prefLabel         "Periodical"@en ;
+        aocat:is_type_of       <urn:uuid:d2e0601c-5fcf-4f30-a041-eede9ec4c23c> .
+
+<urn:uuid:3a1a1d6e-e60d-4c43-bb84-2a63a0b0f867>
+        a                     crm:E16_Measurement ;
+        rdfs:label            "Date"@en ;
+        crm:P4_has_time-span  <http://atrium.eu/Event/TimeSpan/2024-05-20> .
+
+<urn:uuid:170c42e5-1435-48e6-97c2-81a336451117>
+        a                         aocat:AO_Dimension ;
+        rdfs:label                "Dimension"@en ;
+        crm:P2_has_type           <http://atrium.eu/Concept/MU/count> ;
+        crm:P40i_was_observed_in  <urn:uuid:a154a20d-1493-4208-b7f3-7192e73f5635> ;
+        crm:P90_has_value         "579099" ;
+        crm:P91_has_unit          <http://atrium.eu/Concept/MU/NumberOfResources> .
+
+<http://atrium.eu/Concept/CLARIN%20VLO/15085>
+        a                      aocat:AO_Concept ;
+        crm:P43_has_dimension  <urn:uuid:6ce2f1c3-e918-440c-a650-e6c87e416c9e> ;
+        skos:prefLabel         "Software"@en ;
+        aocat:is_type_of       <urn:uuid:dc7a6ecf-fc2d-445e-a85a-75e10147ed32> .
+
+<urn:uuid:e42984cb-4646-4ecf-a1da-7bbb181a0b57>
+        a                     crm:E16_Measurement ;
+        rdfs:label            "Date"@en ;
+        crm:P4_has_time-span  <http://atrium.eu/Event/TimeSpan/2024-05-16> .
+
+<urn:uuid:1f7d389f-0bf5-433a-82ef-0bc4d0749f0b>
+        a                         aocat:AO_Dimension ;
+        rdfs:label                "Dimension"@en ;
+        crm:P2_has_type           <http://atrium.eu/Concept/MU/count> ;
+        crm:P40i_was_observed_in  <urn:uuid:755bc785-2021-4829-92c3-6ac5734aa647> ;
+        crm:P90_has_value         "236276" ;
+        crm:P91_has_unit          <http://atrium.eu/Concept/MU/NumberOfResources> .
+
+<http://atrium.eu/Concept/SSH%20Open%20Marketplace/15092>
+        a                      aocat:AO_Concept ;
+        crm:P43_has_dimension  <urn:uuid:7ac71c86-b3de-4ca2-aa34-200597cb95ec> ;
+        skos:prefLabel         "Publications"@en ;
+        aocat:is_type_of       <urn:uuid:a119fb19-e6f4-4e7c-9234-557fb0662bca> .
+
+<urn:uuid:0aaccd91-e30c-43d8-a17d-bd7f0a704aab>
+        a                         aocat:AO_Dimension ;
+        rdfs:label                "Dimension"@en ;
+        crm:P2_has_type           <http://atrium.eu/Concept/MU/count> ;
+        crm:P40i_was_observed_in  <urn:uuid:b00125ac-7a24-4b72-ab9d-9dc46f651146> ;
+        crm:P90_has_value         "26805" ;
+        crm:P91_has_unit          <http://atrium.eu/Concept/MU/NumberOfResources> .
+
+<urn:uuid:660df0f4-bcf4-493c-9561-8fdcd281881e>
+        a                     crm:E16_Measurement ;
+        rdfs:label            "Date"@en ;
+        crm:P4_has_time-span  <http://atrium.eu/Event/TimeSpan/2024-05-07> .
+
+<http://atrium.eu/Concept/ARIADNE%20Portal/15072>
+        a                      aocat:AO_Concept ;
+        crm:P43_has_dimension  <urn:uuid:f61ae5c0-fc73-4928-8caf-84e3d1139ebf> ;
+        skos:prefLabel         "Fieldwork reports"@en ;
+        aocat:is_type_of       <urn:uuid:c01ec4e1-8add-4d67-b3f3-7da2ef100cab> .
+
+<urn:uuid:755bc785-2021-4829-92c3-6ac5734aa647>
+        a                     crm:E16_Measurement ;
+        rdfs:label            "Date"@en ;
+        crm:P4_has_time-span  <http://atrium.eu/Event/TimeSpan/2024-12-19> .
+
+<urn:uuid:bb440138-2b26-4284-82a6-c9968d8ee454>
+        a                               aocat:AO_Data_Resource ;
+        rdfs:label                      "Resource"@en ;
+        crmpe:PP4i_is_object_hosted_by  <http://atrium.eu/Service/C81E728D-9D4C-3F63-AF06-7F89CC14862C> .
+
+<urn:uuid:807ea2b9-5468-4767-a348-1712ce660c12>
+        a                     crm:E16_Measurement ;
+        rdfs:label            "Date"@en ;
+        crm:P4_has_time-span  <http://atrium.eu/Event/TimeSpan/2024-05-20> .
+
+<http://atrium.eu/Concept/GoTriple/17835>
+        a                      aocat:AO_Concept ;
+        crm:P43_has_dimension  <urn:uuid:a214c0f7-b881-4300-b8d7-ba02f47a483c> ;
+        skos:prefLabel         "Book"@en ;
+        aocat:is_type_of       <urn:uuid:6653f725-857c-4065-a317-01893dcd9794> .
+
+<urn:uuid:9b556681-e236-41ad-892d-f7ef44d7c72c>
+        a                               aocat:AO_Data_Resource ;
+        rdfs:label                      "Resource"@en ;
+        crmpe:PP4i_is_object_hosted_by  <http://atrium.eu/Service/C81E728D-9D4C-3F63-AF06-7F89CC14862C> .
+
+<urn:uuid:d3d91d6c-9d84-4e1d-9133-34cfee06c73b>
+        a                         aocat:AO_Dimension ;
+        rdfs:label                "Dimension"@en ;
+        crm:P2_has_type           <http://atrium.eu/Concept/MU/count> ;
+        crm:P40i_was_observed_in  <urn:uuid:d0dd308b-7ca0-43fd-b3c9-5709dc49779b> ;
+        crm:P90_has_value         "127752" ;
+        crm:P91_has_unit          <http://atrium.eu/Concept/MU/NumberOfResources> .
+
+<http://atrium.eu/Concept/ARIADNE%20Portal/15080>
+        a                      aocat:AO_Concept ;
+        crm:P43_has_dimension  <urn:uuid:5a7dbf66-d3ff-468c-9184-abe1575b6b3a> ;
+        skos:prefLabel         "Building survey"@en ;
+        aocat:is_type_of       <urn:uuid:5a6bdc23-bb84-474b-be95-1448ae6a6764> .
+
+<urn:uuid:8cc9b9c6-1fb8-4d0e-be61-23129dcc563e>
+        a                     crm:E16_Measurement ;
+        rdfs:label            "Date"@en ;
+        crm:P4_has_time-span  <http://atrium.eu/Event/TimeSpan/2024-05-20> .
+
+<urn:uuid:bcf159bb-fd43-44da-a802-e7593e004414>
+        a                     crm:E16_Measurement ;
+        rdfs:label            "Date"@en ;
+        crm:P4_has_time-span  <http://atrium.eu/Event/TimeSpan/2024-05-16> .
+
+<urn:uuid:03af7fb5-0dc3-4eb3-b7f3-6da48b3bdee9>
+        a                     crm:E16_Measurement ;
+        rdfs:label            "Date"@en ;
+        crm:P4_has_time-span  <http://atrium.eu/Event/TimeSpan/2024-05-07> .
+
+<urn:uuid:d91ced18-3a0d-4631-8a96-83469b88a949>
+        a                     crm:E16_Measurement ;
+        rdfs:label            "Date"@en ;
+        crm:P4_has_time-span  <http://atrium.eu/Event/TimeSpan/2024-05-16> .
+
+<urn:uuid:6b8eebfe-c932-4246-b519-a2b64eb9d43c>
+        a                         aocat:AO_Dimension ;
+        rdfs:label                "Dimension"@en ;
+        crm:P2_has_type           <http://atrium.eu/Concept/MU/count> ;
+        crm:P40i_was_observed_in  <urn:uuid:ac5b22c8-d5a1-451f-8ab2-60bf1cdc1e9e> ;
+        crm:P90_has_value         "106451" ;
+        crm:P91_has_unit          <http://atrium.eu/Concept/MU/NumberOfResources> .
+
+<urn:uuid:817e1800-542f-4287-aee0-1cdaa343382a>
+        a                     crm:E16_Measurement ;
+        rdfs:label            "Date"@en ;
+        crm:P4_has_time-span  <http://atrium.eu/Event/TimeSpan/2024-05-20> .
+
+<urn:uuid:ed4fc1c2-b548-4275-8ca9-08892dbf79aa>
+        a                         aocat:AO_Dimension ;
+        rdfs:label                "Dimension"@en ;
+        crm:P2_has_type           <http://atrium.eu/Concept/MU/count> ;
+        crm:P40i_was_observed_in  <urn:uuid:fbaa0900-fc66-4362-b0b4-75dcbbcdf9c8> ;
+        crm:P90_has_value         "11576" ;
+        crm:P91_has_unit          <http://atrium.eu/Concept/MU/NumberOfResources> .
+
+<urn:uuid:9d0a0cb7-2d92-4aaa-8aa0-247de57272e9>
+        a                     crm:E16_Measurement ;
+        rdfs:label            "Date"@en ;
+        crm:P4_has_time-span  <http://atrium.eu/Event/TimeSpan/2024-12-19> .
+
+<urn:uuid:7a87ab40-7653-4245-ae76-4a7087bc5e05>
+        a                     crm:E16_Measurement ;
+        rdfs:label            "Date"@en ;
+        crm:P4_has_time-span  <http://atrium.eu/Event/TimeSpan/2024-05-07> .
+
+<http://atrium.eu/Concept/GoTriple/17843>
+        a                      aocat:AO_Concept ;
+        crm:P43_has_dimension  <urn:uuid:86411743-e40a-4f42-ad51-172c18b73533> ;
+        skos:prefLabel         "Thesis"@en ;
+        aocat:is_type_of       <urn:uuid:be040bdd-45db-4743-a5ad-cd6d33792d52> .
+
+<urn:uuid:7a4191d6-be40-41f3-a042-edc1901001dc>
+        a                               aocat:AO_Data_Resource ;
+        rdfs:label                      "Resource"@en ;
+        crmpe:PP4i_is_object_hosted_by  <http://atrium.eu/Service/C81E728D-9D4C-3F63-AF06-7F89CC14862C> .
+
+<urn:uuid:79c6db4c-481e-4879-9024-5c94773ef085>
+        a                         aocat:AO_Dimension ;
+        rdfs:label                "Dimension"@en ;
+        crm:P2_has_type           <http://atrium.eu/Concept/MU/count> ;
+        crm:P40i_was_observed_in  <urn:uuid:c0044f5d-e335-4af6-977d-89c1b29c2b11> ;
+        crm:P90_has_value         "5073" ;
+        crm:P91_has_unit          <http://atrium.eu/Concept/MU/NumberOfResources> .
+
+<urn:uuid:d0dd308b-7ca0-43fd-b3c9-5709dc49779b>
+        a                     crm:E16_Measurement ;
+        rdfs:label            "Date"@en ;
+        crm:P4_has_time-span  <http://atrium.eu/Event/TimeSpan/2024-12-19> .
+
+<urn:uuid:5354e255-4f6e-4f50-be81-6715cebb382f>
+        a                               aocat:AO_Data_Resource ;
+        rdfs:label                      "Resource"@en ;
+        crmpe:PP4i_is_object_hosted_by  <http://atrium.eu/Service/C81E728D-9D4C-3F63-AF06-7F89CC14862C> .
+
+<urn:uuid:b9823cc8-604a-40e0-a6da-e7bb8f1f6247>
+        a                         aocat:AO_Dimension ;
+        rdfs:label                "Dimension"@en ;
+        crm:P2_has_type           <http://atrium.eu/Concept/MU/count> ;
+        crm:P40i_was_observed_in  <urn:uuid:07bf9203-ee9f-46ab-82cc-48bd37753e09> ;
+        crm:P90_has_value         "0" ;
+        crm:P91_has_unit          <http://atrium.eu/Concept/MU/NumberOfResources> .
+
+<urn:uuid:20844cfb-e1d2-4cf3-88b8-7c037acfb4fe>
+        a                     crm:E16_Measurement ;
+        rdfs:label            "Date"@en ;
+        crm:P4_has_time-span  <http://atrium.eu/Event/TimeSpan/2024-12-19> .
+
+<http://atrium.eu/Event/TimeSpan/2024-05-20>
+        a           crm:E52_Time-Span ;
+        rdfs:label  "2024-05-20"@en .
+
+<urn:uuid:0075a48b-e5bf-4be4-9176-cc235712ae3b>
+        a                         aocat:AO_Dimension ;
+        rdfs:label                "Dimension"@en ;
+        crm:P2_has_type           <http://atrium.eu/Concept/MU/count> ;
+        crm:P40i_was_observed_in  <urn:uuid:5a95d7b9-bc8e-49da-b4e9-82f22edfeb5f> ;
+        crm:P90_has_value         "14" ;
+        crm:P91_has_unit          <http://atrium.eu/Concept/MU/NumberOfResources> .
+
+<urn:uuid:b2f81536-f1e1-4b59-809e-b698bf88a4da>
+        a                     crm:E16_Measurement ;
+        rdfs:label            "Date"@en ;
+        crm:P4_has_time-span  <http://atrium.eu/Event/TimeSpan/2024-12-19> .
+
+<urn:uuid:62b688ba-e722-449a-91cb-7164c150367a>
+        a                     crm:E16_Measurement ;
+        rdfs:label            "Date"@en ;
+        crm:P4_has_time-span  <http://atrium.eu/Event/TimeSpan/2024-05-20> .
+
+<urn:uuid:6ce2f1c3-e918-440c-a650-e6c87e416c9e>
+        a                         aocat:AO_Dimension ;
+        rdfs:label                "Dimension"@en ;
+        crm:P2_has_type           <http://atrium.eu/Concept/MU/count> ;
+        crm:P40i_was_observed_in  <urn:uuid:bcf159bb-fd43-44da-a802-e7593e004414> ;
+        crm:P90_has_value         "1702" ;
+        crm:P91_has_unit          <http://atrium.eu/Concept/MU/NumberOfResources> .
+
+<urn:uuid:4dc5d284-d2ed-4e0c-9b4a-98f63d122719>
+        a                         aocat:AO_Dimension ;
+        rdfs:label                "Dimension"@en ;
+        crm:P2_has_type           <http://atrium.eu/Concept/MU/count> ;
+        crm:P40i_was_observed_in  <urn:uuid:c0193d2e-3a2f-456d-b534-d53f125373e4> ;
+        crm:P90_has_value         "12833" ;
+        crm:P91_has_unit          <http://atrium.eu/Concept/MU/NumberOfResources> .
+
+<http://atrium.eu/Concept/GoTriple/15089>
+        a                      aocat:AO_Concept ;
+        crm:P43_has_dimension  <urn:uuid:3bf9ec34-6b0f-4115-afc2-a3fb723484f9> ;
+        skos:prefLabel         "Profiles"@en ;
+        aocat:is_type_of       <urn:uuid:d7ca99c6-6680-4211-92be-5fc563433063> .
+
+<urn:uuid:dfea602a-a232-4337-8339-a9be70c3a0d5>
+        a                     crm:E16_Measurement ;
+        rdfs:label            "Date"@en ;
+        crm:P4_has_time-span  <http://atrium.eu/Event/TimeSpan/2024-05-16> .
+
+<urn:uuid:d1d663db-2f32-4ec6-ab3c-d59288c005b0>
+        a                     crm:E16_Measurement ;
+        rdfs:label            "Date"@en ;
+        crm:P4_has_time-span  <http://atrium.eu/Event/TimeSpan/2024-05-20> .
+
+<urn:uuid:a687a0d8-eb10-4e9d-a4f8-902be36a5ec8>
+        a                         aocat:AO_Dimension ;
+        rdfs:label                "Dimension"@en ;
+        crm:P2_has_type           <http://atrium.eu/Concept/MU/count> ;
+        crm:P40i_was_observed_in  <urn:uuid:03af7fb5-0dc3-4eb3-b7f3-6da48b3bdee9> ;
+        crm:P90_has_value         "50" ;
+        crm:P91_has_unit          <http://atrium.eu/Concept/MU/NumberOfResources> .
+
+<urn:uuid:a214c0f7-b881-4300-b8d7-ba02f47a483c>
+        a                         aocat:AO_Dimension ;
+        rdfs:label                "Dimension"@en ;
+        crm:P2_has_type           <http://atrium.eu/Concept/MU/count> ;
+        crm:P40i_was_observed_in  <urn:uuid:6a234ad4-043c-47bf-8673-7fccde9c6423> ;
+        crm:P90_has_value         "642102" ;
+        crm:P91_has_unit          <http://atrium.eu/Concept/MU/NumberOfResources> .
+
+<urn:uuid:a154a20d-1493-4208-b7f3-7192e73f5635>
+        a                     crm:E16_Measurement ;
+        rdfs:label            "Date"@en ;
+        crm:P4_has_time-span  <http://atrium.eu/Event/TimeSpan/2024-12-19> .
+
+<urn:uuid:68cc1966-e4ae-4ef2-be15-1571a84bd777>
+        a                         aocat:AO_Dimension ;
+        rdfs:label                "Dimension"@en ;
+        crm:P2_has_type           <http://atrium.eu/Concept/MU/count> ;
+        crm:P40i_was_observed_in  <urn:uuid:9c0ab23a-7a1f-47dd-b4a6-733bc51406a1> ;
+        crm:P90_has_value         "3584747" ;
+        crm:P91_has_unit          <http://atrium.eu/Concept/MU/NumberOfResources> .
+
+<urn:uuid:e40c3f1a-e3ae-4e3b-9876-ad908b36baa2>
+        a                         aocat:AO_Dimension ;
+        rdfs:label                "Dimension"@en ;
+        crm:P2_has_type           <http://atrium.eu/Concept/MU/count> ;
+        crm:P40i_was_observed_in  <urn:uuid:817e1800-542f-4287-aee0-1cdaa343382a> ;
+        crm:P90_has_value         "1512471" ;
+        crm:P91_has_unit          <http://atrium.eu/Concept/MU/NumberOfResources> .
+
+<urn:uuid:30b64572-1284-48c0-b70c-0b4cf67924f5>
+        a                               aocat:AO_Data_Resource ;
+        rdfs:label                      "Resource"@en ;
+        crmpe:PP4i_is_object_hosted_by  <http://atrium.eu/Service/C4CA4238-A0B9-3382-8DCC-509A6F75849B> .
+
+<http://atrium.eu/Concept/ARIADNE%20Portal/15075>
+        a                      aocat:AO_Concept ;
+        crm:P43_has_dimension  <urn:uuid:f46dad90-0a43-4368-92c1-3204d101d35c> ;
+        skos:prefLabel         "Inscriptions"@en ;
+        aocat:is_type_of       <urn:uuid:6ed4cc75-88ff-4896-8c01-076189718d7a> .
+
+<http://atrium.eu/Event/TimeSpan/2024-05-07>
+        a           crm:E52_Time-Span ;
+        rdfs:label  "2024-05-07"@en .
+
+<urn:uuid:41ab74b6-b4bd-4e6a-8eee-59acab6dc2dd>
+        a                     crm:E16_Measurement ;
+        rdfs:label            "Date"@en ;
+        crm:P4_has_time-span  <http://atrium.eu/Event/TimeSpan/2024-05-20> .
+
+<urn:uuid:e63ba3b5-be61-49a0-9956-c8d57bd75ab1>
+        a                               aocat:AO_Data_Resource ;
+        rdfs:label                      "Resource"@en ;
+        crmpe:PP4i_is_object_hosted_by  <http://atrium.eu/Service/A87FF679-A2F3-371D-9181-A67B7542122C> .
+
+<http://atrium.eu/Concept/GoTriple/17838>
+        a                      aocat:AO_Concept ;
+        crm:P43_has_dimension  <urn:uuid:3bac8a77-a04a-4fdb-acf6-ca6538a61c19> ;
+        skos:prefLabel         "Learning object"@en ;
+        aocat:is_type_of       <urn:uuid:eedd4252-25f8-45f0-87cc-cd45bfc797f7> .
+
+<urn:uuid:ea09675b-aa69-4409-b19f-eaa0713ac171>
+        a                         aocat:AO_Dimension ;
+        rdfs:label                "Dimension"@en ;
+        crm:P2_has_type           <http://atrium.eu/Concept/MU/count> ;
+        crm:P40i_was_observed_in  <urn:uuid:20844cfb-e1d2-4cf3-88b8-7c037acfb4fe> ;
+        crm:P90_has_value         "23173" ;
+        crm:P91_has_unit          <http://atrium.eu/Concept/MU/NumberOfResources> .
+
+<http://atrium.eu/Concept/CLARIN%20VLO/15083>
+        a                      aocat:AO_Concept ;
+        crm:P43_has_dimension  <urn:uuid:6b8eebfe-c932-4246-b519-a2b64eb9d43c> ;
+        skos:prefLabel         "Dataset"@en ;
+        aocat:is_type_of       <urn:uuid:e8e69119-3f43-4ba1-a98f-33bf474973e0> .
+
+<urn:uuid:86411743-e40a-4f42-ad51-172c18b73533>
+        a                         aocat:AO_Dimension ;
+        rdfs:label                "Dimension"@en ;
+        crm:P2_has_type           <http://atrium.eu/Concept/MU/count> ;
+        crm:P40i_was_observed_in  <urn:uuid:a912bacd-6ae1-4d1b-8b82-b2e54eb03508> ;
+        crm:P90_has_value         "1816353" ;
+        crm:P91_has_unit          <http://atrium.eu/Concept/MU/NumberOfResources> .
+
+<urn:uuid:3bd61411-655e-4b8a-8aab-17eb659f9dbd>
+        a                         aocat:AO_Dimension ;
+        rdfs:label                "Dimension"@en ;
+        crm:P2_has_type           <http://atrium.eu/Concept/MU/count> ;
+        crm:P40i_was_observed_in  <urn:uuid:c9419221-58f9-451f-b210-1952ec90e9bf> ;
+        crm:P90_has_value         "25671" ;
+        crm:P91_has_unit          <http://atrium.eu/Concept/MU/NumberOfResources> .
+
+<http://atrium.eu/Service/A87FF679-A2F3-371D-9181-A67B7542122C>
+        a           aocat:AO_Service , crmpe:PE2_Hosting_Service ;
+        rdfs:label  "GoTriple"@en .
+
+<urn:uuid:83616f8e-6a87-468a-9e8e-d58c2e9b311f>
+        a                         aocat:AO_Dimension ;
+        rdfs:label                "Dimension"@en ;
+        crm:P2_has_type           <http://atrium.eu/Concept/MU/count> ;
+        crm:P40i_was_observed_in  <urn:uuid:dda60515-2e0b-4e5d-bd1f-b1602bd3f3c9> ;
+        crm:P90_has_value         "1720" ;
+        crm:P91_has_unit          <http://atrium.eu/Concept/MU/NumberOfResources> .
+
+<urn:uuid:1d3fe8cd-d67f-4ec2-9e1d-03ea20300fbd>
+        a                         aocat:AO_Dimension ;
+        rdfs:label                "Dimension"@en ;
+        crm:P2_has_type           <http://atrium.eu/Concept/MU/count> ;
+        crm:P40i_was_observed_in  <urn:uuid:9d0a0cb7-2d92-4aaa-8aa0-247de57272e9> ;
+        crm:P90_has_value         "15272" ;
+        crm:P91_has_unit          <http://atrium.eu/Concept/MU/NumberOfResources> .
+
+<http://atrium.eu/Concept/SSH%20Open%20Marketplace/15090>
+        a                      aocat:AO_Concept ;
+        crm:P43_has_dimension  <urn:uuid:08f779ae-1543-475e-8e7f-f6cbc605e148> ;
+        skos:prefLabel         "Tools and services"@en ;
+        aocat:is_type_of       <urn:uuid:30b64572-1284-48c0-b70c-0b4cf67924f5> .
+
+<urn:uuid:c83d30a4-acaa-4092-8144-6520ca44a5d0>
+        a                         aocat:AO_Dimension ;
+        rdfs:label                "Dimension"@en ;
+        crm:P2_has_type           <http://atrium.eu/Concept/MU/count> ;
+        crm:P40i_was_observed_in  <urn:uuid:009ebb3b-e169-443f-a0ae-d56ad2f065f4> ;
+        crm:P90_has_value         "8064818" ;
+        crm:P91_has_unit          <http://atrium.eu/Concept/MU/NumberOfResources> .
+
+<urn:uuid:c0193d2e-3a2f-456d-b534-d53f125373e4>
+        a                     crm:E16_Measurement ;
+        rdfs:label            "Date"@en ;
+        crm:P4_has_time-span  <http://atrium.eu/Event/TimeSpan/2024-05-20> .
+
+<urn:uuid:0a310514-77f3-45a7-9d4a-ec38ed1571bf>
+        a                               aocat:AO_Data_Resource ;
+        rdfs:label                      "Resource"@en ;
+        crmpe:PP4i_is_object_hosted_by  <http://atrium.eu/Service/C4CA4238-A0B9-3382-8DCC-509A6F75849B> .

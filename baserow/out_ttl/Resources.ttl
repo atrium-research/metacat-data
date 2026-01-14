@@ -1,0 +1,526 @@
+@prefix aocat: <https://www.ariadne-infrastructure.eu/resource/ao/cat/1.1/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crmpe: <http://parthenos.d4science.org/CRMext/CRMpe/> .
+@prefix atrium: <http://atrium.eu/> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://atrium.eu/Resource/Public%20Broadcasting%20Metadata%20Group/7647966B-7343-3290-8867-3252E490F736>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "PBCore"@en .
+
+<http://atrium.eu/Resource/Austrian%20Centre%20for%20Digital%20Humanities%20and%20Cultural%20Heritage/E00DA03B-685A-3DD1-8FB6-A08AF0923DE0>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "ÖFOS 2012. Austrian Fields of Science and Technology Classification 2012"@en .
+
+<http://atrium.eu/Resource/Music%20Encoding%20Initiative%20Consortium/8613985E-C49E-38F7-97AE-6439E879BB2A>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "MEI (Music Encoding Initiative)"@en .
+
+<http://atrium.eu/Resource/Crossref/4C56FF4C-E4AA-3957-BAA5-DFF913DF997A>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "Crossref retraction watch"@en .
+
+<http://atrium.eu/Resource/CARARE%20Association/1F0E3DAD-9990-3345-B743-9F8FFABDFFC4>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "CARARE"@en .
+
+<http://atrium.eu/Resource/Library%20of%20Congress/3C59DC04-8E88-3024-BBE8-079A5C74D079>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "METS"@en .
+
+<http://atrium.eu/Resource/The%20Getty%20Research%20Institute/A3F390D8-8E4C-31F2-B47B-FA2F1B5F87DB>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "Getty Thesaurus of Geographic Names"@en .
+
+<urn:uuid:a37f847a-7c55-40c2-bd16-2c4dbab6b3ab>
+        a       aocat:AO_Concept .
+
+<http://atrium.eu/Resource/EKT/C20AD4D7-6FE9-3759-AA27-A0C99BFF6710>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "TRIPLE Vocabulary"@en .
+
+<http://atrium.eu/Resource/Forum%20on%20Information%20Standards%20in%20Heritage%20%28FISH%29/AD61AB14-3223-3FBC-A4C7-D2583BE69251>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "Evidence Thesaurus"@en .
+
+<http://atrium.eu/Resource/SSHOC/9B861925-1A19-357C-BF70-779273E95AA6>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "EOSC Resource Geographical Availability"@en .
+
+<http://atrium.eu/Resource/Society%20of%20American%20Archivists/93DB85ED-909C-3383-8FF9-5CCFA94CEBD9>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "EAD (Encoded Archival Description)"@en .
+
+<http://atrium.eu/Resource/CLARIN%20ERIC/5FD0B37C-D7DB-3B00-B97B-A6CE92BF5ADD>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "CMDI: ISO 639-1 language codes"@en .
+
+<http://atrium.eu/Resource/IFLA/2838023A-778D-3AEC-9C21-2708F721B788>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "FRBR /LRMoo"@en .
+
+<http://atrium.eu/Resource/Huma-Num%20consortium%20MASA%2B/A3C65C29-7427-3FD0-93EE-8A9BF8AE7D0B>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "OpenArchaeo Semantic Data Model"@en .
+
+<http://atrium.eu/Service/A87FF679-A2F3-371D-9181-A67B7542122C>
+        a               aocat:AO_Service ;
+        rdfs:label      "GoTriple"@en ;
+        aocat:has_type  <urn:uuid:86660e09-0268-4d2f-9c1c-2d8ee2c19abf> .
+
+<urn:uuid:d51f273f-42e5-41b4-9449-5aa19ebf52b2>
+        a       aocat:AO_Concept .
+
+<http://atrium.eu/Resource/Forum%20on%20Information%20Standards%20in%20Heritage%20%28FISH%29/D09BF415-44A3-365A-86C9-077EBB5E35C3>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "Farmstead Thesaurus"@en .
+
+<http://atrium.eu/Resource/Lexvo.org/6C8349CC-7260-3E62-A3B1-396831A8398F>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "Lexvo - language names and ISO 639-3 language codes"@en .
+
+<http://atrium.eu/Resource/Pleiades/E369853D-F766-3A44-A1ED-0FF613F563BD>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "Pleiades"@en .
+
+<http://atrium.eu/Resource/Smithsonian%20Institution/37693CFC-7480-39E4-9D87-B8C7D8B9AACD>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "Smithsonian 3D Metadata Model"@en .
+
+<http://atrium.eu/Resource/Dublin%20Core%20Metadata%20Initiative/67C6A1E7-CE56-33D6-BA74-8AB6D9AF3FD7>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "Dublin Core Metadata Initiative (DCMI)"@en .
+
+<http://atrium.eu/Resource/RO-Crate%20Community/6974CE5A-C660-310B-84D9-B9FED0FF9548>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "RO-Crate"@en .
+
+<http://atrium.eu/Service/C4CA4238-A0B9-3382-8DCC-509A6F75849B>
+        a               aocat:AO_Service ;
+        rdfs:label      "SSH Open Marketplace"@en ;
+        aocat:has_type  <urn:uuid:a37f847a-7c55-40c2-bd16-2c4dbab6b3ab> .
+
+<http://atrium.eu/Resource/SSHOC/9FC3D715-2BA9-336A-A70E-36D0ED79BC43>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "Intended audience"@en .
+
+<http://atrium.eu/Resource/CLARIN%20ERIC/C45147DE-E729-311E-B5B5-C3003946C48F>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "CMDI: ISO 3166-1 alpha-2 country codes"@en .
+
+<http://atrium.eu/Resource/OpenCitations.net/642E92EF-B794-3173-8881-B53E1E1B18B6>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "OpenCitations Ontology"@en .
+
+<http://atrium.eu/Resource/Open%20Metadata%20Initiative/9778D5D2-19C5-380B-9A6A-17BEF029331C>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "OMS"@en .
+
+<http://atrium.eu/Resource/SSHOC/EC895663-7A99-387B-9197-EACD77ACCE5E>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "SSHOC Reference Ontology"@en .
+
+<http://atrium.eu/Resource/ACDH-CH/EA5D2F1C-4608-332E-87D3-AA3D998E5135>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "OeAI Thesaurus - Materials"@en .
+
+<http://atrium.eu/Resource/CIDOC%20CRM/E4DA3B7F-BBCE-3345-9777-2B0674A318D5>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "CRMdig"@en .
+
+<http://atrium.eu/Resource/DARIAH/72B32A1F-754B-31C0-9B36-95E0CB6CDE7F>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "Backbone Thesaurus"@en .
+
+<http://atrium.eu/Resource/TaDiRAH%20Board/A5771BCE-93E2-30C3-AF7C-D9DFD0E5DEAA>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "TaDiRAH"@en .
+
+<http://atrium.eu/Resource/Library%20of%20Congress/F457C545-A9DE-388F-98EC-EE47145A72C0>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "MADS/RDF Primer"@en .
+
+<http://atrium.eu/Resource/CIDOC%20CRM/A87FF679-A2F3-371D-9181-A67B7542122C>
+        a                      aocat:AO_Individual_Data_Resource ;
+        rdfs:label             "CRMarchaeo"@en ;
+        crm:P142i_was_used_in  <http://atrium.eu/Service/C81E728D-9D4C-3F63-AF06-7F89CC14862C> .
+
+<http://atrium.eu/Resource/COST%20Action%20TD1201/98F13708-2101-34C4-B568-7BE6106A3B84>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "COCSH Ontology"@en .
+
+<http://atrium.eu/Resource/SSHOC/7F1DE29E-6DA1-3D22-B51C-68001E7E0E54>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "Invocation type"@en .
+
+<http://atrium.eu/Resource/SSHOC/3988C7F8-8EBC-358C-ACE9-32B957B6F332>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "SSH Open Marketplace Keyword"@en .
+
+<http://atrium.eu/Resource/SSHOC/5F93F983-524D-3F3D-8A46-4469D2CF9F3E>
+        a                      aocat:AO_Individual_Data_Resource ;
+        rdfs:label             "SSH Open Marketplace Data Model"@en ;
+        crm:P142i_was_used_in  <http://atrium.eu/Service/C4CA4238-A0B9-3382-8DCC-509A6F75849B> .
+
+<http://atrium.eu/Resource/DDI%20Alliance/C74D97B0-1EAE-357E-84AA-9D5BADE97BAF>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "Data Documentation Initiative (DDI) Lifecycle"@en .
+
+<http://atrium.eu/Resource/World%20History%20Center%2C%20University%20of%20Pittsburgh/BD4C9AB7-30F5-3132-86B9-99EC0D90D1FB>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "World Historical Gazetteer"@en .
+
+<http://atrium.eu/Resource/Europeana/9BF31C7F-F062-336A-96D3-C8BD1F8F2FF3>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "Europeana Data Model (EDM)"@en .
+
+<http://atrium.eu/Resource/Getty%20Vocabulary%20Program/98DCE83D-A57B-3395-A163-467C9DAE521B>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "Getty Thesaurus of Graphic Materials (TGM)"@en .
+
+<http://atrium.eu/Resource/%22David%20Shotton%2C%20Silvio%20Peroni%22/D645920E-395F-3DAD-BBBB-ED0ECA3FE2E0>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "FaBiO"@en .
+
+<http://atrium.eu/Resource/Open%20Archives%20Initiative/43EC517D-68B6-3DD3-815B-3EDC9A11367B>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "OAI-ORE"@en .
+
+<http://atrium.eu/Resource/SSHOC/65DED535-3C5E-348D-8B7D-48C591B8F430>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "EOSC Resource Life Cycle Status"@en .
+
+<http://atrium.eu/Resource/Forum%20on%20Information%20Standards%20in%20Heritage%20%28FISH%29/E2C420D9-28D4-3F8C-A0FF-2EC19B371514>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "Building Materials Thesaurus"@en .
+
+<http://atrium.eu/Resource/Crossref/07E1CD7D-CA89-3167-8042-477183B7AC3F>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "Crossref relationship types"@en .
+
+<http://atrium.eu/Resource/ARCO%20Project/A684ECEE-E76F-3522-B732-86A895BC8436>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "ARCO"@en .
+
+<http://atrium.eu/Resource/ATHENA%20R.C./19CA14E7-EA63-38A4-AE0E-B13D585E4C22>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "Scholarly Ontology"@en .
+
+<http://atrium.eu/Resource/Getty%20Vocabulary%20Program/2A38A4A9-316C-39E5-A833-517C45D31070>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "CDWA (Categories for the Description of Works of Art)"@en .
+
+<http://atrium.eu/Resource/SSHOC/A8BAA565-54F9-3369-AB93-E4F3BB068C22>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "SSK Standard"@en .
+
+<http://atrium.eu/Resource/COAR/5EF05993-8BA7-39AA-A845-E1C2E8A762BD>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "COAR Vocabularies"@en .
+
+<http://atrium.eu/Resource/Biblioth%C3%A8que%20nationale%20de%20France/ED3D2C21-991E-3BEF-9E06-9713AF9FA6CA>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "RAMEAU (Répertoire d'autorité pour les matières)"@en .
+
+<http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3>
+        a               aocat:AO_Service ;
+        rdfs:label      "CLARIN VLO"@en ;
+        aocat:has_type  <urn:uuid:d51f273f-42e5-41b4-9449-5aa19ebf52b2> .
+
+<http://atrium.eu/Resource/DataCite/182BE0C5-CDCD-3072-BB18-64CDEE4D3D6E>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "DataCite schema"@en .
+
+<urn:uuid:0d2db1f7-ee5d-4636-bd5b-53f61acfc642>
+        a       aocat:AO_Concept .
+
+<http://atrium.eu/Resource/CRediT/202CB962-AC59-375B-964B-07152D234B70>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "CRediT (Contributor Role Taxonomy)"@en .
+
+<http://atrium.eu/Service/C81E728D-9D4C-3F63-AF06-7F89CC14862C>
+        a               aocat:AO_Service ;
+        rdfs:label      "ARIADNE Portal"@en ;
+        aocat:has_type  <urn:uuid:4561524b-9e79-4209-a302-2b8585d2bd1e> , <urn:uuid:96a3e61f-05b6-4e45-9800-c956fd0c4af8> , <urn:uuid:0d2db1f7-ee5d-4636-bd5b-53f61acfc642> .
+
+<http://atrium.eu/Resource/EAGLE%20%28Europeana%20network%20of%20Ancient%20Greek%20and%20Latin%20Epigraphy%29/45C48CCE-2E2D-3FBD-AA1A-FC51C7C6AD26>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "The EAGLE Vocabularies"@en .
+
+<http://atrium.eu/Resource/PUBLISHER%3A%20Kansalliskirjasto%0ACREATOR%3A%20M-Cult/17E62166-FC85-36DF-A4D1-BC0E1742C08B>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "OMA - Ontology for Media Art"@en .
+
+<http://atrium.eu/Resource/European%20University%20Association/D1F491A4-04D6-3548-8094-3E5C3CD9CA25>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "MORESS (Mapping of research in european social sciences and humanities)"@en .
+
+<http://atrium.eu/Resource/PUBLISHER%3A%20National%20Library%20of%20Finland%0ACREATOR%3A%20Institute%20for%20the%20Languages%20of%20Finland%2C%20National%20Library%20of%20Finland%2C%20Semantic%20Computing%20Research%20Group%20%28SeCo0%2C%20%0AThe%20Finnish%20Terminology%20Centre%20TSK/F7177163-C833-3FF4-B38F-C8D2872F1EC6>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "KTO - Ontology for Linguistics"@en .
+
+<http://atrium.eu/Resource/CIDOC%20CRM/06409663-226A-32F3-9144-85AA4E0A23B4>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "CRMinf"@en .
+
+<http://atrium.eu/Resource/National%20Archives%20of%20Finland/A1D0C6E8-3F02-3327-9846-1063F4AC58A6>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "HERO - Ontology of Heraldry"@en .
+
+<http://atrium.eu/Resource/VAST-LAB%20PIN%20%2F%20ARIADNE%2C%20FORTH/65B9EEA6-E1CC-3BB9-B0CD-2A47751A186F>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "RHDT Ontology (RHDTO)"@en .
+
+<http://atrium.eu/Resource/W3C/812B4BA2-87F5-3E0B-89D4-3BBF5BBE87FB>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "BIBO (Bibliographic Ontology)"@en .
+
+<http://atrium.eu/Resource/OCLC/F4B9EC30-AD9F-38F8-9B29-639786CB62EF>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "Dewey Decimal Classification (DDC)"@en .
+
+<http://atrium.eu/Resource/Library%20of%20Congress/C0C7C76D-30BD-3DCA-AFC9-6F40275BDC0A>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "BibFrame"@en .
+
+<http://atrium.eu/Resource/IIIF%20Consortium/D9D4F495-E875-32E0-B5A1-A4A6E1B9770F>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "IIIF"@en .
+
+<http://atrium.eu/Resource/British%20Museum/38B3EFF8-BAF5-3627-878E-C76A704E9B52>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "British Museum Object Names Thesaurus"@en .
+
+<urn:uuid:96a3e61f-05b6-4e45-9800-c956fd0c4af8>
+        a       aocat:AO_Concept .
+
+<http://atrium.eu/Resource/Library%20of%20Congress/92CC2275-32D1-3E56-A079-02B254DFAD10>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "Library of Congress Subject Headings (LCSH)"@en .
+
+<http://atrium.eu/Resource/American%20Numismatic%20Society/B3E3E393-C77E-35A4-A3F3-CBD1E429B5DC>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "Nomisma Ontology"@en .
+
+<http://atrium.eu/Resource/OpenAIRE%20AMKE/D67D8AB4-F4C1-3BF2-AAA3-53E27879133C>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "OpenAIRE guidelines"@en .
+
+<http://atrium.eu/Resource/CLARIN/AAB32389-22BC-325A-AF60-6EB525FFDC56>
+        a                      aocat:AO_Individual_Data_Resource ;
+        rdfs:label             "Component Metadata Infrastructure (CMDI)"@en ;
+        crm:P142i_was_used_in  <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> .
+
+<http://atrium.eu/Resource/CLARIN%20ERIC/EB160DE1-DE89-3905-8FCB-0B968DBBBD68>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "CLARIN/VLO Organisations vocabulary"@en .
+
+<http://atrium.eu/Resource/UNESCO/9F61408E-3AFB-333E-90CD-F1B20DE6F466>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "UNESCO Thesaurus"@en .
+
+<http://atrium.eu/Resource/ACDH-CH/7F39F831-7FBD-3198-8EF4-C628EBA02591>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "INDIGO Graffiti Thesaurus"@en .
+
+<http://atrium.eu/Resource/ACDH-CH/44F683A8-4163-3352-BAFE-57C2E008BC8C>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "DEFC Thesaurus"@en .
+
+<http://atrium.eu/Resource/Library%20of%20Congress/54229ABF-CFA5-349E-B003-B83DD4755294>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "MARC (Machine-Readable Cataloging)"@en .
+
+<http://atrium.eu/Resource/ACDH-CH/03AFDBD6-6E79-39B1-A5F8-597834FA83A4>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "OeAI Thesaurus - Cultural Time Periods"@en .
+
+<http://atrium.eu/Resource/OCLC/C16A5320-FA47-3530-9958-3C34FD356EF5>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "VIAF"@en .
+
+<http://atrium.eu/Resource/Forum%20on%20Information%20Standards%20in%20Heritage%20%28FISH%29/D1FE173D-08E9-3939-BADF-34B1D77E88D7>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "Thesaurus of Monument Types"@en .
+
+<http://atrium.eu/Resource/David%20Shotton%2C%20Silvio%20Peroni/3416A75F-4CEA-3109-907C-ACD8E2F2AEFC>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "BiRO"@en .
+
+<http://atrium.eu/Resource/SSHOC/7EF605FC-8DBA-3425-9696-5FBD4C8FBE1F>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "SSH Open Marketplace Format"@en .
+
+<http://atrium.eu/Resource/Text%20Encoding%20Initiative%20Consortium/6364D3F0-F495-36AB-9DCF-8D3B5C6E0B01>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "TEI"@en .
+
+<http://atrium.eu/Resource/CLARIN%20ERIC/2B44928A-E11F-3938-8C4C-F38708677C48>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "CMDI: ISO 639-3 language codes"@en .
+
+<http://atrium.eu/Resource/Getty%20Vocabulary%20Program/C9E1074F-5B3F-3FC8-AA15-D152ADD07294>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "IA - Getty Iconography Authority"@en .
+
+<http://atrium.eu/Resource/Austrian%20Centre%20for%20Digital%20Humanities%20and%20Cultural%20Heritage/FC490CA4-5C00-3124-9BBE-3554A4FDF6FB>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "VICAV Taxonomy of Arabic Dialects"@en .
+
+<http://atrium.eu/Resource/DDI%20Alliance/70EFDF2E-C9B0-3607-9795-C442636B55FB>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "Data Documentation Initiative (DDI) Codebook"@en .
+
+<http://atrium.eu/Resource/W3C/8E296A06-7A37-3633-B0DE-D05F5A3BF3EC>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "DCAT"@en .
+
+<http://atrium.eu/Resource/ARIADNE%20RI/C4CA4238-A0B9-3382-8DCC-509A6F75849B>
+        a                      aocat:AO_Individual_Data_Resource ;
+        rdfs:label             "AO-Cat"@en ;
+        crm:P142i_was_used_in  <http://atrium.eu/Service/C81E728D-9D4C-3F63-AF06-7F89CC14862C> .
+
+<http://atrium.eu/Resource/W3C/C81E728D-9D4C-3F63-AF06-7F89CC14862C>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "SKOS"@en .
+
+<http://atrium.eu/Resource/PeriodO/1C383CD3-0B7C-398A-B502-93ADFECB7B18>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "PeriodO"@en .
+
+<http://atrium.eu/Resource/The%20Getty%20Research%20Institute/735B90B4-5681-35ED-AC3F-678819B6E058>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "Cultural Objects Name Authority (CONA)"@en .
+
+<http://atrium.eu/Resource/International%20Council%20on%20Archives/A97DA629-B098-375C-A94D-FFDC3E463904>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "RIC-O"@en .
+
+<http://atrium.eu/Resource/The%20TRIPLE%20Consortium%2FNet7/6512BD43-D9CA-36E0-AC99-0B0A82652DCA>
+        a                      aocat:AO_Individual_Data_Resource ;
+        rdfs:label             "TRIPLE Ontology"@en ;
+        crm:P142i_was_used_in  <http://atrium.eu/Service/A87FF679-A2F3-371D-9181-A67B7542122C> .
+
+<http://atrium.eu/Resource/CESSDA/68D30A95-9472-3BC3-9AA2-4BE94B319D21>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "CESSDA"@en .
+
+<http://atrium.eu/Resource/The%20Getty%20Research%20Institute/D3D94468-02A4-3259-B55D-38E6D163E820>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "Getty Art and Architecture Thesaurus (AAT)"@en .
+
+<http://atrium.eu/Resource/CLARIN%20ERIC/73278A4A-8696-3EEB-976A-8FD4C9EC6997>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "CLARIN Concept Registry"@en .
+
+<http://atrium.eu/Resource/CNR%20Pisa%20%28Italy%29/F0935E4C-D592-3AA6-87C9-96A5EE53A70F>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "NOnt"@en .
+
+<http://atrium.eu/Resource/CIDOC%20-%20ICOM%20International%20Committee%20for%20Documentation/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3>
+        a                      aocat:AO_Individual_Data_Resource ;
+        rdfs:label             "CIDOC CRM"@en ;
+        crm:P142i_was_used_in  <http://atrium.eu/Service/C81E728D-9D4C-3F63-AF06-7F89CC14862C> .
+
+<http://atrium.eu/Resource/The%20Getty%20Research%20Institute/34173CB3-8F07-389D-9BEB-C2AC9128303F>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "ULAN - Union List of Artist Names Online"@en .
+
+<http://atrium.eu/Resource/Cyprus%20Institute/1FF1DE77-4005-38DA-93F4-2943881C655F>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "STARC Metadata schema"@en .
+
+<http://atrium.eu/Resource/Schema.org/4E732CED-3463-306D-A0CA-9A15B6153677>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "Schema.org"@en .
+
+<http://atrium.eu/Resource/https%3A%2F%2Fsshoc.poolparty.biz%2Fuser%2Fswc/1385974E-D590-3A43-8616-FF7BDB3F7439>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "SPDX Software License"@en .
+
+<http://atrium.eu/Resource/Library%20of%20Congress/3EF81541-6F77-3098-BE97-7004015C6193>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "MODS"@en .
+
+<http://atrium.eu/Resource/Forum%20on%20Information%20Standards%20in%20Heritage%20%28FISH%29/14BFA6BB-1487-3E45-BBA0-28A21ED38046>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "Archaeological Sciences Thesaurus"@en .
+
+<http://atrium.eu/Resource/European%20Parliament/AC627AB1-CCBD-362E-896E-702F07F6425B>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "EuroVoc"@en .
+
+<urn:uuid:4561524b-9e79-4209-a302-2b8585d2bd1e>
+        a       aocat:AO_Concept .
+
+<http://atrium.eu/Resource/CERL/26657D5F-F902-3D2A-BEFE-558796B99584>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "CERL Thesaurus"@en .
+
+<http://atrium.eu/Resource/European%20Environment%20Agency/F899139D-F5E1-3593-9643-1415E770C6DD>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "GEMET (General Multilingual Environmental Thesaurus)"@en .
+
+<http://atrium.eu/Resource/FRANTIQ/2723D092-B638-35E0-97C2-60CC007E8B9D>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "PACTOLS"@en .
+
+<http://atrium.eu/Resource/ICOM%20CIDOC/B6D767D2-F8ED-3D21-A44B-0E5886680CB9>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "LIDO"@en .
+
+<http://atrium.eu/Resource/Forum%20on%20Information%20Standards%20in%20Heritage%20%28FISH%29/D2DDEA18-F006-35CE-8623-E36BD4E3C7C5>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "Event Thesaurus"@en .
+
+<http://atrium.eu/Resource/FOAF%20Project/02E74F10-E032-3AD8-A8D1-38F2B4FDD6F0>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "FOAF"@en .
+
+<http://atrium.eu/Resource/Forum%20on%20Information%20Standards%20in%20Heritage%20%28FISH%29/7CBBC409-EC99-3F19-878C-75BD1E06F215>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "Archaeological Objects Thesaurus"@en .
+
+<http://atrium.eu/Resource/David%20Shotton%2C%20Silvio%20Peroni/D82C8D16-19AD-3176-9665-453CFB2E55F0>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "CiTO, the Citation Typing Ontology"@en .
+
+<http://atrium.eu/Resource/%22HE%2C%20HES%2C%20RCAHMW%22/C51CE410-C124-310E-8DB5-E4B97FC2AF39>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "HeritageData (FISH UK) vocabularies"@en .
+
+<http://atrium.eu/Resource/W3C/33E75FF0-9DD6-31BB-A69F-351039152189>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "PROV-O"@en .
+
+<http://atrium.eu/Resource/SSHOC/1AFA34A7-F984-3EAB-9BB0-A7D494132EE5>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "EOSC Resource Category, Subcategory (and Supercategory)"@en .
+
+<http://atrium.eu/Resource/OCLC/E2EF524F-BF3D-3FE6-91D5-A8E90FEFDC9C>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "FAST (Faceted Application of Subject Terminology)"@en .
+
+<http://atrium.eu/Resource/Library%20of%20Congress/6F4922F4-5568-361A-8CDF-4AD2299F6D23>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "PREMIS"@en .
+
+<http://atrium.eu/Resource/Visual%20Resources%20Association/C7E1249F-FC03-3B9D-AD90-8C236BD1996D>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "VRA Core (Visual Resources Association Core)"@en .
+
+<http://atrium.eu/Resource/Forum%20on%20Information%20Standards%20in%20Heritage%20%28FISH%29/32BB90E8-976A-3B52-98D5-DA10FE66F21D>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "Cargo Thesaurus"@en .
+
+<http://atrium.eu/Resource/The%20National%20Trust/FE9FC289-C3FF-3AF1-82B6-D3BEAD98A923>
+        a           aocat:AO_Individual_Data_Resource ;
+        rdfs:label  "MIDAS Heritage"@en .
+
+<urn:uuid:86660e09-0268-4d2f-9c1c-2d8ee2c19abf>
+        a       aocat:AO_Concept .

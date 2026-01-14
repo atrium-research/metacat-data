@@ -1,0 +1,63 @@
+@prefix aocat: <https://www.ariadne-infrastructure.eu/resource/ao/cat/1.1/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crmpe: <http://parthenos.d4science.org/CRMext/CRMpe/> .
+@prefix atrium: <http://atrium.eu/> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://atrium.eu/Agent/4>
+        a                      aocat:AO_Agent ;
+        rdfs:label             "OPERAS"@en ;
+        aocat:has_homepage     <https://operas-eu.org> ;
+        aocat:is_publisher_of  <http://atrium.eu/Service/A87FF679-A2F3-371D-9181-A67B7542122C> .
+
+<https://sshopencloud.eu/news/sshoc-ssh-open-cluster>
+        a           owl:Thing ;
+        rdfs:label  "https://sshopencloud.eu/news/sshoc-ssh-open-cluster" .
+
+<http://atrium.eu/Service/A87FF679-A2F3-371D-9181-A67B7542122C>
+        a       aocat:AO_Service .
+
+<http://atrium.eu/Agent/2>
+        a                      aocat:AO_Agent ;
+        rdfs:label             "CLARIN"@en ;
+        aocat:has_homepage     <https://www.clarin.eu> ;
+        aocat:is_publisher_of  <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> .
+
+<http://atrium.eu/Service/C4CA4238-A0B9-3382-8DCC-509A6F75849B>
+        a                      aocat:AO_Service ;
+        aocat:has_description  "The SSH Open Marketplace is operated as a SSHOC Cluster service. ACDH-CH is hosting the service, on behalf of DARIAH. DARIAH, CLARIN and CESSDA are the funding partners of the service." .
+
+<http://atrium.eu/Service/C81E728D-9D4C-3F63-AF06-7F89CC14862C>
+        a       aocat:AO_Service .
+
+<https://operas-eu.org>
+        a           owl:Thing ;
+        rdfs:label  "https://operas-eu.org" .
+
+<https://www.clarin.eu>
+        a           owl:Thing ;
+        rdfs:label  "https://www.clarin.eu" .
+
+<http://atrium.eu/Agent/3>
+        a                      aocat:AO_Agent ;
+        rdfs:label             "DARIAH"@en ;
+        aocat:has_homepage     <https://sshopencloud.eu/news/sshoc-ssh-open-cluster> ;
+        aocat:is_publisher_of  <http://atrium.eu/Service/C4CA4238-A0B9-3382-8DCC-509A6F75849B> .
+
+<http://atrium.eu/Agent/1>
+        a                      aocat:AO_Agent ;
+        rdfs:label             "ARIADNE RI"@en ;
+        aocat:has_homepage     <https://www.ariadne-research-infrastructure.eu> ;
+        aocat:is_publisher_of  <http://atrium.eu/Service/C81E728D-9D4C-3F63-AF06-7F89CC14862C> .
+
+<http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3>
+        a       aocat:AO_Service .
+
+<https://www.ariadne-research-infrastructure.eu>
+        a           owl:Thing ;
+        rdfs:label  "https://www.ariadne-research-infrastructure.eu" .

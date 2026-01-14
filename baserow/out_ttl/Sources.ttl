@@ -1,0 +1,1970 @@
+@prefix aocat: <https://www.ariadne-infrastructure.eu/resource/ao/cat/1.1/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crmpe: <http://parthenos.d4science.org/CRMext/CRMpe/> .
+@prefix atrium: <http://atrium.eu/> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://atrium.eu/Place/F8B18593-CDBB-3CE2-8933-0560A44E33AA>
+        a           aocat:AO_Spatial_Region ;
+        rdfs:label  "Germany"@en .
+
+<http://atrium.eu/Source/3>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "SND"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/C81E728D-9D4C-3F63-AF06-7F89CC14862C> ;
+        aocat:has_description       "Sweden's national platform for managing and sharing research data across various disciplines."@en , "Swedish National Data Service"@en ;
+        aocat:has_landing_page      <https://snd.se> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/University%20of%20Gothenburg> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/73C8E843-43F1-3364-9E7C-32173220B90C> ;
+        aocat:has_title             "SND"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://atrium.eu/Agent/ZBW%20%E2%80%93%20Leibniz%20Information%20Centre%20for%20Economics>
+        a           aocat:AO_Agent ;
+        rdfs:label  "ZBW – Leibniz Information Centre for Economics"@en .
+
+<http://atrium.eu/Source/93>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "LINGUIST List"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "An international online resource for linguistic information, including datasets and tools for language research."@en , "LINGUIST List Language Resources"@en ;
+        aocat:has_landing_page      <https://linguistlist.org/langres> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/LINGUIST%20List> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/FC42BAD7-15BC-3976-BDDD-95A239552434> ;
+        aocat:has_title             "LINGUIST List"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<https://clarin.eurac.edu>
+        a           owl:Thing ;
+        rdfs:label  "https://clarin.eurac.edu"@en .
+
+<http://atrium.eu/Source/72>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "ORTOLANG"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "Open Resources and TOols for LANGuage"@en , "Provides access to linguistic resources and tools for the French language."@en ;
+        aocat:has_landing_page      <https://www.ortolang.fr> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/CLARIN%20France> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/549D841C-3704-32B6-A273-A258DD0B6F17> ;
+        aocat:has_title             "ORTOLANG"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://atrium.eu/Agent/CLARIN%20Switzerland>
+        a           aocat:AO_Agent ;
+        rdfs:label  "CLARIN Switzerland"@en .
+
+<http://atrium.eu/Place/969A086E-0717-39B4-96DD-0E9A50EC8010>
+        a           aocat:AO_Spatial_Region ;
+        rdfs:label  "World"@en .
+
+<http://atrium.eu/Source/51>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "Center of Estonian Language Resources"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "Provides access to Estonian language resources and tools."@en , "Center of Estonian Language Resources"@en ;
+        aocat:has_landing_page      <http://www.keeleressursid.ee> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/CLARIN%20Estonia> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/F39F6F54-273C-368D-91EB-7443932A64AD> ;
+        aocat:has_title             "Center of Estonian Language Resources"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<https://catalog.ldc.upenn.edu>
+        a           owl:Thing ;
+        rdfs:label  "https://catalog.ldc.upenn.edu"@en .
+
+<http://atrium.eu/Source/30>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "The Programming Historian"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/C4CA4238-A0B9-3382-8DCC-509A6F75849B> ;
+        aocat:has_description       "Offers tutorials and resources for digital tools and techniques in historical research."@en , "The Programming Historian"@en ;
+        aocat:has_landing_page      <https://programminghistorian.org> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/Programming%20Historian%20Editorial%20Board> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/969A086E-0717-39B4-96DD-0E9A50EC8010> ;
+        aocat:has_title             "The Programming Historian"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<https://campus.dariah.eu>
+        a           owl:Thing ;
+        rdfs:label  "https://campus.dariah.eu"@en .
+
+<https://www.clarin.eu>
+        a           owl:Thing ;
+        rdfs:label  "https://www.clarin.eu"@en .
+
+<http://atrium.eu/Agent/Deutsche%20Nationalbibliothek>
+        a           aocat:AO_Agent ;
+        rdfs:label  "Deutsche Nationalbibliothek"@en .
+
+<http://www.ru.nl/clst>
+        a           owl:Thing ;
+        rdfs:label  "http://www.ru.nl/clst"@en .
+
+<http://atrium.eu/Source/80>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "CLARIN Copenhagen"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "CLARIN Centre at the University of Copenhagen"@en , "Provides linguistic resources and tools for research, focused on the Danish language, as well as other Scandinavian languages"@en ;
+        aocat:has_landing_page      <http://clarin.dk> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/CLARIN%20Denmark> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/D0AE1E30-7880-3C85-978D-64F4DED5CDCB> ;
+        aocat:has_title             "CLARIN Copenhagen"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<https://www.clarin.lv>
+        a           owl:Thing ;
+        rdfs:label  "https://www.clarin.lv"@en .
+
+<http://atrium.eu/Source/59>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "Eurac Research CLARIN Centre"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "Provides access to language resources and tools, with a focus on minority languages."@en , "Eurac Research CLARIN Centre"@en ;
+        aocat:has_landing_page      <https://clarin.eurac.edu> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/CLARIN%20Italy> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/141C3FFE-DC2E-33E6-8DFB-31A456BED268> ;
+        aocat:has_title             "Eurac Research CLARIN Centre"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://atrium.eu/Place/3E3735FE-C1D6-3CA2-B496-527B75081F86>
+        a           aocat:AO_Spatial_Region ;
+        rdfs:label  "Netherlands"@en .
+
+<https://recyt.fecyt.es>
+        a           owl:Thing ;
+        rdfs:label  "https://recyt.fecyt.es"@en .
+
+<http://atrium.eu/Agent/OpenAIRE%20Consortium>
+        a           aocat:AO_Agent ;
+        rdfs:label  "OpenAIRE Consortium"@en .
+
+<http://atrium.eu/Source/38>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "ARCHE"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "Offers access to digital humanities resources, with a focus on Austrian cultural heritage."@en , "A Resource Centre for the HumanitiEs"@en ;
+        aocat:has_landing_page      <https://arche.acdh.oeaw.ac.at> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/Austrian%20Centre%20for%20Digital%20Humanities%20and%20Cultural%20Heritage%20%28ACDH-CH%29> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/4195CAC6-CE8D-384D-8415-94A3FAA2E13D> ;
+        aocat:has_title             "ARCHE"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://atrium.eu/Source/17>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "OpenEdition"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/A87FF679-A2F3-371D-9181-A67B7542122C> ;
+        aocat:has_description       "A French open-access platform for journals, books, and research blogs in the humanities and social sciences."@en , "OpenEdition"@en ;
+        aocat:has_landing_page      <https://www.openedition.org> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/OpenEdition%20%28CLEO%20-%20Centre%20for%20Open%20Electronic%20Publishing%29> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/549D841C-3704-32B6-A273-A258DD0B6F17> ;
+        aocat:has_title             "OpenEdition"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<https://conversion-hub.sshopencloud.eu/>
+        a           owl:Thing ;
+        rdfs:label  "https://conversion-hub.sshopencloud.eu/"@en .
+
+<https://rosettaproject.org>
+        a           owl:Thing ;
+        rdfs:label  "https://rosettaproject.org"@en .
+
+<https://lindat.cz>  a  owl:Thing ;
+        rdfs:label  "https://lindat.cz"@en .
+
+<https://textgridrep.org>
+        a           owl:Thing ;
+        rdfs:label  "https://textgridrep.org"@en .
+
+<http://atrium.eu/Agent/e-codices>
+        a           aocat:AO_Agent ;
+        rdfs:label  "e-codices"@en .
+
+<http://atrium.eu/Source/88>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "ELRA"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "Provides access to a wide range of linguistic resources for research and development in language technologies."@en , "European Language Resources Association"@en ;
+        aocat:has_landing_page      <http://www.elra.info> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/ELRA> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/969A086E-0717-39B4-96DD-0E9A50EC8010> ;
+        aocat:has_title             "ELRA"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://atrium.eu/Source/67>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "LU Humanities Lab"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "Offers tools and resources for research in the humanities, focusing on digital methods."@en , "Lund University Humanities Lab"@en ;
+        aocat:has_landing_page      <http://www.humlab.lu.se> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/Lund%20University> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/73C8E843-43F1-3364-9E7C-32173220B90C> ;
+        aocat:has_title             "LU Humanities Lab"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://atrium.eu/Source/46>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "CLARIN-PL"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "CLARIN-PL Language Technology Centre"@en , "Offers tools and resources for Polish language research."@en ;
+        aocat:has_landing_page      <https://clarin-pl.eu> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/CLARIN%20Poland> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/D9A84905-4248-3B8A-B5FA-A6FAADB62507> ;
+        aocat:has_title             "CLARIN-PL"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://atrium.eu/Source/25>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "DH Publications (dblp)"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/C4CA4238-A0B9-3382-8DCC-509A6F75849B> ;
+        aocat:has_description       "dblp computer science bibliography"@en , "A bibliography for computer science publications, indexing research papers from various sources."@en ;
+        aocat:has_landing_page      <https://dblp.org> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/Schloss%20Dagstuhl%20%E2%80%93%20Leibniz%20Center%20for%20Informatics> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/F8B18593-CDBB-3CE2-8933-0560A44E33AA> ;
+        aocat:has_title             "DH Publications (dblp)"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://atrium.eu/Agent/CLARIN%20Poland>
+        a           aocat:AO_Agent ;
+        rdfs:label  "CLARIN Poland"@en .
+
+<https://www.slm.uni-hamburg.de/hzsk.html>
+        a           owl:Thing ;
+        rdfs:label  "https://www.slm.uni-hamburg.de/hzsk.html"@en .
+
+<http://www.tekstlab.uio.no/clarino>
+        a           owl:Thing ;
+        rdfs:label  "http://www.tekstlab.uio.no/clarino"@en .
+
+<http://atrium.eu/Source/6>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "CONICET"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/C81E728D-9D4C-3F63-AF06-7F89CC14862C> ;
+        aocat:has_description       "Argentina's leading research organization, supporting various scientific disciplines, including archaeology."@en , "National Scientific and Technical Research Council"@en ;
+        aocat:has_landing_page      <https://www.conicet.gov.ar> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/CONICET> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/20E169B4-8C8F-3698-87E2-BBE1C5C3EA65> ;
+        aocat:has_title             "CONICET"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://atrium.eu/Agent/SSK%20Consortium>
+        a           aocat:AO_Agent ;
+        rdfs:label  "SSK Consortium"@en .
+
+<http://atrium.eu/Agent/CLARIN%20France>
+        a           aocat:AO_Agent ;
+        rdfs:label  "CLARIN France"@en .
+
+<http://atrium.eu/Agent/CONICET>
+        a           aocat:AO_Agent ;
+        rdfs:label  "CONICET"@en .
+
+<http://atrium.eu/Source/96>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "WALS"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "WALS Online & WALS RefDB"@en , "A database that provides linguistic data on the structure and features of the world’s languages, along with references."@en ;
+        aocat:has_landing_page      <http://wals.info> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/Max%20Planck%20Institute%20for%20Evolutionary%20Anthropology> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/969A086E-0717-39B4-96DD-0E9A50EC8010> ;
+        aocat:has_title             "WALS"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://atrium.eu/Source/75>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "PolMine"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "PolMine Project"@en , "Offers political discourse corpora and tools for analysis."@en ;
+        aocat:has_landing_page      <http://www.polmine.de> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/CLARIN%20Germany> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/F8B18593-CDBB-3CE2-8933-0560A44E33AA> ;
+        aocat:has_title             "PolMine"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://atrium.eu/Agent/BBAW>
+        a           aocat:AO_Agent ;
+        rdfs:label  "BBAW"@en .
+
+<http://www.elra.info>
+        a           owl:Thing ;
+        rdfs:label  "http://www.elra.info"@en .
+
+<http://atrium.eu/Source/54>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "COCOON"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "A French platform offering access to digital oral corpora."@en , "Collections de corpus oraux numériques"@en ;
+        aocat:has_landing_page      <http://cocoon.huma-num.fr> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/Huma-Num%20%28CNRS%29> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/549D841C-3704-32B6-A273-A258DD0B6F17> ;
+        aocat:has_title             "COCOON"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://atrium.eu/Agent/CLARIN%20UK>
+        a           aocat:AO_Agent ;
+        rdfs:label  "CLARIN UK"@en .
+
+<http://atrium.eu/Agent/DARIAH>
+        a           aocat:AO_Agent ;
+        rdfs:label  "DARIAH"@en .
+
+<http://atrium.eu/Source/33>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "Language Resource Switchboard"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/C4CA4238-A0B9-3382-8DCC-509A6F75849B> ;
+        aocat:has_description       "Tool for processing and analyzing language resources by linking them to relevant tools."@en , "CLARIN Language Resource Switchboard"@en ;
+        aocat:has_landing_page      <https://switchboard.clarin.eu> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/CLARIN%20ERIC> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/C932714A-29AA-365C-8F86-B43E9ABF6D40> , <http://atrium.eu/Place/3E3735FE-C1D6-3CA2-B496-527B75081F86> ;
+        aocat:has_title             "Language Resource Switchboard"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://atrium.eu/Place/CF57D08A-9941-3090-BF4F-367C647E075E>
+        a           aocat:AO_Spatial_Region ;
+        rdfs:label  "Croatia"@en .
+
+<http://atrium.eu/Agent/Schloss%20Dagstuhl%20%E2%80%93%20Leibniz%20Center%20for%20Informatics>
+        a           aocat:AO_Agent ;
+        rdfs:label  "Schloss Dagstuhl – Leibniz Center for Informatics"@en .
+
+<http://atrium.eu/Source/12>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "DNB"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/A87FF679-A2F3-371D-9181-A67B7542122C> ;
+        aocat:has_description       "Deutsche Nationalbibliothek"@en , "The German National Library, responsible for collecting and preserving all German-language publications."@en ;
+        aocat:has_landing_page      <https://www.dnb.de> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/Deutsche%20Nationalbibliothek> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/F8B18593-CDBB-3CE2-8933-0560A44E33AA> ;
+        aocat:has_title             "DNB"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://atrium.eu/Agent/ACDH-CH>
+        a           aocat:AO_Agent ;
+        rdfs:label  "ACDH-CH"@en .
+
+<http://www.keeleressursid.ee>
+        a           owl:Thing ;
+        rdfs:label  "http://www.keeleressursid.ee"@en .
+
+<http://atrium.eu/Agent/Bielefeld%20University%20Library>
+        a           aocat:AO_Agent ;
+        rdfs:label  "Bielefeld University Library"@en .
+
+<http://cla.berkeley.edu>
+        a           owl:Thing ;
+        rdfs:label  "http://cla.berkeley.edu"@en .
+
+<https://www.nabunken.go.jp/english/>
+        a           owl:Thing ;
+        rdfs:label  "https://www.nabunken.go.jp/english/"@en .
+
+<http://atrium.eu/Service/C81E728D-9D4C-3F63-AF06-7F89CC14862C>
+        a           crmpe:PE15_Data_E-Service ;
+        rdfs:label  "ARIADNE Portal"@en .
+
+<https://www.base-search.net>
+        a           owl:Thing ;
+        rdfs:label  "https://www.base-search.net"@en .
+
+<http://atrium.eu/Source/83>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "Universität des Saarlandes"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "Offers linguistic research data and tools through CLARIN-D."@en , "Universität des Saarlandes"@en ;
+        aocat:has_landing_page      <http://fedora.clarin-d.uni-saarland.de/> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/CLARIN%20Germany> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/F8B18593-CDBB-3CE2-8933-0560A44E33AA> ;
+        aocat:has_title             "Universität des Saarlandes"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://atrium.eu/Source/62>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "INT"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "Instituut voor de Nederlandse Taal"@en , "Offers Dutch language resources for research."@en ;
+        aocat:has_landing_page      <http://ivdnt.org> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/CLARIN%20Netherlands> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/3E3735FE-C1D6-3CA2-B496-527B75081F86> ;
+        aocat:has_title             "INT"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<https://zim.uni-graz.at>
+        a           owl:Thing ;
+        rdfs:label  "https://zim.uni-graz.at"@en .
+
+<http://atrium.eu/Source/41>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "CKL2CORPORA"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "CLARIN Knowledge Centre for Learner Corpora"@en , "Provides expertise and resources related to learner corpora for research purposes."@en ;
+        aocat:has_landing_page      <https://uclouvain.be/en/research-institutes/ilc/clarin-knowledge-centre-for-learner-corpora.html> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/Universit%C3%A9%20catholique%20de%20Louvain> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/AA404D0D-23BE-3C91-96AB-338818D5E5FB> ;
+        aocat:has_title             "CKL2CORPORA"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<https://arche.acdh.oeaw.ac.at>
+        a           owl:Thing ;
+        rdfs:label  "https://arche.acdh.oeaw.ac.at"@en .
+
+<https://www.europeana.eu>
+        a           owl:Thing ;
+        rdfs:label  "https://www.europeana.eu"@en .
+
+<http://atrium.eu/Source/20>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "CESSDA"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/A87FF679-A2F3-371D-9181-A67B7542122C> ;
+        aocat:has_description       "Consortium of European Social Science Data Archives"@en , "European research infrastructure providing access to data in the social sciences."@en ;
+        aocat:has_landing_page      <https://www.cessda.eu> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/CESSDA%20ERIC> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/D5215023-C7E1-3686-8EFD-4F4965FE6B91> , <http://atrium.eu/Place/C932714A-29AA-365C-8F86-B43E9ABF6D40> ;
+        aocat:has_title             "CESSDA"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<https://tapor.ca>  a  owl:Thing ;
+        rdfs:label  "https://tapor.ca"@en .
+
+<https://www.inrap.fr>
+        a           owl:Thing ;
+        rdfs:label  "https://www.inrap.fr"@en .
+
+<https://www.dnb.de>  a  owl:Thing ;
+        rdfs:label  "https://www.dnb.de"@en .
+
+<http://atrium.eu/Place/D0AE1E30-7880-3C85-978D-64F4DED5CDCB>
+        a           aocat:AO_Spatial_Region ;
+        rdfs:label  "Denmark"@en .
+
+<http://atrium.eu/Agent/Ludwig-Maximilians-Universit%C3%A4t%20M%C3%BCnchen>
+        a           aocat:AO_Agent ;
+        rdfs:label  "Ludwig-Maximilians-Universität München"@en .
+
+<https://dblp.org>  a  owl:Thing ;
+        rdfs:label  "https://dblp.org"@en .
+
+<http://atrium.eu/Place/206F6A7A-DA91-3912-A938-9DA75D80BE3B>
+        a           aocat:AO_Spatial_Region ;
+        rdfs:label  "Portugal"@en .
+
+<http://atrium.eu/Agent/CLARIN%20Netherlands>
+        a           aocat:AO_Agent ;
+        rdfs:label  "CLARIN Netherlands"@en .
+
+<http://atrium.eu/Source/91>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "PARADISEC"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "Pacific And Regional Archive for Digital Sources in Endangered Cultures"@en , "Provides access to recordings, transcripts, and materials documenting endangered languages and cultures."@en ;
+        aocat:has_landing_page      <http://catalog.paradisec.org.au> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/PARADISEC> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/6C2962F5-FD32-37CF-9496-8B00CB4ECEA5> ;
+        aocat:has_title             "PARADISEC"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://atrium.eu/Agent/Lund%20University>
+        a           aocat:AO_Agent ;
+        rdfs:label  "Lund University"@en .
+
+<http://atrium.eu/Source/70>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "Meertens Instituut/HuC"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "Specializes in the study and documentation of Dutch language and culture."@en , "Meertens Instituut/Humanities Cluster"@en ;
+        aocat:has_landing_page      <http://www.meertens.knaw.nl> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/CLARIN%20Netherlands> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/3E3735FE-C1D6-3CA2-B496-527B75081F86> ;
+        aocat:has_title             "Meertens Instituut/HuC"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<https://www.sead.se>
+        a           owl:Thing ;
+        rdfs:label  "https://www.sead.se"@en .
+
+<http://atrium.eu/Agent/University%20of%20California%2C%20Berkeley>
+        a           aocat:AO_Agent ;
+        rdfs:label  "University of California, Berkeley"@en .
+
+<https://clarin-ch.ch>
+        a           owl:Thing ;
+        rdfs:label  "https://clarin-ch.ch"@en .
+
+<http://atrium.eu/Source/49>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "CLARINO Bergen Center"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "Provides Norwegian language resources and tools for research."@en , "CLARINO Bergen Center"@en ;
+        aocat:has_landing_page      <http://clarino.uib.no> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/CLARIN%20Norway> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/D5215023-C7E1-3686-8EFD-4F4965FE6B91> ;
+        aocat:has_title             "CLARINO Bergen Center"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://ivdnt.org>  a  owl:Thing ;
+        rdfs:label  "http://ivdnt.org"@en .
+
+<http://atrium.eu/Source/28>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "SSK Zotero Resources"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/C4CA4238-A0B9-3382-8DCC-509A6F75849B> ;
+        aocat:has_description       "Standardization Survival Kit Zotero Resources"@en , "A collection of Zotero-based resources to assist with standardization in research."@en ;
+        aocat:has_landing_page      <https://www.zotero.org/groups/427927/ssk-parthenos/library> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/SSK%20Consortium> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/C932714A-29AA-365C-8F86-B43E9ABF6D40> ;
+        aocat:has_title             "SSK Zotero Resources"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15642> .
+
+<https://doaj.org>  a  owl:Thing ;
+        rdfs:label  "https://doaj.org"@en .
+
+<http://www.clarin-lt.lt>
+        a           owl:Thing ;
+        rdfs:label  "http://www.clarin-lt.lt"@en .
+
+<https://humanitiesdata.com/>
+        a           owl:Thing ;
+        rdfs:label  "https://humanitiesdata.com/"@en .
+
+<http://spraakbanken.gu.se>
+        a           owl:Thing ;
+        rdfs:label  "http://spraakbanken.gu.se"@en .
+
+<http://atrium.eu/Place/141C3FFE-DC2E-33E6-8DFB-31A456BED268>
+        a           aocat:AO_Spatial_Region ;
+        rdfs:label  "Italy"@en .
+
+<http://atrium.eu/Source/9>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "Inrap"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/C81E728D-9D4C-3F63-AF06-7F89CC14862C> ;
+        aocat:has_description       "Institut national de recherches archéologiques préventives"@en , "France's leading institution for preventive archaeology, responsible for safeguarding the nation's archaeological heritage."@en ;
+        aocat:has_landing_page      <https://www.inrap.fr> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/Inrap> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/549D841C-3704-32B6-A273-A258DD0B6F17> ;
+        aocat:has_title             "Inrap"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://atrium.eu/Agent/LINGUIST%20List>
+        a           aocat:AO_Agent ;
+        rdfs:label  "LINGUIST List"@en .
+
+<http://atrium.eu/Place/668F5146-78C7-37F5-A71A-07044935D94C>
+        a           aocat:AO_Spatial_Region ;
+        rdfs:label  "South Africa"@en .
+
+<https://b2share.eudat.eu>
+        a           owl:Thing ;
+        rdfs:label  "https://b2share.eudat.eu"@en .
+
+<http://atrium.eu/Source/99>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "Conversion Hub"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/C4CA4238-A0B9-3382-8DCC-509A6F75849B> ;
+        aocat:has_description       "The SSH Conversion Hub provides an inventory of solutions for conversions between data and file formats."@en , "SSHOC Conversion Hub"@en ;
+        aocat:has_landing_page      <https://conversion-hub.sshopencloud.eu/> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/ACDH-CH> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/C932714A-29AA-365C-8F86-B43E9ABF6D40> ;
+        aocat:has_title             "Conversion Hub"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15642> .
+
+<http://atrium.eu/Agent/EKT>
+        a           aocat:AO_Agent ;
+        rdfs:label  "EKT"@en .
+
+<https://www.ekt.gr>  a  owl:Thing ;
+        rdfs:label  "https://www.ekt.gr"@en .
+
+<http://atrium.eu/Source/78>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "Språkbanken"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "Offers linguistic resources and tools for the Swedish language."@en , "Språkbanken"@en ;
+        aocat:has_landing_page      <http://spraakbanken.gu.se> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/CLARIN%20Sweden> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/73C8E843-43F1-3364-9E7C-32173220B90C> ;
+        aocat:has_title             "Språkbanken"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://atrium.eu/Agent/UiT%20Arctic%20University%20of%20Norway>
+        a           aocat:AO_Agent ;
+        rdfs:label  "UiT Arctic University of Norway"@en .
+
+<http://atrium.eu/Agent/EOSC>
+        a           aocat:AO_Agent ;
+        rdfs:label  "EOSC"@en .
+
+<http://atrium.eu/Source/57>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "DANS"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "Data Archiving and Networked Services"@en , "Provides a repository for storing and sharing research data, with a focus on social sciences and humanities."@en ;
+        aocat:has_landing_page      <http://dans.knaw.nl> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/CLARIN%20Netherlands> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/3E3735FE-C1D6-3CA2-B496-527B75081F86> ;
+        aocat:has_title             "DANS"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<https://www.nb.no/sprakbanken/en/sprakbanken/>
+        a           owl:Thing ;
+        rdfs:label  "https://www.nb.no/sprakbanken/en/sprakbanken/"@en .
+
+<https://www.econstor.eu>
+        a           owl:Thing ;
+        rdfs:label  "https://www.econstor.eu"@en .
+
+<http://atrium.eu/Source/36>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "SSHOC Service Catalogue"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/C4CA4238-A0B9-3382-8DCC-509A6F75849B> ;
+        aocat:has_description       "SSH Open Cloud Project Service Catalogue"@en , "Previously provided services for research in the social sciences and humanities."@en ;
+        aocat:has_landing_page      <https://sshopencloud.eu/service-catalogue> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/SSHOC> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/C932714A-29AA-365C-8F86-B43E9ABF6D40> ;
+        aocat:has_title             "SSHOC Service Catalogue"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15642> .
+
+<http://atrium.eu/Source/15>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "EKT"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/A87FF679-A2F3-371D-9181-A67B7542122C> ;
+        aocat:has_description       "Εθνικό Κέντρο Τεκμηρίωσης & Ηλεκτρονικού Περιεχομένου (National Documentation Centre of Greece)"@en , "Greece's National Documentation Centre, responsible for archiving and providing access to a wide range of scientific and cultural resources."@en ;
+        aocat:has_landing_page      <https://www.ekt.gr> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/EKT> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/71E8991C-D0A6-3BCC-B710-61AA0A95BF82> ;
+        aocat:has_title             "EKT"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://atrium.eu/Place/549D841C-3704-32B6-A273-A258DD0B6F17>
+        a           aocat:AO_Spatial_Region ;
+        rdfs:label  "France"@en .
+
+<http://atrium.eu/Agent/Uppsala%20University>
+        a           aocat:AO_Agent ;
+        rdfs:label  "Uppsala University"@en .
+
+<https://lac.uni-koeln.de>
+        a           owl:Thing ;
+        rdfs:label  "https://lac.uni-koeln.de"@en .
+
+<https://archaeologydataservice.ac.uk>
+        a           owl:Thing ;
+        rdfs:label  "https://archaeologydataservice.ac.uk"@en .
+
+<http://atrium.eu/Agent/University%20of%20Stuttgart>
+        a           aocat:AO_Agent ;
+        rdfs:label  "University of Stuttgart"@en .
+
+<http://atrium.eu/Place/E634932B-DCF8-3870-894F-7E681A87DD97>
+        a           aocat:AO_Spatial_Region ;
+        rdfs:label  "Latvia"@en .
+
+<http://wals.info>  a  owl:Thing ;
+        rdfs:label  "http://wals.info"@en .
+
+<http://atrium.eu/Agent/Max%20Planck%20Institute%20for%20Evolutionary%20Anthropology>
+        a           aocat:AO_Agent ;
+        rdfs:label  "Max Planck Institute for Evolutionary Anthropology"@en .
+
+<http://atrium.eu/Source/86>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "CLLE ERSS"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "A research center focusing on language, cognition, and computational linguistics."@en , "CLLE ERSS Université de Toulouse Le Mirail"@en ;
+        aocat:has_landing_page      <http://redac.univ-tlse2.fr/index.html> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/CLARIN%20France> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/549D841C-3704-32B6-A273-A258DD0B6F17> ;
+        aocat:has_title             "CLLE ERSS"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://worldviews.gei.de>
+        a           owl:Thing ;
+        rdfs:label  "http://worldviews.gei.de"@en .
+
+<http://atrium.eu/Agent/Arizona%20State%20University>
+        a           aocat:AO_Agent ;
+        rdfs:label  "Arizona State University"@en .
+
+<http://atrium.eu/Source/65>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "GEI"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "Specializes in digital education resources."@en , "Leibniz Institute for Educational Media | Georg Eckert Institute"@en ;
+        aocat:has_landing_page      <http://worldviews.gei.de> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/CLARIN%20Germany> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/F8B18593-CDBB-3CE2-8933-0560A44E33AA> ;
+        aocat:has_title             "GEI"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://atrium.eu/Source/44>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "CLARIN-IS"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "Provides access to Icelandic language resources."@en , "CLARIN Iceland"@en ;
+        aocat:has_landing_page      <http://clarin.is> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/CLARIN%20Iceland> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/0B7E2607-202C-37CA-BC1A-FDA7BA96A535> ;
+        aocat:has_title             "CLARIN-IS"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://atrium.eu/Agent/Programming%20Historian%20Editorial%20Board>
+        a           aocat:AO_Agent ;
+        rdfs:label  "Programming Historian Editorial Board"@en .
+
+<http://atrium.eu/Source/23>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "OpenAIRE"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/A87FF679-A2F3-371D-9181-A67B7542122C> ;
+        aocat:has_description       "A European infrastructure supporting open access to research outputs and fostering open science."@en , "Open Access Infrastructure for Research in Europe"@en ;
+        aocat:has_landing_page      <https://www.openaire.eu> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/OpenAIRE%20Consortium> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/71E8991C-D0A6-3BCC-B710-61AA0A95BF82> , <http://atrium.eu/Place/C932714A-29AA-365C-8F86-B43E9ABF6D40> ;
+        aocat:has_title             "OpenAIRE"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://atrium.eu/Service/C4CA4238-A0B9-3382-8DCC-509A6F75849B>
+        a           crmpe:PE15_Data_E-Service ;
+        rdfs:label  "SSH Open Marketplace"@en .
+
+<http://atrium.eu/Agent/TAPoR%20Consortium>
+        a           aocat:AO_Agent ;
+        rdfs:label  "TAPoR Consortium"@en .
+
+<http://atrium.eu/Source/4>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "Nara Research Institute"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/C81E728D-9D4C-3F63-AF06-7F89CC14862C> ;
+        aocat:has_description       "Japanese research center dedicated to the preservation and study of cultural heritage and archaeological discoveries."@en , "Nara National Research Institute for Cultural Properties"@en ;
+        aocat:has_landing_page      <https://www.nabunken.go.jp/english/> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/Nara%20National%20Research%20Institute> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/B24B1810-F41D-38B5-9728-A9F56B043D35> ;
+        aocat:has_title             "Nara Research Institute"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://atrium.eu/Agent/Inrap>
+        a           aocat:AO_Agent ;
+        rdfs:label  "Inrap"@en .
+
+<http://atrium.eu/Agent/OpenEdition%20%28CLEO%20-%20Centre%20for%20Open%20Electronic%20Publishing%29>
+        a           aocat:AO_Agent ;
+        rdfs:label  "OpenEdition (CLEO - Centre for Open Electronic Publishing)"@en .
+
+<http://atrium.eu/Agent/University%20of%20Cologne>
+        a           aocat:AO_Agent ;
+        rdfs:label  "University of Cologne"@en .
+
+<https://www.cessda.eu>
+        a           owl:Thing ;
+        rdfs:label  "https://www.cessda.eu"@en .
+
+<http://atrium.eu/Source/94>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "The Rosetta Project"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "The Rosetta Project - A Long Now Foundation"@en , "Provides access to a long-term archive of human languages, especially focusing on endangered and lesser-known languages."@en ;
+        aocat:has_landing_page      <https://rosettaproject.org> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/The%20Long%20Now%20Foundation> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/FC42BAD7-15BC-3976-BDDD-95A239552434> ;
+        aocat:has_title             "The Rosetta Project"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://atrium.eu/Source/73>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "OTA"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "Oxford Text Archive"@en , "Provides access to literary and linguistic resources for research purposes."@en ;
+        aocat:has_landing_page      <https://llds.ling-phil.ox.ac.uk> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/CLARIN%20UK> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/301C8EB1-F76E-306E-81BC-F7A70AD25FFD> ;
+        aocat:has_title             "OTA"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://atrium.eu/Source/52>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "CLST"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "Offers speech and language resources, with a focus on speech technology."@en , "Centre for Language and Speech Technology"@en ;
+        aocat:has_landing_page      <http://www.ru.nl/clst> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/Radboud%20University> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/3E3735FE-C1D6-3CA2-B496-527B75081F86> ;
+        aocat:has_title             "CLST"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://redac.univ-tlse2.fr/index.html>
+        a           owl:Thing ;
+        rdfs:label  "http://redac.univ-tlse2.fr/index.html"@en .
+
+<http://atrium.eu/Source/31>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "DARIAH Campus"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/C4CA4238-A0B9-3382-8DCC-509A6F75849B> ;
+        aocat:has_description       "DARIAH Campus"@en , "A platform offering open educational resources for digital humanities research."@en ;
+        aocat:has_landing_page      <https://campus.dariah.eu> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/DARIAH> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/C932714A-29AA-365C-8F86-B43E9ABF6D40> ;
+        aocat:has_title             "DARIAH Campus"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://www.meertens.knaw.nl>
+        a           owl:Thing ;
+        rdfs:label  "http://www.meertens.knaw.nl"@en .
+
+<http://atrium.eu/Source/10>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "DOAJ"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/A87FF679-A2F3-371D-9181-A67B7542122C> ;
+        aocat:has_description       "An online directory that indexes and provides access to high-quality, open-access, peer-reviewed journals."@en , "Directory of Open Access Journals"@en ;
+        aocat:has_landing_page      <https://doaj.org> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/DOAJ%20Team%20%28International%29> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/301C8EB1-F76E-306E-81BC-F7A70AD25FFD> , <http://atrium.eu/Place/D0AE1E30-7880-3C85-978D-64F4DED5CDCB> ;
+        aocat:has_title             "DOAJ"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://hdl.handle.net/11858/00-1779-0000-000C-DAAF-B>
+        a           owl:Thing ;
+        rdfs:label  "http://hdl.handle.net/11858/00-1779-0000-000C-DAAF-B"@en .
+
+<http://atrium.eu/Agent/CLARIN%20Germany>
+        a           aocat:AO_Agent ;
+        rdfs:label  "CLARIN Germany"@en .
+
+<http://www.korpus.cz/clarin>
+        a           owl:Thing ;
+        rdfs:label  "http://www.korpus.cz/clarin"@en .
+
+<https://www.ortolang.fr>
+        a           owl:Thing ;
+        rdfs:label  "https://www.ortolang.fr"@en .
+
+<https://marketplace.sshopencloud.eu/search?order=score&categories=workflow&f.source=Standardization+Survival+Kit#/>
+        a           owl:Thing ;
+        rdfs:label  "https://marketplace.sshopencloud.eu/search?order=score&categories=workflow&f.source=Standardization+Survival+Kit#/"@en .
+
+<http://atrium.eu/Source/81>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "ILC4CLARIN"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "ILC4CLARIN Centre at the Institute for Computational Linguistics"@en , "Offers computational tools and linguistic resources."@en ;
+        aocat:has_landing_page      <https://ilc4clarin.ilc.cnr.it> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/CLARIN%20Italy> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/141C3FFE-DC2E-33E6-8DFB-31A456BED268> ;
+        aocat:has_title             "ILC4CLARIN"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://atrium.eu/Source/60>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "HZSK"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "Hamburger Zentrum für Sprachkorpora"@en , "Offers access to language corpora and linguistic research data."@en ;
+        aocat:has_landing_page      <https://www.slm.uni-hamburg.de/hzsk.html> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/CLARIN%20Germany> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/F8B18593-CDBB-3CE2-8933-0560A44E33AA> ;
+        aocat:has_title             "HZSK"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://atrium.eu/Source/39>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "BAS"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "Provides access to speech signal data from various research projects."@en , "Bayerisches Archiv für Sprachsignale"@en ;
+        aocat:has_landing_page      <http://hdl.handle.net/11858/00-1779-0000-000C-DAAF-B> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/Ludwig-Maximilians-Universit%C3%A4t%20M%C3%BCnchen> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/F8B18593-CDBB-3CE2-8933-0560A44E33AA> ;
+        aocat:has_title             "BAS"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://www.e-codices.unifr.ch>
+        a           owl:Thing ;
+        rdfs:label  "http://www.e-codices.unifr.ch"@en .
+
+<http://atrium.eu/Place/0783683C-446C-352F-9DF7-D90D92BF5239>
+        a           aocat:AO_Spatial_Region ;
+        rdfs:label  "Lithuania"@en .
+
+<http://atrium.eu/Source/18>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "COIMBRA/Pombolina"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/A87FF679-A2F3-371D-9181-A67B7542122C> ;
+        aocat:has_description       "COIMBRA/Pombalina"@en , "Portugal's University of Coimbra's digital library providing access to academic and scientific documents."@en ;
+        aocat:has_landing_page      <https://digitalis.uc.pt/pombalina> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/University%20of%20Coimbra> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/206F6A7A-DA91-3912-A938-9DA75D80BE3B> ;
+        aocat:has_title             "COIMBRA/Pombolina"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<https://www.openedition.org>
+        a           owl:Thing ;
+        rdfs:label  "https://www.openedition.org"@en .
+
+<http://atrium.eu/Agent/Austrian%20Centre%20for%20Digital%20Humanities%20and%20Cultural%20Heritage%20%28ACDH-CH%29>
+        a           aocat:AO_Agent ;
+        rdfs:label  "Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)"@en .
+
+<https://snd.se>  a  owl:Thing ;
+        rdfs:label  "https://snd.se"@en .
+
+<http://atrium.eu/Agent/SSHOC%20%28Social%20Sciences%20%26%20Humanities%20Open%20Cloud%29>
+        a           aocat:AO_Agent ;
+        rdfs:label  "SSHOC (Social Sciences & Humanities Open Cloud)"@en .
+
+<http://atrium.eu/Source/89>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "Europeana"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "Europeana"@en , "A digital platform for cultural heritage, providing access to millions of books, artworks, and other artifacts from European libraries, museums, and archives."@en ;
+        aocat:has_landing_page      <https://www.europeana.eu> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/Europeana%20Foundation> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/C932714A-29AA-365C-8F86-B43E9ABF6D40> ;
+        aocat:has_title             "Europeana"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://atrium.eu/Agent/University%20of%20Gothenburg>
+        a           aocat:AO_Agent ;
+        rdfs:label  "University of Gothenburg"@en .
+
+<http://atrium.eu/Agent/Linguistic%20Data%20Consortium%20%28LDC%29>
+        a           aocat:AO_Agent ;
+        rdfs:label  "Linguistic Data Consortium (LDC)"@en .
+
+<http://atrium.eu/Source/68>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "MPI Psycholinguistics"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "Specializes in language processing and cognitive research."@en , "Max Planck Institute for Psycholinguistics"@en ;
+        aocat:has_landing_page      <https://archive.mpi.nl> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/CLARIN%20Netherlands> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/3E3735FE-C1D6-3CA2-B496-527B75081F86> ;
+        aocat:has_title             "MPI Psycholinguistics"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://atrium.eu/Source/47>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "CLARIN.SI"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "Provides Slovenian language resources and tools."@en , "CLARIN.SI Language Technology Centre"@en ;
+        aocat:has_landing_page      <http://www.clarin.si> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/CLARIN%20Slovenia> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/47348419-F65E-3FF9-BAB4-74A090E66A41> ;
+        aocat:has_title             "CLARIN.SI"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<https://dans-labs.github.io/dariah-contrib/>
+        a           owl:Thing ;
+        rdfs:label  "https://dans-labs.github.io/dariah-contrib/"@en .
+
+<http://atrium.eu/Place/FBF8CA43-DCC0-34C2-8945-49D6B8CA0375>
+        a           aocat:AO_Spatial_Region ;
+        rdfs:label  "Czech Republic"@en .
+
+<http://atrium.eu/Source/26>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "CLARIN Resource Families"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/C4CA4238-A0B9-3382-8DCC-509A6F75849B> ;
+        aocat:has_description       "Provides access to language resources, categorized into families for easier search and discovery."@en , "CLARIN Resource Families"@en ;
+        aocat:has_landing_page      <https://www.clarin.eu/resource-families> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/CLARIN%20ERIC> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/3E3735FE-C1D6-3CA2-B496-527B75081F86> , <http://atrium.eu/Place/C932714A-29AA-365C-8F86-B43E9ABF6D40> ;
+        aocat:has_title             "CLARIN Resource Families"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://atrium.eu/Agent/Europeana%20Foundation>
+        a           aocat:AO_Agent ;
+        rdfs:label  "Europeana Foundation"@en .
+
+<https://www.clarin.gr>
+        a           owl:Thing ;
+        rdfs:label  "https://www.clarin.gr"@en .
+
+<http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3>
+        a           crmpe:PE15_Data_E-Service ;
+        rdfs:label  "CLARIN VLO"@en .
+
+<http://atrium.eu/Place/9B71706C-B7D7-332A-9744-C88113C7E83A>
+        a           aocat:AO_Spatial_Region ;
+        rdfs:label  "Canada"@en .
+
+<http://atrium.eu/Agent/Nara%20National%20Research%20Institute>
+        a           aocat:AO_Agent ;
+        rdfs:label  "Nara National Research Institute"@en .
+
+<https://digitalis.uc.pt/pombalina>
+        a           owl:Thing ;
+        rdfs:label  "https://digitalis.uc.pt/pombalina"@en .
+
+<http://atrium.eu/Agent/CLARIN%20Portugal>
+        a           aocat:AO_Agent ;
+        rdfs:label  "CLARIN Portugal"@en .
+
+<http://atrium.eu/Source/7>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "SEAD"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/C81E728D-9D4C-3F63-AF06-7F89CC14862C> ;
+        aocat:has_description       "The Strategic Environmental Archaeology Database"@en , "A Swedish national resource for environmental archaeology data."@en ;
+        aocat:has_landing_page      <https://www.sead.se> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/Uppsala%20University> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/73C8E843-43F1-3364-9E7C-32173220B90C> ;
+        aocat:has_title             "SEAD"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<https://clarin-pl.eu>
+        a           owl:Thing ;
+        rdfs:label  "https://clarin-pl.eu"@en .
+
+<http://atrium.eu/Source/76>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "SAW Leipzig"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "SAW Leipzig"@en , "Provides access to linguistic resources and tools, with a focus on historical corpora."@en ;
+        aocat:has_landing_page      <https://repo.data.saw-leipzig.de> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/CLARIN%20Germany> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/F8B18593-CDBB-3CE2-8933-0560A44E33AA> ;
+        aocat:has_title             "SAW Leipzig"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://atrium.eu/Agent/PARADISEC>
+        a           aocat:AO_Agent ;
+        rdfs:label  "PARADISEC"@en .
+
+<http://atrium.eu/Agent/CLARIN%20Austria>
+        a           aocat:AO_Agent ;
+        rdfs:label  "CLARIN Austria"@en .
+
+<http://atrium.eu/Source/55>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "CNC"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "Provides access to large-scale linguistic data for the Czech language."@en , "Czech National Corpus"@en ;
+        aocat:has_landing_page      <http://www.korpus.cz/clarin> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/CLARIN%20Czech%20Republic> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/FBF8CA43-DCC0-34C2-8945-49D6B8CA0375> ;
+        aocat:has_title             "CNC"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://atrium.eu/Agent/CLARIN%20Slovenia>
+        a           aocat:AO_Agent ;
+        rdfs:label  "CLARIN Slovenia"@en .
+
+<http://atrium.eu/Place/71E8991C-D0A6-3BCC-B710-61AA0A95BF82>
+        a           aocat:AO_Spatial_Region ;
+        rdfs:label  "Greece"@en .
+
+<http://atrium.eu/Source/34>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "Standardisation Survival Kit"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/C4CA4238-A0B9-3382-8DCC-509A6F75849B> ;
+        aocat:has_description       "Provides resources for understanding and implementing standards in social sciences and humanities research."@en , "Standardisation Survival Kit"@en ;
+        aocat:has_landing_page      <https://marketplace.sshopencloud.eu/search?order=score&categories=workflow&f.source=Standardization+Survival+Kit#/> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/SSHOC%20%28Social%20Sciences%20%26%20Humanities%20Open%20Cloud%29> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/C932714A-29AA-365C-8F86-B43E9ABF6D40> ;
+        aocat:has_title             "Standardisation Survival Kit"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<https://www.cessda.eu/Training-Resources>
+        a           owl:Thing ;
+        rdfs:label  "https://www.cessda.eu/Training-Resources"@en .
+
+<http://atrium.eu/Concept/Status/15641>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Active"@en .
+
+<http://atrium.eu/Source/13>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "RECYT"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/A87FF679-A2F3-371D-9181-A67B7542122C> ;
+        aocat:has_description       "Repositorio Español de Ciencia y Tecnología"@en , "Spanish repository for science and technology, managed by FECYT, providing access to scientific data and publications."@en ;
+        aocat:has_landing_page      <https://recyt.fecyt.es> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/FECYT%20%28Fundaci%C3%B3n%20Espa%C3%B1ola%20para%20la%20Ciencia%20y%20la%20Tecnolog%C3%ADa%29> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/77A44D5C-FB59-3B35-85D6-1AA742268C9B> ;
+        aocat:has_title             "RECYT"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<https://portulanclarin.net>
+        a           owl:Thing ;
+        rdfs:label  "https://portulanclarin.net"@en .
+
+<http://atrium.eu/Source/84>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "ZIM Centre for Information Modelling"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "ZIM Centre for Information Modelling"@en , "Provides access to research data in digital humanities, focusing on information modelling and data curation at the University of Graz."@en ;
+        aocat:has_landing_page      <https://zim.uni-graz.at> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/CLARIN%20Austria> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/4195CAC6-CE8D-384D-8415-94A3FAA2E13D> ;
+        aocat:has_title             "ZIM Centre for Information Modelling"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://atrium.eu/Source/63>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "LINDAT/CLARIAH-CZ"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "LINDAT/CLARIAH-CZ"@en , "Provides language technology and digital humanities tools."@en ;
+        aocat:has_landing_page      <https://lindat.cz> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/CLARIN%20Czech%20Republic> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/FBF8CA43-DCC0-34C2-8945-49D6B8CA0375> ;
+        aocat:has_title             "LINDAT/CLARIAH-CZ"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://www.ims.uni-stuttgart.de>
+        a           owl:Thing ;
+        rdfs:label  "http://www.ims.uni-stuttgart.de"@en .
+
+<http://atrium.eu/Source/42>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "CLARIN Latvia"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "CLARIN Centre of Latvian language resources and tools"@en , "Provides access to language resources and tools related to the Latvian language."@en ;
+        aocat:has_landing_page      <https://www.clarin.lv> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/CLARIN%20Latvia> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/E634932B-DCF8-3870-894F-7E681A87DD97> ;
+        aocat:has_title             "CLARIN Latvia"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://atrium.eu/Place/20E169B4-8C8F-3698-87E2-BBE1C5C3EA65>
+        a           aocat:AO_Spatial_Region ;
+        rdfs:label  "Argentina"@en .
+
+<https://www.openaire.eu>
+        a           owl:Thing ;
+        rdfs:label  "https://www.openaire.eu"@en .
+
+<http://atrium.eu/Source/21>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "ZRC SAZU"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/A87FF679-A2F3-371D-9181-A67B7542122C> ;
+        aocat:has_description       "Znanstvenoraziskovalni center Slovenske akademije znanosti in umetnosti (Research Centre of the Slovenian Academy of Sciences and Arts)"@en , "Slovenia’s leading research institute in the humanities and social sciences."@en ;
+        aocat:has_landing_page      <https://www.zrc-sazu.si> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/ZRC%20SAZU> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/47348419-F65E-3FF9-BAB4-74A090E66A41> ;
+        aocat:has_title             "ZRC SAZU"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://catalog.paradisec.org.au>
+        a           owl:Thing ;
+        rdfs:label  "http://catalog.paradisec.org.au"@en .
+
+<http://atrium.eu/Agent/CLARIN%20Greece>
+        a           aocat:AO_Agent ;
+        rdfs:label  "CLARIN Greece"@en .
+
+<https://www.sadilar.org>
+        a           owl:Thing ;
+        rdfs:label  "https://www.sadilar.org"@en .
+
+<http://atrium.eu/Agent/DOAJ%20Team%20%28International%29>
+        a           aocat:AO_Agent ;
+        rdfs:label  "DOAJ Team (International)"@en .
+
+<http://atrium.eu/Source/2>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "ADS"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/C81E728D-9D4C-3F63-AF06-7F89CC14862C> ;
+        aocat:has_description       "Archaeology Data Service"@en , "UK-based service specializing in the preservation and dissemination of archaeological research data."@en ;
+        aocat:has_landing_page      <https://archaeologydataservice.ac.uk> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/University%20of%20York> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/301C8EB1-F76E-306E-81BC-F7A70AD25FFD> ;
+        aocat:has_title             "ADS"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://atrium.eu/Place/F39F6F54-273C-368D-91EB-7443932A64AD>
+        a           aocat:AO_Spatial_Region ;
+        rdfs:label  "Estonia"@en .
+
+<http://atrium.eu/Agent/University%20of%20York>
+        a           aocat:AO_Agent ;
+        rdfs:label  "University of York"@en .
+
+<http://atrium.eu/Source/92>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "LDC Corpus Catalog"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "Linguistic Data Consortium Corpus Catalog"@en , "Offers linguistic data resources for research in language technology, speech processing, and machine learning."@en ;
+        aocat:has_landing_page      <https://catalog.ldc.upenn.edu> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/Linguistic%20Data%20Consortium%20%28LDC%29> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/FC42BAD7-15BC-3976-BDDD-95A239552434> ;
+        aocat:has_title             "LDC Corpus Catalog"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://atrium.eu/Agent/CLARIN%20Iceland>
+        a           aocat:AO_Agent ;
+        rdfs:label  "CLARIN Iceland"@en .
+
+<http://atrium.eu/Source/71>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "National Library of Norway"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "National Library of Norway"@en , "Offers access to a wide range of linguistic resources, including historical texts."@en ;
+        aocat:has_landing_page      <https://www.nb.no/sprakbanken/en/sprakbanken/> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/CLARIN%20Norway> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/D5215023-C7E1-3686-8EFD-4F4965FE6B91> ;
+        aocat:has_title             "National Library of Norway"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<https://www.cedifor.de>
+        a           owl:Thing ;
+        rdfs:label  "https://www.cedifor.de"@en .
+
+<http://atrium.eu/Place/47348419-F65E-3FF9-BAB4-74A090E66A41>
+        a           aocat:AO_Spatial_Region ;
+        rdfs:label  "Slovenia"@en .
+
+<http://atrium.eu/Source/50>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "CLARINO Text Laboratory Centre"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "Provides access to tools for text analysis and natural language processing."@en , "CLARINO Text Laboratory Centre"@en ;
+        aocat:has_landing_page      <http://www.tekstlab.uio.no/clarino> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/CLARIN%20Norway> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/D5215023-C7E1-3686-8EFD-4F4965FE6B91> ;
+        aocat:has_title             "CLARINO Text Laboratory Centre"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://atrium.eu/Agent/The%20Long%20Now%20Foundation>
+        a           aocat:AO_Agent ;
+        rdfs:label  "The Long Now Foundation"@en .
+
+<https://archive.mpi.nl>
+        a           owl:Thing ;
+        rdfs:label  "https://archive.mpi.nl"@en .
+
+<http://atrium.eu/Agent/CLARIN%20Czech%20Republic>
+        a           aocat:AO_Agent ;
+        rdfs:label  "CLARIN Czech Republic"@en .
+
+<http://atrium.eu/Source/29>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "Humanities Data"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/C4CA4238-A0B9-3382-8DCC-509A6F75849B> ;
+        aocat:has_description       "A platform for accessing various data sets in the humanities."@en , "Humanities Data"@en ;
+        aocat:has_landing_page      <https://humanitiesdata.com/> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/Humanities%20Data%20Consortium> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/FC42BAD7-15BC-3976-BDDD-95A239552434> ;
+        aocat:has_title             "Humanities Data"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://atrium.eu/Agent/CLARIN%20Lithuania>
+        a           aocat:AO_Agent ;
+        rdfs:label  "CLARIN Lithuania"@en .
+
+<http://atrium.eu/Agent/Institute%20of%20Archaeology%2C%20Czech%20Academy%20of%20Sciences>
+        a           aocat:AO_Agent ;
+        rdfs:label  "Institute of Archaeology, Czech Academy of Sciences"@en .
+
+<http://atrium.eu/Place/D9A84905-4248-3B8A-B5FA-A6FAADB62507>
+        a           aocat:AO_Spatial_Region ;
+        rdfs:label  "Poland"@en .
+
+<http://cocoon.huma-num.fr>
+        a           owl:Thing ;
+        rdfs:label  "http://cocoon.huma-num.fr"@en .
+
+<http://atrium.eu/Place/301C8EB1-F76E-306E-81BC-F7A70AD25FFD>
+        a           aocat:AO_Spatial_Region ;
+        rdfs:label  "United Kingdom"@en .
+
+<http://atrium.eu/Agent/University%20of%20the%20Basque%20Country>
+        a           aocat:AO_Agent ;
+        rdfs:label  "University of the Basque Country"@en .
+
+<http://www.clarin.si>
+        a           owl:Thing ;
+        rdfs:label  "http://www.clarin.si"@en .
+
+<http://atrium.eu/Agent/ELRA>
+        a           aocat:AO_Agent ;
+        rdfs:label  "ELRA"@en .
+
+<http://atrium.eu/Agent/Interdisciplinary%20Centre%20for%20Mathematical%20and%20Computational%20Modelling%20%28ICM%29%2C%20University%20of%20Warsaw>
+        a           aocat:AO_Agent ;
+        rdfs:label  "Interdisciplinary Centre for Mathematical and Computational Modelling (ICM), University of Warsaw"@en .
+
+<http://atrium.eu/Place/B24B1810-F41D-38B5-9728-A9F56B043D35>
+        a           aocat:AO_Spatial_Region ;
+        rdfs:label  "Japan"@en .
+
+<http://atrium.eu/Source/79>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "TextGrid"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "TextGrid Repository"@en , "Provides digital tools and repositories for humanities research."@en ;
+        aocat:has_landing_page      <https://textgridrep.org> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/CLARIN%20Germany> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/F8B18593-CDBB-3CE2-8933-0560A44E33AA> ;
+        aocat:has_title             "TextGrid"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://atrium.eu/Agent/Huma-Num%20%28CNRS%29>
+        a           aocat:AO_Agent ;
+        rdfs:label  "Huma-Num (CNRS)"@en .
+
+<http://atrium.eu/Source/58>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "Eberhard Karls Universität Tübingen"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "Eberhard Karls Universität Tübingen"@en , "Offers digital linguistic resources and services."@en ;
+        aocat:has_landing_page      <http://www.sfs.uni-tuebingen.de> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/CLARIN%20Germany> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/F8B18593-CDBB-3CE2-8933-0560A44E33AA> ;
+        aocat:has_title             "Eberhard Karls Universität Tübingen"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<https://calames.abes.fr/pub/mmsh.aspx>
+        a           owl:Thing ;
+        rdfs:label  "https://calames.abes.fr/pub/mmsh.aspx"@en .
+
+<http://atrium.eu/Source/37>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "DARIAH contribution tool"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/C4CA4238-A0B9-3382-8DCC-509A6F75849B> ;
+        aocat:has_description       "Previously facilitated in-kind contributions to the DARIAH research infrastructure."@en , "DARIAH in-kind contribution tool"@en ;
+        aocat:has_landing_page      <https://dans-labs.github.io/dariah-contrib/> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/DARIAH> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/C932714A-29AA-365C-8F86-B43E9ABF6D40> ;
+        aocat:has_title             "DARIAH contribution tool"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15642> .
+
+<http://atrium.eu/Agent/University%20of%20Coimbra>
+        a           aocat:AO_Agent ;
+        rdfs:label  "University of Coimbra"@en .
+
+<https://uclouvain.be/en/research-institutes/ilc/clarin-knowledge-centre-for-learner-corpora.html>
+        a           owl:Thing ;
+        rdfs:label  "https://uclouvain.be/en/research-institutes/ilc/clarin-knowledge-centre-for-learner-corpora.html"@en .
+
+<http://atrium.eu/Source/16>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "HRCAK"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/A87FF679-A2F3-371D-9181-A67B7542122C> ;
+        aocat:has_description       "The central Croatian portal for open-access scientific journals."@en , "HRCAK Portal of Scientific Journals of Croatia"@en ;
+        aocat:has_landing_page      <https://hrcak.srce.hr> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/University%20of%20Zagreb%2C%20SRCE> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/CF57D08A-9941-3090-BF4F-367C647E075E> ;
+        aocat:has_title             "HRCAK"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://www.sfs.uni-tuebingen.de>
+        a           owl:Thing ;
+        rdfs:label  "http://www.sfs.uni-tuebingen.de"@en .
+
+<http://atrium.eu/Agent/Universit%C3%A9%20catholique%20de%20Louvain>
+        a           aocat:AO_Agent ;
+        rdfs:label  "Université catholique de Louvain"@en .
+
+<http://atrium.eu/Source/87>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "California Language Archive"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "California Language Archive"@en , "A digital repository for linguistic field recordings and research materials."@en ;
+        aocat:has_landing_page      <http://cla.berkeley.edu> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/University%20of%20California%2C%20Berkeley> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/FC42BAD7-15BC-3976-BDDD-95A239552434> ;
+        aocat:has_title             "California Language Archive"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://atrium.eu/Source/66>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "IDS Mannheim"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "Leibniz-Institut für Deutsche Sprache"@en , "Provides access to resources on the German language."@en ;
+        aocat:has_landing_page      <http://www.ids-mannheim.de> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/CLARIN%20Germany> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/F8B18593-CDBB-3CE2-8933-0560A44E33AA> ;
+        aocat:has_title             "IDS Mannheim"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<https://www.clarin.eu/resource-families>
+        a           owl:Thing ;
+        rdfs:label  "https://www.clarin.eu/resource-families"@en .
+
+<http://atrium.eu/Source/45>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "CLARIN-LT"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "CLARIN Lithuania"@en , "Provides Lithuanian language resources and tools for research."@en ;
+        aocat:has_landing_page      <http://www.clarin-lt.lt> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/CLARIN%20Lithuania> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/0783683C-446C-352F-9DF7-D90D92BF5239> ;
+        aocat:has_title             "CLARIN-LT"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://atrium.eu/Source/24>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "Biblioteka Nauki"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/A87FF679-A2F3-371D-9181-A67B7542122C> ;
+        aocat:has_description       "Biblioteka Nauki"@en , "A Polish platform providing open access to scientific publications in various fields."@en ;
+        aocat:has_landing_page      <https://bibliotekanauki.pl> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/Interdisciplinary%20Centre%20for%20Mathematical%20and%20Computational%20Modelling%20%28ICM%29%2C%20University%20of%20Warsaw> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/D9A84905-4248-3B8A-B5FA-A6FAADB62507> ;
+        aocat:has_title             "Biblioteka Nauki"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://dans.knaw.nl>
+        a           owl:Thing ;
+        rdfs:label  "http://dans.knaw.nl"@en .
+
+<http://atrium.eu/Agent/CLARIN%20Italy>
+        a           aocat:AO_Agent ;
+        rdfs:label  "CLARIN Italy"@en .
+
+<http://atrium.eu/Source/5>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "Digital Antiquity"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/C81E728D-9D4C-3F63-AF06-7F89CC14862C> ;
+        aocat:has_description       "Digital Antiquity (The Digital Archaeological Record - tDAR)"@en , "US-based organization managing tDAR, a database focused on the digital preservation of archaeological archives and cultural resources."@en ;
+        aocat:has_landing_page      <https://www.tdar.org> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/Arizona%20State%20University> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/FC42BAD7-15BC-3976-BDDD-95A239552434> ;
+        aocat:has_title             "Digital Antiquity"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<https://bibliotekanauki.pl>
+        a           owl:Thing ;
+        rdfs:label  "https://bibliotekanauki.pl"@en .
+
+<https://www.conicet.gov.ar>
+        a           owl:Thing ;
+        rdfs:label  "https://www.conicet.gov.ar"@en .
+
+<http://atrium.eu/Source/95>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "University of the Basque Country"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "University of the Basque Country"@en , "Provides linguistic research materials, especially focusing on Basque and other regional languages."@en ;
+        aocat:has_landing_page      <https://aholab.ehu.eus/aholab> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/University%20of%20the%20Basque%20Country> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/77A44D5C-FB59-3B35-85D6-1AA742268C9B> ;
+        aocat:has_title             "University of the Basque Country"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://www.polmine.de>
+        a           owl:Thing ;
+        rdfs:label  "http://www.polmine.de"@en .
+
+<http://atrium.eu/Agent/CLARIN%20Estonia>
+        a           aocat:AO_Agent ;
+        rdfs:label  "CLARIN Estonia"@en .
+
+<http://atrium.eu/Source/74>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "PORTULAN CLARIN"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "PORTULAN CLARIN Research Infrastructure for the Science and Technology of Language"@en , "Provides language resources and tools for Portuguese language research."@en ;
+        aocat:has_landing_page      <https://portulanclarin.net> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/CLARIN%20Portugal> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/206F6A7A-DA91-3912-A938-9DA75D80BE3B> ;
+        aocat:has_title             "PORTULAN CLARIN"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<https://www.tdar.org>
+        a           owl:Thing ;
+        rdfs:label  "https://www.tdar.org"@en .
+
+<https://isidore.science>
+        a           owl:Thing ;
+        rdfs:label  "https://isidore.science"@en .
+
+<http://atrium.eu/Source/53>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "CEDIFOR"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "Centre for the Digital Foundation of Research in the Humanities, Social, and Educational Sciences"@en , "Provides digital resources and services for research in humanities and social sciences."@en ;
+        aocat:has_landing_page      <https://www.cedifor.de> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/CLARIN%20Germany> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/F8B18593-CDBB-3CE2-8933-0560A44E33AA> ;
+        aocat:has_title             "CEDIFOR"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://atrium.eu/Place/0B7E2607-202C-37CA-BC1A-FDA7BA96A535>
+        a           aocat:AO_Spatial_Region ;
+        rdfs:label  "Iceland"@en .
+
+<http://atrium.eu/Source/32>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "CESSDA (trainings)"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/C4CA4238-A0B9-3382-8DCC-509A6F75849B> ;
+        aocat:has_description       "Provides access to training resources for social science data archives."@en , "CESSDA Training Catalogue"@en ;
+        aocat:has_landing_page      <https://www.cessda.eu/Training-Resources> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/CESSDA%20ERIC> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/C932714A-29AA-365C-8F86-B43E9ABF6D40> , <http://atrium.eu/Place/D5215023-C7E1-3686-8EFD-4F4965FE6B91> ;
+        aocat:has_title             "CESSDA (trainings)"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://atrium.eu/Agent/CESSDA%20ERIC>
+        a           aocat:AO_Agent ;
+        rdfs:label  "CESSDA ERIC"@en .
+
+<http://atrium.eu/Source/11>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "BASE"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/A87FF679-A2F3-371D-9181-A67B7542122C> ;
+        aocat:has_description       "One of the world's largest search engines for academic web resources, especially for open-access content."@en , "Bielefeld Academic Search Engine"@en ;
+        aocat:has_landing_page      <https://www.base-search.net> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/Bielefeld%20University%20Library> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/F8B18593-CDBB-3CE2-8933-0560A44E33AA> ;
+        aocat:has_title             "BASE"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<https://hrcak.srce.hr>
+        a           owl:Thing ;
+        rdfs:label  "https://hrcak.srce.hr"@en .
+
+<https://switchboard.clarin.eu>
+        a           owl:Thing ;
+        rdfs:label  "https://switchboard.clarin.eu"@en .
+
+<http://atrium.eu/Agent/CLARIN%20Latvia>
+        a           aocat:AO_Agent ;
+        rdfs:label  "CLARIN Latvia"@en .
+
+<http://atrium.eu/Place/AA404D0D-23BE-3C91-96AB-338818D5E5FB>
+        a           aocat:AO_Spatial_Region ;
+        rdfs:label  "Belgium"@en .
+
+<http://atrium.eu/Source/82>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "TROLLing"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "The Tromsø Repository of Language and Linguistics"@en , "Repository for linguistic research data, focusing on data sharing for the linguistics community."@en ;
+        aocat:has_landing_page      <https://trolling.uit.no> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/UiT%20Arctic%20University%20of%20Norway> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/D5215023-C7E1-3686-8EFD-4F4965FE6B91> ;
+        aocat:has_title             "TROLLing"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://atrium.eu/Place/6C2962F5-FD32-37CF-9496-8B00CB4ECEA5>
+        a           aocat:AO_Spatial_Region ;
+        rdfs:label  "Australia"@en .
+
+<http://www.bbaw.de>  a  owl:Thing ;
+        rdfs:label  "http://www.bbaw.de"@en .
+
+<http://atrium.eu/Source/61>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "IMS Stuttgart"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "Focuses on research in computational linguistics and speech processing."@en , "Institut für Maschinelle Sprachverarbeitung"@en ;
+        aocat:has_landing_page      <http://www.ims.uni-stuttgart.de> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/University%20of%20Stuttgart> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/F8B18593-CDBB-3CE2-8933-0560A44E33AA> ;
+        aocat:has_title             "IMS Stuttgart"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<https://programminghistorian.org>
+        a           owl:Thing ;
+        rdfs:label  "https://programminghistorian.org"@en .
+
+<http://atrium.eu/Source/40>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "BBAW"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "Berlin-Brandenburg Academy of Sciences and Humanities"@en , "A research institute providing access to linguistic and historical resources."@en ;
+        aocat:has_landing_page      <http://www.bbaw.de> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/BBAW> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/F8B18593-CDBB-3CE2-8933-0560A44E33AA> ;
+        aocat:has_title             "BBAW"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://atrium.eu/Place/77A44D5C-FB59-3B35-85D6-1AA742268C9B>
+        a           aocat:AO_Spatial_Region ;
+        rdfs:label  "Spain"@en .
+
+<http://atrium.eu/Source/19>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "CLARIN"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/A87FF679-A2F3-371D-9181-A67B7542122C> ;
+        aocat:has_description       "Common Language Resources and Technology Infrastructure"@en , "European research infrastructure providing access to language resources and technology."@en ;
+        aocat:has_landing_page      <https://www.clarin.eu> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/CLARIN%20ERIC> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/C932714A-29AA-365C-8F86-B43E9ABF6D40> , <http://atrium.eu/Place/3E3735FE-C1D6-3CA2-B496-527B75081F86> ;
+        aocat:has_title             "CLARIN"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<https://repo.data.saw-leipzig.de>
+        a           owl:Thing ;
+        rdfs:label  "https://repo.data.saw-leipzig.de"@en .
+
+<http://atrium.eu/Agent/Radboud%20University>
+        a           aocat:AO_Agent ;
+        rdfs:label  "Radboud University"@en .
+
+<http://atrium.eu/Agent/Humanities%20Data%20Consortium>
+        a           aocat:AO_Agent ;
+        rdfs:label  "Humanities Data Consortium"@en .
+
+<http://atrium.eu/Place/FC42BAD7-15BC-3976-BDDD-95A239552434>
+        a           aocat:AO_Spatial_Region ;
+        rdfs:label  "United States of America"@en .
+
+<http://atrium.eu/Agent/SSHOC>
+        a           aocat:AO_Agent ;
+        rdfs:label  "SSHOC"@en .
+
+<http://atrium.eu/Place/C932714A-29AA-365C-8F86-B43E9ABF6D40>
+        a           aocat:AO_Spatial_Region ;
+        rdfs:label  "Europe"@en .
+
+<http://atrium.eu/Agent/University%20of%20Zagreb%2C%20SRCE>
+        a           aocat:AO_Agent ;
+        rdfs:label  "University of Zagreb, SRCE"@en .
+
+<https://www.aiscr.cz>
+        a           owl:Thing ;
+        rdfs:label  "https://www.aiscr.cz"@en .
+
+<http://atrium.eu/Source/90>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "e-codices"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "e-codices - Virtual Manuscript Library of Switzerland"@en , "Provides online access to medieval and early modern manuscripts from Swiss libraries and archives."@en ;
+        aocat:has_landing_page      <http://www.e-codices.unifr.ch> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/e-codices> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/FB49C7F3-98E2-314C-ADDA-7FD635DF6BB0> ;
+        aocat:has_title             "e-codices"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<https://marketplace.eosc-portal.eu/>
+        a           owl:Thing ;
+        rdfs:label  "https://marketplace.eosc-portal.eu/"@en .
+
+<http://atrium.eu/Place/D5215023-C7E1-3686-8EFD-4F4965FE6B91>
+        a           aocat:AO_Spatial_Region ;
+        rdfs:label  "Norway"@en .
+
+<http://atrium.eu/Source/69>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "Phonothèque MMSH"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "Provides access to audio archives of cultural and historical significance in the Mediterranean (http://phonotheque.mmsh.huma-num.fr is obsolet)"@en , "Phonothèque Mediterranean Research Centre for the Humanities"@en ;
+        aocat:has_landing_page      <https://calames.abes.fr/pub/mmsh.aspx> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/Huma-Num%20%28CNRS%29> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/549D841C-3704-32B6-A273-A258DD0B6F17> ;
+        aocat:has_title             "Phonothèque MMSH"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://clarin.dk>  a  owl:Thing ;
+        rdfs:label  "http://clarin.dk"@en .
+
+<http://atrium.eu/Agent/CLARIN%20South%20Africa>
+        a           aocat:AO_Agent ;
+        rdfs:label  "CLARIN South Africa"@en .
+
+<http://atrium.eu/Source/48>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "CLARIN:EL"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "Offers Greek language resources and technologies for language processing and research."@en , "CLARIN National Infrastructure for Language Resources & Technologies in Greece"@en ;
+        aocat:has_landing_page      <https://www.clarin.gr> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/CLARIN%20Greece> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/71E8991C-D0A6-3BCC-B710-61AA0A95BF82> ;
+        aocat:has_title             "CLARIN:EL"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://atrium.eu/Source/27>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "TAPoR"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/C4CA4238-A0B9-3382-8DCC-509A6F75849B> ;
+        aocat:has_description       "A portal offering tools and resources for text analysis, designed for humanities scholars."@en , "Text Analysis Portal for Research"@en ;
+        aocat:has_landing_page      <https://tapor.ca> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/TAPoR%20Consortium> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/9B71706C-B7D7-332A-9744-C88113C7E83A> ;
+        aocat:has_title             "TAPoR"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<https://repository.de.dariah.eu>
+        a           owl:Thing ;
+        rdfs:label  "https://repository.de.dariah.eu"@en .
+
+<https://www.zotero.org/groups/427927/ssk-parthenos/library>
+        a           owl:Thing ;
+        rdfs:label  "https://www.zotero.org/groups/427927/ssk-parthenos/library"@en .
+
+<http://atrium.eu/Source/8>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "AIS-CR"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/C81E728D-9D4C-3F63-AF06-7F89CC14862C> ;
+        aocat:has_description       "Archaeological Information System of the Czech Republic"@en , "National archaeological database and information system of the Czech Republic."@en ;
+        aocat:has_landing_page      <https://www.aiscr.cz> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/Institute%20of%20Archaeology%2C%20Czech%20Academy%20of%20Sciences> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/FBF8CA43-DCC0-34C2-8945-49D6B8CA0375> ;
+        aocat:has_title             "AIS-CR"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://atrium.eu/Place/73C8E843-43F1-3364-9E7C-32173220B90C>
+        a           aocat:AO_Spatial_Region ;
+        rdfs:label  "Sweden"@en .
+
+<http://atrium.eu/Source/77>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "SADiLaR"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "South African Centre for Digital Language Resources"@en , "Provides access to linguistic resources and tools for African languages."@en ;
+        aocat:has_landing_page      <https://www.sadilar.org> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/CLARIN%20South%20Africa> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/668F5146-78C7-37F5-A71A-07044935D94C> ;
+        aocat:has_title             "SADiLaR"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://atrium.eu/Source/56>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "DARIAH-DE Repository"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "A repository for digital humanities resources as part of the DARIAH-DE initiative."@en , "DARIAH-DE Repository"@en ;
+        aocat:has_landing_page      <https://repository.de.dariah.eu> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/CLARIN%20Germany> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/F8B18593-CDBB-3CE2-8933-0560A44E33AA> ;
+        aocat:has_title             "DARIAH-DE Repository"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<https://ilc4clarin.ilc.cnr.it>
+        a           owl:Thing ;
+        rdfs:label  "https://ilc4clarin.ilc.cnr.it"@en .
+
+<http://fedora.clarin-d.uni-saarland.de/>
+        a           owl:Thing ;
+        rdfs:label  "http://fedora.clarin-d.uni-saarland.de/"@en .
+
+<http://atrium.eu/Source/35>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "EOSC Catalogue"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/C4CA4238-A0B9-3382-8DCC-509A6F75849B> ;
+        aocat:has_description       "Previously provided access to services and resources from the European Open Science Cloud."@en , "European Open Science Cloud Catalogue"@en ;
+        aocat:has_landing_page      <https://marketplace.eosc-portal.eu/> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/EOSC> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/C932714A-29AA-365C-8F86-B43E9ABF6D40> ;
+        aocat:has_title             "EOSC Catalogue"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15642> .
+
+<http://atrium.eu/Concept/Status/15642>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Decommissioned"@en .
+
+<http://atrium.eu/Source/14>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "Isidore"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/A87FF679-A2F3-371D-9181-A67B7542122C> ;
+        aocat:has_description       "A platform providing access to digital data in humanities and social sciences."@en , "Integration Services, interconnection of Data of the Research and Education"@en ;
+        aocat:has_landing_page      <https://isidore.science> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/Huma-Num%20%28CNRS%29> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/549D841C-3704-32B6-A273-A258DD0B6F17> ;
+        aocat:has_title             "Isidore"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://clarino.uib.no>
+        a           owl:Thing ;
+        rdfs:label  "http://clarino.uib.no"@en .
+
+<http://atrium.eu/Place/FB49C7F3-98E2-314C-ADDA-7FD635DF6BB0>
+        a           aocat:AO_Spatial_Region ;
+        rdfs:label  "Switzerland"@en .
+
+<https://trolling.uit.no>
+        a           owl:Thing ;
+        rdfs:label  "https://trolling.uit.no"@en .
+
+<https://aholab.ehu.eus/aholab>
+        a           owl:Thing ;
+        rdfs:label  "https://aholab.ehu.eus/aholab"@en .
+
+<http://atrium.eu/Agent/EUDAT%20Collaborative%20Data%20Infrastructure>
+        a           aocat:AO_Agent ;
+        rdfs:label  "EUDAT Collaborative Data Infrastructure"@en .
+
+<http://clarin.is>  a  owl:Thing ;
+        rdfs:label  "http://clarin.is"@en .
+
+<http://atrium.eu/Agent/ZRC%20SAZU>
+        a           aocat:AO_Agent ;
+        rdfs:label  "ZRC SAZU"@en .
+
+<http://atrium.eu/Service/A87FF679-A2F3-371D-9181-A67B7542122C>
+        a           crmpe:PE15_Data_E-Service ;
+        rdfs:label  "GoTriple"@en .
+
+<http://atrium.eu/Agent/FECYT%20%28Fundaci%C3%B3n%20Espa%C3%B1ola%20para%20la%20Ciencia%20y%20la%20Tecnolog%C3%ADa%29>
+        a           aocat:AO_Agent ;
+        rdfs:label  "FECYT (Fundación Española para la Ciencia y la Tecnología)"@en .
+
+<http://atrium.eu/Agent/CLARIN%20Denmark>
+        a           aocat:AO_Agent ;
+        rdfs:label  "CLARIN Denmark"@en .
+
+<http://atrium.eu/Agent/CLARIN%20Norway>
+        a           aocat:AO_Agent ;
+        rdfs:label  "CLARIN Norway"@en .
+
+<http://www.humlab.lu.se>
+        a           owl:Thing ;
+        rdfs:label  "http://www.humlab.lu.se"@en .
+
+<http://atrium.eu/Source/85>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "B2SHARE"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "B2SHARE"@en , "A tool for storing and sharing research data across various disciplines."@en ;
+        aocat:has_landing_page      <https://b2share.eudat.eu> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/EUDAT%20Collaborative%20Data%20Infrastructure> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/969A086E-0717-39B4-96DD-0E9A50EC8010> ;
+        aocat:has_title             "B2SHARE"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<https://sshopencloud.eu/service-catalogue>
+        a           owl:Thing ;
+        rdfs:label  "https://sshopencloud.eu/service-catalogue"@en .
+
+<https://www.zrc-sazu.si>
+        a           owl:Thing ;
+        rdfs:label  "https://www.zrc-sazu.si"@en .
+
+<http://atrium.eu/Source/64>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "LAC"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "Language Archive Cologne"@en , "Offers access to linguistic resources, particularly for endangered languages."@en ;
+        aocat:has_landing_page      <https://lac.uni-koeln.de> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/University%20of%20Cologne> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/F8B18593-CDBB-3CE2-8933-0560A44E33AA> ;
+        aocat:has_title             "LAC"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<https://linguistlist.org/langres>
+        a           owl:Thing ;
+        rdfs:label  "https://linguistlist.org/langres"@en .
+
+<http://www.ids-mannheim.de>
+        a           owl:Thing ;
+        rdfs:label  "http://www.ids-mannheim.de"@en .
+
+<http://atrium.eu/Source/43>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "CLARIN Switzerland (LaRS)"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3> ;
+        aocat:has_description       "Provides access to language resources and tools in Switzerland."@en , "CLARIN Switzerland (Language Resource Switchboard)"@en ;
+        aocat:has_landing_page      <https://clarin-ch.ch> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/CLARIN%20Switzerland> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/FB49C7F3-98E2-314C-ADDA-7FD635DF6BB0> ;
+        aocat:has_title             "CLARIN Switzerland (LaRS)"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<http://atrium.eu/Place/4195CAC6-CE8D-384D-8415-94A3FAA2E13D>
+        a           aocat:AO_Spatial_Region ;
+        rdfs:label  "Austria"@en .
+
+<http://atrium.eu/Source/22>
+        a                           aocat:AO_Collection ;
+        rdfs:label                  "Econstor"@en ;
+        crmpe:PP8i_is_dataset_hosted_by
+                <http://atrium.eu/Service/A87FF679-A2F3-371D-9181-A67B7542122C> ;
+        aocat:has_description       "A platform providing open-access publications in economics."@en , "Econstor"@en ;
+        aocat:has_landing_page      <https://www.econstor.eu> ;
+        aocat:has_publisher         <http://atrium.eu/Agent/ZBW%20%E2%80%93%20Leibniz%20Information%20Centre%20for%20Economics> ;
+        aocat:has_spatial_coverage  <http://atrium.eu/Place/F8B18593-CDBB-3CE2-8933-0560A44E33AA> ;
+        aocat:has_title             "Econstor"@en ;
+        aocat:has_type              <http://atrium.eu/Concept/Status/15641> .
+
+<https://llds.ling-phil.ox.ac.uk>
+        a           owl:Thing ;
+        rdfs:label  "https://llds.ling-phil.ox.ac.uk"@en .
+
+<http://atrium.eu/Agent/CLARIN%20Sweden>
+        a           aocat:AO_Agent ;
+        rdfs:label  "CLARIN Sweden"@en .
+
+<http://atrium.eu/Agent/CLARIN%20ERIC>
+        a           aocat:AO_Agent ;
+        rdfs:label  "CLARIN ERIC"@en .

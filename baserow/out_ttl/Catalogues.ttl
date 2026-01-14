@@ -1,0 +1,1021 @@
+@prefix aocat: <https://www.ariadne-infrastructure.eu/resource/ao/cat/1.1/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml:   <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix crmpe: <http://parthenos.d4science.org/CRMext/CRMpe/> .
+@prefix atrium: <http://atrium.eu/> .
+@prefix crm:   <http://www.cidoc-crm.org/cidoc-crm/> .
+
+<http://atrium.eu/Source/3>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "SND"@en ;
+        aocat:has_title  "SND"@en .
+
+<http://atrium.eu/Concept/ControlledVocabularies/38>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "TaDiRAH"@en ;
+        aocat:has_type  <http://atrium.eu/Concept/Thesaurus> .
+
+<http://atrium.eu/Concept/AudienceType/15035>
+        a               crmpe:PE44_Audience_Type ;
+        skos:prefLabel  "Wider public"@en .
+
+<http://atrium.eu/Source/93>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "LINGUIST List"@en ;
+        aocat:has_title  "LINGUIST List"@en .
+
+<http://atrium.eu/Source/72>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "ORTOLANG"@en ;
+        aocat:has_title  "ORTOLANG"@en .
+
+<http://atrium.eu/Concept/ResourceType/6>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Fieldwork archives"@en .
+
+<http://atrium.eu/Source/51>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "Center of Estonian Language Resources"@en ;
+        aocat:has_title  "Center of Estonian Language Resources"@en .
+
+<http://atrium.eu/Source/30>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "The Programming Historian"@en ;
+        aocat:has_title  "The Programming Historian"@en .
+
+<http://atrium.eu/Concept/ResourceType/25>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Publications"@en .
+
+<http://atrium.eu/Concept/Input/1>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "AO-Cat"@en ;
+        aocat:has_type  <http://atrium.eu/Concept/Model> .
+
+<http://atrium.eu/Source/80>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "CLARIN Copenhagen"@en ;
+        aocat:has_title  "CLARIN Copenhagen"@en .
+
+<http://atrium.eu/Source/59>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "Eurac Research CLARIN Centre"@en ;
+        aocat:has_title  "Eurac Research CLARIN Centre"@en .
+
+<http://atrium.eu/Concept/ControlledVocabularies/130>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "EOSC Resource Geographical Availability"@en ;
+        aocat:has_type  <http://atrium.eu/Concept/Thesaurus> .
+
+<https://vlo.clarin-dev.eu/api/>
+        a           crmpe:PE29_Access_Point , owl:Thing ;
+        rdfs:label  "https://vlo.clarin-dev.eu/api/"@en .
+
+<http://atrium.eu/Source/38>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "ARCHE"@en ;
+        aocat:has_title  "ARCHE"@en .
+
+<http://atrium.eu/Concept/ResourceType/33>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Dataset"@en .
+
+<http://atrium.eu/Source/17>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "OpenEdition"@en ;
+        aocat:has_title  "OpenEdition"@en .
+
+<http://atrium.eu/Concept/ResourceType/12>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Scientific analyses"@en .
+
+<http://atrium.eu/Concept/Input/17>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Data Documentation Initiative (DDI) Codebook"@en ;
+        aocat:has_type  <http://atrium.eu/Concept/Model> .
+
+<http://atrium.eu/Concept/ControlledVocabularies/12>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "TRIPLE Vocabulary"@en ;
+        aocat:has_type  <http://atrium.eu/Concept/Thesaurus> .
+
+<http://atrium.eu/Source/88>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "ELRA"@en ;
+        aocat:has_title  "ELRA"@en .
+
+<http://atrium.eu/Concept/ResourceType/1>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Sites and monuments"@en .
+
+<http://atrium.eu/Agent/3>
+        a               aocat:AO_Agent ;
+        rdfs:label      "DARIAH"@en ;
+        aocat:has_name  "DARIAH"@en .
+
+<http://atrium.eu/Source/67>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "LU Humanities Lab"@en ;
+        aocat:has_title  "LU Humanities Lab"@en .
+
+<http://atrium.eu/Concept/ControlledVocabularies/138>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "IANA Media Types"@en ;
+        aocat:has_type  <http://atrium.eu/Concept/Thesaurus> .
+
+<http://atrium.eu/Source/46>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "CLARIN-PL"@en ;
+        aocat:has_title  "CLARIN-PL"@en .
+
+<http://atrium.eu/Concept/ResourceType/41>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Software"@en .
+
+<http://atrium.eu/Concept/ControlledVocabularies/117>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "CLARIN/VLO Organisations vocabulary"@en ;
+        aocat:has_type  <http://atrium.eu/Concept/Thesaurus> .
+
+<http://atrium.eu/Source/25>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "DH Publications (dblp)"@en ;
+        aocat:has_title  "DH Publications (dblp)"@en .
+
+<http://atrium.eu/Concept/ResourceType/20>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Documents"@en .
+
+<http://atrium.eu/Source/6>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "CONICET"@en ;
+        aocat:has_title  "CONICET"@en .
+
+<http://atrium.eu/Concept/AudienceType/15038>
+        a               crmpe:PE44_Audience_Type ;
+        skos:prefLabel  "Research support staff"@en .
+
+<http://atrium.eu/Source/96>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "WALS"@en ;
+        aocat:has_title  "WALS"@en .
+
+<http://atrium.eu/Source/75>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "PolMine"@en ;
+        aocat:has_title  "PolMine"@en .
+
+<http://atrium.eu/Concept/ResourceType/9>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Rock art"@en .
+
+<http://atrium.eu/Source/54>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "COCOON"@en ;
+        aocat:has_title  "COCOON"@en .
+
+<http://atrium.eu/Source/33>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "Language Resource Switchboard"@en ;
+        aocat:has_title  "Language Resource Switchboard"@en .
+
+<http://atrium.eu/Concept/ResourceType/28>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Article"@en .
+
+<http://atrium.eu/Source/12>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "DNB"@en ;
+        aocat:has_title  "DNB"@en .
+
+<http://atrium.eu/Concept/Input/33>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "DataCite schema"@en ;
+        aocat:has_type  <http://atrium.eu/Concept/Model> .
+
+<http://atrium.eu/Service/C81E728D-9D4C-3F63-AF06-7F89CC14862C>
+        a                               crmpe:PE15_Data_E-Service , aocat:AO_Service ;
+        rdfs:label                      "ARIADNE Portal"@en ;
+        crmpe:PP59_had_intended_audience
+                <http://atrium.eu/Concept/AudienceType/15033> , <http://atrium.eu/Concept/AudienceType/15036> , <http://atrium.eu/Concept/AudienceType/15035> , <http://atrium.eu/Concept/AudienceType/15034> ;
+        crmpe:PP6_hosts_digital_object  <http://atrium.eu/Source/5> , <http://atrium.eu/Source/3> , <http://atrium.eu/Source/8> , <http://atrium.eu/Source/6> , <http://atrium.eu/Source/9> , <http://atrium.eu/Source/7> , <http://atrium.eu/Source/4> , <http://atrium.eu/Source/2> ;
+        crm:P125_used_object_of_type    <http://atrium.eu/Concept/ResourceType/9> , <http://atrium.eu/Concept/ResourceType/10> , <http://atrium.eu/Concept/ResourceType/13> , <http://atrium.eu/Concept/ResourceType/6> , <http://atrium.eu/Concept/ResourceType/2> , <http://atrium.eu/Concept/ResourceType/14> , <http://atrium.eu/Concept/ResourceType/11> , <http://atrium.eu/Concept/ResourceType/7> , <http://atrium.eu/Concept/ResourceType/3> , <http://atrium.eu/Concept/ResourceType/4> , <http://atrium.eu/Concept/ResourceType/12> , <http://atrium.eu/Concept/ResourceType/5> , <http://atrium.eu/Concept/ResourceType/8> , <http://atrium.eu/Concept/ResourceType/1> ;
+        aocat:has_consumed_format       <http://atrium.eu/Concept/InternalSchema/6> , <http://atrium.eu/Concept/InternalSchema/1> , <http://atrium.eu/Concept/InternalSchema/3> , <http://atrium.eu/Concept/InternalSchema/4> , <http://atrium.eu/Concept/InternalSchema/7> , <http://atrium.eu/Concept/Input/1> ;
+        aocat:has_consumed_media        <http://atrium.eu/Concept/ControlledVocabularies/35> , <http://atrium.eu/Concept/ControlledVocabularies/10> ;
+        aocat:has_produced_format       <http://atrium.eu/Concept/Output/1> ;
+        aocat:has_publisher             <http://atrium.eu/Agent/1> ;
+        aocat:has_title                 "ARIADNE Portal"@en ;
+        aocat:is_accessible_at          <https://ariadne.d4science.org/group/ariadneplus_lab/graphdb> .
+
+<http://atrium.eu/Concept/Output/14>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Component Metadata Infrastructure (CMDI)"@en .
+
+<http://atrium.eu/Concept/Model>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Model"@en .
+
+<http://atrium.eu/Source/83>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "Universität des Saarlandes"@en ;
+        aocat:has_title  "Universität des Saarlandes"@en .
+
+<http://atrium.eu/Source/62>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "INT"@en ;
+        aocat:has_title  "INT"@en .
+
+<http://atrium.eu/Concept/ControlledVocabularies/133>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Intended audience"@en ;
+        aocat:has_type  <http://atrium.eu/Concept/Thesaurus> .
+
+<http://atrium.eu/Source/41>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "CKL2CORPORA"@en ;
+        aocat:has_title  "CKL2CORPORA"@en .
+
+<http://atrium.eu/Concept/ResourceType/36>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Manuscript"@en .
+
+<http://atrium.eu/Source/20>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "CESSDA"@en ;
+        aocat:has_title  "CESSDA"@en .
+
+<http://atrium.eu/Concept/ResourceType/15>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Text"@en .
+
+<http://atrium.eu/Concept/AudienceType/15033>
+        a               crmpe:PE44_Audience_Type ;
+        skos:prefLabel  "Archaeologists"@en .
+
+<http://atrium.eu/Source/91>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "PARADISEC"@en ;
+        aocat:has_title  "PARADISEC"@en .
+
+<http://atrium.eu/Source/70>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "Meertens Instituut/HuC"@en ;
+        aocat:has_title  "Meertens Instituut/HuC"@en .
+
+<http://atrium.eu/Concept/ResourceType/4>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Fieldwork activities"@en .
+
+<http://atrium.eu/Concept/Input/91>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "MARC (Machine-Readable Cataloging)"@en ;
+        aocat:has_type  <http://atrium.eu/Concept/Model> .
+
+<http://atrium.eu/Source/49>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "CLARINO Bergen Center"@en ;
+        aocat:has_title  "CLARINO Bergen Center"@en .
+
+<http://atrium.eu/Concept/ResourceType/44>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Map"@en .
+
+<http://atrium.eu/Source/28>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "SSK Zotero Resources"@en ;
+        aocat:has_title  "SSK Zotero Resources"@en .
+
+<http://atrium.eu/Concept/ResourceType/23>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Tools and services"@en .
+
+<https://services-ca.gotriple.eu/triple-api/v1/classify>
+        a           crmpe:PE29_Access_Point , owl:Thing ;
+        rdfs:label  "https://services-ca.gotriple.eu/triple-api/v1/classify"@en .
+
+<http://atrium.eu/Source/9>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "Inrap"@en ;
+        aocat:has_title  "Inrap"@en .
+
+<http://atrium.eu/Source/99>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "Conversion Hub"@en ;
+        aocat:has_title  "Conversion Hub"@en .
+
+<http://atrium.eu/Source/78>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "Språkbanken"@en ;
+        aocat:has_title  "Språkbanken"@en .
+
+<http://atrium.eu/Source/57>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "DANS"@en ;
+        aocat:has_title  "DANS"@en .
+
+<http://atrium.eu/Source/36>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "SSHOC Service Catalogue"@en ;
+        aocat:has_title  "SSHOC Service Catalogue"@en .
+
+<http://atrium.eu/Concept/ResourceType/31>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Book"@en .
+
+<http://atrium.eu/Source/15>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "EKT"@en ;
+        aocat:has_title  "EKT"@en .
+
+<http://atrium.eu/Concept/ResourceType/10>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Dating"@en .
+
+<http://atrium.eu/Concept/Input/15>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Europeana Data Model (EDM)"@en ;
+        aocat:has_type  <http://atrium.eu/Concept/Model> .
+
+<http://atrium.eu/Concept/InternalSchema/3>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "CIDOC CRM"@en .
+
+<http://atrium.eu/Concept/ControlledVocabularies/10>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Getty Art and Architecture Thesaurus (AAT)"@en ;
+        aocat:has_type  <http://atrium.eu/Concept/Thesaurus> .
+
+<http://atrium.eu/Concept/AudienceType/14987>
+        a               crmpe:PE44_Audience_Type ;
+        skos:prefLabel  "Data providers"@en .
+
+<http://atrium.eu/Source/86>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "CLLE ERSS"@en ;
+        aocat:has_title  "CLLE ERSS"@en .
+
+<http://atrium.eu/Agent/1>
+        a               aocat:AO_Agent ;
+        rdfs:label      "ARIADNE RI"@en ;
+        aocat:has_name  "ARIADNE RI"@en .
+
+<http://atrium.eu/Source/65>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "GEI"@en ;
+        aocat:has_title  "GEI"@en .
+
+<http://atrium.eu/Concept/ControlledVocabularies/136>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "ISO 639-3 Language Codes"@en ;
+        aocat:has_type  <http://atrium.eu/Concept/Thesaurus> .
+
+<http://atrium.eu/Source/44>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "CLARIN-IS"@en ;
+        aocat:has_title  "CLARIN-IS"@en .
+
+<http://atrium.eu/Concept/ResourceType/39>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Preprint"@en .
+
+<http://atrium.eu/Concept/ControlledVocabularies/115>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "CMDI: ISO 639-3 language codes"@en ;
+        aocat:has_type  <http://atrium.eu/Concept/Thesaurus> .
+
+<http://atrium.eu/Source/23>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "OpenAIRE"@en ;
+        aocat:has_title  "OpenAIRE"@en .
+
+<http://atrium.eu/Concept/ResourceType/18>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Software"@en .
+
+<http://atrium.eu/Service/C4CA4238-A0B9-3382-8DCC-509A6F75849B>
+        a                               aocat:AO_Service , crmpe:PE15_Data_E-Service ;
+        rdfs:label                      "SSH Open Marketplace"@en ;
+        crmpe:PP59_had_intended_audience
+                <http://atrium.eu/Concept/AudienceType/15038> , <http://atrium.eu/Concept/AudienceType/14986> , <http://atrium.eu/Concept/AudienceType/14987> , <http://atrium.eu/Concept/AudienceType/15037> ;
+        crmpe:PP6_hosts_digital_object  <http://atrium.eu/Source/32> , <http://atrium.eu/Source/28> , <http://atrium.eu/Source/36> , <http://atrium.eu/Source/31> , <http://atrium.eu/Source/99> , <http://atrium.eu/Source/34> , <http://atrium.eu/Source/25> , <http://atrium.eu/Source/27> , <http://atrium.eu/Source/35> , <http://atrium.eu/Source/30> , <http://atrium.eu/Source/33> , <http://atrium.eu/Source/26> , <http://atrium.eu/Source/29> , <http://atrium.eu/Source/37> ;
+        crm:P125_used_object_of_type    <http://atrium.eu/Concept/ResourceType/24> , <http://atrium.eu/Concept/ResourceType/27> , <http://atrium.eu/Concept/ResourceType/26> , <http://atrium.eu/Concept/ResourceType/25> , <http://atrium.eu/Concept/ResourceType/23> ;
+        aocat:has_consumed_format       <http://atrium.eu/Concept/InternalSchema/110> ;
+        aocat:has_consumed_media        <http://atrium.eu/Concept/ControlledVocabularies/139> , <http://atrium.eu/Concept/ControlledVocabularies/130> , <http://atrium.eu/Concept/ControlledVocabularies/133> , <http://atrium.eu/Concept/ControlledVocabularies/138> , <http://atrium.eu/Concept/ControlledVocabularies/142> , <http://atrium.eu/Concept/ControlledVocabularies/137> , <http://atrium.eu/Concept/ControlledVocabularies/136> , <http://atrium.eu/Concept/ControlledVocabularies/135> , <http://atrium.eu/Concept/ControlledVocabularies/132> , <http://atrium.eu/Concept/ControlledVocabularies/38> , <http://atrium.eu/Concept/ControlledVocabularies/140> , <http://atrium.eu/Concept/ControlledVocabularies/148> , <http://atrium.eu/Concept/ControlledVocabularies/131> ;
+        aocat:has_produced_format       <http://atrium.eu/Concept/Output/110> ;
+        aocat:has_publisher             <http://atrium.eu/Agent/3> ;
+        aocat:has_title                 "SSH Open Marketplace"@en ;
+        aocat:is_accessible_at          <https://marketplace-api.sshopencloud.eu/api/> .
+
+<http://atrium.eu/Source/4>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "Nara Research Institute"@en ;
+        aocat:has_title  "Nara Research Institute"@en .
+
+<http://atrium.eu/Concept/AudienceType/15036>
+        a               crmpe:PE44_Audience_Type ;
+        skos:prefLabel  "Academics"@en .
+
+<http://atrium.eu/Source/94>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "The Rosetta Project"@en ;
+        aocat:has_title  "The Rosetta Project"@en .
+
+<http://atrium.eu/Source/73>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "OTA"@en ;
+        aocat:has_title  "OTA"@en .
+
+<http://atrium.eu/Concept/ResourceType/7>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Maritime archaeology"@en .
+
+<http://atrium.eu/Source/52>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "CLST"@en ;
+        aocat:has_title  "CLST"@en .
+
+<http://atrium.eu/Source/31>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "DARIAH Campus"@en ;
+        aocat:has_title  "DARIAH Campus"@en .
+
+<http://atrium.eu/Source/10>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "DOAJ"@en ;
+        aocat:has_title  "DOAJ"@en .
+
+<http://atrium.eu/Concept/ResourceType/26>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Dataset"@en .
+
+<https://ariadne.d4science.org/group/ariadneplus_lab/graphdb>
+        a           crmpe:PE29_Access_Point , owl:Thing ;
+        rdfs:label  "https://ariadne.d4science.org/group/ariadneplus_lab/graphdb"@en .
+
+<https://vlo.clarin.eu/solr/vlo-index/>
+        a           crmpe:PE29_Access_Point , owl:Thing ;
+        rdfs:label  "https://vlo.clarin.eu/solr/vlo-index/"@en .
+
+<http://atrium.eu/Source/81>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "ILC4CLARIN"@en ;
+        aocat:has_title  "ILC4CLARIN"@en .
+
+<http://atrium.eu/Source/60>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "HZSK"@en ;
+        aocat:has_title  "HZSK"@en .
+
+<http://atrium.eu/Concept/ControlledVocabularies/131>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "EOSC Resource Category, Subcategory (and Supercategory)"@en ;
+        aocat:has_type  <http://atrium.eu/Concept/Thesaurus> .
+
+<http://atrium.eu/Source/39>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "BAS"@en ;
+        aocat:has_title  "BAS"@en .
+
+<http://atrium.eu/Concept/ResourceType/34>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Image"@en .
+
+<http://atrium.eu/Source/18>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "COIMBRA/Pombolina"@en ;
+        aocat:has_title  "COIMBRA/Pombolina"@en .
+
+<http://atrium.eu/Concept/ResourceType/13>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Building survey"@en .
+
+<http://atrium.eu/Concept/Input/39>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "OpenAIRE guidelines"@en ;
+        aocat:has_type  <http://atrium.eu/Concept/Model> .
+
+<https://api.gotriple.eu/oai2>
+        a           crmpe:PE29_Access_Point , owl:Thing ;
+        rdfs:label  "https://api.gotriple.eu/oai2"@en .
+
+<http://atrium.eu/Concept/Output/110>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "SSH Open Marketplace Data Model"@en .
+
+<http://atrium.eu/Concept/InternalSchema/6>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "CRMtex"@en .
+
+<http://atrium.eu/Source/89>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "Europeana"@en ;
+        aocat:has_title  "Europeana"@en .
+
+<http://atrium.eu/Agent/4>
+        a               aocat:AO_Agent ;
+        rdfs:label      "OPERAS"@en ;
+        aocat:has_name  "OPERAS"@en .
+
+<http://atrium.eu/Concept/ResourceType/2>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Artefacts"@en .
+
+<http://atrium.eu/Source/68>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "MPI Psycholinguistics"@en ;
+        aocat:has_title  "MPI Psycholinguistics"@en .
+
+<http://atrium.eu/Concept/ControlledVocabularies/139>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "ÖFOS 2012. Austrian Fields of Science and Technology Classification 2012"@en ;
+        aocat:has_type  <http://atrium.eu/Concept/Thesaurus> .
+
+<http://atrium.eu/Source/47>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "CLARIN.SI"@en ;
+        aocat:has_title  "CLARIN.SI"@en .
+
+<http://atrium.eu/Concept/ControlledVocabularies/118>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "COAR Vocabularies"@en ;
+        aocat:has_type  <http://atrium.eu/Concept/Thesaurus> .
+
+<http://atrium.eu/Concept/ResourceType/42>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Text"@en .
+
+<http://atrium.eu/Source/26>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "CLARIN Resource Families"@en ;
+        aocat:has_title  "CLARIN Resource Families"@en .
+
+<http://atrium.eu/Concept/ResourceType/21>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Projects"@en .
+
+<http://atrium.eu/Service/ECCBC87E-4B5C-32FE-A830-8FD9F2A7BAF3>
+        a                               crmpe:PE15_Data_E-Service , aocat:AO_Service ;
+        rdfs:label                      "CLARIN VLO"@en ;
+        crmpe:PP59_had_intended_audience
+                <http://atrium.eu/Concept/AudienceType/14987> , <http://atrium.eu/Concept/AudienceType/15036> , <http://atrium.eu/Concept/AudienceType/15037> , <http://atrium.eu/Concept/AudienceType/15035> ;
+        crmpe:PP6_hosts_digital_object  <http://atrium.eu/Source/71> , <http://atrium.eu/Source/88> , <http://atrium.eu/Source/79> , <http://atrium.eu/Source/94> , <http://atrium.eu/Source/76> , <http://atrium.eu/Source/64> , <http://atrium.eu/Source/45> , <http://atrium.eu/Source/74> , <http://atrium.eu/Source/56> , <http://atrium.eu/Source/42> , <http://atrium.eu/Source/62> , <http://atrium.eu/Source/80> , <http://atrium.eu/Source/93> , <http://atrium.eu/Source/47> , <http://atrium.eu/Source/50> , <http://atrium.eu/Source/85> , <http://atrium.eu/Source/58> , <http://atrium.eu/Source/91> , <http://atrium.eu/Source/73> , <http://atrium.eu/Source/82> , <http://atrium.eu/Source/61> , <http://atrium.eu/Source/96> , <http://atrium.eu/Source/87> , <http://atrium.eu/Source/69> , <http://atrium.eu/Source/38> , <http://atrium.eu/Source/75> , <http://atrium.eu/Source/57> , <http://atrium.eu/Source/44> , <http://atrium.eu/Source/67> , <http://atrium.eu/Source/41> , <http://atrium.eu/Source/55> , <http://atrium.eu/Source/49> , <http://atrium.eu/Source/52> , <http://atrium.eu/Source/46> , <http://atrium.eu/Source/84> , <http://atrium.eu/Source/90> , <http://atrium.eu/Source/72> , <http://atrium.eu/Source/89> , <http://atrium.eu/Source/39> , <http://atrium.eu/Source/60> , <http://atrium.eu/Source/95> , <http://atrium.eu/Source/77> , <http://atrium.eu/Source/86> , <http://atrium.eu/Source/68> , <http://atrium.eu/Source/70> , <http://atrium.eu/Source/65> , <http://atrium.eu/Source/78> , <http://atrium.eu/Source/53> , <http://atrium.eu/Source/43> , <http://atrium.eu/Source/66> , <http://atrium.eu/Source/40> , <http://atrium.eu/Source/63> , <http://atrium.eu/Source/81> , <http://atrium.eu/Source/54> , <http://atrium.eu/Source/48> , <http://atrium.eu/Source/51> , <http://atrium.eu/Source/59> , <http://atrium.eu/Source/92> , <http://atrium.eu/Source/83> ;
+        crm:P125_used_object_of_type    <http://atrium.eu/Concept/ResourceType/17> , <http://atrium.eu/Concept/ResourceType/16> , <http://atrium.eu/Concept/ResourceType/19> , <http://atrium.eu/Concept/ResourceType/15> , <http://atrium.eu/Concept/ResourceType/18> ;
+        aocat:has_consumed_format       <http://atrium.eu/Concept/Input/15> , <http://atrium.eu/Concept/Input/33> , <http://atrium.eu/Concept/Input/14> , <http://atrium.eu/Concept/InternalSchema/14> , <http://atrium.eu/Concept/Input/17> , <http://atrium.eu/Concept/Input/47> ;
+        aocat:has_consumed_media        <http://atrium.eu/Concept/ControlledVocabularies/116> , <http://atrium.eu/Concept/ControlledVocabularies/113> , <http://atrium.eu/Concept/ControlledVocabularies/114> , <http://atrium.eu/Concept/ControlledVocabularies/117> , <http://atrium.eu/Concept/ControlledVocabularies/115> ;
+        aocat:has_produced_format       <http://atrium.eu/Concept/Output/14> ;
+        aocat:has_publisher             <http://atrium.eu/Agent/2> ;
+        aocat:has_title                 "CLARIN VLO"@en ;
+        aocat:is_accessible_at          <https://vlo.clarin.eu/solr/vlo-index/> , <https://vlo.clarin-dev.eu/api/> .
+
+<http://atrium.eu/Concept/Input/47>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Dublin Core Metadata Initiative (DCMI)"@en ;
+        aocat:has_type  <http://atrium.eu/Concept/Model> .
+
+<http://atrium.eu/Concept/Output/1>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "AO-Cat"@en .
+
+<http://atrium.eu/Source/7>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "SEAD"@en ;
+        aocat:has_title  "SEAD"@en .
+
+<http://atrium.eu/Source/76>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "SAW Leipzig"@en ;
+        aocat:has_title  "SAW Leipzig"@en .
+
+<http://atrium.eu/Source/55>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "CNC"@en ;
+        aocat:has_title  "CNC"@en .
+
+<http://atrium.eu/Source/34>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "Standardisation Survival Kit"@en ;
+        aocat:has_title  "Standardisation Survival Kit"@en .
+
+<http://atrium.eu/Concept/ResourceType/29>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Bibliography"@en .
+
+<http://atrium.eu/Source/13>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "RECYT"@en ;
+        aocat:has_title  "RECYT"@en .
+
+<https://marketplace-api.sshopencloud.eu/api/>
+        a           crmpe:PE29_Access_Point , owl:Thing ;
+        rdfs:label  "https://marketplace-api.sshopencloud.eu/api/"@en .
+
+<http://atrium.eu/Concept/InternalSchema/1>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "AO-Cat"@en .
+
+<http://atrium.eu/Source/84>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "ZIM Centre for Information Modelling"@en ;
+        aocat:has_title  "ZIM Centre for Information Modelling"@en .
+
+<http://atrium.eu/Source/63>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "LINDAT/CLARIAH-CZ"@en ;
+        aocat:has_title  "LINDAT/CLARIAH-CZ"@en .
+
+<http://atrium.eu/Source/42>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "CLARIN Latvia"@en ;
+        aocat:has_title  "CLARIN Latvia"@en .
+
+<http://atrium.eu/Concept/ResourceType/37>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Fieldwork reports"@en .
+
+<http://atrium.eu/Concept/ControlledVocabularies/113>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "CLARIN Concept Registry"@en ;
+        aocat:has_type  <http://atrium.eu/Concept/Thesaurus> .
+
+<http://atrium.eu/Source/21>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "ZRC SAZU"@en ;
+        aocat:has_title  "ZRC SAZU"@en .
+
+<https://api.gotriple.eu/>
+        a           crmpe:PE29_Access_Point , owl:Thing ;
+        rdfs:label  "https://api.gotriple.eu/"@en .
+
+<http://atrium.eu/Concept/ResourceType/16>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Dataset"@en .
+
+<http://atrium.eu/Source/2>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "ADS"@en ;
+        aocat:has_title  "ADS"@en .
+
+<http://atrium.eu/Concept/AudienceType/15034>
+        a               crmpe:PE44_Audience_Type ;
+        skos:prefLabel  "Heritage managers"@en .
+
+<http://atrium.eu/Source/92>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "LDC Corpus Catalog"@en ;
+        aocat:has_title  "LDC Corpus Catalog"@en .
+
+<http://atrium.eu/Source/71>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "National Library of Norway"@en ;
+        aocat:has_title  "National Library of Norway"@en .
+
+<http://atrium.eu/Concept/ResourceType/5>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Fieldwork reports"@en .
+
+<http://atrium.eu/Concept/ControlledVocabularies/142>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "SSK Standard"@en ;
+        aocat:has_type  <http://atrium.eu/Concept/Thesaurus> .
+
+<http://atrium.eu/Source/50>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "CLARINO Text Laboratory Centre"@en ;
+        aocat:has_title  "CLARINO Text Laboratory Centre"@en .
+
+<http://atrium.eu/Concept/ResourceType/45>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Other"@en .
+
+<http://atrium.eu/Source/29>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "Humanities Data"@en ;
+        aocat:has_title  "Humanities Data"@en .
+
+<http://atrium.eu/Concept/ResourceType/24>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Training materials"@en .
+
+<http://atrium.eu/Source/79>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "TextGrid"@en ;
+        aocat:has_title  "TextGrid"@en .
+
+<http://atrium.eu/Source/58>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "Eberhard Karls Universität Tübingen"@en ;
+        aocat:has_title  "Eberhard Karls Universität Tübingen"@en .
+
+<http://atrium.eu/Concept/ControlledVocabularies/129>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "MORESS (Mapping of research in european social sciences and humanities)"@en ;
+        aocat:has_type  <http://atrium.eu/Concept/Thesaurus> .
+
+<http://atrium.eu/Source/37>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "DARIAH contribution tool"@en ;
+        aocat:has_title  "DARIAH contribution tool"@en .
+
+<http://atrium.eu/Concept/ResourceType/32>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Conference"@en .
+
+<http://atrium.eu/Source/16>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "HRCAK"@en ;
+        aocat:has_title  "HRCAK"@en .
+
+<http://atrium.eu/Concept/ResourceType/11>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Burials"@en .
+
+<http://atrium.eu/Concept/InternalSchema/4>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "CRMarchaeo"@en .
+
+<http://atrium.eu/Source/87>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "California Language Archive"@en ;
+        aocat:has_title  "California Language Archive"@en .
+
+<http://atrium.eu/Agent/2>
+        a               aocat:AO_Agent ;
+        rdfs:label      "CLARIN"@en ;
+        aocat:has_name  "CLARIN"@en .
+
+<http://atrium.eu/Source/66>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "IDS Mannheim"@en ;
+        aocat:has_title  "IDS Mannheim"@en .
+
+<https://services-ca.gotriple.eu/triple-api/v1/annotate>
+        a           crmpe:PE29_Access_Point , owl:Thing ;
+        rdfs:label  "https://services-ca.gotriple.eu/triple-api/v1/annotate"@en .
+
+<http://atrium.eu/Concept/ControlledVocabularies/137>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "SSH Open Marketplace Keyword"@en ;
+        aocat:has_type  <http://atrium.eu/Concept/Thesaurus> .
+
+<http://atrium.eu/Source/45>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "CLARIN-LT"@en ;
+        aocat:has_title  "CLARIN-LT"@en .
+
+<http://atrium.eu/Concept/ResourceType/40>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Review"@en .
+
+<http://atrium.eu/Concept/ControlledVocabularies/116>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "CMDI: ISO 3166-1 alpha-2 country codes"@en ;
+        aocat:has_type  <http://atrium.eu/Concept/Thesaurus> .
+
+<http://atrium.eu/Source/24>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "Biblioteka Nauki"@en ;
+        aocat:has_title  "Biblioteka Nauki"@en .
+
+<http://atrium.eu/Concept/ResourceType/19>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Collection"@en .
+
+<http://atrium.eu/Concept/Output/47>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Dublin Core Metadata Initiative (DCMI)"@en .
+
+<http://atrium.eu/Source/5>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "Digital Antiquity"@en ;
+        aocat:has_title  "Digital Antiquity"@en .
+
+<http://atrium.eu/Concept/AudienceType/15037>
+        a               crmpe:PE44_Audience_Type ;
+        skos:prefLabel  "SSH scholars"@en .
+
+<http://atrium.eu/Source/95>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "University of the Basque Country"@en ;
+        aocat:has_title  "University of the Basque Country"@en .
+
+<http://atrium.eu/Source/74>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "PORTULAN CLARIN"@en ;
+        aocat:has_title  "PORTULAN CLARIN"@en .
+
+<http://atrium.eu/Concept/ResourceType/8>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Inscriptions"@en .
+
+<http://atrium.eu/Source/53>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "CEDIFOR"@en ;
+        aocat:has_title  "CEDIFOR"@en .
+
+<http://atrium.eu/Source/32>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "CESSDA (trainings)"@en ;
+        aocat:has_title  "CESSDA (trainings)"@en .
+
+<http://atrium.eu/Source/11>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "BASE"@en ;
+        aocat:has_title  "BASE"@en .
+
+<http://atrium.eu/Concept/ResourceType/27>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Workflows"@en .
+
+<http://atrium.eu/Concept/InternalSchema/11>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "TRIPLE Ontology"@en .
+
+<http://atrium.eu/Source/82>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "TROLLing"@en ;
+        aocat:has_title  "TROLLing"@en .
+
+<http://atrium.eu/Source/61>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "IMS Stuttgart"@en ;
+        aocat:has_title  "IMS Stuttgart"@en .
+
+<http://atrium.eu/Concept/ControlledVocabularies/132>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "EOSC Resource Life Cycle Status"@en ;
+        aocat:has_type  <http://atrium.eu/Concept/Thesaurus> .
+
+<http://atrium.eu/Source/40>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "BBAW"@en ;
+        aocat:has_title  "BBAW"@en .
+
+<http://atrium.eu/Concept/ResourceType/35>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Learning object"@en .
+
+<http://atrium.eu/Source/19>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "CLARIN"@en ;
+        aocat:has_title  "CLARIN"@en .
+
+<http://atrium.eu/Concept/ResourceType/14>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "E-publications"@en .
+
+<http://atrium.eu/Concept/ControlledVocabularies/35>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "PeriodO"@en ;
+        aocat:has_type  <http://atrium.eu/Concept/Thesaurus> .
+
+<http://atrium.eu/Concept/InternalSchema/7>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "CRMsci"@en .
+
+<http://atrium.eu/Source/90>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "e-codices"@en ;
+        aocat:has_title  "e-codices"@en .
+
+<http://atrium.eu/Source/69>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "Phonothèque MMSH"@en ;
+        aocat:has_title  "Phonothèque MMSH"@en .
+
+<http://atrium.eu/Concept/ResourceType/3>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Coins"@en .
+
+<http://atrium.eu/Concept/ControlledVocabularies/140>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "SPDX Software License"@en ;
+        aocat:has_type  <http://atrium.eu/Concept/Thesaurus> .
+
+<http://atrium.eu/Source/48>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "CLARIN:EL"@en ;
+        aocat:has_title  "CLARIN:EL"@en .
+
+<http://atrium.eu/Concept/ResourceType/43>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Thesis"@en .
+
+<http://atrium.eu/Source/27>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "TAPoR"@en ;
+        aocat:has_title  "TAPoR"@en .
+
+<http://atrium.eu/Concept/ResourceType/22>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Profiles"@en .
+
+<http://atrium.eu/Source/8>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "AIS-CR"@en ;
+        aocat:has_title  "AIS-CR"@en .
+
+<http://atrium.eu/Source/77>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "SADiLaR"@en ;
+        aocat:has_title  "SADiLaR"@en .
+
+<http://atrium.eu/Concept/ControlledVocabularies/148>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "BIBO Publication Type"@en ;
+        aocat:has_type  <http://atrium.eu/Concept/Thesaurus> .
+
+<http://atrium.eu/Source/56>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "DARIAH-DE Repository"@en ;
+        aocat:has_title  "DARIAH-DE Repository"@en .
+
+<http://atrium.eu/Source/35>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "EOSC Catalogue"@en ;
+        aocat:has_title  "EOSC Catalogue"@en .
+
+<http://atrium.eu/Concept/ResourceType/30>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Blog post"@en .
+
+<http://atrium.eu/Source/14>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "Isidore"@en ;
+        aocat:has_title  "Isidore"@en .
+
+<http://atrium.eu/Concept/InternalSchema/110>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "SSH Open Marketplace Data Model"@en .
+
+<http://atrium.eu/Concept/Input/14>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Component Metadata Infrastructure (CMDI)"@en ;
+        aocat:has_type  <http://atrium.eu/Concept/Model> .
+
+<http://atrium.eu/Concept/InternalSchema/14>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Component Metadata Infrastructure (CMDI)"@en .
+
+<http://atrium.eu/Concept/Thesaurus>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Thesaurus"@en .
+
+<http://atrium.eu/Service/A87FF679-A2F3-371D-9181-A67B7542122C>
+        a                               crmpe:PE15_Data_E-Service , aocat:AO_Service ;
+        rdfs:label                      "GoTriple"@en ;
+        crmpe:PP59_had_intended_audience
+                <http://atrium.eu/Concept/AudienceType/15037> , <http://atrium.eu/Concept/AudienceType/14987> ;
+        crmpe:PP6_hosts_digital_object  <http://atrium.eu/Source/12> , <http://atrium.eu/Source/21> , <http://atrium.eu/Source/14> , <http://atrium.eu/Source/23> , <http://atrium.eu/Source/17> , <http://atrium.eu/Source/11> , <http://atrium.eu/Source/20> , <http://atrium.eu/Source/19> , <http://atrium.eu/Source/22> , <http://atrium.eu/Source/16> , <http://atrium.eu/Source/10> , <http://atrium.eu/Source/13> , <http://atrium.eu/Source/18> , <http://atrium.eu/Source/15> , <http://atrium.eu/Source/24> ;
+        crm:P125_used_object_of_type    <http://atrium.eu/Concept/ResourceType/39> , <http://atrium.eu/Concept/ResourceType/33> , <http://atrium.eu/Concept/ResourceType/32> , <http://atrium.eu/Concept/ResourceType/40> , <http://atrium.eu/Concept/ResourceType/28> , <http://atrium.eu/Concept/ResourceType/42> , <http://atrium.eu/Concept/ResourceType/35> , <http://atrium.eu/Concept/ResourceType/38> , <http://atrium.eu/Concept/ResourceType/21> , <http://atrium.eu/Concept/ResourceType/45> , <http://atrium.eu/Concept/ResourceType/31> , <http://atrium.eu/Concept/ResourceType/22> , <http://atrium.eu/Concept/ResourceType/20> , <http://atrium.eu/Concept/ResourceType/44> , <http://atrium.eu/Concept/ResourceType/41> , <http://atrium.eu/Concept/ResourceType/29> , <http://atrium.eu/Concept/ResourceType/43> , <http://atrium.eu/Concept/ResourceType/37> , <http://atrium.eu/Concept/ResourceType/30> , <http://atrium.eu/Concept/ResourceType/36> , <http://atrium.eu/Concept/ResourceType/34> ;
+        aocat:has_consumed_format       <http://atrium.eu/Concept/Input/47> , <http://atrium.eu/Concept/Input/91> , <http://atrium.eu/Concept/Input/15> , <http://atrium.eu/Concept/Input/39> , <http://atrium.eu/Concept/InternalSchema/11> ;
+        aocat:has_consumed_media        <http://atrium.eu/Concept/ControlledVocabularies/129> , <http://atrium.eu/Concept/ControlledVocabularies/12> , <http://atrium.eu/Concept/ControlledVocabularies/118> ;
+        aocat:has_produced_format       <http://atrium.eu/Concept/Output/47> ;
+        aocat:has_publisher             <http://atrium.eu/Agent/4> ;
+        aocat:has_title                 "GoTriple"@en ;
+        aocat:is_accessible_at          <https://api.gotriple.eu/> , <https://services-ca.gotriple.eu/triple-api/v1/classify> , <https://api.gotriple.eu/oai2> , <https://services-ca.gotriple.eu/triple-api/v1/annotate> .
+
+<http://atrium.eu/Concept/AudienceType/14986>
+        a               crmpe:PE44_Audience_Type ;
+        skos:prefLabel  "Data stewards"@en .
+
+<http://atrium.eu/Source/85>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "B2SHARE"@en ;
+        aocat:has_title  "B2SHARE"@en .
+
+<http://atrium.eu/Source/64>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "LAC"@en ;
+        aocat:has_title  "LAC"@en .
+
+<http://atrium.eu/Concept/ControlledVocabularies/135>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Invocation type"@en ;
+        aocat:has_type  <http://atrium.eu/Concept/Thesaurus> .
+
+<http://atrium.eu/Source/43>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "CLARIN Switzerland (LaRS)"@en ;
+        aocat:has_title  "CLARIN Switzerland (LaRS)"@en .
+
+<http://atrium.eu/Concept/ResourceType/38>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Periodical"@en .
+
+<http://atrium.eu/Concept/ControlledVocabularies/114>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "CMDI: ISO 639-1 language codes"@en ;
+        aocat:has_type  <http://atrium.eu/Concept/Thesaurus> .
+
+<http://atrium.eu/Source/22>
+        a                crmpe:PE15_Data_E-Service , aocat:AO_Collection ;
+        rdfs:label       "Econstor"@en ;
+        aocat:has_title  "Econstor"@en .
+
+<http://atrium.eu/Concept/ResourceType/17>
+        a               aocat:AO_Concept ;
+        skos:prefLabel  "Corpus"@en .
