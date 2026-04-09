@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ComponentSpec isProfile="true" CMDVersion="1.2" CMDOriginalVersion="1.1" xsi:noNamespaceSchemaLocation="https://infra.clarin.eu/CMDI/1.x/xsd/cmd-component.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Header>
+        <ID>clarin.eu:cr1:p_1423750293168</ID>
+        <Name>BASWebService</Name>
+        <Description>This is a derived web-service profile from the core model which describes the web-services at BAS. It uses extended components Service, ParameterGroup and Parameter from the core model (with different group name BASWebServices).
+Changes from version 1.0 to 1.1: 
+Added component cmdi-collectiontype in component Service to allow coding of ResourceType according to DC-3806.
+Added element isInternalDefaultConfigurationParameter (boolean) in component Parameter to allow the coding of non-setable default parameters of webservices.
+Changes from Version 1.1 to 1.2:
+Added displayName to Parameter.
+Added Developer to Operation.</Description>
+        <Status>production</Status>
+    </Header>
+    <Component name="BASWebService" CardinalityMin="1" CardinalityMax="1">
+        <Component name="Description" ComponentRef="clarin.eu:cr1:c_1271859438118" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" CardinalityMin="0" CardinalityMax="1">
+            <Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true">
+                <AttributeList>
+                    <Attribute name="LanguageID" ValueScheme="string"/>
+                </AttributeList>
+            </Element>
+        </Component>
+        <Component name="CollectionType" ComponentRef="clarin.eu:cr1:c_1271859438142" CardinalityMin="0" CardinalityMax="1">
+            <Element name="CollectionType" ConceptLink="http://hdl.handle.net/11459/CCR_C-3806_e55e9ed6-b099-c21d-a634-3c7f4d22a215" CardinalityMin="1" CardinalityMax="unbounded">
+                <ValueScheme>
+                    <Vocabulary>
+                        <enumeration>
+                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2658_3a34bb3c-e815-efeb-c6bd-a53da6dcc0b9">text</item>
+                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2655_c21a8115-d6e7-982c-d5e8-3a278d6e653a">picture</item>
+                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2654_115c5ce8-7bdb-06b4-fe52-d6ebf2f80022">video</item>
+                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2653_06ff001f-7ed4-6399-7147-02170140dd64">audio</item>
+                            <item ConceptLink="http://www.wikidata.org/entity/Q5421151">experimentalData</item>
+                            <item ConceptLink="http://www.wikidata.org/entity/Q125888335">fieldworkMaterial</item>
+                            <item ConceptLink="http://www.wikidata.org/entity/Q8091">grammar</item>
+                            <item ConceptLink="http://www.wikidata.org/entity/Q8096">lexicon</item>
+                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4369_30ca2daa-b83c-bf24-9b56-eda3a2171ef8">resourceBundle</item>
+                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4366_fb510ba7-d745-3e3b-7876-303b76bb1a31">surveyData</item>
+                            <item ConceptLink="http://www.wikidata.org/entity/Q624216 ">teachingMaterial</item>
+                            <item ConceptLink="http://www.wikidata.org/entity/Q7705759">testData</item>
+                            <item ConceptLink="http://www.wikidata.org/entity/Q123691918 ">tool</item>
+                            <item ConceptLink="http://www.wikidata.org/entity/Q545406">toolChain</item>
+                            <item ConceptLink="http://www.wikidata.org/entity/Q55107540">other</item>
+                        </enumeration>
+                    </Vocabulary>
+                </ValueScheme>
+            </Element>
+        </Component>
+        <Component name="Service" ComponentRef="clarin.eu:cr1:c_1423750293167" ConceptLink="http://www.wikidata.org/entity/Q193424" CardinalityMin="1" CardinalityMax="unbounded">
+            <AttributeList>
+                <Attribute name="CoreVersion" ConceptLink="http://www.wikidata.org/entity/Q12343820">
+                    <ValueScheme>
+                        <Vocabulary>
+                            <enumeration>
+                                <item ConceptLink="" AppInfo="">1.0</item>
+                            </enumeration>
+                        </Vocabulary>
+                    </ValueScheme>
+                </Attribute>
+            </AttributeList>
+            <Element name="Name" ConceptLink="http://hdl.handle.net/11459/CCR_C-4160_192be757-0d8f-f4fe-b10b-d3d50de92482" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                <Documentation>The name of the web service or set of web services.</Documentation>
+            </Element>
+            <Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                <Documentation>A description of the web service or set of web services.</Documentation>
+            </Element>
+            <Component name="ServiceDescriptionLocation" ConceptLink="http://hdl.handle.net/11459/CCR_C-4161_c007397e-d92b-05fa-d24c-482d5e110331" CardinalityMin="1" CardinalityMax="1"/>
+            <Component name="CollectionType" ComponentRef="clarin.eu:cr1:c_1271859438142" CardinalityMin="0" CardinalityMax="1">
+                <Element name="CollectionType" ConceptLink="http://hdl.handle.net/11459/CCR_C-3806_e55e9ed6-b099-c21d-a634-3c7f4d22a215" CardinalityMin="1" CardinalityMax="unbounded">
+                    <ValueScheme>
+                        <Vocabulary>
+                            <enumeration>
+                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2658_3a34bb3c-e815-efeb-c6bd-a53da6dcc0b9">text</item>
+                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2655_c21a8115-d6e7-982c-d5e8-3a278d6e653a">picture</item>
+                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2654_115c5ce8-7bdb-06b4-fe52-d6ebf2f80022">video</item>
+                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2653_06ff001f-7ed4-6399-7147-02170140dd64">audio</item>
+                                <item ConceptLink="http://www.wikidata.org/entity/Q5421151">experimentalData</item>
+                                <item ConceptLink="http://www.wikidata.org/entity/Q125888335">fieldworkMaterial</item>
+                                <item ConceptLink="http://www.wikidata.org/entity/Q8091">grammar</item>
+                                <item ConceptLink="http://www.wikidata.org/entity/Q8096">lexicon</item>
+                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4369_30ca2daa-b83c-bf24-9b56-eda3a2171ef8">resourceBundle</item>
+                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4366_fb510ba7-d745-3e3b-7876-303b76bb1a31">surveyData</item>
+                                <item ConceptLink="http://www.wikidata.org/entity/Q624216 ">teachingMaterial</item>
+                                <item ConceptLink="http://www.wikidata.org/entity/Q7705759">testData</item>
+                                <item ConceptLink="http://www.wikidata.org/entity/Q123691918 ">tool</item>
+                                <item ConceptLink="http://www.wikidata.org/entity/Q545406">toolChain</item>
+                                <item ConceptLink="http://www.wikidata.org/entity/Q55107540">other</item>
+                            </enumeration>
+                        </Vocabulary>
+                    </ValueScheme>
+                </Element>
+            </Component>
+            <Component name="Operations" CardinalityMin="1" CardinalityMax="1">
+                <Component name="Operation" ComponentRef="clarin.eu:cr1:c_1423750293166" ConceptLink="http://hdl.handle.net/11459/CCR_C-4175_9c723fad-1282-c4df-a012-dc78efa17d1d" CardinalityMin="1" CardinalityMax="unbounded">
+                    <Element name="Name" ConceptLink="http://hdl.handle.net/11459/CCR_C-4176_0454b9ca-973b-03f9-ce5b-999660b8b3b3" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                        <Documentation>This Operation Name should be resolvable in the Service ServiceDescription, i.e., the WSDL or WADL document describing how to technically invoke the service.</Documentation>
+                    </Element>
+                    <Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                        <Documentation>The Operation Description should describe what this operation does to the input to produce the output.</Documentation>
+                    </Element>
+                    <Component name="Input" ConceptLink="http://hdl.handle.net/11459/CCR_C-4177_569a0481-7b5d-2c45-a371-c577eee98c90" CardinalityMin="0" CardinalityMax="1">
+                        <Component name="ParameterGroup" ComponentRef="clarin.eu:cr1:c_1423750293165" CardinalityMin="0" CardinalityMax="unbounded">
+                            <Element name="Name" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                            <Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+                            <Element name="MIMEType" ConceptLink="http://www.wikidata.org/entity/Q1667978" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+                            <Element name="DataType" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+                            <Component name="Parameters" CardinalityMin="1" CardinalityMax="1">
+                                <Component name="Parameter" ComponentRef="clarin.eu:cr1:c_1423750293164" CardinalityMin="1" CardinalityMax="unbounded">
+                                    <Element name="Name" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                        <Documentation>name of the parameter; this string usually matches the exact parameter name as being used in a REST call</Documentation>
+                                    </Element>
+                                    <Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                        <Documentation>Description of the parameter</Documentation>
+                                    </Element>
+                                    <Element name="MIMEType" ConceptLink="http://www.wikidata.org/entity/Q1667978" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                        <Documentation>mimetype of the file, if the parameter is used to denote an input or output file. If the parameter does not denote an input/output files, this element is not present.</Documentation>
+                                    </Element>
+                                    <Element name="DataType" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                        <Documentation>a value domain, in general taken from the well-known XMLSchema data types (Biron et al., 2004), e.g., ID.</Documentation>
+                                    </Element>
+                                    <Element name="isConfigurationParameter" ValueScheme="boolean" CardinalityMin="0" CardinalityMax="1">
+                                        <Documentation>if set true, the parameter does not denote input/output data but rather a configuration parameter that controls the behavior of the service, e.g. the language</Documentation>
+                                    </Element>
+                                    <Element name="DataCategory" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1">
+                                        <Documentation>link to IsoCat if applicable</Documentation>
+                                    </Element>
+                                    <Element name="SemanticType" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                        <Documentation>internal semantic typing used by chaining mechanisms</Documentation>
+                                    </Element>
+                                    <Element name="Default" ConceptLink="http://www.wikidata.org/entity/Q281782" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                        <Documentation>the default value for this parameter.</Documentation>
+                                    </Element>
+                                    <Element name="isInternalDefaultConfigurationParameter" ValueScheme="boolean" CardinalityMin="0" CardinalityMax="1">
+                                        <Documentation>If set to 'true' the parameter is not accessible in the REST call of this service, but rather an internal parameter that is always set to the default value (given in the element Default). The reason the parameter is shown in the CMDI is two-fold: 1.) The setting can be used by the backend server that implements this webservice to set default parameters, and 2.) this information might be useful for developers to see what default parameters are used in this services in comparism to a more general service that allows the setting of the same parameters.</Documentation>
+                                    </Element>
+                                    <Element name="displayName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                        <Documentation>Preferred name to display this parameter, e.g. in a front end interface</Documentation>
+                                    </Element>
+                                    <Component name="Values" CardinalityMin="0" CardinalityMax="1">
+                                        <Component name="ParameterValue" CardinalityMin="1" CardinalityMax="unbounded">
+                                            <Element name="Value" ConceptLink="http://hdl.handle.net/11459/CCR_C-1978_088a96da-46c0-cfc9-eb0d-2a3bc20caa55" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                                <Documentation>a possible value or value range or regular expression for this parameter</Documentation>
+                                            </Element>
+                                            <Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                                <Documentation>optional description of a value</Documentation>
+                                            </Element>
+                                            <Element name="DataCategory" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1">
+                                                <Documentation>link to IsoCat for semantic of a possible value</Documentation>
+                                            </Element>
+                                        </Component>
+                                    </Component>
+                                    <Component name="MaxFileSize" ConceptLink="http://www.wikidata.org/entity/Q322481" CardinalityMin="0" CardinalityMax="1">
+                                        <Component name="TotalSize" ComponentRef="clarin.eu:cr1:c_1271859438114" CardinalityMin="1" CardinalityMax="1">
+                                            <Element name="Number" ConceptLink="http://www.wikidata.org/entity/Q322481" ValueScheme="decimal" CardinalityMin="1" CardinalityMax="1"/>
+                                            <Element name="SizeUnit" ConceptLink="http://www.wikidata.org/entity/P1880" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true"/>
+                                        </Component>
+                                    </Component>
+                                </Component>
+                            </Component>
+                        </Component>
+                        <Component name="Parameter" ComponentRef="clarin.eu:cr1:c_1423750293164" CardinalityMin="0" CardinalityMax="unbounded">
+                            <Element name="Name" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Documentation>name of the parameter; this string usually matches the exact parameter name as being used in a REST call</Documentation>
+                            </Element>
+                            <Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                <Documentation>Description of the parameter</Documentation>
+                            </Element>
+                            <Element name="MIMEType" ConceptLink="http://www.wikidata.org/entity/Q1667978" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                <Documentation>mimetype of the file, if the parameter is used to denote an input or output file. If the parameter does not denote an input/output files, this element is not present.</Documentation>
+                            </Element>
+                            <Element name="DataType" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                <Documentation>a value domain, in general taken from the well-known XMLSchema data types (Biron et al., 2004), e.g., ID.</Documentation>
+                            </Element>
+                            <Element name="isConfigurationParameter" ValueScheme="boolean" CardinalityMin="0" CardinalityMax="1">
+                                <Documentation>if set true, the parameter does not denote input/output data but rather a configuration parameter that controls the behavior of the service, e.g. the language</Documentation>
+                            </Element>
+                            <Element name="DataCategory" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1">
+                                <Documentation>link to IsoCat if applicable</Documentation>
+                            </Element>
+                            <Element name="SemanticType" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                <Documentation>internal semantic typing used by chaining mechanisms</Documentation>
+                            </Element>
+                            <Element name="Default" ConceptLink="http://www.wikidata.org/entity/Q281782" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                <Documentation>the default value for this parameter.</Documentation>
+                            </Element>
+                            <Element name="isInternalDefaultConfigurationParameter" ValueScheme="boolean" CardinalityMin="0" CardinalityMax="1">
+                                <Documentation>If set to 'true' the parameter is not accessible in the REST call of this service, but rather an internal parameter that is always set to the default value (given in the element Default). The reason the parameter is shown in the CMDI is two-fold: 1.) The setting can be used by the backend server that implements this webservice to set default parameters, and 2.) this information might be useful for developers to see what default parameters are used in this services in comparism to a more general service that allows the setting of the same parameters.</Documentation>
+                            </Element>
+                            <Element name="displayName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Documentation>Preferred name to display this parameter, e.g. in a front end interface</Documentation>
+                            </Element>
+                            <Component name="Values" CardinalityMin="0" CardinalityMax="1">
+                                <Component name="ParameterValue" CardinalityMin="1" CardinalityMax="unbounded">
+                                    <Element name="Value" ConceptLink="http://hdl.handle.net/11459/CCR_C-1978_088a96da-46c0-cfc9-eb0d-2a3bc20caa55" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                        <Documentation>a possible value or value range or regular expression for this parameter</Documentation>
+                                    </Element>
+                                    <Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                        <Documentation>optional description of a value</Documentation>
+                                    </Element>
+                                    <Element name="DataCategory" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1">
+                                        <Documentation>link to IsoCat for semantic of a possible value</Documentation>
+                                    </Element>
+                                </Component>
+                            </Component>
+                            <Component name="MaxFileSize" ConceptLink="http://www.wikidata.org/entity/Q322481" CardinalityMin="0" CardinalityMax="1">
+                                <Component name="TotalSize" ComponentRef="clarin.eu:cr1:c_1271859438114" CardinalityMin="1" CardinalityMax="1">
+                                    <Element name="Number" ConceptLink="http://www.wikidata.org/entity/Q322481" ValueScheme="decimal" CardinalityMin="1" CardinalityMax="1"/>
+                                    <Element name="SizeUnit" ConceptLink="http://www.wikidata.org/entity/P1880" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true"/>
+                                </Component>
+                            </Component>
+                        </Component>
+                    </Component>
+                    <Component name="Output" ConceptLink="http://hdl.handle.net/11459/CCR_C-4178_ab5aa4f6-5bab-4f30-d334-5af4344d0562" CardinalityMin="1" CardinalityMax="1">
+                        <Component name="ParameterGroup" ComponentRef="clarin.eu:cr1:c_1423750293165" CardinalityMin="0" CardinalityMax="unbounded">
+                            <Element name="Name" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                            <Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+                            <Element name="MIMEType" ConceptLink="http://www.wikidata.org/entity/Q1667978" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+                            <Element name="DataType" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+                            <Component name="Parameters" CardinalityMin="1" CardinalityMax="1">
+                                <Component name="Parameter" ComponentRef="clarin.eu:cr1:c_1423750293164" CardinalityMin="1" CardinalityMax="unbounded">
+                                    <Element name="Name" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                        <Documentation>name of the parameter; this string usually matches the exact parameter name as being used in a REST call</Documentation>
+                                    </Element>
+                                    <Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                        <Documentation>Description of the parameter</Documentation>
+                                    </Element>
+                                    <Element name="MIMEType" ConceptLink="http://www.wikidata.org/entity/Q1667978" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                        <Documentation>mimetype of the file, if the parameter is used to denote an input or output file. If the parameter does not denote an input/output files, this element is not present.</Documentation>
+                                    </Element>
+                                    <Element name="DataType" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                        <Documentation>a value domain, in general taken from the well-known XMLSchema data types (Biron et al., 2004), e.g., ID.</Documentation>
+                                    </Element>
+                                    <Element name="isConfigurationParameter" ValueScheme="boolean" CardinalityMin="0" CardinalityMax="1">
+                                        <Documentation>if set true, the parameter does not denote input/output data but rather a configuration parameter that controls the behavior of the service, e.g. the language</Documentation>
+                                    </Element>
+                                    <Element name="DataCategory" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1">
+                                        <Documentation>link to IsoCat if applicable</Documentation>
+                                    </Element>
+                                    <Element name="SemanticType" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                        <Documentation>internal semantic typing used by chaining mechanisms</Documentation>
+                                    </Element>
+                                    <Element name="Default" ConceptLink="http://www.wikidata.org/entity/Q281782" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                        <Documentation>the default value for this parameter.</Documentation>
+                                    </Element>
+                                    <Element name="isInternalDefaultConfigurationParameter" ValueScheme="boolean" CardinalityMin="0" CardinalityMax="1">
+                                        <Documentation>If set to 'true' the parameter is not accessible in the REST call of this service, but rather an internal parameter that is always set to the default value (given in the element Default). The reason the parameter is shown in the CMDI is two-fold: 1.) The setting can be used by the backend server that implements this webservice to set default parameters, and 2.) this information might be useful for developers to see what default parameters are used in this services in comparism to a more general service that allows the setting of the same parameters.</Documentation>
+                                    </Element>
+                                    <Element name="displayName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                        <Documentation>Preferred name to display this parameter, e.g. in a front end interface</Documentation>
+                                    </Element>
+                                    <Component name="Values" CardinalityMin="0" CardinalityMax="1">
+                                        <Component name="ParameterValue" CardinalityMin="1" CardinalityMax="unbounded">
+                                            <Element name="Value" ConceptLink="http://hdl.handle.net/11459/CCR_C-1978_088a96da-46c0-cfc9-eb0d-2a3bc20caa55" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                                <Documentation>a possible value or value range or regular expression for this parameter</Documentation>
+                                            </Element>
+                                            <Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                                <Documentation>optional description of a value</Documentation>
+                                            </Element>
+                                            <Element name="DataCategory" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1">
+                                                <Documentation>link to IsoCat for semantic of a possible value</Documentation>
+                                            </Element>
+                                        </Component>
+                                    </Component>
+                                    <Component name="MaxFileSize" ConceptLink="http://www.wikidata.org/entity/Q322481" CardinalityMin="0" CardinalityMax="1">
+                                        <Component name="TotalSize" ComponentRef="clarin.eu:cr1:c_1271859438114" CardinalityMin="1" CardinalityMax="1">
+                                            <Element name="Number" ConceptLink="http://www.wikidata.org/entity/Q322481" ValueScheme="decimal" CardinalityMin="1" CardinalityMax="1"/>
+                                            <Element name="SizeUnit" ConceptLink="http://www.wikidata.org/entity/P1880" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true"/>
+                                        </Component>
+                                    </Component>
+                                </Component>
+                            </Component>
+                        </Component>
+                        <Component name="Parameter" ComponentRef="clarin.eu:cr1:c_1423750293164" CardinalityMin="0" CardinalityMax="unbounded">
+                            <Element name="Name" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Documentation>name of the parameter; this string usually matches the exact parameter name as being used in a REST call</Documentation>
+                            </Element>
+                            <Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                <Documentation>Description of the parameter</Documentation>
+                            </Element>
+                            <Element name="MIMEType" ConceptLink="http://www.wikidata.org/entity/Q1667978" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                <Documentation>mimetype of the file, if the parameter is used to denote an input or output file. If the parameter does not denote an input/output files, this element is not present.</Documentation>
+                            </Element>
+                            <Element name="DataType" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                <Documentation>a value domain, in general taken from the well-known XMLSchema data types (Biron et al., 2004), e.g., ID.</Documentation>
+                            </Element>
+                            <Element name="isConfigurationParameter" ValueScheme="boolean" CardinalityMin="0" CardinalityMax="1">
+                                <Documentation>if set true, the parameter does not denote input/output data but rather a configuration parameter that controls the behavior of the service, e.g. the language</Documentation>
+                            </Element>
+                            <Element name="DataCategory" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1">
+                                <Documentation>link to IsoCat if applicable</Documentation>
+                            </Element>
+                            <Element name="SemanticType" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                <Documentation>internal semantic typing used by chaining mechanisms</Documentation>
+                            </Element>
+                            <Element name="Default" ConceptLink="http://www.wikidata.org/entity/Q281782" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                <Documentation>the default value for this parameter.</Documentation>
+                            </Element>
+                            <Element name="isInternalDefaultConfigurationParameter" ValueScheme="boolean" CardinalityMin="0" CardinalityMax="1">
+                                <Documentation>If set to 'true' the parameter is not accessible in the REST call of this service, but rather an internal parameter that is always set to the default value (given in the element Default). The reason the parameter is shown in the CMDI is two-fold: 1.) The setting can be used by the backend server that implements this webservice to set default parameters, and 2.) this information might be useful for developers to see what default parameters are used in this services in comparism to a more general service that allows the setting of the same parameters.</Documentation>
+                            </Element>
+                            <Element name="displayName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Documentation>Preferred name to display this parameter, e.g. in a front end interface</Documentation>
+                            </Element>
+                            <Component name="Values" CardinalityMin="0" CardinalityMax="1">
+                                <Component name="ParameterValue" CardinalityMin="1" CardinalityMax="unbounded">
+                                    <Element name="Value" ConceptLink="http://hdl.handle.net/11459/CCR_C-1978_088a96da-46c0-cfc9-eb0d-2a3bc20caa55" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                        <Documentation>a possible value or value range or regular expression for this parameter</Documentation>
+                                    </Element>
+                                    <Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                        <Documentation>optional description of a value</Documentation>
+                                    </Element>
+                                    <Element name="DataCategory" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="1">
+                                        <Documentation>link to IsoCat for semantic of a possible value</Documentation>
+                                    </Element>
+                                </Component>
+                            </Component>
+                            <Component name="MaxFileSize" ConceptLink="http://www.wikidata.org/entity/Q322481" CardinalityMin="0" CardinalityMax="1">
+                                <Component name="TotalSize" ComponentRef="clarin.eu:cr1:c_1271859438114" CardinalityMin="1" CardinalityMax="1">
+                                    <Element name="Number" ConceptLink="http://www.wikidata.org/entity/Q322481" ValueScheme="decimal" CardinalityMin="1" CardinalityMax="1"/>
+                                    <Element name="SizeUnit" ConceptLink="http://www.wikidata.org/entity/P1880" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true"/>
+                                </Component>
+                            </Component>
+                        </Component>
+                    </Component>
+                    <Component name="Developer" ConceptLink="http://www.wikidata.org/entity/Q482980" CardinalityMin="0" CardinalityMax="1">
+                        <Element name="developerName" ConceptLink="http://www.wikidata.org/entity/Q10856962 " ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Documentation>The name of a person who has or is developing this operation. </Documentation>
+                        </Element>
+                        <Element name="developerFundingOrg" ConceptLink="http://www.wikidata.org/entity/Q43229" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                            <Documentation>The name of the organisation that provided funding for the development of this operation.</Documentation>
+                        </Element>
+                        <Element name="developerCitation" ConceptLink="http://www.wikidata.org/entity/Q10358455" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                            <Documentation>The proper reference when the operation is cited in a publication.</Documentation>
+                        </Element>
+                    </Component>
+                </Component>
+            </Component>
+        </Component>
+    </Component>
+</ComponentSpec>

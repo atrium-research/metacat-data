@@ -6,9 +6,9 @@
         <Description>a profile for defining corpus-catalogue resources of the database for spoken german. This version tries to map to the VLO facets as close as possible</Description>
         <Status>production</Status>
     </Header>
-    <Component name="DGDCorpus" ConceptLink="http://hdl.handle.net/11459/CCR_C-4361_ce00d14d-d3bb-5ec0-5d9d-46fa6f47b9fe" CardinalityMin="1" CardinalityMax="1">
-        <Element name="ID" ConceptLink="http://hdl.handle.net/11459/CCR_C-2573_ae7c2548-8a86-ab6e-7099-e28b7697d1a2" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-        <Element name="Collection" ConceptLink="http://hdl.handle.net/11459/CCR_C-5178_36271765-7197-42fe-807c-ee32e8be8819" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+    <Component name="DGDCorpus" ConceptLink="http://www.wikidata.org/entity/Q461183" CardinalityMin="1" CardinalityMax="1">
+        <Element name="ID" ConceptLink="http://www.wikidata.org/entity/Q420330" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+        <Element name="Collection" ConceptLink="http://www.wikidata.org/entity/Q2668072" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
             <Documentation>Fallback xpath: /c:CMD/c:Header/c:MdCollectionDisplayName/text()</Documentation>
         </Element>
         <Element name="NationalProject" ConceptLink="http://hdl.handle.net/11459/CCR_C-2537_fa206273-223a-f4fa-dde3-ba59b965701f" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
@@ -18,50 +18,50 @@
         <Element name="Name" ConceptLink="http://hdl.handle.net/11459/CCR_C-2544_3626545e-a21d-058c-ebfd-241c0464e7e5" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
             <Documentation>/Korpus/Name</Documentation>
         </Element>
-        <Element name="Title" ConceptLink="http://hdl.handle.net/11459/CCR_C-6850_88e029a4-bc0a-8476-e3a4-e8db1e2acc64" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+        <Element name="Title" ConceptLink="http://www.wikidata.org/entity/Q83960473" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
             <Documentation>Korpus/Sonstige_Bezeichnungen</Documentation>
         </Element>
-        <Element name="Institution" ConceptLink="http://hdl.handle.net/11459/CCR_C-2979_8030473e-bbcb-6b87-3fd2-90554429ec50" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+        <Element name="Institution" ConceptLink="http://www.wikidata.org/entity/Q43229" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
             <Documentation>/Korpus/Erstellungsprojekt/Institut</Documentation>
         </Element>
         <Element name="RightsHolder" ConceptLink="http://hdl.handle.net/11459/CCR_C-6709_cb3572ed-ffd3-04f1-c145-b9c1f26bfc82" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-        <Element name="PublicationYear" ConceptLink="http://hdl.handle.net/11459/CCR_C-5218_b4197565-13cd-dc44-ee62-8881e2df1fdd" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+        <Element name="PublicationYear" ConceptLink="http://www.wikidata.org/entity/P577" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
         <Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
             <Documentation>Korpus/Korpus_Projekt_Kurzbeschreibung</Documentation>
         </Element>
         <Element name="TemporalCoverage" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
             <Documentation>/Korpus/Erstellungsprojekt/Laufzeit</Documentation>
         </Element>
-        <Element name="License" ConceptLink="http://hdl.handle.net/11459/CCR_C-2457_45bbaa1a-7002-2ecd-ab9d-57a189f694a6" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+        <Element name="License" ConceptLink="http://www.wikidata.org/entity/Q79719" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
         <Element name="ResourceType" ConceptLink="http://hdl.handle.net/11459/CCR_C-3806_e55e9ed6-b099-c21d-a634-3c7f4d22a215" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
             <Documentation>/Korpus/Erstellungsprojekt/Typ</Documentation>
         </Element>
-        <Element name="ResourceMediaType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2570_6f596a6d-4d5c-f336-d971-e61a310e2c8c" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+        <Element name="ResourceMediaType" ConceptLink="http://www.wikidata.org/entity/P1163" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
             <Documentation>/Korpus/Korpusbestandteile/Quellaufnahmen/@Typ</Documentation>
         </Element>
         <Element name="DistributionType" ConceptLink="http://hdl.handle.net/11459/CCR_C-5439_98bb103d-476a-7f62-54b4-bf9de24d2229" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
             <Documentation>/Korpus/Korpusbestandteile/Quellaufnahmen/Distribution/Zugänglichkeit</Documentation>
         </Element>
         <Element name="Continent" ConceptLink="http://hdl.handle.net/11459/CCR_C-3791_8f409aa8-2d57-5fc6-23f0-f490471807d8" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
-        <Element name="Country" ConceptLink="http://hdl.handle.net/11459/CCR_C-2532_d004b0a6-fd1d-3ca3-abf1-1e6aeb3e37b2" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
-        <Element name="Language" ConceptLink="http://hdl.handle.net/11459/CCR_C-5358_3cd089fe-ad03-6181-b20c-635ea41ed818" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+        <Element name="Country" ConceptLink="http://www.wikidata.org/entity/Q6256" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
+        <Element name="Language" ConceptLink="http://www.wikidata.org/entity/Q34770" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
             <Documentation>/Korpus/Aufzeichnungsobjekte/Sprechereignisse/Basisdaten/Sprachen</Documentation>
         </Element>
         <Element name="Availability" ConceptLink="http://hdl.handle.net/11459/CCR_C-2453_1f0c3ea5-7966-ae11-d3c6-448424d4e6e8" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
-        <Element name="DeliveryFormat" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+        <Element name="DeliveryFormat" ConceptLink="http://www.wikidata.org/entity/Q1667978" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
             <Documentation>/Korpus/Korpusbestandteile/SE-Aufnahmen/Digitale_Fassungen/Tontechnische_Daten/Format</Documentation>
         </Element>
-        <Element name="Genre" ConceptLink="http://hdl.handle.net/11459/CCR_C-2470_d191f2b2-6339-f031-b534-70d526b28357" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+        <Element name="Genre" ConceptLink="http://www.wikidata.org/entity/Q483394" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
             <Documentation>/Korpus/Aufzeichnungsobjekte/Sprechereignisse/Basisdaten/Arten</Documentation>
         </Element>
-        <Element name="Modality" ConceptLink="http://hdl.handle.net/11459/CCR_C-2490_44bc38a3-1799-4149-c791-40ac0176f0ff" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true"/>
+        <Element name="Modality" ConceptLink="http://www.wikidata.org/entity/Q1243600" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true"/>
         <Element name="Subject" ConceptLink="http://hdl.handle.net/11459/CCR_C-6543_92dacb75-3098-0d5a-0665-94ddb6274f8c" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
             <Documentation>/Korpus/Aufzeichnungsobjekte/Sprechereignisse/Basisdaten/Sprachen</Documentation>
         </Element>
         <Element name="LastUpdate" ConceptLink="http://hdl.handle.net/11459/CCR_C-3818_8c4aec73-1654-7565-9575-c4a17425ee29" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
             <Documentation>/Korpus/Dokumentationsgeschichte/Update/@Datum</Documentation>
         </Element>
-        <Element name="ComponentProfile" ConceptLink="http://hdl.handle.net/11459/CCR_C-5184_8b549cb2-b356-64c1-cd39-ebd6e81070c0" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+        <Element name="ComponentProfile" ConceptLink="http://www.wikidata.org/entity/Q853614" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
             <Documentation>Fallback xpath: /c:CMD/c:Header/c:MdProfile/text()</Documentation>
         </Element>
         <Element name="Text" ConceptLink="http://hdl.handle.net/11459/CCR_C-5651_734128c3-9ce8-2a0f-9db9-5d4b4d11e781" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
@@ -70,8 +70,8 @@
         <Element name="SelfLink" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
             <Documentation>Fallback xpath: /c:CMD/c:Header/c:MdSelfLink/text()</Documentation>
         </Element>
-        <Component name="Keywords" ConceptLink="http://hdl.handle.net/11459/CCR_C-5436_6ab57c2c-5f8d-3561-6db6-d75da23d2637" CardinalityMin="0" CardinalityMax="unbounded">
-            <Element name="Keyword" ConceptLink="http://hdl.handle.net/11459/CCR_C-278_336dd81a-626b-713e-c74a-34fa2ca26a71" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+        <Component name="Keywords" ConceptLink="http://www.wikidata.org/entity/Q658349" CardinalityMin="0" CardinalityMax="unbounded">
+            <Element name="Keyword" ConceptLink="http://www.wikidata.org/entity/Q12310022" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                 <Documentation>/Korpus/Deskription</Documentation>
             </Element>
         </Component>

@@ -1198,7 +1198,7 @@
         <Element name="language" ConceptLink="http://purl.org/dc/terms/language" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true">
             <Documentation>A language of the resource.</Documentation>
             <AttributeList>
-                <Attribute name="olac-language" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17">
+                <Attribute name="olac-language" ConceptLink="http://www.wikidata.org/entity/Q2092812">
                     <ValueScheme>
                         <pattern>[A-Za-z][A-Za-z][A-Za-z]?</pattern>
                     </ValueScheme>

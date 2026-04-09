@@ -9,7 +9,7 @@
     <Component name="SWISSUbase" CardinalityMin="1" CardinalityMax="1">
         <Component name="Project" CardinalityMin="1" CardinalityMax="1">
             <Component name="Overview" ConceptLink="" CardinalityMin="1" CardinalityMax="1">
-                <Element name="Author" ConceptLink="http://hdl.handle.net/11459/CCR_C-6130_f11d590d-b9f3-6a81-9f17-22988671e59e" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                <Element name="Author" ConceptLink="http://www.wikidata.org/entity/P50 " ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                 <Element name="Institution" ConceptLink="http://hdl.handle.net/11459/CCR_C-6213_b30f2cad-2436-4aef-c73e-45053de4a1f5" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                 <Element name="Project_title" ConceptLink="http://hdl.handle.net/11459/CCR_C-2545_d873f2ab-2a2f-29d6-a9ab-260cde57f227" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                 <Element name="Project_description_language" ConceptLink="http://hdl.handle.net/11459/CCR_C-2543_800bf037-d733-846b-2d29-b86bccbd0841" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true"/>
@@ -21,7 +21,7 @@
                 </Element>
                 <Element name="Geographical_area" ConceptLink="http://hdl.handle.net/11459/CCR_C-6006_7a2bfdc1-c915-f065-a1af-541e8eefe2cf" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                 <Element name="Additional_geographic_information" ConceptLink="http://hdl.handle.net/11459/CCR_C-6006_7a2bfdc1-c915-f065-a1af-541e8eefe2cf" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true"/>
-                <Element name="Abstract" ConceptLink="http://hdl.handle.net/11459/CCR_C-6005_552bfc06-0acd-a0cd-9cb9-5fcb7dedb323" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                <Element name="Abstract" ConceptLink="http://www.wikidata.org/entity/Q776754" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
                     <Documentation>The origin of the research, objectives and strategy, problem addressed, theoretical framework, hypotheses, practical application</Documentation>
                 </Element>
                 <Element name="Results" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
@@ -31,33 +31,42 @@
             <Component name="Dataset" CardinalityMin="1" CardinalityMax="unbounded">
                 <Documentation>Dataset created within the framework of the project</Documentation>
                 <Component name="Overview" CardinalityMin="1" CardinalityMax="1">
-                    <Element name="Dataset_title" ConceptLink="http://hdl.handle.net/11459/CCR_C-5125_4259bcdc-74e3-0d71-ef4b-39cc70e4e779" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                    <Element name="Dataset_title" ConceptLink="http://www.wikidata.org/entity/Q59154876 " ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                     <Element name="Dataset_description_language" ConceptLink="http://hdl.handle.net/11459/CCR_C-2543_800bf037-d733-846b-2d29-b86bccbd0841" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true"/>
-                    <Element name="DOI" ConceptLink="http://hdl.handle.net/11459/CCR_C-2573_ae7c2548-8a86-ab6e-7099-e28b7697d1a2" ValueScheme="string" CardinalityMin="1" CardinalityMax="1"/>
-                    <Element name="Dataset_description" ConceptLink="http://hdl.handle.net/11459/CCR_C-6005_552bfc06-0acd-a0cd-9cb9-5fcb7dedb323" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="DOI" ConceptLink="http://www.wikidata.org/entity/Q420330" ValueScheme="string" CardinalityMin="1" CardinalityMax="1"/>
+                    <Element name="Dataset_description" ConceptLink="http://www.wikidata.org/entity/Q776754" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
                     <Element name="Remarks_about_the_documentation" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
                         <Documentation>Any comment concerning the documentation, as well as any practical considerations with respect to the use of this documentation.</Documentation>
                     </Element>
                     <Element name="Version_notes" ConceptLink="http://hdl.handle.net/11459/CCR_C-6720_0e25bfac-ed62-6ccd-5a06-11964f0d9318" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
                         <Documentation>Comments on the modifications made to the dataset for this version.</Documentation>
                     </Element>
-                    <Element name="Bibliographical_citation" ConceptLink="http://hdl.handle.net/11459/CCR_C-6137_4cd6c000-df42-abd8-49b3-ecd8d9d3546a" ValueScheme="string" CardinalityMin="1" CardinalityMax="1"/>
-                    <Element name="Dataset_version" ConceptLink="http://hdl.handle.net/11459/CCR_C-2547_7883d382-b3ce-8ab4-7052-0138525a8ba1" ValueScheme="string" CardinalityMin="1" CardinalityMax="1"/>
+                    <Element name="Bibliographical_citation" ConceptLink="http://www.wikidata.org/entity/Q59156842" ValueScheme="string" CardinalityMin="1" CardinalityMax="1"/>
+                    <Element name="Dataset_version" ConceptLink="http://www.wikidata.org/entity/Q12343820" ValueScheme="string" CardinalityMin="1" CardinalityMax="1"/>
                 </Component>
                 <Component name="Resource" ConceptLink="http://hdl.handle.net/11459/CCR_C-6582_2ab1561d-1162-08fd-f7c2-2a706e8c65f9" CardinalityMin="1" CardinalityMax="1">
                     <Element name="Resource_type" ConceptLink="http://hdl.handle.net/11459/CCR_C-6582_2ab1561d-1162-08fd-f7c2-2a706e8c65f9" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                     <Element name="Resource_description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                    <Element name="Keywords" ConceptLink="http://hdl.handle.net/11459/CCR_C-5356_d4d861f6-e302-9b13-5ab5-f8ba171cc258" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="Keywords" ConceptLink="http://www.wikidata.org/entity/Q4919820" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                    <Element name="Validation_info" ConceptLink="http://www.wikidata.org/entity/Q359176" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
                     <Component name="Participants" CardinalityMin="0" CardinalityMax="unbounded">
                         <Documentation>General details about the participants in the study, e.g. number of participants, gender, age range, etc</Documentation>
-                        <Element name="Number_of_persons" ConceptLink="http://hdl.handle.net/11459/CCR_C-3887_377dc728-2708-f2b7-00b3-97ebd48dcbe8" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                        <Element name="Number_of_persons" ConceptLink="http://www.wikidata.org/entity/P1132" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                         <Element name="Sex" ConceptLink="http://hdl.handle.net/11459/CCR_C-2560_ebb466e1-2b6b-6701-4e64-94618b4b455b" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true"/>
                         <Element name="Age_range_start" ConceptLink="http://hdl.handle.net/11459/CCR_C-3653_37d2ee5e-e74b-5636-08d6-67676257c88d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
                         <Element name="Age_range_end" ConceptLink="http://hdl.handle.net/11459/CCR_C-3653_37d2ee5e-e74b-5636-08d6-67676257c88d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                        <Element name="Birthdates" ConceptLink="http://www.wikidata.org/entity/P569" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                        <Element name="Signing_acquisition_type" ConceptLink="http://www.wikidata.org/entity/Q118500400" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true"/>
+                        <Element name="Family_hearing_background" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true"/>
+                        <Element name="Other_conditions" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                        <Element name="Handedness" ConceptLink="http://www.wikidata.org/entity/P552" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true"/>
+                        <Element name="Hearing_status" ConceptLink="http://www.wikidata.org/entity/Q160289" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true"/>
+                        <Element name="Eye_tracking" ConceptLink="http://www.wikidata.org/entity/Q970687" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                        <Element name="Native_language" ConceptLink="http://www.wikidata.org/entity/P103" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true"/>
                     </Component>
                 </Component>
-                <Component name="License" ComponentRef="clarin.eu:cr1:c_1475136016240" ConceptLink="http://hdl.handle.net/11459/CCR_C-2457_45bbaa1a-7002-2ecd-ab9d-57a189f694a6" CardinalityMin="1" CardinalityMax="1">
-                    <Element name="License" ConceptLink="http://hdl.handle.net/11459/CCR_C-2457_45bbaa1a-7002-2ecd-ab9d-57a189f694a6" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                <Component name="License" ComponentRef="clarin.eu:cr1:c_1475136016240" ConceptLink="http://www.wikidata.org/entity/Q79719" CardinalityMin="1" CardinalityMax="1">
+                    <Element name="License" ConceptLink="http://www.wikidata.org/entity/Q79719" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                         <Documentation>End user license agreement</Documentation>
                     </Element>
                     <Element name="LicenseURL" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1">
@@ -65,12 +74,12 @@
                     </Element>
                 </Component>
                 <Component name="Files" ConceptLink="http://hdl.handle.net/11459/CCR_C-5338_8218e241-0458-c8e0-99fe-3f9c0ed618c8" CardinalityMin="1" CardinalityMax="unbounded">
-                    <Element name="File_title" ConceptLink="http://hdl.handle.net/11459/CCR_C-5125_4259bcdc-74e3-0d71-ef4b-39cc70e4e779" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                    <Element name="File_title" ConceptLink="http://www.wikidata.org/entity/Q59154876 " ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                     <Component name="Linguistic_metadata" CardinalityMin="0" CardinalityMax="1">
                         <Documentation>Metadata layers tied to used-selected level of description</Documentation>
-                        <Component name="Language" ConceptLink="http://hdl.handle.net/11459/CCR_C-2484_669684e7-cb9e-ea96-59cb-a25fe89b9b9d" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Component name="Language" ConceptLink="http://www.wikidata.org/entity/Q3109261" CardinalityMin="0" CardinalityMax="unbounded">
                             <Element name="Reference_path" ConceptLink="http://hdl.handle.net/11459/CCR_C-4129_6048efbf-eb87-2083-4110-84a44f8984f7" ValueScheme="string" CardinalityMin="1" CardinalityMax="1"/>
-                            <Element name="Language_name" ConceptLink="http://hdl.handle.net/11459/CCR_C-2484_669684e7-cb9e-ea96-59cb-a25fe89b9b9d" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                            <Element name="Language_name" ConceptLink="http://www.wikidata.org/entity/Q3109261" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                             <Element name="Linguality_type" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true">
                                 <Documentation>The linguality type defines whether the data collection/resource/speaker is monolingual, bilingual or multilingual.</Documentation>
                             </Element>
@@ -90,15 +99,15 @@
                                 <Documentation>The conversational type specifies how many people participate in a conversation, e.g. dialogue.</Documentation>
                             </Element>
                         </Component>
-                        <Component name="Annotation" ConceptLink="http://hdl.handle.net/11459/CCR_C-4085_c4b5b45a-364e-1fc1-6321-5738ba4c2fa1" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Component name="Annotation" ConceptLink="http://www.wikidata.org/entity/Q120970728" CardinalityMin="0" CardinalityMax="unbounded">
                             <Element name="Reference_path" ConceptLink="http://hdl.handle.net/11459/CCR_C-4129_6048efbf-eb87-2083-4110-84a44f8984f7" ValueScheme="string" CardinalityMin="1" CardinalityMax="1"/>
-                            <Element name="Annotation_type" ConceptLink="http://hdl.handle.net/11459/CCR_C-4085_c4b5b45a-364e-1fc1-6321-5738ba4c2fa1" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Element name="Annotation_type" ConceptLink="http://www.wikidata.org/entity/Q120970728" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <AttributeList>
                                     <Attribute name="Annotation_tiers" ConceptLink="http://hdl.handle.net/11459/CCR_C-2462_5b266792-7a54-9296-42e2-2318b9861fe1" ValueScheme="string"/>
-                                    <Attribute name="Annotation_format" ConceptLink="http://hdl.handle.net/11459/CCR_C-2562_872eb94a-47fb-b551-2f64-13ded063259e" ValueScheme="string"/>
+                                    <Attribute name="Annotation_format" ConceptLink="http://www.wikidata.org/entity/Q57780370" ValueScheme="string"/>
                                 </AttributeList>
                             </Element>
-                            <Element name="Controlled_vocabulary" ConceptLink="http://hdl.handle.net/11459/CCR_C-5357_a0e5136b-c741-d7a7-960a-593346bf8d11" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+                            <Element name="Controlled_vocabulary" ConceptLink="http://www.wikidata.org/entity/Q1469824" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
                                 <Documentation>The controlled vocabulary or tag set that was used for annotation. E.g. Stuttgart-Tübingen-Tagset (STTS)</Documentation>
                             </Element>
                         </Component>
@@ -110,58 +119,73 @@
                                     <Attribute name="Provenience_derivation" ConceptLink="http://hdl.handle.net/11459/CCR_C-2534_04c8cf6a-4272-2213-4de7-52713b7c286f" ValueScheme="string">
                                         <Documentation>The origin of the text. Is it a derivation, e.g. a transcript, or is it e.g. original written speech.</Documentation>
                                     </Attribute>
-                                    <Attribute name="Text_genre" ConceptLink="http://hdl.handle.net/11459/CCR_C-2470_d191f2b2-6339-f031-b534-70d526b28357" ValueScheme="string"/>
+                                    <Attribute name="Text_genre" ConceptLink="http://www.wikidata.org/entity/Q483394" ValueScheme="string"/>
                                 </AttributeList>
                             </Element>
-                            <Element name="Character_encoding" ConceptLink="http://hdl.handle.net/11459/CCR_C-2564_880b1108-6b03-647f-eed9-cdfbd464c661" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true"/>
+                            <Element name="Character_encoding" ConceptLink="http://www.wikidata.org/entity/Q184759" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true"/>
+                            <Element name="Data_source" ConceptLink="http://www.wikidata.org/entity/Q121566744" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                            <Element name="Date_from" ConceptLink="http://www.wikidata.org/entity/P585" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                            <Element name="Date_to" ConceptLink="http://www.wikidata.org/entity/P585" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
                         </Component>
                         <Component name="Audio" ConceptLink="http://hdl.handle.net/11459/CCR_C-2653_06ff001f-7ed4-6399-7147-02170140dd64" CardinalityMin="0" CardinalityMax="unbounded">
                             <Element name="Reference_path" ConceptLink="http://hdl.handle.net/11459/CCR_C-4129_6048efbf-eb87-2083-4110-84a44f8984f7" ValueScheme="string" CardinalityMin="1" CardinalityMax="1"/>
                             <Element name="Media_type" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>Standardised naming of the file format, a media type, e.g. audio/mpeg</Documentation>
                                 <AttributeList>
-                                    <Attribute name="Audio_genre" ConceptLink="http://hdl.handle.net/11459/CCR_C-2470_d191f2b2-6339-f031-b534-70d526b28357" ValueScheme="string"/>
-                                    <Attribute name="Codec" ConceptLink="http://hdl.handle.net/11459/CCR_C-4599_2eee055a-fe8b-953a-52a9-c0ad8dae82d2" ValueScheme="string"/>
-                                    <Attribute name="Duration" ConceptLink="http://hdl.handle.net/11459/CCR_C-2567_8e616d60-5708-c3d4-320b-661399ccda43" ValueScheme="time"/>
+                                    <Attribute name="Audio_genre" ConceptLink="http://www.wikidata.org/entity/Q483394" ValueScheme="string"/>
+                                    <Attribute name="Codec" ConceptLink="http://www.wikidata.org/entity/Q184748" ValueScheme="string"/>
+                                    <Attribute name="Duration" ConceptLink="http://www.wikidata.org/entity/P2047" ValueScheme="time"/>
                                     <Attribute name="Duration_of_effective_speech" ConceptLink="http://hdl.handle.net/11459/CCR_C-2691_5c1c9d59-cc6d-da0a-cf24-1ee36f0947a7" ValueScheme="time"/>
                                 </AttributeList>
                             </Element>
+                            <Element name="Data_source" ConceptLink="http://www.wikidata.org/entity/Q121566744" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                            <Element name="Date_from" ConceptLink="http://www.wikidata.org/entity/P585" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                            <Element name="Date_to" ConceptLink="http://www.wikidata.org/entity/P585" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
                         </Component>
                         <Component name="Video" ConceptLink="http://hdl.handle.net/11459/CCR_C-2654_115c5ce8-7bdb-06b4-fe52-d6ebf2f80022" CardinalityMin="0" CardinalityMax="unbounded">
                             <Element name="Reference_path" ConceptLink="http://hdl.handle.net/11459/CCR_C-4129_6048efbf-eb87-2083-4110-84a44f8984f7" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                             <Element name="Media_type" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true">
                                 <Documentation>Standardised naming of the file format, a media type, e.g. video/mp4</Documentation>
                                 <AttributeList>
-                                    <Attribute name="Video_genre" ConceptLink="http://hdl.handle.net/11459/CCR_C-2470_d191f2b2-6339-f031-b534-70d526b28357" ValueScheme="string"/>
-                                    <Attribute name="Resolution_info" ConceptLink="http://hdl.handle.net/11459/CCR_C-2575_3d7c3d42-f4d3-6071-61a1-45deeb960343" ValueScheme="string"/>
-                                    <Attribute name="Frame_rate" ConceptLink="http://hdl.handle.net/11459/CCR_C-4597_a9d69eaf-5d6f-17a2-f107-9aaff21d137b" ValueScheme="int"/>
-                                    <Attribute name="Duration" ConceptLink="http://hdl.handle.net/11459/CCR_C-2567_8e616d60-5708-c3d4-320b-661399ccda43" ValueScheme="string"/>
+                                    <Attribute name="Video_genre" ConceptLink="http://www.wikidata.org/entity/Q483394" ValueScheme="string"/>
+                                    <Attribute name="Resolution_info" ConceptLink="http://www.wikidata.org/entity/Q210521" ValueScheme="string"/>
+                                    <Attribute name="Frame_rate" ConceptLink="http://www.wikidata.org/entity/Q119565" ValueScheme="int"/>
+                                    <Attribute name="Duration" ConceptLink="http://www.wikidata.org/entity/P2047" ValueScheme="string"/>
                                     <Attribute name="Duration_of_speech" ConceptLink="http://hdl.handle.net/11459/CCR_C-2691_5c1c9d59-cc6d-da0a-cf24-1ee36f0947a7" ValueScheme="string"/>
                                 </AttributeList>
                             </Element>
-                            <Element name="Codec" ConceptLink="http://hdl.handle.net/11459/CCR_C-4599_2eee055a-fe8b-953a-52a9-c0ad8dae82d2" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true"/>
+                            <Element name="Codec" ConceptLink="http://www.wikidata.org/entity/Q184748" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true"/>
                             <Element name="Container_format" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
                                 <Documentation>The container format, that contains the actual data in a encoded form, e.g. Matroska (MKV), Ogg, MP4</Documentation>
                             </Element>
+                            <Element name="Camera_angles" ConceptLink="http://www.wikidata.org/entity/Q450539" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                            <Element name="Video_anonymised" ConceptLink="http://www.wikidata.org/entity/Q17006654" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                            <Element name="Anonymisation_technique" ConceptLink="http://www.wikidata.org/entity/Q17006654" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                            <Element name="Data_source" ConceptLink="http://www.wikidata.org/entity/Q121566744" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                            <Element name="Date_from" ConceptLink="http://www.wikidata.org/entity/P585" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                            <Element name="Date_to" ConceptLink="http://www.wikidata.org/entity/P585" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
                         </Component>
                         <Component name="Image" ConceptLink="http://hdl.handle.net/11459/CCR_C-2655_c21a8115-d6e7-982c-d5e8-3a278d6e653a" CardinalityMin="0" CardinalityMax="unbounded">
                             <Element name="Reference_path" ConceptLink="http://hdl.handle.net/11459/CCR_C-4129_6048efbf-eb87-2083-4110-84a44f8984f7" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                             <Element name="Media_type" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true">
                                 <Documentation>Standardised naming of the file format, a media type. E.g. image/png</Documentation>
                                 <AttributeList>
-                                    <Attribute name="Image_genre" ConceptLink="http://hdl.handle.net/11459/CCR_C-2470_d191f2b2-6339-f031-b534-70d526b28357" ValueScheme="string"/>
-                                    <Attribute name="Resolution_info" ConceptLink="http://hdl.handle.net/11459/CCR_C-2575_3d7c3d42-f4d3-6071-61a1-45deeb960343" ValueScheme="string"/>
+                                    <Attribute name="Image_genre" ConceptLink="http://www.wikidata.org/entity/Q483394" ValueScheme="string"/>
+                                    <Attribute name="Resolution_info" ConceptLink="http://www.wikidata.org/entity/Q210521" ValueScheme="string"/>
                                 </AttributeList>
                             </Element>
-                            <Element name="Type_of_image_content" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                            <Element name="Type_of_image_content" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
                                 <Documentation>Description of the image content. E.g. Sign posts</Documentation>
                             </Element>
-                            <Element name="Compression" ConceptLink="http://hdl.handle.net/11459/CCR_C-2685_65492121-3759-0fc2-694b-83eccbb9d26c" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true"/>
+                            <Element name="Compression" ConceptLink="http://www.wikidata.org/entity/Q2493" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true"/>
                             <Element name="Graphics_type" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
                                 <Documentation>Indicates if images are raster or vector images. Typically, JPEG, GIF, BMP and TIFF are raster graphics, while SVG and AI (Adobe Illustrator) are vector graphic formats.</Documentation>
                             </Element>
+                            <Element name="Data_source" ConceptLink="http://www.wikidata.org/entity/Q121566744" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                            <Element name="Date_from" ConceptLink="http://www.wikidata.org/entity/P585" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                            <Element name="Date_to" ConceptLink="http://www.wikidata.org/entity/P585" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
                         </Component>
-                        <Component name="Tools" ConceptLink="http://hdl.handle.net/11459/CCR_C-4362_bbceebba-02fc-2417-5433-3402a33e350a" CardinalityMin="0" CardinalityMax="unbounded">
+                        <Component name="Tools" ConceptLink="http://www.wikidata.org/entity/Q123691918 " CardinalityMin="0" CardinalityMax="unbounded">
                             <Element name="Reference_path" ConceptLink="http://hdl.handle.net/11459/CCR_C-4129_6048efbf-eb87-2083-4110-84a44f8984f7" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                             <Element name="Software" ValueScheme="string" CardinalityMin="1" CardinalityMax="1">
                                 <Documentation>The Software used to generate, annotate or process the data. E.g. EUDICO Linguistic Annotator (ELAN)</Documentation>
@@ -169,7 +193,7 @@
                                     <Attribute name="Software_role" ValueScheme="string">
                                         <Documentation>The role of the software that was used to generate, annotate or process the data. E.g. Audio capture, transcription</Documentation>
                                     </Attribute>
-                                    <Attribute name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-6139_ab15a7eb-7032-d4f0-643e-bffe5ad09fc3" ValueScheme="string"/>
+                                    <Attribute name="Description" ConceptLink="http://www.wikidata.org/entity/Q1200750" ValueScheme="string"/>
                                 </AttributeList>
                             </Element>
                         </Component>

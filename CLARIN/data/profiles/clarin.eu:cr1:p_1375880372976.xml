@@ -23,9 +23,9 @@
             <Element name="originInfoLegacy" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
             <Component name="mods" ComponentRef="clarin.eu:cr1:c_1375880372973" CardinalityMin="1" CardinalityMax="1">
                 <Element name="abstract" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                <Element name="genre" ConceptLink="http://hdl.handle.net/11459/CCR_C-2470_d191f2b2-6339-f031-b534-70d526b28357" ValueScheme="string" CardinalityMin="0" CardinalityMax="3" Multilingual="false"/>
+                <Element name="genre" ConceptLink="http://www.wikidata.org/entity/Q483394" ValueScheme="string" CardinalityMin="0" CardinalityMax="3" Multilingual="false"/>
                 <Element name="typeOfResource" ConceptLink="http://purl.org/dc/elements/1.1/type" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false"/>
-                <Element name="identifier" ConceptLink="http://hdl.handle.net/11459/CCR_C-2573_ae7c2548-8a86-ab6e-7099-e28b7697d1a2" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false">
+                <Element name="identifier" ConceptLink="http://www.wikidata.org/entity/Q420330" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false">
                     <AttributeList>
                         <Attribute name="type">
                             <ValueScheme>

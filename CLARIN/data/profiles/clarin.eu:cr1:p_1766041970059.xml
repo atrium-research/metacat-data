@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ComponentSpec isProfile="true" CMDVersion="1.2" CMDOriginalVersion="1.1" xsi:noNamespaceSchemaLocation="https://infra.clarin.eu/CMDI/1.x/xsd/cmd-component.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ComponentSpec isProfile="true" CMDVersion="1.2" CMDOriginalVersion="1.2" xsi:noNamespaceSchemaLocation="https://infra.clarin.eu/CMDI/1.x/xsd/cmd-component.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <Header>
-        <ID>clarin.eu:cr1:p_1403526079380</ID>
-        <Name>LINDAT_CLARIN</Name>
-        <Description>profile used for LINDAT/CLARIN repository resources</Description>
+        <ID>clarin.eu:cr1:p_1766041970059</ID>
+        <Name>CLARIAH-IATEXT</Name>
+        <Description>Profile used for CLARIAH-IATEXT repository resources.</Description>
         <Status>production</Status>
+        <DerivedFrom>clarin.eu:cr1:p_1403526079380</DerivedFrom>
     </Header>
-    <Component name="LINDAT_CLARIN" CardinalityMin="1" CardinalityMax="1">
+    <Component name="CLARIAH-IATEXT" CardinalityMin="1" CardinalityMax="1">
         <Component name="bibliographicInfo" ComponentRef="clarin.eu:cr1:c_1403526079381" CardinalityMin="1" CardinalityMax="1">
             <Element name="projectUrl" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
             <Element name="version" ConceptLink="http://www.wikidata.org/entity/Q12343820" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>

@@ -2019,7 +2019,7 @@
                     </AttributeList>
                 </Element>
                 <Element name="metaShareId" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false"/>
-                <Element name="identifier" ConceptLink="http://hdl.handle.net/11459/CCR_C-2573_ae7c2548-8a86-ab6e-7099-e28b7697d1a2" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false"/>
+                <Element name="identifier" ConceptLink="http://www.wikidata.org/entity/Q420330" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false"/>
             </Component>
             <Component name="distributionInfo" ComponentRef="clarin.eu:cr1:c_1349361150578" CardinalityMin="1" CardinalityMax="1">
                 <Element name="availability" ConceptLink="http://hdl.handle.net/11459/CCR_C-2453_1f0c3ea5-7966-ae11-d3c6-448424d4e6e8" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
@@ -2035,7 +2035,7 @@
                     </ValueScheme>
                 </Element>
                 <Component name="licenceInfo" ComponentRef="clarin.eu:cr1:c_1349361150579" CardinalityMin="0" CardinalityMax="unbounded">
-                    <Element name="licence" ConceptLink="http://hdl.handle.net/11459/CCR_C-2457_45bbaa1a-7002-2ecd-ab9d-57a189f694a6" CardinalityMin="1" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                    <Element name="licence" ConceptLink="http://www.wikidata.org/entity/Q79719" CardinalityMin="1" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                         <ValueScheme>
                             <Vocabulary>
                                 <enumeration>
@@ -2102,7 +2102,7 @@
                             </Vocabulary>
                         </ValueScheme>
                     </Element>
-                    <Element name="distributionAccessMedium" ConceptLink="http://hdl.handle.net/11459/CCR_C-2458_6d94aa4b-09f5-bd3e-0c00-23a457840463" CardinalityMin="0" CardinalityMax="unbounded">
+                    <Element name="distributionAccessMedium" ConceptLink="http://www.wikidata.org/entity/Q340169" CardinalityMin="0" CardinalityMax="unbounded">
                         <Documentation>Specifies the medium (channel) used for delivery or providing access to the resource</Documentation>
                         <ValueScheme>
                             <Vocabulary>
@@ -2123,34 +2123,34 @@
                 </Component>
             </Component>
             <Component name="contactPerson" ComponentRef="clarin.eu:cr1:c_1349361150580" CardinalityMin="1" CardinalityMax="unbounded">
-                <Element name="surname" ConceptLink="http://hdl.handle.net/11459/CCR_C-4195_cfa61853-c8ef-252d-b87c-e02ae6149ea1" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                <Element name="surname" ConceptLink="http://www.wikidata.org/entity/Q117209596" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                     <Documentation>The surname (family name) of a person related to the resource</Documentation>
                     <AttributeList>
                         <Attribute name="lang" ValueScheme="string"/>
                     </AttributeList>
                 </Element>
-                <Element name="givenName" ConceptLink="http://hdl.handle.net/11459/CCR_C-4194_10476a01-dbce-7ad5-4cb2-f6eb7e777ff0" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                <Element name="givenName" ConceptLink="http://www.wikidata.org/entity/Q202444 " ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
                     <Documentation>The given name (first name) of a person related to the resource; initials can also be used</Documentation>
                     <AttributeList>
                         <Attribute name="lang" ValueScheme="string"/>
                     </AttributeList>
                 </Element>
                 <Component name="communicationInfo" ComponentRef="clarin.eu:cr1:c_1349361150581" CardinalityMin="1" CardinalityMax="1">
-                    <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" CardinalityMin="1" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                    <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" CardinalityMin="1" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                         <ValueScheme>
                             <pattern>[^@]+@[^\.]+\..+|</pattern>
                         </ValueScheme>
                     </Element>
                 </Component>
                 <Component name="affiliation" ComponentRef="clarin.eu:cr1:c_1349361150582" CardinalityMin="0" CardinalityMax="1">
-                    <Element name="organizationName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2459_fc4e74d6-84de-c8cd-1ae8-2c2be5ee90b1" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                    <Element name="organizationName" ConceptLink="http://www.wikidata.org/entity/Q43229" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                         <Documentation>The full name of an organization</Documentation>
                         <AttributeList>
                             <Attribute name="lang" ValueScheme="string"/>
                         </AttributeList>
                     </Element>
                     <Component name="communicationInfo" ComponentRef="clarin.eu:cr1:c_1349361150581" CardinalityMin="1" CardinalityMax="1">
-                        <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" CardinalityMin="1" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                        <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" CardinalityMin="1" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                             <ValueScheme>
                                 <pattern>[^@]+@[^\.]+\..+|</pattern>
                             </ValueScheme>
@@ -2209,7 +2209,7 @@
                     </Element>
                     <Component name="corpusMediaType" ComponentRef="clarin.eu:cr1:c_1349361150594" CardinalityMin="1" CardinalityMax="1">
                         <Component name="corpusTextInfo" ComponentRef="clarin.eu:cr1:c_1349361150589" CardinalityMin="0" CardinalityMax="unbounded">
-                            <Element name="mediaType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2570_6f596a6d-4d5c-f336-d971-e61a310e2c8c" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Element name="mediaType" ConceptLink="http://www.wikidata.org/entity/P1163" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>mandatory with value "text"</Documentation>
                                 <ValueScheme>
                                     <Vocabulary>
@@ -2234,18 +2234,18 @@
                                 </Element>
                             </Component>
                             <Component name="languageInfo" ComponentRef="clarin.eu:cr1:c_1349361150587" CardinalityMin="1" CardinalityMax="unbounded">
-                                <Element name="languageId" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false">
+                                <Element name="languageId" ConceptLink="http://www.wikidata.org/entity/Q2092812" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false">
                                     <Documentation>Should be controlled vocabulary - ISO639?</Documentation>
                                 </Element>
-                                <Element name="languageName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2484_669684e7-cb9e-ea96-59cb-a25fe89b9b9d" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Element name="languageName" ConceptLink="http://www.wikidata.org/entity/Q3109261" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>Should be controlled vocabulary of names according to ISO639?</Documentation>
                                 </Element>
                             </Component>
                             <Component name="sizeInfo" ComponentRef="clarin.eu:cr1:c_1349361150588" CardinalityMin="1" CardinalityMax="unbounded">
-                                <Element name="size" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Element name="size" ConceptLink="http://www.wikidata.org/entity/Q322481" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>Specifies the size of the resource with regard to the SizeUnit measurement in form of a number</Documentation>
                                 </Element>
-                                <Element name="sizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" CardinalityMin="1" CardinalityMax="1">
+                                <Element name="sizeUnit" ConceptLink="http://www.wikidata.org/entity/P1880" CardinalityMin="1" CardinalityMax="1">
                                     <Documentation>Specifies the unit that is used when providing information on the size of the resource or of resource parts</Documentation>
                                     <ValueScheme>
                                         <Vocabulary>
@@ -2306,7 +2306,7 @@
                             </Component>
                         </Component>
                         <Component name="corpusAudioInfo" ComponentRef="clarin.eu:cr1:c_1349361150591" CardinalityMin="0" CardinalityMax="1">
-                            <Element name="mediaType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2570_6f596a6d-4d5c-f336-d971-e61a310e2c8c" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Element name="mediaType" ConceptLink="http://www.wikidata.org/entity/P1163" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>mandatory with value "audio"</Documentation>
                                 <ValueScheme>
                                     <Vocabulary>
@@ -2331,19 +2331,19 @@
                                 </Element>
                             </Component>
                             <Component name="languageInfo" ComponentRef="clarin.eu:cr1:c_1349361150587" CardinalityMin="1" CardinalityMax="unbounded">
-                                <Element name="languageId" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false">
+                                <Element name="languageId" ConceptLink="http://www.wikidata.org/entity/Q2092812" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false">
                                     <Documentation>Should be controlled vocabulary - ISO639?</Documentation>
                                 </Element>
-                                <Element name="languageName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2484_669684e7-cb9e-ea96-59cb-a25fe89b9b9d" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Element name="languageName" ConceptLink="http://www.wikidata.org/entity/Q3109261" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>Should be controlled vocabulary of names according to ISO639?</Documentation>
                                 </Element>
                             </Component>
                             <Component name="audioSizeInfo" ComponentRef="clarin.eu:cr1:c_1349361150590" CardinalityMin="1" CardinalityMax="unbounded">
                                 <Component name="sizeInfo" ComponentRef="clarin.eu:cr1:c_1349361150588" CardinalityMin="1" CardinalityMax="1">
-                                    <Element name="size" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                    <Element name="size" ConceptLink="http://www.wikidata.org/entity/Q322481" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                         <Documentation>Specifies the size of the resource with regard to the SizeUnit measurement in form of a number</Documentation>
                                     </Element>
-                                    <Element name="sizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" CardinalityMin="1" CardinalityMax="1">
+                                    <Element name="sizeUnit" ConceptLink="http://www.wikidata.org/entity/P1880" CardinalityMin="1" CardinalityMax="1">
                                         <Documentation>Specifies the unit that is used when providing information on the size of the resource or of resource parts</Documentation>
                                         <ValueScheme>
                                             <Vocabulary>
@@ -2405,7 +2405,7 @@
                             </Component>
                         </Component>
                         <Component name="corpusVideoInfo" ComponentRef="clarin.eu:cr1:c_1349361150592" CardinalityMin="0" CardinalityMax="unbounded">
-                            <Element name="mediaType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2570_6f596a6d-4d5c-f336-d971-e61a310e2c8c" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Element name="mediaType" ConceptLink="http://www.wikidata.org/entity/P1163" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>mandatory with value "video"</Documentation>
                                 <ValueScheme>
                                     <Vocabulary>
@@ -2430,18 +2430,18 @@
                                 </Element>
                             </Component>
                             <Component name="languageInfo" ComponentRef="clarin.eu:cr1:c_1349361150587" CardinalityMin="0" CardinalityMax="unbounded">
-                                <Element name="languageId" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false">
+                                <Element name="languageId" ConceptLink="http://www.wikidata.org/entity/Q2092812" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false">
                                     <Documentation>Should be controlled vocabulary - ISO639?</Documentation>
                                 </Element>
-                                <Element name="languageName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2484_669684e7-cb9e-ea96-59cb-a25fe89b9b9d" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Element name="languageName" ConceptLink="http://www.wikidata.org/entity/Q3109261" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>Should be controlled vocabulary of names according to ISO639?</Documentation>
                                 </Element>
                             </Component>
                             <Component name="sizeInfo" ComponentRef="clarin.eu:cr1:c_1349361150588" CardinalityMin="1" CardinalityMax="unbounded">
-                                <Element name="size" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Element name="size" ConceptLink="http://www.wikidata.org/entity/Q322481" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>Specifies the size of the resource with regard to the SizeUnit measurement in form of a number</Documentation>
                                 </Element>
-                                <Element name="sizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" CardinalityMin="1" CardinalityMax="1">
+                                <Element name="sizeUnit" ConceptLink="http://www.wikidata.org/entity/P1880" CardinalityMin="1" CardinalityMax="1">
                                     <Documentation>Specifies the unit that is used when providing information on the size of the resource or of resource parts</Documentation>
                                     <ValueScheme>
                                         <Vocabulary>
@@ -2502,7 +2502,7 @@
                             </Component>
                         </Component>
                         <Component name="corpusImageInfo" ComponentRef="clarin.eu:cr1:c_1349361150593" CardinalityMin="0" CardinalityMax="1">
-                            <Element name="mediaType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2570_6f596a6d-4d5c-f336-d971-e61a310e2c8c" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Element name="mediaType" ConceptLink="http://www.wikidata.org/entity/P1163" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>mandatory with value "image"</Documentation>
                                 <ValueScheme>
                                     <Vocabulary>
@@ -2527,18 +2527,18 @@
                                 </Element>
                             </Component>
                             <Component name="languageInfo" ComponentRef="clarin.eu:cr1:c_1349361150587" CardinalityMin="0" CardinalityMax="unbounded">
-                                <Element name="languageId" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false">
+                                <Element name="languageId" ConceptLink="http://www.wikidata.org/entity/Q2092812" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false">
                                     <Documentation>Should be controlled vocabulary - ISO639?</Documentation>
                                 </Element>
-                                <Element name="languageName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2484_669684e7-cb9e-ea96-59cb-a25fe89b9b9d" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Element name="languageName" ConceptLink="http://www.wikidata.org/entity/Q3109261" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>Should be controlled vocabulary of names according to ISO639?</Documentation>
                                 </Element>
                             </Component>
                             <Component name="sizeInfo" ComponentRef="clarin.eu:cr1:c_1349361150588" CardinalityMin="1" CardinalityMax="unbounded">
-                                <Element name="size" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Element name="size" ConceptLink="http://www.wikidata.org/entity/Q322481" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>Specifies the size of the resource with regard to the SizeUnit measurement in form of a number</Documentation>
                                 </Element>
-                                <Element name="sizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" CardinalityMin="1" CardinalityMax="1">
+                                <Element name="sizeUnit" ConceptLink="http://www.wikidata.org/entity/P1880" CardinalityMin="1" CardinalityMax="1">
                                     <Documentation>Specifies the unit that is used when providing information on the size of the resource or of resource parts</Documentation>
                                     <ValueScheme>
                                         <Vocabulary>
@@ -2656,7 +2656,7 @@
                     </Element>
                     <Component name="languageDescriptionMediaType" ComponentRef="clarin.eu:cr1:c_1349361150602" CardinalityMin="1" CardinalityMax="1">
                         <Component name="languageDescriptionTextInfo" ComponentRef="clarin.eu:cr1:c_1349361150599" CardinalityMin="0" CardinalityMax="1">
-                            <Element name="mediaType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2570_6f596a6d-4d5c-f336-d971-e61a310e2c8c" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Element name="mediaType" ConceptLink="http://www.wikidata.org/entity/P1163" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>mandatory with value "text"</Documentation>
                                 <ValueScheme>
                                     <Vocabulary>
@@ -2681,18 +2681,18 @@
                                 </Element>
                             </Component>
                             <Component name="languageInfo" ComponentRef="clarin.eu:cr1:c_1349361150587" CardinalityMin="1" CardinalityMax="unbounded">
-                                <Element name="languageId" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false">
+                                <Element name="languageId" ConceptLink="http://www.wikidata.org/entity/Q2092812" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false">
                                     <Documentation>Should be controlled vocabulary - ISO639?</Documentation>
                                 </Element>
-                                <Element name="languageName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2484_669684e7-cb9e-ea96-59cb-a25fe89b9b9d" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Element name="languageName" ConceptLink="http://www.wikidata.org/entity/Q3109261" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>Should be controlled vocabulary of names according to ISO639?</Documentation>
                                 </Element>
                             </Component>
                             <Component name="sizeInfo" ComponentRef="clarin.eu:cr1:c_1349361150588" CardinalityMin="0" CardinalityMax="unbounded">
-                                <Element name="size" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Element name="size" ConceptLink="http://www.wikidata.org/entity/Q322481" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>Specifies the size of the resource with regard to the SizeUnit measurement in form of a number</Documentation>
                                 </Element>
-                                <Element name="sizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" CardinalityMin="1" CardinalityMax="1">
+                                <Element name="sizeUnit" ConceptLink="http://www.wikidata.org/entity/P1880" CardinalityMin="1" CardinalityMax="1">
                                     <Documentation>Specifies the unit that is used when providing information on the size of the resource or of resource parts</Documentation>
                                     <ValueScheme>
                                         <Vocabulary>
@@ -2753,7 +2753,7 @@
                             </Component>
                         </Component>
                         <Component name="languageDescriptionVideoInfo" ComponentRef="clarin.eu:cr1:c_1349361150600" CardinalityMin="0" CardinalityMax="1">
-                            <Element name="mediaType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2570_6f596a6d-4d5c-f336-d971-e61a310e2c8c" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Element name="mediaType" ConceptLink="http://www.wikidata.org/entity/P1163" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>mandatory with value "video"</Documentation>
                                 <ValueScheme>
                                     <Vocabulary>
@@ -2778,18 +2778,18 @@
                                 </Element>
                             </Component>
                             <Component name="languageInfo" ComponentRef="clarin.eu:cr1:c_1349361150587" CardinalityMin="0" CardinalityMax="unbounded">
-                                <Element name="languageId" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false">
+                                <Element name="languageId" ConceptLink="http://www.wikidata.org/entity/Q2092812" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false">
                                     <Documentation>Should be controlled vocabulary - ISO639?</Documentation>
                                 </Element>
-                                <Element name="languageName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2484_669684e7-cb9e-ea96-59cb-a25fe89b9b9d" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Element name="languageName" ConceptLink="http://www.wikidata.org/entity/Q3109261" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>Should be controlled vocabulary of names according to ISO639?</Documentation>
                                 </Element>
                             </Component>
                             <Component name="sizeInfo" ComponentRef="clarin.eu:cr1:c_1349361150588" CardinalityMin="0" CardinalityMax="1">
-                                <Element name="size" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Element name="size" ConceptLink="http://www.wikidata.org/entity/Q322481" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>Specifies the size of the resource with regard to the SizeUnit measurement in form of a number</Documentation>
                                 </Element>
-                                <Element name="sizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" CardinalityMin="1" CardinalityMax="1">
+                                <Element name="sizeUnit" ConceptLink="http://www.wikidata.org/entity/P1880" CardinalityMin="1" CardinalityMax="1">
                                     <Documentation>Specifies the unit that is used when providing information on the size of the resource or of resource parts</Documentation>
                                     <ValueScheme>
                                         <Vocabulary>
@@ -2850,7 +2850,7 @@
                             </Component>
                         </Component>
                         <Component name="languageDescriptionImageInfo" ComponentRef="clarin.eu:cr1:c_1349361150601" CardinalityMin="0" CardinalityMax="1">
-                            <Element name="mediaType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2570_6f596a6d-4d5c-f336-d971-e61a310e2c8c" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Element name="mediaType" ConceptLink="http://www.wikidata.org/entity/P1163" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>mandatory with value "image"</Documentation>
                                 <ValueScheme>
                                     <Vocabulary>
@@ -2875,18 +2875,18 @@
                                 </Element>
                             </Component>
                             <Component name="languageInfo" ComponentRef="clarin.eu:cr1:c_1349361150587" CardinalityMin="0" CardinalityMax="unbounded">
-                                <Element name="languageId" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false">
+                                <Element name="languageId" ConceptLink="http://www.wikidata.org/entity/Q2092812" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false">
                                     <Documentation>Should be controlled vocabulary - ISO639?</Documentation>
                                 </Element>
-                                <Element name="languageName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2484_669684e7-cb9e-ea96-59cb-a25fe89b9b9d" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Element name="languageName" ConceptLink="http://www.wikidata.org/entity/Q3109261" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>Should be controlled vocabulary of names according to ISO639?</Documentation>
                                 </Element>
                             </Component>
                             <Component name="sizeInfo" ComponentRef="clarin.eu:cr1:c_1349361150588" CardinalityMin="0" CardinalityMax="1">
-                                <Element name="size" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Element name="size" ConceptLink="http://www.wikidata.org/entity/Q322481" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>Specifies the size of the resource with regard to the SizeUnit measurement in form of a number</Documentation>
                                 </Element>
-                                <Element name="sizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" CardinalityMin="1" CardinalityMax="1">
+                                <Element name="sizeUnit" ConceptLink="http://www.wikidata.org/entity/P1880" CardinalityMin="1" CardinalityMax="1">
                                     <Documentation>Specifies the unit that is used when providing information on the size of the resource or of resource parts</Documentation>
                                     <ValueScheme>
                                         <Vocabulary>
@@ -2979,7 +2979,7 @@
                     </Element>
                     <Component name="lexicalConceptualResourceMediaType" ComponentRef="clarin.eu:cr1:c_1349361150608" CardinalityMin="1" CardinalityMax="unbounded">
                         <Component name="lexicalConceptualResourceTextInfo" ComponentRef="clarin.eu:cr1:c_1349361150604" CardinalityMin="0" CardinalityMax="1">
-                            <Element name="mediaType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2570_6f596a6d-4d5c-f336-d971-e61a310e2c8c" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Element name="mediaType" ConceptLink="http://www.wikidata.org/entity/P1163" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>mandatory with value "text"</Documentation>
                                 <ValueScheme>
                                     <Vocabulary>
@@ -3004,18 +3004,18 @@
                                 </Element>
                             </Component>
                             <Component name="languageInfo" ComponentRef="clarin.eu:cr1:c_1349361150587" CardinalityMin="1" CardinalityMax="unbounded">
-                                <Element name="languageId" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false">
+                                <Element name="languageId" ConceptLink="http://www.wikidata.org/entity/Q2092812" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false">
                                     <Documentation>Should be controlled vocabulary - ISO639?</Documentation>
                                 </Element>
-                                <Element name="languageName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2484_669684e7-cb9e-ea96-59cb-a25fe89b9b9d" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Element name="languageName" ConceptLink="http://www.wikidata.org/entity/Q3109261" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>Should be controlled vocabulary of names according to ISO639?</Documentation>
                                 </Element>
                             </Component>
                             <Component name="sizeInfo" ComponentRef="clarin.eu:cr1:c_1349361150588" CardinalityMin="1" CardinalityMax="unbounded">
-                                <Element name="size" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Element name="size" ConceptLink="http://www.wikidata.org/entity/Q322481" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>Specifies the size of the resource with regard to the SizeUnit measurement in form of a number</Documentation>
                                 </Element>
-                                <Element name="sizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" CardinalityMin="1" CardinalityMax="1">
+                                <Element name="sizeUnit" ConceptLink="http://www.wikidata.org/entity/P1880" CardinalityMin="1" CardinalityMax="1">
                                     <Documentation>Specifies the unit that is used when providing information on the size of the resource or of resource parts</Documentation>
                                     <ValueScheme>
                                         <Vocabulary>
@@ -3076,7 +3076,7 @@
                             </Component>
                         </Component>
                         <Component name="lexicalConceptualResourceAudioInfo" ComponentRef="clarin.eu:cr1:c_1349361150605" CardinalityMin="0" CardinalityMax="1">
-                            <Element name="mediaType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2570_6f596a6d-4d5c-f336-d971-e61a310e2c8c" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Element name="mediaType" ConceptLink="http://www.wikidata.org/entity/P1163" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>mandatory with value "audio"</Documentation>
                                 <ValueScheme>
                                     <Vocabulary>
@@ -3101,18 +3101,18 @@
                                 </Element>
                             </Component>
                             <Component name="languageInfo" ComponentRef="clarin.eu:cr1:c_1349361150587" CardinalityMin="0" CardinalityMax="unbounded">
-                                <Element name="languageId" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false">
+                                <Element name="languageId" ConceptLink="http://www.wikidata.org/entity/Q2092812" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false">
                                     <Documentation>Should be controlled vocabulary - ISO639?</Documentation>
                                 </Element>
-                                <Element name="languageName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2484_669684e7-cb9e-ea96-59cb-a25fe89b9b9d" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Element name="languageName" ConceptLink="http://www.wikidata.org/entity/Q3109261" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>Should be controlled vocabulary of names according to ISO639?</Documentation>
                                 </Element>
                             </Component>
                             <Component name="sizeInfo" ComponentRef="clarin.eu:cr1:c_1349361150588" CardinalityMin="0" CardinalityMax="unbounded">
-                                <Element name="size" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Element name="size" ConceptLink="http://www.wikidata.org/entity/Q322481" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>Specifies the size of the resource with regard to the SizeUnit measurement in form of a number</Documentation>
                                 </Element>
-                                <Element name="sizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" CardinalityMin="1" CardinalityMax="1">
+                                <Element name="sizeUnit" ConceptLink="http://www.wikidata.org/entity/P1880" CardinalityMin="1" CardinalityMax="1">
                                     <Documentation>Specifies the unit that is used when providing information on the size of the resource or of resource parts</Documentation>
                                     <ValueScheme>
                                         <Vocabulary>
@@ -3173,7 +3173,7 @@
                             </Component>
                         </Component>
                         <Component name="lexicalConceptualResourceVideoInfo" ComponentRef="clarin.eu:cr1:c_1349361150606" CardinalityMin="0" CardinalityMax="1">
-                            <Element name="mediaType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2570_6f596a6d-4d5c-f336-d971-e61a310e2c8c" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Element name="mediaType" ConceptLink="http://www.wikidata.org/entity/P1163" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>mandatory with value "video"</Documentation>
                                 <ValueScheme>
                                     <Vocabulary>
@@ -3198,18 +3198,18 @@
                                 </Element>
                             </Component>
                             <Component name="languageInfo" ComponentRef="clarin.eu:cr1:c_1349361150587" CardinalityMin="0" CardinalityMax="unbounded">
-                                <Element name="languageId" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false">
+                                <Element name="languageId" ConceptLink="http://www.wikidata.org/entity/Q2092812" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false">
                                     <Documentation>Should be controlled vocabulary - ISO639?</Documentation>
                                 </Element>
-                                <Element name="languageName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2484_669684e7-cb9e-ea96-59cb-a25fe89b9b9d" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Element name="languageName" ConceptLink="http://www.wikidata.org/entity/Q3109261" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>Should be controlled vocabulary of names according to ISO639?</Documentation>
                                 </Element>
                             </Component>
                             <Component name="sizeInfo" ComponentRef="clarin.eu:cr1:c_1349361150588" CardinalityMin="0" CardinalityMax="unbounded">
-                                <Element name="size" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Element name="size" ConceptLink="http://www.wikidata.org/entity/Q322481" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>Specifies the size of the resource with regard to the SizeUnit measurement in form of a number</Documentation>
                                 </Element>
-                                <Element name="sizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" CardinalityMin="1" CardinalityMax="1">
+                                <Element name="sizeUnit" ConceptLink="http://www.wikidata.org/entity/P1880" CardinalityMin="1" CardinalityMax="1">
                                     <Documentation>Specifies the unit that is used when providing information on the size of the resource or of resource parts</Documentation>
                                     <ValueScheme>
                                         <Vocabulary>
@@ -3270,7 +3270,7 @@
                             </Component>
                         </Component>
                         <Component name="lexicalConceptualResourceImageInfo" ComponentRef="clarin.eu:cr1:c_1349361150607" CardinalityMin="0" CardinalityMax="1">
-                            <Element name="mediaType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2570_6f596a6d-4d5c-f336-d971-e61a310e2c8c" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Element name="mediaType" ConceptLink="http://www.wikidata.org/entity/P1163" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>mandatory with value "image"</Documentation>
                                 <ValueScheme>
                                     <Vocabulary>
@@ -3295,18 +3295,18 @@
                                 </Element>
                             </Component>
                             <Component name="languageInfo" ComponentRef="clarin.eu:cr1:c_1349361150587" CardinalityMin="0" CardinalityMax="unbounded">
-                                <Element name="languageId" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false">
+                                <Element name="languageId" ConceptLink="http://www.wikidata.org/entity/Q2092812" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false">
                                     <Documentation>Should be controlled vocabulary - ISO639?</Documentation>
                                 </Element>
-                                <Element name="languageName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2484_669684e7-cb9e-ea96-59cb-a25fe89b9b9d" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Element name="languageName" ConceptLink="http://www.wikidata.org/entity/Q3109261" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>Should be controlled vocabulary of names according to ISO639?</Documentation>
                                 </Element>
                             </Component>
                             <Component name="sizeInfo" ComponentRef="clarin.eu:cr1:c_1349361150588" CardinalityMin="0" CardinalityMax="unbounded">
-                                <Element name="size" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Element name="size" ConceptLink="http://www.wikidata.org/entity/Q322481" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>Specifies the size of the resource with regard to the SizeUnit measurement in form of a number</Documentation>
                                 </Element>
-                                <Element name="sizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" CardinalityMin="1" CardinalityMax="1">
+                                <Element name="sizeUnit" ConceptLink="http://www.wikidata.org/entity/P1880" CardinalityMin="1" CardinalityMax="1">
                                     <Documentation>Specifies the unit that is used when providing information on the size of the resource or of resource parts</Documentation>
                                     <ValueScheme>
                                         <Vocabulary>
