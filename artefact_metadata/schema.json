@@ -1,0 +1,119 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "title": "MetaCat semantic artefact metadata schema",
+  "description": "JSON schema to define metadata model for semantic artefacts collected in the context of MetaCat",
+  "type": "object",
+  "properties": {
+    "semantic artefacts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "alternative_title": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "identifier": {
+            "type": "string",
+            "format": "uri"
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "controlled vocabulary",
+              "ontology",
+              "metadata schema",
+              "thesaurus",
+              "gazetteer",
+              "framework / meta-model",
+              "taxonomy"
+            ]
+          },
+          "catalogue": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "SSH Open Marketplace",
+                "GoTriple",
+                "CLARIN VLO",
+                "ARIADNE Portal"
+              ]
+            },
+            "minItems": 1
+          },
+          "description": {
+            "type": "string"
+          },
+          "creator": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "contributor": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "date_created": {
+            "type": "string",
+            "format": "date"
+          },
+          "date_last_modified": {
+            "type": "string",
+            "format": "date"
+          },
+          "version": {
+            "type": "string"
+          },
+          "location": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "format": {
+                  "type": "string"
+                },
+                "location": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "selection": {
+                  "type": "string",
+                  "description": "A path or any other expression needed to select the relevant part of the file at the location"
+                }
+              },
+              "required": [
+                "location",
+                "format"
+              ]
+            },
+            "minItems": 1
+          },
+          "documentation": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "catalogue",
+          "location",
+          "title",
+          "type"
+        ]
+      }
+    }
+  },
+  "required": [
+    "semantic artefacts"
+  ]
+}
