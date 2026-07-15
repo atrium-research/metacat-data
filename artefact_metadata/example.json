@@ -1,0 +1,129 @@
+{ 
+    "semantic artefacts": [ 
+        { 
+            "title": "SSH Open Marketplace Format", 
+            "alternative_title": [ 
+                "SSHOMP Format" 
+            ], 
+            "identifier": "https://vocabs.sshopencloud.eu/vocabularies/sshomp-format/", 
+            "type": "controlled vocabulary", 
+            "catalogue": [ 
+                "SSH Open Marketplace" 
+            ], 
+            "description": "List of formats to chose from in SSH Open Marketplace", 
+            "creator": [ 
+            ], 
+            "contributor": [ 
+            ], 
+            "date_created": "2024-01-31", 
+            "date_last_modified": "2024-08-07", 
+            "version": "1.0.0", 
+            "location": [ 
+                { 
+                    "format": "turtle", 
+                    "location": "https://vocabs.sshopencloud.eu/browse/rest/v1/sshomp-format/data?format=text/turtle" 
+                } 
+            ], 
+            "documentation": [ 
+            ] 
+        }, 
+        { 
+            "title": "License Vocabulary", 
+            "alternative_title": [ 
+            ], 
+            "identifier": "https://gotriple.eu/ontology/triple/License", 
+            "type": "controlled vocabulary", 
+            "catalogue": [ 
+                "GoTriple" 
+            ], 
+            "description": "A controlled vocabulary for rights and licenses concepts.", 
+            "creator": [ 
+                "Alessandro Bertozzi" 
+            ], 
+            "contributor": [ 
+                "Luca De Santis", 
+                "Silvio Peroni" 
+            ], 
+            "date_created": "", 
+            "date_last_modified": "", 
+            "version": "2.1.0", 
+            "location": [ 
+                { 
+                    "format": "html", 
+                    "location": "https://gotriple.eu/ontology/triple/License" 
+                } 
+            ], 
+            "documentation": [ 
+                "https://gotriple.eu/ontology/triple/License" 
+            ] 
+        }, 
+        { 
+            "title": "licence", 
+            "alternative_title": [ 
+            ], 
+            "identifier": "clarin.eu:cr1:p_1349361150699", 
+            "type": "controlled vocabulary", 
+            "catalogue": [ 
+                "CLARIN VLO" 
+            ], 
+            "description": "", 
+            "creator": [ 
+            ], 
+            "contributor": [ 
+            ], 
+            "date_created": "", 
+            "date_last_modified": "", 
+            "version": "", 
+            "location": [ 
+                { 
+                    "format": "xsd", 
+                    "location": "https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1349361150699/xsd", 
+                    "selection": "placeholder_for_xpath_expression" 
+                }, 
+                { 
+                    "format": "xml", 
+                    "location": "https://catalog.clarin.eu/ds/ComponentRegistry/rest/registry/1.x/profiles/clarin.eu:cr1:p_1349361150699/xml", 
+                    "selection": "placeholder_for_xpath_expression" 
+                } 
+            ], 
+            "documentation": [ 
+                "https://catalog.clarin.eu/ds/ComponentRegistry#/?itemId=clarin.eu%3Acr1%3Ap_1349361150699&registrySpace=public" 
+            ], 
+            "relation": [ 
+                "http://www.wikidata.org/entity/Q79719" 
+            ], 
+            "size": 39 
+        }, 
+        { 
+            "title": "Getty Art and Architecture Thesaurus", 
+            "alternative_title": [
+                "AAT" 
+            ], 
+            "identifier": "https://vocab.getty.edu/aat/", 
+            "type": "thesaurus", 
+            "catalogue": [ 
+                "ARIADNE Portal" 
+            ], 
+            "description": "", 
+            "creator": [
+                "The Getty Research Institute" 
+            ], 
+            "contributor": [ 
+            ], 
+            "date_created": "", 
+            "date_last_modified": "", 
+            "version": "", 
+            "location": [ 
+                { 
+                    "format": "turtle", 
+                    "location": "https://vocab.getty.edu/aat.ttl" 
+                } 
+            ], 
+            "documentation": [ 
+                "https://www.getty.edu/research/tools/vocabularies/aat/" 
+            ], 
+            "relation": [ 
+            ] 
+        } 
+    ] 
+}
