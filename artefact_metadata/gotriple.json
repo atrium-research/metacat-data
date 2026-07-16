@@ -24,14 +24,17 @@
             "location": [
                 {
                     "format": "html",
+                    "header": "Accept: text/html",
                     "location": "https://gotriple.eu/ontology/triple"
                 },
                 {
                     "format": "turtle",
+                    "header": "Accept: text/turtle",
                     "location": "https://gotriple.eu/ontology/triple"
                 },
                 {
                     "format": "rdfxml",
+                    "header": "Accept: application/rdf+xml",
                     "location": "https://gotriple.eu/ontology/triple"
                 }
             ],
@@ -61,14 +64,17 @@
             "location": [
                 {
                     "format": "html",
+                    "header": "Accept: text/html",
                     "location": "https://gotriple.eu/ontology/triple/License"
                 },
                 {
                     "format": "turtle",
+                    "header": "Accept: text/turtle",
                     "location": "https://gotriple.eu/ontology/triple/License"
                 },
                 {
                     "format": "rdfxml",
+                    "header": "Accept: application/rdf+xml",
                     "location": "https://gotriple.eu/ontology/triple/License"
                 }
             ],
@@ -100,14 +106,17 @@
             "location": [
                 {
                     "format": "html",
+                    "header": "Accept: text/html",
                     "location": "https://gotriple.eu/ontology/triple/AccessCondition"
                 },
                 {
                     "format": "turtle",
+                    "header": "Accept: text/turtle",
                     "location": "https://gotriple.eu/ontology/triple/AccessCondition"
                 },
                 {
                     "format": "rdfxml",
+                    "header": "Accept: application/rdf+xml",
                     "location": "https://gotriple.eu/ontology/triple/AccessCondition"
                 }
             ],
@@ -137,14 +146,17 @@
             "location": [
                 {
                     "format": "html",
+                    "header": "Accept: text/html",
                     "location": "https://gotriple.eu/ontology/triple/ContentType"
                 },
                 {
                     "format": "turtle",
+                    "header": "Accept: text/turtle",
                     "location": "https://gotriple.eu/ontology/triple/ContentType"
                 },
                 {
                     "format": "rdfxml",
+                    "header": "Accept: application/rdf+xml",
                     "location": "https://gotriple.eu/ontology/triple/ContentType"
                 }
             ],
@@ -174,14 +186,17 @@
             "location": [
                 {
                     "format": "html",
+                    "header": "Accept: text/html",
                     "location": "https://gotriple.eu/ontology/triple/Discipline"
                 },
                 {
                     "format": "turtle",
+                    "header": "Accept: text/turtle",
                     "location": "https://gotriple.eu/ontology/triple/Discipline"
                 },
                 {
                     "format": "rdfxml",
+                    "header": "Accept: application/rdf+xml",
                     "location": "https://gotriple.eu/ontology/triple/Discipline"
                 }
             ],
@@ -213,14 +228,17 @@
             "location": [
                 {
                     "format": "html",
+                    "header": "Accept: text/html",
                     "location": "https://gotriple.eu/ontology/triple/Document"
                 },
                 {
                     "format": "turtle",
+                    "header": "Accept: text/turtle",
                     "location": "https://gotriple.eu/ontology/triple/Document"
                 },
                 {
                     "format": "rdfxml",
+                    "header": "Accept: application/rdf+xml",
                     "location": "https://gotriple.eu/ontology/triple/Document"
                 }
             ],
@@ -252,14 +270,17 @@
             "location": [
                 {
                     "format": "html",
+                    "header": "Accept: text/html",
                     "location": "https://gotriple.eu/ontology/triple/Profile"
                 },
                 {
                     "format": "turtle",
+                    "header": "Accept: text/turtle",
                     "location": "https://gotriple.eu/ontology/triple/Profile"
                 },
                 {
                     "format": "rdfxml",
+                    "header": "Accept: application/rdf+xml",
                     "location": "https://gotriple.eu/ontology/triple/Profile"
                 }
             ],
@@ -291,14 +312,17 @@
             "location": [
                 {
                     "format": "html",
+                    "header": "Accept: text/html",
                     "location": "https://gotriple.eu/ontology/triple/Project"
                 },
                 {
                     "format": "turtle",
+                    "header": "Accept: text/turtle",
                     "location": "https://gotriple.eu/ontology/triple/Project"
                 },
                 {
                     "format": "rdfxml",
+                    "header": "Accept: application/rdf+xml",
                     "location": "https://gotriple.eu/ontology/triple/Project"
                 }
             ],
@@ -328,14 +352,17 @@
             "location": [
                 {
                     "format": "html",
+                    "header": "Accept: text/html",
                     "location": "https://gotriple.eu/ontology/triple/ProjectType"
                 },
                 {
                     "format": "turtle",
+                    "header": "Accept: text/turtle",
                     "location": "https://gotriple.eu/ontology/triple/ProjectType"
                 },
                 {
                     "format": "rdfxml",
+                    "header": "Accept: application/rdf+xml",
                     "location": "https://gotriple.eu/ontology/triple/ProjectType"
                 }
             ],
@@ -367,14 +394,17 @@
             "location": [
                 {
                     "format": "html",
+                    "header": "Accept: text/html",
                     "location": "https://gotriple.eu/ontology/triple/Dataset"
                 },
                 {
                     "format": "turtle",
+                    "header": "Accept: text/turtle",
                     "location": "https://gotriple.eu/ontology/triple/Dataset"
                 },
                 {
                     "format": "rdfxml",
+                    "header": "Accept: application/rdf+xml",
                     "location": "https://gotriple.eu/ontology/triple/Dataset"
                 }
             ],
@@ -406,14 +436,17 @@
             "location": [
                 {
                     "format": "html",
+                    "header": "Accept: text/html",
                     "location": "https://gotriple.eu/ontology/triple/MediaObject"
                 },
                 {
                     "format": "turtle",
+                    "header": "Accept: text/turtle",
                     "location": "https://gotriple.eu/ontology/triple/MediaObject"
                 },
                 {
                     "format": "rdfxml",
+                    "header": "Accept: application/rdf+xml",
                     "location": "https://gotriple.eu/ontology/triple/MediaObject"
                 }
             ],
@@ -443,14 +476,17 @@
             "location": [
                 {
                     "format": "html",
+                    "header": "Accept: text/html",
                     "location": "https://gotriple.eu/ontology/triple/SemanticArtefact"
                 },
                 {
                     "format": "turtle",
+                    "header": "Accept: text/turtle",
                     "location": "https://gotriple.eu/ontology/triple/SemanticArtefact"
                 },
                 {
                     "format": "rdfxml",
+                    "header": "Accept: application/rdf+xml",
                     "location": "https://gotriple.eu/ontology/triple/SemanticArtefact"
                 }
             ],
