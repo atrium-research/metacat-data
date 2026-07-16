@@ -1,0 +1,462 @@
+{
+    "semantic artefacts": [
+        {
+            "title": "TRIPLE Ontology",
+            "alternative_title": [
+                "TRIPLE Core Concept Ontology"
+            ],
+            "identifier": "https://gotriple.eu/ontology/triple",
+            "type": "ontology",
+            "catalogue": [
+                "GoTriple"
+            ],
+            "description": "The core ontology of the GoTriple platform, providing the shared conceptual model for describing Social Sciences and Humanities (SSH) research resources. It is organised into a set of modules and controlled vocabularies covering documents, datasets, media objects, projects, profiles, semantic artefacts, and the vocabularies for licenses, access conditions, content types, disciplines, and project types.",
+            "creator": [
+                "Alessandro Bertozzi"
+            ],
+            "contributor": [
+                "Luca De Santis",
+                "Silvio Peroni"
+            ],
+            "date_created": "",
+            "date_last_modified": "",
+            "version": "2.1.0",
+            "location": [
+                {
+                    "format": "html",
+                    "location": "https://gotriple.eu/ontology/triple"
+                },
+                {
+                    "format": "turtle",
+                    "location": "https://gotriple.eu/ontology/triple"
+                },
+                {
+                    "format": "rdfxml",
+                    "location": "https://gotriple.eu/ontology/triple"
+                }
+            ],
+            "documentation": [
+                "https://gotriple.eu/ontology/triple"
+            ]
+        },
+        {
+            "title": "License Vocabulary",
+            "alternative_title": [],
+            "identifier": "https://gotriple.eu/ontology/triple/License",
+            "type": "controlled vocabulary",
+            "catalogue": [
+                "GoTriple"
+            ],
+            "description": "A controlled vocabulary for rights and licenses concepts. It enumerates the standard licenses used to release resources/items in the TRIPLE platform, including Creative Commons licenses and other open or proprietary licenses.",
+            "creator": [
+                "Alessandro Bertozzi"
+            ],
+            "contributor": [
+                "Luca De Santis",
+                "Silvio Peroni"
+            ],
+            "date_created": "",
+            "date_last_modified": "",
+            "version": "2.1.0",
+            "location": [
+                {
+                    "format": "html",
+                    "location": "https://gotriple.eu/ontology/triple/License"
+                },
+                {
+                    "format": "turtle",
+                    "location": "https://gotriple.eu/ontology/triple/License"
+                },
+                {
+                    "format": "rdfxml",
+                    "location": "https://gotriple.eu/ontology/triple/License"
+                }
+            ],
+            "documentation": [
+                "https://gotriple.eu/ontology/triple/License"
+            ]
+        },
+        {
+            "title": "Access Condition Vocabulary",
+            "alternative_title": [
+                "Access Condition"
+            ],
+            "identifier": "https://gotriple.eu/ontology/triple/AccessCondition",
+            "type": "controlled vocabulary",
+            "catalogue": [
+                "GoTriple"
+            ],
+            "description": "A controlled vocabulary for specifying access conditions, aligned with COAR Access Rights where applicable. It defines the access rights associated with resources in the TRIPLE platform, such as Open Access, Restricted Access, or Closed Access, facilitating the filtering and identification of resource availability.",
+            "creator": [
+                "Alessandro Bertozzi"
+            ],
+            "contributor": [
+                "Luca De Santis",
+                "Silvio Peroni"
+            ],
+            "date_created": "",
+            "date_last_modified": "",
+            "version": "2.1.0",
+            "location": [
+                {
+                    "format": "html",
+                    "location": "https://gotriple.eu/ontology/triple/AccessCondition"
+                },
+                {
+                    "format": "turtle",
+                    "location": "https://gotriple.eu/ontology/triple/AccessCondition"
+                },
+                {
+                    "format": "rdfxml",
+                    "location": "https://gotriple.eu/ontology/triple/AccessCondition"
+                }
+            ],
+            "documentation": [
+                "https://gotriple.eu/ontology/triple/AccessCondition"
+            ]
+        },
+        {
+            "title": "Content Type Vocabulary",
+            "alternative_title": [],
+            "identifier": "https://gotriple.eu/ontology/triple/ContentType",
+            "type": "controlled vocabulary",
+            "catalogue": [
+                "GoTriple"
+            ],
+            "description": "A hierarchical controlled vocabulary for classifying the nature and genre of scholarly resources. It categorizes the different types of resources available in the TRIPLE platform, such as journal articles, datasets, images, and video, and includes mappings to the COAR Resource Type Vocabulary to ensure interoperability.",
+            "creator": [
+                "Alessandro Bertozzi"
+            ],
+            "contributor": [
+                "Luca De Santis",
+                "Silvio Peroni"
+            ],
+            "date_created": "",
+            "date_last_modified": "",
+            "version": "2.1.0",
+            "location": [
+                {
+                    "format": "html",
+                    "location": "https://gotriple.eu/ontology/triple/ContentType"
+                },
+                {
+                    "format": "turtle",
+                    "location": "https://gotriple.eu/ontology/triple/ContentType"
+                },
+                {
+                    "format": "rdfxml",
+                    "location": "https://gotriple.eu/ontology/triple/ContentType"
+                }
+            ],
+            "documentation": [
+                "https://gotriple.eu/ontology/triple/ContentType"
+            ]
+        },
+        {
+            "title": "Discipline Vocabulary",
+            "alternative_title": [],
+            "identifier": "https://gotriple.eu/ontology/triple/Discipline",
+            "type": "controlled vocabulary",
+            "catalogue": [
+                "GoTriple"
+            ],
+            "description": "A controlled vocabulary of academic disciplines, supporting multilingual discovery of resources within the TRIPLE platform.",
+            "creator": [
+                "Alessandro Bertozzi"
+            ],
+            "contributor": [
+                "Luca De Santis",
+                "Silvio Peroni"
+            ],
+            "date_created": "",
+            "date_last_modified": "",
+            "version": "2.1.0",
+            "location": [
+                {
+                    "format": "html",
+                    "location": "https://gotriple.eu/ontology/triple/Discipline"
+                },
+                {
+                    "format": "turtle",
+                    "location": "https://gotriple.eu/ontology/triple/Discipline"
+                },
+                {
+                    "format": "rdfxml",
+                    "location": "https://gotriple.eu/ontology/triple/Discipline"
+                }
+            ],
+            "documentation": [
+                "https://gotriple.eu/ontology/triple/Discipline"
+            ]
+        },
+        {
+            "title": "Document",
+            "alternative_title": [
+                "Document (Triple)"
+            ],
+            "identifier": "https://gotriple.eu/ontology/triple/Document",
+            "type": "ontology",
+            "catalogue": [
+                "GoTriple"
+            ],
+            "description": "The Document module of the TRIPLE Ontology, defining the core Document class and shared definitions. It represents scholarly publications and research outputs and acts as the central hub for shared definitions used across the ontology, including Identifiers (DataCite), Licenses, Disciplines, and common schema.org properties.",
+            "creator": [
+                "Alessandro Bertozzi"
+            ],
+            "contributor": [
+                "Luca De Santis",
+                "Silvio Peroni"
+            ],
+            "date_created": "",
+            "date_last_modified": "",
+            "version": "2.1.0",
+            "location": [
+                {
+                    "format": "html",
+                    "location": "https://gotriple.eu/ontology/triple/Document"
+                },
+                {
+                    "format": "turtle",
+                    "location": "https://gotriple.eu/ontology/triple/Document"
+                },
+                {
+                    "format": "rdfxml",
+                    "location": "https://gotriple.eu/ontology/triple/Document"
+                }
+            ],
+            "documentation": [
+                "https://gotriple.eu/ontology/triple/Document"
+            ]
+        },
+        {
+            "title": "Profile",
+            "alternative_title": [
+                "profile"
+            ],
+            "identifier": "https://gotriple.eu/ontology/triple/Profile",
+            "type": "ontology",
+            "catalogue": [
+                "GoTriple"
+            ],
+            "description": "The Profile module of the TRIPLE Ontology, defining Agents (People, Organizations) and Accounts. It models the actors within the GoTriple ecosystem, aligning profiles with foaf:Person and foaf:Organization, and manages user accounts and their association with profiles.",
+            "creator": [
+                "Alessandro Bertozzi"
+            ],
+            "contributor": [
+                "Luca De Santis",
+                "Silvio Peroni"
+            ],
+            "date_created": "",
+            "date_last_modified": "",
+            "version": "2.1.0",
+            "location": [
+                {
+                    "format": "html",
+                    "location": "https://gotriple.eu/ontology/triple/Profile"
+                },
+                {
+                    "format": "turtle",
+                    "location": "https://gotriple.eu/ontology/triple/Profile"
+                },
+                {
+                    "format": "rdfxml",
+                    "location": "https://gotriple.eu/ontology/triple/Profile"
+                }
+            ],
+            "documentation": [
+                "https://gotriple.eu/ontology/triple/Profile"
+            ]
+        },
+        {
+            "title": "Project",
+            "alternative_title": [
+                "Project (Triple)"
+            ],
+            "identifier": "https://gotriple.eu/ontology/triple/Project",
+            "type": "ontology",
+            "catalogue": [
+                "GoTriple"
+            ],
+            "description": "The Project module of the TRIPLE Ontology, defining Projects, Grants, and Funding. It describes research projects in the SSH domain and their funding structures, linking the triple:Project class to Grants, Funding sources, and Organizations, and includes the ProjectType classification.",
+            "creator": [
+                "Alessandro Bertozzi"
+            ],
+            "contributor": [
+                "Luca De Santis",
+                "Silvio Peroni"
+            ],
+            "date_created": "",
+            "date_last_modified": "",
+            "version": "2.1.0",
+            "location": [
+                {
+                    "format": "html",
+                    "location": "https://gotriple.eu/ontology/triple/Project"
+                },
+                {
+                    "format": "turtle",
+                    "location": "https://gotriple.eu/ontology/triple/Project"
+                },
+                {
+                    "format": "rdfxml",
+                    "location": "https://gotriple.eu/ontology/triple/Project"
+                }
+            ],
+            "documentation": [
+                "https://gotriple.eu/ontology/triple/Project"
+            ]
+        },
+        {
+            "title": "Project Type Vocabulary",
+            "alternative_title": [],
+            "identifier": "https://gotriple.eu/ontology/triple/ProjectType",
+            "type": "controlled vocabulary",
+            "catalogue": [
+                "GoTriple"
+            ],
+            "description": "A controlled vocabulary for classifying research projects. It defines the various categories of research projects included in the TRIPLE platform, distinguishing between different funding schemes and project structures.",
+            "creator": [
+                "Alessandro Bertozzi"
+            ],
+            "contributor": [
+                "Luca De Santis",
+                "Silvio Peroni"
+            ],
+            "date_created": "",
+            "date_last_modified": "",
+            "version": "2.1.0",
+            "location": [
+                {
+                    "format": "html",
+                    "location": "https://gotriple.eu/ontology/triple/ProjectType"
+                },
+                {
+                    "format": "turtle",
+                    "location": "https://gotriple.eu/ontology/triple/ProjectType"
+                },
+                {
+                    "format": "rdfxml",
+                    "location": "https://gotriple.eu/ontology/triple/ProjectType"
+                }
+            ],
+            "documentation": [
+                "https://gotriple.eu/ontology/triple/ProjectType"
+            ]
+        },
+        {
+            "title": "Dataset",
+            "alternative_title": [
+                "Dataset (Triple)"
+            ],
+            "identifier": "https://gotriple.eu/ontology/triple/Dataset",
+            "type": "ontology",
+            "catalogue": [
+                "GoTriple"
+            ],
+            "description": "The Dataset module of the TRIPLE Ontology, defining Datasets and Distributions aligned with DCAT. It specializes in representing research data, supporting the description of datasets, their distributions, temporal/spatial coverage, and access rights to facilitate the discovery and reuse of research data within the SSH domain.",
+            "creator": [
+                "Alessandro Bertozzi"
+            ],
+            "contributor": [
+                "Luca De Santis",
+                "Silvio Peroni"
+            ],
+            "date_created": "",
+            "date_last_modified": "",
+            "version": "2.1.0",
+            "location": [
+                {
+                    "format": "html",
+                    "location": "https://gotriple.eu/ontology/triple/Dataset"
+                },
+                {
+                    "format": "turtle",
+                    "location": "https://gotriple.eu/ontology/triple/Dataset"
+                },
+                {
+                    "format": "rdfxml",
+                    "location": "https://gotriple.eu/ontology/triple/Dataset"
+                }
+            ],
+            "documentation": [
+                "https://gotriple.eu/ontology/triple/Dataset"
+            ]
+        },
+        {
+            "title": "Media Object",
+            "alternative_title": [
+                "Media Object (Triple)"
+            ],
+            "identifier": "https://gotriple.eu/ontology/triple/MediaObject",
+            "type": "ontology",
+            "catalogue": [
+                "GoTriple"
+            ],
+            "description": "The Media Object module of the TRIPLE Ontology, defining Audio, Video, and Image resources. It manages multimedia resources within the platform, providing properties to describe their technical characteristics (duration, size, encoding format) and intellectual content, aligned with schema:MediaObject and fabio:Work.",
+            "creator": [
+                "Alessandro Bertozzi"
+            ],
+            "contributor": [
+                "Luca De Santis",
+                "Silvio Peroni"
+            ],
+            "date_created": "",
+            "date_last_modified": "",
+            "version": "2.1.0",
+            "location": [
+                {
+                    "format": "html",
+                    "location": "https://gotriple.eu/ontology/triple/MediaObject"
+                },
+                {
+                    "format": "turtle",
+                    "location": "https://gotriple.eu/ontology/triple/MediaObject"
+                },
+                {
+                    "format": "rdfxml",
+                    "location": "https://gotriple.eu/ontology/triple/MediaObject"
+                }
+            ],
+            "documentation": [
+                "https://gotriple.eu/ontology/triple/MediaObject"
+            ]
+        },
+        {
+            "title": "Semantic Artefact",
+            "alternative_title": [],
+            "identifier": "https://gotriple.eu/ontology/triple/SemanticArtefact",
+            "type": "ontology",
+            "catalogue": [
+                "GoTriple"
+            ],
+            "description": "The Semantic Artefact module of the TRIPLE Ontology, defining Ontologies, Vocabularies, and Thesauri. It describes the semantic assets used or indexed by the GoTriple platform and extends the MOD (Metadata for Ontology Description) ontology to provide rich metadata about these knowledge organization systems, including their versioning, format, and status.",
+            "creator": [
+                "Alessandro Bertozzi"
+            ],
+            "contributor": [
+                "Luca De Santis",
+                "Silvio Peroni"
+            ],
+            "date_created": "",
+            "date_last_modified": "",
+            "version": "2.1.0",
+            "location": [
+                {
+                    "format": "html",
+                    "location": "https://gotriple.eu/ontology/triple/SemanticArtefact"
+                },
+                {
+                    "format": "turtle",
+                    "location": "https://gotriple.eu/ontology/triple/SemanticArtefact"
+                },
+                {
+                    "format": "rdfxml",
+                    "location": "https://gotriple.eu/ontology/triple/SemanticArtefact"
+                }
+            ],
+            "documentation": [
+                "https://gotriple.eu/ontology/triple/SemanticArtefact"
+            ]
+        }
+    ]
+}
