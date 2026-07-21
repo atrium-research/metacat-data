@@ -108,7 +108,7 @@
             "description": ""
           },
           "size": {
-            "type": "array",
+            "type": "object",
             "items": {
               "type": "object",
               "properties": {
@@ -125,7 +125,21 @@
                 "count",
                 "unit"
               ]
-            }
+            },
+            "properties": {
+              "count": {
+                "type": "number",
+                "description": ""
+              },
+              "unit": {
+                "type": "string",
+                "description": ""
+              }
+            },
+            "required": [
+              "count",
+              "unit"
+            ]
           }
         },
         "required": [
