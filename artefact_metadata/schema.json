@@ -102,6 +102,30 @@
             "items": {
               "type": "string"
             }
+          },
+          "relation": {
+            "type": "array",
+            "description": ""
+          },
+          "size": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "count": {
+                  "type": "number",
+                  "description": ""
+                },
+                "unit": {
+                  "type": "string",
+                  "description": ""
+                }
+              },
+              "required": [
+                "count",
+                "unit"
+              ]
+            }
           }
         },
         "required": [
