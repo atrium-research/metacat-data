@@ -92,7 +92,10 @@
             "relation": [ 
                 "http://www.wikidata.org/entity/Q79719" 
             ], 
-            "size": 39 
+            "size": {
+                "count": 39,
+                "unit": "terms"
+            } 
         }, 
         { 
             "title": "Getty Art and Architecture Thesaurus", 
