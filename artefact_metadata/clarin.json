@@ -1,0 +1,112 @@
+{ 
+    "semantic artefacts": [ 
+        {
+            "title": "CMDI Components Controlled Vocabularies",
+            "identifier": "https://raw.githubusercontent.com/atrium-research/metacat-data/refs/heads/main/CLARIN/rdf/componentRegistry/compreg-vocabs.ttl", 
+            "type": "controlled vocabulary", 
+            "catalogue": [ 
+                "CLARIN VLO" 
+            ], 
+            "description": "All closed controlled vocabualaries defined in CMDI Components and profiles defined in the CLARIN Component Registry (https://catalog.clarin.eu/ds/ComponentRegistry)", 
+            "creator": [ 
+                "Twan Goosen"
+            ], 
+            "contributor": [ 
+                "Menzo Windhouwer"
+            ], 
+            "date_created": "2025-07-24", 
+            "date_last_modified": "2025-07-24", 
+            "version": "1.0.0", 
+            "location": [ 
+                { 
+                    "format": "turtle", 
+                    "location": "https://raw.githubusercontent.com/atrium-research/metacat-data/refs/heads/main/CLARIN/rdf/componentRegistry/compreg-vocabs.ttl" 
+                } 
+            ], 
+            "documentation": [ 
+                "https://github.com/atrium-research/metacat-data/blob/main/CLARIN/clarin_rdf.ipynb"
+            ] 
+        },
+        {
+            "title": "CLARIN Concept Registry",
+            "identifier": "https://github.com/atrium-research/metacat-data/raw/refs/heads/main/CLARIN/rdf/ccr/concepts.ttl", 
+            "type": "thesaurus", 
+            "catalogue": [ 
+                "CLARIN VLO" 
+            ], 
+            "description": "All concepts from the CLARIN Concept Registry", 
+            "creator": [ 
+                "Twan Goosen"
+            ], 
+            "contributor": [ 
+                "Menzo Windhouwer"
+            ], 
+            "date_created": "2025-07-23", 
+            "date_last_modified": "2025-07-23",
+            "version": "1.0.0", 
+            "location": [ 
+                { 
+                    "format": "turtle", 
+                    "location": "https://github.com/atrium-research/metacat-data/raw/refs/heads/main/CLARIN/rdf/ccr/concepts.ttl" 
+                } 
+            ], 
+            "documentation": [ 
+                "https://github.com/atrium-research/metacat-data/blob/main/CLARIN/clarin_rdf.ipynb"
+            ] 
+        },
+        {
+            "title": "VLO Facet Concept Mapping",
+            "identifier": "https://raw.githubusercontent.com/atrium-research/metacat-data/refs/heads/main/CLARIN/rdf/facets/facetConcepts.ttl", 
+            "type": "ontology", 
+            "catalogue": [ 
+                "CLARIN VLO" 
+            ], 
+            "description": "A mapping between the VLO facets and metadata concepts (used to annotate metadata fields in Component and Profile specifications, i.e. schemata)", 
+            "creator": [ 
+                "Twan Goosen"
+            ], 
+            "contributor": [ 
+                "Menzo Windhouwer"
+            ], 
+            "date_created": "", 
+            "date_last_modified": "", 
+            "version": "1.0.0", 
+            "location": [ 
+                { 
+                    "format": "turtle", 
+                    "location": "https://raw.githubusercontent.com/atrium-research/metacat-data/refs/heads/main/CLARIN/rdf/facets/facetConcepts.ttl" 
+                } 
+            ], 
+            "documentation": [ 
+                "https://github.com/atrium-research/metacat-data/blob/main/CLARIN/clarin_rdf.ipynb"
+            ] 
+        },
+        {
+            "title": "VLO Facet Values",
+            "identifier": "https://raw.githubusercontent.com/atrium-research/metacat-data/refs/heads/main/CLARIN/rdf/facets/facetValues.ttl", 
+            "type": "controlled vocabulary", 
+            "catalogue": [ 
+                "CLARIN VLO" 
+            ], 
+            "description": "A snapshot of all values of all VLO facets after mapping and postprocessing", 
+            "creator": [ 
+                "Twan Goosen"
+            ], 
+            "contributor": [ 
+                "Menzo Windhouwer"
+            ], 
+            "date_created": "", 
+            "date_last_modified": "", 
+            "version": "1.0.0", 
+            "location": [ 
+                { 
+                    "format": "turtle", 
+                    "location": "https://raw.githubusercontent.com/atrium-research/metacat-data/refs/heads/main/CLARIN/rdf/facets/facetValues.ttl"
+                } 
+            ], 
+            "documentation": [ 
+                "https://github.com/atrium-research/metacat-data/blob/main/CLARIN/clarin_rdf.ipynb"
+            ]
+        } 
+    ] 
+}
