@@ -11,10 +11,10 @@
             <Component name="GeneralInfo" ComponentRef="clarin.eu:cr1:c_1271859438123" CardinalityMin="1" CardinalityMax="1">
                 <Element name="Name" ConceptLink="http://hdl.handle.net/11459/CCR_C-2544_3626545e-a21d-058c-ebfd-241c0464e7e5" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                 <Element name="Title" ConceptLink="http://hdl.handle.net/11459/CCR_C-2545_d873f2ab-2a2f-29d6-a9ab-260cde57f227" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                <Element name="ID" ConceptLink="http://hdl.handle.net/11459/CCR_C-2573_ae7c2548-8a86-ab6e-7099-e28b7697d1a2" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
-                <Element name="Version" ConceptLink="http://hdl.handle.net/11459/CCR_C-2547_7883d382-b3ce-8ab4-7052-0138525a8ba1" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
-                <Element name="Owner" ConceptLink="http://hdl.handle.net/11459/CCR_C-2956_519a4aab-2f76-0fd3-090e-f0d6b81a7dbb" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
-                <Element name="PublicationYear" ConceptLink="http://hdl.handle.net/11459/CCR_C-2538_8b697452-7ef3-9fce-ccf9-a7f344f11317" ValueScheme="gYear" CardinalityMin="0" CardinalityMax="1"/>
+                <Element name="ID" ConceptLink="http://www.wikidata.org/entity/Q420330" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
+                <Element name="Version" ConceptLink="http://www.wikidata.org/entity/Q12343820" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
+                <Element name="Owner" ConceptLink="http://www.wikidata.org/entity/Q12794619" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
+                <Element name="PublicationYear" ConceptLink="http://www.wikidata.org/entity/P577" ValueScheme="gYear" CardinalityMin="0" CardinalityMax="1"/>
                 <Component name="TimeCoverage" ConceptLink="http://hdl.handle.net/11459/CCR_C-2502_747eb0cd-03e9-cffb-34cc-d0c8c77e4c5a" CardinalityMin="0" CardinalityMax="1">
                     <Element name="Description" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
                     <Element name="minDate" ValueScheme="date" CardinalityMin="0" CardinalityMax="1"/>
@@ -32,8 +32,8 @@
                 <Component name="Location" ComponentRef="clarin.eu:cr1:c_1271859438112" CardinalityMin="1" CardinalityMax="unbounded">
                     <Element name="Address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2528_1eaf4da1-64cc-71fc-1622-bb5bfd6e52c9" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
                     <Element name="Region" ConceptLink="http://hdl.handle.net/11459/CCR_C-2533_fa6e1812-e29b-3cf6-e15a-50aa34b9be68" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
-                    <Component name="Country" ComponentRef="clarin.eu:cr1:c_1271859438104" ConceptLink="http://hdl.handle.net/11459/CCR_C-2532_d004b0a6-fd1d-3ca3-abf1-1e6aeb3e37b2" CardinalityMin="0" CardinalityMax="1">
-                        <Element name="Code" ConceptLink="http://hdl.handle.net/11459/CCR_C-2532_d004b0a6-fd1d-3ca3-abf1-1e6aeb3e37b2" CardinalityMin="1" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                    <Component name="Country" ComponentRef="clarin.eu:cr1:c_1271859438104" ConceptLink="http://www.wikidata.org/entity/Q6256" CardinalityMin="0" CardinalityMax="1">
+                        <Element name="Code" ConceptLink="http://www.wikidata.org/entity/Q6256" CardinalityMin="1" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                             <ValueScheme>
                                 <Vocabulary>
                                     <enumeration>
@@ -288,8 +288,8 @@
                             </ValueScheme>
                         </Element>
                     </Component>
-                    <Component name="Continent" ComponentRef="clarin.eu:cr1:c_1271859438105" ConceptLink="http://hdl.handle.net/11459/CCR_C-2531_e0427265-2fc4-d23e-0a7c-a21981ec3734" CardinalityMin="0" CardinalityMax="1">
-                        <Element name="Code" ConceptLink="http://hdl.handle.net/11459/CCR_C-2531_e0427265-2fc4-d23e-0a7c-a21981ec3734" CardinalityMin="1" CardinalityMax="unbounded">
+                    <Component name="Continent" ComponentRef="clarin.eu:cr1:c_1271859438105" ConceptLink="http://www.wikidata.org/entity/Q5107" CardinalityMin="0" CardinalityMax="1">
+                        <Element name="Code" ConceptLink="http://www.wikidata.org/entity/Q5107" CardinalityMin="1" CardinalityMax="unbounded">
                             <ValueScheme>
                                 <Vocabulary>
                                     <enumeration>
@@ -311,8 +311,8 @@
                 <Element name="Name" ConceptLink="http://hdl.handle.net/11459/CCR_C-2536_13fc5f10-c14a-1f64-a669-32736f6d3ef5" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
                 <Element name="Title" ConceptLink="http://hdl.handle.net/11459/CCR_C-2537_fa206273-223a-f4fa-dde3-ba59b965701f" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
                 <Element name="ID" ConceptLink="http://hdl.handle.net/11459/CCR_C-2535_a4f0e587-455a-ef40-c129-9f605e4c8fad" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
-                <Element name="Funder" ConceptLink="http://hdl.handle.net/11459/CCR_C-2522_3bdc6af1-bf1b-3f5d-2938-62d99a1980ab" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
-                <Element name="Website" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                <Element name="Funder" ConceptLink="http://www.wikidata.org/entity/P8324" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
+                <Element name="Website" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
                 <Component name="Description" ComponentRef="clarin.eu:cr1:c_1271859438118" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" CardinalityMin="0" CardinalityMax="1">
                     <Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true">
                         <AttributeList>
@@ -321,12 +321,12 @@
                     </Element>
                 </Component>
                 <Component name="Contact" ComponentRef="clarin.eu:cr1:c_1271859438113" CardinalityMin="0" CardinalityMax="unbounded">
-                    <Element name="Person" ConceptLink="http://hdl.handle.net/11459/CCR_C-2978_0e9e4864-44c4-de22-66b1-9b38bca10836" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
+                    <Element name="Person" ConceptLink="http://www.wikidata.org/entity/Q10856962 " ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                     <Element name="Address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2505_b61e249b-ac68-b40a-0f21-03a4a26e16b4" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
-                    <Element name="Email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
-                    <Element name="Organisation" ConceptLink="http://hdl.handle.net/11459/CCR_C-2979_8030473e-bbcb-6b87-3fd2-90554429ec50" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
-                    <Element name="Telephone" ConceptLink="http://hdl.handle.net/11459/CCR_C-2461_76a92748-423e-46a0-cc7c-84a7d1c46794" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
-                    <Element name="Website" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                    <Element name="Email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
+                    <Element name="Organisation" ConceptLink="http://www.wikidata.org/entity/Q43229" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
+                    <Element name="Telephone" ConceptLink="http://www.wikidata.org/entity/Q214995 " ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
+                    <Element name="Website" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
                 </Component>
                 <Component name="Duration" ComponentRef="clarin.eu:cr1:c_1271859438116" CardinalityMin="0" CardinalityMax="1">
                     <Element name="StartYear" ConceptLink="http://hdl.handle.net/11459/CCR_C-2539_f831f74e-f8ca-4e29-bb02-eb6ca7ea3073" ValueScheme="string" CardinalityMin="0" CardinalityMax="1"/>
@@ -344,12 +344,12 @@
                 <Component name="Creator" ComponentRef="clarin.eu:cr1:c_1271859438129" CardinalityMin="1" CardinalityMax="unbounded">
                     <Element name="Role" ConceptLink="http://hdl.handle.net/11459/CCR_C-2513_f207a635-2563-5ded-907b-9dd4be99007c" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
                     <Component name="Contact" ComponentRef="clarin.eu:cr1:c_1271859438113" CardinalityMin="1" CardinalityMax="unbounded">
-                        <Element name="Person" ConceptLink="http://hdl.handle.net/11459/CCR_C-2978_0e9e4864-44c4-de22-66b1-9b38bca10836" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
+                        <Element name="Person" ConceptLink="http://www.wikidata.org/entity/Q10856962 " ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                         <Element name="Address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2505_b61e249b-ac68-b40a-0f21-03a4a26e16b4" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
-                        <Element name="Email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
-                        <Element name="Organisation" ConceptLink="http://hdl.handle.net/11459/CCR_C-2979_8030473e-bbcb-6b87-3fd2-90554429ec50" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
-                        <Element name="Telephone" ConceptLink="http://hdl.handle.net/11459/CCR_C-2461_76a92748-423e-46a0-cc7c-84a7d1c46794" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
-                        <Element name="Website" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                        <Element name="Email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
+                        <Element name="Organisation" ConceptLink="http://www.wikidata.org/entity/Q43229" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
+                        <Element name="Telephone" ConceptLink="http://www.wikidata.org/entity/Q214995 " ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
+                        <Element name="Website" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
                     </Component>
                 </Component>
             </Component>
@@ -362,9 +362,9 @@
                     </Element>
                 </Component>
                 <Component name="Language" ComponentRef="clarin.eu:cr1:c_1271859438111" CardinalityMin="1" CardinalityMax="unbounded">
-                    <Element name="LanguageName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2484_669684e7-cb9e-ea96-59cb-a25fe89b9b9d" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true"/>
+                    <Element name="LanguageName" ConceptLink="http://www.wikidata.org/entity/Q3109261" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true"/>
                     <Component name="ISO639" ComponentRef="clarin.eu:cr1:c_1271859438110" CardinalityMin="1" CardinalityMax="1">
-                        <Element name="iso-639-3-code" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                        <Element name="iso-639-3-code" ConceptLink="http://www.wikidata.org/entity/Q2092812" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                             <ValueScheme>
                                 <Vocabulary URI="http://hdl.handle.net/11459/CLAVAS_810f8d2a-6723-3ba6-2e57-41d6d3844816" ValueProperty="notation">
                                     <enumeration>
@@ -8056,18 +8056,18 @@
             </Component>
             <Component name="Access" ComponentRef="clarin.eu:cr1:c_1271859438124" CardinalityMin="0" CardinalityMax="1">
                 <Element name="Availability" ConceptLink="http://hdl.handle.net/11459/CCR_C-2453_1f0c3ea5-7966-ae11-d3c6-448424d4e6e8" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true"/>
-                <Element name="DistributionMedium" ConceptLink="http://hdl.handle.net/11459/CCR_C-2967_c96c9be1-3655-28c8-2b1c-0c499309c87a" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
+                <Element name="DistributionMedium" ConceptLink="http://www.wikidata.org/entity/Q81941037" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
                 <Element name="CatalogueLink" ConceptLink="http://hdl.handle.net/11459/CCR_C-2969_b04052d7-f726-ae8d-84f3-f9838e7bc296" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
                 <Component name="Contact" ComponentRef="clarin.eu:cr1:c_1271859438113" CardinalityMin="1" CardinalityMax="unbounded">
-                    <Element name="Person" ConceptLink="http://hdl.handle.net/11459/CCR_C-2978_0e9e4864-44c4-de22-66b1-9b38bca10836" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
+                    <Element name="Person" ConceptLink="http://www.wikidata.org/entity/Q10856962 " ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                     <Element name="Address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2505_b61e249b-ac68-b40a-0f21-03a4a26e16b4" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
-                    <Element name="Email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
-                    <Element name="Organisation" ConceptLink="http://hdl.handle.net/11459/CCR_C-2979_8030473e-bbcb-6b87-3fd2-90554429ec50" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
-                    <Element name="Telephone" ConceptLink="http://hdl.handle.net/11459/CCR_C-2461_76a92748-423e-46a0-cc7c-84a7d1c46794" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
-                    <Element name="Website" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                    <Element name="Email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
+                    <Element name="Organisation" ConceptLink="http://www.wikidata.org/entity/Q43229" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
+                    <Element name="Telephone" ConceptLink="http://www.wikidata.org/entity/Q214995 " ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
+                    <Element name="Website" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
                 </Component>
                 <Component name="Price" ComponentRef="clarin.eu:cr1:c_1271859438115" CardinalityMin="0" CardinalityMax="1">
-                    <Element name="Price" ConceptLink="http://hdl.handle.net/11459/CCR_C-2460_ac4dfb89-b5e1-d255-9327-58e771ee4065" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded"/>
+                    <Element name="Price" ConceptLink="http://www.wikidata.org/entity/Q160151 " ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded"/>
                 </Component>
             </Component>
             <Component name="CollectionType" ComponentRef="clarin.eu:cr1:c_1271859438142" CardinalityMin="0" CardinalityMax="1">
@@ -8079,17 +8079,17 @@
                                 <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2655_c21a8115-d6e7-982c-d5e8-3a278d6e653a">picture</item>
                                 <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2654_115c5ce8-7bdb-06b4-fe52-d6ebf2f80022">video</item>
                                 <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2653_06ff001f-7ed4-6399-7147-02170140dd64">audio</item>
-                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4365_df3e68a4-e3fd-5747-fc25-650a06543c81">experimentalData</item>
-                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4364_de3c0847-5661-f5cb-84e7-fae5dfd2fb2f">fieldworkMaterial</item>
-                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4363_3732d8f1-f063-6f14-8c50-ac15e52702c5">grammar</item>
-                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4360_b693329a-05ea-ebb3-02b1-896c95e39d32">lexicon</item>
+                                <item ConceptLink="http://www.wikidata.org/entity/Q5421151">experimentalData</item>
+                                <item ConceptLink="http://www.wikidata.org/entity/Q125888335">fieldworkMaterial</item>
+                                <item ConceptLink="http://www.wikidata.org/entity/Q8091">grammar</item>
+                                <item ConceptLink="http://www.wikidata.org/entity/Q8096">lexicon</item>
                                 <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4369_30ca2daa-b83c-bf24-9b56-eda3a2171ef8">resourceBundle</item>
                                 <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4366_fb510ba7-d745-3e3b-7876-303b76bb1a31">surveyData</item>
-                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-5047_d2e8681c-0b8a-97e2-396b-03651f234473">teachingMaterial</item>
-                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4367_c9696d87-7039-55d4-f661-2a96fac95f38">testData</item>
-                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4362_bbceebba-02fc-2417-5433-3402a33e350a">tool</item>
-                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4368_324c1065-aa9d-8321-51e0-f4d04022b51d">toolChain</item>
-                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2599_93805699-d3a2-ae19-5399-d0bba0e8fc24">other</item>
+                                <item ConceptLink="http://www.wikidata.org/entity/Q624216 ">teachingMaterial</item>
+                                <item ConceptLink="http://www.wikidata.org/entity/Q7705759">testData</item>
+                                <item ConceptLink="http://www.wikidata.org/entity/Q123691918 ">tool</item>
+                                <item ConceptLink="http://www.wikidata.org/entity/Q545406">toolChain</item>
+                                <item ConceptLink="http://www.wikidata.org/entity/Q55107540">other</item>
                             </enumeration>
                         </Vocabulary>
                     </ValueScheme>
@@ -8097,15 +8097,15 @@
             </Component>
         </Component>
         <Component name="Corpus" ComponentRef="clarin.eu:cr1:c_1271859438140" CardinalityMin="1" CardinalityMax="1">
-            <Element name="Topic" ConceptLink="http://hdl.handle.net/11459/CCR_C-2503_72bd598f-4abf-e122-ed93-f2adf1ab8785" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
+            <Element name="Topic" ConceptLink="http://www.wikidata.org/entity/Q26256810 " ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
             <Component name="Multilinguality" ComponentRef="clarin.eu:cr1:c_1271859438121" CardinalityMin="0" CardinalityMax="unbounded">
                 <Element name="Multilinguality" ConceptLink="http://hdl.handle.net/11459/CCR_C-2491_e2d90ef0-a2e9-c101-6d35-bf25fc29f901" CardinalityMin="1" CardinalityMax="1">
                     <ValueScheme>
                         <Vocabulary>
                             <enumeration>
-                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2980_46811e66-9ece-d829-0806-84c4ea76c1da">Monolingual</item>
-                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2981_9044e25f-19da-13f1-8b1f-24e50d0fce27">Bilingual</item>
-                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2982_0aa36b27-d005-731d-d580-0ddd1df895fa">Multilingual</item>
+                                <item ConceptLink="http://www.wikidata.org/entity/Q3287002">Monolingual</item>
+                                <item ConceptLink="http://www.wikidata.org/entity/Q10779529">Bilingual</item>
+                                <item ConceptLink="http://www.wikidata.org/entity/Q20923490">Multilingual</item>
                                 <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2592_6bf81885-106a-fbf0-40e0-9f0233fbd88c">Unspecified</item>
                             </enumeration>
                         </Vocabulary>
@@ -8118,34 +8118,34 @@
                         <ValueScheme>
                             <Vocabulary>
                                 <enumeration>
-                                    <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2591_f769d93b-c007-d2c9-aff2-99e9177e5764">Unknown</item>
+                                    <item ConceptLink="http://www.wikidata.org/entity/Q24238356">Unknown</item>
                                     <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2592_6bf81885-106a-fbf0-40e0-9f0233fbd88c">Unspecified</item>
-                                    <item ConceptLink="http://hdl.handle.net/11459/CCR_C-286_ce2a6f05-708a-0eb0-84b0-75ee2595cb27">Lemma</item>
+                                    <item ConceptLink="http://www.wikidata.org/entity/Q18514">Lemma</item>
                                     <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2948_cb610ddc-5f8c-55bd-3266-5e279f24604c">Word form</item>
-                                    <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2971_fff56172-59bd-da09-4140-765fa82b5494">Orthography</item>
-                                    <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2641_c5096a00-5b93-e31e-e19e-85c30f4ac509">Phonetics</item>
-                                    <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2642_2b31550c-0b09-795a-a7e7-1624ceab9f82">Phonology</item>
-                                    <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2638_811b5e3d-b6de-20dd-fb18-467a29a38a08">Morphology</item>
-                                    <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2972_04c0cb5f-a8ec-61fc-097e-f9a371701c8e">Morphosyntax</item>
-                                    <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2973_072180f1-e926-0a96-51ea-37a8491ebe44">Prosody</item>
-                                    <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2647_e2a23859-3e18-2710-4fa8-0f7d4fb5aea6">Syntax</item>
-                                    <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2645_25e31c3d-1067-b62a-43fa-cff1a78fe5ea">Semantics</item>
-                                    <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2643_21f644b7-876c-8fcb-3852-db34ca6d11cb">Pragmatics</item>
-                                    <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2650_938deb3f-1104-af39-e35e-ff3585e652a0">Typology</item>
-                                    <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2646_53b373e7-294b-39ce-3f8d-9b192c624e1e">Sociolinguistics</item>
-                                    <item ConceptLink="http://hdl.handle.net/11459/CCR_C-221_61a6af93-38ca-b93b-0344-d9351fef71eb">Etymology</item>
-                                    <item ConceptLink="http://hdl.handle.net/11459/CCR_C-233_9691d21c-51f7-9580-37a1-f58a808303dd">Frequency</item>
-                                    <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2974_67e63f73-1943-7a90-0f30-bab7aa74bc1a">Coreference relations</item>
+                                    <item ConceptLink="http://www.wikidata.org/entity/Q43091">Orthography</item>
+                                    <item ConceptLink="http://www.wikidata.org/entity/Q35395">Phonetics</item>
+                                    <item ConceptLink="http://www.wikidata.org/entity/Q40998">Phonology</item>
+                                    <item ConceptLink="http://www.wikidata.org/entity/Q38311">Morphology</item>
+                                    <item ConceptLink="http://www.wikidata.org/entity/Q1428721">Morphosyntax</item>
+                                    <item ConceptLink="http://www.wikidata.org/entity/Q10880526">Prosody</item>
+                                    <item ConceptLink="http://www.wikidata.org/entity/Q37437">Syntax</item>
+                                    <item ConceptLink="http://www.wikidata.org/entity/Q39645 ">Semantics</item>
+                                    <item ConceptLink="http://www.wikidata.org/entity/Q181839">Pragmatics</item>
+                                    <item ConceptLink="http://www.wikidata.org/entity/Q192625 ">Typology</item>
+                                    <item ConceptLink="http://www.wikidata.org/entity/Q160845">Sociolinguistics</item>
+                                    <item ConceptLink="http://www.wikidata.org/entity/Q131684213">Etymology</item>
+                                    <item ConceptLink="http://www.wikidata.org/entity/Q762856">Frequency</item>
+                                    <item ConceptLink="http://www.wikidata.org/entity/Q63087">Coreference relations</item>
                                     <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2996_a1d11a21-089b-1d2a-ca49-fc1d7fcb4d5b">Text structure encoding</item>
-                                    <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2976_6bb77196-9fdf-a6d7-7bd0-e64841d0ac2f">Speaker turn</item>
-                                    <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2503_72bd598f-4abf-e122-ed93-f2adf1ab8785">Topic</item>
+                                    <item ConceptLink="http://www.wikidata.org/entity/Q2313343">Speaker turn</item>
+                                    <item ConceptLink="http://www.wikidata.org/entity/Q26256810 ">Topic</item>
                                     <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2977_0bdfcd29-9b6b-06b5-f7f7-31e142fa438d">Gaze direction</item>
-                                    <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2994_c65bb7e8-0c91-f1f0-cc62-15891f2ba580">Gesture</item>
+                                    <item ConceptLink="http://www.wikidata.org/entity/Q371174">Gesture</item>
                                     <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2995_16fb768c-f99d-89b1-975b-967fdb2fbd9c">Non-speech events</item>
-                                    <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4404_3d84c2aa-76df-5716-8d32-9792dbf96f4f">Emotion</item>
-                                    <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4505_330f2753-67ff-1f18-bf52-ad7b91296353">Noise</item>
-                                    <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2970_4a808fbf-536c-1b94-c2d9-4abf3ddbf1be">Translation</item>
-                                    <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2599_93805699-d3a2-ae19-5399-d0bba0e8fc24">Other</item>
+                                    <item ConceptLink="http://www.wikidata.org/entity/Q41537118">Emotion</item>
+                                    <item ConceptLink="http://www.wikidata.org/entity/Q1371624">Noise</item>
+                                    <item ConceptLink="http://www.wikidata.org/entity/Q7553">Translation</item>
+                                    <item ConceptLink="http://www.wikidata.org/entity/Q55107540">Other</item>
                                 </enumeration>
                             </Vocabulary>
                         </ValueScheme>
@@ -8168,16 +8168,16 @@
             </Component>
             <Component name="Size" ComponentRef="clarin.eu:cr1:c_1271859438128" CardinalityMin="0" CardinalityMax="1">
                 <Component name="TotalSize" ComponentRef="clarin.eu:cr1:c_1271859438114" CardinalityMax="unbounded">
-                    <Element name="Number" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="decimal" CardinalityMin="1" CardinalityMax="1"/>
-                    <Element name="SizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true"/>
+                    <Element name="Number" ConceptLink="http://www.wikidata.org/entity/Q322481" ValueScheme="decimal" CardinalityMin="1" CardinalityMax="1"/>
+                    <Element name="SizeUnit" ConceptLink="http://www.wikidata.org/entity/P1880" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true"/>
                 </Component>
                 <Component name="SizePerLanguage" ComponentRef="clarin.eu:cr1:c_1271859438120" ConceptLink="http://hdl.handle.net/11459/CCR_C-2581_6f5c66bb-ee18-c98f-f61f-aa5e1d4a3d8c" CardinalityMin="0" CardinalityMax="unbounded">
-                    <Element name="Number" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="decimal" CardinalityMin="1" CardinalityMax="1"/>
-                    <Element name="SizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true"/>
+                    <Element name="Number" ConceptLink="http://www.wikidata.org/entity/Q322481" ValueScheme="decimal" CardinalityMin="1" CardinalityMax="1"/>
+                    <Element name="SizeUnit" ConceptLink="http://www.wikidata.org/entity/P1880" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true"/>
                     <Component name="Language" ComponentRef="clarin.eu:cr1:c_1271859438111" CardinalityMin="1" CardinalityMax="1">
-                        <Element name="LanguageName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2484_669684e7-cb9e-ea96-59cb-a25fe89b9b9d" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true"/>
+                        <Element name="LanguageName" ConceptLink="http://www.wikidata.org/entity/Q3109261" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true"/>
                         <Component name="ISO639" ComponentRef="clarin.eu:cr1:c_1271859438110" CardinalityMin="1" CardinalityMax="1">
-                            <Element name="iso-639-3-code" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Element name="iso-639-3-code" ConceptLink="http://www.wikidata.org/entity/Q2092812" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <ValueScheme>
                                     <Vocabulary URI="http://hdl.handle.net/11459/CLAVAS_810f8d2a-6723-3ba6-2e57-41d6d3844816" ValueProperty="notation">
                                         <enumeration>
@@ -15877,40 +15877,40 @@
                     </Element>
                 </Component>
                 <Component name="SubjectLanguage" ComponentRef="clarin.eu:cr1:c_1271859438126" CardinalityMin="1" CardinalityMax="unbounded">
-                    <Element name="Dominant" ConceptLink="http://hdl.handle.net/11459/CCR_C-2468_e4135e12-c272-171e-a8a2-48339228387b" CardinalityMin="0" CardinalityMax="1">
+                    <Element name="Dominant" ConceptLink="http://www.wikidata.org/entity/Q124156879" CardinalityMin="0" CardinalityMax="1">
                         <ValueScheme>
                             <Vocabulary>
                                 <enumeration>
-                                    <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2591_f769d93b-c007-d2c9-aff2-99e9177e5764">Unknown</item>
+                                    <item ConceptLink="http://www.wikidata.org/entity/Q24238356">Unknown</item>
                                     <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2592_6bf81885-106a-fbf0-40e0-9f0233fbd88c">Unspecified</item>
-                                    <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2952_4b03e9bb-4a9c-1a2a-2181-85928a4d37ab">true</item>
-                                    <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2953_b99fa79d-2311-9005-9e66-005d04a3f017">false</item>
+                                    <item ConceptLink="http://www.wikidata.org/entity/Q16751793">true</item>
+                                    <item ConceptLink="http://www.wikidata.org/entity/Q5432619">false</item>
                                 </enumeration>
                             </Vocabulary>
                         </ValueScheme>
                     </Element>
-                    <Element name="SourceLanguage" ConceptLink="http://hdl.handle.net/11459/CCR_C-2494_2451c60f-fd9f-6c36-02f6-ac5b8929f487" CardinalityMin="0" CardinalityMax="1">
+                    <Element name="SourceLanguage" ConceptLink="http://www.wikidata.org/entity/Q18379613" CardinalityMin="0" CardinalityMax="1">
                         <ValueScheme>
                             <Vocabulary>
                                 <enumeration>
-                                    <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2591_f769d93b-c007-d2c9-aff2-99e9177e5764">Unknown</item>
+                                    <item ConceptLink="http://www.wikidata.org/entity/Q24238356">Unknown</item>
                                     <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2592_6bf81885-106a-fbf0-40e0-9f0233fbd88c">Unspecified</item>
-                                    <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2952_4b03e9bb-4a9c-1a2a-2181-85928a4d37ab">true</item>
-                                    <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2953_b99fa79d-2311-9005-9e66-005d04a3f017">false</item>
-                                    <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2951_8aa24342-e75b-854e-f3e1-6dd2373ff8d8">N/A</item>
+                                    <item ConceptLink="http://www.wikidata.org/entity/Q16751793">true</item>
+                                    <item ConceptLink="http://www.wikidata.org/entity/Q5432619">false</item>
+                                    <item ConceptLink="http://www.wikidata.org/entity/Q929804 ">N/A</item>
                                 </enumeration>
                             </Vocabulary>
                         </ValueScheme>
                     </Element>
-                    <Element name="TargetLanguage" ConceptLink="http://hdl.handle.net/11459/CCR_C-2499_52993a80-0bcf-d671-22dc-903effdb98b7" CardinalityMin="0" CardinalityMax="1">
+                    <Element name="TargetLanguage" ConceptLink="http://www.wikidata.org/entity/Q18387998" CardinalityMin="0" CardinalityMax="1">
                         <ValueScheme>
                             <Vocabulary>
                                 <enumeration>
-                                    <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2591_f769d93b-c007-d2c9-aff2-99e9177e5764">Unknown</item>
+                                    <item ConceptLink="http://www.wikidata.org/entity/Q24238356">Unknown</item>
                                     <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2592_6bf81885-106a-fbf0-40e0-9f0233fbd88c">Unspecified</item>
-                                    <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2952_4b03e9bb-4a9c-1a2a-2181-85928a4d37ab">true</item>
-                                    <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2953_b99fa79d-2311-9005-9e66-005d04a3f017">false</item>
-                                    <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2951_8aa24342-e75b-854e-f3e1-6dd2373ff8d8">N/A</item>
+                                    <item ConceptLink="http://www.wikidata.org/entity/Q16751793">true</item>
+                                    <item ConceptLink="http://www.wikidata.org/entity/Q5432619">false</item>
+                                    <item ConceptLink="http://www.wikidata.org/entity/Q929804 ">N/A</item>
                                 </enumeration>
                             </Vocabulary>
                         </ValueScheme>
@@ -15923,9 +15923,9 @@
                         </Element>
                     </Component>
                     <Component name="Language" ComponentRef="clarin.eu:cr1:c_1271859438111" CardinalityMin="1" CardinalityMax="1">
-                        <Element name="LanguageName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2484_669684e7-cb9e-ea96-59cb-a25fe89b9b9d" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true"/>
+                        <Element name="LanguageName" ConceptLink="http://www.wikidata.org/entity/Q3109261" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true"/>
                         <Component name="ISO639" ComponentRef="clarin.eu:cr1:c_1271859438110" CardinalityMin="1" CardinalityMax="1">
-                            <Element name="iso-639-3-code" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Element name="iso-639-3-code" ConceptLink="http://www.wikidata.org/entity/Q2092812" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <ValueScheme>
                                     <Vocabulary URI="http://hdl.handle.net/11459/CLAVAS_810f8d2a-6723-3ba6-2e57-41d6d3844816" ValueProperty="notation">
                                         <enumeration>
@@ -23617,16 +23617,16 @@
                 </Component>
             </Component>
             <Component name="Modality" ComponentRef="clarin.eu:cr1:c_1271859438127" CardinalityMin="0" CardinalityMax="1">
-                <Element name="Modality" ConceptLink="http://hdl.handle.net/11459/CCR_C-2490_44bc38a3-1799-4149-c791-40ac0176f0ff" CardinalityMin="1" CardinalityMax="unbounded">
+                <Element name="Modality" ConceptLink="http://www.wikidata.org/entity/Q1243600" CardinalityMin="1" CardinalityMax="unbounded">
                     <ValueScheme>
                         <Vocabulary>
                             <enumeration>
-                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2591_f769d93b-c007-d2c9-aff2-99e9177e5764">Unknown</item>
+                                <item ConceptLink="http://www.wikidata.org/entity/Q24238356">Unknown</item>
                                 <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2592_6bf81885-106a-fbf0-40e0-9f0233fbd88c">Unspecified</item>
                                 <item>Spoken</item>
                                 <item>Written</item>
                                 <item>Music notation</item>
-                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2994_c65bb7e8-0c91-f1f0-cc62-15891f2ba580">Gestures</item>
+                                <item ConceptLink="http://www.wikidata.org/entity/Q371174">Gestures</item>
                                 <item>Pointing-gestures</item>
                                 <item>Signs</item>
                                 <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2977_0bdfcd29-9b6b-06b5-f7f7-31e142fa438d">Eye-gaze</item>
@@ -23634,8 +23634,8 @@
                                 <item>Emotional-state</item>
                                 <item>Haptic</item>
                                 <item>Song</item>
-                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2611_793f560e-dd43-88d0-1161-ae1c871bbb22">Instrumental music</item>
-                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2599_93805699-d3a2-ae19-5399-d0bba0e8fc24">Other</item>
+                                <item ConceptLink="http://www.wikidata.org/entity/Q639197">Instrumental music</item>
+                                <item ConceptLink="http://www.wikidata.org/entity/Q55107540">Other</item>
                             </enumeration>
                         </Vocabulary>
                     </ValueScheme>
@@ -23656,11 +23656,11 @@
             </Component>
         </Component>
         <Component name="TextCorpus" ComponentRef="clarin.eu:cr1:c_1271859438145" CardinalityMin="1" CardinalityMax="1">
-            <Element name="SourceType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2990_12f55eed-cacf-5ec3-c929-ce2493956713" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
+            <Element name="SourceType" ConceptLink="http://www.wikidata.org/entity/Q112234259" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
             <Component name="TextTechnical" ComponentRef="clarin.eu:cr1:c_1271859438141" CardinalityMin="0" CardinalityMax="1">
-                <Element name="CharacterEncoding" ConceptLink="http://hdl.handle.net/11459/CCR_C-2564_880b1108-6b03-647f-eed9-cdfbd464c661" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
+                <Element name="CharacterEncoding" ConceptLink="http://www.wikidata.org/entity/Q184759" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                 <Component name="MimeType" ComponentRef="clarin.eu:cr1:c_1271859438106" CardinalityMin="0" CardinalityMax="unbounded">
-                    <Element name="MimeType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" CardinalityMin="1" CardinalityMax="unbounded">
+                    <Element name="MimeType" ConceptLink="http://www.wikidata.org/entity/Q1667978" CardinalityMin="1" CardinalityMax="unbounded">
                         <ValueScheme>
                             <Vocabulary>
                                 <enumeration>

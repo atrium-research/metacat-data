@@ -16,7 +16,7 @@
                 </Vocabulary>
             </ValueScheme>
         </Element>
-        <Element name="language" ConceptLink="http://hdl.handle.net/11459/CCR_C-2484_669684e7-cb9e-ea96-59cb-a25fe89b9b9d" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+        <Element name="language" ConceptLink="http://www.wikidata.org/entity/Q3109261" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
             <AttributeList>
                 <Attribute name="languageID">
                     <ValueScheme>
@@ -40,7 +40,7 @@
                 </Vocabulary>
             </ValueScheme>
         </Element>
-        <Element name="size" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+        <Element name="size" ConceptLink="http://www.wikidata.org/entity/Q322481" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
             <AttributeList>
                 <Attribute name="sizeUnit" ValueScheme="string"/>
             </AttributeList>
@@ -55,8 +55,8 @@
                 </Vocabulary>
             </ValueScheme>
         </Element>
-        <Element name="domain" ConceptLink="http://hdl.handle.net/11459/CCR_C-2467_f4e7331f-b930-fc42-eeea-05e383cfaa78" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
-        <Element name="annotationFormat" ConceptLink="http://hdl.handle.net/11459/CCR_C-2562_872eb94a-47fb-b551-2f64-13ded063259e" ValueScheme="string" CardinalityMin="1" CardinalityMax="1"/>
+        <Element name="domain" ConceptLink="http://www.wikidata.org/entity/Q5289798" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
+        <Element name="annotationFormat" ConceptLink="http://www.wikidata.org/entity/Q57780370" ValueScheme="string" CardinalityMin="1" CardinalityMax="1"/>
         <Element name="informationContained" CardinalityMin="0" CardinalityMax="unbounded">
             <ValueScheme>
                 <Vocabulary>
@@ -85,12 +85,12 @@
         </Element>
         <Component name="BamdesCommonFields" ComponentRef="clarin.eu:cr1:c_1288172614011" CardinalityMin="1" CardinalityMax="1">
             <Element name="resourceTitle" ConceptLink="http://hdl.handle.net/11459/CCR_C-2545_d873f2ab-2a2f-29d6-a9ab-260cde57f227" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="5" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-            <Element name="persistentIdentifier" ConceptLink="http://hdl.handle.net/11459/CCR_C-2573_ae7c2548-8a86-ab6e-7099-e28b7697d1a2" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
+            <Element name="persistentIdentifier" ConceptLink="http://www.wikidata.org/entity/Q420330" ValueScheme="string" CardinalityMin="0" CardinalityMax="1">
                 <Documentation>Specification of a persistent identifier that refers to the resource or tool/service this metadata information describes</Documentation>
             </Element>
             <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="1"/>
-            <Element name="organization" ConceptLink="http://hdl.handle.net/11459/CCR_C-2459_fc4e74d6-84de-c8cd-1ae8-2c2be5ee90b1" ValueScheme="string" CardinalityMin="1" CardinalityMax="1"/>
-            <Element name="contactEmail" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="1" CardinalityMax="1"/>
+            <Element name="organization" ConceptLink="http://www.wikidata.org/entity/Q43229" ValueScheme="string" CardinalityMin="1" CardinalityMax="1"/>
+            <Element name="contactEmail" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="1" CardinalityMax="1"/>
         </Component>
     </Component>
 </ComponentSpec>

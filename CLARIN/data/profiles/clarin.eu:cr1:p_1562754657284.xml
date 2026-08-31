@@ -18,7 +18,7 @@
             <Documentation>File description. "Contains a full bibliographic description of an electronic file." https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-fileDesc.html</Documentation>
             <Component name="titleStmt" CardinalityMin="1" CardinalityMax="1">
                 <Documentation>Title statement. "Groups information about the title of a work and those responsible for its content." https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-titleStmt.html</Documentation>
-                <Element name="title" ConceptLink="http://hdl.handle.net/11459/CCR_C-6119_ea4226b5-8d55-e71e-730f-2a02e3adbeb4" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                <Element name="title" ConceptLink="http://www.wikidata.org/entity/Q783521" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                     <AttributeList>
                         <Attribute name="type" ValueScheme="string"/>
                         <Attribute name="level" ValueScheme="string"/>
@@ -35,7 +35,7 @@
                 </Element>
                 <Element name="pubPlace" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                 <Component name="publisher" CardinalityMin="1" CardinalityMax="1">
-                    <Element name="orgName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2979_8030473e-bbcb-6b87-3fd2-90554429ec50" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                    <Element name="orgName" ConceptLink="http://www.wikidata.org/entity/Q43229" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                         <AttributeList>
                             <Attribute name="ref" ValueScheme="string"/>
                             <Attribute name="corresp" ValueScheme="string"/>
@@ -43,7 +43,7 @@
                     </Element>
                 </Component>
                 <Component name="authority" CardinalityMin="1" CardinalityMax="1">
-                    <Element name="orgName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2979_8030473e-bbcb-6b87-3fd2-90554429ec50" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                    <Element name="orgName" ConceptLink="http://www.wikidata.org/entity/Q43229" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                         <AttributeList>
                             <Attribute name="ref" ValueScheme="string"/>
                             <Attribute name="corresp" ValueScheme="string"/>
@@ -60,12 +60,12 @@
             </Component>
             <Component name="sourceDesc" CardinalityMin="0" CardinalityMax="1">
                 <Documentation>Source description. "Describes the source from which an electronic text was derived or generated, [...]" http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-sourceDesc.html</Documentation>
-                <Element name="bibl" ConceptLink="http://hdl.handle.net/11459/CCR_C-6137_4cd6c000-df42-abd8-49b3-ecd8d9d3546a" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                <Element name="bibl" ConceptLink="http://www.wikidata.org/entity/Q59156842" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
             </Component>
         </Component>
         <Component name="profileDesc" CardinalityMin="1" CardinalityMax="1">
             <Component name="langUsage" ComponentRef="clarin.eu:cr1:c_1375880373021" ConceptLink="http://hdl.handle.net/11459/CCR_C-5361_ba085ec1-9746-52bf-8cc1-3c300ce16eb8" CardinalityMin="1" CardinalityMax="1">
-                <Element name="language" ConceptLink="http://hdl.handle.net/11459/CCR_C-5358_3cd089fe-ad03-6181-b20c-635ea41ed818" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                <Element name="language" ConceptLink="http://www.wikidata.org/entity/Q34770" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                     <AttributeList>
                         <Attribute name="ident" ConceptLink="http://hdl.handle.net/11459/CCR_C-6193_096cfc32-04ce-c4d1-5ed4-5e92db53aa70" ValueScheme="string"/>
                     </AttributeList>

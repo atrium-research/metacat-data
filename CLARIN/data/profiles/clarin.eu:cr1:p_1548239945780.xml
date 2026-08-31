@@ -16,7 +16,7 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                     <Vocabulary>
                         <enumeration>
                             <item ConceptLink="" AppInfo="for individual information objects of any medium">singleObject</item>
-                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4361_ce00d14d-d3bb-5ec0-5d9d-46fa6f47b9fe" AppInfo="for text, speech, image, video, multimodal/multimedia corpora, corpora with sensorimotor (numerical) information, n-gram resources. Raw or annotated content, e.g. treebanks">corpus</item>
+                            <item ConceptLink="http://www.wikidata.org/entity/Q461183" AppInfo="for text, speech, image, video, multimodal/multimedia corpora, corpora with sensorimotor (numerical) information, n-gram resources. Raw or annotated content, e.g. treebanks">corpus</item>
                             <item ConceptLink="" AppInfo="includes lexica, ontologies, dictionaries, word lists etc.">lexicalConceptualResource</item>
                             <item ConceptLink="" AppInfo="used for tools, systems, system components etc.">toolService</item>
                             <item ConceptLink="" AppInfo="covers grammars etc.">languageDescription</item>
@@ -43,7 +43,7 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                         <pattern>(http://|https://|ftp://|www.).*</pattern>
                     </ValueScheme>
                 </Element>
-                <Element name="PID" ConceptLink="http://hdl.handle.net/11459/CCR_C-2573_ae7c2548-8a86-ab6e-7099-e28b7697d1a2" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                <Element name="PID" ConceptLink="http://www.wikidata.org/entity/Q420330" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                     <Documentation>A globally unique, persistent identifier for the resource</Documentation>
                     <AttributeList>
                         <Attribute name="description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string"/>
@@ -80,7 +80,7 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                             </Vocabulary>
                         </ValueScheme>
                     </Element>
-                    <Element name="distributionAccessMedium" ConceptLink="http://hdl.handle.net/11459/CCR_C-2458_6d94aa4b-09f5-bd3e-0c00-23a457840463" CardinalityMin="0" CardinalityMax="unbounded">
+                    <Element name="distributionAccessMedium" ConceptLink="http://www.wikidata.org/entity/Q340169" CardinalityMin="0" CardinalityMax="unbounded">
                         <Documentation>Specifies the medium (channel) used for delivery or providing access to the resource</Documentation>
                         <ValueScheme>
                             <Vocabulary>
@@ -116,13 +116,13 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                             <pattern>(http://|https://|ftp://|www.).*</pattern>
                         </ValueScheme>
                     </Element>
-                    <Element name="fee" ConceptLink="http://hdl.handle.net/11459/CCR_C-2460_ac4dfb89-b5e1-d255-9327-58e771ee4065" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                    <Element name="fee" ConceptLink="http://www.wikidata.org/entity/Q160151 " ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                         <Documentation>Specifies the costs that are required to access the resource, a fragment of the resource or to use a tool or service</Documentation>
                     </Element>
                     <Element name="attributionText" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
                         <Documentation>The text that must be quoted for attribution purposes when using a resource - for cases where a resource is provided with a restriction on attribution</Documentation>
                     </Element>
-                    <Component name="licence" ComponentRef="clarin.eu:cr1:c_1447674760330" ConceptLink="http://hdl.handle.net/11459/CCR_C-2457_45bbaa1a-7002-2ecd-ab9d-57a189f694a6" CardinalityMin="1" CardinalityMax="1">
+                    <Component name="licence" ComponentRef="clarin.eu:cr1:c_1447674760330" ConceptLink="http://www.wikidata.org/entity/Q79719" CardinalityMin="1" CardinalityMax="1">
                         <Element name="licenceFamily" ConceptLink="http://hdl.handle.net/11459/CCR_C-6585_c03760c8-5c32-a096-9dd9-1636ec39324b" CardinalityMin="1" CardinalityMax="1">
                             <ValueScheme>
                                 <Vocabulary>
@@ -311,10 +311,10 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                                 <Documentation>The role or function an actor has within the context indicated by the parent component of actorInfo (e.g. contact, creator, validator, etc). Example: A resource may be assigned multiple contacts, each with their separate roles/functions, e.g. one for answering technical questions and another for any other issues.</Documentation>
                             </Element>
                             <Component name="personInfo" ComponentRef="clarin.eu:cr1:c_1396012485192" CardinalityMin="0" CardinalityMax="1">
-                                <Element name="surname" ConceptLink="http://hdl.handle.net/11459/CCR_C-5521_8f30e11f-1bff-420e-511b-2b5893bdc37c" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Element name="surname" ConceptLink="http://www.wikidata.org/entity/Q101352" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>The surname (family name) of a person related to the resource</Documentation>
                                 </Element>
-                                <Element name="givenName" ConceptLink="http://hdl.handle.net/11459/CCR_C-5520_d7d87a12-7b39-0364-795b-69347ede7de7" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                <Element name="givenName" ConceptLink="http://www.wikidata.org/entity/Q202444" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
                                     <Documentation>The given name (first name) of a person related to the resource; initials can also be used</Documentation>
                                 </Element>
                                 <Element name="sex" ConceptLink="http://hdl.handle.net/11459/CCR_C-2560_ebb466e1-2b6b-6701-4e64-94618b4b455b" CardinalityMin="0" CardinalityMax="1">
@@ -322,17 +322,17 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                                     <ValueScheme>
                                         <Vocabulary>
                                             <enumeration>
-                                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2949_10ed5b3b-2e62-a962-dac3-300f3df5441a" AppInfo="">male</item>
-                                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2950_38f5b23e-097e-2ceb-e5f7-b16756638b89" AppInfo="">female</item>
-                                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2591_f769d93b-c007-d2c9-aff2-99e9177e5764" AppInfo="">unknown</item>
+                                                <item ConceptLink="http://www.wikidata.org/entity/Q6581097" AppInfo="">male</item>
+                                                <item ConceptLink="http://www.wikidata.org/entity/Q6581072" AppInfo="">female</item>
+                                                <item ConceptLink="http://www.wikidata.org/entity/Q24238356" AppInfo="">unknown</item>
                                             </enumeration>
                                         </Vocabulary>
                                     </ValueScheme>
                                 </Element>
-                                <Element name="birthYear" ConceptLink="http://hdl.handle.net/11459/CCR_C-5484_e9a0c522-add0-381d-1bc8-93431c3bde19" ValueScheme="gYear" CardinalityMin="0" CardinalityMax="1">
+                                <Element name="birthYear" ConceptLink="http://www.wikidata.org/entity/Q2389905 " ValueScheme="gYear" CardinalityMin="0" CardinalityMax="1">
                                     <Documentation>The year something or someone was born</Documentation>
                                 </Element>
-                                <Element name="deathYear" ConceptLink="http://hdl.handle.net/11459/CCR_C-6794_bdba0a83-f392-b7b5-8a82-e88cca0ca87d" ValueScheme="gYear" CardinalityMin="0" CardinalityMax="1">
+                                <Element name="deathYear" ConceptLink="http://www.wikidata.org/entity/Q21160456" ValueScheme="gYear" CardinalityMin="0" CardinalityMax="1">
                                     <Documentation>The year something or someone died.</Documentation>
                                 </Element>
                                 <Element name="position" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
@@ -340,7 +340,7 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                                 </Element>
                                 <Component name="affiliation" CardinalityMin="0" CardinalityMax="unbounded">
                                     <Component name="organizationInfo" ComponentRef="clarin.eu:cr1:c_1407745711883" CardinalityMin="1" CardinalityMax="1">
-                                        <Element name="organizationName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2459_fc4e74d6-84de-c8cd-1ae8-2c2be5ee90b1" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                        <Element name="organizationName" ConceptLink="http://www.wikidata.org/entity/Q43229" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                             <Documentation>The full name of an organization</Documentation>
                                         </Element>
                                         <Element name="organizationShortName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
@@ -353,7 +353,7 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                                 </Component>
                             </Component>
                             <Component name="organizationInfo" ComponentRef="clarin.eu:cr1:c_1407745711883" CardinalityMin="0" CardinalityMax="1">
-                                <Element name="organizationName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2459_fc4e74d6-84de-c8cd-1ae8-2c2be5ee90b1" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Element name="organizationName" ConceptLink="http://www.wikidata.org/entity/Q43229" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>The full name of an organization</Documentation>
                                 </Element>
                                 <Element name="organizationShortName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
@@ -364,7 +364,7 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                                 </Element>
                             </Component>
                             <Component name="communicationInfo" ComponentRef="clarin.eu:cr1:c_1352813745460" CardinalityMin="0" CardinalityMax="1">
-                                <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" CardinalityMin="1" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" CardinalityMin="1" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>The email address of a person or an organization</Documentation>
                                     <ValueScheme>
                                         <pattern>[^@]+@[^\.]+\..+|</pattern>
@@ -382,19 +382,19 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                                 <Element name="zipCode" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                     <Documentation>The zip code of the postal address of a person or organization</Documentation>
                                 </Element>
-                                <Element name="city" ConceptLink="http://hdl.handle.net/11459/CCR_C-5580_03e458f2-f873-8645-76eb-40e001b6c1ac" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                <Element name="city" ConceptLink="http://www.wikidata.org/entity/Q7884789" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                     <Documentation>The name of the city, town or village as mentioned in the postal address of a person or organization</Documentation>
                                 </Element>
                                 <Element name="region" ConceptLink="http://hdl.handle.net/11459/CCR_C-3814_dce1ba90-46f9-3b4a-d1ce-b37173126473" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                     <Documentation>The name of the region, county or department as mentioned in the postal address of a person or organization</Documentation>
                                 </Element>
-                                <Element name="country" ConceptLink="http://hdl.handle.net/11459/CCR_C-3792_68c770a4-d58c-46dd-d429-5609ce5f81c3" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                <Element name="country" ConceptLink="http://www.wikidata.org/entity/Q11420631" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                     <Documentation>The name of the country mentioned in the postal address of a person or organization as defined in the list of values of ISO 3166</Documentation>
                                 </Element>
-                                <Element name="telephoneNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2461_76a92748-423e-46a0-cc7c-84a7d1c46794" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                                <Element name="telephoneNumber" ConceptLink="http://www.wikidata.org/entity/Q214995 " ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
                                     <Documentation>The telephone number of a person or an organization; recommended format: +_international code_city code_number</Documentation>
                                 </Element>
-                                <Element name="faxNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2455_56998f5b-47bc-3d58-3bf6-13d18d2b0045" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                                <Element name="faxNumber" ConceptLink="http://www.wikidata.org/entity/Q125183827" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
                                     <Documentation>The fax number of a person or an organization; recommended format: +_international code_city code_number</Documentation>
                                 </Element>
                             </Component>
@@ -417,10 +417,10 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                                 <Documentation>The role or function an actor has within the context indicated by the parent component of actorInfo (e.g. contact, creator, validator, etc). Example: A resource may be assigned multiple contacts, each with their separate roles/functions, e.g. one for answering technical questions and another for any other issues.</Documentation>
                             </Element>
                             <Component name="personInfo" ComponentRef="clarin.eu:cr1:c_1396012485192" CardinalityMin="0" CardinalityMax="1">
-                                <Element name="surname" ConceptLink="http://hdl.handle.net/11459/CCR_C-5521_8f30e11f-1bff-420e-511b-2b5893bdc37c" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Element name="surname" ConceptLink="http://www.wikidata.org/entity/Q101352" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>The surname (family name) of a person related to the resource</Documentation>
                                 </Element>
-                                <Element name="givenName" ConceptLink="http://hdl.handle.net/11459/CCR_C-5520_d7d87a12-7b39-0364-795b-69347ede7de7" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                <Element name="givenName" ConceptLink="http://www.wikidata.org/entity/Q202444" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
                                     <Documentation>The given name (first name) of a person related to the resource; initials can also be used</Documentation>
                                 </Element>
                                 <Element name="sex" ConceptLink="http://hdl.handle.net/11459/CCR_C-2560_ebb466e1-2b6b-6701-4e64-94618b4b455b" CardinalityMin="0" CardinalityMax="1">
@@ -428,17 +428,17 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                                     <ValueScheme>
                                         <Vocabulary>
                                             <enumeration>
-                                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2949_10ed5b3b-2e62-a962-dac3-300f3df5441a" AppInfo="">male</item>
-                                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2950_38f5b23e-097e-2ceb-e5f7-b16756638b89" AppInfo="">female</item>
-                                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2591_f769d93b-c007-d2c9-aff2-99e9177e5764" AppInfo="">unknown</item>
+                                                <item ConceptLink="http://www.wikidata.org/entity/Q6581097" AppInfo="">male</item>
+                                                <item ConceptLink="http://www.wikidata.org/entity/Q6581072" AppInfo="">female</item>
+                                                <item ConceptLink="http://www.wikidata.org/entity/Q24238356" AppInfo="">unknown</item>
                                             </enumeration>
                                         </Vocabulary>
                                     </ValueScheme>
                                 </Element>
-                                <Element name="birthYear" ConceptLink="http://hdl.handle.net/11459/CCR_C-5484_e9a0c522-add0-381d-1bc8-93431c3bde19" ValueScheme="gYear" CardinalityMin="0" CardinalityMax="1">
+                                <Element name="birthYear" ConceptLink="http://www.wikidata.org/entity/Q2389905 " ValueScheme="gYear" CardinalityMin="0" CardinalityMax="1">
                                     <Documentation>The year something or someone was born</Documentation>
                                 </Element>
-                                <Element name="deathYear" ConceptLink="http://hdl.handle.net/11459/CCR_C-6794_bdba0a83-f392-b7b5-8a82-e88cca0ca87d" ValueScheme="gYear" CardinalityMin="0" CardinalityMax="1">
+                                <Element name="deathYear" ConceptLink="http://www.wikidata.org/entity/Q21160456" ValueScheme="gYear" CardinalityMin="0" CardinalityMax="1">
                                     <Documentation>The year something or someone died.</Documentation>
                                 </Element>
                                 <Element name="position" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
@@ -446,7 +446,7 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                                 </Element>
                                 <Component name="affiliation" CardinalityMin="0" CardinalityMax="unbounded">
                                     <Component name="organizationInfo" ComponentRef="clarin.eu:cr1:c_1407745711883" CardinalityMin="1" CardinalityMax="1">
-                                        <Element name="organizationName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2459_fc4e74d6-84de-c8cd-1ae8-2c2be5ee90b1" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                        <Element name="organizationName" ConceptLink="http://www.wikidata.org/entity/Q43229" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                             <Documentation>The full name of an organization</Documentation>
                                         </Element>
                                         <Element name="organizationShortName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
@@ -459,7 +459,7 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                                 </Component>
                             </Component>
                             <Component name="organizationInfo" ComponentRef="clarin.eu:cr1:c_1407745711883" CardinalityMin="0" CardinalityMax="1">
-                                <Element name="organizationName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2459_fc4e74d6-84de-c8cd-1ae8-2c2be5ee90b1" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Element name="organizationName" ConceptLink="http://www.wikidata.org/entity/Q43229" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>The full name of an organization</Documentation>
                                 </Element>
                                 <Element name="organizationShortName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
@@ -470,7 +470,7 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                                 </Element>
                             </Component>
                             <Component name="communicationInfo" ComponentRef="clarin.eu:cr1:c_1352813745460" CardinalityMin="0" CardinalityMax="1">
-                                <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" CardinalityMin="1" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" CardinalityMin="1" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>The email address of a person or an organization</Documentation>
                                     <ValueScheme>
                                         <pattern>[^@]+@[^\.]+\..+|</pattern>
@@ -488,19 +488,19 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                                 <Element name="zipCode" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                     <Documentation>The zip code of the postal address of a person or organization</Documentation>
                                 </Element>
-                                <Element name="city" ConceptLink="http://hdl.handle.net/11459/CCR_C-5580_03e458f2-f873-8645-76eb-40e001b6c1ac" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                <Element name="city" ConceptLink="http://www.wikidata.org/entity/Q7884789" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                     <Documentation>The name of the city, town or village as mentioned in the postal address of a person or organization</Documentation>
                                 </Element>
                                 <Element name="region" ConceptLink="http://hdl.handle.net/11459/CCR_C-3814_dce1ba90-46f9-3b4a-d1ce-b37173126473" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                     <Documentation>The name of the region, county or department as mentioned in the postal address of a person or organization</Documentation>
                                 </Element>
-                                <Element name="country" ConceptLink="http://hdl.handle.net/11459/CCR_C-3792_68c770a4-d58c-46dd-d429-5609ce5f81c3" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                <Element name="country" ConceptLink="http://www.wikidata.org/entity/Q11420631" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                     <Documentation>The name of the country mentioned in the postal address of a person or organization as defined in the list of values of ISO 3166</Documentation>
                                 </Element>
-                                <Element name="telephoneNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2461_76a92748-423e-46a0-cc7c-84a7d1c46794" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                                <Element name="telephoneNumber" ConceptLink="http://www.wikidata.org/entity/Q214995 " ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
                                     <Documentation>The telephone number of a person or an organization; recommended format: +_international code_city code_number</Documentation>
                                 </Element>
-                                <Element name="faxNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2455_56998f5b-47bc-3d58-3bf6-13d18d2b0045" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                                <Element name="faxNumber" ConceptLink="http://www.wikidata.org/entity/Q125183827" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
                                     <Documentation>The fax number of a person or an organization; recommended format: +_international code_city code_number</Documentation>
                                 </Element>
                             </Component>
@@ -524,10 +524,10 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                             <Documentation>The role or function an actor has within the context indicated by the parent component of actorInfo (e.g. contact, creator, validator, etc). Example: A resource may be assigned multiple contacts, each with their separate roles/functions, e.g. one for answering technical questions and another for any other issues.</Documentation>
                         </Element>
                         <Component name="personInfo" ComponentRef="clarin.eu:cr1:c_1396012485192" CardinalityMin="0" CardinalityMax="1">
-                            <Element name="surname" ConceptLink="http://hdl.handle.net/11459/CCR_C-5521_8f30e11f-1bff-420e-511b-2b5893bdc37c" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Element name="surname" ConceptLink="http://www.wikidata.org/entity/Q101352" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>The surname (family name) of a person related to the resource</Documentation>
                             </Element>
-                            <Element name="givenName" ConceptLink="http://hdl.handle.net/11459/CCR_C-5520_d7d87a12-7b39-0364-795b-69347ede7de7" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                            <Element name="givenName" ConceptLink="http://www.wikidata.org/entity/Q202444" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
                                 <Documentation>The given name (first name) of a person related to the resource; initials can also be used</Documentation>
                             </Element>
                             <Element name="sex" ConceptLink="http://hdl.handle.net/11459/CCR_C-2560_ebb466e1-2b6b-6701-4e64-94618b4b455b" CardinalityMin="0" CardinalityMax="1">
@@ -535,17 +535,17 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                                 <ValueScheme>
                                     <Vocabulary>
                                         <enumeration>
-                                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2949_10ed5b3b-2e62-a962-dac3-300f3df5441a" AppInfo="">male</item>
-                                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2950_38f5b23e-097e-2ceb-e5f7-b16756638b89" AppInfo="">female</item>
-                                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2591_f769d93b-c007-d2c9-aff2-99e9177e5764" AppInfo="">unknown</item>
+                                            <item ConceptLink="http://www.wikidata.org/entity/Q6581097" AppInfo="">male</item>
+                                            <item ConceptLink="http://www.wikidata.org/entity/Q6581072" AppInfo="">female</item>
+                                            <item ConceptLink="http://www.wikidata.org/entity/Q24238356" AppInfo="">unknown</item>
                                         </enumeration>
                                     </Vocabulary>
                                 </ValueScheme>
                             </Element>
-                            <Element name="birthYear" ConceptLink="http://hdl.handle.net/11459/CCR_C-5484_e9a0c522-add0-381d-1bc8-93431c3bde19" ValueScheme="gYear" CardinalityMin="0" CardinalityMax="1">
+                            <Element name="birthYear" ConceptLink="http://www.wikidata.org/entity/Q2389905 " ValueScheme="gYear" CardinalityMin="0" CardinalityMax="1">
                                 <Documentation>The year something or someone was born</Documentation>
                             </Element>
-                            <Element name="deathYear" ConceptLink="http://hdl.handle.net/11459/CCR_C-6794_bdba0a83-f392-b7b5-8a82-e88cca0ca87d" ValueScheme="gYear" CardinalityMin="0" CardinalityMax="1">
+                            <Element name="deathYear" ConceptLink="http://www.wikidata.org/entity/Q21160456" ValueScheme="gYear" CardinalityMin="0" CardinalityMax="1">
                                 <Documentation>The year something or someone died.</Documentation>
                             </Element>
                             <Element name="position" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
@@ -553,7 +553,7 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                             </Element>
                             <Component name="affiliation" CardinalityMin="0" CardinalityMax="unbounded">
                                 <Component name="organizationInfo" ComponentRef="clarin.eu:cr1:c_1407745711883" CardinalityMin="1" CardinalityMax="1">
-                                    <Element name="organizationName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2459_fc4e74d6-84de-c8cd-1ae8-2c2be5ee90b1" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                    <Element name="organizationName" ConceptLink="http://www.wikidata.org/entity/Q43229" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                         <Documentation>The full name of an organization</Documentation>
                                     </Element>
                                     <Element name="organizationShortName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
@@ -566,7 +566,7 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                             </Component>
                         </Component>
                         <Component name="organizationInfo" ComponentRef="clarin.eu:cr1:c_1407745711883" CardinalityMin="0" CardinalityMax="1">
-                            <Element name="organizationName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2459_fc4e74d6-84de-c8cd-1ae8-2c2be5ee90b1" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Element name="organizationName" ConceptLink="http://www.wikidata.org/entity/Q43229" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>The full name of an organization</Documentation>
                             </Element>
                             <Element name="organizationShortName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
@@ -577,7 +577,7 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                             </Element>
                         </Component>
                         <Component name="communicationInfo" ComponentRef="clarin.eu:cr1:c_1352813745460" CardinalityMin="0" CardinalityMax="1">
-                            <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" CardinalityMin="1" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" CardinalityMin="1" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>The email address of a person or an organization</Documentation>
                                 <ValueScheme>
                                     <pattern>[^@]+@[^\.]+\..+|</pattern>
@@ -595,19 +595,19 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                             <Element name="zipCode" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                 <Documentation>The zip code of the postal address of a person or organization</Documentation>
                             </Element>
-                            <Element name="city" ConceptLink="http://hdl.handle.net/11459/CCR_C-5580_03e458f2-f873-8645-76eb-40e001b6c1ac" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                            <Element name="city" ConceptLink="http://www.wikidata.org/entity/Q7884789" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                 <Documentation>The name of the city, town or village as mentioned in the postal address of a person or organization</Documentation>
                             </Element>
                             <Element name="region" ConceptLink="http://hdl.handle.net/11459/CCR_C-3814_dce1ba90-46f9-3b4a-d1ce-b37173126473" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                 <Documentation>The name of the region, county or department as mentioned in the postal address of a person or organization</Documentation>
                             </Element>
-                            <Element name="country" ConceptLink="http://hdl.handle.net/11459/CCR_C-3792_68c770a4-d58c-46dd-d429-5609ce5f81c3" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                            <Element name="country" ConceptLink="http://www.wikidata.org/entity/Q11420631" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                 <Documentation>The name of the country mentioned in the postal address of a person or organization as defined in the list of values of ISO 3166</Documentation>
                             </Element>
-                            <Element name="telephoneNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2461_76a92748-423e-46a0-cc7c-84a7d1c46794" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                            <Element name="telephoneNumber" ConceptLink="http://www.wikidata.org/entity/Q214995 " ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
                                 <Documentation>The telephone number of a person or an organization; recommended format: +_international code_city code_number</Documentation>
                             </Element>
-                            <Element name="faxNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2455_56998f5b-47bc-3d58-3bf6-13d18d2b0045" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                            <Element name="faxNumber" ConceptLink="http://www.wikidata.org/entity/Q125183827" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
                                 <Documentation>The fax number of a person or an organization; recommended format: +_international code_city code_number</Documentation>
                             </Element>
                         </Component>
@@ -631,10 +631,10 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                         <Documentation>The role or function an actor has within the context indicated by the parent component of actorInfo (e.g. contact, creator, validator, etc). Example: A resource may be assigned multiple contacts, each with their separate roles/functions, e.g. one for answering technical questions and another for any other issues.</Documentation>
                     </Element>
                     <Component name="personInfo" ComponentRef="clarin.eu:cr1:c_1396012485192" CardinalityMin="0" CardinalityMax="1">
-                        <Element name="surname" ConceptLink="http://hdl.handle.net/11459/CCR_C-5521_8f30e11f-1bff-420e-511b-2b5893bdc37c" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                        <Element name="surname" ConceptLink="http://www.wikidata.org/entity/Q101352" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                             <Documentation>The surname (family name) of a person related to the resource</Documentation>
                         </Element>
-                        <Element name="givenName" ConceptLink="http://hdl.handle.net/11459/CCR_C-5520_d7d87a12-7b39-0364-795b-69347ede7de7" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                        <Element name="givenName" ConceptLink="http://www.wikidata.org/entity/Q202444" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
                             <Documentation>The given name (first name) of a person related to the resource; initials can also be used</Documentation>
                         </Element>
                         <Element name="sex" ConceptLink="http://hdl.handle.net/11459/CCR_C-2560_ebb466e1-2b6b-6701-4e64-94618b4b455b" CardinalityMin="0" CardinalityMax="1">
@@ -642,17 +642,17 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                             <ValueScheme>
                                 <Vocabulary>
                                     <enumeration>
-                                        <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2949_10ed5b3b-2e62-a962-dac3-300f3df5441a" AppInfo="">male</item>
-                                        <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2950_38f5b23e-097e-2ceb-e5f7-b16756638b89" AppInfo="">female</item>
-                                        <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2591_f769d93b-c007-d2c9-aff2-99e9177e5764" AppInfo="">unknown</item>
+                                        <item ConceptLink="http://www.wikidata.org/entity/Q6581097" AppInfo="">male</item>
+                                        <item ConceptLink="http://www.wikidata.org/entity/Q6581072" AppInfo="">female</item>
+                                        <item ConceptLink="http://www.wikidata.org/entity/Q24238356" AppInfo="">unknown</item>
                                     </enumeration>
                                 </Vocabulary>
                             </ValueScheme>
                         </Element>
-                        <Element name="birthYear" ConceptLink="http://hdl.handle.net/11459/CCR_C-5484_e9a0c522-add0-381d-1bc8-93431c3bde19" ValueScheme="gYear" CardinalityMin="0" CardinalityMax="1">
+                        <Element name="birthYear" ConceptLink="http://www.wikidata.org/entity/Q2389905 " ValueScheme="gYear" CardinalityMin="0" CardinalityMax="1">
                             <Documentation>The year something or someone was born</Documentation>
                         </Element>
-                        <Element name="deathYear" ConceptLink="http://hdl.handle.net/11459/CCR_C-6794_bdba0a83-f392-b7b5-8a82-e88cca0ca87d" ValueScheme="gYear" CardinalityMin="0" CardinalityMax="1">
+                        <Element name="deathYear" ConceptLink="http://www.wikidata.org/entity/Q21160456" ValueScheme="gYear" CardinalityMin="0" CardinalityMax="1">
                             <Documentation>The year something or someone died.</Documentation>
                         </Element>
                         <Element name="position" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
@@ -660,7 +660,7 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                         </Element>
                         <Component name="affiliation" CardinalityMin="0" CardinalityMax="unbounded">
                             <Component name="organizationInfo" ComponentRef="clarin.eu:cr1:c_1407745711883" CardinalityMin="1" CardinalityMax="1">
-                                <Element name="organizationName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2459_fc4e74d6-84de-c8cd-1ae8-2c2be5ee90b1" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Element name="organizationName" ConceptLink="http://www.wikidata.org/entity/Q43229" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>The full name of an organization</Documentation>
                                 </Element>
                                 <Element name="organizationShortName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
@@ -673,7 +673,7 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                         </Component>
                     </Component>
                     <Component name="organizationInfo" ComponentRef="clarin.eu:cr1:c_1407745711883" CardinalityMin="0" CardinalityMax="1">
-                        <Element name="organizationName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2459_fc4e74d6-84de-c8cd-1ae8-2c2be5ee90b1" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                        <Element name="organizationName" ConceptLink="http://www.wikidata.org/entity/Q43229" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                             <Documentation>The full name of an organization</Documentation>
                         </Element>
                         <Element name="organizationShortName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
@@ -684,7 +684,7 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                         </Element>
                     </Component>
                     <Component name="communicationInfo" ComponentRef="clarin.eu:cr1:c_1352813745460" CardinalityMin="0" CardinalityMax="1">
-                        <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" CardinalityMin="1" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                        <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" CardinalityMin="1" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                             <Documentation>The email address of a person or an organization</Documentation>
                             <ValueScheme>
                                 <pattern>[^@]+@[^\.]+\..+|</pattern>
@@ -702,19 +702,19 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                         <Element name="zipCode" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                             <Documentation>The zip code of the postal address of a person or organization</Documentation>
                         </Element>
-                        <Element name="city" ConceptLink="http://hdl.handle.net/11459/CCR_C-5580_03e458f2-f873-8645-76eb-40e001b6c1ac" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                        <Element name="city" ConceptLink="http://www.wikidata.org/entity/Q7884789" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                             <Documentation>The name of the city, town or village as mentioned in the postal address of a person or organization</Documentation>
                         </Element>
                         <Element name="region" ConceptLink="http://hdl.handle.net/11459/CCR_C-3814_dce1ba90-46f9-3b4a-d1ce-b37173126473" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                             <Documentation>The name of the region, county or department as mentioned in the postal address of a person or organization</Documentation>
                         </Element>
-                        <Element name="country" ConceptLink="http://hdl.handle.net/11459/CCR_C-3792_68c770a4-d58c-46dd-d429-5609ce5f81c3" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                        <Element name="country" ConceptLink="http://www.wikidata.org/entity/Q11420631" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                             <Documentation>The name of the country mentioned in the postal address of a person or organization as defined in the list of values of ISO 3166</Documentation>
                         </Element>
-                        <Element name="telephoneNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2461_76a92748-423e-46a0-cc7c-84a7d1c46794" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                        <Element name="telephoneNumber" ConceptLink="http://www.wikidata.org/entity/Q214995 " ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
                             <Documentation>The telephone number of a person or an organization; recommended format: +_international code_city code_number</Documentation>
                         </Element>
-                        <Element name="faxNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2455_56998f5b-47bc-3d58-3bf6-13d18d2b0045" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                        <Element name="faxNumber" ConceptLink="http://www.wikidata.org/entity/Q125183827" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
                             <Documentation>The fax number of a person or an organization; recommended format: +_international code_city code_number</Documentation>
                         </Element>
                     </Component>
@@ -765,10 +765,10 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                             <Documentation>The role or function an actor has within the context indicated by the parent component of actorInfo (e.g. contact, creator, validator, etc). Example: A resource may be assigned multiple contacts, each with their separate roles/functions, e.g. one for answering technical questions and another for any other issues.</Documentation>
                         </Element>
                         <Component name="personInfo" ComponentRef="clarin.eu:cr1:c_1396012485192" CardinalityMin="0" CardinalityMax="1">
-                            <Element name="surname" ConceptLink="http://hdl.handle.net/11459/CCR_C-5521_8f30e11f-1bff-420e-511b-2b5893bdc37c" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Element name="surname" ConceptLink="http://www.wikidata.org/entity/Q101352" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>The surname (family name) of a person related to the resource</Documentation>
                             </Element>
-                            <Element name="givenName" ConceptLink="http://hdl.handle.net/11459/CCR_C-5520_d7d87a12-7b39-0364-795b-69347ede7de7" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                            <Element name="givenName" ConceptLink="http://www.wikidata.org/entity/Q202444" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
                                 <Documentation>The given name (first name) of a person related to the resource; initials can also be used</Documentation>
                             </Element>
                             <Element name="sex" ConceptLink="http://hdl.handle.net/11459/CCR_C-2560_ebb466e1-2b6b-6701-4e64-94618b4b455b" CardinalityMin="0" CardinalityMax="1">
@@ -776,17 +776,17 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                                 <ValueScheme>
                                     <Vocabulary>
                                         <enumeration>
-                                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2949_10ed5b3b-2e62-a962-dac3-300f3df5441a" AppInfo="">male</item>
-                                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2950_38f5b23e-097e-2ceb-e5f7-b16756638b89" AppInfo="">female</item>
-                                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2591_f769d93b-c007-d2c9-aff2-99e9177e5764" AppInfo="">unknown</item>
+                                            <item ConceptLink="http://www.wikidata.org/entity/Q6581097" AppInfo="">male</item>
+                                            <item ConceptLink="http://www.wikidata.org/entity/Q6581072" AppInfo="">female</item>
+                                            <item ConceptLink="http://www.wikidata.org/entity/Q24238356" AppInfo="">unknown</item>
                                         </enumeration>
                                     </Vocabulary>
                                 </ValueScheme>
                             </Element>
-                            <Element name="birthYear" ConceptLink="http://hdl.handle.net/11459/CCR_C-5484_e9a0c522-add0-381d-1bc8-93431c3bde19" ValueScheme="gYear" CardinalityMin="0" CardinalityMax="1">
+                            <Element name="birthYear" ConceptLink="http://www.wikidata.org/entity/Q2389905 " ValueScheme="gYear" CardinalityMin="0" CardinalityMax="1">
                                 <Documentation>The year something or someone was born</Documentation>
                             </Element>
-                            <Element name="deathYear" ConceptLink="http://hdl.handle.net/11459/CCR_C-6794_bdba0a83-f392-b7b5-8a82-e88cca0ca87d" ValueScheme="gYear" CardinalityMin="0" CardinalityMax="1">
+                            <Element name="deathYear" ConceptLink="http://www.wikidata.org/entity/Q21160456" ValueScheme="gYear" CardinalityMin="0" CardinalityMax="1">
                                 <Documentation>The year something or someone died.</Documentation>
                             </Element>
                             <Element name="position" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
@@ -794,7 +794,7 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                             </Element>
                             <Component name="affiliation" CardinalityMin="0" CardinalityMax="unbounded">
                                 <Component name="organizationInfo" ComponentRef="clarin.eu:cr1:c_1407745711883" CardinalityMin="1" CardinalityMax="1">
-                                    <Element name="organizationName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2459_fc4e74d6-84de-c8cd-1ae8-2c2be5ee90b1" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                    <Element name="organizationName" ConceptLink="http://www.wikidata.org/entity/Q43229" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                         <Documentation>The full name of an organization</Documentation>
                                     </Element>
                                     <Element name="organizationShortName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
@@ -807,7 +807,7 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                             </Component>
                         </Component>
                         <Component name="organizationInfo" ComponentRef="clarin.eu:cr1:c_1407745711883" CardinalityMin="0" CardinalityMax="1">
-                            <Element name="organizationName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2459_fc4e74d6-84de-c8cd-1ae8-2c2be5ee90b1" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Element name="organizationName" ConceptLink="http://www.wikidata.org/entity/Q43229" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>The full name of an organization</Documentation>
                             </Element>
                             <Element name="organizationShortName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
@@ -818,7 +818,7 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                             </Element>
                         </Component>
                         <Component name="communicationInfo" ComponentRef="clarin.eu:cr1:c_1352813745460" CardinalityMin="0" CardinalityMax="1">
-                            <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" CardinalityMin="1" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" CardinalityMin="1" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>The email address of a person or an organization</Documentation>
                                 <ValueScheme>
                                     <pattern>[^@]+@[^\.]+\..+|</pattern>
@@ -836,19 +836,19 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                             <Element name="zipCode" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                 <Documentation>The zip code of the postal address of a person or organization</Documentation>
                             </Element>
-                            <Element name="city" ConceptLink="http://hdl.handle.net/11459/CCR_C-5580_03e458f2-f873-8645-76eb-40e001b6c1ac" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                            <Element name="city" ConceptLink="http://www.wikidata.org/entity/Q7884789" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                 <Documentation>The name of the city, town or village as mentioned in the postal address of a person or organization</Documentation>
                             </Element>
                             <Element name="region" ConceptLink="http://hdl.handle.net/11459/CCR_C-3814_dce1ba90-46f9-3b4a-d1ce-b37173126473" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                 <Documentation>The name of the region, county or department as mentioned in the postal address of a person or organization</Documentation>
                             </Element>
-                            <Element name="country" ConceptLink="http://hdl.handle.net/11459/CCR_C-3792_68c770a4-d58c-46dd-d429-5609ce5f81c3" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                            <Element name="country" ConceptLink="http://www.wikidata.org/entity/Q11420631" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                 <Documentation>The name of the country mentioned in the postal address of a person or organization as defined in the list of values of ISO 3166</Documentation>
                             </Element>
-                            <Element name="telephoneNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2461_76a92748-423e-46a0-cc7c-84a7d1c46794" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                            <Element name="telephoneNumber" ConceptLink="http://www.wikidata.org/entity/Q214995 " ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
                                 <Documentation>The telephone number of a person or an organization; recommended format: +_international code_city code_number</Documentation>
                             </Element>
-                            <Element name="faxNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2455_56998f5b-47bc-3d58-3bf6-13d18d2b0045" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                            <Element name="faxNumber" ConceptLink="http://www.wikidata.org/entity/Q125183827" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
                                 <Documentation>The fax number of a person or an organization; recommended format: +_international code_city code_number</Documentation>
                             </Element>
                         </Component>
@@ -856,13 +856,13 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                 </Component>
             </Component>
             <Component name="versionInfo" ComponentRef="clarin.eu:cr1:c_1430905751648" CardinalityMin="0" CardinalityMax="1">
-                <Element name="version" ConceptLink="http://hdl.handle.net/11459/CCR_C-2547_7883d382-b3ce-8ab4-7052-0138525a8ba1" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                <Element name="version" ConceptLink="http://www.wikidata.org/entity/Q12343820" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                     <Documentation>Any string, usually a number, that identifies the version of a resource</Documentation>
                 </Element>
                 <Element name="revision" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                     <Documentation>Provides an account of the revisions in free text or a link to a document with revisions</Documentation>
                 </Element>
-                <Element name="lastDateUpdated" ConceptLink="http://hdl.handle.net/11459/CCR_C-2526_979ac535-eaa5-5e59-3cad-51c450234698" CardinalityMin="0" CardinalityMax="1">
+                <Element name="lastDateUpdated" ConceptLink="http://www.wikidata.org/entity/P5017" CardinalityMin="0" CardinalityMax="1">
                     <Documentation>Date of the last update of the version of the resource</Documentation>
                     <ValueScheme>
                         <pattern>[0-9]{4}(-[01][0-9](-[0123][0-9])?)?</pattern>
@@ -919,10 +919,10 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                 </Element>
                 <Component name="sizePerValidation" ComponentRef="clarin.eu:cr1:c_1447674760347" CardinalityMin="0" CardinalityMax="1">
                     <Component name="sizeInfo" ComponentRef="clarin.eu:cr1:c_1353678848785" CardinalityMin="1" CardinalityMax="unbounded">
-                        <Element name="size" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                        <Element name="size" ConceptLink="http://www.wikidata.org/entity/Q322481" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                             <Documentation>Specifies the size of the resource with regard to the sizeUnit measurement in form of a number</Documentation>
                         </Element>
-                        <Element name="sizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" CardinalityMin="1" CardinalityMax="1">
+                        <Element name="sizeUnit" ConceptLink="http://www.wikidata.org/entity/P1880" CardinalityMin="1" CardinalityMax="1">
                             <Documentation>Specifies the unit that is used when providing information on the size of the resource or of resource parts</Documentation>
                             <ValueScheme>
                                 <Vocabulary>
@@ -1115,10 +1115,10 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                             <Documentation>The role or function an actor has within the context indicated by the parent component of actorInfo (e.g. contact, creator, validator, etc). Example: A resource may be assigned multiple contacts, each with their separate roles/functions, e.g. one for answering technical questions and another for any other issues.</Documentation>
                         </Element>
                         <Component name="personInfo" ComponentRef="clarin.eu:cr1:c_1396012485192" CardinalityMin="0" CardinalityMax="1">
-                            <Element name="surname" ConceptLink="http://hdl.handle.net/11459/CCR_C-5521_8f30e11f-1bff-420e-511b-2b5893bdc37c" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Element name="surname" ConceptLink="http://www.wikidata.org/entity/Q101352" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>The surname (family name) of a person related to the resource</Documentation>
                             </Element>
-                            <Element name="givenName" ConceptLink="http://hdl.handle.net/11459/CCR_C-5520_d7d87a12-7b39-0364-795b-69347ede7de7" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                            <Element name="givenName" ConceptLink="http://www.wikidata.org/entity/Q202444" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
                                 <Documentation>The given name (first name) of a person related to the resource; initials can also be used</Documentation>
                             </Element>
                             <Element name="sex" ConceptLink="http://hdl.handle.net/11459/CCR_C-2560_ebb466e1-2b6b-6701-4e64-94618b4b455b" CardinalityMin="0" CardinalityMax="1">
@@ -1126,17 +1126,17 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                                 <ValueScheme>
                                     <Vocabulary>
                                         <enumeration>
-                                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2949_10ed5b3b-2e62-a962-dac3-300f3df5441a" AppInfo="">male</item>
-                                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2950_38f5b23e-097e-2ceb-e5f7-b16756638b89" AppInfo="">female</item>
-                                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2591_f769d93b-c007-d2c9-aff2-99e9177e5764" AppInfo="">unknown</item>
+                                            <item ConceptLink="http://www.wikidata.org/entity/Q6581097" AppInfo="">male</item>
+                                            <item ConceptLink="http://www.wikidata.org/entity/Q6581072" AppInfo="">female</item>
+                                            <item ConceptLink="http://www.wikidata.org/entity/Q24238356" AppInfo="">unknown</item>
                                         </enumeration>
                                     </Vocabulary>
                                 </ValueScheme>
                             </Element>
-                            <Element name="birthYear" ConceptLink="http://hdl.handle.net/11459/CCR_C-5484_e9a0c522-add0-381d-1bc8-93431c3bde19" ValueScheme="gYear" CardinalityMin="0" CardinalityMax="1">
+                            <Element name="birthYear" ConceptLink="http://www.wikidata.org/entity/Q2389905 " ValueScheme="gYear" CardinalityMin="0" CardinalityMax="1">
                                 <Documentation>The year something or someone was born</Documentation>
                             </Element>
-                            <Element name="deathYear" ConceptLink="http://hdl.handle.net/11459/CCR_C-6794_bdba0a83-f392-b7b5-8a82-e88cca0ca87d" ValueScheme="gYear" CardinalityMin="0" CardinalityMax="1">
+                            <Element name="deathYear" ConceptLink="http://www.wikidata.org/entity/Q21160456" ValueScheme="gYear" CardinalityMin="0" CardinalityMax="1">
                                 <Documentation>The year something or someone died.</Documentation>
                             </Element>
                             <Element name="position" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
@@ -1144,7 +1144,7 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                             </Element>
                             <Component name="affiliation" CardinalityMin="0" CardinalityMax="unbounded">
                                 <Component name="organizationInfo" ComponentRef="clarin.eu:cr1:c_1407745711883" CardinalityMin="1" CardinalityMax="1">
-                                    <Element name="organizationName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2459_fc4e74d6-84de-c8cd-1ae8-2c2be5ee90b1" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                    <Element name="organizationName" ConceptLink="http://www.wikidata.org/entity/Q43229" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                         <Documentation>The full name of an organization</Documentation>
                                     </Element>
                                     <Element name="organizationShortName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
@@ -1157,7 +1157,7 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                             </Component>
                         </Component>
                         <Component name="organizationInfo" ComponentRef="clarin.eu:cr1:c_1407745711883" CardinalityMin="0" CardinalityMax="1">
-                            <Element name="organizationName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2459_fc4e74d6-84de-c8cd-1ae8-2c2be5ee90b1" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Element name="organizationName" ConceptLink="http://www.wikidata.org/entity/Q43229" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>The full name of an organization</Documentation>
                             </Element>
                             <Element name="organizationShortName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
@@ -1168,7 +1168,7 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                             </Element>
                         </Component>
                         <Component name="communicationInfo" ComponentRef="clarin.eu:cr1:c_1352813745460" CardinalityMin="0" CardinalityMax="1">
-                            <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" CardinalityMin="1" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" CardinalityMin="1" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>The email address of a person or an organization</Documentation>
                                 <ValueScheme>
                                     <pattern>[^@]+@[^\.]+\..+|</pattern>
@@ -1186,19 +1186,19 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                             <Element name="zipCode" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                 <Documentation>The zip code of the postal address of a person or organization</Documentation>
                             </Element>
-                            <Element name="city" ConceptLink="http://hdl.handle.net/11459/CCR_C-5580_03e458f2-f873-8645-76eb-40e001b6c1ac" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                            <Element name="city" ConceptLink="http://www.wikidata.org/entity/Q7884789" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                 <Documentation>The name of the city, town or village as mentioned in the postal address of a person or organization</Documentation>
                             </Element>
                             <Element name="region" ConceptLink="http://hdl.handle.net/11459/CCR_C-3814_dce1ba90-46f9-3b4a-d1ce-b37173126473" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                 <Documentation>The name of the region, county or department as mentioned in the postal address of a person or organization</Documentation>
                             </Element>
-                            <Element name="country" ConceptLink="http://hdl.handle.net/11459/CCR_C-3792_68c770a4-d58c-46dd-d429-5609ce5f81c3" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                            <Element name="country" ConceptLink="http://www.wikidata.org/entity/Q11420631" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                 <Documentation>The name of the country mentioned in the postal address of a person or organization as defined in the list of values of ISO 3166</Documentation>
                             </Element>
-                            <Element name="telephoneNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2461_76a92748-423e-46a0-cc7c-84a7d1c46794" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                            <Element name="telephoneNumber" ConceptLink="http://www.wikidata.org/entity/Q214995 " ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
                                 <Documentation>The telephone number of a person or an organization; recommended format: +_international code_city code_number</Documentation>
                             </Element>
-                            <Element name="faxNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2455_56998f5b-47bc-3d58-3bf6-13d18d2b0045" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                            <Element name="faxNumber" ConceptLink="http://www.wikidata.org/entity/Q125183827" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
                                 <Documentation>The fax number of a person or an organization; recommended format: +_international code_city code_number</Documentation>
                             </Element>
                         </Component>
@@ -1339,7 +1339,7 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                 </Component>
             </Component>
             <Component name="resourceCreationInfo" ComponentRef="clarin.eu:cr1:c_1407745711921" CardinalityMin="0" CardinalityMax="1">
-                <Element name="creationStartDate" ConceptLink="http://hdl.handle.net/11459/CCR_C-2510_2402e609-046a-dfbf-c2d7-5a2f1ae6dc86" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                <Element name="creationStartDate" ConceptLink="http://www.wikidata.org/entity/Q131673289" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                     <Documentation>The date in which the creation process was started</Documentation>
                     <ValueScheme>
                         <pattern>[0-9]{4}(-[01][0-9](-[0123][0-9])?)?</pattern>
@@ -1368,10 +1368,10 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                             <Documentation>The role or function an actor has within the context indicated by the parent component of actorInfo (e.g. contact, creator, validator, etc). Example: A resource may be assigned multiple contacts, each with their separate roles/functions, e.g. one for answering technical questions and another for any other issues.</Documentation>
                         </Element>
                         <Component name="personInfo" ComponentRef="clarin.eu:cr1:c_1396012485192" CardinalityMin="0" CardinalityMax="1">
-                            <Element name="surname" ConceptLink="http://hdl.handle.net/11459/CCR_C-5521_8f30e11f-1bff-420e-511b-2b5893bdc37c" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Element name="surname" ConceptLink="http://www.wikidata.org/entity/Q101352" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>The surname (family name) of a person related to the resource</Documentation>
                             </Element>
-                            <Element name="givenName" ConceptLink="http://hdl.handle.net/11459/CCR_C-5520_d7d87a12-7b39-0364-795b-69347ede7de7" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                            <Element name="givenName" ConceptLink="http://www.wikidata.org/entity/Q202444" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
                                 <Documentation>The given name (first name) of a person related to the resource; initials can also be used</Documentation>
                             </Element>
                             <Element name="sex" ConceptLink="http://hdl.handle.net/11459/CCR_C-2560_ebb466e1-2b6b-6701-4e64-94618b4b455b" CardinalityMin="0" CardinalityMax="1">
@@ -1379,17 +1379,17 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                                 <ValueScheme>
                                     <Vocabulary>
                                         <enumeration>
-                                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2949_10ed5b3b-2e62-a962-dac3-300f3df5441a" AppInfo="">male</item>
-                                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2950_38f5b23e-097e-2ceb-e5f7-b16756638b89" AppInfo="">female</item>
-                                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2591_f769d93b-c007-d2c9-aff2-99e9177e5764" AppInfo="">unknown</item>
+                                            <item ConceptLink="http://www.wikidata.org/entity/Q6581097" AppInfo="">male</item>
+                                            <item ConceptLink="http://www.wikidata.org/entity/Q6581072" AppInfo="">female</item>
+                                            <item ConceptLink="http://www.wikidata.org/entity/Q24238356" AppInfo="">unknown</item>
                                         </enumeration>
                                     </Vocabulary>
                                 </ValueScheme>
                             </Element>
-                            <Element name="birthYear" ConceptLink="http://hdl.handle.net/11459/CCR_C-5484_e9a0c522-add0-381d-1bc8-93431c3bde19" ValueScheme="gYear" CardinalityMin="0" CardinalityMax="1">
+                            <Element name="birthYear" ConceptLink="http://www.wikidata.org/entity/Q2389905 " ValueScheme="gYear" CardinalityMin="0" CardinalityMax="1">
                                 <Documentation>The year something or someone was born</Documentation>
                             </Element>
-                            <Element name="deathYear" ConceptLink="http://hdl.handle.net/11459/CCR_C-6794_bdba0a83-f392-b7b5-8a82-e88cca0ca87d" ValueScheme="gYear" CardinalityMin="0" CardinalityMax="1">
+                            <Element name="deathYear" ConceptLink="http://www.wikidata.org/entity/Q21160456" ValueScheme="gYear" CardinalityMin="0" CardinalityMax="1">
                                 <Documentation>The year something or someone died.</Documentation>
                             </Element>
                             <Element name="position" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
@@ -1397,7 +1397,7 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                             </Element>
                             <Component name="affiliation" CardinalityMin="0" CardinalityMax="unbounded">
                                 <Component name="organizationInfo" ComponentRef="clarin.eu:cr1:c_1407745711883" CardinalityMin="1" CardinalityMax="1">
-                                    <Element name="organizationName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2459_fc4e74d6-84de-c8cd-1ae8-2c2be5ee90b1" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                    <Element name="organizationName" ConceptLink="http://www.wikidata.org/entity/Q43229" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                         <Documentation>The full name of an organization</Documentation>
                                     </Element>
                                     <Element name="organizationShortName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
@@ -1410,7 +1410,7 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                             </Component>
                         </Component>
                         <Component name="organizationInfo" ComponentRef="clarin.eu:cr1:c_1407745711883" CardinalityMin="0" CardinalityMax="1">
-                            <Element name="organizationName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2459_fc4e74d6-84de-c8cd-1ae8-2c2be5ee90b1" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Element name="organizationName" ConceptLink="http://www.wikidata.org/entity/Q43229" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>The full name of an organization</Documentation>
                             </Element>
                             <Element name="organizationShortName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
@@ -1421,7 +1421,7 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                             </Element>
                         </Component>
                         <Component name="communicationInfo" ComponentRef="clarin.eu:cr1:c_1352813745460" CardinalityMin="0" CardinalityMax="1">
-                            <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" CardinalityMin="1" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" CardinalityMin="1" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>The email address of a person or an organization</Documentation>
                                 <ValueScheme>
                                     <pattern>[^@]+@[^\.]+\..+|</pattern>
@@ -1439,19 +1439,19 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                             <Element name="zipCode" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                 <Documentation>The zip code of the postal address of a person or organization</Documentation>
                             </Element>
-                            <Element name="city" ConceptLink="http://hdl.handle.net/11459/CCR_C-5580_03e458f2-f873-8645-76eb-40e001b6c1ac" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                            <Element name="city" ConceptLink="http://www.wikidata.org/entity/Q7884789" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                 <Documentation>The name of the city, town or village as mentioned in the postal address of a person or organization</Documentation>
                             </Element>
                             <Element name="region" ConceptLink="http://hdl.handle.net/11459/CCR_C-3814_dce1ba90-46f9-3b4a-d1ce-b37173126473" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                 <Documentation>The name of the region, county or department as mentioned in the postal address of a person or organization</Documentation>
                             </Element>
-                            <Element name="country" ConceptLink="http://hdl.handle.net/11459/CCR_C-3792_68c770a4-d58c-46dd-d429-5609ce5f81c3" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                            <Element name="country" ConceptLink="http://www.wikidata.org/entity/Q11420631" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                 <Documentation>The name of the country mentioned in the postal address of a person or organization as defined in the list of values of ISO 3166</Documentation>
                             </Element>
-                            <Element name="telephoneNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2461_76a92748-423e-46a0-cc7c-84a7d1c46794" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                            <Element name="telephoneNumber" ConceptLink="http://www.wikidata.org/entity/Q214995 " ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
                                 <Documentation>The telephone number of a person or an organization; recommended format: +_international code_city code_number</Documentation>
                             </Element>
-                            <Element name="faxNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2455_56998f5b-47bc-3d58-3bf6-13d18d2b0045" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                            <Element name="faxNumber" ConceptLink="http://www.wikidata.org/entity/Q125183827" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
                                 <Documentation>The fax number of a person or an organization; recommended format: +_international code_city code_number</Documentation>
                             </Element>
                         </Component>
@@ -1487,7 +1487,7 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                                 </Vocabulary>
                             </ValueScheme>
                         </Element>
-                        <Element name="funder" ConceptLink="http://hdl.handle.net/11459/CCR_C-2522_3bdc6af1-bf1b-3f5d-2938-62d99a1980ab" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                        <Element name="funder" ConceptLink="http://www.wikidata.org/entity/P8324" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
                             <Documentation>The full name of the funder of the project</Documentation>
                         </Element>
                         <Element name="fundingCountry" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
@@ -1530,7 +1530,7 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                             <Documentation>Reference to a resource by (resolvable) PID or other URI. To be used when the referenced resource is external to the described resource.</Documentation>
                         </Element>
                     </Component>
-                    <Component name="relationType" ComponentRef="clarin.eu:cr1:c_1396012485127" ConceptLink="http://hdl.handle.net/11459/CCR_C-2549_42c384cb-7697-889f-45dd-c1155857f117" CardinalityMin="1" CardinalityMax="1">
+                    <Component name="relationType" ComponentRef="clarin.eu:cr1:c_1396012485127" ConceptLink="http://www.wikidata.org/entity/Q130324710" CardinalityMin="1" CardinalityMax="1">
                         <Element name="relationName" ConceptLink="http://hdl.handle.net/11459/CCR_C-6569_23aafd25-4d4e-0c5a-b964-0eee2c46e5d5" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                             <Documentation>The name (designator) of the relation. In CMDI 1.2. to be specified via a relationship vocabulary?</Documentation>
                         </Element>
@@ -1540,7 +1540,7 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                     </Component>
                 </Component>
                 <Component name="dcmi-relation" ComponentRef="clarin.eu:cr1:c_1396012485138" ConceptLink="http://purl.org/dc/terms/relation" CardinalityMin="0" CardinalityMax="unbounded">
-                    <Element name="relationType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2549_42c384cb-7697-889f-45dd-c1155857f117" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                    <Element name="relationType" ConceptLink="http://www.wikidata.org/entity/Q130324710" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                         <ValueScheme>
                             <Vocabulary>
                                 <enumeration>
@@ -1614,7 +1614,7 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                     </Element>
                 </Component>
                 <Component name="languageInfo" ComponentRef="clarin.eu:cr1:c_1428388179423" CardinalityMin="0" CardinalityMax="unbounded">
-                    <Element name="languageId" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                    <Element name="languageId" ConceptLink="http://www.wikidata.org/entity/Q2092812" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                         <Documentation>The identifier of the language that is included in the resource or supported by the tool/service; an autocompletion mechanism with values from the ISO 639 is provided in the editor, but the values can be subsequently edited for further specification (according to the IETF BCP47 guidelines)</Documentation>
                     </Element>
                     <Element name="languageName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
@@ -1622,10 +1622,10 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                     </Element>
                     <Component name="sizePerLanguage" ComponentRef="clarin.eu:cr1:c_1447674760349" CardinalityMin="0" CardinalityMax="1">
                         <Component name="sizeInfo" ComponentRef="clarin.eu:cr1:c_1353678848785" CardinalityMin="1" CardinalityMax="unbounded">
-                            <Element name="size" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Element name="size" ConceptLink="http://www.wikidata.org/entity/Q322481" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>Specifies the size of the resource with regard to the sizeUnit measurement in form of a number</Documentation>
                             </Element>
-                            <Element name="sizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" CardinalityMin="1" CardinalityMax="1">
+                            <Element name="sizeUnit" ConceptLink="http://www.wikidata.org/entity/P1880" CardinalityMin="1" CardinalityMax="1">
                                 <Documentation>Specifies the unit that is used when providing information on the size of the resource or of resource parts</Documentation>
                                 <ValueScheme>
                                     <Vocabulary>
@@ -1703,10 +1703,10 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                         </Element>
                         <Component name="sizePerLanguageVariety" ComponentRef="clarin.eu:cr1:c_1447674760341" CardinalityMin="0" CardinalityMax="1">
                             <Component name="sizeInfo" ComponentRef="clarin.eu:cr1:c_1353678848785" CardinalityMin="1" CardinalityMax="unbounded">
-                                <Element name="size" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Element name="size" ConceptLink="http://www.wikidata.org/entity/Q322481" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>Specifies the size of the resource with regard to the sizeUnit measurement in form of a number</Documentation>
                                 </Element>
-                                <Element name="sizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" CardinalityMin="1" CardinalityMax="1">
+                                <Element name="sizeUnit" ConceptLink="http://www.wikidata.org/entity/P1880" CardinalityMin="1" CardinalityMax="1">
                                     <Documentation>Specifies the unit that is used when providing information on the size of the resource or of resource parts</Documentation>
                                     <ValueScheme>
                                         <Vocabulary>
@@ -1769,7 +1769,7 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                     </Component>
                 </Component>
                 <Component name="modalityInfo" ComponentRef="clarin.eu:cr1:c_1447674760356" CardinalityMin="0" CardinalityMax="unbounded">
-                    <Element name="modalityType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2490_44bc38a3-1799-4149-c791-40ac0176f0ff" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                    <Element name="modalityType" ConceptLink="http://www.wikidata.org/entity/Q1243600" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                         <Documentation>Specifies the type of the modality represented in the resource or processed by a tool/service</Documentation>
                         <ValueScheme>
                             <Vocabulary>
@@ -1791,10 +1791,10 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                     </Element>
                     <Component name="sizePerModality" ComponentRef="clarin.eu:cr1:c_1447674760351" CardinalityMin="0" CardinalityMax="1">
                         <Component name="sizeInfo" ComponentRef="clarin.eu:cr1:c_1353678848785" CardinalityMin="1" CardinalityMax="unbounded">
-                            <Element name="size" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Element name="size" ConceptLink="http://www.wikidata.org/entity/Q322481" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>Specifies the size of the resource with regard to the sizeUnit measurement in form of a number</Documentation>
                             </Element>
-                            <Element name="sizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" CardinalityMin="1" CardinalityMax="1">
+                            <Element name="sizeUnit" ConceptLink="http://www.wikidata.org/entity/P1880" CardinalityMin="1" CardinalityMax="1">
                                 <Documentation>Specifies the unit that is used when providing information on the size of the resource or of resource parts</Documentation>
                                 <ValueScheme>
                                     <Vocabulary>
@@ -1856,10 +1856,10 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                     </Component>
                 </Component>
                 <Component name="sizeInfo" ComponentRef="clarin.eu:cr1:c_1353678848785" CardinalityMin="0" CardinalityMax="unbounded">
-                    <Element name="size" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                    <Element name="size" ConceptLink="http://www.wikidata.org/entity/Q322481" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                         <Documentation>Specifies the size of the resource with regard to the sizeUnit measurement in form of a number</Documentation>
                     </Element>
-                    <Element name="sizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" CardinalityMin="1" CardinalityMax="1">
+                    <Element name="sizeUnit" ConceptLink="http://www.wikidata.org/entity/P1880" CardinalityMin="1" CardinalityMax="1">
                         <Documentation>Specifies the unit that is used when providing information on the size of the resource or of resource parts</Documentation>
                         <ValueScheme>
                             <Vocabulary>
@@ -1919,7 +1919,7 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                     </Element>
                 </Component>
                 <Component name="domainInfo" ComponentRef="clarin.eu:cr1:c_1447674760359" CardinalityMin="0" CardinalityMax="unbounded">
-                    <Element name="domain" ConceptLink="http://hdl.handle.net/11459/CCR_C-2467_f4e7331f-b930-fc42-eeea-05e383cfaa78" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                    <Element name="domain" ConceptLink="http://www.wikidata.org/entity/Q5289798" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                         <Documentation>Specifies the application domain of the resource or the tool/service</Documentation>
                     </Element>
                     <Element name="conformanceToClassificationScheme" CardinalityMin="0" CardinalityMax="1">
@@ -1946,10 +1946,10 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                     </Element>
                     <Component name="sizePerDomain" ComponentRef="clarin.eu:cr1:c_1447674760354" CardinalityMin="0" CardinalityMax="1">
                         <Component name="sizeInfo" ComponentRef="clarin.eu:cr1:c_1353678848785" CardinalityMin="1" CardinalityMax="unbounded">
-                            <Element name="size" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Element name="size" ConceptLink="http://www.wikidata.org/entity/Q322481" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>Specifies the size of the resource with regard to the sizeUnit measurement in form of a number</Documentation>
                             </Element>
-                            <Element name="sizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" CardinalityMin="1" CardinalityMax="1">
+                            <Element name="sizeUnit" ConceptLink="http://www.wikidata.org/entity/P1880" CardinalityMin="1" CardinalityMax="1">
                                 <Documentation>Specifies the unit that is used when providing information on the size of the resource or of resource parts</Documentation>
                                 <ValueScheme>
                                     <Vocabulary>
@@ -2016,10 +2016,10 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                     </Element>
                     <Component name="sizePerGeographicCoverage" ComponentRef="clarin.eu:cr1:c_1447674760348" CardinalityMin="0" CardinalityMax="1">
                         <Component name="sizeInfo" ComponentRef="clarin.eu:cr1:c_1353678848785" CardinalityMin="1" CardinalityMax="unbounded">
-                            <Element name="size" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Element name="size" ConceptLink="http://www.wikidata.org/entity/Q322481" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>Specifies the size of the resource with regard to the sizeUnit measurement in form of a number</Documentation>
                             </Element>
-                            <Element name="sizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" CardinalityMin="1" CardinalityMax="1">
+                            <Element name="sizeUnit" ConceptLink="http://www.wikidata.org/entity/P1880" CardinalityMin="1" CardinalityMax="1">
                                 <Documentation>Specifies the unit that is used when providing information on the size of the resource or of resource parts</Documentation>
                                 <ValueScheme>
                                     <Vocabulary>
@@ -2086,10 +2086,10 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                     </Element>
                     <Component name="sizePerTimeCoverage" ComponentRef="clarin.eu:cr1:c_1447674760352" CardinalityMin="0" CardinalityMax="1">
                         <Component name="sizeInfo" ComponentRef="clarin.eu:cr1:c_1353678848785" CardinalityMin="1" CardinalityMax="unbounded">
-                            <Element name="size" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Element name="size" ConceptLink="http://www.wikidata.org/entity/Q322481" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>Specifies the size of the resource with regard to the sizeUnit measurement in form of a number</Documentation>
                             </Element>
-                            <Element name="sizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" CardinalityMin="1" CardinalityMax="1">
+                            <Element name="sizeUnit" ConceptLink="http://www.wikidata.org/entity/P1880" CardinalityMin="1" CardinalityMax="1">
                                 <Documentation>Specifies the unit that is used when providing information on the size of the resource or of resource parts</Documentation>
                                 <ValueScheme>
                                     <Vocabulary>
@@ -2185,12 +2185,12 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                     <ValueScheme>
                         <Vocabulary>
                             <enumeration>
-                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2641_c5096a00-5b93-e31e-e19e-85c30f4ac509" AppInfo="">phonetics</item>
-                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2642_2b31550c-0b09-795a-a7e7-1624ceab9f82" AppInfo="">phonology</item>
-                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2645_25e31c3d-1067-b62a-43fa-cff1a78fe5ea" AppInfo="">semantics</item>
-                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2638_811b5e3d-b6de-20dd-fb18-467a29a38a08" AppInfo="">morphology</item>
-                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2647_e2a23859-3e18-2710-4fa8-0f7d4fb5aea6" AppInfo="">syntax</item>
-                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2643_21f644b7-876c-8fcb-3852-db34ca6d11cb" AppInfo="">pragmatics</item>
+                                <item ConceptLink="http://www.wikidata.org/entity/Q35395" AppInfo="">phonetics</item>
+                                <item ConceptLink="http://www.wikidata.org/entity/Q40998" AppInfo="">phonology</item>
+                                <item ConceptLink="http://www.wikidata.org/entity/Q39645 " AppInfo="">semantics</item>
+                                <item ConceptLink="http://www.wikidata.org/entity/Q38311" AppInfo="">morphology</item>
+                                <item ConceptLink="http://www.wikidata.org/entity/Q37437" AppInfo="">syntax</item>
+                                <item ConceptLink="http://www.wikidata.org/entity/Q181839" AppInfo="">pragmatics</item>
                                 <item ConceptLink="" AppInfo="">other</item>
                             </enumeration>
                         </Vocabulary>
@@ -2353,7 +2353,7 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                 </Element>
             </Component>
             <Component name="lexicalConceptualResourcePartInfoRev1" ComponentRef="clarin.eu:cr1:c_1548239945778" CardinalityMin="0" CardinalityMax="unbounded">
-                <Element name="mediaType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2570_6f596a6d-4d5c-f336-d971-e61a310e2c8c" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                <Element name="mediaType" ConceptLink="http://www.wikidata.org/entity/P1163" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                     <Documentation>Specifies the media type of the resource and basically corresponds to the physical medium of the content representation. Each media type is described through a distinctive set of features. A resource may consist of parts attributed to different types of media. A tool/service may take as input/output more than one different media types.</Documentation>
                     <ValueScheme>
                         <Vocabulary>
@@ -2426,7 +2426,7 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                         </Element>
                     </Component>
                     <Component name="audioFormatInfo" ComponentRef="clarin.eu:cr1:c_1427452477070" CardinalityMin="0" CardinalityMax="unbounded">
-                        <Element name="mimeType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                        <Element name="mimeType" ConceptLink="http://www.wikidata.org/entity/Q1667978" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                             <Documentation>The mime-type of the resource which is a formalized specifier for the format included or a mime-type that the tool/service accepts; value to be taken from a subset of the official mime types of the Internet Assigned Numbers Authority</Documentation>
                         </Element>
                         <Element name="signalEncoding" CardinalityMin="0" CardinalityMax="unbounded">
@@ -2443,7 +2443,7 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                                 </Vocabulary>
                             </ValueScheme>
                         </Element>
-                        <Element name="samplingRate" ConceptLink="http://hdl.handle.net/11459/CCR_C-2577_73344cc2-f341-8842-bcf7-48e5267a3aca" ValueScheme="int" CardinalityMin="0" CardinalityMax="1">
+                        <Element name="samplingRate" ConceptLink="http://www.wikidata.org/entity/P11413" ValueScheme="int" CardinalityMin="0" CardinalityMax="1">
                             <Documentation>Specifies the format of files contained in the resource in Hertz</Documentation>
                         </Element>
                         <Element name="quantization" CardinalityMin="0" CardinalityMax="1">
@@ -2461,13 +2461,13 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                                 </Vocabulary>
                             </ValueScheme>
                         </Element>
-                        <Element name="byteOrder" ConceptLink="http://hdl.handle.net/11459/CCR_C-2686_8482ada6-574c-67e3-d65a-64a23b06b533" CardinalityMin="0" CardinalityMax="1">
+                        <Element name="byteOrder" ConceptLink="http://www.wikidata.org/entity/Q339338" CardinalityMin="0" CardinalityMax="1">
                             <Documentation>The byte order of 2 or more bytes sample</Documentation>
                             <ValueScheme>
                                 <Vocabulary>
                                     <enumeration>
-                                        <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2688_592a09a1-3e6c-3880-c828-d218fee72af5" AppInfo="">littleEndian</item>
-                                        <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2687_a2b83d99-1795-80ee-9968-cb34dbd0d959" AppInfo="">bigEndian</item>
+                                        <item ConceptLink="http://www.wikidata.org/entity/Q12745768" AppInfo="">littleEndian</item>
+                                        <item ConceptLink="http://www.wikidata.org/entity/Q23651349" AppInfo="">bigEndian</item>
                                     </enumeration>
                                 </Vocabulary>
                             </ValueScheme>
@@ -2529,7 +2529,7 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                             <Element name="compression" ValueScheme="boolean" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>Whether the audio, video or image is compressed or not</Documentation>
                             </Element>
-                            <Element name="compressionName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2685_65492121-3759-0fc2-694b-83eccbb9d26c" CardinalityMin="0" CardinalityMax="unbounded">
+                            <Element name="compressionName" ConceptLink="http://www.wikidata.org/entity/Q2493" CardinalityMin="0" CardinalityMax="unbounded">
                                 <Documentation>The name of the compression applied</Documentation>
                                 <ValueScheme>
                                     <Vocabulary>
@@ -2556,10 +2556,10 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                         </Component>
                         <Component name="sizePerAudioFormat" ComponentRef="clarin.eu:cr1:c_1447674760339" CardinalityMin="0" CardinalityMax="1">
                             <Component name="sizeInfo" ComponentRef="clarin.eu:cr1:c_1353678848785" CardinalityMin="1" CardinalityMax="unbounded">
-                                <Element name="size" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Element name="size" ConceptLink="http://www.wikidata.org/entity/Q322481" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>Specifies the size of the resource with regard to the sizeUnit measurement in form of a number</Documentation>
                                 </Element>
-                                <Element name="sizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" CardinalityMin="1" CardinalityMax="1">
+                                <Element name="sizeUnit" ConceptLink="http://www.wikidata.org/entity/P1880" CardinalityMin="1" CardinalityMax="1">
                                     <Documentation>Specifies the unit that is used when providing information on the size of the resource or of resource parts</Documentation>
                                     <ValueScheme>
                                         <Vocabulary>
@@ -2747,7 +2747,7 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                             <Element name="compression" ValueScheme="boolean" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>Whether the audio, video or image is compressed or not</Documentation>
                             </Element>
-                            <Element name="compressionName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2685_65492121-3759-0fc2-694b-83eccbb9d26c" CardinalityMin="0" CardinalityMax="unbounded">
+                            <Element name="compressionName" ConceptLink="http://www.wikidata.org/entity/Q2493" CardinalityMin="0" CardinalityMax="unbounded">
                                 <Documentation>The name of the compression applied</Documentation>
                                 <ValueScheme>
                                     <Vocabulary>
@@ -2794,10 +2794,10 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                         </Component>
                         <Component name="sizePerImageFormat" ComponentRef="clarin.eu:cr1:c_1447674760340" CardinalityMin="0" CardinalityMax="1">
                             <Component name="sizeInfo" ComponentRef="clarin.eu:cr1:c_1353678848785" CardinalityMin="1" CardinalityMax="unbounded">
-                                <Element name="size" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Element name="size" ConceptLink="http://www.wikidata.org/entity/Q322481" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>Specifies the size of the resource with regard to the sizeUnit measurement in form of a number</Documentation>
                                 </Element>
-                                <Element name="sizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" CardinalityMin="1" CardinalityMax="1">
+                                <Element name="sizeUnit" ConceptLink="http://www.wikidata.org/entity/P1880" CardinalityMin="1" CardinalityMax="1">
                                     <Documentation>Specifies the unit that is used when providing information on the size of the resource or of resource parts</Documentation>
                                     <ValueScheme>
                                         <Vocabulary>
@@ -2861,15 +2861,15 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                 </Component>
                 <Component name="lexicalConceptualResourceTextInfo" ComponentRef="clarin.eu:cr1:c_1428388179430" CardinalityMin="0" CardinalityMax="1">
                     <Component name="textFormatInfo" ComponentRef="clarin.eu:cr1:c_1427452477072" CardinalityMin="0" CardinalityMax="unbounded">
-                        <Element name="mimeType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                        <Element name="mimeType" ConceptLink="http://www.wikidata.org/entity/Q1667978" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                             <Documentation>The mime-type of the resource which is a formalized specifier for the format included or a mime-type that the tool/service accepts; value to be taken from a subset of the official mime types of the Internet Assigned Numbers Authority</Documentation>
                         </Element>
                         <Component name="sizePerTextFormat" ComponentRef="clarin.eu:cr1:c_1447674760342" CardinalityMin="0" CardinalityMax="1">
                             <Component name="sizeInfo" ComponentRef="clarin.eu:cr1:c_1353678848785" CardinalityMin="1" CardinalityMax="unbounded">
-                                <Element name="size" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Element name="size" ConceptLink="http://www.wikidata.org/entity/Q322481" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>Specifies the size of the resource with regard to the sizeUnit measurement in form of a number</Documentation>
                                 </Element>
-                                <Element name="sizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" CardinalityMin="1" CardinalityMax="1">
+                                <Element name="sizeUnit" ConceptLink="http://www.wikidata.org/entity/P1880" CardinalityMin="1" CardinalityMax="1">
                                     <Documentation>Specifies the unit that is used when providing information on the size of the resource or of resource parts</Documentation>
                                     <ValueScheme>
                                         <Vocabulary>
@@ -2931,15 +2931,15 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                         </Component>
                     </Component>
                     <Component name="characterEncodingInfo" ComponentRef="clarin.eu:cr1:c_1447674760355" CardinalityMin="0" CardinalityMax="unbounded">
-                        <Element name="characterEncoding" ConceptLink="http://hdl.handle.net/11459/CCR_C-2564_880b1108-6b03-647f-eed9-cdfbd464c661" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                        <Element name="characterEncoding" ConceptLink="http://www.wikidata.org/entity/Q184759" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                             <Documentation>The name of the character encoding used in the resource or accepted by the tool/service</Documentation>
                         </Element>
                         <Component name="sizePerCharacterEncoding" ComponentRef="clarin.eu:cr1:c_1447674760346" CardinalityMin="0" CardinalityMax="1">
                             <Component name="sizeInfo" ComponentRef="clarin.eu:cr1:c_1353678848785" CardinalityMin="1" CardinalityMax="unbounded">
-                                <Element name="size" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Element name="size" ConceptLink="http://www.wikidata.org/entity/Q322481" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>Specifies the size of the resource with regard to the sizeUnit measurement in form of a number</Documentation>
                                 </Element>
-                                <Element name="sizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" CardinalityMin="1" CardinalityMax="1">
+                                <Element name="sizeUnit" ConceptLink="http://www.wikidata.org/entity/P1880" CardinalityMin="1" CardinalityMax="1">
                                     <Documentation>Specifies the unit that is used when providing information on the size of the resource or of resource parts</Documentation>
                                     <ValueScheme>
                                         <Vocabulary>
@@ -3136,7 +3136,7 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                             <Element name="compression" ValueScheme="boolean" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>Whether the audio, video or image is compressed or not</Documentation>
                             </Element>
-                            <Element name="compressionName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2685_65492121-3759-0fc2-694b-83eccbb9d26c" CardinalityMin="0" CardinalityMax="unbounded">
+                            <Element name="compressionName" ConceptLink="http://www.wikidata.org/entity/Q2493" CardinalityMin="0" CardinalityMax="unbounded">
                                 <Documentation>The name of the compression applied</Documentation>
                                 <ValueScheme>
                                     <Vocabulary>
@@ -3163,10 +3163,10 @@ Rev1:  lexicalConceptualResourceInfo replaced with a revised version lexicalConc
                         </Component>
                         <Component name="sizePerVideoFormat" ComponentRef="clarin.eu:cr1:c_1447674760344" CardinalityMin="0" CardinalityMax="1">
                             <Component name="sizeInfo" ComponentRef="clarin.eu:cr1:c_1353678848785" CardinalityMin="1" CardinalityMax="unbounded">
-                                <Element name="size" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Element name="size" ConceptLink="http://www.wikidata.org/entity/Q322481" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>Specifies the size of the resource with regard to the sizeUnit measurement in form of a number</Documentation>
                                 </Element>
-                                <Element name="sizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" CardinalityMin="1" CardinalityMax="1">
+                                <Element name="sizeUnit" ConceptLink="http://www.wikidata.org/entity/P1880" CardinalityMin="1" CardinalityMax="1">
                                     <Documentation>Specifies the unit that is used when providing information on the size of the resource or of resource parts</Documentation>
                                     <ValueScheme>
                                         <Vocabulary>

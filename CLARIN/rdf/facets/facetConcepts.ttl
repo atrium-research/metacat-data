@@ -13,24 +13,32 @@ facet:country a vlo:Facet ;
         ccr:CCR_C-3792_68c770a4-d58c-46dd-d429-5609ce5f81c3,
         isocat:DC-2092,
         isocat:DC-2532,
-        isocat:DC-3792 .
+        isocat:DC-3792,
+        <http://www.wikidata.org/entity/Q11420631>,
+        <http://www.wikidata.org/entity/Q6256>,
+        <http://www.wikidata.org/entity/Q906278> .
 
 facet:format a vlo:Facet ;
     vlo:facetConceptLink ccr:CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df,
         dcterms:format,
-        isocat:DC-2571 .
+        isocat:DC-2571,
+        <http://www.wikidata.org/entity/Q1667978> .
 
 facet:genre a vlo:Facet ;
     vlo:facetConceptLink ccr:CCR_C-2470_d191f2b2-6339-f031-b534-70d526b28357,
         ccr:CCR_C-3899_c6c608e7-cb2e-1832-09ff-aee36e1f2ed4,
         isocat:DC-2470,
-        isocat:DC-3899 .
+        isocat:DC-3899,
+        <http://www.wikidata.org/entity/Q18042594>,
+        <http://www.wikidata.org/entity/Q483394> .
 
 facet:keywords a vlo:Facet ;
     vlo:facetConceptLink ccr:CCR_C-278_336dd81a-626b-713e-c74a-34fa2ca26a71,
         ccr:CCR_C-5436_6ab57c2c-5f8d-3561-6db6-d75da23d2637,
         isocat:DC-278,
-        isocat:DC-5436 .
+        isocat:DC-5436,
+        <http://www.wikidata.org/entity/Q12310022>,
+        <http://www.wikidata.org/entity/Q658349> .
 
 facet:languageCode a vlo:Facet ;
     vlo:facetConceptLink ccr:CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17,
@@ -43,11 +51,15 @@ facet:languageCode a vlo:Facet ;
         isocat:DC-2484,
         isocat:DC-5358,
         isocat:DC-5361,
-        <http://www.loc.gov/standards/mods/userguide/language.html#languageterm> .
+        <http://www.loc.gov/standards/mods/userguide/language.html#languageterm>,
+        <http://www.wikidata.org/entity/Q2092812>,
+        <http://www.wikidata.org/entity/Q3109261>,
+        <http://www.wikidata.org/entity/Q34770> .
 
 facet:modality a vlo:Facet ;
     vlo:facetConceptLink ccr:CCR_C-2490_44bc38a3-1799-4149-c791-40ac0176f0ff,
-        isocat:DC-2490 .
+        isocat:DC-2490,
+        <http://www.wikidata.org/entity/Q1243600> .
 
 facet:organisation a vlo:Facet ;
     vlo:facetConceptLink ccr:CCR_C-2459_fc4e74d6-84de-c8cd-1ae8-2c2be5ee90b1,
@@ -57,7 +69,10 @@ facet:organisation a vlo:Facet ;
         isocat:DC-2459,
         isocat:DC-2979,
         isocat:DC-6134,
-        isocat:DC-6702 .
+        isocat:DC-6702,
+        <http://www.wikidata.org/entity/P123>,
+        <http://www.wikidata.org/entity/Q122625839>,
+        <http://www.wikidata.org/entity/Q43229> .
 
 facet:resourceClass a vlo:Facet ;
     vlo:facetConceptLink ccr:CCR_C-3786_21c37142-994f-63a8-5a5b-a9fce07681a7,
@@ -68,7 +83,8 @@ facet:resourceClass a vlo:Facet ;
         dcterms:type,
         isocat:DC-3786,
         isocat:DC-3806,
-        isocat:DC-5424 .
+        isocat:DC-5424,
+        <http://www.wikidata.org/entity/Q166142> .
 
 facet:subject a vlo:Facet ;
     vlo:facetConceptLink ccr:CCR_C-2503_72bd598f-4abf-e122-ed93-f2adf1ab8785,
@@ -84,5 +100,8 @@ facet:subject a vlo:Facet ;
         isocat:DC-5316,
         isocat:DC-6147,
         isocat:DC-6543,
-        <http://www.loc.gov/standards/mods/userguide/subject.html#topic> .
+        <http://www.loc.gov/standards/mods/userguide/subject.html#topic>,
+        <http://www.wikidata.org/entity/P9488>,
+        <http://www.wikidata.org/entity/Q24238356>,
+        <http://www.wikidata.org/entity/Q26256810> .
 

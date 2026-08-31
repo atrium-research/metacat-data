@@ -27,15 +27,15 @@
                         </Vocabulary>
                     </ValueScheme>
                 </Element>
-                <Element name="resourceIdentifier" ConceptLink="http://hdl.handle.net/11459/CCR_C-2573_ae7c2548-8a86-ab6e-7099-e28b7697d1a2" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                <Element name="resourceIdentifier" ConceptLink="http://www.wikidata.org/entity/Q420330" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                     <Documentation>A reference to the resource like a PID or an internal identifier used by the resource provider</Documentation>
                 </Element>
-                <Element name="version" ConceptLink="http://hdl.handle.net/11459/CCR_C-2547_7883d382-b3ce-8ab4-7052-0138525a8ba1" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                <Element name="version" ConceptLink="http://www.wikidata.org/entity/Q12343820" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                     <Documentation>A number that identifies the version of  the resource or tool/web service.</Documentation>
                 </Element>
             </Component>
             <Component name="resourceCreatorInfo" ComponentRef="clarin.eu:cr1:c_1386164908463" CardinalityMin="1" CardinalityMax="1">
-                <Element name="creationStartDate" ConceptLink="http://hdl.handle.net/11459/CCR_C-2510_2402e609-046a-dfbf-c2d7-5a2f1ae6dc86" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                <Element name="creationStartDate" ConceptLink="http://www.wikidata.org/entity/Q131673289" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                     <Documentation>The date in which the creation of the resource was started</Documentation>
                     <ValueScheme>
                         <pattern>([0-9]{4})|([0-9]{4}\-[0,1][0-9]\-[0-3][0-9])</pattern>
@@ -50,7 +50,7 @@
                 <Component name="resourceCreator" ComponentRef="clarin.eu:cr1:c_1387365569657" CardinalityMin="1" CardinalityMax="1">
                     <Component name="resourceCreatorOrganization" ComponentRef="clarin.eu:cr1:c_1387365569654" CardinalityMin="1" CardinalityMax="unbounded">
                         <Component name="organizationInfo" ComponentRef="clarin.eu:cr1:c_1387365569653" CardinalityMin="1" CardinalityMax="1">
-                            <Element name="organizationName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2459_fc4e74d6-84de-c8cd-1ae8-2c2be5ee90b1" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Element name="organizationName" ConceptLink="http://www.wikidata.org/entity/Q43229" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>The full name of an organization</Documentation>
                             </Element>
                             <Element name="organizationShortName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
@@ -60,7 +60,7 @@
                                 <Documentation>The name of the department or unit (e.g. specific university faculty or department, department or unit of a research organization or private company etc.)</Documentation>
                             </Element>
                             <Component name="communicationInfo" ComponentRef="clarin.eu:cr1:c_1387365569652" CardinalityMin="0" CardinalityMax="1">
-                                <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>The email address of a person or an organization</Documentation>
                                     <ValueScheme>
                                         <pattern>[^@]+@[^\.]+\..+|</pattern>
@@ -75,10 +75,10 @@
                                 <Element name="address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2505_b61e249b-ac68-b40a-0f21-03a4a26e16b4" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                     <Documentation>The street and the number of the postal address of a person or organization</Documentation>
                                 </Element>
-                                <Element name="country" ConceptLink="http://hdl.handle.net/11459/CCR_C-3792_68c770a4-d58c-46dd-d429-5609ce5f81c3" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                <Element name="country" ConceptLink="http://www.wikidata.org/entity/Q11420631" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                     <Documentation>The name of the country mentioned in the postal address of a person or organization as defined in the list of values of ISO 3166</Documentation>
                                 </Element>
-                                <Element name="telephoneNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2461_76a92748-423e-46a0-cc7c-84a7d1c46794" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                                <Element name="telephoneNumber" ConceptLink="http://www.wikidata.org/entity/Q214995 " ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
                                     <Documentation>The telephone number of a person or an organization; recommended format: +_international code_city code_number</Documentation>
                                 </Element>
                             </Component>
@@ -86,10 +86,10 @@
                     </Component>
                     <Component name="resourceCreatorPerson" ComponentRef="clarin.eu:cr1:c_1387365569656" CardinalityMin="0" CardinalityMax="unbounded">
                         <Component name="personInfo" ComponentRef="clarin.eu:cr1:c_1387365569655" CardinalityMin="1" CardinalityMax="1">
-                            <Element name="surname" ConceptLink="http://hdl.handle.net/11459/CCR_C-5521_8f30e11f-1bff-420e-511b-2b5893bdc37c" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Element name="surname" ConceptLink="http://www.wikidata.org/entity/Q101352" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>The surname (family name) of a person related to the resource</Documentation>
                             </Element>
-                            <Element name="givenName" ConceptLink="http://hdl.handle.net/11459/CCR_C-5520_d7d87a12-7b39-0364-795b-69347ede7de7" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                            <Element name="givenName" ConceptLink="http://www.wikidata.org/entity/Q202444" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
                                 <Documentation>The given name (first name) of a person related to the resource; initials can also be used</Documentation>
                             </Element>
                             <Element name="sex" ConceptLink="http://hdl.handle.net/11459/CCR_C-2560_ebb466e1-2b6b-6701-4e64-94618b4b455b" CardinalityMin="0" CardinalityMax="1">
@@ -97,9 +97,9 @@
                                 <ValueScheme>
                                     <Vocabulary>
                                         <enumeration>
-                                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2949_10ed5b3b-2e62-a962-dac3-300f3df5441a" AppInfo="">male</item>
-                                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2950_38f5b23e-097e-2ceb-e5f7-b16756638b89" AppInfo="">female</item>
-                                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2591_f769d93b-c007-d2c9-aff2-99e9177e5764" AppInfo="">unknown</item>
+                                            <item ConceptLink="http://www.wikidata.org/entity/Q6581097" AppInfo="">male</item>
+                                            <item ConceptLink="http://www.wikidata.org/entity/Q6581072" AppInfo="">female</item>
+                                            <item ConceptLink="http://www.wikidata.org/entity/Q24238356" AppInfo="">unknown</item>
                                         </enumeration>
                                     </Vocabulary>
                                 </ValueScheme>
@@ -108,7 +108,7 @@
                                 <Documentation>The position or the title of a person if affiliated to an organization</Documentation>
                             </Element>
                             <Component name="communicationInfo" ComponentRef="clarin.eu:cr1:c_1387365569652" CardinalityMin="0" CardinalityMax="1">
-                                <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>The email address of a person or an organization</Documentation>
                                     <ValueScheme>
                                         <pattern>[^@]+@[^\.]+\..+|</pattern>
@@ -123,16 +123,16 @@
                                 <Element name="address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2505_b61e249b-ac68-b40a-0f21-03a4a26e16b4" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                     <Documentation>The street and the number of the postal address of a person or organization</Documentation>
                                 </Element>
-                                <Element name="country" ConceptLink="http://hdl.handle.net/11459/CCR_C-3792_68c770a4-d58c-46dd-d429-5609ce5f81c3" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                <Element name="country" ConceptLink="http://www.wikidata.org/entity/Q11420631" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                     <Documentation>The name of the country mentioned in the postal address of a person or organization as defined in the list of values of ISO 3166</Documentation>
                                 </Element>
-                                <Element name="telephoneNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2461_76a92748-423e-46a0-cc7c-84a7d1c46794" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                                <Element name="telephoneNumber" ConceptLink="http://www.wikidata.org/entity/Q214995 " ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
                                     <Documentation>The telephone number of a person or an organization; recommended format: +_international code_city code_number</Documentation>
                                 </Element>
                             </Component>
                             <Component name="affiliation" ComponentRef="clarin.eu:cr1:c_1388512733001" CardinalityMin="0" CardinalityMax="1">
                                 <Component name="organizationInfo" ComponentRef="clarin.eu:cr1:c_1387365569653" CardinalityMin="1" CardinalityMax="1">
-                                    <Element name="organizationName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2459_fc4e74d6-84de-c8cd-1ae8-2c2be5ee90b1" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                    <Element name="organizationName" ConceptLink="http://www.wikidata.org/entity/Q43229" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                         <Documentation>The full name of an organization</Documentation>
                                     </Element>
                                     <Element name="organizationShortName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
@@ -142,7 +142,7 @@
                                         <Documentation>The name of the department or unit (e.g. specific university faculty or department, department or unit of a research organization or private company etc.)</Documentation>
                                     </Element>
                                     <Component name="communicationInfo" ComponentRef="clarin.eu:cr1:c_1387365569652" CardinalityMin="0" CardinalityMax="1">
-                                        <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                        <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                             <Documentation>The email address of a person or an organization</Documentation>
                                             <ValueScheme>
                                                 <pattern>[^@]+@[^\.]+\..+|</pattern>
@@ -157,10 +157,10 @@
                                         <Element name="address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2505_b61e249b-ac68-b40a-0f21-03a4a26e16b4" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                             <Documentation>The street and the number of the postal address of a person or organization</Documentation>
                                         </Element>
-                                        <Element name="country" ConceptLink="http://hdl.handle.net/11459/CCR_C-3792_68c770a4-d58c-46dd-d429-5609ce5f81c3" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                        <Element name="country" ConceptLink="http://www.wikidata.org/entity/Q11420631" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                             <Documentation>The name of the country mentioned in the postal address of a person or organization as defined in the list of values of ISO 3166</Documentation>
                                         </Element>
-                                        <Element name="telephoneNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2461_76a92748-423e-46a0-cc7c-84a7d1c46794" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                                        <Element name="telephoneNumber" ConceptLink="http://www.wikidata.org/entity/Q214995 " ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
                                             <Documentation>The telephone number of a person or an organization; recommended format: +_international code_city code_number</Documentation>
                                         </Element>
                                     </Component>
@@ -199,7 +199,7 @@
                                 </Vocabulary>
                             </ValueScheme>
                         </Element>
-                        <Element name="funder" ConceptLink="http://hdl.handle.net/11459/CCR_C-2522_3bdc6af1-bf1b-3f5d-2938-62d99a1980ab" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                        <Element name="funder" ConceptLink="http://www.wikidata.org/entity/P8324" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
                             <Documentation>The full name of the funder of the project</Documentation>
                         </Element>
                         <Element name="fundingCountry" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
@@ -246,7 +246,7 @@
                     </ValueScheme>
                 </Element>
                 <Component name="licenceInfo" ComponentRef="clarin.eu:cr1:c_1387365569689" CardinalityMin="1" CardinalityMax="1">
-                    <Element name="licence" ConceptLink="http://hdl.handle.net/11459/CCR_C-2457_45bbaa1a-7002-2ecd-ab9d-57a189f694a6" CardinalityMin="1" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                    <Element name="licence" ConceptLink="http://www.wikidata.org/entity/Q79719" CardinalityMin="1" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                         <Documentation>The licence of use for the resource; for an overview of licences, please visit: http://www.meta-net.eu/meta-share/licenses</Documentation>
                         <ValueScheme>
                             <Vocabulary>
@@ -314,16 +314,16 @@
                             </Vocabulary>
                         </ValueScheme>
                     </Element>
-                    <Element name="attributionText" ConceptLink="http://hdl.handle.net/11459/CCR_C-6700_04bd545c-59bd-f3e1-fbd8-0cf3646929a2" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                    <Element name="attributionText" ConceptLink="http://www.wikidata.org/entity/Q65769315" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
                         <Documentation>The text that must be quoted for attribution purposes when using a resource - for cases where a resource is provided with a restriction on attribution</Documentation>
                     </Element>
                     <Element name="licenceDescription" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
                     <Component name="licensorPerson" ComponentRef="clarin.eu:cr1:c_1387365569690" CardinalityMin="0" CardinalityMax="unbounded">
                         <Component name="personInfo" ComponentRef="clarin.eu:cr1:c_1387365569655" CardinalityMin="1" CardinalityMax="1">
-                            <Element name="surname" ConceptLink="http://hdl.handle.net/11459/CCR_C-5521_8f30e11f-1bff-420e-511b-2b5893bdc37c" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Element name="surname" ConceptLink="http://www.wikidata.org/entity/Q101352" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>The surname (family name) of a person related to the resource</Documentation>
                             </Element>
-                            <Element name="givenName" ConceptLink="http://hdl.handle.net/11459/CCR_C-5520_d7d87a12-7b39-0364-795b-69347ede7de7" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                            <Element name="givenName" ConceptLink="http://www.wikidata.org/entity/Q202444" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
                                 <Documentation>The given name (first name) of a person related to the resource; initials can also be used</Documentation>
                             </Element>
                             <Element name="sex" ConceptLink="http://hdl.handle.net/11459/CCR_C-2560_ebb466e1-2b6b-6701-4e64-94618b4b455b" CardinalityMin="0" CardinalityMax="1">
@@ -331,9 +331,9 @@
                                 <ValueScheme>
                                     <Vocabulary>
                                         <enumeration>
-                                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2949_10ed5b3b-2e62-a962-dac3-300f3df5441a" AppInfo="">male</item>
-                                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2950_38f5b23e-097e-2ceb-e5f7-b16756638b89" AppInfo="">female</item>
-                                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2591_f769d93b-c007-d2c9-aff2-99e9177e5764" AppInfo="">unknown</item>
+                                            <item ConceptLink="http://www.wikidata.org/entity/Q6581097" AppInfo="">male</item>
+                                            <item ConceptLink="http://www.wikidata.org/entity/Q6581072" AppInfo="">female</item>
+                                            <item ConceptLink="http://www.wikidata.org/entity/Q24238356" AppInfo="">unknown</item>
                                         </enumeration>
                                     </Vocabulary>
                                 </ValueScheme>
@@ -342,7 +342,7 @@
                                 <Documentation>The position or the title of a person if affiliated to an organization</Documentation>
                             </Element>
                             <Component name="communicationInfo" ComponentRef="clarin.eu:cr1:c_1387365569652" CardinalityMin="0" CardinalityMax="1">
-                                <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>The email address of a person or an organization</Documentation>
                                     <ValueScheme>
                                         <pattern>[^@]+@[^\.]+\..+|</pattern>
@@ -357,16 +357,16 @@
                                 <Element name="address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2505_b61e249b-ac68-b40a-0f21-03a4a26e16b4" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                     <Documentation>The street and the number of the postal address of a person or organization</Documentation>
                                 </Element>
-                                <Element name="country" ConceptLink="http://hdl.handle.net/11459/CCR_C-3792_68c770a4-d58c-46dd-d429-5609ce5f81c3" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                <Element name="country" ConceptLink="http://www.wikidata.org/entity/Q11420631" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                     <Documentation>The name of the country mentioned in the postal address of a person or organization as defined in the list of values of ISO 3166</Documentation>
                                 </Element>
-                                <Element name="telephoneNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2461_76a92748-423e-46a0-cc7c-84a7d1c46794" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                                <Element name="telephoneNumber" ConceptLink="http://www.wikidata.org/entity/Q214995 " ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
                                     <Documentation>The telephone number of a person or an organization; recommended format: +_international code_city code_number</Documentation>
                                 </Element>
                             </Component>
                             <Component name="affiliation" ComponentRef="clarin.eu:cr1:c_1388512733001" CardinalityMin="0" CardinalityMax="1">
                                 <Component name="organizationInfo" ComponentRef="clarin.eu:cr1:c_1387365569653" CardinalityMin="1" CardinalityMax="1">
-                                    <Element name="organizationName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2459_fc4e74d6-84de-c8cd-1ae8-2c2be5ee90b1" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                    <Element name="organizationName" ConceptLink="http://www.wikidata.org/entity/Q43229" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                         <Documentation>The full name of an organization</Documentation>
                                     </Element>
                                     <Element name="organizationShortName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
@@ -376,7 +376,7 @@
                                         <Documentation>The name of the department or unit (e.g. specific university faculty or department, department or unit of a research organization or private company etc.)</Documentation>
                                     </Element>
                                     <Component name="communicationInfo" ComponentRef="clarin.eu:cr1:c_1387365569652" CardinalityMin="0" CardinalityMax="1">
-                                        <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                        <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                             <Documentation>The email address of a person or an organization</Documentation>
                                             <ValueScheme>
                                                 <pattern>[^@]+@[^\.]+\..+|</pattern>
@@ -391,10 +391,10 @@
                                         <Element name="address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2505_b61e249b-ac68-b40a-0f21-03a4a26e16b4" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                             <Documentation>The street and the number of the postal address of a person or organization</Documentation>
                                         </Element>
-                                        <Element name="country" ConceptLink="http://hdl.handle.net/11459/CCR_C-3792_68c770a4-d58c-46dd-d429-5609ce5f81c3" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                        <Element name="country" ConceptLink="http://www.wikidata.org/entity/Q11420631" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                             <Documentation>The name of the country mentioned in the postal address of a person or organization as defined in the list of values of ISO 3166</Documentation>
                                         </Element>
-                                        <Element name="telephoneNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2461_76a92748-423e-46a0-cc7c-84a7d1c46794" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                                        <Element name="telephoneNumber" ConceptLink="http://www.wikidata.org/entity/Q214995 " ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
                                             <Documentation>The telephone number of a person or an organization; recommended format: +_international code_city code_number</Documentation>
                                         </Element>
                                     </Component>
@@ -404,7 +404,7 @@
                     </Component>
                     <Component name="licensorOrganization" ComponentRef="clarin.eu:cr1:c_1387365569691" CardinalityMin="0" CardinalityMax="unbounded">
                         <Component name="organizationInfo" ComponentRef="clarin.eu:cr1:c_1387365569653" CardinalityMin="1" CardinalityMax="1">
-                            <Element name="organizationName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2459_fc4e74d6-84de-c8cd-1ae8-2c2be5ee90b1" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Element name="organizationName" ConceptLink="http://www.wikidata.org/entity/Q43229" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>The full name of an organization</Documentation>
                             </Element>
                             <Element name="organizationShortName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
@@ -414,7 +414,7 @@
                                 <Documentation>The name of the department or unit (e.g. specific university faculty or department, department or unit of a research organization or private company etc.)</Documentation>
                             </Element>
                             <Component name="communicationInfo" ComponentRef="clarin.eu:cr1:c_1387365569652" CardinalityMin="0" CardinalityMax="1">
-                                <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>The email address of a person or an organization</Documentation>
                                     <ValueScheme>
                                         <pattern>[^@]+@[^\.]+\..+|</pattern>
@@ -429,10 +429,10 @@
                                 <Element name="address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2505_b61e249b-ac68-b40a-0f21-03a4a26e16b4" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                     <Documentation>The street and the number of the postal address of a person or organization</Documentation>
                                 </Element>
-                                <Element name="country" ConceptLink="http://hdl.handle.net/11459/CCR_C-3792_68c770a4-d58c-46dd-d429-5609ce5f81c3" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                <Element name="country" ConceptLink="http://www.wikidata.org/entity/Q11420631" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                     <Documentation>The name of the country mentioned in the postal address of a person or organization as defined in the list of values of ISO 3166</Documentation>
                                 </Element>
-                                <Element name="telephoneNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2461_76a92748-423e-46a0-cc7c-84a7d1c46794" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                                <Element name="telephoneNumber" ConceptLink="http://www.wikidata.org/entity/Q214995 " ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
                                     <Documentation>The telephone number of a person or an organization; recommended format: +_international code_city code_number</Documentation>
                                 </Element>
                             </Component>
@@ -441,10 +441,10 @@
                 </Component>
                 <Component name="iprHolderPerson" ComponentRef="clarin.eu:cr1:c_1387365569658" CardinalityMin="0" CardinalityMax="unbounded">
                     <Component name="personInfo" ComponentRef="clarin.eu:cr1:c_1387365569655" CardinalityMin="1" CardinalityMax="1">
-                        <Element name="surname" ConceptLink="http://hdl.handle.net/11459/CCR_C-5521_8f30e11f-1bff-420e-511b-2b5893bdc37c" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                        <Element name="surname" ConceptLink="http://www.wikidata.org/entity/Q101352" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                             <Documentation>The surname (family name) of a person related to the resource</Documentation>
                         </Element>
-                        <Element name="givenName" ConceptLink="http://hdl.handle.net/11459/CCR_C-5520_d7d87a12-7b39-0364-795b-69347ede7de7" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                        <Element name="givenName" ConceptLink="http://www.wikidata.org/entity/Q202444" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
                             <Documentation>The given name (first name) of a person related to the resource; initials can also be used</Documentation>
                         </Element>
                         <Element name="sex" ConceptLink="http://hdl.handle.net/11459/CCR_C-2560_ebb466e1-2b6b-6701-4e64-94618b4b455b" CardinalityMin="0" CardinalityMax="1">
@@ -452,9 +452,9 @@
                             <ValueScheme>
                                 <Vocabulary>
                                     <enumeration>
-                                        <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2949_10ed5b3b-2e62-a962-dac3-300f3df5441a" AppInfo="">male</item>
-                                        <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2950_38f5b23e-097e-2ceb-e5f7-b16756638b89" AppInfo="">female</item>
-                                        <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2591_f769d93b-c007-d2c9-aff2-99e9177e5764" AppInfo="">unknown</item>
+                                        <item ConceptLink="http://www.wikidata.org/entity/Q6581097" AppInfo="">male</item>
+                                        <item ConceptLink="http://www.wikidata.org/entity/Q6581072" AppInfo="">female</item>
+                                        <item ConceptLink="http://www.wikidata.org/entity/Q24238356" AppInfo="">unknown</item>
                                     </enumeration>
                                 </Vocabulary>
                             </ValueScheme>
@@ -463,7 +463,7 @@
                             <Documentation>The position or the title of a person if affiliated to an organization</Documentation>
                         </Element>
                         <Component name="communicationInfo" ComponentRef="clarin.eu:cr1:c_1387365569652" CardinalityMin="0" CardinalityMax="1">
-                            <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>The email address of a person or an organization</Documentation>
                                 <ValueScheme>
                                     <pattern>[^@]+@[^\.]+\..+|</pattern>
@@ -478,16 +478,16 @@
                             <Element name="address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2505_b61e249b-ac68-b40a-0f21-03a4a26e16b4" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                 <Documentation>The street and the number of the postal address of a person or organization</Documentation>
                             </Element>
-                            <Element name="country" ConceptLink="http://hdl.handle.net/11459/CCR_C-3792_68c770a4-d58c-46dd-d429-5609ce5f81c3" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                            <Element name="country" ConceptLink="http://www.wikidata.org/entity/Q11420631" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                 <Documentation>The name of the country mentioned in the postal address of a person or organization as defined in the list of values of ISO 3166</Documentation>
                             </Element>
-                            <Element name="telephoneNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2461_76a92748-423e-46a0-cc7c-84a7d1c46794" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                            <Element name="telephoneNumber" ConceptLink="http://www.wikidata.org/entity/Q214995 " ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
                                 <Documentation>The telephone number of a person or an organization; recommended format: +_international code_city code_number</Documentation>
                             </Element>
                         </Component>
                         <Component name="affiliation" ComponentRef="clarin.eu:cr1:c_1388512733001" CardinalityMin="0" CardinalityMax="1">
                             <Component name="organizationInfo" ComponentRef="clarin.eu:cr1:c_1387365569653" CardinalityMin="1" CardinalityMax="1">
-                                <Element name="organizationName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2459_fc4e74d6-84de-c8cd-1ae8-2c2be5ee90b1" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Element name="organizationName" ConceptLink="http://www.wikidata.org/entity/Q43229" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>The full name of an organization</Documentation>
                                 </Element>
                                 <Element name="organizationShortName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
@@ -497,7 +497,7 @@
                                     <Documentation>The name of the department or unit (e.g. specific university faculty or department, department or unit of a research organization or private company etc.)</Documentation>
                                 </Element>
                                 <Component name="communicationInfo" ComponentRef="clarin.eu:cr1:c_1387365569652" CardinalityMin="0" CardinalityMax="1">
-                                    <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                    <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                         <Documentation>The email address of a person or an organization</Documentation>
                                         <ValueScheme>
                                             <pattern>[^@]+@[^\.]+\..+|</pattern>
@@ -512,10 +512,10 @@
                                     <Element name="address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2505_b61e249b-ac68-b40a-0f21-03a4a26e16b4" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                         <Documentation>The street and the number of the postal address of a person or organization</Documentation>
                                     </Element>
-                                    <Element name="country" ConceptLink="http://hdl.handle.net/11459/CCR_C-3792_68c770a4-d58c-46dd-d429-5609ce5f81c3" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                    <Element name="country" ConceptLink="http://www.wikidata.org/entity/Q11420631" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                         <Documentation>The name of the country mentioned in the postal address of a person or organization as defined in the list of values of ISO 3166</Documentation>
                                     </Element>
-                                    <Element name="telephoneNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2461_76a92748-423e-46a0-cc7c-84a7d1c46794" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                                    <Element name="telephoneNumber" ConceptLink="http://www.wikidata.org/entity/Q214995 " ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
                                         <Documentation>The telephone number of a person or an organization; recommended format: +_international code_city code_number</Documentation>
                                     </Element>
                                 </Component>
@@ -525,7 +525,7 @@
                 </Component>
                 <Component name="iprHolderOrganization" ComponentRef="clarin.eu:cr1:c_1387365569659" CardinalityMin="0" CardinalityMax="unbounded">
                     <Component name="organizationInfo" ComponentRef="clarin.eu:cr1:c_1387365569653" CardinalityMin="1" CardinalityMax="1">
-                        <Element name="organizationName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2459_fc4e74d6-84de-c8cd-1ae8-2c2be5ee90b1" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                        <Element name="organizationName" ConceptLink="http://www.wikidata.org/entity/Q43229" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                             <Documentation>The full name of an organization</Documentation>
                         </Element>
                         <Element name="organizationShortName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
@@ -535,7 +535,7 @@
                             <Documentation>The name of the department or unit (e.g. specific university faculty or department, department or unit of a research organization or private company etc.)</Documentation>
                         </Element>
                         <Component name="communicationInfo" ComponentRef="clarin.eu:cr1:c_1387365569652" CardinalityMin="0" CardinalityMax="1">
-                            <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>The email address of a person or an organization</Documentation>
                                 <ValueScheme>
                                     <pattern>[^@]+@[^\.]+\..+|</pattern>
@@ -550,10 +550,10 @@
                             <Element name="address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2505_b61e249b-ac68-b40a-0f21-03a4a26e16b4" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                 <Documentation>The street and the number of the postal address of a person or organization</Documentation>
                             </Element>
-                            <Element name="country" ConceptLink="http://hdl.handle.net/11459/CCR_C-3792_68c770a4-d58c-46dd-d429-5609ce5f81c3" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                            <Element name="country" ConceptLink="http://www.wikidata.org/entity/Q11420631" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                 <Documentation>The name of the country mentioned in the postal address of a person or organization as defined in the list of values of ISO 3166</Documentation>
                             </Element>
-                            <Element name="telephoneNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2461_76a92748-423e-46a0-cc7c-84a7d1c46794" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                            <Element name="telephoneNumber" ConceptLink="http://www.wikidata.org/entity/Q214995 " ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
                                 <Documentation>The telephone number of a person or an organization; recommended format: +_international code_city code_number</Documentation>
                             </Element>
                         </Component>
@@ -564,13 +564,13 @@
                 <Element name="documentationType" ConceptLink="http://hdl.handle.net/11459/CCR_C-5434_9c284553-b24c-d3ea-f3e8-5bebf0ee5f44" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                     <Documentation>Indication of the type of documentation of a resource, e.g. manual, (readme) file, website.</Documentation>
                 </Element>
-                <Element name="fileName" ConceptLink="http://hdl.handle.net/11459/CCR_C-5435_155a7fae-a941-e6a8-4b63-4f6d1bd0c2aa" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                <Element name="fileName" ConceptLink="http://www.wikidata.org/entity/Q1144928" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                     <Documentation>Indication of the name of a file.</Documentation>
                 </Element>
                 <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                     <Documentation>An URL referring to the documentation of the resource.</Documentation>
                 </Element>
-                <Element name="documentationLanguageId" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                <Element name="documentationLanguageId" ConceptLink="http://www.wikidata.org/entity/Q2092812" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
                     <Documentation>Identifier of the documentation language as defined by ISO 639</Documentation>
                 </Element>
                 <Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
@@ -648,10 +648,10 @@
                 </Element>
                 <Component name="sizePerValidation" ComponentRef="clarin.eu:cr1:c_1387365569695" CardinalityMin="0" CardinalityMax="1">
                     <Component name="sizeInfo" ComponentRef="clarin.eu:cr1:c_1353678848785" CardinalityMin="1" CardinalityMax="1">
-                        <Element name="size" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                        <Element name="size" ConceptLink="http://www.wikidata.org/entity/Q322481" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                             <Documentation>Specifies the size of the resource with regard to the sizeUnit measurement in form of a number</Documentation>
                         </Element>
-                        <Element name="sizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" CardinalityMin="1" CardinalityMax="1">
+                        <Element name="sizeUnit" ConceptLink="http://www.wikidata.org/entity/P1880" CardinalityMin="1" CardinalityMax="1">
                             <Documentation>Specifies the unit that is used when providing information on the size of the resource or of resource parts</Documentation>
                             <ValueScheme>
                                 <Vocabulary>
@@ -716,13 +716,13 @@
                         <Element name="documentationType" ConceptLink="http://hdl.handle.net/11459/CCR_C-5434_9c284553-b24c-d3ea-f3e8-5bebf0ee5f44" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                             <Documentation>Indication of the type of documentation of a resource, e.g. manual, (readme) file, website.</Documentation>
                         </Element>
-                        <Element name="fileName" ConceptLink="http://hdl.handle.net/11459/CCR_C-5435_155a7fae-a941-e6a8-4b63-4f6d1bd0c2aa" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                        <Element name="fileName" ConceptLink="http://www.wikidata.org/entity/Q1144928" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                             <Documentation>Indication of the name of a file.</Documentation>
                         </Element>
                         <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                             <Documentation>An URL referring to the documentation of the resource.</Documentation>
                         </Element>
-                        <Element name="documentationLanguageId" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                        <Element name="documentationLanguageId" ConceptLink="http://www.wikidata.org/entity/Q2092812" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
                             <Documentation>Identifier of the documentation language as defined by ISO 639</Documentation>
                         </Element>
                         <Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
@@ -737,10 +737,10 @@
                 </Component>
                 <Component name="validatorPerson" ComponentRef="clarin.eu:cr1:c_1387365569696" CardinalityMin="0" CardinalityMax="unbounded">
                     <Component name="personInfo" ComponentRef="clarin.eu:cr1:c_1387365569655" CardinalityMin="1" CardinalityMax="1">
-                        <Element name="surname" ConceptLink="http://hdl.handle.net/11459/CCR_C-5521_8f30e11f-1bff-420e-511b-2b5893bdc37c" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                        <Element name="surname" ConceptLink="http://www.wikidata.org/entity/Q101352" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                             <Documentation>The surname (family name) of a person related to the resource</Documentation>
                         </Element>
-                        <Element name="givenName" ConceptLink="http://hdl.handle.net/11459/CCR_C-5520_d7d87a12-7b39-0364-795b-69347ede7de7" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                        <Element name="givenName" ConceptLink="http://www.wikidata.org/entity/Q202444" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
                             <Documentation>The given name (first name) of a person related to the resource; initials can also be used</Documentation>
                         </Element>
                         <Element name="sex" ConceptLink="http://hdl.handle.net/11459/CCR_C-2560_ebb466e1-2b6b-6701-4e64-94618b4b455b" CardinalityMin="0" CardinalityMax="1">
@@ -748,9 +748,9 @@
                             <ValueScheme>
                                 <Vocabulary>
                                     <enumeration>
-                                        <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2949_10ed5b3b-2e62-a962-dac3-300f3df5441a" AppInfo="">male</item>
-                                        <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2950_38f5b23e-097e-2ceb-e5f7-b16756638b89" AppInfo="">female</item>
-                                        <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2591_f769d93b-c007-d2c9-aff2-99e9177e5764" AppInfo="">unknown</item>
+                                        <item ConceptLink="http://www.wikidata.org/entity/Q6581097" AppInfo="">male</item>
+                                        <item ConceptLink="http://www.wikidata.org/entity/Q6581072" AppInfo="">female</item>
+                                        <item ConceptLink="http://www.wikidata.org/entity/Q24238356" AppInfo="">unknown</item>
                                     </enumeration>
                                 </Vocabulary>
                             </ValueScheme>
@@ -759,7 +759,7 @@
                             <Documentation>The position or the title of a person if affiliated to an organization</Documentation>
                         </Element>
                         <Component name="communicationInfo" ComponentRef="clarin.eu:cr1:c_1387365569652" CardinalityMin="0" CardinalityMax="1">
-                            <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>The email address of a person or an organization</Documentation>
                                 <ValueScheme>
                                     <pattern>[^@]+@[^\.]+\..+|</pattern>
@@ -774,16 +774,16 @@
                             <Element name="address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2505_b61e249b-ac68-b40a-0f21-03a4a26e16b4" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                 <Documentation>The street and the number of the postal address of a person or organization</Documentation>
                             </Element>
-                            <Element name="country" ConceptLink="http://hdl.handle.net/11459/CCR_C-3792_68c770a4-d58c-46dd-d429-5609ce5f81c3" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                            <Element name="country" ConceptLink="http://www.wikidata.org/entity/Q11420631" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                 <Documentation>The name of the country mentioned in the postal address of a person or organization as defined in the list of values of ISO 3166</Documentation>
                             </Element>
-                            <Element name="telephoneNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2461_76a92748-423e-46a0-cc7c-84a7d1c46794" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                            <Element name="telephoneNumber" ConceptLink="http://www.wikidata.org/entity/Q214995 " ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
                                 <Documentation>The telephone number of a person or an organization; recommended format: +_international code_city code_number</Documentation>
                             </Element>
                         </Component>
                         <Component name="affiliation" ComponentRef="clarin.eu:cr1:c_1388512733001" CardinalityMin="0" CardinalityMax="1">
                             <Component name="organizationInfo" ComponentRef="clarin.eu:cr1:c_1387365569653" CardinalityMin="1" CardinalityMax="1">
-                                <Element name="organizationName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2459_fc4e74d6-84de-c8cd-1ae8-2c2be5ee90b1" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Element name="organizationName" ConceptLink="http://www.wikidata.org/entity/Q43229" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>The full name of an organization</Documentation>
                                 </Element>
                                 <Element name="organizationShortName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
@@ -793,7 +793,7 @@
                                     <Documentation>The name of the department or unit (e.g. specific university faculty or department, department or unit of a research organization or private company etc.)</Documentation>
                                 </Element>
                                 <Component name="communicationInfo" ComponentRef="clarin.eu:cr1:c_1387365569652" CardinalityMin="0" CardinalityMax="1">
-                                    <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                    <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                         <Documentation>The email address of a person or an organization</Documentation>
                                         <ValueScheme>
                                             <pattern>[^@]+@[^\.]+\..+|</pattern>
@@ -808,10 +808,10 @@
                                     <Element name="address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2505_b61e249b-ac68-b40a-0f21-03a4a26e16b4" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                         <Documentation>The street and the number of the postal address of a person or organization</Documentation>
                                     </Element>
-                                    <Element name="country" ConceptLink="http://hdl.handle.net/11459/CCR_C-3792_68c770a4-d58c-46dd-d429-5609ce5f81c3" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                    <Element name="country" ConceptLink="http://www.wikidata.org/entity/Q11420631" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                         <Documentation>The name of the country mentioned in the postal address of a person or organization as defined in the list of values of ISO 3166</Documentation>
                                     </Element>
-                                    <Element name="telephoneNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2461_76a92748-423e-46a0-cc7c-84a7d1c46794" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                                    <Element name="telephoneNumber" ConceptLink="http://www.wikidata.org/entity/Q214995 " ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
                                         <Documentation>The telephone number of a person or an organization; recommended format: +_international code_city code_number</Documentation>
                                     </Element>
                                 </Component>
@@ -821,7 +821,7 @@
                 </Component>
                 <Component name="validatorOrganization" ComponentRef="clarin.eu:cr1:c_1387365569697" CardinalityMin="0" CardinalityMax="unbounded">
                     <Component name="organizationInfo" ComponentRef="clarin.eu:cr1:c_1387365569653" CardinalityMin="1" CardinalityMax="1">
-                        <Element name="organizationName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2459_fc4e74d6-84de-c8cd-1ae8-2c2be5ee90b1" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                        <Element name="organizationName" ConceptLink="http://www.wikidata.org/entity/Q43229" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                             <Documentation>The full name of an organization</Documentation>
                         </Element>
                         <Element name="organizationShortName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
@@ -831,7 +831,7 @@
                             <Documentation>The name of the department or unit (e.g. specific university faculty or department, department or unit of a research organization or private company etc.)</Documentation>
                         </Element>
                         <Component name="communicationInfo" ComponentRef="clarin.eu:cr1:c_1387365569652" CardinalityMin="0" CardinalityMax="1">
-                            <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>The email address of a person or an organization</Documentation>
                                 <ValueScheme>
                                     <pattern>[^@]+@[^\.]+\..+|</pattern>
@@ -846,10 +846,10 @@
                             <Element name="address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2505_b61e249b-ac68-b40a-0f21-03a4a26e16b4" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                 <Documentation>The street and the number of the postal address of a person or organization</Documentation>
                             </Element>
-                            <Element name="country" ConceptLink="http://hdl.handle.net/11459/CCR_C-3792_68c770a4-d58c-46dd-d429-5609ce5f81c3" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                            <Element name="country" ConceptLink="http://www.wikidata.org/entity/Q11420631" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                 <Documentation>The name of the country mentioned in the postal address of a person or organization as defined in the list of values of ISO 3166</Documentation>
                             </Element>
-                            <Element name="telephoneNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2461_76a92748-423e-46a0-cc7c-84a7d1c46794" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                            <Element name="telephoneNumber" ConceptLink="http://www.wikidata.org/entity/Q214995 " ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
                                 <Documentation>The telephone number of a person or an organization; recommended format: +_international code_city code_number</Documentation>
                             </Element>
                         </Component>
@@ -889,7 +889,7 @@
                 </Element>
             </Component>
             <Component name="languageInfo" ComponentRef="clarin.eu:cr1:c_1387365569679" CardinalityMin="1" CardinalityMax="unbounded">
-                <Element name="languageId" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                <Element name="languageId" ConceptLink="http://www.wikidata.org/entity/Q2092812" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                     <Documentation>The identifier of the language that is included in the resource or supported by the tool/service; an autocompletion mechanism with values from the ISO 639 is provided in the editor, but the values can be subsequently edited for further specification (according to the IETF BCP47 guidelines)</Documentation>
                 </Element>
                 <Element name="languageName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
@@ -897,10 +897,10 @@
                 </Element>
                 <Component name="sizePerLanguage" ComponentRef="clarin.eu:cr1:c_1387365569666" CardinalityMin="0" CardinalityMax="1">
                     <Component name="sizeInfo" ComponentRef="clarin.eu:cr1:c_1353678848785" CardinalityMin="1" CardinalityMax="1">
-                        <Element name="size" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                        <Element name="size" ConceptLink="http://www.wikidata.org/entity/Q322481" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                             <Documentation>Specifies the size of the resource with regard to the sizeUnit measurement in form of a number</Documentation>
                         </Element>
-                        <Element name="sizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" CardinalityMin="1" CardinalityMax="1">
+                        <Element name="sizeUnit" ConceptLink="http://www.wikidata.org/entity/P1880" CardinalityMin="1" CardinalityMax="1">
                             <Documentation>Specifies the unit that is used when providing information on the size of the resource or of resource parts</Documentation>
                             <ValueScheme>
                                 <Vocabulary>
@@ -988,10 +988,10 @@
                             </ValueScheme>
                         </Element>
                         <Component name="sizeInfo" ComponentRef="clarin.eu:cr1:c_1353678848785" CardinalityMin="1" CardinalityMax="1">
-                            <Element name="size" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Element name="size" ConceptLink="http://www.wikidata.org/entity/Q322481" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>Specifies the size of the resource with regard to the sizeUnit measurement in form of a number</Documentation>
                             </Element>
-                            <Element name="sizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" CardinalityMin="1" CardinalityMax="1">
+                            <Element name="sizeUnit" ConceptLink="http://www.wikidata.org/entity/P1880" CardinalityMin="1" CardinalityMax="1">
                                 <Documentation>Specifies the unit that is used when providing information on the size of the resource or of resource parts</Documentation>
                                 <ValueScheme>
                                     <Vocabulary>
@@ -1054,7 +1054,7 @@
                 </Component>
             </Component>
             <Component name="modalityInfo" ComponentRef="clarin.eu:cr1:c_1387365569681" CardinalityMin="0" CardinalityMax="unbounded">
-                <Element name="modalityType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2490_44bc38a3-1799-4149-c791-40ac0176f0ff" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                <Element name="modalityType" ConceptLink="http://www.wikidata.org/entity/Q1243600" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                     <Documentation>Specifies the type of the modality represented in the resource or processed by a tool/service</Documentation>
                     <ValueScheme>
                         <Vocabulary>
@@ -1076,10 +1076,10 @@
                 </Element>
                 <Component name="sizePerModality" ComponentRef="clarin.eu:cr1:c_1387365569680" CardinalityMin="0" CardinalityMax="1">
                     <Component name="sizeInfo" ComponentRef="clarin.eu:cr1:c_1353678848785" CardinalityMin="1" CardinalityMax="1">
-                        <Element name="size" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                        <Element name="size" ConceptLink="http://www.wikidata.org/entity/Q322481" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                             <Documentation>Specifies the size of the resource with regard to the sizeUnit measurement in form of a number</Documentation>
                         </Element>
-                        <Element name="sizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" CardinalityMin="1" CardinalityMax="1">
+                        <Element name="sizeUnit" ConceptLink="http://www.wikidata.org/entity/P1880" CardinalityMin="1" CardinalityMax="1">
                             <Documentation>Specifies the unit that is used when providing information on the size of the resource or of resource parts</Documentation>
                             <ValueScheme>
                                 <Vocabulary>
@@ -1141,10 +1141,10 @@
                 </Component>
             </Component>
             <Component name="sizeInfo" ComponentRef="clarin.eu:cr1:c_1353678848785" CardinalityMin="1" CardinalityMax="unbounded">
-                <Element name="size" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                <Element name="size" ConceptLink="http://www.wikidata.org/entity/Q322481" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                     <Documentation>Specifies the size of the resource with regard to the sizeUnit measurement in form of a number</Documentation>
                 </Element>
-                <Element name="sizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" CardinalityMin="1" CardinalityMax="1">
+                <Element name="sizeUnit" ConceptLink="http://www.wikidata.org/entity/P1880" CardinalityMin="1" CardinalityMax="1">
                     <Documentation>Specifies the unit that is used when providing information on the size of the resource or of resource parts</Documentation>
                     <ValueScheme>
                         <Vocabulary>
@@ -1237,10 +1237,10 @@
                 </Element>
                 <Component name="sizePerTimeCoverage" ComponentRef="clarin.eu:cr1:c_1387365569668" CardinalityMin="0" CardinalityMax="1">
                     <Component name="sizeInfo" ComponentRef="clarin.eu:cr1:c_1353678848785" CardinalityMin="1" CardinalityMax="1">
-                        <Element name="size" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                        <Element name="size" ConceptLink="http://www.wikidata.org/entity/Q322481" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                             <Documentation>Specifies the size of the resource with regard to the sizeUnit measurement in form of a number</Documentation>
                         </Element>
-                        <Element name="sizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" CardinalityMin="1" CardinalityMax="1">
+                        <Element name="sizeUnit" ConceptLink="http://www.wikidata.org/entity/P1880" CardinalityMin="1" CardinalityMax="1">
                             <Documentation>Specifies the unit that is used when providing information on the size of the resource or of resource parts</Documentation>
                             <ValueScheme>
                                 <Vocabulary>
@@ -1307,10 +1307,10 @@
                 </Element>
                 <Component name="sizePerGeographicCoverage" ComponentRef="clarin.eu:cr1:c_1387365569673" CardinalityMin="0" CardinalityMax="1">
                     <Component name="sizeInfo" ComponentRef="clarin.eu:cr1:c_1353678848785" CardinalityMin="1" CardinalityMax="1">
-                        <Element name="size" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                        <Element name="size" ConceptLink="http://www.wikidata.org/entity/Q322481" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                             <Documentation>Specifies the size of the resource with regard to the sizeUnit measurement in form of a number</Documentation>
                         </Element>
-                        <Element name="sizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" CardinalityMin="1" CardinalityMax="1">
+                        <Element name="sizeUnit" ConceptLink="http://www.wikidata.org/entity/P1880" CardinalityMin="1" CardinalityMax="1">
                             <Documentation>Specifies the unit that is used when providing information on the size of the resource or of resource parts</Documentation>
                             <ValueScheme>
                                 <Vocabulary>
@@ -1374,7 +1374,7 @@
         </Component>
         <Component name="textCorpusInfo" ComponentRef="clarin.eu:cr1:c_1387365569686" CardinalityMin="1" CardinalityMax="1">
             <Component name="textClassificationInfo" ComponentRef="clarin.eu:cr1:c_1387365569678" CardinalityMin="0" CardinalityMax="unbounded">
-                <Element name="textGenre" ConceptLink="http://hdl.handle.net/11459/CCR_C-2470_d191f2b2-6339-f031-b534-70d526b28357" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                <Element name="textGenre" ConceptLink="http://www.wikidata.org/entity/Q483394" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                     <Documentation>Genre: The conventionalized discourse or text types of the content of the resource, based on extra-linguistic and internal linguistic criteria, e.g. poetry or nonfiction</Documentation>
                 </Element>
                 <Element name="textType" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
@@ -1383,7 +1383,7 @@
                 <Element name="register" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
                     <Documentation>Register classification</Documentation>
                 </Element>
-                <Element name="subject_topic" ConceptLink="http://hdl.handle.net/11459/CCR_C-2503_72bd598f-4abf-e122-ed93-f2adf1ab8785" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                <Element name="subject_topic" ConceptLink="http://www.wikidata.org/entity/Q26256810 " ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
                     <Documentation>Describes the knowledge domain of the resource.</Documentation>
                 </Element>
                 <Element name="conformanceToClassificationScheme" CardinalityMin="0" CardinalityMax="1">
@@ -1411,10 +1411,10 @@
                 </Element>
                 <Component name="sizePerTextClassification" ComponentRef="clarin.eu:cr1:c_1387365569670" CardinalityMin="0" CardinalityMax="1">
                     <Component name="sizeInfo" ComponentRef="clarin.eu:cr1:c_1353678848785" CardinalityMin="1" CardinalityMax="1">
-                        <Element name="size" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                        <Element name="size" ConceptLink="http://www.wikidata.org/entity/Q322481" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                             <Documentation>Specifies the size of the resource with regard to the sizeUnit measurement in form of a number</Documentation>
                         </Element>
-                        <Element name="sizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" CardinalityMin="1" CardinalityMax="1">
+                        <Element name="sizeUnit" ConceptLink="http://www.wikidata.org/entity/P1880" CardinalityMin="1" CardinalityMax="1">
                             <Documentation>Specifies the unit that is used when providing information on the size of the resource or of resource parts</Documentation>
                             <ValueScheme>
                                 <Vocabulary>
@@ -1477,15 +1477,15 @@
             </Component>
             <Component name="textTechnicalInfo" ComponentRef="clarin.eu:cr1:c_1396012485187" CardinalityMin="1" CardinalityMax="1">
                 <Component name="textFormatInfo" ComponentRef="clarin.eu:cr1:c_1387365569684" CardinalityMin="1" CardinalityMax="unbounded">
-                    <Element name="mimeType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                    <Element name="mimeType" ConceptLink="http://www.wikidata.org/entity/Q1667978" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                         <Documentation>The mime-type of the resource which is a formalized specifier for the format included or a mime-type that the tool/service accepts; value to be taken from a subset of the official mime types of the Internet Assigned Numbers Authority</Documentation>
                     </Element>
                     <Component name="sizePerFormat" ComponentRef="clarin.eu:cr1:c_1387365569669" CardinalityMin="0" CardinalityMax="1">
                         <Component name="sizeInfo" ComponentRef="clarin.eu:cr1:c_1353678848785" CardinalityMin="1" CardinalityMax="1">
-                            <Element name="size" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Element name="size" ConceptLink="http://www.wikidata.org/entity/Q322481" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>Specifies the size of the resource with regard to the sizeUnit measurement in form of a number</Documentation>
                             </Element>
-                            <Element name="sizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" CardinalityMin="1" CardinalityMax="1">
+                            <Element name="sizeUnit" ConceptLink="http://www.wikidata.org/entity/P1880" CardinalityMin="1" CardinalityMax="1">
                                 <Documentation>Specifies the unit that is used when providing information on the size of the resource or of resource parts</Documentation>
                                 <ValueScheme>
                                     <Vocabulary>
@@ -1547,7 +1547,7 @@
                     </Component>
                 </Component>
                 <Component name="otherFormatInfo" ComponentRef="clarin.eu:cr1:c_1391763610431" CardinalityMin="0" CardinalityMax="unbounded">
-                    <Element name="mimeType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                    <Element name="mimeType" ConceptLink="http://www.wikidata.org/entity/Q1667978" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                         <Documentation>The mime-type of the resource which is a formalized specifier for the format included or a mime-type that the tool/service accepts; value to be taken from a subset of the official mime types of the Internet Assigned Numbers Authority</Documentation>
                     </Element>
                     <Element name="description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
@@ -1555,10 +1555,10 @@
                     </Element>
                     <Component name="sizePerFormat" ComponentRef="clarin.eu:cr1:c_1387365569669" CardinalityMin="0" CardinalityMax="1">
                         <Component name="sizeInfo" ComponentRef="clarin.eu:cr1:c_1353678848785" CardinalityMin="1" CardinalityMax="1">
-                            <Element name="size" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Element name="size" ConceptLink="http://www.wikidata.org/entity/Q322481" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>Specifies the size of the resource with regard to the sizeUnit measurement in form of a number</Documentation>
                             </Element>
-                            <Element name="sizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" CardinalityMin="1" CardinalityMax="1">
+                            <Element name="sizeUnit" ConceptLink="http://www.wikidata.org/entity/P1880" CardinalityMin="1" CardinalityMax="1">
                                 <Documentation>Specifies the unit that is used when providing information on the size of the resource or of resource parts</Documentation>
                                 <ValueScheme>
                                     <Vocabulary>
@@ -1620,15 +1620,15 @@
                     </Component>
                 </Component>
                 <Component name="characterEncodingInfo" ComponentRef="clarin.eu:cr1:c_1387365569685" CardinalityMin="0" CardinalityMax="1">
-                    <Element name="characterEncoding" ConceptLink="http://hdl.handle.net/11459/CCR_C-2564_880b1108-6b03-647f-eed9-cdfbd464c661" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                    <Element name="characterEncoding" ConceptLink="http://www.wikidata.org/entity/Q184759" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                         <Documentation>The name of the character encoding used in the resource or accepted by the tool/service</Documentation>
                     </Element>
                     <Component name="sizePerCharacterEncoding" ComponentRef="clarin.eu:cr1:c_1387365569674" CardinalityMin="0" CardinalityMax="1">
                         <Component name="sizeInfo" ComponentRef="clarin.eu:cr1:c_1353678848785" CardinalityMin="1" CardinalityMax="1">
-                            <Element name="size" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Element name="size" ConceptLink="http://www.wikidata.org/entity/Q322481" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>Specifies the size of the resource with regard to the sizeUnit measurement in form of a number</Documentation>
                             </Element>
-                            <Element name="sizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" CardinalityMin="1" CardinalityMax="1">
+                            <Element name="sizeUnit" ConceptLink="http://www.wikidata.org/entity/P1880" CardinalityMin="1" CardinalityMax="1">
                                 <Documentation>Specifies the unit that is used when providing information on the size of the resource or of resource parts</Documentation>
                                 <ValueScheme>
                                     <Vocabulary>
@@ -1765,7 +1765,7 @@
                     <Element name="annotationStandoff" ConceptLink="http://hdl.handle.net/11459/CCR_C-2507_94b29b04-98e8-fca3-a0ef-3a44d795b0da" ValueScheme="boolean" CardinalityMin="0" CardinalityMax="1">
                         <Documentation>Indicates whether the annotation is created inline or in a stand-off fashion</Documentation>
                     </Element>
-                    <Element name="annotationFormat" ConceptLink="http://hdl.handle.net/11459/CCR_C-2562_872eb94a-47fb-b551-2f64-13ded063259e" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                    <Element name="annotationFormat" ConceptLink="http://www.wikidata.org/entity/Q57780370" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                         <Documentation>Specifies the format that is used in the annotation process since often the mime type will not be sufficient for machine processing</Documentation>
                     </Element>
                     <Element name="tagset" ConceptLink="http://hdl.handle.net/11459/CCR_C-2497_6e93b9ce-1be7-248f-ab63-ba0b9c63661f" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
@@ -1861,10 +1861,10 @@
                     </Element>
                     <Component name="sizePerAnnotation" ComponentRef="clarin.eu:cr1:c_1387365569675" CardinalityMin="0" CardinalityMax="1">
                         <Component name="sizeInfo" ComponentRef="clarin.eu:cr1:c_1353678848785" CardinalityMin="1" CardinalityMax="1">
-                            <Element name="size" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Element name="size" ConceptLink="http://www.wikidata.org/entity/Q322481" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>Specifies the size of the resource with regard to the sizeUnit measurement in form of a number</Documentation>
                             </Element>
-                            <Element name="sizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" CardinalityMin="1" CardinalityMax="1">
+                            <Element name="sizeUnit" ConceptLink="http://www.wikidata.org/entity/P1880" CardinalityMin="1" CardinalityMax="1">
                                 <Documentation>Specifies the unit that is used when providing information on the size of the resource or of resource parts</Documentation>
                                 <ValueScheme>
                                     <Vocabulary>
@@ -1928,19 +1928,19 @@
                         <Element name="annotationToolName" ConceptLink="http://hdl.handle.net/11459/CCR_C-3785_8efaa065-756e-3a66-12de-75b72dec7e50" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                             <Documentation>Indication of the name of the tool which is used for annotating the resource.</Documentation>
                         </Element>
-                        <Element name="annotationToolType" ConceptLink="http://hdl.handle.net/11459/CCR_C-3810_7d3b783a-d2c6-51fc-01ab-6a8a658d94c8" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                        <Element name="annotationToolType" ConceptLink="http://www.wikidata.org/entity/Q123588392" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                             <Documentation>Indication of the type of the tool, e.g. lemmatizer, chunker, segmentation tool, corpus manager, editor, concordancer, tagger.</Documentation>
                         </Element>
-                        <Element name="version" ConceptLink="http://hdl.handle.net/11459/CCR_C-2547_7883d382-b3ce-8ab4-7052-0138525a8ba1" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                        <Element name="version" ConceptLink="http://www.wikidata.org/entity/Q12343820" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                             <Documentation>A number that identifies the version of the tool.</Documentation>
                         </Element>
-                        <Element name="inputFileFormat" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                        <Element name="inputFileFormat" ConceptLink="http://www.wikidata.org/entity/Q1667978" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                             <Documentation>Specification of the mime-type that the tool accepts as input.</Documentation>
                         </Element>
                         <Element name="inputDescription" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                             <Documentation>A description in general prose text of the input to the tool</Documentation>
                         </Element>
-                        <Element name="outputFileFormat" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                        <Element name="outputFileFormat" ConceptLink="http://www.wikidata.org/entity/Q1667978" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                             <Documentation>Specification of the mime-type that the tool produces as output.</Documentation>
                         </Element>
                         <Element name="toolDescription" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
@@ -1955,13 +1955,13 @@
                             <Element name="documentationType" ConceptLink="http://hdl.handle.net/11459/CCR_C-5434_9c284553-b24c-d3ea-f3e8-5bebf0ee5f44" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>Indication of the type of documentation of a resource, e.g. manual, (readme) file, website.</Documentation>
                             </Element>
-                            <Element name="fileName" ConceptLink="http://hdl.handle.net/11459/CCR_C-5435_155a7fae-a941-e6a8-4b63-4f6d1bd0c2aa" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                            <Element name="fileName" ConceptLink="http://www.wikidata.org/entity/Q1144928" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                 <Documentation>Indication of the name of a file.</Documentation>
                             </Element>
                             <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-2546_180dca37-c1d8-dffe-5d46-8f16de143320" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                 <Documentation>An URL referring to the documentation of the resource.</Documentation>
                             </Element>
-                            <Element name="documentationLanguageId" ConceptLink="http://hdl.handle.net/11459/CCR_C-2482_08eded24-4086-7e3f-88e5-e0807fb01e17" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                            <Element name="documentationLanguageId" ConceptLink="http://www.wikidata.org/entity/Q2092812" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
                                 <Documentation>Identifier of the documentation language as defined by ISO 639</Documentation>
                             </Element>
                             <Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
@@ -1983,10 +1983,10 @@
                                 </ValueScheme>
                             </Element>
                             <Component name="personInfo" ComponentRef="clarin.eu:cr1:c_1387365569655" CardinalityMin="1" CardinalityMax="1">
-                                <Element name="surname" ConceptLink="http://hdl.handle.net/11459/CCR_C-5521_8f30e11f-1bff-420e-511b-2b5893bdc37c" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Element name="surname" ConceptLink="http://www.wikidata.org/entity/Q101352" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>The surname (family name) of a person related to the resource</Documentation>
                                 </Element>
-                                <Element name="givenName" ConceptLink="http://hdl.handle.net/11459/CCR_C-5520_d7d87a12-7b39-0364-795b-69347ede7de7" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
+                                <Element name="givenName" ConceptLink="http://www.wikidata.org/entity/Q202444" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
                                     <Documentation>The given name (first name) of a person related to the resource; initials can also be used</Documentation>
                                 </Element>
                                 <Element name="sex" ConceptLink="http://hdl.handle.net/11459/CCR_C-2560_ebb466e1-2b6b-6701-4e64-94618b4b455b" CardinalityMin="0" CardinalityMax="1">
@@ -1994,9 +1994,9 @@
                                     <ValueScheme>
                                         <Vocabulary>
                                             <enumeration>
-                                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2949_10ed5b3b-2e62-a962-dac3-300f3df5441a" AppInfo="">male</item>
-                                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2950_38f5b23e-097e-2ceb-e5f7-b16756638b89" AppInfo="">female</item>
-                                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2591_f769d93b-c007-d2c9-aff2-99e9177e5764" AppInfo="">unknown</item>
+                                                <item ConceptLink="http://www.wikidata.org/entity/Q6581097" AppInfo="">male</item>
+                                                <item ConceptLink="http://www.wikidata.org/entity/Q6581072" AppInfo="">female</item>
+                                                <item ConceptLink="http://www.wikidata.org/entity/Q24238356" AppInfo="">unknown</item>
                                             </enumeration>
                                         </Vocabulary>
                                     </ValueScheme>
@@ -2005,7 +2005,7 @@
                                     <Documentation>The position or the title of a person if affiliated to an organization</Documentation>
                                 </Element>
                                 <Component name="communicationInfo" ComponentRef="clarin.eu:cr1:c_1387365569652" CardinalityMin="0" CardinalityMax="1">
-                                    <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                    <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                         <Documentation>The email address of a person or an organization</Documentation>
                                         <ValueScheme>
                                             <pattern>[^@]+@[^\.]+\..+|</pattern>
@@ -2020,16 +2020,16 @@
                                     <Element name="address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2505_b61e249b-ac68-b40a-0f21-03a4a26e16b4" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                         <Documentation>The street and the number of the postal address of a person or organization</Documentation>
                                     </Element>
-                                    <Element name="country" ConceptLink="http://hdl.handle.net/11459/CCR_C-3792_68c770a4-d58c-46dd-d429-5609ce5f81c3" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                    <Element name="country" ConceptLink="http://www.wikidata.org/entity/Q11420631" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                         <Documentation>The name of the country mentioned in the postal address of a person or organization as defined in the list of values of ISO 3166</Documentation>
                                     </Element>
-                                    <Element name="telephoneNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2461_76a92748-423e-46a0-cc7c-84a7d1c46794" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                                    <Element name="telephoneNumber" ConceptLink="http://www.wikidata.org/entity/Q214995 " ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
                                         <Documentation>The telephone number of a person or an organization; recommended format: +_international code_city code_number</Documentation>
                                     </Element>
                                 </Component>
                                 <Component name="affiliation" ComponentRef="clarin.eu:cr1:c_1388512733001" CardinalityMin="0" CardinalityMax="1">
                                     <Component name="organizationInfo" ComponentRef="clarin.eu:cr1:c_1387365569653" CardinalityMin="1" CardinalityMax="1">
-                                        <Element name="organizationName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2459_fc4e74d6-84de-c8cd-1ae8-2c2be5ee90b1" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                        <Element name="organizationName" ConceptLink="http://www.wikidata.org/entity/Q43229" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                             <Documentation>The full name of an organization</Documentation>
                                         </Element>
                                         <Element name="organizationShortName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
@@ -2039,7 +2039,7 @@
                                             <Documentation>The name of the department or unit (e.g. specific university faculty or department, department or unit of a research organization or private company etc.)</Documentation>
                                         </Element>
                                         <Component name="communicationInfo" ComponentRef="clarin.eu:cr1:c_1387365569652" CardinalityMin="0" CardinalityMax="1">
-                                            <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                            <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                                 <Documentation>The email address of a person or an organization</Documentation>
                                                 <ValueScheme>
                                                     <pattern>[^@]+@[^\.]+\..+|</pattern>
@@ -2054,10 +2054,10 @@
                                             <Element name="address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2505_b61e249b-ac68-b40a-0f21-03a4a26e16b4" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                                 <Documentation>The street and the number of the postal address of a person or organization</Documentation>
                                             </Element>
-                                            <Element name="country" ConceptLink="http://hdl.handle.net/11459/CCR_C-3792_68c770a4-d58c-46dd-d429-5609ce5f81c3" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                            <Element name="country" ConceptLink="http://www.wikidata.org/entity/Q11420631" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                                 <Documentation>The name of the country mentioned in the postal address of a person or organization as defined in the list of values of ISO 3166</Documentation>
                                             </Element>
-                                            <Element name="telephoneNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2461_76a92748-423e-46a0-cc7c-84a7d1c46794" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                                            <Element name="telephoneNumber" ConceptLink="http://www.wikidata.org/entity/Q214995 " ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
                                                 <Documentation>The telephone number of a person or an organization; recommended format: +_international code_city code_number</Documentation>
                                             </Element>
                                         </Component>
@@ -2078,7 +2078,7 @@
                                 </ValueScheme>
                             </Element>
                             <Component name="organizationInfo" ComponentRef="clarin.eu:cr1:c_1387365569653" CardinalityMin="1" CardinalityMax="1">
-                                <Element name="organizationName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2459_fc4e74d6-84de-c8cd-1ae8-2c2be5ee90b1" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Element name="organizationName" ConceptLink="http://www.wikidata.org/entity/Q43229" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>The full name of an organization</Documentation>
                                 </Element>
                                 <Element name="organizationShortName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true">
@@ -2088,7 +2088,7 @@
                                     <Documentation>The name of the department or unit (e.g. specific university faculty or department, department or unit of a research organization or private company etc.)</Documentation>
                                 </Element>
                                 <Component name="communicationInfo" ComponentRef="clarin.eu:cr1:c_1387365569652" CardinalityMin="0" CardinalityMax="1">
-                                    <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                    <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                         <Documentation>The email address of a person or an organization</Documentation>
                                         <ValueScheme>
                                             <pattern>[^@]+@[^\.]+\..+|</pattern>
@@ -2103,10 +2103,10 @@
                                     <Element name="address" ConceptLink="http://hdl.handle.net/11459/CCR_C-2505_b61e249b-ac68-b40a-0f21-03a4a26e16b4" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                         <Documentation>The street and the number of the postal address of a person or organization</Documentation>
                                     </Element>
-                                    <Element name="country" ConceptLink="http://hdl.handle.net/11459/CCR_C-3792_68c770a4-d58c-46dd-d429-5609ce5f81c3" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                    <Element name="country" ConceptLink="http://www.wikidata.org/entity/Q11420631" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                         <Documentation>The name of the country mentioned in the postal address of a person or organization as defined in the list of values of ISO 3166</Documentation>
                                     </Element>
-                                    <Element name="telephoneNumber" ConceptLink="http://hdl.handle.net/11459/CCR_C-2461_76a92748-423e-46a0-cc7c-84a7d1c46794" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                                    <Element name="telephoneNumber" ConceptLink="http://www.wikidata.org/entity/Q214995 " ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
                                         <Documentation>The telephone number of a person or an organization; recommended format: +_international code_city code_number</Documentation>
                                     </Element>
                                 </Component>

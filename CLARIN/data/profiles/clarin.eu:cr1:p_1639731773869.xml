@@ -9,9 +9,9 @@
     </Header>
     <Component name="MetadataCollection" CardinalityMin="1" CardinalityMax="1">
         <Component name="TitleInfo" ComponentRef="clarin.eu:cr1:c_1595321762412" CardinalityMin="1" CardinalityMax="1">
-            <Element name="title" ConceptLink="http://hdl.handle.net/11459/CCR_C-5125_4259bcdc-74e3-0d71-ef4b-39cc70e4e779" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-            <Element name="alternativeTitle" ConceptLink="http://hdl.handle.net/11459/CCR_C-5125_4259bcdc-74e3-0d71-ef4b-39cc70e4e779" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
-            <Element name="subtitle" ConceptLink="http://hdl.handle.net/11459/CCR_C-5744_7d34a745-29d0-fe5c-ffc0-13c18c21fdcd" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
+            <Element name="title" ConceptLink="http://www.wikidata.org/entity/Q59154876 " ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+            <Element name="alternativeTitle" ConceptLink="http://www.wikidata.org/entity/Q59154876 " ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
+            <Element name="subtitle" ConceptLink="http://www.wikidata.org/entity/Q1135389" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
         </Component>
         <Component name="Description" ComponentRef="clarin.eu:cr1:c_1595321762411" CardinalityMin="1" CardinalityMax="1">
             <Element name="description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
@@ -22,7 +22,7 @@
             </Element>
             <Element name="label" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
         </Component>
-        <Component name="Keyword" ComponentRef="clarin.eu:cr1:c_1595321762456" ConceptLink="http://hdl.handle.net/11459/CCR_C-278_336dd81a-626b-713e-c74a-34fa2ca26a71" CardinalityMin="0" CardinalityMax="unbounded">
+        <Component name="Keyword" ComponentRef="clarin.eu:cr1:c_1595321762456" ConceptLink="http://www.wikidata.org/entity/Q12310022" CardinalityMin="0" CardinalityMax="unbounded">
             <Element name="identifier" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
             <Element name="label" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
         </Component>
@@ -30,15 +30,15 @@
             <Element name="identifier" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
             <Element name="name" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
             <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
-                <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
             </Component>
         </Component>
         <Component name="Language" ComponentRef="clarin.eu:cr1:c_1595321762414" CardinalityMin="0" CardinalityMax="unbounded">
-            <Element name="name" ConceptLink="http://hdl.handle.net/11459/CCR_C-6122_bfcb3f6b-467f-f95e-91b3-d0925530d8e7" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+            <Element name="name" ConceptLink="http://www.wikidata.org/entity/Q147276 " ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                 <Documentation>Name or alternative name of the language specified through the ISO code for display or discovery purposes</Documentation>
             </Element>
-            <Element name="code" CardinalityMin="1" CardinalityMax="1">
+            <Element name="code" CardinalityMin="0" CardinalityMax="1">
                 <Documentation>ISO 639-3 code</Documentation>
                 <ValueScheme>
                     <Vocabulary URI="http://hdl.handle.net/11459/CLAVAS_810f8d2a-6723-3ba6-2e57-41d6d3844816" ValueProperty="prefLabel" ValueLanguage="en"/>
@@ -69,8 +69,8 @@
             <Element name="identifier" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
             <Element name="label" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
             <Element name="description" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true"/>
-            <Component name="Country" ComponentRef="clarin.eu:cr1:c_1595321762419" ConceptLink="http://hdl.handle.net/11459/CCR_C-2532_d004b0a6-fd1d-3ca3-abf1-1e6aeb3e37b2" CardinalityMin="0">
-                <Element name="code" ConceptLink="http://hdl.handle.net/11459/CCR_C-2532_d004b0a6-fd1d-3ca3-abf1-1e6aeb3e37b2" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+            <Component name="Country" ComponentRef="clarin.eu:cr1:c_1595321762419" ConceptLink="http://www.wikidata.org/entity/Q6256" CardinalityMin="0">
+                <Element name="code" ConceptLink="http://www.wikidata.org/entity/Q6256" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                     <Documentation>Recommended; omit only if the country that needs to be specified is not included in the country codes list</Documentation>
                     <ValueScheme>
                         <Vocabulary>
@@ -372,7 +372,7 @@
                     <Attribute name="type" ValueScheme="string"/>
                 </AttributeList>
             </Element>
-            <Component name="Licence" ComponentRef="clarin.eu:cr1:c_1595321762457" ConceptLink="http://hdl.handle.net/11459/CCR_C-2457_45bbaa1a-7002-2ecd-ab9d-57a189f694a6" CardinalityMin="0" CardinalityMax="unbounded">
+            <Component name="Licence" ComponentRef="clarin.eu:cr1:c_1595321762457" ConceptLink="http://www.wikidata.org/entity/Q79719" CardinalityMin="0" CardinalityMax="unbounded">
                 <Element name="identifier" ConceptLink="http://hdl.handle.net/11459/CCR_C-6586_2c79d86a-5a75-0890-d407-7d9cb86b9beb" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                     <Documentation>Identifier of the licence</Documentation>
                 </Element>
@@ -391,8 +391,8 @@
                 <Element name="identifier" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                 <Element name="label" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                 <Component name="AgentInfo" ComponentRef="clarin.eu:cr1:c_1595321762451" CardinalityMin="0" CardinalityMax="1">
-                    <Component name="PersonInfo" ComponentRef="clarin.eu:cr1:c_1595321762426" ConceptLink="http://hdl.handle.net/11459/CCR_C-5042_226e1c92-9f09-ae93-0875-c4fe8814b3b8" CardinalityMin="0" CardinalityMax="1">
-                        <Element name="name" ConceptLink="http://hdl.handle.net/11459/CCR_C-5776_ed733b40-67dc-099e-6a96-cb56634109e4" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                    <Component name="PersonInfo" ComponentRef="clarin.eu:cr1:c_1595321762426" ConceptLink="http://www.wikidata.org/entity/Q215627" CardinalityMin="0" CardinalityMax="1">
+                        <Element name="name" ConceptLink="http://www.wikidata.org/entity/Q147276" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                             <Documentation>Complete name, alias or other label for an individual suitable for display and discovery purposes.</Documentation>
                         </Element>
                         <Element name="alternativeName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
@@ -405,11 +405,11 @@
                         </Element>
                         <Element name="affiliation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                         <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
-                            <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                            <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                            <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                            <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
                         </Component>
                     </Component>
-                    <Component name="OrganisationInfo" ComponentRef="clarin.eu:cr1:c_1595321762452" ConceptLink="http://hdl.handle.net/11459/CCR_C-5170_ed855189-9d5f-8f31-cc70-499c055d0100" CardinalityMin="0" CardinalityMax="1">
+                    <Component name="OrganisationInfo" ComponentRef="clarin.eu:cr1:c_1595321762452" ConceptLink="http://www.wikidata.org/entity/Q2029841" CardinalityMin="0" CardinalityMax="1">
                         <Element name="name" ConceptLink=" http://hdl.handle.net/11459/CCR_C-5776_ed733b40-67dc-099e-6a96-cb56634109e4" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                             <Documentation>Complete name, alias or other label for an individual suitable for display and discovery purposes.</Documentation>
                         </Element>
@@ -418,8 +418,16 @@
                         </Element>
                         <Element name="affiliation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                         <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
-                            <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                            <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                            <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                            <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                        </Component>
+                        <Component name="ParentOrganisation" CardinalityMin="0" CardinalityMax="unbounded">
+                            <Element name="identifier" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                            <Element name="label" ConceptLink="http://hdl.handle.net/11459/CCR_C-6243_bd27ac08-ec04-0db2-d95c-52f2a6b1e59d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                            <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
+                                <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                            </Component>
                         </Component>
                     </Component>
                 </Component>
@@ -431,8 +439,8 @@
                     <Element name="description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                 </Component>
                 <Component name="AgentInfo" ComponentRef="clarin.eu:cr1:c_1595321762451" CardinalityMin="1" CardinalityMax="1">
-                    <Component name="PersonInfo" ComponentRef="clarin.eu:cr1:c_1595321762426" ConceptLink="http://hdl.handle.net/11459/CCR_C-5042_226e1c92-9f09-ae93-0875-c4fe8814b3b8" CardinalityMin="0" CardinalityMax="1">
-                        <Element name="name" ConceptLink="http://hdl.handle.net/11459/CCR_C-5776_ed733b40-67dc-099e-6a96-cb56634109e4" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                    <Component name="PersonInfo" ComponentRef="clarin.eu:cr1:c_1595321762426" ConceptLink="http://www.wikidata.org/entity/Q215627" CardinalityMin="0" CardinalityMax="1">
+                        <Element name="name" ConceptLink="http://www.wikidata.org/entity/Q147276" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                             <Documentation>Complete name, alias or other label for an individual suitable for display and discovery purposes.</Documentation>
                         </Element>
                         <Element name="alternativeName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
@@ -445,11 +453,11 @@
                         </Element>
                         <Element name="affiliation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                         <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
-                            <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                            <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                            <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                            <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
                         </Component>
                     </Component>
-                    <Component name="OrganisationInfo" ComponentRef="clarin.eu:cr1:c_1595321762452" ConceptLink="http://hdl.handle.net/11459/CCR_C-5170_ed855189-9d5f-8f31-cc70-499c055d0100" CardinalityMin="0" CardinalityMax="1">
+                    <Component name="OrganisationInfo" ComponentRef="clarin.eu:cr1:c_1595321762452" ConceptLink="http://www.wikidata.org/entity/Q2029841" CardinalityMin="0" CardinalityMax="1">
                         <Element name="name" ConceptLink=" http://hdl.handle.net/11459/CCR_C-5776_ed733b40-67dc-099e-6a96-cb56634109e4" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                             <Documentation>Complete name, alias or other label for an individual suitable for display and discovery purposes.</Documentation>
                         </Element>
@@ -458,8 +466,16 @@
                         </Element>
                         <Element name="affiliation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                         <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
-                            <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                            <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                            <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                            <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                        </Component>
+                        <Component name="ParentOrganisation" CardinalityMin="0" CardinalityMax="unbounded">
+                            <Element name="identifier" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                            <Element name="label" ConceptLink="http://hdl.handle.net/11459/CCR_C-6243_bd27ac08-ec04-0db2-d95c-52f2a6b1e59d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                            <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
+                                <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                            </Component>
                         </Component>
                     </Component>
                 </Component>
@@ -467,7 +483,7 @@
         </Component>
         <Component name="Subresource" ComponentRef="clarin.eu:cr1:c_1595321762415" CardinalityMin="0" CardinalityMax="unbounded">
             <Component name="SubresourceDescription" ComponentRef="clarin.eu:cr1:c_1595321762413" CardinalityMin="0" CardinalityMax="1">
-                <Element name="label" ConceptLink="http://hdl.handle.net/11459/CCR_C-6122_bfcb3f6b-467f-f95e-91b3-d0925530d8e7" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                <Element name="label" ConceptLink="http://www.wikidata.org/entity/Q147276 " ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                     <Documentation>Name or title of the subresource</Documentation>
                 </Element>
                 <Element name="description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
@@ -475,9 +491,9 @@
                     <Documentation>A bibliographic reference for the resource</Documentation>
                 </Element>
                 <Component name="IdentificationInfo" ComponentRef="clarin.eu:cr1:c_1595321762421" CardinalityMin="0" CardinalityMax="1">
-                    <Element name="identifier" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                    <Element name="identifier" ConceptLink="http://hdl.handle.net/11459/CCR_C-3894_4d08cc31-25fe-af0c-add4-ca7bdc12f5f7" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                         <AttributeList>
-                            <Attribute name="type">
+                            <Attribute name="type" ConceptLink="http://hdl.handle.net/11459/CCR_C-5354_a4e41aa9-b8ba-59ea-a34e-6d7179e393be">
                                 <ValueScheme>
                                     <Vocabulary>
                                         <enumeration>
@@ -489,12 +505,12 @@
                             </Attribute>
                         </AttributeList>
                     </Element>
-                    <Element name="internalIdentifier" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                    <Element name="internalIdentifier" ConceptLink="http://hdl.handle.net/11459/CCR_C-3894_4d08cc31-25fe-af0c-add4-ca7bdc12f5f7" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
                         <AttributeList>
                             <Attribute name="type" ValueScheme="string"/>
                         </AttributeList>
                     </Element>
-                    <Element name="alternativeIdentifier" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                    <Element name="alternativeIdentifier" ConceptLink="http://hdl.handle.net/11459/CCR_C-3894_4d08cc31-25fe-af0c-add4-ca7bdc12f5f7" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
                         <AttributeList>
                             <Attribute name="type" ValueScheme="string"/>
                         </AttributeList>
@@ -507,10 +523,10 @@
                     <Element name="label" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                 </Component>
                 <Component name="Language" ComponentRef="clarin.eu:cr1:c_1595321762414" CardinalityMin="0" CardinalityMax="unbounded">
-                    <Element name="name" ConceptLink="http://hdl.handle.net/11459/CCR_C-6122_bfcb3f6b-467f-f95e-91b3-d0925530d8e7" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                    <Element name="name" ConceptLink="http://www.wikidata.org/entity/Q147276 " ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                         <Documentation>Name or alternative name of the language specified through the ISO code for display or discovery purposes</Documentation>
                     </Element>
-                    <Element name="code" CardinalityMin="1" CardinalityMax="1">
+                    <Element name="code" CardinalityMin="0" CardinalityMax="1">
                         <Documentation>ISO 639-3 code</Documentation>
                         <ValueScheme>
                             <Vocabulary URI="http://hdl.handle.net/11459/CLAVAS_810f8d2a-6723-3ba6-2e57-41d6d3844816" ValueProperty="prefLabel" ValueLanguage="en"/>
@@ -541,8 +557,8 @@
                     <Element name="identifier" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
                     <Element name="label" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                     <Element name="description" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true"/>
-                    <Component name="Country" ComponentRef="clarin.eu:cr1:c_1595321762419" ConceptLink="http://hdl.handle.net/11459/CCR_C-2532_d004b0a6-fd1d-3ca3-abf1-1e6aeb3e37b2" CardinalityMin="0">
-                        <Element name="code" ConceptLink="http://hdl.handle.net/11459/CCR_C-2532_d004b0a6-fd1d-3ca3-abf1-1e6aeb3e37b2" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                    <Component name="Country" ComponentRef="clarin.eu:cr1:c_1595321762419" ConceptLink="http://www.wikidata.org/entity/Q6256" CardinalityMin="0">
+                        <Element name="code" ConceptLink="http://www.wikidata.org/entity/Q6256" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                             <Documentation>Recommended; omit only if the country that needs to be specified is not included in the country codes list</Documentation>
                             <ValueScheme>
                                 <Vocabulary>
@@ -813,7 +829,7 @@
                         <Element name="elevation" ValueScheme="decimal" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                     </Component>
                 </Component>
-                <Component name="VersionInfo" ComponentRef="clarin.eu:cr1:c_1595321762424" ConceptLink="http://hdl.handle.net/11459/CCR_C-2547_7883d382-b3ce-8ab4-7052-0138525a8ba1" CardinalityMin="0" CardinalityMax="1">
+                <Component name="VersionInfo" ComponentRef="clarin.eu:cr1:c_1595321762424" ConceptLink="http://www.wikidata.org/entity/Q12343820" CardinalityMin="0" CardinalityMax="1">
                     <Element name="versionIdentifier" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                     <Element name="responsible" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                     <Element name="note" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true"/>
@@ -824,8 +840,8 @@
                         <Element name="identifier" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                         <Element name="label" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                         <Component name="AgentInfo" ComponentRef="clarin.eu:cr1:c_1595321762451" CardinalityMin="0" CardinalityMax="1">
-                            <Component name="PersonInfo" ComponentRef="clarin.eu:cr1:c_1595321762426" ConceptLink="http://hdl.handle.net/11459/CCR_C-5042_226e1c92-9f09-ae93-0875-c4fe8814b3b8" CardinalityMin="0" CardinalityMax="1">
-                                <Element name="name" ConceptLink="http://hdl.handle.net/11459/CCR_C-5776_ed733b40-67dc-099e-6a96-cb56634109e4" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Component name="PersonInfo" ComponentRef="clarin.eu:cr1:c_1595321762426" ConceptLink="http://www.wikidata.org/entity/Q215627" CardinalityMin="0" CardinalityMax="1">
+                                <Element name="name" ConceptLink="http://www.wikidata.org/entity/Q147276" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>Complete name, alias or other label for an individual suitable for display and discovery purposes.</Documentation>
                                 </Element>
                                 <Element name="alternativeName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
@@ -838,11 +854,11 @@
                                 </Element>
                                 <Element name="affiliation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                                 <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
-                                    <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                                    <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                    <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                    <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
                                 </Component>
                             </Component>
-                            <Component name="OrganisationInfo" ComponentRef="clarin.eu:cr1:c_1595321762452" ConceptLink="http://hdl.handle.net/11459/CCR_C-5170_ed855189-9d5f-8f31-cc70-499c055d0100" CardinalityMin="0" CardinalityMax="1">
+                            <Component name="OrganisationInfo" ComponentRef="clarin.eu:cr1:c_1595321762452" ConceptLink="http://www.wikidata.org/entity/Q2029841" CardinalityMin="0" CardinalityMax="1">
                                 <Element name="name" ConceptLink=" http://hdl.handle.net/11459/CCR_C-5776_ed733b40-67dc-099e-6a96-cb56634109e4" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>Complete name, alias or other label for an individual suitable for display and discovery purposes.</Documentation>
                                 </Element>
@@ -851,8 +867,16 @@
                                 </Element>
                                 <Element name="affiliation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                                 <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
-                                    <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                                    <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                    <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                    <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                </Component>
+                                <Component name="ParentOrganisation" CardinalityMin="0" CardinalityMax="unbounded">
+                                    <Element name="identifier" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                    <Element name="label" ConceptLink="http://hdl.handle.net/11459/CCR_C-6243_bd27ac08-ec04-0db2-d95c-52f2a6b1e59d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                    <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
+                                        <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                        <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                    </Component>
                                 </Component>
                             </Component>
                         </Component>
@@ -926,7 +950,7 @@
                         <Attribute name="type" ValueScheme="string"/>
                     </AttributeList>
                 </Element>
-                <Component name="Licence" ComponentRef="clarin.eu:cr1:c_1595321762457" ConceptLink="http://hdl.handle.net/11459/CCR_C-2457_45bbaa1a-7002-2ecd-ab9d-57a189f694a6" CardinalityMin="0" CardinalityMax="unbounded">
+                <Component name="Licence" ComponentRef="clarin.eu:cr1:c_1595321762457" ConceptLink="http://www.wikidata.org/entity/Q79719" CardinalityMin="0" CardinalityMax="unbounded">
                     <Element name="identifier" ConceptLink="http://hdl.handle.net/11459/CCR_C-6586_2c79d86a-5a75-0890-d407-7d9cb86b9beb" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                         <Documentation>Identifier of the licence</Documentation>
                     </Element>
@@ -945,8 +969,8 @@
                     <Element name="identifier" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                     <Element name="label" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                     <Component name="AgentInfo" ComponentRef="clarin.eu:cr1:c_1595321762451" CardinalityMin="0" CardinalityMax="1">
-                        <Component name="PersonInfo" ComponentRef="clarin.eu:cr1:c_1595321762426" ConceptLink="http://hdl.handle.net/11459/CCR_C-5042_226e1c92-9f09-ae93-0875-c4fe8814b3b8" CardinalityMin="0" CardinalityMax="1">
-                            <Element name="name" ConceptLink="http://hdl.handle.net/11459/CCR_C-5776_ed733b40-67dc-099e-6a96-cb56634109e4" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                        <Component name="PersonInfo" ComponentRef="clarin.eu:cr1:c_1595321762426" ConceptLink="http://www.wikidata.org/entity/Q215627" CardinalityMin="0" CardinalityMax="1">
+                            <Element name="name" ConceptLink="http://www.wikidata.org/entity/Q147276" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>Complete name, alias or other label for an individual suitable for display and discovery purposes.</Documentation>
                             </Element>
                             <Element name="alternativeName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
@@ -959,11 +983,11 @@
                             </Element>
                             <Element name="affiliation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                             <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
-                                <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                                <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
                             </Component>
                         </Component>
-                        <Component name="OrganisationInfo" ComponentRef="clarin.eu:cr1:c_1595321762452" ConceptLink="http://hdl.handle.net/11459/CCR_C-5170_ed855189-9d5f-8f31-cc70-499c055d0100" CardinalityMin="0" CardinalityMax="1">
+                        <Component name="OrganisationInfo" ComponentRef="clarin.eu:cr1:c_1595321762452" ConceptLink="http://www.wikidata.org/entity/Q2029841" CardinalityMin="0" CardinalityMax="1">
                             <Element name="name" ConceptLink=" http://hdl.handle.net/11459/CCR_C-5776_ed733b40-67dc-099e-6a96-cb56634109e4" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>Complete name, alias or other label for an individual suitable for display and discovery purposes.</Documentation>
                             </Element>
@@ -972,8 +996,16 @@
                             </Element>
                             <Element name="affiliation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                             <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
-                                <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                                <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                            </Component>
+                            <Component name="ParentOrganisation" CardinalityMin="0" CardinalityMax="unbounded">
+                                <Element name="identifier" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                <Element name="label" ConceptLink="http://hdl.handle.net/11459/CCR_C-6243_bd27ac08-ec04-0db2-d95c-52f2a6b1e59d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
+                                    <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                    <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                </Component>
                             </Component>
                         </Component>
                     </Component>
@@ -985,8 +1017,8 @@
                         <Element name="description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                     </Component>
                     <Component name="AgentInfo" ComponentRef="clarin.eu:cr1:c_1595321762451" CardinalityMin="1" CardinalityMax="1">
-                        <Component name="PersonInfo" ComponentRef="clarin.eu:cr1:c_1595321762426" ConceptLink="http://hdl.handle.net/11459/CCR_C-5042_226e1c92-9f09-ae93-0875-c4fe8814b3b8" CardinalityMin="0" CardinalityMax="1">
-                            <Element name="name" ConceptLink="http://hdl.handle.net/11459/CCR_C-5776_ed733b40-67dc-099e-6a96-cb56634109e4" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                        <Component name="PersonInfo" ComponentRef="clarin.eu:cr1:c_1595321762426" ConceptLink="http://www.wikidata.org/entity/Q215627" CardinalityMin="0" CardinalityMax="1">
+                            <Element name="name" ConceptLink="http://www.wikidata.org/entity/Q147276" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>Complete name, alias or other label for an individual suitable for display and discovery purposes.</Documentation>
                             </Element>
                             <Element name="alternativeName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
@@ -999,11 +1031,11 @@
                             </Element>
                             <Element name="affiliation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                             <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
-                                <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                                <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
                             </Component>
                         </Component>
-                        <Component name="OrganisationInfo" ComponentRef="clarin.eu:cr1:c_1595321762452" ConceptLink="http://hdl.handle.net/11459/CCR_C-5170_ed855189-9d5f-8f31-cc70-499c055d0100" CardinalityMin="0" CardinalityMax="1">
+                        <Component name="OrganisationInfo" ComponentRef="clarin.eu:cr1:c_1595321762452" ConceptLink="http://www.wikidata.org/entity/Q2029841" CardinalityMin="0" CardinalityMax="1">
                             <Element name="name" ConceptLink=" http://hdl.handle.net/11459/CCR_C-5776_ed733b40-67dc-099e-6a96-cb56634109e4" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>Complete name, alias or other label for an individual suitable for display and discovery purposes.</Documentation>
                             </Element>
@@ -1012,8 +1044,16 @@
                             </Element>
                             <Element name="affiliation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                             <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
-                                <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                                <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                            </Component>
+                            <Component name="ParentOrganisation" CardinalityMin="0" CardinalityMax="unbounded">
+                                <Element name="identifier" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                <Element name="label" ConceptLink="http://hdl.handle.net/11459/CCR_C-6243_bd27ac08-ec04-0db2-d95c-52f2a6b1e59d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
+                                    <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                    <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                </Component>
                             </Component>
                         </Component>
                     </Component>
@@ -1024,9 +1064,9 @@
                 <Element name="label" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                 <Element name="location" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                 <Component name="TitleInfo" ComponentRef="clarin.eu:cr1:c_1595321762412" CardinalityMin="0" CardinalityMax="unbounded">
-                    <Element name="title" ConceptLink="http://hdl.handle.net/11459/CCR_C-5125_4259bcdc-74e3-0d71-ef4b-39cc70e4e779" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                    <Element name="alternativeTitle" ConceptLink="http://hdl.handle.net/11459/CCR_C-5125_4259bcdc-74e3-0d71-ef4b-39cc70e4e779" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
-                    <Element name="subtitle" ConceptLink="http://hdl.handle.net/11459/CCR_C-5744_7d34a745-29d0-fe5c-ffc0-13c18c21fdcd" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
+                    <Element name="title" ConceptLink="http://www.wikidata.org/entity/Q59154876 " ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                    <Element name="alternativeTitle" ConceptLink="http://www.wikidata.org/entity/Q59154876 " ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
+                    <Element name="subtitle" ConceptLink="http://www.wikidata.org/entity/Q1135389" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
                 </Component>
                 <Component name="Description" ComponentRef="clarin.eu:cr1:c_1595321762411" CardinalityMin="0" CardinalityMax="unbounded">
                     <Element name="description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
@@ -1045,7 +1085,7 @@
                         </AttributeList>
                     </Element>
                 </Component>
-                <Component name="Creator" ComponentRef="clarin.eu:cr1:c_1595321762404" ConceptLink="http://hdl.handle.net/11459/CCR_C-6836_d35e73a8-ec72-d3c4-e39a-4b0fefd32cdc" CardinalityMin="0" CardinalityMax="unbounded">
+                <Component name="Creator" ComponentRef="clarin.eu:cr1:c_1595321762404" ConceptLink="http://www.wikidata.org/entity/Q2500638" CardinalityMin="0" CardinalityMax="unbounded">
                     <Element name="identifier" ConceptLink="http://hdl.handle.net/11459/CCR_C-3894_4d08cc31-25fe-af0c-add4-ca7bdc12f5f7" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="3" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                         <Documentation>A name or location string that uniquely identifies this creator</Documentation>
                     </Element>
@@ -1056,8 +1096,8 @@
                         <Documentation>A short, human understandable description of the role of the creator within the provided context</Documentation>
                     </Element>
                     <Component name="AgentInfo" ComponentRef="clarin.eu:cr1:c_1595321762451" CardinalityMin="0" CardinalityMax="1">
-                        <Component name="PersonInfo" ComponentRef="clarin.eu:cr1:c_1595321762426" ConceptLink="http://hdl.handle.net/11459/CCR_C-5042_226e1c92-9f09-ae93-0875-c4fe8814b3b8" CardinalityMin="0" CardinalityMax="1">
-                            <Element name="name" ConceptLink="http://hdl.handle.net/11459/CCR_C-5776_ed733b40-67dc-099e-6a96-cb56634109e4" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                        <Component name="PersonInfo" ComponentRef="clarin.eu:cr1:c_1595321762426" ConceptLink="http://www.wikidata.org/entity/Q215627" CardinalityMin="0" CardinalityMax="1">
+                            <Element name="name" ConceptLink="http://www.wikidata.org/entity/Q147276" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>Complete name, alias or other label for an individual suitable for display and discovery purposes.</Documentation>
                             </Element>
                             <Element name="alternativeName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
@@ -1070,11 +1110,11 @@
                             </Element>
                             <Element name="affiliation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                             <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
-                                <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                                <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
                             </Component>
                         </Component>
-                        <Component name="OrganisationInfo" ComponentRef="clarin.eu:cr1:c_1595321762452" ConceptLink="http://hdl.handle.net/11459/CCR_C-5170_ed855189-9d5f-8f31-cc70-499c055d0100" CardinalityMin="0" CardinalityMax="1">
+                        <Component name="OrganisationInfo" ComponentRef="clarin.eu:cr1:c_1595321762452" ConceptLink="http://www.wikidata.org/entity/Q2029841" CardinalityMin="0" CardinalityMax="1">
                             <Element name="name" ConceptLink=" http://hdl.handle.net/11459/CCR_C-5776_ed733b40-67dc-099e-6a96-cb56634109e4" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>Complete name, alias or other label for an individual suitable for display and discovery purposes.</Documentation>
                             </Element>
@@ -1083,8 +1123,16 @@
                             </Element>
                             <Element name="affiliation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                             <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
-                                <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                                <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                            </Component>
+                            <Component name="ParentOrganisation" CardinalityMin="0" CardinalityMax="unbounded">
+                                <Element name="identifier" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                <Element name="label" ConceptLink="http://hdl.handle.net/11459/CCR_C-6243_bd27ac08-ec04-0db2-d95c-52f2a6b1e59d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
+                                    <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                    <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                </Component>
                             </Component>
                         </Component>
                     </Component>
@@ -1100,8 +1148,8 @@
                         <Documentation>A short, human understandable description of the role of the contributor within the provided context</Documentation>
                     </Element>
                     <Component name="AgentInfo" ComponentRef="clarin.eu:cr1:c_1595321762451" CardinalityMin="0" CardinalityMax="1">
-                        <Component name="PersonInfo" ComponentRef="clarin.eu:cr1:c_1595321762426" ConceptLink="http://hdl.handle.net/11459/CCR_C-5042_226e1c92-9f09-ae93-0875-c4fe8814b3b8" CardinalityMin="0" CardinalityMax="1">
-                            <Element name="name" ConceptLink="http://hdl.handle.net/11459/CCR_C-5776_ed733b40-67dc-099e-6a96-cb56634109e4" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                        <Component name="PersonInfo" ComponentRef="clarin.eu:cr1:c_1595321762426" ConceptLink="http://www.wikidata.org/entity/Q215627" CardinalityMin="0" CardinalityMax="1">
+                            <Element name="name" ConceptLink="http://www.wikidata.org/entity/Q147276" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>Complete name, alias or other label for an individual suitable for display and discovery purposes.</Documentation>
                             </Element>
                             <Element name="alternativeName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
@@ -1114,11 +1162,11 @@
                             </Element>
                             <Element name="affiliation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                             <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
-                                <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                                <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
                             </Component>
                         </Component>
-                        <Component name="OrganisationInfo" ComponentRef="clarin.eu:cr1:c_1595321762452" ConceptLink="http://hdl.handle.net/11459/CCR_C-5170_ed855189-9d5f-8f31-cc70-499c055d0100" CardinalityMin="0" CardinalityMax="1">
+                        <Component name="OrganisationInfo" ComponentRef="clarin.eu:cr1:c_1595321762452" ConceptLink="http://www.wikidata.org/entity/Q2029841" CardinalityMin="0" CardinalityMax="1">
                             <Element name="name" ConceptLink=" http://hdl.handle.net/11459/CCR_C-5776_ed733b40-67dc-099e-6a96-cb56634109e4" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>Complete name, alias or other label for an individual suitable for display and discovery purposes.</Documentation>
                             </Element>
@@ -1127,8 +1175,16 @@
                             </Element>
                             <Element name="affiliation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                             <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
-                                <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                                <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                            </Component>
+                            <Component name="ParentOrganisation" CardinalityMin="0" CardinalityMax="unbounded">
+                                <Element name="identifier" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                <Element name="label" ConceptLink="http://hdl.handle.net/11459/CCR_C-6243_bd27ac08-ec04-0db2-d95c-52f2a6b1e59d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
+                                    <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                    <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                </Component>
                             </Component>
                         </Component>
                     </Component>
@@ -1137,9 +1193,9 @@
         </Component>
         <Component name="MetadataInfo" ComponentRef="clarin.eu:cr1:c_1595321762458" CardinalityMin="0" CardinalityMax="1">
             <Component name="IdentificationInfo" ComponentRef="clarin.eu:cr1:c_1595321762421" CardinalityMin="0" CardinalityMax="1">
-                <Element name="identifier" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                <Element name="identifier" ConceptLink="http://hdl.handle.net/11459/CCR_C-3894_4d08cc31-25fe-af0c-add4-ca7bdc12f5f7" ValueScheme="anyURI" CardinalityMin="1" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                     <AttributeList>
-                        <Attribute name="type">
+                        <Attribute name="type" ConceptLink="http://hdl.handle.net/11459/CCR_C-5354_a4e41aa9-b8ba-59ea-a34e-6d7179e393be">
                             <ValueScheme>
                                 <Vocabulary>
                                     <enumeration>
@@ -1151,23 +1207,23 @@
                         </Attribute>
                     </AttributeList>
                 </Element>
-                <Element name="internalIdentifier" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                <Element name="internalIdentifier" ConceptLink="http://hdl.handle.net/11459/CCR_C-3894_4d08cc31-25fe-af0c-add4-ca7bdc12f5f7" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
                     <AttributeList>
                         <Attribute name="type" ValueScheme="string"/>
                     </AttributeList>
                 </Element>
-                <Element name="alternativeIdentifier" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
+                <Element name="alternativeIdentifier" ConceptLink="http://hdl.handle.net/11459/CCR_C-3894_4d08cc31-25fe-af0c-add4-ca7bdc12f5f7" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded">
                     <AttributeList>
                         <Attribute name="type" ValueScheme="string"/>
                     </AttributeList>
                 </Element>
             </Component>
             <Component name="TitleInfo" ComponentRef="clarin.eu:cr1:c_1595321762412" CardinalityMin="0" CardinalityMax="1">
-                <Element name="title" ConceptLink="http://hdl.handle.net/11459/CCR_C-5125_4259bcdc-74e3-0d71-ef4b-39cc70e4e779" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                <Element name="alternativeTitle" ConceptLink="http://hdl.handle.net/11459/CCR_C-5125_4259bcdc-74e3-0d71-ef4b-39cc70e4e779" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
-                <Element name="subtitle" ConceptLink="http://hdl.handle.net/11459/CCR_C-5744_7d34a745-29d0-fe5c-ffc0-13c18c21fdcd" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
+                <Element name="title" ConceptLink="http://www.wikidata.org/entity/Q59154876 " ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                <Element name="alternativeTitle" ConceptLink="http://www.wikidata.org/entity/Q59154876 " ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
+                <Element name="subtitle" ConceptLink="http://www.wikidata.org/entity/Q1135389" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="true"/>
             </Component>
-            <Component name="Creator" ComponentRef="clarin.eu:cr1:c_1595321762404" ConceptLink="http://hdl.handle.net/11459/CCR_C-6836_d35e73a8-ec72-d3c4-e39a-4b0fefd32cdc" CardinalityMin="0" CardinalityMax="unbounded">
+            <Component name="Creator" ComponentRef="clarin.eu:cr1:c_1595321762404" ConceptLink="http://www.wikidata.org/entity/Q2500638" CardinalityMin="0" CardinalityMax="unbounded">
                 <Element name="identifier" ConceptLink="http://hdl.handle.net/11459/CCR_C-3894_4d08cc31-25fe-af0c-add4-ca7bdc12f5f7" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="3" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                     <Documentation>A name or location string that uniquely identifies this creator</Documentation>
                 </Element>
@@ -1178,8 +1234,8 @@
                     <Documentation>A short, human understandable description of the role of the creator within the provided context</Documentation>
                 </Element>
                 <Component name="AgentInfo" ComponentRef="clarin.eu:cr1:c_1595321762451" CardinalityMin="0" CardinalityMax="1">
-                    <Component name="PersonInfo" ComponentRef="clarin.eu:cr1:c_1595321762426" ConceptLink="http://hdl.handle.net/11459/CCR_C-5042_226e1c92-9f09-ae93-0875-c4fe8814b3b8" CardinalityMin="0" CardinalityMax="1">
-                        <Element name="name" ConceptLink="http://hdl.handle.net/11459/CCR_C-5776_ed733b40-67dc-099e-6a96-cb56634109e4" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                    <Component name="PersonInfo" ComponentRef="clarin.eu:cr1:c_1595321762426" ConceptLink="http://www.wikidata.org/entity/Q215627" CardinalityMin="0" CardinalityMax="1">
+                        <Element name="name" ConceptLink="http://www.wikidata.org/entity/Q147276" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                             <Documentation>Complete name, alias or other label for an individual suitable for display and discovery purposes.</Documentation>
                         </Element>
                         <Element name="alternativeName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
@@ -1192,11 +1248,11 @@
                         </Element>
                         <Element name="affiliation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                         <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
-                            <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                            <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                            <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                            <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
                         </Component>
                     </Component>
-                    <Component name="OrganisationInfo" ComponentRef="clarin.eu:cr1:c_1595321762452" ConceptLink="http://hdl.handle.net/11459/CCR_C-5170_ed855189-9d5f-8f31-cc70-499c055d0100" CardinalityMin="0" CardinalityMax="1">
+                    <Component name="OrganisationInfo" ComponentRef="clarin.eu:cr1:c_1595321762452" ConceptLink="http://www.wikidata.org/entity/Q2029841" CardinalityMin="0" CardinalityMax="1">
                         <Element name="name" ConceptLink=" http://hdl.handle.net/11459/CCR_C-5776_ed733b40-67dc-099e-6a96-cb56634109e4" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                             <Documentation>Complete name, alias or other label for an individual suitable for display and discovery purposes.</Documentation>
                         </Element>
@@ -1205,8 +1261,16 @@
                         </Element>
                         <Element name="affiliation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                         <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
-                            <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                            <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                            <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                            <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                        </Component>
+                        <Component name="ParentOrganisation" CardinalityMin="0" CardinalityMax="unbounded">
+                            <Element name="identifier" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                            <Element name="label" ConceptLink="http://hdl.handle.net/11459/CCR_C-6243_bd27ac08-ec04-0db2-d95c-52f2a6b1e59d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                            <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
+                                <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                            </Component>
                         </Component>
                     </Component>
                 </Component>
@@ -1222,8 +1286,8 @@
                     <Documentation>A short, human understandable description of the role of the contributor within the provided context</Documentation>
                 </Element>
                 <Component name="AgentInfo" ComponentRef="clarin.eu:cr1:c_1595321762451" CardinalityMin="0" CardinalityMax="1">
-                    <Component name="PersonInfo" ComponentRef="clarin.eu:cr1:c_1595321762426" ConceptLink="http://hdl.handle.net/11459/CCR_C-5042_226e1c92-9f09-ae93-0875-c4fe8814b3b8" CardinalityMin="0" CardinalityMax="1">
-                        <Element name="name" ConceptLink="http://hdl.handle.net/11459/CCR_C-5776_ed733b40-67dc-099e-6a96-cb56634109e4" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                    <Component name="PersonInfo" ComponentRef="clarin.eu:cr1:c_1595321762426" ConceptLink="http://www.wikidata.org/entity/Q215627" CardinalityMin="0" CardinalityMax="1">
+                        <Element name="name" ConceptLink="http://www.wikidata.org/entity/Q147276" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                             <Documentation>Complete name, alias or other label for an individual suitable for display and discovery purposes.</Documentation>
                         </Element>
                         <Element name="alternativeName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
@@ -1236,11 +1300,11 @@
                         </Element>
                         <Element name="affiliation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                         <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
-                            <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                            <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                            <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                            <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
                         </Component>
                     </Component>
-                    <Component name="OrganisationInfo" ComponentRef="clarin.eu:cr1:c_1595321762452" ConceptLink="http://hdl.handle.net/11459/CCR_C-5170_ed855189-9d5f-8f31-cc70-499c055d0100" CardinalityMin="0" CardinalityMax="1">
+                    <Component name="OrganisationInfo" ComponentRef="clarin.eu:cr1:c_1595321762452" ConceptLink="http://www.wikidata.org/entity/Q2029841" CardinalityMin="0" CardinalityMax="1">
                         <Element name="name" ConceptLink=" http://hdl.handle.net/11459/CCR_C-5776_ed733b40-67dc-099e-6a96-cb56634109e4" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                             <Documentation>Complete name, alias or other label for an individual suitable for display and discovery purposes.</Documentation>
                         </Element>
@@ -1249,8 +1313,16 @@
                         </Element>
                         <Element name="affiliation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                         <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
-                            <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                            <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                            <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                            <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                        </Component>
+                        <Component name="ParentOrganisation" CardinalityMin="0" CardinalityMax="unbounded">
+                            <Element name="identifier" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                            <Element name="label" ConceptLink="http://hdl.handle.net/11459/CCR_C-6243_bd27ac08-ec04-0db2-d95c-52f2a6b1e59d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                            <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
+                                <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                            </Component>
                         </Component>
                     </Component>
                 </Component>
@@ -1259,8 +1331,8 @@
                 <Element name="identifier" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                 <Element name="name" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                 <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
-                    <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                    <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                    <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                    <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
                 </Component>
             </Component>
             <Component name="CitationInfo" ComponentRef="clarin.eu:cr1:c_1595321762416" CardinalityMin="0" CardinalityMax="1">
@@ -1295,8 +1367,8 @@
                             <Element name="identifier" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                             <Element name="label" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                             <Component name="AgentInfo" ComponentRef="clarin.eu:cr1:c_1595321762451" CardinalityMin="0" CardinalityMax="1">
-                                <Component name="PersonInfo" ComponentRef="clarin.eu:cr1:c_1595321762426" ConceptLink="http://hdl.handle.net/11459/CCR_C-5042_226e1c92-9f09-ae93-0875-c4fe8814b3b8" CardinalityMin="0" CardinalityMax="1">
-                                    <Element name="name" ConceptLink="http://hdl.handle.net/11459/CCR_C-5776_ed733b40-67dc-099e-6a96-cb56634109e4" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Component name="PersonInfo" ComponentRef="clarin.eu:cr1:c_1595321762426" ConceptLink="http://www.wikidata.org/entity/Q215627" CardinalityMin="0" CardinalityMax="1">
+                                    <Element name="name" ConceptLink="http://www.wikidata.org/entity/Q147276" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                         <Documentation>Complete name, alias or other label for an individual suitable for display and discovery purposes.</Documentation>
                                     </Element>
                                     <Element name="alternativeName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
@@ -1309,11 +1381,11 @@
                                     </Element>
                                     <Element name="affiliation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                                     <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
-                                        <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                                        <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                        <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                        <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
                                     </Component>
                                 </Component>
-                                <Component name="OrganisationInfo" ComponentRef="clarin.eu:cr1:c_1595321762452" ConceptLink="http://hdl.handle.net/11459/CCR_C-5170_ed855189-9d5f-8f31-cc70-499c055d0100" CardinalityMin="0" CardinalityMax="1">
+                                <Component name="OrganisationInfo" ComponentRef="clarin.eu:cr1:c_1595321762452" ConceptLink="http://www.wikidata.org/entity/Q2029841" CardinalityMin="0" CardinalityMax="1">
                                     <Element name="name" ConceptLink=" http://hdl.handle.net/11459/CCR_C-5776_ed733b40-67dc-099e-6a96-cb56634109e4" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                         <Documentation>Complete name, alias or other label for an individual suitable for display and discovery purposes.</Documentation>
                                     </Element>
@@ -1322,8 +1394,16 @@
                                     </Element>
                                     <Element name="affiliation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                                     <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
-                                        <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                                        <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                        <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                        <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                    </Component>
+                                    <Component name="ParentOrganisation" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <Element name="identifier" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                        <Element name="label" ConceptLink="http://hdl.handle.net/11459/CCR_C-6243_bd27ac08-ec04-0db2-d95c-52f2a6b1e59d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                        <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
+                                            <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                            <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                        </Component>
                                     </Component>
                                 </Component>
                             </Component>
@@ -1353,8 +1433,8 @@
                             <Element name="identifier" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                             <Element name="label" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                             <Component name="AgentInfo" ComponentRef="clarin.eu:cr1:c_1595321762451" CardinalityMin="0" CardinalityMax="1">
-                                <Component name="PersonInfo" ComponentRef="clarin.eu:cr1:c_1595321762426" ConceptLink="http://hdl.handle.net/11459/CCR_C-5042_226e1c92-9f09-ae93-0875-c4fe8814b3b8" CardinalityMin="0" CardinalityMax="1">
-                                    <Element name="name" ConceptLink="http://hdl.handle.net/11459/CCR_C-5776_ed733b40-67dc-099e-6a96-cb56634109e4" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Component name="PersonInfo" ComponentRef="clarin.eu:cr1:c_1595321762426" ConceptLink="http://www.wikidata.org/entity/Q215627" CardinalityMin="0" CardinalityMax="1">
+                                    <Element name="name" ConceptLink="http://www.wikidata.org/entity/Q147276" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                         <Documentation>Complete name, alias or other label for an individual suitable for display and discovery purposes.</Documentation>
                                     </Element>
                                     <Element name="alternativeName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
@@ -1367,11 +1447,11 @@
                                     </Element>
                                     <Element name="affiliation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                                     <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
-                                        <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                                        <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                        <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                        <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
                                     </Component>
                                 </Component>
-                                <Component name="OrganisationInfo" ComponentRef="clarin.eu:cr1:c_1595321762452" ConceptLink="http://hdl.handle.net/11459/CCR_C-5170_ed855189-9d5f-8f31-cc70-499c055d0100" CardinalityMin="0" CardinalityMax="1">
+                                <Component name="OrganisationInfo" ComponentRef="clarin.eu:cr1:c_1595321762452" ConceptLink="http://www.wikidata.org/entity/Q2029841" CardinalityMin="0" CardinalityMax="1">
                                     <Element name="name" ConceptLink=" http://hdl.handle.net/11459/CCR_C-5776_ed733b40-67dc-099e-6a96-cb56634109e4" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                         <Documentation>Complete name, alias or other label for an individual suitable for display and discovery purposes.</Documentation>
                                     </Element>
@@ -1380,8 +1460,16 @@
                                     </Element>
                                     <Element name="affiliation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                                     <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
-                                        <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                                        <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                        <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                        <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                    </Component>
+                                    <Component name="ParentOrganisation" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <Element name="identifier" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                        <Element name="label" ConceptLink="http://hdl.handle.net/11459/CCR_C-6243_bd27ac08-ec04-0db2-d95c-52f2a6b1e59d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                        <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
+                                            <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                            <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                        </Component>
                                     </Component>
                                 </Component>
                             </Component>
@@ -1411,8 +1499,8 @@
                             <Element name="identifier" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                             <Element name="label" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                             <Component name="AgentInfo" ComponentRef="clarin.eu:cr1:c_1595321762451" CardinalityMin="0" CardinalityMax="1">
-                                <Component name="PersonInfo" ComponentRef="clarin.eu:cr1:c_1595321762426" ConceptLink="http://hdl.handle.net/11459/CCR_C-5042_226e1c92-9f09-ae93-0875-c4fe8814b3b8" CardinalityMin="0" CardinalityMax="1">
-                                    <Element name="name" ConceptLink="http://hdl.handle.net/11459/CCR_C-5776_ed733b40-67dc-099e-6a96-cb56634109e4" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Component name="PersonInfo" ComponentRef="clarin.eu:cr1:c_1595321762426" ConceptLink="http://www.wikidata.org/entity/Q215627" CardinalityMin="0" CardinalityMax="1">
+                                    <Element name="name" ConceptLink="http://www.wikidata.org/entity/Q147276" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                         <Documentation>Complete name, alias or other label for an individual suitable for display and discovery purposes.</Documentation>
                                     </Element>
                                     <Element name="alternativeName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
@@ -1425,11 +1513,11 @@
                                     </Element>
                                     <Element name="affiliation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                                     <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
-                                        <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                                        <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                        <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                        <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
                                     </Component>
                                 </Component>
-                                <Component name="OrganisationInfo" ComponentRef="clarin.eu:cr1:c_1595321762452" ConceptLink="http://hdl.handle.net/11459/CCR_C-5170_ed855189-9d5f-8f31-cc70-499c055d0100" CardinalityMin="0" CardinalityMax="1">
+                                <Component name="OrganisationInfo" ComponentRef="clarin.eu:cr1:c_1595321762452" ConceptLink="http://www.wikidata.org/entity/Q2029841" CardinalityMin="0" CardinalityMax="1">
                                     <Element name="name" ConceptLink=" http://hdl.handle.net/11459/CCR_C-5776_ed733b40-67dc-099e-6a96-cb56634109e4" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                         <Documentation>Complete name, alias or other label for an individual suitable for display and discovery purposes.</Documentation>
                                     </Element>
@@ -1438,8 +1526,16 @@
                                     </Element>
                                     <Element name="affiliation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                                     <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
-                                        <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                                        <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                        <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                        <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                    </Component>
+                                    <Component name="ParentOrganisation" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <Element name="identifier" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                        <Element name="label" ConceptLink="http://hdl.handle.net/11459/CCR_C-6243_bd27ac08-ec04-0db2-d95c-52f2a6b1e59d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                        <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
+                                            <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                            <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                        </Component>
                                     </Component>
                                 </Component>
                             </Component>
@@ -1472,8 +1568,8 @@
                             <Element name="identifier" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                             <Element name="label" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                             <Component name="AgentInfo" ComponentRef="clarin.eu:cr1:c_1595321762451" CardinalityMin="0" CardinalityMax="1">
-                                <Component name="PersonInfo" ComponentRef="clarin.eu:cr1:c_1595321762426" ConceptLink="http://hdl.handle.net/11459/CCR_C-5042_226e1c92-9f09-ae93-0875-c4fe8814b3b8" CardinalityMin="0" CardinalityMax="1">
-                                    <Element name="name" ConceptLink="http://hdl.handle.net/11459/CCR_C-5776_ed733b40-67dc-099e-6a96-cb56634109e4" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Component name="PersonInfo" ComponentRef="clarin.eu:cr1:c_1595321762426" ConceptLink="http://www.wikidata.org/entity/Q215627" CardinalityMin="0" CardinalityMax="1">
+                                    <Element name="name" ConceptLink="http://www.wikidata.org/entity/Q147276" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                         <Documentation>Complete name, alias or other label for an individual suitable for display and discovery purposes.</Documentation>
                                     </Element>
                                     <Element name="alternativeName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
@@ -1486,11 +1582,11 @@
                                     </Element>
                                     <Element name="affiliation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                                     <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
-                                        <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                                        <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                        <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                        <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
                                     </Component>
                                 </Component>
-                                <Component name="OrganisationInfo" ComponentRef="clarin.eu:cr1:c_1595321762452" ConceptLink="http://hdl.handle.net/11459/CCR_C-5170_ed855189-9d5f-8f31-cc70-499c055d0100" CardinalityMin="0" CardinalityMax="1">
+                                <Component name="OrganisationInfo" ComponentRef="clarin.eu:cr1:c_1595321762452" ConceptLink="http://www.wikidata.org/entity/Q2029841" CardinalityMin="0" CardinalityMax="1">
                                     <Element name="name" ConceptLink=" http://hdl.handle.net/11459/CCR_C-5776_ed733b40-67dc-099e-6a96-cb56634109e4" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                         <Documentation>Complete name, alias or other label for an individual suitable for display and discovery purposes.</Documentation>
                                     </Element>
@@ -1499,8 +1595,16 @@
                                     </Element>
                                     <Element name="affiliation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                                     <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
-                                        <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                                        <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                        <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                        <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                    </Component>
+                                    <Component name="ParentOrganisation" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <Element name="identifier" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                        <Element name="label" ConceptLink="http://hdl.handle.net/11459/CCR_C-6243_bd27ac08-ec04-0db2-d95c-52f2a6b1e59d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                        <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
+                                            <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                            <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                        </Component>
                                     </Component>
                                 </Component>
                             </Component>
@@ -1508,7 +1612,7 @@
                     </Component>
                 </Component>
             </Component>
-            <Component name="VersionInfo" ComponentRef="clarin.eu:cr1:c_1595321762424" ConceptLink="http://hdl.handle.net/11459/CCR_C-2547_7883d382-b3ce-8ab4-7052-0138525a8ba1" CardinalityMin="0" CardinalityMax="1">
+            <Component name="VersionInfo" ComponentRef="clarin.eu:cr1:c_1595321762424" ConceptLink="http://www.wikidata.org/entity/Q12343820" CardinalityMin="0" CardinalityMax="1">
                 <Element name="versionIdentifier" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                 <Element name="responsible" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                 <Element name="note" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true"/>
@@ -1519,8 +1623,8 @@
                     <Element name="identifier" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                     <Element name="label" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                     <Component name="AgentInfo" ComponentRef="clarin.eu:cr1:c_1595321762451" CardinalityMin="0" CardinalityMax="1">
-                        <Component name="PersonInfo" ComponentRef="clarin.eu:cr1:c_1595321762426" ConceptLink="http://hdl.handle.net/11459/CCR_C-5042_226e1c92-9f09-ae93-0875-c4fe8814b3b8" CardinalityMin="0" CardinalityMax="1">
-                            <Element name="name" ConceptLink="http://hdl.handle.net/11459/CCR_C-5776_ed733b40-67dc-099e-6a96-cb56634109e4" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                        <Component name="PersonInfo" ComponentRef="clarin.eu:cr1:c_1595321762426" ConceptLink="http://www.wikidata.org/entity/Q215627" CardinalityMin="0" CardinalityMax="1">
+                            <Element name="name" ConceptLink="http://www.wikidata.org/entity/Q147276" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>Complete name, alias or other label for an individual suitable for display and discovery purposes.</Documentation>
                             </Element>
                             <Element name="alternativeName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
@@ -1533,11 +1637,11 @@
                             </Element>
                             <Element name="affiliation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                             <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
-                                <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                                <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
                             </Component>
                         </Component>
-                        <Component name="OrganisationInfo" ComponentRef="clarin.eu:cr1:c_1595321762452" ConceptLink="http://hdl.handle.net/11459/CCR_C-5170_ed855189-9d5f-8f31-cc70-499c055d0100" CardinalityMin="0" CardinalityMax="1">
+                        <Component name="OrganisationInfo" ComponentRef="clarin.eu:cr1:c_1595321762452" ConceptLink="http://www.wikidata.org/entity/Q2029841" CardinalityMin="0" CardinalityMax="1">
                             <Element name="name" ConceptLink=" http://hdl.handle.net/11459/CCR_C-5776_ed733b40-67dc-099e-6a96-cb56634109e4" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>Complete name, alias or other label for an individual suitable for display and discovery purposes.</Documentation>
                             </Element>
@@ -1546,8 +1650,16 @@
                             </Element>
                             <Element name="affiliation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                             <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
-                                <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                                <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                            </Component>
+                            <Component name="ParentOrganisation" CardinalityMin="0" CardinalityMax="unbounded">
+                                <Element name="identifier" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                <Element name="label" ConceptLink="http://hdl.handle.net/11459/CCR_C-6243_bd27ac08-ec04-0db2-d95c-52f2a6b1e59d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
+                                    <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                    <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                </Component>
                             </Component>
                         </Component>
                     </Component>
@@ -1561,8 +1673,8 @@
                         <Element name="identifier" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
                         <Element name="label" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                         <Component name="AgentInfo" ComponentRef="clarin.eu:cr1:c_1595321762451" CardinalityMin="0" CardinalityMax="1">
-                            <Component name="PersonInfo" ComponentRef="clarin.eu:cr1:c_1595321762426" ConceptLink="http://hdl.handle.net/11459/CCR_C-5042_226e1c92-9f09-ae93-0875-c4fe8814b3b8" CardinalityMin="0" CardinalityMax="1">
-                                <Element name="name" ConceptLink="http://hdl.handle.net/11459/CCR_C-5776_ed733b40-67dc-099e-6a96-cb56634109e4" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Component name="PersonInfo" ComponentRef="clarin.eu:cr1:c_1595321762426" ConceptLink="http://www.wikidata.org/entity/Q215627" CardinalityMin="0" CardinalityMax="1">
+                                <Element name="name" ConceptLink="http://www.wikidata.org/entity/Q147276" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>Complete name, alias or other label for an individual suitable for display and discovery purposes.</Documentation>
                                 </Element>
                                 <Element name="alternativeName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
@@ -1575,11 +1687,11 @@
                                 </Element>
                                 <Element name="affiliation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                                 <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
-                                    <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                                    <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                    <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                    <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
                                 </Component>
                             </Component>
-                            <Component name="OrganisationInfo" ComponentRef="clarin.eu:cr1:c_1595321762452" ConceptLink="http://hdl.handle.net/11459/CCR_C-5170_ed855189-9d5f-8f31-cc70-499c055d0100" CardinalityMin="0" CardinalityMax="1">
+                            <Component name="OrganisationInfo" ComponentRef="clarin.eu:cr1:c_1595321762452" ConceptLink="http://www.wikidata.org/entity/Q2029841" CardinalityMin="0" CardinalityMax="1">
                                 <Element name="name" ConceptLink=" http://hdl.handle.net/11459/CCR_C-5776_ed733b40-67dc-099e-6a96-cb56634109e4" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>Complete name, alias or other label for an individual suitable for display and discovery purposes.</Documentation>
                                 </Element>
@@ -1588,8 +1700,16 @@
                                 </Element>
                                 <Element name="affiliation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                                 <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
-                                    <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                                    <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                    <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                    <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                </Component>
+                                <Component name="ParentOrganisation" CardinalityMin="0" CardinalityMax="unbounded">
+                                    <Element name="identifier" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                    <Element name="label" ConceptLink="http://hdl.handle.net/11459/CCR_C-6243_bd27ac08-ec04-0db2-d95c-52f2a6b1e59d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                    <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
+                                        <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                        <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                    </Component>
                                 </Component>
                             </Component>
                         </Component>
@@ -1616,8 +1736,8 @@
                             <Element name="identifier" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                             <Element name="label" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                             <Component name="AgentInfo" ComponentRef="clarin.eu:cr1:c_1595321762451" CardinalityMin="0" CardinalityMax="1">
-                                <Component name="PersonInfo" ComponentRef="clarin.eu:cr1:c_1595321762426" ConceptLink="http://hdl.handle.net/11459/CCR_C-5042_226e1c92-9f09-ae93-0875-c4fe8814b3b8" CardinalityMin="0" CardinalityMax="1">
-                                    <Element name="name" ConceptLink="http://hdl.handle.net/11459/CCR_C-5776_ed733b40-67dc-099e-6a96-cb56634109e4" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                                <Component name="PersonInfo" ComponentRef="clarin.eu:cr1:c_1595321762426" ConceptLink="http://www.wikidata.org/entity/Q215627" CardinalityMin="0" CardinalityMax="1">
+                                    <Element name="name" ConceptLink="http://www.wikidata.org/entity/Q147276" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                         <Documentation>Complete name, alias or other label for an individual suitable for display and discovery purposes.</Documentation>
                                     </Element>
                                     <Element name="alternativeName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
@@ -1630,11 +1750,11 @@
                                     </Element>
                                     <Element name="affiliation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                                     <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
-                                        <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                                        <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                        <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                        <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
                                     </Component>
                                 </Component>
-                                <Component name="OrganisationInfo" ComponentRef="clarin.eu:cr1:c_1595321762452" ConceptLink="http://hdl.handle.net/11459/CCR_C-5170_ed855189-9d5f-8f31-cc70-499c055d0100" CardinalityMin="0" CardinalityMax="1">
+                                <Component name="OrganisationInfo" ComponentRef="clarin.eu:cr1:c_1595321762452" ConceptLink="http://www.wikidata.org/entity/Q2029841" CardinalityMin="0" CardinalityMax="1">
                                     <Element name="name" ConceptLink=" http://hdl.handle.net/11459/CCR_C-5776_ed733b40-67dc-099e-6a96-cb56634109e4" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                         <Documentation>Complete name, alias or other label for an individual suitable for display and discovery purposes.</Documentation>
                                     </Element>
@@ -1643,8 +1763,16 @@
                                     </Element>
                                     <Element name="affiliation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                                     <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
-                                        <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                                        <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                        <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                        <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                    </Component>
+                                    <Component name="ParentOrganisation" CardinalityMin="0" CardinalityMax="unbounded">
+                                        <Element name="identifier" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                        <Element name="label" ConceptLink="http://hdl.handle.net/11459/CCR_C-6243_bd27ac08-ec04-0db2-d95c-52f2a6b1e59d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                        <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
+                                            <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                            <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                        </Component>
                                     </Component>
                                 </Component>
                             </Component>
@@ -1683,7 +1811,7 @@
                         <Attribute name="type" ValueScheme="string"/>
                     </AttributeList>
                 </Element>
-                <Component name="Licence" ComponentRef="clarin.eu:cr1:c_1595321762457" ConceptLink="http://hdl.handle.net/11459/CCR_C-2457_45bbaa1a-7002-2ecd-ab9d-57a189f694a6" CardinalityMin="0" CardinalityMax="unbounded">
+                <Component name="Licence" ComponentRef="clarin.eu:cr1:c_1595321762457" ConceptLink="http://www.wikidata.org/entity/Q79719" CardinalityMin="0" CardinalityMax="unbounded">
                     <Element name="identifier" ConceptLink="http://hdl.handle.net/11459/CCR_C-6586_2c79d86a-5a75-0890-d407-7d9cb86b9beb" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                         <Documentation>Identifier of the licence</Documentation>
                     </Element>
@@ -1702,8 +1830,8 @@
                     <Element name="identifier" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                     <Element name="label" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                     <Component name="AgentInfo" ComponentRef="clarin.eu:cr1:c_1595321762451" CardinalityMin="0" CardinalityMax="1">
-                        <Component name="PersonInfo" ComponentRef="clarin.eu:cr1:c_1595321762426" ConceptLink="http://hdl.handle.net/11459/CCR_C-5042_226e1c92-9f09-ae93-0875-c4fe8814b3b8" CardinalityMin="0" CardinalityMax="1">
-                            <Element name="name" ConceptLink="http://hdl.handle.net/11459/CCR_C-5776_ed733b40-67dc-099e-6a96-cb56634109e4" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                        <Component name="PersonInfo" ComponentRef="clarin.eu:cr1:c_1595321762426" ConceptLink="http://www.wikidata.org/entity/Q215627" CardinalityMin="0" CardinalityMax="1">
+                            <Element name="name" ConceptLink="http://www.wikidata.org/entity/Q147276" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>Complete name, alias or other label for an individual suitable for display and discovery purposes.</Documentation>
                             </Element>
                             <Element name="alternativeName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
@@ -1716,11 +1844,11 @@
                             </Element>
                             <Element name="affiliation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                             <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
-                                <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                                <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
                             </Component>
                         </Component>
-                        <Component name="OrganisationInfo" ComponentRef="clarin.eu:cr1:c_1595321762452" ConceptLink="http://hdl.handle.net/11459/CCR_C-5170_ed855189-9d5f-8f31-cc70-499c055d0100" CardinalityMin="0" CardinalityMax="1">
+                        <Component name="OrganisationInfo" ComponentRef="clarin.eu:cr1:c_1595321762452" ConceptLink="http://www.wikidata.org/entity/Q2029841" CardinalityMin="0" CardinalityMax="1">
                             <Element name="name" ConceptLink=" http://hdl.handle.net/11459/CCR_C-5776_ed733b40-67dc-099e-6a96-cb56634109e4" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>Complete name, alias or other label for an individual suitable for display and discovery purposes.</Documentation>
                             </Element>
@@ -1729,8 +1857,16 @@
                             </Element>
                             <Element name="affiliation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                             <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
-                                <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                                <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                            </Component>
+                            <Component name="ParentOrganisation" CardinalityMin="0" CardinalityMax="unbounded">
+                                <Element name="identifier" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                <Element name="label" ConceptLink="http://hdl.handle.net/11459/CCR_C-6243_bd27ac08-ec04-0db2-d95c-52f2a6b1e59d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
+                                    <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                    <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                </Component>
                             </Component>
                         </Component>
                     </Component>
@@ -1742,8 +1878,8 @@
                         <Element name="description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="1" CardinalityMax="unbounded" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                     </Component>
                     <Component name="AgentInfo" ComponentRef="clarin.eu:cr1:c_1595321762451" CardinalityMin="1" CardinalityMax="1">
-                        <Component name="PersonInfo" ComponentRef="clarin.eu:cr1:c_1595321762426" ConceptLink="http://hdl.handle.net/11459/CCR_C-5042_226e1c92-9f09-ae93-0875-c4fe8814b3b8" CardinalityMin="0" CardinalityMax="1">
-                            <Element name="name" ConceptLink="http://hdl.handle.net/11459/CCR_C-5776_ed733b40-67dc-099e-6a96-cb56634109e4" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                        <Component name="PersonInfo" ComponentRef="clarin.eu:cr1:c_1595321762426" ConceptLink="http://www.wikidata.org/entity/Q215627" CardinalityMin="0" CardinalityMax="1">
+                            <Element name="name" ConceptLink="http://www.wikidata.org/entity/Q147276" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>Complete name, alias or other label for an individual suitable for display and discovery purposes.</Documentation>
                             </Element>
                             <Element name="alternativeName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
@@ -1756,11 +1892,11 @@
                             </Element>
                             <Element name="affiliation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                             <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
-                                <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                                <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
                             </Component>
                         </Component>
-                        <Component name="OrganisationInfo" ComponentRef="clarin.eu:cr1:c_1595321762452" ConceptLink="http://hdl.handle.net/11459/CCR_C-5170_ed855189-9d5f-8f31-cc70-499c055d0100" CardinalityMin="0" CardinalityMax="1">
+                        <Component name="OrganisationInfo" ComponentRef="clarin.eu:cr1:c_1595321762452" ConceptLink="http://www.wikidata.org/entity/Q2029841" CardinalityMin="0" CardinalityMax="1">
                             <Element name="name" ConceptLink=" http://hdl.handle.net/11459/CCR_C-5776_ed733b40-67dc-099e-6a96-cb56634109e4" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                 <Documentation>Complete name, alias or other label for an individual suitable for display and discovery purposes.</Documentation>
                             </Element>
@@ -1769,8 +1905,16 @@
                             </Element>
                             <Element name="affiliation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                             <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
-                                <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                                <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                            </Component>
+                            <Component name="ParentOrganisation" CardinalityMin="0" CardinalityMax="unbounded">
+                                <Element name="identifier" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                <Element name="label" ConceptLink="http://hdl.handle.net/11459/CCR_C-6243_bd27ac08-ec04-0db2-d95c-52f2a6b1e59d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
+                                    <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                    <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                </Component>
                             </Component>
                         </Component>
                     </Component>
@@ -1801,8 +1945,8 @@
                         <Element name="identifier" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                         <Element name="label" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                         <Component name="AgentInfo" ComponentRef="clarin.eu:cr1:c_1595321762451" CardinalityMin="0" CardinalityMax="1">
-                            <Component name="PersonInfo" ComponentRef="clarin.eu:cr1:c_1595321762426" ConceptLink="http://hdl.handle.net/11459/CCR_C-5042_226e1c92-9f09-ae93-0875-c4fe8814b3b8" CardinalityMin="0" CardinalityMax="1">
-                                <Element name="name" ConceptLink="http://hdl.handle.net/11459/CCR_C-5776_ed733b40-67dc-099e-6a96-cb56634109e4" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Component name="PersonInfo" ComponentRef="clarin.eu:cr1:c_1595321762426" ConceptLink="http://www.wikidata.org/entity/Q215627" CardinalityMin="0" CardinalityMax="1">
+                                <Element name="name" ConceptLink="http://www.wikidata.org/entity/Q147276" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>Complete name, alias or other label for an individual suitable for display and discovery purposes.</Documentation>
                                 </Element>
                                 <Element name="alternativeName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
@@ -1815,11 +1959,11 @@
                                 </Element>
                                 <Element name="affiliation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                                 <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
-                                    <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                                    <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                    <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                    <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
                                 </Component>
                             </Component>
-                            <Component name="OrganisationInfo" ComponentRef="clarin.eu:cr1:c_1595321762452" ConceptLink="http://hdl.handle.net/11459/CCR_C-5170_ed855189-9d5f-8f31-cc70-499c055d0100" CardinalityMin="0" CardinalityMax="1">
+                            <Component name="OrganisationInfo" ComponentRef="clarin.eu:cr1:c_1595321762452" ConceptLink="http://www.wikidata.org/entity/Q2029841" CardinalityMin="0" CardinalityMax="1">
                                 <Element name="name" ConceptLink=" http://hdl.handle.net/11459/CCR_C-5776_ed733b40-67dc-099e-6a96-cb56634109e4" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>Complete name, alias or other label for an individual suitable for display and discovery purposes.</Documentation>
                                 </Element>
@@ -1828,8 +1972,16 @@
                                 </Element>
                                 <Element name="affiliation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                                 <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
-                                    <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                                    <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                    <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                    <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                </Component>
+                                <Component name="ParentOrganisation" CardinalityMin="0" CardinalityMax="unbounded">
+                                    <Element name="identifier" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                    <Element name="label" ConceptLink="http://hdl.handle.net/11459/CCR_C-6243_bd27ac08-ec04-0db2-d95c-52f2a6b1e59d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                    <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
+                                        <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                        <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                    </Component>
                                 </Component>
                             </Component>
                         </Component>
@@ -1859,8 +2011,8 @@
                         <Element name="identifier" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                         <Element name="label" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                         <Component name="AgentInfo" ComponentRef="clarin.eu:cr1:c_1595321762451" CardinalityMin="0" CardinalityMax="1">
-                            <Component name="PersonInfo" ComponentRef="clarin.eu:cr1:c_1595321762426" ConceptLink="http://hdl.handle.net/11459/CCR_C-5042_226e1c92-9f09-ae93-0875-c4fe8814b3b8" CardinalityMin="0" CardinalityMax="1">
-                                <Element name="name" ConceptLink="http://hdl.handle.net/11459/CCR_C-5776_ed733b40-67dc-099e-6a96-cb56634109e4" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Component name="PersonInfo" ComponentRef="clarin.eu:cr1:c_1595321762426" ConceptLink="http://www.wikidata.org/entity/Q215627" CardinalityMin="0" CardinalityMax="1">
+                                <Element name="name" ConceptLink="http://www.wikidata.org/entity/Q147276" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>Complete name, alias or other label for an individual suitable for display and discovery purposes.</Documentation>
                                 </Element>
                                 <Element name="alternativeName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
@@ -1873,11 +2025,11 @@
                                 </Element>
                                 <Element name="affiliation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                                 <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
-                                    <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                                    <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                    <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                    <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
                                 </Component>
                             </Component>
-                            <Component name="OrganisationInfo" ComponentRef="clarin.eu:cr1:c_1595321762452" ConceptLink="http://hdl.handle.net/11459/CCR_C-5170_ed855189-9d5f-8f31-cc70-499c055d0100" CardinalityMin="0" CardinalityMax="1">
+                            <Component name="OrganisationInfo" ComponentRef="clarin.eu:cr1:c_1595321762452" ConceptLink="http://www.wikidata.org/entity/Q2029841" CardinalityMin="0" CardinalityMax="1">
                                 <Element name="name" ConceptLink=" http://hdl.handle.net/11459/CCR_C-5776_ed733b40-67dc-099e-6a96-cb56634109e4" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>Complete name, alias or other label for an individual suitable for display and discovery purposes.</Documentation>
                                 </Element>
@@ -1886,8 +2038,16 @@
                                 </Element>
                                 <Element name="affiliation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                                 <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
-                                    <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                                    <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                    <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                    <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                </Component>
+                                <Component name="ParentOrganisation" CardinalityMin="0" CardinalityMax="unbounded">
+                                    <Element name="identifier" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                    <Element name="label" ConceptLink="http://hdl.handle.net/11459/CCR_C-6243_bd27ac08-ec04-0db2-d95c-52f2a6b1e59d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                    <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
+                                        <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                        <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                    </Component>
                                 </Component>
                             </Component>
                         </Component>
@@ -1917,8 +2077,8 @@
                         <Element name="identifier" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                         <Element name="label" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                         <Component name="AgentInfo" ComponentRef="clarin.eu:cr1:c_1595321762451" CardinalityMin="0" CardinalityMax="1">
-                            <Component name="PersonInfo" ComponentRef="clarin.eu:cr1:c_1595321762426" ConceptLink="http://hdl.handle.net/11459/CCR_C-5042_226e1c92-9f09-ae93-0875-c4fe8814b3b8" CardinalityMin="0" CardinalityMax="1">
-                                <Element name="name" ConceptLink="http://hdl.handle.net/11459/CCR_C-5776_ed733b40-67dc-099e-6a96-cb56634109e4" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Component name="PersonInfo" ComponentRef="clarin.eu:cr1:c_1595321762426" ConceptLink="http://www.wikidata.org/entity/Q215627" CardinalityMin="0" CardinalityMax="1">
+                                <Element name="name" ConceptLink="http://www.wikidata.org/entity/Q147276" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>Complete name, alias or other label for an individual suitable for display and discovery purposes.</Documentation>
                                 </Element>
                                 <Element name="alternativeName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
@@ -1931,11 +2091,11 @@
                                 </Element>
                                 <Element name="affiliation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                                 <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
-                                    <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                                    <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                    <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                    <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
                                 </Component>
                             </Component>
-                            <Component name="OrganisationInfo" ComponentRef="clarin.eu:cr1:c_1595321762452" ConceptLink="http://hdl.handle.net/11459/CCR_C-5170_ed855189-9d5f-8f31-cc70-499c055d0100" CardinalityMin="0" CardinalityMax="1">
+                            <Component name="OrganisationInfo" ComponentRef="clarin.eu:cr1:c_1595321762452" ConceptLink="http://www.wikidata.org/entity/Q2029841" CardinalityMin="0" CardinalityMax="1">
                                 <Element name="name" ConceptLink=" http://hdl.handle.net/11459/CCR_C-5776_ed733b40-67dc-099e-6a96-cb56634109e4" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>Complete name, alias or other label for an individual suitable for display and discovery purposes.</Documentation>
                                 </Element>
@@ -1944,8 +2104,16 @@
                                 </Element>
                                 <Element name="affiliation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                                 <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
-                                    <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                                    <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                    <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                    <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                </Component>
+                                <Component name="ParentOrganisation" CardinalityMin="0" CardinalityMax="unbounded">
+                                    <Element name="identifier" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                    <Element name="label" ConceptLink="http://hdl.handle.net/11459/CCR_C-6243_bd27ac08-ec04-0db2-d95c-52f2a6b1e59d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                    <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
+                                        <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                        <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                    </Component>
                                 </Component>
                             </Component>
                         </Component>
@@ -1978,8 +2146,8 @@
                         <Element name="identifier" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                         <Element name="label" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                         <Component name="AgentInfo" ComponentRef="clarin.eu:cr1:c_1595321762451" CardinalityMin="0" CardinalityMax="1">
-                            <Component name="PersonInfo" ComponentRef="clarin.eu:cr1:c_1595321762426" ConceptLink="http://hdl.handle.net/11459/CCR_C-5042_226e1c92-9f09-ae93-0875-c4fe8814b3b8" CardinalityMin="0" CardinalityMax="1">
-                                <Element name="name" ConceptLink="http://hdl.handle.net/11459/CCR_C-5776_ed733b40-67dc-099e-6a96-cb56634109e4" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                            <Component name="PersonInfo" ComponentRef="clarin.eu:cr1:c_1595321762426" ConceptLink="http://www.wikidata.org/entity/Q215627" CardinalityMin="0" CardinalityMax="1">
+                                <Element name="name" ConceptLink="http://www.wikidata.org/entity/Q147276" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>Complete name, alias or other label for an individual suitable for display and discovery purposes.</Documentation>
                                 </Element>
                                 <Element name="alternativeName" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="2" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
@@ -1992,11 +2160,11 @@
                                 </Element>
                                 <Element name="affiliation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                                 <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
-                                    <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                                    <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                    <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                    <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
                                 </Component>
                             </Component>
-                            <Component name="OrganisationInfo" ComponentRef="clarin.eu:cr1:c_1595321762452" ConceptLink="http://hdl.handle.net/11459/CCR_C-5170_ed855189-9d5f-8f31-cc70-499c055d0100" CardinalityMin="0" CardinalityMax="1">
+                            <Component name="OrganisationInfo" ComponentRef="clarin.eu:cr1:c_1595321762452" ConceptLink="http://www.wikidata.org/entity/Q2029841" CardinalityMin="0" CardinalityMax="1">
                                 <Element name="name" ConceptLink=" http://hdl.handle.net/11459/CCR_C-5776_ed733b40-67dc-099e-6a96-cb56634109e4" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                                     <Documentation>Complete name, alias or other label for an individual suitable for display and discovery purposes.</Documentation>
                                 </Element>
@@ -2005,8 +2173,16 @@
                                 </Element>
                                 <Element name="affiliation" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded"/>
                                 <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
-                                    <Element name="email" ConceptLink="http://hdl.handle.net/11459/CCR_C-2521_7b01b455-0de8-d753-ad4e-dee49953ae98" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
-                                    <Element name="url" ConceptLink="http://hdl.handle.net/11459/CCR_C-63_95ec8724-267a-8689-a04d-50ae515bbacf" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                    <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                    <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                </Component>
+                                <Component name="ParentOrganisation" CardinalityMin="0" CardinalityMax="unbounded">
+                                    <Element name="identifier" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                    <Element name="label" ConceptLink="http://hdl.handle.net/11459/CCR_C-6243_bd27ac08-ec04-0db2-d95c-52f2a6b1e59d" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="true" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                    <Component name="ContactInfo" ComponentRef="clarin.eu:cr1:c_1595321762406" CardinalityMin="0" CardinalityMax="1">
+                                        <Element name="email" ConceptLink="http://www.wikidata.org/entity/Q1273217" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
+                                        <Element name="url" ConceptLink="http://www.wikidata.org/entity/P2699" ValueScheme="anyURI" CardinalityMin="0" CardinalityMax="unbounded"/>
+                                    </Component>
                                 </Component>
                             </Component>
                         </Component>

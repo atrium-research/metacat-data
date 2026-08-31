@@ -29,25 +29,25 @@ Added Developer to Operation.</Description>
                             <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2655_c21a8115-d6e7-982c-d5e8-3a278d6e653a">picture</item>
                             <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2654_115c5ce8-7bdb-06b4-fe52-d6ebf2f80022">video</item>
                             <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2653_06ff001f-7ed4-6399-7147-02170140dd64">audio</item>
-                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4365_df3e68a4-e3fd-5747-fc25-650a06543c81">experimentalData</item>
-                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4364_de3c0847-5661-f5cb-84e7-fae5dfd2fb2f">fieldworkMaterial</item>
-                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4363_3732d8f1-f063-6f14-8c50-ac15e52702c5">grammar</item>
-                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4360_b693329a-05ea-ebb3-02b1-896c95e39d32">lexicon</item>
+                            <item ConceptLink="http://www.wikidata.org/entity/Q5421151">experimentalData</item>
+                            <item ConceptLink="http://www.wikidata.org/entity/Q125888335">fieldworkMaterial</item>
+                            <item ConceptLink="http://www.wikidata.org/entity/Q8091">grammar</item>
+                            <item ConceptLink="http://www.wikidata.org/entity/Q8096">lexicon</item>
                             <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4369_30ca2daa-b83c-bf24-9b56-eda3a2171ef8">resourceBundle</item>
                             <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4366_fb510ba7-d745-3e3b-7876-303b76bb1a31">surveyData</item>
-                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-5047_d2e8681c-0b8a-97e2-396b-03651f234473">teachingMaterial</item>
-                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4367_c9696d87-7039-55d4-f661-2a96fac95f38">testData</item>
-                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4362_bbceebba-02fc-2417-5433-3402a33e350a">tool</item>
-                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4368_324c1065-aa9d-8321-51e0-f4d04022b51d">toolChain</item>
-                            <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2599_93805699-d3a2-ae19-5399-d0bba0e8fc24">other</item>
+                            <item ConceptLink="http://www.wikidata.org/entity/Q624216 ">teachingMaterial</item>
+                            <item ConceptLink="http://www.wikidata.org/entity/Q7705759">testData</item>
+                            <item ConceptLink="http://www.wikidata.org/entity/Q123691918 ">tool</item>
+                            <item ConceptLink="http://www.wikidata.org/entity/Q545406">toolChain</item>
+                            <item ConceptLink="http://www.wikidata.org/entity/Q55107540">other</item>
                         </enumeration>
                     </Vocabulary>
                 </ValueScheme>
             </Element>
         </Component>
-        <Component name="Service" ComponentRef="clarin.eu:cr1:c_1423750293167" ConceptLink="http://hdl.handle.net/11459/CCR_C-4159_ca0e6cba-cab5-b51a-f430-fdcb0756c9ac" CardinalityMin="1" CardinalityMax="unbounded">
+        <Component name="Service" ComponentRef="clarin.eu:cr1:c_1423750293167" ConceptLink="http://www.wikidata.org/entity/Q193424" CardinalityMin="1" CardinalityMax="unbounded">
             <AttributeList>
-                <Attribute name="CoreVersion" ConceptLink="http://hdl.handle.net/11459/CCR_C-2547_7883d382-b3ce-8ab4-7052-0138525a8ba1">
+                <Attribute name="CoreVersion" ConceptLink="http://www.wikidata.org/entity/Q12343820">
                     <ValueScheme>
                         <Vocabulary>
                             <enumeration>
@@ -73,17 +73,17 @@ Added Developer to Operation.</Description>
                                 <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2655_c21a8115-d6e7-982c-d5e8-3a278d6e653a">picture</item>
                                 <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2654_115c5ce8-7bdb-06b4-fe52-d6ebf2f80022">video</item>
                                 <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2653_06ff001f-7ed4-6399-7147-02170140dd64">audio</item>
-                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4365_df3e68a4-e3fd-5747-fc25-650a06543c81">experimentalData</item>
-                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4364_de3c0847-5661-f5cb-84e7-fae5dfd2fb2f">fieldworkMaterial</item>
-                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4363_3732d8f1-f063-6f14-8c50-ac15e52702c5">grammar</item>
-                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4360_b693329a-05ea-ebb3-02b1-896c95e39d32">lexicon</item>
+                                <item ConceptLink="http://www.wikidata.org/entity/Q5421151">experimentalData</item>
+                                <item ConceptLink="http://www.wikidata.org/entity/Q125888335">fieldworkMaterial</item>
+                                <item ConceptLink="http://www.wikidata.org/entity/Q8091">grammar</item>
+                                <item ConceptLink="http://www.wikidata.org/entity/Q8096">lexicon</item>
                                 <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4369_30ca2daa-b83c-bf24-9b56-eda3a2171ef8">resourceBundle</item>
                                 <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4366_fb510ba7-d745-3e3b-7876-303b76bb1a31">surveyData</item>
-                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-5047_d2e8681c-0b8a-97e2-396b-03651f234473">teachingMaterial</item>
-                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4367_c9696d87-7039-55d4-f661-2a96fac95f38">testData</item>
-                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4362_bbceebba-02fc-2417-5433-3402a33e350a">tool</item>
-                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-4368_324c1065-aa9d-8321-51e0-f4d04022b51d">toolChain</item>
-                                <item ConceptLink="http://hdl.handle.net/11459/CCR_C-2599_93805699-d3a2-ae19-5399-d0bba0e8fc24">other</item>
+                                <item ConceptLink="http://www.wikidata.org/entity/Q624216 ">teachingMaterial</item>
+                                <item ConceptLink="http://www.wikidata.org/entity/Q7705759">testData</item>
+                                <item ConceptLink="http://www.wikidata.org/entity/Q123691918 ">tool</item>
+                                <item ConceptLink="http://www.wikidata.org/entity/Q545406">toolChain</item>
+                                <item ConceptLink="http://www.wikidata.org/entity/Q55107540">other</item>
                             </enumeration>
                         </Vocabulary>
                     </ValueScheme>
@@ -101,7 +101,7 @@ Added Developer to Operation.</Description>
                         <Component name="ParameterGroup" ComponentRef="clarin.eu:cr1:c_1423750293165" CardinalityMin="0" CardinalityMax="unbounded">
                             <Element name="Name" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                             <Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
-                            <Element name="MIMEType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+                            <Element name="MIMEType" ConceptLink="http://www.wikidata.org/entity/Q1667978" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
                             <Element name="DataType" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
                             <Component name="Parameters" CardinalityMin="1" CardinalityMax="1">
                                 <Component name="Parameter" ComponentRef="clarin.eu:cr1:c_1423750293164" CardinalityMin="1" CardinalityMax="unbounded">
@@ -111,7 +111,7 @@ Added Developer to Operation.</Description>
                                     <Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                         <Documentation>Description of the parameter</Documentation>
                                     </Element>
-                                    <Element name="MIMEType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                    <Element name="MIMEType" ConceptLink="http://www.wikidata.org/entity/Q1667978" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                         <Documentation>mimetype of the file, if the parameter is used to denote an input or output file. If the parameter does not denote an input/output files, this element is not present.</Documentation>
                                     </Element>
                                     <Element name="DataType" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
@@ -126,7 +126,7 @@ Added Developer to Operation.</Description>
                                     <Element name="SemanticType" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                         <Documentation>internal semantic typing used by chaining mechanisms</Documentation>
                                     </Element>
-                                    <Element name="Default" ConceptLink="http://hdl.handle.net/11459/CCR_C-1655_0722250d-dcbf-44f6-ad8c-b178a9bff79e" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                    <Element name="Default" ConceptLink="http://www.wikidata.org/entity/Q281782" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                         <Documentation>the default value for this parameter.</Documentation>
                                     </Element>
                                     <Element name="isInternalDefaultConfigurationParameter" ValueScheme="boolean" CardinalityMin="0" CardinalityMax="1">
@@ -148,10 +148,10 @@ Added Developer to Operation.</Description>
                                             </Element>
                                         </Component>
                                     </Component>
-                                    <Component name="MaxFileSize" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" CardinalityMin="0" CardinalityMax="1">
+                                    <Component name="MaxFileSize" ConceptLink="http://www.wikidata.org/entity/Q322481" CardinalityMin="0" CardinalityMax="1">
                                         <Component name="TotalSize" ComponentRef="clarin.eu:cr1:c_1271859438114" CardinalityMin="1" CardinalityMax="1">
-                                            <Element name="Number" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="decimal" CardinalityMin="1" CardinalityMax="1"/>
-                                            <Element name="SizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true"/>
+                                            <Element name="Number" ConceptLink="http://www.wikidata.org/entity/Q322481" ValueScheme="decimal" CardinalityMin="1" CardinalityMax="1"/>
+                                            <Element name="SizeUnit" ConceptLink="http://www.wikidata.org/entity/P1880" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true"/>
                                         </Component>
                                     </Component>
                                 </Component>
@@ -164,7 +164,7 @@ Added Developer to Operation.</Description>
                             <Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                 <Documentation>Description of the parameter</Documentation>
                             </Element>
-                            <Element name="MIMEType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                            <Element name="MIMEType" ConceptLink="http://www.wikidata.org/entity/Q1667978" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                 <Documentation>mimetype of the file, if the parameter is used to denote an input or output file. If the parameter does not denote an input/output files, this element is not present.</Documentation>
                             </Element>
                             <Element name="DataType" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
@@ -179,7 +179,7 @@ Added Developer to Operation.</Description>
                             <Element name="SemanticType" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                 <Documentation>internal semantic typing used by chaining mechanisms</Documentation>
                             </Element>
-                            <Element name="Default" ConceptLink="http://hdl.handle.net/11459/CCR_C-1655_0722250d-dcbf-44f6-ad8c-b178a9bff79e" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                            <Element name="Default" ConceptLink="http://www.wikidata.org/entity/Q281782" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                 <Documentation>the default value for this parameter.</Documentation>
                             </Element>
                             <Element name="isInternalDefaultConfigurationParameter" ValueScheme="boolean" CardinalityMin="0" CardinalityMax="1">
@@ -201,10 +201,10 @@ Added Developer to Operation.</Description>
                                     </Element>
                                 </Component>
                             </Component>
-                            <Component name="MaxFileSize" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" CardinalityMin="0" CardinalityMax="1">
+                            <Component name="MaxFileSize" ConceptLink="http://www.wikidata.org/entity/Q322481" CardinalityMin="0" CardinalityMax="1">
                                 <Component name="TotalSize" ComponentRef="clarin.eu:cr1:c_1271859438114" CardinalityMin="1" CardinalityMax="1">
-                                    <Element name="Number" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="decimal" CardinalityMin="1" CardinalityMax="1"/>
-                                    <Element name="SizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true"/>
+                                    <Element name="Number" ConceptLink="http://www.wikidata.org/entity/Q322481" ValueScheme="decimal" CardinalityMin="1" CardinalityMax="1"/>
+                                    <Element name="SizeUnit" ConceptLink="http://www.wikidata.org/entity/P1880" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true"/>
                                 </Component>
                             </Component>
                         </Component>
@@ -213,7 +213,7 @@ Added Developer to Operation.</Description>
                         <Component name="ParameterGroup" ComponentRef="clarin.eu:cr1:c_1423750293165" CardinalityMin="0" CardinalityMax="unbounded">
                             <Element name="Name" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1"/>
                             <Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
-                            <Element name="MIMEType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
+                            <Element name="MIMEType" ConceptLink="http://www.wikidata.org/entity/Q1667978" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
                             <Element name="DataType" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false"/>
                             <Component name="Parameters" CardinalityMin="1" CardinalityMax="1">
                                 <Component name="Parameter" ComponentRef="clarin.eu:cr1:c_1423750293164" CardinalityMin="1" CardinalityMax="unbounded">
@@ -223,7 +223,7 @@ Added Developer to Operation.</Description>
                                     <Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                         <Documentation>Description of the parameter</Documentation>
                                     </Element>
-                                    <Element name="MIMEType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                    <Element name="MIMEType" ConceptLink="http://www.wikidata.org/entity/Q1667978" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                         <Documentation>mimetype of the file, if the parameter is used to denote an input or output file. If the parameter does not denote an input/output files, this element is not present.</Documentation>
                                     </Element>
                                     <Element name="DataType" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
@@ -238,7 +238,7 @@ Added Developer to Operation.</Description>
                                     <Element name="SemanticType" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                         <Documentation>internal semantic typing used by chaining mechanisms</Documentation>
                                     </Element>
-                                    <Element name="Default" ConceptLink="http://hdl.handle.net/11459/CCR_C-1655_0722250d-dcbf-44f6-ad8c-b178a9bff79e" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                                    <Element name="Default" ConceptLink="http://www.wikidata.org/entity/Q281782" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                         <Documentation>the default value for this parameter.</Documentation>
                                     </Element>
                                     <Element name="isInternalDefaultConfigurationParameter" ValueScheme="boolean" CardinalityMin="0" CardinalityMax="1">
@@ -260,10 +260,10 @@ Added Developer to Operation.</Description>
                                             </Element>
                                         </Component>
                                     </Component>
-                                    <Component name="MaxFileSize" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" CardinalityMin="0" CardinalityMax="1">
+                                    <Component name="MaxFileSize" ConceptLink="http://www.wikidata.org/entity/Q322481" CardinalityMin="0" CardinalityMax="1">
                                         <Component name="TotalSize" ComponentRef="clarin.eu:cr1:c_1271859438114" CardinalityMin="1" CardinalityMax="1">
-                                            <Element name="Number" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="decimal" CardinalityMin="1" CardinalityMax="1"/>
-                                            <Element name="SizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true"/>
+                                            <Element name="Number" ConceptLink="http://www.wikidata.org/entity/Q322481" ValueScheme="decimal" CardinalityMin="1" CardinalityMax="1"/>
+                                            <Element name="SizeUnit" ConceptLink="http://www.wikidata.org/entity/P1880" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true"/>
                                         </Component>
                                     </Component>
                                 </Component>
@@ -276,7 +276,7 @@ Added Developer to Operation.</Description>
                             <Element name="Description" ConceptLink="http://hdl.handle.net/11459/CCR_C-2520_9eeedfb4-47d3-ddee-cfcb-99ac634bf1db" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                 <Documentation>Description of the parameter</Documentation>
                             </Element>
-                            <Element name="MIMEType" ConceptLink="http://hdl.handle.net/11459/CCR_C-2571_2be2e583-e5af-34c2-3673-93359ec1f7df" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                            <Element name="MIMEType" ConceptLink="http://www.wikidata.org/entity/Q1667978" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                 <Documentation>mimetype of the file, if the parameter is used to denote an input or output file. If the parameter does not denote an input/output files, this element is not present.</Documentation>
                             </Element>
                             <Element name="DataType" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
@@ -291,7 +291,7 @@ Added Developer to Operation.</Description>
                             <Element name="SemanticType" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                 <Documentation>internal semantic typing used by chaining mechanisms</Documentation>
                             </Element>
-                            <Element name="Default" ConceptLink="http://hdl.handle.net/11459/CCR_C-1655_0722250d-dcbf-44f6-ad8c-b178a9bff79e" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
+                            <Element name="Default" ConceptLink="http://www.wikidata.org/entity/Q281782" ValueScheme="string" CardinalityMin="0" CardinalityMax="1" Multilingual="false">
                                 <Documentation>the default value for this parameter.</Documentation>
                             </Element>
                             <Element name="isInternalDefaultConfigurationParameter" ValueScheme="boolean" CardinalityMin="0" CardinalityMax="1">
@@ -313,22 +313,22 @@ Added Developer to Operation.</Description>
                                     </Element>
                                 </Component>
                             </Component>
-                            <Component name="MaxFileSize" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" CardinalityMin="0" CardinalityMax="1">
+                            <Component name="MaxFileSize" ConceptLink="http://www.wikidata.org/entity/Q322481" CardinalityMin="0" CardinalityMax="1">
                                 <Component name="TotalSize" ComponentRef="clarin.eu:cr1:c_1271859438114" CardinalityMin="1" CardinalityMax="1">
-                                    <Element name="Number" ConceptLink="http://hdl.handle.net/11459/CCR_C-2580_6dfe4e09-1c61-9b24-98ad-16bb867860fe" ValueScheme="decimal" CardinalityMin="1" CardinalityMax="1"/>
-                                    <Element name="SizeUnit" ConceptLink="http://hdl.handle.net/11459/CCR_C-2583_5f5cb491-1037-8d46-d685-ccebfc0233f7" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true"/>
+                                    <Element name="Number" ConceptLink="http://www.wikidata.org/entity/Q322481" ValueScheme="decimal" CardinalityMin="1" CardinalityMax="1"/>
+                                    <Element name="SizeUnit" ConceptLink="http://www.wikidata.org/entity/P1880" ValueScheme="string" CardinalityMin="1" CardinalityMax="1" Multilingual="true"/>
                                 </Component>
                             </Component>
                         </Component>
                     </Component>
-                    <Component name="Developer" ConceptLink="http://hdl.handle.net/11459/CCR_C-4115_5da7f288-5384-5aaf-8d8e-fe4348165786" CardinalityMin="0" CardinalityMax="1">
-                        <Element name="developerName" ConceptLink="http://hdl.handle.net/11459/CCR_C-2978_0e9e4864-44c4-de22-66b1-9b38bca10836" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
+                    <Component name="Developer" ConceptLink="http://www.wikidata.org/entity/Q482980" CardinalityMin="0" CardinalityMax="1">
+                        <Element name="developerName" ConceptLink="http://www.wikidata.org/entity/Q10856962 " ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false" cue:DisplayPriority="1" xmlns:cue="http://www.clarin.eu/cmd/cues/1">
                             <Documentation>The name of a person who has or is developing this operation. </Documentation>
                         </Element>
-                        <Element name="developerFundingOrg" ConceptLink="http://hdl.handle.net/11459/CCR_C-2979_8030473e-bbcb-6b87-3fd2-90554429ec50" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                        <Element name="developerFundingOrg" ConceptLink="http://www.wikidata.org/entity/Q43229" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
                             <Documentation>The name of the organisation that provided funding for the development of this operation.</Documentation>
                         </Element>
-                        <Element name="developerCitation" ConceptLink="http://hdl.handle.net/11459/CCR_C-3937_b00b282f-0fb7-6ddd-f03f-45212f8df321" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
+                        <Element name="developerCitation" ConceptLink="http://www.wikidata.org/entity/Q10358455" ValueScheme="string" CardinalityMin="0" CardinalityMax="unbounded" Multilingual="false">
                             <Documentation>The proper reference when the operation is cited in a publication.</Documentation>
                         </Element>
                     </Component>
